@@ -111,7 +111,11 @@ const Taxonomy = (() => {
   const dates = Object.entries(dm).sort((a,b)=> b[0].localeCompare(a[0]));
   const PIN=['Skill','MCP','Agent','Prompt','API'];
   const entM = countMap('entities');
+  const srcM = {}; Store.all().forEach(i => { const t = i.source_type||'x'; srcM[t]=(srcM[t]||0)+1; });
+  const srcRows = ['x','web','youtube','github'].map(t => [t, srcM[t]||0, false])
+      .concat(Object.keys(srcM).filter(t=>!['x','web','youtube','github'].includes(t)).map(t=>[t,srcM[t],false]));
   return {
+    sources: srcRows,
     dates,
     pinned: PIN,
     content_types_ordered: merge('content_types', PIN),
@@ -143,6 +147,7 @@ const FilterEngine = {
       if (F.pref.includes('liked') && !Prefs.liked(i.id)) return false;
       if (F.pref.includes('bookmarked') && !Prefs.isBookmarked(i.id)) return false;
       if (F.pref.includes('unread') && Prefs.isOpened(i.id)) return false;
+      if (F.pref.includes('mine') && !i.added_via) return false;
       if (F.pref.includes('rec') && Ranking.relevance(i,v) < 12) return false;
       if (F.coll && !Prefs.bookmarksOf(i.id).includes(F.coll)) return false;
       const t = new Date(i.published_at).getTime();
@@ -207,6 +212,24 @@ function ago(iso){
 }
 function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
 const SP = {cols: RAW.stats.sprite_cols||10, tile: RAW.stats.sprite_tile||52};
+const SRC_LABEL = {x:'X / Twitter', youtube:'YouTube', github:'GitHub', web:'مواقع ومقالات'};
+const SRC_HUE   = {youtube:0, github:265, web:200, x:20};
+function srcOf(i){ return i.source_type || 'x'; }
+function isX(i){ return srcOf(i)==='x'; }
+/* اسم المصدر المعروض: حساب X، أو اسم القناة/المستودع/الموقع */
+function srcName(i){ return isX(i) ? (Store.author(i.author).name || i.author) : (i.source_name || i.source_site || i.author); }
+function srcSub(i){ return isX(i) ? '@'+i.author : (i.source_site || SRC_LABEL[srcOf(i)] || ''); }
+/* شارة حرفية ملوّنة للمصادر غير X (لا صورة حساب لها) */
+function badgeHTML(i, size){
+  const t = srcOf(i), h = SRC_HUE[t] != null ? SRC_HUE[t] : 200;
+  const ch = (srcName(i).trim()[0] || '#').toUpperCase();
+  return `<div class="av badge" style="width:${size}px;height:${size}px;font-size:${Math.round(size*0.42)}px;`+
+         `background:hsl(${h} 55% 94%);color:hsl(${h} 45% 38%)">${esc(ch)}</div>`;
+}
+function avatarHTML(i, size, onclick){
+  if(!isX(i)) return badgeHTML(i, size);
+  return `<div class="av" style="width:${size}px;height:${size}px;${avStyle(i.author,size)}" ${onclick||''} title="${esc(srcName(i))}"></div>`;
+}
 function avStyle(handle, size){
   const a = Store.author(handle), i = (a && a.sprite>=0) ? a.sprite : -1;
   if(i<0) return 'background-image:none';
@@ -214,6 +237,7 @@ function avStyle(handle, size){
   return `background-size:${(SP.cols*SP.tile*k).toFixed(1)}px auto;background-position:${(-c*size).toFixed(1)}px ${(-r*size).toFixed(1)}px`;
 }
 const ICON = {
+  ext:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>',
   like:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
   likeF:'<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
   bm:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>',
@@ -245,15 +269,18 @@ function cardHTML(i){
   if(m.views!=null) met.push(`<span title="مشاهدات">◉ <b class="num">${nf(m.views)}</b></span>`);
   return `<article class="card" id="card-${i.id}">
     <div class="chead">
-      <div class="av" style="${avStyle(i.author,38)}" onclick="go('#/u/${esc(i.author)}')" title="${esc(a.name)}"></div>
+      ${avatarHTML(i,38, isX(i)?`onclick="go('#/u/${esc(i.author)}')"`:'')}
       <div class="who">
-        <div><span class="nm" onclick="go('#/u/${esc(i.author)}')">${esc(a.name)}</span> <span class="hd">@${esc(i.author)} · ${ago(i.published_at)}</span></div>
+        <div>${isX(i)
+            ? `<span class="nm" onclick="go('#/u/${esc(i.author)}')">${esc(srcName(i))}</span>`
+            : `<span class="nm plain">${esc(srcName(i))}</span>`}
+          <span class="hd">${esc(srcSub(i))} · ${ago(i.published_at)}</span>${i.added_via?' <span class="mine" title="أضفتها بنفسك">مضافة يدويًا</span>':''}</div>
         <div style="display:flex;gap:6px;align-items:center;margin-top:3px">
           <span class="serial" onclick="copySerial('${i.serial_display}')" title="انسخ رقم البطاقة">${i.serial_display}</span>
           <span class="tier ${i.importance_tier}">${tierLbl}</span>
         </div>
       </div>
-      <a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="فتح المصدر في X">${ICON.x}</a>
+      <a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="فتح المصدر">${isX(i)?ICON.x:ICON.ext}</a>
     </div>
     <h3 class="t" onclick="go('#/c/${i.id}')">${esc(i.arabic_title)}</h3>
     <p class="s">${esc(i.arabic_summary)}</p>
@@ -273,7 +300,8 @@ function cardHTML(i){
 function filtersHTML(){
   const grp = (title, key, list) => {
     const id='g_'+key;
-    const chip = ([name,n,pin]) => `<button class="chip ${pin?'pin ':''}${F[key].includes(name)?'on':''}${n?'':' empty'}" onclick="toggleF('${key}','${esc(name)}')" ${n?'':'title="تصنيف معتمد لكن لا توجد بطاقات تحمله في هذه الدفعة"'}>${esc(name)}<span class="c">(${n})</span></button>`;
+    const lbl  = n => (key==='src' ? (SRC_LABEL[n]||n) : n);
+    const chip = ([name,n,pin]) => `<button class="chip ${pin?'pin ':''}${F[key].includes(name)?'on':''}${n?'':' empty'}" onclick="toggleF('${key}','${esc(name)}')" ${n?'':'title="تصنيف معتمد لكن لا توجد بطاقات تحمله في هذه الدفعة"'}>${esc(lbl(name))}<span class="c">(${n})</span></button>`;
     const full = list.filter(r=>r[1]>0 || r[2]);
     const zero = list.filter(r=>r[1]===0 && !r[2]);
     const openZ = ZOPEN[key];
@@ -285,7 +313,7 @@ function filtersHTML(){
   const colls = Prefs.collections().map(cn => `<button class="chip ${F.coll===cn?'on':''}" onclick="setColl('${esc(cn)}')">${esc(cn)}</button>`).join('');
   return `
   <div class="fgroup"><h4>تفضيلاتي</h4><div class="chips">
-    ${prefChip('liked','أعجبني')}${prefChip('bookmarked','محفوظ')}${prefChip('rec','مُرشَّح لي')}${prefChip('unread','لم أقرأه')}
+    ${prefChip('liked','أعجبني')}${prefChip('bookmarked','محفوظ')}${prefChip('rec','مُرشَّح لي')}${prefChip('unread','لم أقرأه')}${prefChip('mine','أضفتها بنفسي')}
   </div></div>
   <div class="fgroup"><h4>المجموعات</h4><div class="chips">${colls}</div></div>
   <div class="fgroup"><h4>الأهمية</h4><div class="chips">
@@ -319,12 +347,7 @@ function filtersHTML(){
   ${grp('الشركة / المنتج','ent',Taxonomy.entities)}
   ${grp('نوع المحتوى','ct',Taxonomy.content_types_ordered)}
   ${grp('المجال','dom',Taxonomy.domains)}
-  <div class="fgroup"><h4>المصدر</h4><div class="chips">
-    <button class="chip on">X / Twitter<span class="c">(${Store.all().length})</span></button>
-    <button class="chip" disabled style="opacity:.45">YouTube<span class="c">(0)</span></button>
-    <button class="chip" disabled style="opacity:.45">GitHub<span class="c">(0)</span></button>
-    <button class="chip" disabled style="opacity:.45">مواقع<span class="c">(0)</span></button>
-  </div><div class="note" style="font-size:11px;color:var(--faint);margin-top:6px">المصادر الأخرى غير مفعّلة في هذه التجربة الأولى.</div></div>
+  ${grp('المصدر','src',Taxonomy.sources)}
   <div class="fgroup"><h4>تفضيلاتي (نسخ احتياطي)</h4><div class="chips">
     <button class="chip" onclick="exportPrefs()">تصدير</button>
     <button class="chip" onclick="importPrefs()">استيراد</button>
@@ -374,7 +397,7 @@ function viewDetail(id){
   const i = Store.get(id);
   if(!i) return viewFeed();
   Prefs.markOpened(id);
-  const a = Store.author(i.author), m = i.metrics||{};
+  const a = Store.author(i.author), m = i.metrics||{}, xsrc = isX(i);
   const liked = Prefs.liked(i.id), bm = Prefs.isBookmarked(i.id);
   const cell = (l,v) => `<div class="mcell"><b>${nf(v)}</b><span>${l}</span></div>`;
   const sec = (t,body) => body ? `<div class="sec"><h5>${t}</h5>${body}</div>` : '';
@@ -401,9 +424,9 @@ function viewDetail(id){
     </div>
     <div class="dwrap">
       <div class="chead">
-        <div class="av" style="${avStyle(i.author,38)}" onclick="go('#/u/${esc(i.author)}')"></div>
+        ${avatarHTML(i,38, xsrc?`onclick="go('#/u/${esc(i.author)}')"`:'')}
         <div class="who">
-          <div><span class="nm" onclick="go('#/u/${esc(i.author)}')">${esc(a.name)}</span> <span class="hd">@${esc(i.author)}</span></div>
+          <div>${xsrc?`<span class="nm" onclick="go('#/u/${esc(i.author)}')">${esc(srcName(i))}</span>`:`<span class="nm plain">${esc(srcName(i))}</span>`} <span class="hd">${esc(srcSub(i))}</span></div>
           <div class="hd">${ago(i.published_at)} · <span class="num">${new Date(i.published_at).toISOString().slice(0,10)}</span></div>
         </div>
         <a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener">${ICON.x}</a>
