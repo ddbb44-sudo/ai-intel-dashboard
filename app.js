@@ -655,7 +655,7 @@ function render(){
        <div class="sep">·</div>
        <div>المصدر: <b>X</b> — <b class="num">${s.accounts_watched}</b> حسابًا</div>
        <div class="sep">·</div>
-       <div><span class="live-dot"></span>التحديث التلقائي: <b class="off">غير مفعّل بعد</b> — اللوحة لقطة ثابتة حتى تُبنى الجدولة</div>`;
+       <div><span class="live-dot on"></span>التحديث التلقائي: <b class="on">مفعّل</b> — يوميًا 6:00 صباحًا بتوقيت الرياض</div>`;
   })();
   document.getElementById('topstat').innerHTML =
     `<div>سُحب <b class="num">${s.tweets_fetched}</b> منشورًا</div>
