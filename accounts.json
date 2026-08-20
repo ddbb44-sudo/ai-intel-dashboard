@@ -1,0 +1,369 @@
+{
+ "_": "قائمة الحسابات المتابَعة — المصدر الوحيد للحقيقة. عدّل هنا فقط.",
+ "_كيف_تضيف": "أضف عنصرًا فيه handle فقط. البقية تُملأ آليًا في أول تشغيلة.",
+ "_كيف_تحذف": "احذف العنصر، أو اجعل \"active\": false لإيقافه مؤقتًا دون فقد تاريخه.",
+ "_الحقول": {
+  "handle": "اسم الحساب في X بدون @ (إلزامي)",
+  "name": "الاسم الظاهر (اختياري — يُملأ آليًا)",
+  "active": "true يُسحب يوميًا · false يُتجاهل",
+  "max_per_day": "حد أقصى للمنشورات المسحوبة من هذا الحساب يوميًا (افتراضي 25)",
+  "note": "ملاحظتك الخاصة (اختياري)"
+ },
+ "window_hours": 24,
+ "default_max_per_day": 25,
+ "updated": "2026-08-20",
+ "accounts": [
+  {
+   "handle": "OpenDesignHQ",
+   "name": "Open Design",
+   "active": true
+  },
+  {
+   "handle": "Wa7d_ai",
+   "name": "مجتمع واحد",
+   "active": true
+  },
+  {
+   "handle": "yousefrol",
+   "name": "Yousef Rol",
+   "active": true
+  },
+  {
+   "handle": "itsPaulAi",
+   "name": "Paul Couvert",
+   "active": true
+  },
+  {
+   "handle": "JeremyNguyenPhD",
+   "name": "Jeremy Nguyen",
+   "active": true
+  },
+  {
+   "handle": "CodeByPoonam",
+   "name": "Poonam Soni",
+   "active": true
+  },
+  {
+   "handle": "SultanAlsafran",
+   "name": "سلطان آل سفران",
+   "active": true
+  },
+  {
+   "handle": "almarzouq783",
+   "name": "عبدالله آل مرزوق",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "dr_cintas",
+   "name": "Alvaro Cintas",
+   "active": true
+  },
+  {
+   "handle": "altmemy199",
+   "name": "التميمي",
+   "active": true
+  },
+  {
+   "handle": "python_ar",
+   "name": "مجتمع بايثون العربي",
+   "active": true
+  },
+  {
+   "handle": "DsHodifa",
+   "name": "حذيفة — عالِم بيانات",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "mckaywrigley",
+   "name": "Mckay Wrigley",
+   "active": true
+  },
+  {
+   "handle": "the_cyw",
+   "name": "Peter Wang",
+   "active": true
+  },
+  {
+   "handle": "smalkalbani",
+   "name": "سعيد الكلباني",
+   "active": true
+  },
+  {
+   "handle": "Al_3sli",
+   "name": "Taha Alasli",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "almatrafi_dev",
+   "name": "علي المطرفي",
+   "active": true
+  },
+  {
+   "handle": "madebymouath",
+   "name": "معاذ — بيانات وذكاء اصطناعي",
+   "active": true
+  },
+  {
+   "handle": "Abdullah4AI",
+   "name": "عبدالله الرشودي",
+   "active": true
+  },
+  {
+   "handle": "trq212",
+   "name": "Thariq",
+   "active": true
+  },
+  {
+   "handle": "qunaieer",
+   "name": "فارس القنيعير",
+   "active": true
+  },
+  {
+   "handle": "SultanAlFardan",
+   "name": "سلطان الفردان",
+   "active": true
+  },
+  {
+   "handle": "Dr_Hmood",
+   "name": "حمود الدوسري",
+   "active": true
+  },
+  {
+   "handle": "muath2",
+   "name": "معاذ الخلف",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "joshwoodward",
+   "name": "Josh Woodward",
+   "active": true
+  },
+  {
+   "handle": "Saud_Omar",
+   "name": "سعود العمر",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "alashalash",
+   "name": "عبدالسلام الشلاش",
+   "active": true
+  },
+  {
+   "handle": "Malaz_Madani",
+   "name": "Malaz Madani",
+   "active": true
+  },
+  {
+   "handle": "addyosmani",
+   "name": "Addy Osmani",
+   "active": true
+  },
+  {
+   "handle": "karpathy",
+   "name": "Andrej Karpathy",
+   "active": true
+  },
+  {
+   "handle": "Abdulaziz_Hmadi",
+   "name": "عبدالعزيز الحمادي",
+   "active": true
+  },
+  {
+   "handle": "falhazmiai",
+   "name": "فهد الحازمي",
+   "active": true
+  },
+  {
+   "handle": "w2me",
+   "name": "سامي الحصيّن",
+   "active": true
+  },
+  {
+   "handle": "mznmel",
+   "name": "mazen",
+   "active": true
+  },
+  {
+   "handle": "rileybrown",
+   "name": "Riley Brown",
+   "active": true
+  },
+  {
+   "handle": "itsolelehmann",
+   "name": "Ole Lehmann",
+   "active": true
+  },
+  {
+   "handle": "emilkowalski",
+   "name": "Emil Kowalski",
+   "active": true
+  },
+  {
+   "handle": "JayAlammar",
+   "name": "Jay Alammar",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "mattpocockuk",
+   "name": "Matt Pocock",
+   "active": true
+  },
+  {
+   "handle": "emollick",
+   "name": "Ethan Mollick",
+   "active": true
+  },
+  {
+   "handle": "shadcn",
+   "name": "shadcn",
+   "active": true
+  },
+  {
+   "handle": "danshipper",
+   "name": "Dan Shipper",
+   "active": true
+  },
+  {
+   "handle": "OpenAI",
+   "name": "OpenAI",
+   "active": true
+  },
+  {
+   "handle": "OpenAIDevs",
+   "name": "OpenAI Developers",
+   "active": true
+  },
+  {
+   "handle": "AnthropicAI",
+   "name": "Anthropic",
+   "active": true
+  },
+  {
+   "handle": "claudeai",
+   "name": "Claude",
+   "active": true
+  },
+  {
+   "handle": "GoogleAI",
+   "name": "Google AI",
+   "active": true
+  },
+  {
+   "handle": "GeminiApp",
+   "name": "Google Gemini",
+   "active": true
+  },
+  {
+   "handle": "GoogleAIStudio",
+   "name": "Google AI Studio",
+   "active": true
+  },
+  {
+   "handle": "GoogleLabs",
+   "name": "Google Labs",
+   "active": true
+  },
+  {
+   "handle": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "active": true
+  },
+  {
+   "handle": "AIatMeta",
+   "name": "AI at Meta",
+   "active": true
+  },
+  {
+   "handle": "perplexity_ai",
+   "name": "Perplexity",
+   "active": true
+  },
+  {
+   "handle": "xai",
+   "name": "xAI",
+   "active": true,
+   "note": "لم ينشر شيئًا خلال 30 يومًا حتى 20 أغسطس 2026"
+  },
+  {
+   "handle": "grok",
+   "name": "Grok",
+   "active": true
+  },
+  {
+   "handle": "cursor_ai",
+   "name": "Cursor",
+   "active": true
+  },
+  {
+   "handle": "github",
+   "name": "GitHub",
+   "active": true
+  },
+  {
+   "handle": "huggingface",
+   "name": "Hugging Face",
+   "active": true
+  },
+  {
+   "handle": "vercel",
+   "name": "Vercel",
+   "active": true
+  },
+  {
+   "handle": "MistralAI",
+   "name": "Mistral AI",
+   "active": true
+  },
+  {
+   "handle": "nvidia",
+   "name": "NVIDIA",
+   "active": true
+  },
+  {
+   "handle": "ollama",
+   "name": "Ollama",
+   "active": true
+  },
+  {
+   "handle": "runwayml",
+   "name": "Runway",
+   "active": true
+  },
+  {
+   "handle": "midjourney",
+   "name": "Midjourney",
+   "active": true
+  },
+  {
+   "handle": "deepseek_ai",
+   "name": "DeepSeek",
+   "active": true
+  },
+  {
+   "handle": "Alibaba_Qwen",
+   "name": "Qwen",
+   "active": true
+  },
+  {
+   "handle": "LangChain",
+   "name": "LangChain",
+   "active": true
+  },
+  {
+   "handle": "ElevenLabs",
+   "name": "ElevenLabs",
+   "active": true
+  },
+  {
+   "handle": "Kimi_Moonshot",
+   "name": "Kimi.ai",
+   "active": true
+  }
+ ]
+}
