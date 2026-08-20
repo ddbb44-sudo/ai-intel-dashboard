@@ -569,6 +569,63 @@ function refreshBadges(){
   if(bl){ bl.textContent=nl; bl.classList.toggle('zero',!nl); }
   if(bb){ bb.textContent=nb; bb.classList.toggle('zero',!nb); }
 }
+/* ---------- صندوق «أضف رابطًا» ----------
+   الصفحة ملفات ثابتة بلا خادم، فلا يمكنها الكتابة في المستودع ولا استدعاء نموذج.
+   لذلك تُجهّز البطاقةَ طلبًا في GitHub بضغطة، ثم تلتقطه المهمة المجدولة وتصنّفه. */
+const REPO_ISSUE_URL = 'https://github.com/ddbb44-sudo/ai-intel-dashboard/issues/new';
+function linkKind(u){
+  try{ const h=new URL(u).hostname.replace(/^www\./,'');
+    if(/^(x|twitter)\.com$/.test(h)) return ['x','تغريدة X'];
+    if(/^(youtube\.com|youtu\.be|m\.youtube\.com)$/.test(h)) return ['youtube','فيديو YouTube'];
+    if(h==='github.com') return ['github','مستودع GitHub'];
+    return ['web','مقالة أو موقع'];
+  }catch(e){ return [null,null]; }
+}
+function openAdd(){
+  const ov=document.createElement('div'); ov.className='ov'; ov.id='addov';
+  ov.onclick=e=>{ if(e.target===ov) ov.remove(); };
+  ov.innerHTML = `<div class="addbox">
+    <h4>أضف رابطًا إلى اللوحة</h4>
+    <p class="sub">الصق رابط تغريدة أو مقالة أو فيديو أو مستودع. سيُقرأ ويُصنَّف ويُكتب بالعربية،
+      ثم يظهر هنا ببطاقة تحمل وسم «مضافة يدويًا».</p>
+    <input type="url" id="addurl" placeholder="https://…" autocomplete="off" inputmode="url"
+      oninput="addCheck()" onkeydown="if(event.key==='Enter')addGo()">
+    <div class="addkinds" id="addkinds">
+      <span class="addkind" data-k="x">تغريدة X</span>
+      <span class="addkind" data-k="web">مقالة أو موقع</span>
+      <span class="addkind" data-k="youtube">فيديو YouTube</span>
+      <span class="addkind" data-k="github">مستودع GitHub</span>
+    </div>
+    <textarea id="addnote" placeholder="ملاحظتك (اختياري) — تُكتب داخل البطاقة باسمك ولا تُخلط بمحتوى المصدر"></textarea>
+    <div class="addrow">
+      <button onclick="document.getElementById('addov').remove()">إلغاء</button>
+      <button class="go" id="addgo" disabled onclick="addGo()">إضافة</button>
+    </div>
+    <div class="addnote">تفتح صفحة GitHub والرابط مكتوب فيها مسبقًا — <b>اضغط زر التأكيد الأخضر فيها ثم أغلقها</b>.
+      هذه الضغطة هي تسجيل دخولك، وهي بديل وضع مفتاح مكشوف في صفحة يراها الجميع.</div>
+  </div>`;
+  document.body.appendChild(ov);
+  setTimeout(()=>document.getElementById('addurl').focus(),40);
+}
+function addCheck(){
+  const v=(document.getElementById('addurl').value||'').trim();
+  const ok=/^https?:\/\/.+\..+/.test(v);
+  document.getElementById('addgo').disabled=!ok;
+  const [k]=ok?linkKind(v):[null];
+  document.querySelectorAll('#addkinds .addkind').forEach(el=>el.classList.toggle('on', el.dataset.k===k));
+}
+function addGo(){
+  const u=(document.getElementById('addurl').value||'').trim();
+  if(!/^https?:\/\/.+\..+/.test(u)) return;
+  const note=(document.getElementById('addnote').value||'').trim();
+  const [k,label]=linkKind(u);
+  const body = u + (note ? '\n\nملاحظة عزيز: '+note : '');
+  const url = REPO_ISSUE_URL + '?labels=inbox&title=' + encodeURIComponent('رابط: '+(label||'')) +
+              '&body=' + encodeURIComponent(body);
+  window.open(url,'_blank','noopener');
+  document.getElementById('addov').remove();
+  toast('افتحت GitHub — اضغط زر التأكيد الأخضر لإتمام الإضافة');
+}
 function closeTray(){ const t=document.getElementById('tray'); if(t) t.remove(); document.removeEventListener('click',_trayOut,true); }
 function _trayOut(e){ const t=document.getElementById('tray'); if(t && !t.contains(e.target) && !e.target.closest('.iconbtn.hb')) closeTray(); }
 function trayRow(id, onRemove, sub){

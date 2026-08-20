@@ -273,6 +273,28 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
 .nm.plain{cursor:default}
 .mine{display:inline-block;font-size:10.5px;padding:1px 6px;border-radius:20px;
   background:#f2ede9;color:#8a6a55;border:1px solid #e6ddd6;margin-inline-start:4px;vertical-align:1px}
+
+.iconbtn.addbtn{background:var(--accent);border-color:var(--accent);color:#fff}
+.iconbtn.addbtn:hover{filter:brightness(1.06)}
+.addbox{background:#fff;border-radius:16px;max-width:520px;width:100%;padding:22px;
+  box-shadow:0 18px 50px rgba(60,45,35,.22);border:1px solid var(--line)}
+.addbox h4{margin:0 0 4px;font-size:16.5px;font-weight:600}
+.addbox .sub{color:var(--muted);font-size:13px;line-height:1.65;margin:0 0 14px}
+.addbox input[type=url],.addbox input[type=text]{width:100%;padding:12px 13px;border:1px solid var(--line);
+  border-radius:10px;font:inherit;font-size:14px;background:#fdfcfb;direction:ltr;text-align:left}
+.addbox input:focus{outline:none;border-color:var(--accent);background:#fff}
+.addbox textarea{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:10px;
+  font:inherit;font-size:13.5px;background:#fdfcfb;margin-top:9px;resize:vertical;min-height:62px}
+.addrow{display:flex;gap:9px;margin-top:14px}
+.addrow button{flex:1;padding:12px;border-radius:10px;font:inherit;font-size:14px;cursor:pointer;border:1px solid var(--line);background:#fff}
+.addrow .go{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.addrow .go:disabled{opacity:.45;cursor:not-allowed}
+.addnote{margin-top:13px;padding:11px 13px;border-radius:10px;background:#fdf7f3;border:1px solid #efe1d8;
+  color:#7a5a44;font-size:12.5px;line-height:1.7}
+.addnote b{color:#5d4433}
+.addkinds{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.addkind{font-size:11.5px;padding:3px 9px;border-radius:20px;background:#f5f1ee;color:var(--muted);border:1px solid var(--line)}
+.addkind.on{background:#fdf0e8;color:#a85c30;border-color:#e9cdbb;font-weight:600}
 </style>
 </head>
 <body>
@@ -294,6 +316,9 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
   <button class="iconbtn hb" onclick="openTray('bm')" title="المحفوظات" aria-label="المحفوظات">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
     <span class="badge zero" id="bBm">0</span>
+  </button>
+  <button class="iconbtn addbtn" onclick="openAdd()" title="أضف رابطًا إلى اللوحة" aria-label="أضف رابطًا">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
   </button>
   <button class="iconbtn" onclick="toggleAside()" aria-label="الفلاتر">
     <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
