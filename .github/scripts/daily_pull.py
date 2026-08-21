@@ -31,8 +31,8 @@ DATA  = "data"
 # سقوف معلنة — تُذكر في التقرير دائمًا
 WINDOW_HOURS   = envi("WINDOW_HOURS", 24)
 PER_ACCOUNT    = envi("PER_ACCOUNT", 25)
-MAX_READ       = envi("MAX_READ", 150)      # أقصى ما يُعرض على النموذج
-MAX_CARDS      = envi("MAX_CARDS", 40)
+MAX_READ       = envi("MAX_READ", 250)      # سقف حماية للتكلفة — يوم عادي ≈ 101
+MAX_CARDS      = envi("MAX_CARDS", 60)
 BATCH          = envi("BATCH", 20)
 PARALLEL       = envi("PARALLEL", 4)    # دفعات التصنيف بالتوازي
 POLL_MAX       = envi("POLL_MAX", 1500)   # 25 دقيقة كحد أقصى للاستطلاع
@@ -99,7 +99,8 @@ log("accounts: %d نشطًا" % len(handles))
 REPORT["accounts_total"] = len(handles)
 REPORT["day"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
 REPORT["started_at"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-EXPECTED_QUIET = {a["handle"] for a in accounts.get("accounts", []) if not a.get("active_30d", True)}
+EXPECTED_QUIET = {a["handle"] for a in accounts.get("accounts", [])
+                  if a.get("note") or not a.get("active_30d", True)}
 
 # ---------- 1) السحب ----------
 def _get(url, timeout=180):
@@ -424,8 +425,8 @@ REPORT.update({
   "titles": [{"serial": r["serial_display"], "author": r["author"],
               "title": r["arabic_title"], "tier": r["importance_tier"],
               "id": r["id"]} for r in out],
-  # تقدير: ~0.9 سنت لكل منشور يدخل التصنيف (مدخلات + مخرجات)
-  "cost_estimate_usd": round(len(cands) * 0.009 + len(raw) * 0.00015, 3),
+  # مقاس من تشغيلة 21 أغسطس: ~$0.0028 للمنشور المصنَّف + $0.00015 للتغريدة المسحوبة
+  "cost_estimate_usd": round(len(cands) * 0.0028 + len(raw) * 0.00015, 3),
 })
 write_report()
 
