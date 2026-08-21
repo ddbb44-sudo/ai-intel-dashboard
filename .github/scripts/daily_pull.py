@@ -228,12 +228,38 @@ if not cands:
         f.write("DAILY_NOTHING=1\n")
     log("لا جديد اليوم"); sys.exit(0)
 
-# ترتيب بالتفاعل ثم قصّ عند السقف — والسقف يُعلَن
-cands.sort(key=lambda c: -( (c["m"].get("likes") or 0) + 2*(c["m"].get("bookmarks") or 0)
-                            + 3*(c["m"].get("reposts") or 0) ))
-capped = max(0, len(cands) - MAX_READ)
-cands = cands[:MAX_READ]
+# ---------- الاختيار عند السقف: بالتناوب لا بالتفاعل ----------
+# الترتيب بالتفاعل الخام كان يعني أن حسابًا عربيًا صغيرًا لا يهزم OpenAI أبدًا،
+# فيُقصى كلما لُمس السقف. البديل: جولة لكل حساب بالتناوب — كل حساب يقدّم أفضل
+# منشور له قبل أن يأخذ أي حساب منشوره الثاني.
+def _eng(c):
+    m = c["m"]
+    return (m.get("likes") or 0) + 2*(m.get("bookmarks") or 0) + 3*(m.get("reposts") or 0)
+
+capped, trimmed_accounts = 0, []
+if len(cands) > MAX_READ:
+    by_acc = {}
+    for c in cands:
+        by_acc.setdefault(c["handle"], []).append(c)
+    for h in by_acc:
+        by_acc[h].sort(key=lambda c: -_eng(c))          # الأقوى داخل كل حساب أولًا
+    order = sorted(by_acc)                               # ترتيب ثابت لا عشوائي
+    picked, depth = [], 0
+    while len(picked) < MAX_READ and any(len(v) > depth for v in by_acc.values()):
+        for h in order:
+            if len(by_acc[h]) > depth and len(picked) < MAX_READ:
+                picked.append(by_acc[h][depth])
+        depth += 1
+    kept_ids = {c["id"] for c in picked}
+    for h in order:
+        left = len([c for c in by_acc[h] if c["id"] not in kept_ids])
+        if left: trimmed_accounts.append("%s(%d)" % (h, left))
+    capped = len(cands) - len(picked)
+    cands = picked
+    log("لُمس السقف: قُرئ %d وتُرك %d — بالتناوب على %d حسابًا" % (len(cands), capped, len(order)))
+
 REPORT["capped"] = capped; REPORT["read"] = len(cands)
+REPORT["trimmed_accounts"] = trimmed_accounts
 
 # ---------- 3) التصنيف ----------
 HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاصطناعي»، لوحة عربية يملكها عزيز.

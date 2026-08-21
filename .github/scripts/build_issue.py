@@ -71,7 +71,12 @@ if dr and st != "failed":
           " · ".join("%s: **%d**" % (k, v) for k, v in dr.items()), ""]
     warn = []
     if r.get("capped"):
-        warn.append("⚠️ **%d منشورًا لم يُقرأ** بسبب سقف القراءة اليومي." % r["capped"])
+        warn.append("⚠️ **%d منشورًا لم يُقرأ** بسبب سقف القراءة اليومي "
+                    "(الاختيار بالتناوب: كل حساب أخذ نصيبه قبل أن يأخذ أي حساب نصيبًا ثانيًا)."
+                    % r["capped"])
+        ta = r.get("trimmed_accounts") or []
+        if ta:
+            warn.append("  - الحسابات التي تُرك لها منشورات: %s" % " · ".join("`%s`" % x for x in ta[:20]))
     if r.get("batches_failed"):
         warn.append("⚠️ **%d دفعة تصنيف فشلت** بعد محاولتين — منشوراتها لم تُصنَّف." % r["batches_failed"])
         for be in (r.get("batch_errors") or [])[:3]:
