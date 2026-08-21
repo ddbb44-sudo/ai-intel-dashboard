@@ -5,7 +5,7 @@
 يعمل داخل GitHub Actions. مبدأ التصميم: عند أي شك — لا تكتب شيئًا واترك الـ Issue مفتوحة
 لتلتقطها المهمة المجدولة كل ساعة. الفشل الصامت ممنوع؛ كل خطأ يُعلَّق على الـ Issue.
 """
-import json, os, re, sys, urllib.request, urllib.error, datetime, html as htmllib
+import json, os, re, sys, urllib.request, urllib.error, urllib.parse, datetime, html as htmllib
 
 OWNER   = os.environ["GH_OWNER"]
 REPO    = os.environ["GH_REPO"]
@@ -88,21 +88,22 @@ if norm in saved:
     sys.exit(0)
 
 # ---------- 4) جلب المحتوى ----------
-def fetch_text(u, limit=18000):
+def fetch_text(u, limit=18000, want_raw=False):
     req = urllib.request.Request(u, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; ai-intel-bot/1.0)",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/128.0 Safari/537.36",
         "Accept-Language": "ar,en;q=0.8"})
     with urllib.request.urlopen(req, timeout=45) as r:
-        raw = r.read(1_500_000)
+        rawb = r.read(2_500_000)
         enc = r.headers.get_content_charset() or "utf-8"
-    t = raw.decode(enc, errors="replace")
-    t = re.sub(r'(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>', ' ', t)
+    raw = rawb.decode(enc, errors="replace")
+    t = re.sub(r'(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>', ' ', raw)
     title = ""
     tm = re.search(r'(?is)<title[^>]*>(.*?)</title>', t)
     if tm: title = htmllib.unescape(re.sub(r'\s+', ' ', tm.group(1))).strip()
     body = re.sub(r'(?s)<[^>]+>', ' ', t)
     body = htmllib.unescape(re.sub(r'\s+', ' ', body)).strip()
-    return title, body[:limit]
+    return (title, body[:limit], raw) if want_raw else (title, body[:limit])
 
 source_name, source_site, page_title, page_text = "", HOST, "", ""
 x_data = None
@@ -145,11 +146,41 @@ else:
                     if rd: page_text = rd; break
                 except Exception: pass
     elif KIND == "youtube":
-        source_name = page_title.replace(" - YouTube", "").strip() or "YouTube"
+        # صفحة يوتيوب تُبنى بـ JS، فقشطُ الـ HTML يعيد روابط التذييل فقط.
+        # oEmbed يعطي العنوان واسم القناة بثبات وبلا JS.
+        yt_title, yt_channel, yt_desc = "", "", ""
+        try:
+            oe = "https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote(URL, safe="")
+            with urllib.request.urlopen(urllib.request.Request(
+                    oe, headers={"User-Agent": "ai-intel-bot/1.0"}), timeout=30) as r:
+                o = json.loads(r.read().decode())
+            yt_title   = (o.get("title") or "").strip()
+            yt_channel = (o.get("author_name") or "").strip()
+        except Exception as e:
+            log("oembed failed: %s" % e)
+        try:
+            _, _, raw_html = fetch_text(URL, want_raw=True)
+            dm = re.search(r'"shortDescription":"((?:[^"\\]|\\.)*)"', raw_html)
+            if dm:
+                yt_desc = json.loads('"' + dm.group(1) + '"')
+        except Exception as e:
+            log("yt description failed: %s" % e)
+        source_name = yt_channel or "YouTube"
+        page_title  = yt_title or page_title.replace(" - YouTube", "").strip()
+        parts = []
+        if yt_title:   parts.append("عنوان الفيديو: " + yt_title)
+        if yt_channel: parts.append("القناة: " + yt_channel)
+        if yt_desc:    parts.append("وصف الفيديو:\n" + yt_desc)
+        else:          parts.append("(وصف الفيديو غير متاح، ولا يتوفر تفريغ نصي)")
+        page_text = "\n\n".join(parts)
     else:
-        source_name = (page_title.split("|")[-1].split("-")[-1].strip() or HOST)[:60]
+        cand = re.split(r'\s+[|\u2013\u2014-]\s+', page_title)[-1].strip() if page_title else ""
+        source_name = (cand or HOST)[:60]
 
 unreadable = len(page_text.strip()) < 120
+# حارس: صفحة بلا عنوان وبلا نص لا تُنتج بطاقة — الطلب يبقى مفتوحًا بدل حفظ بطاقة فارغة
+if unreadable and not page_title and KIND != "x":
+    bail("تعذّر قراءة الصفحة: لا عنوان ولا نص. لم أُنشئ بطاقة فارغة")
 
 # ---------- 5) التصنيف عبر Claude ----------
 TAXONOMY = {
