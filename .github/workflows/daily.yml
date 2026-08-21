@@ -1,0 +1,78 @@
+name: daily
+
+# السحب اليومي — يعمل على خوادم GitHub، لا يحتاج جهاز عزيز ولا موصّلات.
+# 03:00 UTC = 06:00 صباحًا بتوقيت الرياض.
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: السحب والتصنيف
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          WINDOW_HOURS: ${{ vars.WINDOW_HOURS }}
+          MAX_READ: ${{ vars.MAX_READ }}
+          MAX_CARDS: ${{ vars.MAX_CARDS }}
+        run: python .github/scripts/daily_pull.py
+
+      - name: حفظ ونشر
+        if: env.DAILY_COUNT != ''
+        run: |
+          git config user.name  "ai-intel-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git commit -m "daily: ${DAILY_DAY} — ${DAILY_COUNT} بطاقة جديدة"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && break
+            sleep 5
+          done
+
+      - name: تقرير التشغيلة
+        if: env.DAILY_COUNT != ''
+        run: |
+          echo "### تحديث ${DAILY_DAY}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**${DAILY_COUNT} بطاقة جديدة**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "${DAILY_REPORT}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "https://ddbb44-sudo.github.io/ai-intel-dashboard/" >> $GITHUB_STEP_SUMMARY
+
+      - name: لا جديد
+        if: env.DAILY_NOTHING == '1'
+        run: echo "لا منشورات جديدة تستحق بطاقة اليوم." >> $GITHUB_STEP_SUMMARY
+
+      - name: تنبيه عند الفشل
+        if: env.DAILY_ERROR != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            printf 'فشلت تشغيلة السحب اليومي.\n\n'
+            printf '**السبب:** %s\n\n' "$DAILY_ERROR"
+            printf 'سجل التشغيلة: %s/%s/actions/runs/%s\n' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID"
+          } > /tmp/err.md
+          gh issue create --title "عطل: السحب اليومي" --body-file /tmp/err.md --label ops
+          echo "$DAILY_ERROR" >> $GITHUB_STEP_SUMMARY
+          exit 1
