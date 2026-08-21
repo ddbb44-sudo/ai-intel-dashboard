@@ -386,5 +386,1828 @@
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": null
+ },
+ {
+  "id": "c584",
+  "serial": 584,
+  "serial_display": "#000584",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2090577927905874389",
+  "source_native_id": "2090577927905874389",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-08-20T23:13:13Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تخفّض سعر GPT-5.6 Sol بنسبة 50٪ حتى 3 سبتمبر عبر GitHub Copilot",
+  "arabic_summary": "أعلنت OpenAI عن تخفيض بنسبة 50٪ على نموذج GPT-5.6 Sol ضمن GitHub Copilot حتى 3 سبتمبر. النموذج متاح الآن بشكل عام وهو الأعلى قدرة في سلسلة GPT-5.6، مصمم للمهام المعقدة التي تتطلب تفكيراً عميقاً على قواعد أكواد كبيرة والأعمال الـ agentic طويلة المدى.",
+  "detailed_explanation": "أطلقت OpenAI عرضاً ترويجياً محدود المدة يخفّض سعر نموذج GPT-5.6 Sol بنسبة 50٪ لمستخدمي GitHub Copilot حتى 3 سبتمبر. يأتي هذا الإعلان بالتزامن مع إتاحة عائلة GPT-5.6 بشكل عام (General Availability) عبر GitHub Copilot.\n\nتتكون سلسلة GPT-5.6 من ثلاثة نماذج: Sol هو الأعلى في القدرة الاستدلالية (reasoning ceiling)، Terra هو النموذج المتوازن للاستخدام اليومي، وهناك نموذج ثالث لم يُذكر اسمه الكامل في المنشور. Sol مخصص للمهام التي تتطلب تفكيراً معقداً على قواعد أكواد واسعة النطاق والعمل الـ agentic الذي يستغرق وقتاً طويلاً.\n\nالتخفيض يُعتبر فرصة للمطورين لتقييم أداء Sol في سيناريوهات حقيقية دون تكلفة كاملة، خاصة في المشاريع التي تحتاج إلى فهم عميق للسياق وقدرات استدلالية متقدمة.",
+  "why_it_matters": "التخفيض يتيح للمطورين تجربة أقوى نموذج من عائلة GPT-5.6 بتكلفة منخفضة، مما يسهّل اعتماده في سيناريوهات البرمجة الاحترافية والعمل الـ agentic المتقدم.",
+  "original_text": "📣 @OpenAIDevs has reduced the price for GPT-5.6 Sol by 50% until September 3.\n\nTry it out in GitHub Copilot wherever you work.",
+  "glossary": [
+   {
+    "term": "GPT-5.6 Sol",
+    "ar": "نموذج لغوي من عائلة GPT-5.6 بأعلى قدرة استدلالية"
+   },
+   {
+    "term": "Agentic work",
+    "ar": "مهام يقوم بها الـ AI بشكل مستقل وطويل المدى"
+   },
+   {
+    "term": "General Availability",
+    "ar": "الإتاحة العامة للجميع بعد مرحلة التجريب"
+   }
+  ],
+  "content_types": [
+   "Announcement"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Software Development",
+   "Coding"
+  ],
+  "entities": [
+   "OpenAI",
+   "GitHub",
+   "GPT-5.6 Sol",
+   "GitHub Copilot"
+  ],
+  "change_types": [
+   "Pricing Change",
+   "General Availability"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 303,
+   "replies": 13,
+   "reposts": 34,
+   "quotes": 12,
+   "bookmarks": 32,
+   "views": 54690
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "📣 @OpenAIDevs's GPT-5.6 family is now generally available and rolling out in GitHub Copilot.\n\nGPT-5.6 comes in three variants:\n☀️ GPT-5.6 Sol: the highest reasoning ceiling in the family. Best for complex reasoning over large codebases and demanding, long-running agentic work.\n\n🌎 GPT-5.6 Terra: the balanced default. A strong all-round choice for everyday interactive and agentic coding.\n\n🌕 GPT-5.6 "
+  },
+  "cluster_id": "gpt56_sol_pricing",
+  "also_reported": [
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2090620414162534624"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c585",
+  "serial": 585,
+  "serial_display": "#000585",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2090532335263342775",
+  "source_native_id": "2090532335263342775",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-08-20T20:12:03Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "codex-router: مشروع مفتوح المصدر يضيف نماذج متعددة إلى Codex دون API keys",
+  "arabic_summary": "أطلق مشروع codex-router مفتوح المصدر يتيح استخدام نماذج Grok وKimi وDeepSeek وClaude مباشرة داخل واجهة Codex جنباً إلى جنب مع نماذج GPT الموجودة أصلاً. يعتمد على OAuth login لكل مزوّد بدلاً من API keys، ويحافظ على إعدادات GPT وChatGPT الأصلية دون تغيير. التثبيت يتم عبر توجيه Codex لقراءة ملف README من المستودع.",
+  "detailed_explanation": "codex-router هو أداة مفتوحة المصدر تعالج قيد رئيسي في تطبيق Codex: الاقتصار على نماذج GPT. تضيف الأداة نماذج من مزودين آخرين (Grok, Kimi, DeepSeek, Claude) مباشرة في قائمة اختيار النماذج (model picker) الأصلية دون التأثير على النماذج الموجودة أو تسجيل الدخول الحالي.\n\nآلية العمل تعتمد على OAuth login منفصل لكل مزوّد، مما يلغي الحاجة لنسخ ولصق API keys. عملية التثبيت مبسطة: يكفي توجيه Codex لقراءة README من المستودع ليقوم بتثبيت نفسه تلقائياً.\n\nمع ذلك، يحذر المطور من مشكلة محتملة: إذا كان لديك تطبيق ChatGPT منفصل وCodex آخر في PATH، قد تشغّل نسختين مختلفتين من Codex، والنسخة الأقدم قد لا تتعرف على ملفات الإعدادات الجديدة. في هذه الحالة، يُنصح بإعادة تثبيت نظيفة.\n\nهذا المشروع يعكس اتجاهاً متنامياً نحو أدوات middleware تربط بين واجهات العمل المألوفة ومزودي نماذج متعددين.",
+  "why_it_matters": "يحل مشكلة الاقتصار على نماذج GPT فقط في Codex، ويوفر خيارات أوسع للمطورين دون الحاجة لإدارة API keys منفصلة أو تغيير سير العمل الحالي.",
+  "original_text": "if you use Codex and you're stuck on GPT models only, this fixes that.\n\nit's called codex-router, open source. drops other models straight into your normal Codex picker, right next to the GPT ones you already have.\n\nwhat it adds:\n\n- Grok, Kimi, Deepseek, Claude, all in the same picker\n- oauth login per provider, no api key needed\n- your GPT models and Chatgpt login stay untouched\n\nsetup: point Codex at the repo, let it read the readme, it installs itself\n\none snag: if you've got the Chatgpt app and a separate Codex on your path, you can end up running two different Codex versions, and the older one can choke on newer config it doesn't recognize. \n\nif the install looks off after, that's probably why, reinstall clean.",
+  "glossary": [
+   {
+    "term": "OAuth login",
+    "ar": "آلية تسجيل دخول آمنة عبر مزود خارجي"
+   },
+   {
+    "term": "API key",
+    "ar": "مفتاح برمجي للوصول لخدمة معينة"
+   },
+   {
+    "term": "PATH",
+    "ar": "مسار النظام الذي يبحث فيه عن البرامج القابلة للتشغيل"
+   }
+  ],
+  "content_types": [
+   "Tool",
+   "Tutorial"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Software Development",
+   "Coding"
+  ],
+  "entities": [
+   "Codex",
+   "Grok",
+   "Kimi",
+   "DeepSeek",
+   "Claude",
+   "GPT",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 90,
+   "replies": 18,
+   "reposts": 8,
+   "quotes": 2,
+   "bookmarks": 110,
+   "views": 9130
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c586",
+  "serial": 586,
+  "serial_display": "#000586",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2090579773936349315",
+  "source_native_id": "2090579773936349315",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-08-20T23:20:33Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تضيف ميزة الخلفية الشفافة لـ GPT-Image-2 في الـ API",
+  "arabic_summary": "أعلنت OpenAI عن إتاحة ميزة الخلفية الشفافة (transparent backgrounds) في وضع المعاينة لنموذج GPT-Image-2 عبر API. الميزة تتيح إنشاء أصول قابلة لإعادة الاستخدام على أي خلفية، مناسبة لصور المنتجات والتصميم الجرافيكي ونماذج المواقع والحملات التسويقية.",
+  "detailed_explanation": "أضافت OpenAI ميزة جديدة لنموذج GPT-Image-2 عبر API تتيح توليد صور بخلفية شفافة مباشرة دون الحاجة لمعالجة لاحقة. الميزة متاحة حالياً في وضع المعاينة (preview).\n\nالاستخدامات العملية تشمل:\n- صور المنتجات التي تحتاج لوضعها على خلفيات متعددة\n- عناصر التصميم الجرافيكي القابلة لإعادة الاستخدام\n- نماذج واجهات المواقع (mockups)\n- أصول الحملات التسويقية\n\nهذه الإضافة تعكس توجه OpenAI نحو تلبية احتياجات المصممين والمسوقين، وتقلل الحاجة لأدوات خارجية لإزالة الخلفيات. الميزة حالياً متاحة فقط عبر API وليس في الواجهة الرئيسية لـ ChatGPT.",
+  "why_it_matters": "تسهّل دمج الصور المولّدة بالذكاء الاصطناعي في سير عمل التصميم والتسويق دون الحاجة لأدوات إضافية لإزالة الخلفية، مما يوفر الوقت ويزيد المرونة الإبداعية.",
+  "original_text": "مودل ChatGPT Image صار يسوي صور بخلفية شفافة!\n\nوالله OpenAI مبدعة صدق!",
+  "glossary": [
+   {
+    "term": "Transparent background",
+    "ar": "خلفية شفافة تسمح برؤية ما خلف الصورة"
+   },
+   {
+    "term": "API",
+    "ar": "واجهة برمجية للتعامل مع الخدمة برمجياً"
+   }
+  ],
+  "content_types": [
+   "Feature",
+   "API"
+  ],
+  "domains": [
+   "AI",
+   "Design",
+   "Marketing",
+   "Content"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-Image-2"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 68,
+   "replies": 4,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 57,
+   "views": 14124
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API.\n\nGenerate reusable assets you can place on any background—for product imagery, graphic design, website mockups, and marketing campaigns. https://t.co/yRhBIYh8uP"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c587",
+  "serial": 587,
+  "serial_display": "#000587",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2090520845957378337",
+  "source_native_id": "2090520845957378337",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-08-20T19:26:24Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ChatGPT Work وCodex يتيحان مشاركة المحادثات بصيغة قراءة فقط على Desktop",
+  "arabic_summary": "أضافت OpenAI ميزة جديدة لتطبيقي ChatGPT Work وCodex على Desktop تسمح بمشاركة المحادثات بصيغة قراءة فقط (read-only). الميزة تتيح عرض سير العمل والسياق وراء المخرجات للزملاء أو المدراء بسهولة.",
+  "detailed_explanation": "أطلقت OpenAI ميزة مشاركة المحادثات بصيغة قراءة فقط في تطبيقي ChatGPT Work وCodex على Desktop. تتيح الميزة للمستخدمين إنشاء رابط مشاركة لأي محادثة يمكن للآخرين مشاهدتها دون القدرة على التعديل أو التفاعل.\n\nحالات الاستخدام تشمل:\n- عرض سير العمل للمدراء أو الزملاء\n- توثيق العمليات والقرارات المبنية على AI\n- مشاركة السياق الكامل وراء مخرج معين\n- التعليم والتدريب على استخدام الأدوات\n\nالميزة متاحة حالياً فقط على تطبيقات Desktop لـ ChatGPT Work وCodex، وليس على النسخة الويب أو الموبايل. هذا يعكس توجه OpenAI نحو تعزيز أدوات التعاون في سياقات العمل المؤسسي.",
+  "why_it_matters": "تسهّل التعاون والشفافية في بيئات العمل، وتساعد في توثيق العمليات الـ agentic وشرح كيفية الوصول للنتائج دون إعطاء صلاحيات تعديل.",
+  "original_text": "اذا المدير مو مصدق انك تتقهوى لأن الايجنت حقك شغال، عطه محادثتك مع Codex بشكل مباشر وخله يتفرج\n\nالحين صار يمديك تشارك محادثتك مع Work &amp; Codex للي يبي يتفرج... رهيبة الميزة وتخليك تعرف وش يسوون اخوياك او زملائك...",
+  "glossary": [
+   {
+    "term": "Read-only",
+    "ar": "قراءة فقط، دون إمكانية التعديل"
+   },
+   {
+    "term": "ChatGPT Work",
+    "ar": "نسخة مؤسسية من ChatGPT للشركات"
+   }
+  ],
+  "content_types": [
+   "Feature",
+   "Announcement"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Personal Productivity",
+   "Business"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT Work",
+   "Codex"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 86,
+   "replies": 0,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 47,
+   "views": 11563
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Be a homie and don’t gatekeep your best chats 👀\n\nYou can now share read-only conversations from both ChatGPT Work and Codex on desktop.\n\nIt’s an easy way to show your process or give someone the context behind your work. https://t.co/k9n1YHsGA7"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c588",
+  "serial": 588,
+  "serial_display": "#000588",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2090428228112363559",
+  "source_native_id": "2090428228112363559",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-08-20T13:18:22Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "MUZIM: أداة بحث محلية بالذكاء الاصطناعي تفهرس ملفاتك بالمحتوى بدلاً من الأسماء",
+  "arabic_summary": "MUZIM هي أداة local-first AI تحوّل مكتبة الملفات (صور، فيديو، مستندات) إلى قاعدة قابلة للبحث بناءً على المحتوى الفعلي بدلاً من أسماء الملفات. تعمل على الجهاز نفسه وتبني Collections تلقائياً حسب المكان والأشخاص والتاريخ. البحث (Vibe Search) يعمل بالكامل offline بعد تحميل النموذج، ويمكن ربطها بـ Claude أو GPT لإنشاء محتوى من الملفات عبر MCP دون رفع الملفات الأصلية.",
+  "detailed_explanation": "MUZIM هي أداة بحث ملفات محلية تعتمد على الذكاء الاصطناعي، مصممة كـ local-first AI file agent. بدلاً من إدارة المجلدات يدوياً، تفهرس الأداة ما داخل الملفات فعلياً.\n\nآلية العمل:\n1. توجيه MUZIM لمجلد (مثلاً 2000 صورة من رحلة)\n2. بناء Collections تلقائياً حسب المكان، الأشخاص، اليوم\n3. الملفات تبقى في مواقعها الأصلية دون نقل\n\nميزة Vibe Search تتيح البحث بالوصف الطبيعي (مثل \"لقطة الغروب حيث الجميع يضحكون\") دون تذكر اسم الملف، وتعمل حتى على مستوى الثانية داخل الفيديو. بعد تحميل النموذج المحلي، يعمل البحث بالكامل offline.\n\nللاستخدامات الإبداعية، يمكن ربط مفتاح Claude أو GPT الخاص بك لإنشاء محتوى (highlight video، thread، recap) من الملفات. عبر بروتوكول MCP، تعمل الأدوات المتوافقة مع السياق المصرّح به دون إعادة رفع gigabytes من الفيديو الخام، مما يوفر input tokens ويحافظ على الملفات محلياً.\n\nالفلسفة: البحث والتنظيم محلي بالكامل، الـ AI workflows تعمل عند الطلب بمفتاحك الخاص، والملفات الخام لا تغادر جهازك أبداً.",
+  "why_it_matters": "تقدم طريقة جديدة لإدارة الملفات تعتمد على الفهم الدلالي بدلاً من التنظيم اليدوي، مع الحفاظ على الخصوصية بإبقاء كل شيء محلياً وعدم رفع الملفات الخام للسحابة.",
+  "original_text": "Your entire media library, searchable by memory instead of filename, running right on your own machine.\n\nIt’s a local-first AI file agent called MUZIM. Instead of managing folders, you work with what's actually inside your photos, videos, and documents.\n\nHere's how it comes together in a real workflow:\n\nYou get back from a two-week trip with 2,000 photos and clips on your camera. You point MUZIM at the folder, and it builds Collections on its own, by place, by people, by day. Nothing gets moved from where it already lives.\n\nA week later you want \"the sunset shot where everyone's laughing.\" You don't remember the filename. So you just describe it.\n\nVibe Search understands what's inside your media and takes you straight to that moment, even the exact second inside a video. Once the local model is downloaded, this part runs fully offline, connected or not.\n\nThen you turn it into something. Connect your own Claude or GPT key, and the online AI Agent pulls the best shots from that trip and drafts a highlight video, an X thread, or a recap. Through MCP, compatible tools work with authorized context without re-uploading gigabytes of raw video - saving massive input tokens while keeping ra",
+  "glossary": [
+   {
+    "term": "Local-first",
+    "ar": "يعمل محلياً على الجهاز أولاً قبل أي خدمة سحابية"
+   },
+   {
+    "term": "Agent",
+    "ar": "برنامج ذكي يعمل بشكل مستقل لإنجاز مهام"
+   },
+   {
+    "term": "Vibe Search",
+    "ar": "بحث بناءً على الوصف والمحتوى وليس الاسم"
+   },
+   {
+    "term": "MCP",
+    "ar": "بروتوكول يتيح للأدوات العمل مع السياق دون نقل بيانات ضخمة"
+   },
+   {
+    "term": "Input tokens",
+    "ar": "وحدات النص أو البيانات المُدخلة للنموذج"
+   }
+  ],
+  "content_types": [
+   "Tool",
+   "Agent"
+  ],
+  "domains": [
+   "AI",
+   "Personal Productivity",
+   "Content"
+  ],
+  "entities": [
+   "MUZIM",
+   "Claude",
+   "GPT",
+   "MCP"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 38,
+   "replies": 22,
+   "reposts": 12,
+   "quotes": 12,
+   "bookmarks": 21,
+   "views": 27209
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c589",
+  "serial": 589,
+  "serial_display": "#000589",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2090585817421119789",
+  "source_native_id": "2090585817421119789",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-08-20T23:44:34Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GEN-1.5: نموذج روبوتات يتعلم مهام جديدة من عرض واحد فقط (one-shot learning)",
+  "arabic_summary": "أعلن عن GEN-1.5، نموذج للروبوتات قادر على تعلم مهام جديدة من عرض واحد فقط ثم التعميم عليها. القدرة ظهرت نتيجة التدريب المسبق على بيانات فيزيائية ضخمة (500,000+ ساعة). يُقارن بـ \"لحظة GPT-3 للروبوتات\": كما تعلمت GPT-3 من النصوص وأنتجت قدرة التعلم من الأمثلة في الـ prompt، GEN-1.5 تعلم من حركات فيزيائية وأنتج قدرة التعلم من عرض واحد.",
+  "detailed_explanation": "GEN-1.5 هو نموذج روبوتات جديد يمثل قفزة في التعلم الفيزيائي. القدرة الأبرز هي one-shot learning: يمكنك عرض المهمة مرة واحدة على الروبوت، فيتعلمها ويعممها على سياقات مشابهة.\n\nالمقارنة بـ GPT-3 مهمة لفهم الإنجاز:\n- GPT-3 تم تدريبها على كميات ضخمة من النصوص\n- ظهرت قدرة جديدة: few-shot learning (التعلم من أمثلة قليلة في الـ prompt)\n- الـ prompt كان نصياً\n\n- GEN-1.5 تم تدريبها على 500,000+ ساعة من البيانات الفيزيائية\n- ظهرت قدرة جديدة: one-shot learning من حركة فيزيائية\n- الـ prompt هنا حركة جسدية (physical movement)\n\nهذا يعني أن النموذج لا يُبرمج لكل مهمة على حدة، بل يفهم المبدأ العام ويطبقه. إذا نجح scaling هذا النهج (زيادة البيانات والحوسبة)، النتيجة قد تكون روبوتات قادرة على تعلم أي مهمة منزلية أو صناعية من عرض واحد فقط، دون الحاجة لبرمجة مخصصة.\n\nهذا جزء من مهمة أوسع نحو \"ذكاء عام للعالم الفيزيائي\" (general intelligence for the physical world)، وهو الهدف المعلن للفريق المطوّر.",
+  "why_it_matters": "إذا نجح التوسع (scaling)، يمكن للروبوتات تعلم أي مهمة بمجرد مشاهدتها مرة واحدة، مما قد يحدث ثورة في الأتمتة الفيزيائية والروبوتات المنزلية والصناعية.",
+  "original_text": "the reason why this is so big:\n\npeople are calling it the GPT-3 moment for robotics.\n\n> GPT-3 was trained on enormous amounts of text\n> then a new ability emerged: learning tasks from examples in the prompt\n> GEN-1.5 was trained on 500,000+ hours of physical data\n> then the physical version emerged: learning tasks from one demonstration\n> for GPT-3, the prompt was text\n> for GEN-1.5, the prompt is physical movement\n\nif this scales, you could literally just show a robot how you like anything done once, then let it handle it from there\n\nANYTHING.",
+  "glossary": [
+   {
+    "term": "One-shot learning",
+    "ar": "تعلم مهمة من مثال واحد فقط"
+   },
+   {
+    "term": "Few-shot learning",
+    "ar": "تعلم مهمة من أمثلة قليلة"
+   },
+   {
+    "term": "Pretraining",
+    "ar": "التدريب المسبق على كميات ضخمة من البيانات"
+   },
+   {
+    "term": "Scaling",
+    "ar": "التوسع بزيادة البيانات أو الحوسبة لتحسين الأداء"
+   },
+   {
+    "term": "Prompt",
+    "ar": "المدخل أو المثال الذي يوجه النموذج"
+   }
+  ],
+  "content_types": [
+   "Announcement"
+  ],
+  "domains": [
+   "AI",
+   "Robotics",
+   "Research"
+  ],
+  "entities": [
+   "GEN-1.5",
+   "GPT-3"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 58,
+  "metrics": {
+   "likes": 47,
+   "replies": 2,
+   "reposts": 9,
+   "quotes": 1,
+   "bookmarks": 15,
+   "views": 6168
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing GEN-1.5, a one-shot learner.\n\nIt can learn new tasks in a few seconds. Show it what to do, and it generalizes.\n\nThis capability emerged from pretraining on physical data at scale, as a step towards our mission of building general intelligence for the physical world. https://t.co/ptB9ElYXMU"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c590",
+  "serial": 590,
+  "serial_display": "#000590",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2090560217155330180",
+  "source_native_id": "2090560217155330180",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-08-20T22:02:51Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "روبوت Elf-Xuan 2.0 من شنغهاي يحاول تجاوز وادي الغرابة بواقعية مفرطة",
+  "arabic_summary": "شركة AheadForm في شنغهاي كشفت عن روبوت Elf-Xuan 2.0، روبوت على هيئة شخصية خيالية (أميرة إلف) بواقعية عالية في الوجه ولغة الجسد. الهدف تحويل شخصيات الألعاب والأفلام إلى أجسام فيزيائية، وتجاوز uncanny valley عبر تحسين تعابير الوجه وتنسيق حركة الجسد. الروبوت يُظهر حركة طبيعية للعينين والكتفين واليدين تتناسق مع تعابير الوجه.",
+  "detailed_explanation": "شركة AheadForm الصينية في شنغهاي أعلنت عن روبوت Elf-Xuan 2.0، وهو نموذج واقعي لشخصية خيالية (أميرة إلف). المشروع ليس مجرد روبوت إنساني الشكل humanoid، بل محاولة لسحب شخصيات من عوالم الألعاب والسينما والخيال وإعطائها أجساداً فيزيائية حقيقية.\n\nالروبوت مُصمم كشخصية إلف بقصة خلفية lore: أميرة إلف اختفى جسدها بين الأبعاد قبل أن تُدمج روحها بنواة ميكانيكية. هذا النهج يعكس رغبة في دمج السرد القصصي مع التكنولوجيا.\n\nما يميز Elf-Xuan 2.0 هو جودة لغة الجسد body language: العينان تتحركان بشكل طبيعي، الكتفان تدوران، الوضعية تتغير، واليدان تتحركان بتناسق مع تعابير الوجه. هذا التنسيق بين عناصر الحركة المختلفة هو ما تراهن عليه AheadForm لتجاوز uncanny valley — تلك النقطة المزعجة حيث يبدو الشيء شبيهاً بالإنسان لكنه يثير شعوراً بعدم الارتياح.\n\nالشركة تؤمن أن الوجوه الواقعية lifelike faces مع لغة جسد منسقة coordinated body language قادرة على سد هذه الفجوة وجعل الروبوتات مقبولة ومريحة للتفاعل البشري.",
+  "why_it_matters": "يمثل تقدماً في محاكاة السلوك البشري الطبيعي في الروبوتات، ويعكس اتجاه الصين نحو دمج الشخصيات الخيالية بالواقع الفيزيائي، وهو محاولة جادة لحل مشكلة uncanny valley التي تعيق قبول الروبوتات الشبيهة بالبشر.",
+  "original_text": "China’s getting really, really close to Ex Machina.\n\nthis is Elf-Xuan 2.0, a hyper-realistic elf robot from Shanghai’s AheadForm.\n\n> AheadForm wants to pull characters out of games, movies and our imaginations and give them physical bodies\n\n> that’s why Xuan was built as an elf\n\n> she even has lore: an elven princess whose body vanished between dimensions before her soul was fused with a mechanical core\n\n> notice how good the body language is too: her eyes shift, her shoulders turn, her posture changes and her hands move with the expression on her face\n\n> their mission is to push humanoid robots past the uncanny valley, the creepy point where something looks human but still feels wrong\n\n> AheadForm believes lifelike faces and coordinated body language can close that gap",
+  "glossary": [
+   {
+    "term": "uncanny valley",
+    "ar": "وادي الغرابة: نقطة في التشابه مع الإنسان تثير الانزعاج بدلاً من الألفة"
+   },
+   {
+    "term": "body language",
+    "ar": "لغة الجسد"
+   },
+   {
+    "term": "humanoid",
+    "ar": "روبوت بشري الشكل"
+   }
+  ],
+  "content_types": [
+   "Announcement",
+   "Demo"
+  ],
+  "domains": [
+   "Robotics",
+   "AI"
+  ],
+  "entities": [
+   {
+    "name": "AheadForm",
+    "type": "company"
+   },
+   {
+    "name": "Elf-Xuan 2.0",
+    "type": "product"
+   }
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 58,
+  "metrics": {
+   "likes": 45,
+   "replies": 8,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 17,
+   "views": 6406
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "CodeByPoonam",
+    "url": "https://x.com/CodeByPoonam/status/2090371318529347767"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c591",
+  "serial": 591,
+  "serial_display": "#000591",
+  "source_type": "x",
+  "source_url": "https://x.com/shadcn/status/2090682530358075662",
+  "source_native_id": "2090682530358075662",
+  "source_name": "shadcn",
+  "source_site": "x.com",
+  "author": "shadcn",
+  "published_at": "2026-08-21T06:08:52Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إعادة تنفيذ كامل مكتبة shadcn للرسوم البيانية باستخدام TanStack Charts",
+  "arabic_summary": "مطور أعاد بناء كامل كتالوج الرسوم البيانية charts catalog من مكتبة shadcn باستخدام مكتبة TanStack Charts. المشروع متاح عبر رابط مخصص على موقع TanStack، ويوفر بديلاً لمطوري واجهات المستخدم الذين يفضلون استخدام TanStack بدلاً من المكتبات الأخرى.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر خياراً جديداً لمطوري React الذين يستخدمون shadcn ويريدون الاستفادة من قوة TanStack Charts، ويُظهر إمكانية التكامل بين مكتبات UI الحديثة.",
+  "original_text": "RT @tannerlinsley: I reimplemented the entire shadcn chart catalog with TanStack Charts\n\nhttps://t.co/E6TRvFBtYQ",
+  "glossary": [],
+  "content_types": [
+   "Tool",
+   "Release"
+  ],
+  "domains": [
+   "Software Development",
+   "UI"
+  ],
+  "entities": [
+   {
+    "name": "TanStack Charts",
+    "type": "library"
+   },
+   {
+    "name": "shadcn",
+    "type": "library"
+   }
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 30,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1106
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [
+   "https://tanstack.com/charts/catalog/collections/shadcn"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c592",
+  "serial": 592,
+  "serial_display": "#000592",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2090520889951728009",
+  "source_native_id": "2090520889951728009",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-20T19:26:34Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "استخدام منهجية Red Team و Blue Team في المحادثة مع نماذج اللغة الكبيرة",
+  "arabic_summary": "أسلوب prompt يحاكي منهجية الفريق الأحمر (الهجوم/النقد) والفريق الأزرق (الدفاع/التحسين) المستخدمة في الأمن السيبراني، لكن هنا تُطبق على تحليل الأفكار والقرارات. يُطلب من النموذج فحص الموضوع من زاويتين متعارضتين للوصول لتقييم أكثر موضوعية وقوة. القالب يشمل: الموضوع، السياق، الهدف، والقيود.",
+  "detailed_explanation": "",
+  "why_it_matters": "يساعد في الحصول على تحليل أعمق وأكثر توازناً من نماذج اللغة، بدلاً من الردود السطحية، عبر إجبار النموذج على التفكير النقدي من وجهات نظر متعارضة.",
+  "original_text": "Red Team و Blue Team\n\nهل تستخدمها في التحادث مع ChatGPT أو Claude أو Gemini ؟\n\nالفكرة: 🔴 🔵 في الانفوجرافيك👇🏻\n\nالـ Prompt\n\n\"أريدك أن تحلل الموضوع الذي سأقدمه باستخدام منهجية الفريق الأحمر والفريق الأزرق، بهدف الوصول إلى تقييم أكثر قوة وموضوعية.\n\nالموضوع\n[ضع هنا الفكرة، الخطة، القرار، المشروع، الاستراتيجية أو المقترح]\n\nالسياق\n[ضع هنا المعلومات المهمة لفهم الموضوع]\n\nالهدف\n[ما الذي أحاول تحقيقه؟]\n\nالقيود\n[الميزانية، الوقت، الأنظمة، الموارد، الجمهور، أو أي قيود أخرى]\"",
+  "glossary": [
+   {
+    "term": "Red Team",
+    "ar": "فريق أحمر: فريق يحاكي الهجوم أو النقد لاختبار نقاط الضعف"
+   },
+   {
+    "term": "Blue Team",
+    "ar": "فريق أزرق: فريق يدافع ويحسّن ويقوي النظام"
+   }
+  ],
+  "content_types": [
+   "Prompt",
+   "Tutorial"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Personal Productivity"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 55,
+  "metrics": {
+   "likes": 28,
+   "replies": 0,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 21,
+   "views": 3001
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c593",
+  "serial": 593,
+  "serial_display": "#000593",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2090410099843944559",
+  "source_native_id": "2090410099843944559",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-08-20T12:06:20Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مشكلة طرد مستخدمي تطبيق Codex من OpenAI والحل المؤقت عبر الإضافات",
+  "arabic_summary": "مستخدمو تطبيق Codex من OpenAI يواجهون مشكلة طرد متكررة بسبب تضارب في سياسات التحقق Auth token policy conflict من سيرفرات OpenAI نفسها. الحل المؤقت المقترح هو استخدام إضافة VS Code أو محرر Cursor حتى يتم إصلاح المشكلة، مع رابط للإضافة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يؤثر على تجربة المطورين المستخدمين لـ Codex، ويشير لمشكلة بنيوية في البنية التحتية لـ OpenAI تحتاج معالجة سريعة.",
+  "original_text": "اذا تواجه مشكلة ان تطبيق Codex يطردك هذه مشكلة عامة ومن نفس سيرفرات OpenAI (تضارب شروط التحقق Auth token policy conflict)\n\nالحل رح استعمل اضافة Vscode او Cursor لين تزين\nهذا رابطها\nhttps://t.co/ClvKChSojM https://t.co/I8OPXom2qt",
+  "glossary": [
+   {
+    "term": "Auth token policy conflict",
+    "ar": "تضارب في سياسة رموز التحقق"
+   }
+  ],
+  "content_types": [
+   "News",
+   "Guide"
+  ],
+  "domains": [
+   "Software Development",
+   "Coding",
+   "AI"
+  ],
+  "entities": [
+   {
+    "name": "OpenAI",
+    "type": "company"
+   },
+   {
+    "name": "Codex",
+    "type": "product"
+   }
+  ],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 28,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 26,
+   "views": 12151
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [
+   "https://learn.chatgpt.com/docs/codex/ide"
+  ],
+  "quoted": null,
+  "cluster_id": "codex_auth_issue",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c594",
+  "serial": 594,
+  "serial_display": "#000594",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2090519850431000974",
+  "source_native_id": "2090519850431000974",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-08-20T19:22:26Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ChatGPT Sites يضيف ميزة التعاون بين عدة محررين على نفس المشروع",
+  "arabic_summary": "أصبح بإمكان مستخدمي ChatGPT Sites إضافة محررين آخرين editors لنفس المشروع، ليتمكنوا من البناء والنشر معاً. المحررون يستطيعون دفع التعديلات push changes لنفس المشروع، بينما يدير Codex عمليات git والنشر المستمر CI خلف الكواليس. مثال: لعبة يمكن تعديل قوانينها، أو مكتبة يضيف لها الجميع.",
+  "detailed_explanation": "",
+  "why_it_matters": "يحول ChatGPT Sites من أداة فردية لبناء المواقع إلى منصة تعاونية، مما يفتح المجال لمشاريع جماعية تعليمية أو إبداعية دون الحاجة لفهم عميق بـ git أو DevOps.",
+  "original_text": "الحين صار يمديك تعزم اخوياك يعدلون مواقعك اللي مستضافة في ChatGPT\n\nمسوي لعبة؟ يقدرون يعدلون القوانين\nمسوين مكتبة؟ اي احد يقدر يضيف فيها\n\nصراحة ميزة جميلة وحنا مسوين موقع مكتبة بس الكتب HTML نتعلم انا واصحابي بس مستضافة في كلاود فلير",
+  "glossary": [
+   {
+    "term": "CI",
+    "ar": "التكامل المستمر Continuous Integration"
+   },
+   {
+    "term": "git",
+    "ar": "نظام إدارة الإصدارات"
+   }
+  ],
+  "content_types": [
+   "Feature"
+  ],
+  "domains": [
+   "AI",
+   "Software Development",
+   "Coding"
+  ],
+  "entities": [
+   {
+    "name": "ChatGPT Sites",
+    "type": "product"
+   },
+   {
+    "name": "Codex",
+    "type": "product"
+   }
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 25,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 22,
+   "views": 6033
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Add teammates as editors to your ChatGPT Sites so you can build and publish together.\n\nCollaborators can push changes to the same project while Codex handles git management and CI behind the scenes. https://t.co/NiG1NQE59i"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c595",
+  "serial": 595,
+  "serial_display": "#000595",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2090376870810505276",
+  "source_native_id": "2090376870810505276",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-08-20T09:54:17Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تقدم سنة مجانية من Google AI Plus لطلاب الجامعات الهنود",
+  "arabic_summary": "Google تعرض على طلاب الجامعات المؤهلين في الهند سنة كاملة مجانية من Google AI Plus، تشمل: Gemini Omni، ضعف حدود الاستخدام usage limits في Gemini، و400 جيجابايت تخزين. كما تقدم باقة مجمعة Google AI Pro + YouTube Premium بخصم يصل لـ70% لمن يريد محتوى بلا إعلانات.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعكس استراتيجية Google لاستهداف الطلاب مبكراً وبناء قاعدة مستخدمين مخلصة في سوق هندي ضخم ومتنامٍ، مع تقديم وصول مجاني لأدوات ذكاء اصطناعي متقدمة.",
+  "original_text": "🚨 Google is giving Indian college students one full year of Google AI Plus, free. Gemini Omni, 2x usage limits, 400GB storage, all of it 👇\n\nhere's the full offer:\n→ one year of Google AI Plus at no cost for eligible college students in India\n→ includes Gemini Omni, 2x higher usage limits in Gemini, and 400GB of storage\n→ want ad-free music and video too? Google AI Pro + YouTube Premium bundled at up to 70% off",
+  "glossary": [],
+  "content_types": [
+   "Announcement"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Education"
+  ],
+  "entities": [
+   {
+    "name": "Google",
+    "type": "company"
+   },
+   {
+    "name": "Gemini",
+    "type": "product"
+   }
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 29,
+   "replies": 10,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 5560
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c596",
+  "serial": 596,
+  "serial_display": "#000596",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2090659493965181032",
+  "source_native_id": "2090659493965181032",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-21T04:37:20Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Anthropic تطلق Claude Academy لتعليم الاستخدام الفعال للذكاء الاصطناعي",
+  "arabic_summary": "Anthropic أطلقت منصة Claude Academy، وهي منصة تعليمية تهدف لتعليم المستخدمين كيفية استخدام Claude وأدوات الذكاء الاصطناعي بشكل أفضل. تقدم دروساً وتمارين عملية لكتابة prompts أفضل والاستفادة من قدرات الذكاء الاصطناعي في العمل والتعلم والمهام اليومية. الفلسفة: كلما فهم المستخدم الأداة أكثر، استطاع إخراج نتائج أفضل منها.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل نقلة من توفير الأداة فقط إلى تمكين المستخدم من إتقانها، مما يرفع سقف الاستفادة من نماذج اللغة الكبيرة ويقلل الفجوة بين الإمكانيات الفعلية والاستخدام الواقعي.",
+  "original_text": "أنثروبيك تبي تعلمك تستخدم Claude صح!\n\nAnthropic أطلقت Claude Academy، وهي منصة تعليمية تساعد الناس يتعلمون كيف يستخدمون Claude وأدوات الذكاء الاصطناعي بشكل أفضل.\n\nيعني بدل ما تدخل على Claude وتسأله بشكل عشوائي، الأكاديمية تعطيك دروس وتمارين توضّح لك كيف تكتب طلبات أفضل، وكيف تستفيد من قدرات الذكاء الاصطناعي في الشغل والتعلم والمهام اليومية.\n\nوالفكرة من الخطوة واضحة: كل ما فهم المستخدم الذكاء الاصطناعي أكثر، عرف كيف يستخدمه أكثر ويطلع منه نتائج أفضل.\n\nوفي نقطة مهمة بعد: التجربة نفسها جزء من التعلم. يعني مو لازم تحفظ كل شيء نظريًا، جرّب، غيّر سؤالك، قارن النتائج، ومع الوقت بتفهم كيف تتعامل مع الأداة بشكل أفضل.",
+  "glossary": [],
+  "content_types": [
+   "Announcement",
+   "Course"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Education"
+  ],
+  "entities": [
+   {
+    "name": "Anthropic",
+    "type": "company"
+   },
+   {
+    "name": "Claude",
+    "type": "product"
+   },
+   {
+    "name": "Claude Academy",
+    "type": "product"
+   }
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 18,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 3017
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Learn more about how we approach teaching and learning AI, and where Claude Academy fits in: https://t.co/brylPStZf2"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c597",
+  "serial": 597,
+  "serial_display": "#000597",
+  "source_type": "x",
+  "source_url": "https://x.com/huggingface/status/2090372091409264646",
+  "source_native_id": "2090372091409264646",
+  "source_name": "Hugging Face",
+  "source_site": "x.com",
+  "author": "huggingface",
+  "published_at": "2026-08-20T09:35:18Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Dataset جديد HiPHI بـ 617.5 ساعة حركة بشرية عالية الدقة",
+  "arabic_summary": "أُعلن عن HiPHI، مجموعة بيانات dataset تحتوي على 617.5 ساعة من حركة بشرية عالية الدقة high-precision human motion وتفاعل مع الأشياء object interaction. توصف بأنها واحدة من أكبر مجموعات البيانات من نوعها، وأصبحت متاحة للعموم.",
+  "detailed_explanation": "",
+  "why_it_matters": "توفر بيانات ضخمة وعالية الجودة لتدريب نماذج الحركة البشرية، الروبوتات، والرسوم المتحركة، مما يسرّع البحث في فهم الحركة البشرية والتفاعل الفيزيائي.",
+  "original_text": "RT @noitomrobotics: Today we made HiPHI public: 617.5 hours of high-precision human motion and object interaction — one of the largest data…",
+  "glossary": [
+   {
+    "term": "high-precision human motion",
+    "ar": "حركة بشرية عالية الدقة"
+   },
+   {
+    "term": "object interaction",
+    "ar": "تفاعل مع الأشياء"
+   }
+  ],
+  "content_types": [
+   "Dataset",
+   "Research Paper"
+  ],
+  "domains": [
+   "AI",
+   "Robotics",
+   "Research"
+  ],
+  "entities": [
+   {
+    "name": "HiPHI",
+    "type": "dataset"
+   }
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 14,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 2791
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c598",
+  "serial": 598,
+  "serial_display": "#000598",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2090430129357132064",
+  "source_native_id": "2090430129357132064",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-08-20T13:25:55Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "محاضرة من NBER حول التقدير والاستنتاج باستخدام بيانات مُولّدة بالذكاء الاصطناعي",
+  "arabic_summary": "محاضرة بعنوان «Estimation and Inference with AI-Generated Data» ضمن سلسلة NBER Methods Lecture، قدمتها Melissa Dell من Harvard وNBER، و Ashesh Rambachan من MIT. تتناول كيفية استخدام البيانات المولّدة بالذكاء الاصطناعي في التحليل الإحصائي والاستنتاج في الأبحاث الأكاديمية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعالج تحدياً منهجياً مهماً: كيفية الوثوق والاعتماد على البيانات المُنتجة بواسطة الذكاء الاصطناعي في الأبحاث العلمية، وهي قضية متنامية مع انتشار استخدام النماذج التوليدية.",
+  "original_text": "AI for academic research:\n\n\"Estimation and Inference with AI-Generated Data\"\nNBER Methods Lecture\n\nfrom Melissa Dell (Harvard, NBER) and Ashesh Rambachan (MIT)\n\nlink in reply below https://t.co/SwRjjgAoTI",
+  "glossary": [
+   {
+    "term": "Estimation and Inference",
+    "ar": "التقدير والاستنتاج الإحصائي"
+   }
+  ],
+  "content_types": [
+   "Course",
+   "Research Paper"
+  ],
+  "domains": [
+   "AI",
+   "Research",
+   "Data"
+  ],
+  "entities": [
+   {
+    "name": "NBER",
+    "type": "organization"
+   },
+   {
+    "name": "Melissa Dell",
+    "type": "person"
+   },
+   {
+    "name": "Ashesh Rambachan",
+    "type": "person"
+   }
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 8,
+   "replies": 4,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 869
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c599",
+  "serial": 599,
+  "serial_display": "#000599",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2090462699545391354",
+  "source_native_id": "2090462699545391354",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-20T15:35:21Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "موظفو T-Mobile يقطعون كابل شبكي بالمقص لوقف اختراق Salt Typhoon الصيني",
+  "arabic_summary": "كشف موظفو أمن T-Mobile أنهم في 2024 قطعوا كابل شبكي فعلياً داخل مركز بيانات في بيلفيو بواشنطن لوقف هجوم من مجموعة Salt Typhoon الصينية المدعومة حكومياً. المجموعة دخلت عبر شبكة مزود سلكي ثالث مخترق، مما أجبر T-Mobile على حل ميداني طارئ. الحادثة توضح أن الاعتماد على موردين خارجيين يخلق نقاط ضعف يصعب مراقبتها رقمياً فقط.",
+  "detailed_explanation": "الحادثة تمثل واحدة من أبرز الأمثلة على استراتيجيات الدفاع الطارئة في البنية التحتية الحرجة. مجموعة Salt Typhoon — التي تُعتبر من أخطر الجهات الفاعلة في مجال التجسس الإلكتروني — تمكنت من اختراق شبكة T-Mobile ليس عبر ثغرة مباشرة، بل عبر **مزود طرف ثالث** مخترق مسبقاً.\n\nهذا النوع من الهجمات يُعرف بـ **supply chain attack**، حيث يستغل المهاجمون الثقة بين المؤسسات والموردين الخارجيين. في هذه الحالة، كان المزود السلكي الثالث بمثابة جسر غير مرئي أتاح للمهاجمين الوصول إلى بيئة T-Mobile الداخلية.\n\nالقرار بقطع الكابل فيزيائياً — وليس فقط عزل الاتصال منطقياً — يشير إلى أن الفرق الأمنية لم تثق في كفاية الفصل البرمجي، أو أنها أرادت ضمان انقطاع فوري ونهائي للاتصال بدون احتمالية استئنافه عن بُعد من قبل المهاجمين.\n\nهذا الإجراء يعكس **فجوة في نموذج Zero Trust** عند التعامل مع موردين خارجيين، ويؤكد أن المراقبة الرقمية وحدها — مهما كانت متقدمة — قد لا تكفي عندما يكون المهاجم قد تمركز بالفعل داخل البنية التحتية عبر طرف موثوق.",
+  "why_it_matters": "يكشف عن حدود الحلول الأمنية البرمجية في مواجهة هجمات سلسلة التوريد، ويُظهر أن الإجراءات الفيزيائية (air-gapping) قد تبقى الملاذ الأخير عند اختراق البنية التحتية الحرجة.",
+  "original_text": "كشف موظفو الأمن في T-Mobile أنهم في 2024 قطعوا كابل شبكي بمقص داخل مركز بيانات في بيلفيو بواشنطن.\n\nالسبب؟ محاولات اختراق من مجموعة Salt Typhoon الصينية المدعومة حكومياً، التي دخلت عبر شبكة مزود سلكي ثالث مخترق.\n الاعتماد على مزودين خارجيين يخلق نقاط ضعف يصعب مراقبتها رقمياً فقط.\n\nبلومبرغ",
+  "glossary": [
+   {
+    "term": "Salt Typhoon",
+    "ar": "مجموعة تجسس إلكتروني صينية مدعومة حكومياً"
+   },
+   {
+    "term": "supply chain attack",
+    "ar": "هجوم عبر سلسلة التوريد"
+   },
+   {
+    "term": "air-gapping",
+    "ar": "عزل فيزيائي تام عن الشبكات"
+   }
+  ],
+  "content_types": [
+   "News",
+   "Case Study"
+  ],
+  "domains": [
+   "Cybersecurity",
+   "Operations"
+  ],
+  "entities": [
+   "T-Mobile",
+   "Salt Typhoon"
+  ],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 18,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 6978
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "tmobile_salt_typhoon",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c600",
+  "serial": 600,
+  "serial_display": "#000600",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2090657731778597129",
+  "source_native_id": "2090657731778597129",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-21T04:30:20Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة داخل Claude Code لإنتاج فيديو كامل من النص إلى MP4 تلقائياً",
+  "arabic_summary": "أداة تعمل داخل Claude Code تحوّل فكرة مكتوبة إلى فيديو نهائي بصيغة MP4 عبر سلسلة تنفيذ تلقائية: كتابة السكريبت، تحويله إلى تعليق صوتي بـ Qwen3-TTS، توليد المشاهد البصرية بـ FLUX.2، ثم دمج الصوت والصور في فيديو جاهز. الأداة توحّد العملية كاملة داخل Workflow واحد بدلاً من التنقل بين أدوات متعددة.",
+  "detailed_explanation": "الأداة تمثل مثالاً على **Agentic Workflow** حيث يتولى Agent داخل Claude Code تنسيق عدة مهام توليدية متتالية:\n\n١. **كتابة السكريبت**: يبدأ من فكرة نصية ويولّد نص السيناريو.\n\n٢. **التعليق الصوتي**: يستخدم **Qwen3-TTS** (نموذج Text-to-Speech) لتحويل النص إلى ملف صوتي.\n\n٣. **توليد المشاهد**: يستخدم **FLUX.2** (نموذج توليد صور) لإنشاء الصور/المشاهد البصرية الموافقة للنص.\n\n٤. **الدمج والرندر**: يجمع الصوت والمشاهد في ملف فيديو MP4 نهائي.\n\nالميزة الأساسية هنا ليست في كل نموذج على حدة، بل في **التكامل والأتمتة**: بدلاً من أن يقوم المستخدم بتشغيل كل خطوة يدوياً في أدوات منفصلة (ChatGPT للنص، ElevenLabs للصوت، Midjourney للصور، Premiere للمونتاج)، يُنفّذ كل شيء داخل Claude Code كـ **pipeline واحد**.\n\nهذا النوع من الأدوات مفيد جداً للمنتجين الذين يعتمدون على **synthetic media** مثل: فيديوهات الأخبار التقنية، الشروحات التعليمية، القصص المصوّرة، ومحتوى السوشال ميديا السريع.\n\nالتحدي الحقيقي يبقى في **جودة المخرجات** ومدى واقعية الصوت والصور، وقدرة الأداة على التعامل مع سيناريوهات معقدة (مثل تزامن الحركة مع الكلام، أو التحكم في أسلوب السرد البصري).",
+  "why_it_matters": "تُبسّط إنتاج الفيديوهات الآلية (بدون تصوير) للمحتوى التقني والتعليمي والإخباري، وتُظهر قدرة Claude Code على تنسيق عدة نماذج توليدية (نص، صوت، صورة، فيديو) داخل بيئة واحدة.",
+  "original_text": "أداة داخل Claude Code تسوي لك فيديو كامل من الصفر\n\nتخيل تكتب فكرة الفيديو فقط، والأداة تتولى الباقي تقريبًا لين تطلع لك ملف MP4 جاهز.\n\nالمشروع يشتغل داخل Claude Code، ويقدر يبني الفيديو على عدة مراحل:\n\nأول شيء يكتب السكريبت، وبعدها يحوّل النص إلى تعليق صوتي باستخدام Qwen3-TTS.\n\nثم يستخدم FLUX.2 لتوليد الصور والمشاهد البصرية المناسبة للكلام، وبعدها يجمع الصوت والمشاهد ويرندرها كفيديو نهائي بصيغة MP4.\n\nيعني بدل ما تكتب النص في مكان، وتسوي الصوت في أداة ثانية، وتولد الصور في خدمة ثالثة، وبعدها تدخل برنامج مونتاج… الفكرة هنا إن العملية كلها تكون أقرب إلى Workflow واحد داخل Claude Code.\n\nوممكن تكون مفيدة خصوصًا للي ينتجون فيديوهات بدون تصوير، مثل الأخبار التقنية، الشروحات، القصص، أو فيديوهات السوشال ميديا.",
+  "glossary": [
+   {
+    "term": "Workflow",
+    "ar": "سير عمل تلقائي"
+   },
+   {
+    "term": "TTS",
+    "ar": "تحويل النص إلى كلام منطوق"
+   },
+   {
+    "term": "synthetic media",
+    "ar": "محتوى مُصنّع بالكامل من نماذج توليدية"
+   }
+  ],
+  "content_types": [
+   "Tool",
+   "Workflow",
+   "Demo"
+  ],
+  "domains": [
+   "AI",
+   "Content",
+   "Video",
+   "Automation"
+  ],
+  "entities": [
+   "Claude Code",
+   "Qwen3-TTS",
+   "FLUX.2"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 10,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 1089
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c601",
+  "serial": 601,
+  "serial_display": "#000601",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2090496588326359271",
+  "source_native_id": "2090496588326359271",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-08-20T17:50:00Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "SenseNova U1.5 Lite: نموذج بصري مفتوح المصدر يدمج الفهم والتوليد والتحرير في نموذج واحد",
+  "arabic_summary": "SenseNova أطلقت نموذج U1.5 Lite مفتوح المصدر، يدمج الفهم البصري والتوليد والتحرير في نموذج واحد. يدعم التوليد بدقة 2K/4K، ويتبع تعليمات معقدة متعددة القيود، ويتعامل مع النصوص الصينية والإنجليزية في تصاميم كثيفة، ويحرّر الصور بدقة دون إعادة بنائها من الصفر. تم تدريبه باستخدام Task-oriented RL مع تركيز على الالتزام بالتعليمات والجودة البصرية والحفاظ على التحريرات.",
+  "detailed_explanation": "**SenseNova U1.5 Lite** هو نموذج **unified multimodal** يجمع ثلاث قدرات في نموذج واحد:\n\n١. **Visual Understanding**: فهم الصور والسياق البصري.\n\n٢. **Image Generation**: توليد صور جديدة من نص أو تعليمات معقدة.\n\n٣. **Image Editing**: تعديل صور موجودة بدقة، مع الحفاظ على العناصر الأساسية بدون إعادة بناء كامل.\n\nما يميّز هذا النموذج:\n\n**دقة عالية أصلية (Native 2K/4K)**: يولّد صوراً بدقة عالية مباشرة، بدون حاجة لـ upscaling لاحق.\n\n**Complex instruction following**: يتعامل مع تعليمات معقدة تحتوي على قيود متعددة (عدد عناصر، نصوص، تخطيطات، أنماط).\n\n**دعم ثنائي اللغة**: يعالج ويولّد نصوصاً صينية وإنجليزية داخل الصور بشكل دقيق، وهو نادر في النماذج المفتوحة.\n\n**Task-oriented RL**: تم تدريبه باستخدام **Reinforcement Learning** موجّه نحو المهام، بتركيز على ثلاثة أبعاد:\n   - **Adherence**: الالتزام الدقيق بالتعليمات.\n   - **Visual quality**: الجودة البصرية والواقعية.\n   - **Edit preservation**: الحفاظ على العناصر غير المعدّلة عند التحرير.\n\nهذا النهج يجعل النموذج **أكثر قابلية للتحكم** من نماذج التوليد العامة، ويناسب سير العمل الإبداعي الحقيقي الذي يتطلب تعديلات متعددة ودقيقة.\n\nكونه **مفتوح المصدر** يعني أن المطورين والشركات يمكنهم استضافته محلياً، وتخصيصه، ودمجه في أدواتهم دون الاعتماد على APIs خارجية مدفوعة.",
+  "why_it_matters": "يمثل خطوة نحو نماذج بصرية موحدة (unified multimodal) قادرة على تغطية كامل دورة العمل الإبداعي — من الفهم إلى التوليد إلى التحرير — ضمن نموذج واحد مفتوح المصدر، مما يقلل الحاجة لتبديل الأدوات.",
+  "original_text": "🚨 BREAKING: SenseNova just open sourced a visual AI model built for the messy part of real creative work.\n\nSenseNova U1.5 Lite can handle:\n→ Complex prompts with multiple constraints\n→ Chinese and English text in dense layouts\n→ Native 2K/4K high-resolution generation\n→ Precise image edits without rebuilding everything\n\nIts task-oriented RL focuses on adherence, visual quality and edit preservation.\n\nOne model. A more complete workflow.\n\nStar the repo: https://t.co/jC2e8CNGsV",
+  "glossary": [
+   {
+    "term": "Unified Multimodal",
+    "ar": "نموذج متعدد الوسائط موحد يجمع عدة قدرات"
+   },
+   {
+    "term": "Task-oriented RL",
+    "ar": "تعلم معزز موجه نحو مهام محددة"
+   },
+   {
+    "term": "Upscaling",
+    "ar": "تكبير الدقة لاحقاً"
+   }
+  ],
+  "content_types": [
+   "Release"
+  ],
+  "domains": [
+   "AI",
+   "ML",
+   "Design",
+   "Creative"
+  ],
+  "entities": [
+   "SenseNova"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 9,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 27985
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "𝗦𝗲𝗻𝘀𝗲𝗡𝗼𝘃𝗮 𝗨𝟭.𝟱 𝗟𝗶𝘁𝗲 — 𝗦𝗵𝗮𝗿𝗽𝗲𝗿. 𝗠𝗼𝗿𝗲 𝗖𝗼𝗻𝘁𝗿𝗼𝗹𝗹𝗮𝗯𝗹𝗲. 𝗠𝗼𝗿𝗲 𝗖𝗼𝘀𝘁-𝗘𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁. An 𝗼𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲, lightweight native unified multimodal model for visual understanding, generation & editing.\n\n𝗕𝘂𝗶𝗹𝘁 𝗳𝗼𝗿 𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝘃𝗶𝘀𝘂𝗮𝗹 𝗮𝗿𝘁𝗶𝗳𝗮𝗰𝘁 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀:\n🔹𝗡𝗮𝘁𝗶𝘃𝗲 𝟰𝗞 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 with better detail, composition & realism\n🔹𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻 𝗳𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴 across subjects, counts, text, layouts & styles\n🔹𝗘𝗻𝗵𝗮𝗻𝗰𝗲𝗱 𝗖𝗵𝗶𝗻𝗲𝘀𝗲/𝗘𝗻𝗴𝗹𝗶𝘀𝗵 𝘁𝗲𝘅"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c602",
+  "serial": 602,
+  "serial_display": "#000602",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2090520824851649023",
+  "source_native_id": "2090520824851649023",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-08-20T19:26:19Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Modular تُطلق لغة Mojo مفتوحة المصدر بالكامل تحت رخصة Apache 2.0",
+  "arabic_summary": "Modular أعلنت قبل يومين إطلاق لغة البرمجة Mojo كمشروع مفتوح المصدر بالكامل تحت رخصة Apache 2.0. الإصدار يتضمن الـ compiler الخاص بـ Mojo، وأدوات التطوير والـ toolchain، والمكتبة القياسية، وأمثلة، وجزء من البنية التحتية الخاصة بالـ AI، بالإضافة إلى CPU وGPU kernels الخاصة بـ Modular.",
+  "detailed_explanation": "**Mojo** هي لغة برمجة طوّرتها Modular بهدف الجمع بين **سهولة Python** و**أداء C++**، مع تركيز خاص على **workloads الذكاء الاصطناعي** والحوسبة عالية الأداء.\n\nالإعلان عن فتح المصدر تحت **رخصة Apache 2.0** يعني:\n\n١. **شفافية كاملة**: يمكن لأي مطور فحص كود الـ compiler والأدوات والمكتبات.\n\n٢. **إمكانية المساهمة**: المجتمع يمكنه المساهمة في تطوير اللغة وإصلاح الأخطاء وإضافة ميزات.\n\n٣. **حرية الاستخدام التجاري**: الرخصة تسمح بالاستخدام التجاري دون قيود.\n\nما يتضمنه الإصدار:\n\n**Compiler**: محرّك الترجمة الذي يحوّل كود Mojo إلى كود آلي محسّن.\n\n**Toolchain & SDK**: أدوات التطوير والبناء.\n\n**Standard Library**: المكتبة القياسية التي توفر الوظائف الأساسية.\n\n**AI Infrastructure**: أجزاء من البنية التحتية المصممة لتسريع workloads الـ AI.\n\n**CPU & GPU Kernels**: نوى محسّنة للمعالجات المركزية وبطاقات الرسوميات، مما يعني أداءً عالياً في عمليات التدريب والاستدلال.\n\nالإصدار يُمثل **كنزاً** لمطوري الـ AI لأنه:\n\n- يوفر بديلاً **عالي الأداء** لـ Python في السياقات التي تتطلب سرعة (مثل training loops، inference servers).\n\n- يتيح **التحكم الكامل** في الأداء على مستوى الـ hardware دون التضحية بسهولة الكتابة.\n\n- يقلل الاعتماد على لغات منخفضة المستوى (C++/CUDA) في بناء الـ AI infrastructure.\n\nهذه الخطوة قد تسرّع تبنّي Mojo كبديل جدي في مشاريع الـ AI production.",
+  "why_it_matters": "يفتح المجال لمطوري الـ AI لاستخدام لغة عالية الأداء مصممة خصيصاً للذكاء الاصطناعي، ويتيح الفحص والمساهمة في الكود الأساسي، مما قد يسرّع تبنيها في مشاريع البنية التحتية للـ AI.",
+  "original_text": "قبل يومين Modular نزلوا Mojo مفتوح المصدر\nالرخصة Apache 2.0. داخله الكود  للـ compiler حق Mojo، وأدوات التطوير والـ toolchain، والمكتبة القياسية، وأمثلة وجزء من الـ AI infrastructure، وزيادة عليها الـ CPU وGPU kernels حق Modular.\nhttps://t.co/9kvFMHPk2w\n\nكنز لمطورين الـ AI",
+  "glossary": [
+   {
+    "term": "Compiler",
+    "ar": "مترجم اللغة البرمجية إلى كود آلي"
+   },
+   {
+    "term": "Toolchain",
+    "ar": "سلسلة أدوات التطوير والبناء"
+   },
+   {
+    "term": "Kernel",
+    "ar": "نواة حسابية محسّنة"
+   },
+   {
+    "term": "Inference",
+    "ar": "الاستدلال (تشغيل النموذج على بيانات جديدة)"
+   }
+  ],
+  "content_types": [
+   "Release",
+   "Announcement"
+  ],
+  "domains": [
+   "AI",
+   "ML",
+   "Software Development",
+   "Coding"
+  ],
+  "entities": [
+   "Modular",
+   "Mojo"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 7,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 662
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [
+   "https://www.modular.com/blog/mojo-open-source"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c603",
+  "serial": 603,
+  "serial_display": "#000603",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2090657251803729920",
+  "source_native_id": "2090657251803729920",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-21T04:28:26Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI ترد على قرار Anthropic بالاحتفاظ بالبيانات: تقنية Private Safety Processing بدون تخزين",
+  "arabic_summary": "Anthropic فرضت مؤخراً احتفاظاً ببيانات العملاء لمدة 30 يوماً على نماذجها الأقوى (Fable 5 وMythos 5) بحجة السلامة، مما أثار قلق الشركات في القطاعات الحساسة. OpenAI ردّت بإعلان تقنية Private Safety Processing الجديدة، التي تتيح مراقبة إساءة الاستخدام عبر جلسات متعددة دون الاحتفاظ بأي بيانات — البيانات تبقى عند العميل أو مشفرة بمفاتيحه.",
+  "detailed_explanation": "المنافسة بين **OpenAI** و**Anthropic** على عملاء الشركات دخلت مرحلة جديدة تركّز على **الخصوصية وأمان البيانات** كعامل تنافسي أساسي، وليس فقط الأداء أو السعر.\n\n**خطوة Anthropic**:\n\nأعلنت أن نماذجها الأقوى (**Fable 5** و**Mythos 5**) ستحتفظ ببيانات العملاء لمدة **30 يوماً** بهدف \"السلامة\" — أي مراقبة إساءة الاستخدام والكشف عن الأنماط الضارة.\n\nهذا القرار أثار **قلقاً كبيراً** لدى الشركات، خاصة في القطاعات الحساسة (صحة، مالية، قانونية) التي تخضع لقوانين صارمة مثل **GDPR** و**HIPAA**، ولا يمكنها قبول تخزين بياناتها خارج بيئتها لأي مدة.\n\n**رد OpenAI**:\n\nأطلقت تقنية جديدة اسمها **Private Safety Processing**، تعمل على:\n\n١. **مراقبة إساءة الاستخدام عبر جلسات متعددة**: تحليل الأنماط السلوكية للكشف عن محاولات الاستغلال أو التلاعب.\n\n٢. **دون الاحتفاظ بأي بيانات**: البيانات لا تُخزّن لدى OpenAI.\n\n٣. **التشفير بمفاتيح العميل**: البيانات تبقى **عند العميل** أو تُعالج بشكل مشفّر باستخدام مفاتيح يملكها العميل فقط.\n\nهذا يعني أن OpenAI تستطيع تقديم **ضمانات السلامة** (مثل منع الاستخدام الضار) **دون المساس بخصوصية البيانات**.\n\n**لماذا يهم هذا؟**\n\nالمستخدمون المؤسسيون أصبحوا أكثر نضجاً ووعياً. المعادلة الآن:\n\n**الكفاءة + التكلفة + الأمان**\n\nلم يعد كافياً أن يكون النموذج قوياً أو رخيصاً. الشركات تطلب:\n\n- **Data residency**: البيانات لا تغادر بيئتهم.\n\n- **Zero retention**: عدم الاحتفاظ بأي بيانات بعد المعالجة.\n\n- **Encryption in use**: تشفير البيانات حتى أثناء المعالجة.\n\nهذا التحوّل يعكس نضج السوق، ويجبر مزودي النماذج على **إعادة التفكير في بنية الأمان** كجزء من عرض القيمة، وليس فقط كخاصية إضافية.",
+  "why_it_matters": "أمان البيانات أصبح ورقة تفاوض رئيسية في سوق نماذج الـ LLM للشركات، ويُظهر نضج المستخدمين الذين لم يعودوا يقبلون الكفاءة والتكلفة فقط، بل يضعون الأمان والخصوصية كشرط أساسي.",
+  "original_text": "🔥 (بياناتك) أصبحت ورقة تفاوض في حرب الـAI\n\nالمنافسة بين OpenAI وAnthropic على عملاء الشركات أخذت منحى جديداً تماماً…\n\nAnthropic\nفرضت احتفاظ ببيانات العملاء لمدة 30 يوماً على نماذجها الأقوى (Fable 5 وMythos 5) بحجة السلامة … القرار أزعج كثير من الشركات، خاصة في القطاعات الحساسة.\n\nOpenAI\nردت بسرعة: أعلنت تقنية جديدة اسمها Private Safety Processing\nتسمح بمراقبة إساءة الاستخدام عبر جلسات متعددة… بدون ما تحتفظ بأي بيانات للعميل.\nالبيانات تبقى عند العميل أو مشفرة بمفاتيحه هو.\n\nأرى هذا نضج ووعي من المستخدم الآن فهو لا يبحث عن كفاءة والتكلفة فقط. أصبحت المعادلة\n\nكفاءة + تكلفة + أمان",
+  "glossary": [
+   {
+    "term": "Data residency",
+    "ar": "بقاء البيانات داخل بيئة العميل"
+   },
+   {
+    "term": "Zero retention",
+    "ar": "عدم الاحتفاظ بالبيانات بعد المعالجة"
+   },
+   {
+    "term": "Encryption in use",
+    "ar": "تشفير البيانات حتى أثناء المعالجة"
+   },
+   {
+    "term": "GDPR",
+    "ar": "قانون حماية البيانات الأوروبي"
+   },
+   {
+    "term": "HIPAA",
+    "ar": "قانون حماية بيانات الصحة الأمريكي"
+   }
+  ],
+  "content_types": [
+   "Announcement",
+   "Feature",
+   "News"
+  ],
+  "domains": [
+   "AI",
+   "LLM",
+   "Cybersecurity",
+   "Business"
+  ],
+  "entities": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 6,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1544
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "openai_anthropic_data_retention",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c604",
+  "serial": 604,
+  "serial_display": "#000604",
+  "source_type": "x",
+  "source_url": "https://x.com/the_cyw/status/2090564714900402362",
+  "source_native_id": "2090564714900402362",
+  "source_name": "Peter Wang",
+  "source_site": "x.com",
+  "author": "the_cyw",
+  "published_at": "2026-08-20T22:20:43Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Hermai Brand API: واجهة برمجية تجلب هوية العلامات التجارية من نطاقات البريد الإلكتروني",
+  "arabic_summary": "API جديد يستخرج الشعار والألوان والثيم ووصف الشركة تلقائيًا من نطاق البريد الإلكتروني للمستخدم عند التسجيل في منتجات SaaS. يوفر 1000 طلب شهريًا مجانًا ويستهدف تطبيقات B2B التي تحتاج تخصيص الهوية البصرية لكل عميل.",
+  "detailed_explanation": "Hermai Brand API أداة موجهة لمطوري تطبيقات B2B SaaS الذين يواجهون طلبات متكررة من العملاء لتخصيص واجهة المنتج بهويتهم البصرية.\n\nالـ API يعمل بمجرد استقبال نطاق البريد الإلكتروني (مثل @company.com) عند تسجيل المستخدم، ويعيد حزمة كاملة من عناصر الهوية: الشعار بجودة عالية، ألوان العلامة التجارية، ثيم متكامل يحترم معايير Contrast للوصولية، ووصف مختصر عن نشاط الشركة.\n\nالمنتج متاح على Product Hunt ويقدم خطة مجانية تسمح بـ 1000 brand lookup شهريًا، مما يجعله مناسبًا للشركات الناشئة والمشاريع متوسطة الحجم التي تبحث عن تحسين تجربة العملاء دون بناء بنية تحتية داخلية لجلب البيانات البصرية.",
+  "why_it_matters": "يحل مشكلة شائعة في منتجات SaaS للشركات حيث يطلب العملاء تخصيص الواجهة بشعارهم وألوانهم، ويؤتمت عملية كانت تتم يدويًا.",
+  "original_text": "Every B2B SaaS eventually gets the email asking if their instance can have their logo on it.\n\nHermai Brand API does that from the email domain someone signs up with. One call gets you their logo, brand colors, a theme that won't fail contrast, and a short description of what that company does.\n\nSupport us on Product Hunt and enjoy 1000 brands a month free!",
+  "glossary": [
+   {
+    "term": "API",
+    "ar": "واجهة برمجة التطبيقات"
+   },
+   {
+    "term": "SaaS",
+    "ar": "البرمجيات كخدمة"
+   },
+   {
+    "term": "Contrast",
+    "ar": "التباين (معيار وصولية بصرية)"
+   }
+  ],
+  "content_types": [
+   "API",
+   "Announcement",
+   "Tool"
+  ],
+  "domains": [
+   "Software Development",
+   "Product",
+   "Design"
+  ],
+  "entities": [
+   "Hermai Brand API",
+   "Product Hunt"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 4,
+   "replies": 4,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 152
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c605",
+  "serial": 605,
+  "serial_display": "#000605",
+  "source_type": "x",
+  "source_url": "https://x.com/python_ar/status/2090428488830369982",
+  "source_native_id": "2090428488830369982",
+  "source_name": "مجتمع بايثون العربي",
+  "source_site": "x.com",
+  "author": "python_ar",
+  "published_at": "2026-08-20T13:19:24Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "فيديو تعليمي عربي: بناء نظام نقاط بيع POS متكامل بـ Python من الصفر",
+  "arabic_summary": "محتوى تعليمي بالعربية يشرح بناء نظام POS كامل من التخطيط المعماري وتصميم قاعدة البيانات، مرورًا بواجهة قراءة الباركود، وإدارة المخزون، وتوليد فواتير PDF، وصولًا للنشر الحي على الإنترنت.",
+  "detailed_explanation": "الفيديو من حساب @python_ar يأخذ فكرة تجارية واقعية (نظام نقاط بيع) ويحولها إلى منتج قابل للاستخدام الفعلي عبر خطوات متسلسلة.\n\nيبدأ المحتوى بتخطيط البنية المعمارية للنظام وتصميم Database Schema، ثم ينتقل لبناء واجهة Point of Sale مع دعم قراءة الباركود، يليها ربط النظام بوحدة إدارة المخزون لتتبع الكميات والمنتجات.\n\nيشمل الفيديو أيضًا آلية توليد فواتير PDF تلقائيًا، وينتهي بعملية النشر الفعلي (Deployment) على الإنترنت ليصبح النظام جاهزًا للاستخدام التجاري.\n\nالمحتوى موجه لمن لديهم معرفة أساسية بـ Python ويرغبون في بناء مشاريع عملية ذات قيمة سوقية، ويمثل مثالًا على المحتوى العربي التعليمي الموجه للتطبيق العملي.",
+  "why_it_matters": "يقدم مسارًا عمليًا كاملاً لبناء منتج تجاري حقيقي مطلوب في السوق، موجه للمبرمجين العرب الراغبين في تعلم تطوير أنظمة إدارية متكاملة.",
+  "original_text": "في هذا الفيديو نأخذ فكرة تجارية حقيقية ونحوّلها إلى منتج تجاري مطلوب في السوق خطوة بخطوة.\nنبدأ من تخطيط بنية النظام وقاعدة البيانات، ثم نبني واجهة نقاط البيع (POS) مع دعم قراءة الباركود، ونربطها بنظام إدارة مخزون وفواتير PDF ، وننهي المشروع بنشره حياً على الإنترنت جاهزاً للاستخدام الفعلي.\nhttps://t.co/DsujbZbPjX",
+  "glossary": [
+   {
+    "term": "POS",
+    "ar": "نقطة البيع"
+   },
+   {
+    "term": "Database Schema",
+    "ar": "مخطط قاعدة البيانات"
+   },
+   {
+    "term": "Deployment",
+    "ar": "النشر"
+   }
+  ],
+  "content_types": [
+   "Tutorial",
+   "Guide",
+   "Case Study"
+  ],
+  "domains": [
+   "Software Development",
+   "Coding",
+   "Business"
+  ],
+  "entities": [
+   "Python"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 36,
+  "metrics": {
+   "likes": 5,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 829
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c606",
+  "serial": 606,
+  "serial_display": "#000606",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenDesignHQ/status/2090473737195753518",
+  "source_native_id": "2090473737195753518",
+  "source_name": "Open Design",
+  "source_site": "x.com",
+  "author": "OpenDesignHQ",
+  "published_at": "2026-08-20T16:19:12Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenDesign Go يعود للخدمة بعد توسعة السعة وحل مشاكل الأداء",
+  "arabic_summary": "خدمة OpenDesign Go عادت للعمل بشكل طبيعي بعد توسعة البنية التحتية. الفريق أعلن عن حل المشاكل واستقرار الخدمة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يشير لشعبية الخدمة وضغط الاستخدام الذي استدعى توسعة طارئة، مما يعكس نمو الطلب على أدوات التصميم المدعومة بالذكاء الاصطناعي.",
+  "original_text": "OpenDesign Go is back online. We’ve scaled capacity, and everything is running smoothly again.\n\nThanks for your patience. Back to creating! 🚀",
+  "glossary": [],
+  "content_types": [
+   "Announcement"
+  ],
+  "domains": [
+   "Design",
+   "Product"
+  ],
+  "entities": [
+   "OpenDesign Go"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 36,
+  "metrics": {
+   "likes": 9,
+   "replies": 5,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1392
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c607",
+  "serial": 607,
+  "serial_display": "#000607",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2090661250686472630",
+  "source_native_id": "2090661250686472630",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-21T04:44:19Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تطلق مشروع AI Futures لدراسة تأثير الذكاء الاصطناعي على السلطة والحكومات",
+  "arabic_summary": "مشروع بحثي جديد من OpenAI اسمه AI Futures يدرس كيف قد يغيّر الذكاء الاصطناعي بنية السلطة في المجتمعات. يطرح سيناريوهات مستقبلية حيث الحكومات قد تعتمد على أنظمة ذاتية عسكرية وإدارية بدلاً من البشر، مما يعيد تشكيل العلاقة بين الدولة والمواطن، ويركز على سؤال: كيف نحافظ على حقوق الناس في عصر قد تتركز فيه القوة التقنية لدى عدد محدود من الحكومات والشركات؟",
+  "detailed_explanation": "مشروع AI Futures من OpenAI يمثل تحولًا في التفكير من \"ماذا يستطيع الذكاء الاصطناعي أن يفعل؟\" إلى \"كيف سيعيد تشكيل بنية المجتمعات والحكومات؟\"\n\nالمشروع البحثي يطرح سيناريو محوري: الحكومات اليوم تعتمد على البشر كموظفين، جنود، ودافعي ضرائب. لكن في مستقبل يعتمد على AI متقدم وروبوتات، قد تتمكن الحكومات من إنجاز وظائفها الأساسية بأعداد أقل بكثير من البشر.\n\nالأمثلة المطروحة تشمل: أنظمة عسكرية ذاتية تنفذ مهام دون جنود بشريين، أنظمة إدارية آلية تدير الخدمات الحكومية، ونماذج اقتصادية حيث الثروة تُولّد من data centers والـ AI بدلاً من العمل البشري.\n\nالسؤال الجوهري الذي يطرحه المشروع: إذا تركزت القوة التقنية لدى عدد محدود من الحكومات أو الشركات، كيف نضمن بقاء الحقوق الفردية، الحريات، والقدرة على المشاركة في صنع القرار؟\n\nهذا النوع من الأبحاث يعكس توجهًا متزايدًا في مجال الذكاء الاصطناعي نحو دراسة الآثار المجتمعية والسياسية على المدى البعيد، وليس فقط القدرات التقنية المباشرة.",
+  "why_it_matters": "يفتح نقاشًا استراتيجيًا حول الآثار الجيوسياسية والاجتماعية طويلة المدى للذكاء الاصطناعي، متجاوزًا التطبيقات التقنية المباشرة نحو التحولات البنيوية في توزيع السلطة.",
+  "original_text": "OpenAI تقول: الخطر مو في قوة الذكاء الاصطناعي فقط… بل في مين يسيطر عليه\n\nOpenAI أطلقت مشروع بحثي جديد اسمه AI Futures، وفكرته تدرس كيف ممكن الذكاء الاصطناعي يغيّر شكل المجتمع والحكومات والقوة في المستقبل.\n\nاليوم الحكومات تعتمد بشكل كبير على الناس، سواء كموظفين، جنود، أو حتى من خلال الضرائب.\n\nلكن تخيل مستقبل فيه الذكاء الاصطناعي والروبوتات يقدرون يسوون جزء كبير من هذي المهام.\n\nمثلًا، ممكن أنظمة عسكرية ذاتية تنفذ مهام بدون الحاجة إلى أعداد كبيرة من الجنود، وممكن أنظمة ذكاء اصطناعي تدير أجزاء من العمل الحكومي بشكل آلي.\n\nوإذا صار جزء كبير من الثروة يطلع من مراكز البيانات والذكاء الاصطناعي بدل عمل البشر، هنا ممكن تتغير العلاقة بين الحكومة والمجتمع بشكل كبير.\n\nالسؤال اللي تطرحه OpenAI هو: إذا صارت التقنية تعطي قوة هائلة لعدد قليل من الحكومات أو الشركات، كيف نحافظ على حقوق الناس وحريتهم وقدرتهم على اتخاذ القرار؟",
+  "glossary": [
+   {
+    "term": "AI Futures",
+    "ar": "مستقبل الذكاء الاصطناعي"
+   },
+   {
+    "term": "Data Centers",
+    "ar": "مراكز البيانات"
+   }
+  ],
+  "content_types": [
+   "Research Paper",
+   "Announcement"
+  ],
+  "domains": [
+   "AI",
+   "Research"
+  ],
+  "entities": [
+   "OpenAI",
+   "AI Futures"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 28,
+  "metrics": {
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 957
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "ai_futures_cluster",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c608",
+  "serial": 608,
+  "serial_display": "#000608",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenDesignHQ/status/2090397114992042375",
+  "source_native_id": "2090397114992042375",
+  "source_name": "Open Design",
+  "source_site": "x.com",
+  "author": "OpenDesignHQ",
+  "published_at": "2026-08-20T11:14:44Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenDesign Go تطلق مسابقات مجتمعية بجوائز تصل لـ 500 دولار",
+  "arabic_summary": "OpenDesign Go أعلنت عن فعاليات مجتمعية تشمل model arena ومسابقات hackathon صغيرة، مع جوائز مالية تصل إلى 500 دولار للمشاركين. التسجيل متاح عبر Feishu وDiscord.",
+  "detailed_explanation": "",
+  "why_it_matters": "يشير لاستراتيجية بناء مجتمع حول المنتج عبر مسابقات تفاعلية، ويعكس نموذج التسويق المعتمد على المستخدمين النشطين.",
+  "original_text": "OpenDesign Go community giveaways are now live.\n\nJoin model arena and mini hackathons for a chance to win up to $500. \nFeishu (飞书）👉https://t.co/lCdAHHnddo\nDiscord👉\nhttps://t.co/gGnfu7RUTr",
+  "glossary": [
+   {
+    "term": "Hackathon",
+    "ar": "ماراثون برمجي"
+   },
+   {
+    "term": "Model Arena",
+    "ar": "حلبة النماذج (مقارنة أداء)"
+   }
+  ],
+  "content_types": [
+   "Event",
+   "Announcement"
+  ],
+  "domains": [
+   "Design",
+   "Product"
+  ],
+  "entities": [
+   "OpenDesign Go",
+   "Feishu",
+   "Discord"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 24,
+  "metrics": {
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1319
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [
+   "https://od.kokiai.net/community/twitter",
+   "https://discord.gg/XCfZjFyMqh"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "$5 for unlimited DeepSeek V4. We made DeepSeek truly CheapSeek.\n\n​Introducing OpenDesign Go, a low-cost subscription ($5 first month · $10/month after) bringing agentic design to creators worldwide.​\n\nGenerous limits and unlimited access to included models. Get started ⬇️"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c609",
+  "serial": 609,
+  "serial_display": "#000609",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2090658424543477985",
+  "source_native_id": "2090658424543477985",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-21T04:33:05Z",
+  "fetched_at": "2026-08-21T08:18:18Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Grok Build متاح رسميًا لبناء التطبيقات بالذكاء الاصطناعي عبر SuperGrok وX Premium",
+  "arabic_summary": "Grok Build أصبح متاحًا لمشتركي SuperGrok وX Premium على الويب والجوال والـ CLI. يسمح ببناء وتعديل التطبيقات بمساعدة Grok، مع تحديثات جديدة تتيح تحكمًا أوضح في صلاحيات الوصول للتطبيقات المشاركة.",
+  "detailed_explanation": "Grok Build هو أداة من X (تويتر سابقًا) تمكّن المستخدمين من بناء تطبيقات كاملة بمساعدة نموذج Grok للذكاء الاصطناعي، بدلاً من كتابة الكود يدويًا من الصفر.\n\nالآن الأداة متاحة رسميًا لكل مشتركي SuperGrok وX Premium، مع دعم منصات متعددة: الويب، iOS، Android، وحتى سطر الأوامر CLI للمطورين المتقدمين.\n\nالتحديث الجديد يضيف آلية أوضح للتحكم في صلاحيات الوصول: عند مشاركة تطبيق مع آخرين، يمكن للمطور تحديد من يستطيع الدخول والتفاعل معه، مما يحسّن الأمان والخصوصية.\n\nالأداة تمثل خطوة نحو democratization لتطوير التطبيقات، حيث يمكن لغير المبرمجين تحويل أفكارهم إلى منتجات عملية بسرعة، وتعكس توجه X نحو دمج الذكاء الاصطناعي في صلب تجربة المستخدم.",
+  "why_it_matters": "يوسّع قاعدة المستخدمين القادرين على بناء تطبيقات بالذكاء الاصطناعي دون برمجة متقدمة، ويدمج الأداة بشكل أعمق في منظومة X.",
+  "original_text": "Grok Build يسهّل عليك بناء التطبيقات بالذكاء الاصطناعي\n\nالفكرة ببساطة: Grok Build صار متاح رسميًا لمشتركي SuperGrok وX Premium.\n\nوش يسوي؟\n\nهو أداة تساعدك تبني وتعدّل التطبيقات باستخدام Grok، بدل ما تكتب كل شيء يدويًا من الصفر. تعطيه اللي تبيه، وهو يساعدك في إنشاء الكود وتطوير المشروع.\n\nوالجديد بعد، إنهم أضافوا طريقة أسهل للتحكم في من يقدر يدخل على التطبيقات اللي تشاركها.\n\nيعني لو سويت تطبيق وشاركته مع غيرك، صار عندك تحكم أوضح بالصلاحيات والوصول، سواء كنت تستخدم الخدمة من:\n\n-الويب\n-الجوال\n-أو سطر الأوامر CLI",
+  "glossary": [
+   {
+    "term": "CLI",
+    "ar": "واجهة سطر الأوامر"
+   }
+  ],
+  "content_types": [
+   "Feature",
+   "Announcement",
+   "Tool"
+  ],
+  "domains": [
+   "AI",
+   "Software Development",
+   "Product"
+  ],
+  "entities": [
+   "Grok Build",
+   "Grok",
+   "X",
+   "SuperGrok",
+   "X Premium"
+  ],
+  "change_types": [
+   "General Availability",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 21,
+  "metrics": {
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1206
+  },
+  "metrics_captured_at": "2026-08-21T08:18:18Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Building apps on https://t.co/ISbWbJTky7, iOS, and Android is now available on every SuperGrok and X Premium plan\n\nOne prompt turns an idea into a published product with its own domain. https://t.co/5TxM2pP3V3"
+  },
+  "cluster_id": "grok_build_cluster",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
  }
 ]
