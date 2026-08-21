@@ -79,8 +79,30 @@ def read_json(p, default=None):
 state    = read_json(f"{DATA}/state.json")
 manifest = read_json(f"{DATA}/manifest.json")
 
+def norm_url(u):
+    """توحيد الرابط لكشف التكرار — مع **إبقاء** المعاملات المعنوية.
+    قصّ ما بعد '?' كان يحوّل كل روابط يوتيوب إلى youtube.com/watch فتُعدّ كلها مكررة."""
+    try:
+        p = urllib.parse.urlsplit(u)
+    except Exception:
+        return u.rstrip("/")
+    DROP = {"utm_source","utm_medium","utm_campaign","utm_term","utm_content",
+            "si","feature","ref","ref_src","ref_url","fbclid","gclid","igshid","s","t"}
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query)
+         if k.lower() not in DROP]
+    q.sort()
+    host = p.netloc.lower()
+    if host.startswith("www."): host = host[4:]
+    if host == "twitter.com": host = "x.com"
+    if host == "youtu.be":
+        vid = p.path.lstrip("/")
+        host, path, q = "youtube.com", "/watch", [("v", vid)]
+    else:
+        path = p.path.rstrip("/") or "/"
+    return urllib.parse.urlunsplit(("https", host, path, urllib.parse.urlencode(q), ""))
+
 saved = set(state.get("saved_urls") or [])
-norm  = URL.split("?")[0].rstrip("/")
+norm  = norm_url(URL)
 if norm in saved:
     comment("هذا الرابط مضاف سابقًا — لم تُنشأ بطاقة مكرّرة.")
     try: gh("PATCH", f"/repos/{OWNER}/{REPO}/issues/{NUMBER}", {"state": "closed"})
