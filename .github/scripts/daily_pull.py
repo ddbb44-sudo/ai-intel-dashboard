@@ -33,7 +33,7 @@ PER_ACCOUNT    = envi("PER_ACCOUNT", 25)
 MAX_READ       = envi("MAX_READ", 150)      # أقصى ما يُعرض على النموذج
 MAX_CARDS      = envi("MAX_CARDS", 40)
 BATCH          = envi("BATCH", 20)
-HANDLE_CHUNK   = 20
+HANDLE_CHUNK   = envi("HANDLE_CHUNK", 10)
 
 def log(m): print(m, flush=True)
 def die(m):
@@ -76,29 +76,74 @@ if not handles: die("لا حسابات نشطة في accounts.json")
 log("accounts: %d نشطًا" % len(handles))
 
 # ---------- 1) السحب ----------
+def _get(url, timeout=120):
+    with urllib.request.urlopen(urllib.request.Request(url), timeout=timeout) as r:
+        return json.loads(r.read().decode())
+
 def apify_profiles(hs):
+    """تشغيل غير متزامن ثم استطلاع.
+    run-sync يبقي الاتصال مفتوحًا طوال التشغيلة، فينقطع مع الدفعات الكبيرة —
+    وهو ما أسقط 3 دفعات من 4 في أول تشغيلة حقيقية."""
+    base = envs("APIFY_BASE", "https://api.apify.com")
     payload = {"mode": "profileTweets", "twitterHandles": hs,
                "maxItemsPerTarget": PER_ACCOUNT,
                "outputVariant": "rich", "fieldStyle": "camelCase"}
-    base = envs("APIFY_BASE", "https://api.apify.com")
-    url = (base + "/v2/acts/xquik~x-tweet-scraper/"
-           "run-sync-get-dataset-items?token=" + APIFY)
-    req = urllib.request.Request(url, data=json.dumps(payload).encode(),
-            method="POST", headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=600) as r:
-        return json.loads(r.read().decode())
+    # وضع الاختبار المحلي: الخادم الوهمي يردّ مباشرة بالعناصر
+    if "127.0.0.1" in base or "localhost" in base:
+        req = urllib.request.Request(base + "/v2/acts/xquik~x-tweet-scraper/run-sync-get-dataset-items?token=" + APIFY,
+                data=json.dumps(payload).encode(), method="POST",
+                headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read().decode())
 
-raw, failed_chunks = [], 0
+    req = urllib.request.Request(base + "/v2/acts/xquik~x-tweet-scraper/runs?token=" + APIFY,
+            data=json.dumps(payload).encode(), method="POST",
+            headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        run = json.loads(r.read().decode())["data"]
+    rid, dsid = run["id"], run.get("defaultDatasetId")
+    deadline = time.time() + 900
+    while time.time() < deadline:
+        time.sleep(10)
+        try:
+            st = _get(base + "/v2/actor-runs/%s?token=%s" % (rid, APIFY))["data"]
+        except Exception as e:
+            log("  poll error: %s" % e); continue
+        status = st.get("status")
+        if status in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
+            dsid = st.get("defaultDatasetId") or dsid
+            if status != "SUCCEEDED":
+                raise RuntimeError("apify run %s: %s" % (rid, status))
+            break
+    else:
+        raise RuntimeError("apify run %s لم ينتهِ خلال 15 دقيقة" % rid)
+    items, offset = [], 0
+    while True:
+        page = _get(base + "/v2/datasets/%s/items?token=%s&clean=true&limit=1000&offset=%d"
+                    % (dsid, APIFY, offset))
+        if not page: break
+        items.extend(page); offset += len(page)
+        if len(page) < 1000: break
+    return items
+
+raw, failed_chunks, failed_handles = [], 0, []
 for i in range(0, len(handles), HANDLE_CHUNK):
     chunk = handles[i:i+HANDLE_CHUNK]
-    try:
-        got = apify_profiles(chunk)
-        raw.extend(got)
-        log("apify chunk %d: %d حسابًا ← %d منشورًا" % (i//HANDLE_CHUNK + 1, len(chunk), len(got)))
-    except Exception as e:
-        failed_chunks += 1
-        log("apify chunk %d FAILED: %s" % (i//HANDLE_CHUNK + 1, e))
-    time.sleep(2)
+    n = i//HANDLE_CHUNK + 1
+    for attempt in (1, 2):
+        try:
+            got = apify_profiles(chunk)
+            raw.extend(got)
+            log("apify chunk %d: %d حسابًا ← %d منشورًا" % (n, len(chunk), len(got)))
+            break
+        except Exception as e:
+            log("apify chunk %d محاولة %d فشلت: %s" % (n, attempt, e))
+            if attempt == 2:
+                failed_chunks += 1
+                failed_handles.extend(chunk)   # لا تقليص صامت — تُذكر في التقرير
+            else:
+                time.sleep(20)
+    time.sleep(3)
 
 if not raw: die("Apify لم يُعد أي منشور (فشل %d دفعة)" % failed_chunks)
 log("إجمالي المسحوب: %d" % len(raw))
@@ -317,7 +362,8 @@ report = ("سُحب %d · مرشّحون %d · قُرئ %d · قُبل %d · د�
           % (len(raw), len(cands) + capped, len(cands), len(out), dup_merged))
 if capped:         report += " · **لم يُقرأ %d** (سقف MAX_READ=%d)" % (capped, MAX_READ)
 if batches_failed: report += " · %d دفعة تصنيف فشلت" % batches_failed
-if failed_chunks:  report += " · %d دفعة سحب فشلت" % failed_chunks
+if failed_chunks:  report += (" · **%d حسابًا لم يُسحب**: %s"
+                              % (len(failed_handles), "، ".join(failed_handles[:12])))
 
 with open(os.environ.get("GITHUB_ENV", "/dev/null"), "a", encoding="utf-8") as f:
     f.write("DAILY_COUNT=%d\nDAILY_DAY=%s\nDAILY_REPORT=%s\n" % (len(out), day, report))
