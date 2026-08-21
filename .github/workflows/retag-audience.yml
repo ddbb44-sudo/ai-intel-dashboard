@@ -1,0 +1,45 @@
+name: retag-audience
+
+# التمريرة الثانية: تضيف مجالًا ثانيًا حسب الجمهور. تُضيف ولا تحذف.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/retag-audience.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audience:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: المجال حسب الجمهور
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RETAG_BATCH: '20'
+          RETAG_WORKERS: '4'
+        run: python3 .github/scripts/retag2.py | tee /tmp/retag2.log
+      - name: حفظ النتيجة
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo 'لا تغيير' >> $GITHUB_STEP_SUMMARY
+          else
+            git commit -m "retag: مجال ثانٍ حسب الجمهور"
+            git push
+          fi
+      - name: التقرير
+        if: always()
+        run: |
+          echo '## تقرير المجال حسب الجمهور' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -30 /tmp/retag2.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo 'لا سجل' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
