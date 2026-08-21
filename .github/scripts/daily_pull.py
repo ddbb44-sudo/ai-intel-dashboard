@@ -11,18 +11,28 @@
 """
 import json, os, re, sys, time, datetime, urllib.request, urllib.error, urllib.parse
 
-AKEY  = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-APIFY = os.environ.get("APIFY_TOKEN", "").strip()
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
-ABASE = os.environ.get("ANTHROPIC_BASE", "https://api.anthropic.com")
+def envs(name, default):
+    """GitHub Actions يمرّر المتغيّر غير المضبوط كنص فارغ لا كغائب،
+    فـ os.environ.get(name, default) يعيد '' ويكسر أي تحويل. هذه تعالجها."""
+    v = os.environ.get(name)
+    return v.strip() if v and v.strip() else default
+
+def envi(name, default):
+    try: return int(envs(name, str(default)))
+    except (TypeError, ValueError): return default
+
+AKEY  = envs("ANTHROPIC_API_KEY", "")
+APIFY = envs("APIFY_TOKEN", "")
+MODEL = envs("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
+ABASE = envs("ANTHROPIC_BASE", "https://api.anthropic.com")
 DATA  = "data"
 
 # سقوف معلنة — تُذكر في التقرير دائمًا
-WINDOW_HOURS   = int(os.environ.get("WINDOW_HOURS", "24"))
-PER_ACCOUNT    = int(os.environ.get("PER_ACCOUNT", "25"))
-MAX_READ       = int(os.environ.get("MAX_READ", "150"))     # أقصى ما يُعرض على النموذج
-MAX_CARDS      = int(os.environ.get("MAX_CARDS", "40"))
-BATCH          = int(os.environ.get("BATCH", "20"))
+WINDOW_HOURS   = envi("WINDOW_HOURS", 24)
+PER_ACCOUNT    = envi("PER_ACCOUNT", 25)
+MAX_READ       = envi("MAX_READ", 150)      # أقصى ما يُعرض على النموذج
+MAX_CARDS      = envi("MAX_CARDS", 40)
+BATCH          = envi("BATCH", 20)
 HANDLE_CHUNK   = 20
 
 def log(m): print(m, flush=True)
@@ -70,7 +80,7 @@ def apify_profiles(hs):
     payload = {"mode": "profileTweets", "twitterHandles": hs,
                "maxItemsPerTarget": PER_ACCOUNT,
                "outputVariant": "rich", "fieldStyle": "camelCase"}
-    base = os.environ.get("APIFY_BASE", "https://api.apify.com")
+    base = envs("APIFY_BASE", "https://api.apify.com")
     url = (base + "/v2/acts/xquik~x-tweet-scraper/"
            "run-sync-get-dataset-items?token=" + APIFY)
     req = urllib.request.Request(url, data=json.dumps(payload).encode(),

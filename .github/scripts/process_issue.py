@@ -13,9 +13,14 @@ NUMBER  = int(os.environ["ISSUE_NUMBER"])
 AUTHOR  = os.environ.get("ISSUE_AUTHOR", "")
 BODY    = os.environ.get("ISSUE_BODY", "") or ""
 GH_TOK  = os.environ["GITHUB_TOKEN"]
-AKEY    = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-APIFY   = os.environ.get("APIFY_TOKEN", "").strip()
-MODEL   = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
+def _envs(name, default):
+    """متغيّر غير مضبوط في Actions يصل نصًا فارغًا لا غائبًا."""
+    v = os.environ.get(name)
+    return v.strip() if v and v.strip() else default
+
+AKEY    = _envs("ANTHROPIC_API_KEY", "")
+APIFY   = _envs("APIFY_TOKEN", "")
+MODEL   = _envs("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
 DATA    = "data"
 
 def log(m): print(m, flush=True)
@@ -276,7 +281,7 @@ domains: {json.dumps(TAXONOMY['domains'], ensure_ascii=False)}
 change_types: {json.dumps(TAXONOMY['change_types'], ensure_ascii=False)}
 """
 
-ABASE = os.environ.get("ANTHROPIC_BASE", "https://api.anthropic.com")
+ABASE = _envs("ANTHROPIC_BASE", "https://api.anthropic.com")
 req = urllib.request.Request(ABASE + "/v1/messages",
     data=json.dumps({"model": MODEL, "max_tokens": 3000,
                      "messages": [{"role": "user", "content": PROMPT}]}).encode(),
