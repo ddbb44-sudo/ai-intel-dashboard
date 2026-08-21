@@ -1,0 +1,50 @@
+name: retag
+
+# يُشغَّل يدويًا من تبويب Actions، أو تلقائيًا عند تعديل هذا الملف.
+# لا يُشغَّل ضمن السحب اليومي — إعادة التصنيف عملية لمرة واحدة عند تغيير المفردات.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/retag.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  retag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: إعادة التصنيف
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RETAG_BATCH: '20'
+          RETAG_WORKERS: '4'
+        run: python3 .github/scripts/retag.py | tee /tmp/retag.log
+
+      - name: حفظ النتيجة
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "لا تغيير في الوسوم" >> $GITHUB_STEP_SUMMARY
+          else
+            git commit -m "retag: إعادة تصنيف البطاقات على المحاور الثلاثة المعتمدة"
+            git push
+          fi
+
+      - name: التقرير
+        if: always()
+        run: |
+          echo '## تقرير إعادة التصنيف' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -40 /tmp/retag.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo 'لا سجل' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
