@@ -63,6 +63,24 @@ jobs:
         if: env.DAILY_NOTHING == '1'
         run: echo "لا منشورات جديدة تستحق بطاقة اليوم." >> $GITHUB_STEP_SUMMARY
 
+      - name: بناء تقرير البريد
+        if: always()
+        env:
+          GITHUB_SERVER_URL: ${{ github.server_url }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: python .github/scripts/build_email.py
+
+      - name: إرسال التقرير بالبريد
+        if: always()
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_HOST: ${{ vars.MAIL_HOST }}
+          MAIL_PORT: ${{ vars.MAIL_PORT }}
+        run: python .github/scripts/send_email.py
+
       - name: تنبيه عند الفشل
         if: env.DAILY_ERROR != ''
         env:
