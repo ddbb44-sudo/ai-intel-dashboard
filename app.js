@@ -362,6 +362,7 @@ function cardHTML(i){
       <div class="acts">
         <button class="act ${liked?'on':''}" onclick="toggleLike('${i.id}',this)" title="إعجاب (إشارة تفضيل داخلية)">${liked?ICON.likeF:ICON.like}</button>
         <button class="act ${bm?'on':''}" onclick="openBookmark('${i.id}')" title="حفظ في مجموعة">${bm?ICON.bmF:ICON.bm}</button>
+        <a class="srcbtn" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="${esc(i.source_url)}">${isX(i)?ICON.x:ICON.ext}<span>${isX(i)?'التغريدة الأصلية':'المصدر'}</span></a>
         <button class="readmore" onclick="go('#/c/${i.id}')">قراءة المزيد</button>
       </div>
     </div>
@@ -464,6 +465,7 @@ function viewFeed(){
       </div>` : (items.length>PAGE_STEP? `<div class="allshown">ظهرت كل الـ<b class="num">${items.length}</b> بطاقة المطابقة</div>`:'')}`;
   document.getElementById('main').innerHTML = html;
   window._chips = chips;
+  window._lastCount = items.length;
   setLive(items.length);
   armAutoLoad();
 }
@@ -508,6 +510,9 @@ function viewDetail(id){
       </div>
       <h1>${esc(i.arabic_title)}</h1>
       <p style="font-size:15.5px;color:var(--ink-2);line-height:1.9;margin:0">${esc(i.arabic_summary)}</p>
+      <a class="opensrc" href="${esc(i.source_url)}" target="_blank" rel="noopener">
+        ${xsrc?ICON.x:ICON.ext}<b>${xsrc?'افتح التغريدة الأصلية على X':'افتح المصدر الأصلي'}</b>
+        <span class="u">${esc(i.source_url.replace(/^https?:\/\/(www\.)?/,''))}</span></a>
       <div class="tags" style="margin-top:14px">
         ${i.entities.map(x=>`<span class="tag ent">${esc(x)}</span>`).join('')}
         ${i.change_types.map(x=>`<span class="tag chg">${esc(x)}</span>`).join('')}
@@ -569,24 +574,38 @@ function viewProfile(handle){
 }
 
 /* ---------- 9) ACTIONS ---------- */
-function toggleF(k,v){ const a=F[k]; const i=a.indexOf(v); i<0?a.push(v):a.splice(i,1); render(); }
-function clearF(k){ F[k]=[]; render(); }
-function clearChip(ix){ (window._chips[ix]||{}).clear?.(); render(); }
-function setTier(t){ F.tier=t; render(); }
-function setLang(l){ F.lang=l; render(); }
-function setTime(t){ F.time = F.time===t?'':t; if(F.time){F.from='';F.to='';} render(); }
+/* كل تغيير في الفلاتر يمر من هنا.
+   السبب: كان render() وحده يعيد بناء القائمة لكن يترك المتصفح عند موضع التمرير القديم،
+   فيبقى عزيز ينظر إلى منتصف النتائج الجديدة فيظن أن شيئًا لم يتغيّر (فحص 21 أغسطس:
+   بعد فلترة من 608 إلى 144 بطاقة بقي التمرير عند 6000px وظهرت البطاقة #000197 في أعلى الشاشة).
+   الحل: ارجع لأعلى القائمة، وأعلن العدد الجديد بإشعار قصير. */
+function refilter(){
+  const before = window._lastCount;
+  render();
+  if(location.hash && location.hash!=='#/' && location.hash!=='') return;
+  window.scrollTo({top:0, behavior:'instant'});
+  const n = window._lastCount;
+  if(n!==before) toast(n ? arPlural(n,'بطاقة واحدة مطابقة','بطاقتان مطابقتان','بطاقات مطابقة','بطاقة مطابقة') : 'لا توجد بطاقات مطابقة');
+  const fl = document.getElementById('filters'); if(fl) fl.scrollTop = window._flScroll||0;
+}
+function toggleF(k,v){ const a=F[k]; const i=a.indexOf(v); i<0?a.push(v):a.splice(i,1); refilter(); }
+function clearF(k){ F[k]=[]; refilter(); }
+function clearChip(ix){ (window._chips[ix]||{}).clear?.(); refilter(); }
+function setTier(t){ F.tier=t; refilter(); }
+function setLang(l){ F.lang=l; refilter(); }
+function setTime(t){ F.time = F.time===t?'':t; if(F.time){F.from='';F.to='';} refilter(); }
 function setRange(which,val){
   if(which==='clear'){ F.from=''; F.to=''; }
   else { F[which]=val||''; F.time=''; 
     if(F.from && F.to && F.from>F.to){ const t=F.from; F.from=F.to; F.to=t; } }
-  render();
+  refilter();
 }
-function setSort(s){ F.sort=s; render(); }
-function setColl(c){ F.coll = F.coll===c?'':c; render(); }
+function setSort(s){ F.sort=s; refilter(); }
+function setColl(c){ F.coll = F.coll===c?'':c; refilter(); }
 function showRest(id,btn){ document.getElementById(id+'_rest').style.display='contents'; btn.remove(); }
 function toggleZero(k){ ZOPEN[k]=!ZOPEN[k]; document.getElementById('filters').innerHTML = filtersHTML(); }
-function tagClick(e,k,v){ e.stopPropagation(); if(!F[k].includes(v)) F[k].push(v); if(location.hash!=='#/') go('#/'); else render(); window.scrollTo(0,0); }
-function resetAll(){ Object.assign(F,{q:'',ct:[],dom:[],ent:[],chg:[],src:[],lang:'',tier:'useful+',pref:[],coll:'',from:'',to:'',time:'',sort:'smart'}); document.getElementById('q').value=''; render(); }
+function tagClick(e,k,v){ e.stopPropagation(); if(!F[k].includes(v)) F[k].push(v); if(location.hash!=='#/') go('#/'); else refilter(); }
+function resetAll(){ Object.assign(F,{q:'',ct:[],dom:[],ent:[],chg:[],src:[],lang:'',tier:'useful+',pref:[],coll:'',from:'',to:'',time:'',sort:'smart'}); document.getElementById('q').value=''; refilter(); }
 function copySerial(s){ navigator.clipboard?.writeText(s); toast('نُسخ رقم البطاقة '+s); }
 function toggleLike(id,btn){
   const on = Prefs.toggleLike(id);
@@ -862,7 +881,7 @@ function render(){
      <div>رُفض <b class="num">${s.rejected}</b></div>
      <div><b class="num">${s.accounts_watched}</b> حسابًا</div>`;
   let t; document.getElementById('q').addEventListener('input', e => {
-    clearTimeout(t); t=setTimeout(()=>{ F.q=e.target.value; if((location.hash||'#/')!=='#/'){ location.hash='#/'; } else render(); },220);
+    clearTimeout(t); t=setTimeout(()=>{ F.q=e.target.value; if((location.hash||'#/')!=='#/'){ location.hash='#/'; } else refilter(); },220);
   });
   refreshBadges();
   SYNC.status = SYNC.token() ? 'synced' : 'local';
