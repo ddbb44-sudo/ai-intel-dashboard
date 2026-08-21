@@ -20,14 +20,30 @@ const Store = (() => {
 })();
 
 /* ---------- 2) PREFERENCES (Like / Bookmark / learning signal) ---------- */
+/* ---------- المزامنة ----------
+   الإعجابات والمحفوظات كانت تعيش في متصفح واحد فقط: لا تنتقل بين الأجهزة،
+   ويمسحها Safari بعد أسبوع بلا فتح. الحل: نسخة مركزية في المستودع.
+   القراءة مجانية من أي جهاز بلا إعداد. الكتابة تحتاج توكن يُلصق مرة واحدة.
+   المتصفح يبقى النسخة العاملة — إن فشلت المزامنة لا ينكسر شيء. */
+const SYNC = {
+  owner: 'ddbb44-sudo', repo: 'ai-intel-dashboard', path: 'prefs.json',
+  raw:  'https://raw.githubusercontent.com/ddbb44-sudo/ai-intel-dashboard/main/prefs.json',
+  tokKey: 'aiintel.synctoken',
+  token(){ try { return localStorage.getItem(this.tokKey) || ''; } catch(e){ return ''; } },
+  setToken(t){ try { t ? localStorage.setItem(this.tokKey, t) : localStorage.removeItem(this.tokKey); } catch(e){} },
+  status: 'idle', sha: null, _timer: null,
+};
+
 const Prefs = (() => {
   const KEY = 'aiintel.prefs.v1';
   const DEFAULT_COLLECTIONS = ['Drive7','Personal','Marketing','SEO','AI Tools','Research','Coding','Islamic','Later'];
   let s = { likes:[], bookmarks:{}, collections:[...DEFAULT_COLLECTIONS], opened:[] };
   try { const raw = localStorage.getItem(KEY); if (raw) s = Object.assign(s, JSON.parse(raw)); } catch(e) {}
-  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch(e) {} };
+  const saveLocal = () => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch(e) {} };
+  const save = () => { saveLocal(); scheduleSync(); };
   return {
     state: () => s,
+    replace(next){ s = Object.assign(s, next); saveLocal(); },
     liked: id => s.likes.includes(id),
     toggleLike(id){ const i = s.likes.indexOf(id); i<0 ? s.likes.push(id) : s.likes.splice(i,1); save(); return i<0; },
     bookmarksOf: id => Object.keys(s.bookmarks).filter(c => (s.bookmarks[c]||[]).includes(id)),
@@ -75,6 +91,61 @@ const Ranking = {
     return Math.round(.35*item.importance_score + .25*item.engagement_score + .30*rel + .10*item.freshness);
   }
 };
+
+/* دمج لا استبدال: اتحاد الإعجابات والمحفوظات، فلا يمحو جهازٌ عملَ جهاز */
+function mergePrefs(a, b){
+  const uniq = x => Array.from(new Set(x || []));
+  const out = { likes: uniq([...(a.likes||[]), ...(b.likes||[])]),
+                opened: uniq([...(a.opened||[]), ...(b.opened||[])]),
+                collections: uniq([...(a.collections||[]), ...(b.collections||[])]),
+                bookmarks: {} };
+  for (const src of [a.bookmarks||{}, b.bookmarks||{}])
+    for (const c of Object.keys(src)) out.bookmarks[c] = uniq([...(out.bookmarks[c]||[]), ...src[c]]);
+  return out;
+}
+
+async function pullPrefs(){
+  try {
+    const r = await fetch(SYNC.raw + '?t=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) return false;
+    const remote = await r.json();
+    if (!remote || remote.empty) return false;
+    Prefs.replace(mergePrefs(Prefs.state(), remote));
+    SYNC.status = 'synced';
+    return true;
+  } catch(e){ return false; }
+}
+
+function scheduleSync(){
+  if (!SYNC.token()) { SYNC.status = 'local'; return; }
+  clearTimeout(SYNC._timer);
+  SYNC._timer = setTimeout(pushPrefs, 3000);   // رفعة واحدة بعد آخر تغيير لا رفعة لكل ضغطة
+}
+
+async function pushPrefs(){
+  const tok = SYNC.token(); if (!tok) return;
+  SYNC.status = 'saving'; refreshSyncChip();
+  try {
+    const api = `https://api.github.com/repos/${SYNC.owner}/${SYNC.repo}/contents/${SYNC.path}`;
+    if (SYNC.sha === null) {
+      const head = await fetch(api, {headers:{Authorization:'Bearer '+tok}});
+      SYNC.sha = head.ok ? (await head.json()).sha : undefined;
+    }
+    const body = JSON.stringify(Object.assign({}, Prefs.state(),
+                   {saved_at: new Date().toISOString()}), null, 1);
+    const enc = btoa(String.fromCharCode(...new TextEncoder().encode(body)));
+    const res = await fetch(api, {method:'PUT',
+      headers:{Authorization:'Bearer '+tok, 'content-type':'application/json'},
+      body: JSON.stringify({message:'prefs: تحديث من اللوحة', content: enc, sha: SYNC.sha})});
+    if (res.status === 409 || res.status === 422) { SYNC.sha = null; return pushPrefs(); }
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    SYNC.sha = (await res.json()).content.sha;
+    SYNC.status = 'synced';
+  } catch(e){
+    SYNC.status = 'failed';   // محلي سليم — يُعاد الرفع مع أي تغيير قادم
+  }
+  refreshSyncChip();
+}
 
 /* ---------- 4) TAXONOMY ----------
    المفردات المعلنة في ملف التعليمات هي المرجع. تظهر كاملة دائمًا حتى لو كان عدّها صفرًا،
@@ -348,10 +419,14 @@ function filtersHTML(){
   ${grp('نوع المحتوى','ct',Taxonomy.content_types_ordered)}
   ${grp('المجال','dom',Taxonomy.domains)}
   ${grp('المصدر','src',Taxonomy.sources)}
-  <div class="fgroup"><h4>تفضيلاتي (نسخ احتياطي)</h4><div class="chips">
+  <div class="fgroup"><h4>تفضيلاتي — مزامنة ونسخ احتياطي</h4><div class="chips">
+    <button class="chip" id="syncChip" onclick="openSync()">${syncLabel()}</button>
     <button class="chip" onclick="exportPrefs()">تصدير</button>
     <button class="chip" onclick="importPrefs()">استيراد</button>
     <button class="chip" onclick="resetAll()">مسح كل الفلاتر</button>
+  </div>
+  <div class="note" style="font-size:11px;color:var(--faint);margin-top:6px">
+    إعجاباتك ومحفوظاتك تُقرأ من المستودع على كل جهاز. للكتابة من هذا الجهاز فعّل المزامنة مرة واحدة.
   </div></div>`;
 }
 
@@ -626,6 +701,49 @@ function addGo(){
   document.getElementById('addov').remove();
   toast('افتحت GitHub — اضغط زر التأكيد الأخضر لإتمام الإضافة');
 }
+function syncLabel(){
+  const m = {synced:'✓ مزامنة مفعّلة', saving:'… يحفظ', failed:'⚠ فشل الحفظ', local:'مزامنة معطّلة', idle:'مزامنة'};
+  return m[SYNC.status] || 'مزامنة';
+}
+function refreshSyncChip(){
+  const el = document.getElementById('syncChip');
+  if (el) el.textContent = syncLabel();
+}
+function openSync(){
+  const has = !!SYNC.token();
+  const ov = document.createElement('div'); ov.className='ov'; ov.id='syncov';
+  ov.onclick = e => { if (e.target===ov) ov.remove(); };
+  ov.innerHTML = `<div class="addbox">
+    <h4>مزامنة التفضيلات</h4>
+    <p class="sub">إعجاباتك ومحفوظاتك تُحفظ في مستودعك، فتنتقل بين أجهزتك ولا يمحوها المتصفح.
+      <b>القراءة تعمل على كل جهاز بلا إعداد.</b> الكتابة من هذا الجهاز تحتاج تفعيلًا مرة واحدة.</p>
+    ${has ? `<div class="addnote">المزامنة <b>مفعّلة</b> على هذا الجهاز.</div>
+      <div class="addrow">
+        <button onclick="document.getElementById('syncov').remove()">إغلاق</button>
+        <button class="go" onclick="pushPrefs();document.getElementById('syncov').remove();toast('يحفظ الآن…')">احفظ الآن</button>
+        <button onclick="SYNC.setToken('');SYNC.status='local';refreshSyncChip();document.getElementById('syncov').remove();toast('أُوقفت المزامنة على هذا الجهاز')">إيقاف</button>
+      </div>`
+    : `<input type="text" id="synctok" placeholder="github_pat_..." autocomplete="off" spellcheck="false">
+      <div class="addrow">
+        <button onclick="document.getElementById('syncov').remove()">إلغاء</button>
+        <button class="go" onclick="saveSyncToken()">تفعيل</button>
+      </div>
+      <div class="addnote">
+        أنشئ توكنًا من <b>GitHub ← Settings ← Developer settings ← Fine-grained tokens</b>،
+        اختر مستودع <b>ai-intel-dashboard</b> وحده، وصلاحية <b>Contents: Read and write</b> فقط.
+        يُحفظ في هذا المتصفح ولا يُرسل لأحد.
+      </div>`}
+  </div>`;
+  document.body.appendChild(ov);
+}
+function saveSyncToken(){
+  const v = (document.getElementById('synctok').value||'').trim();
+  if (!v) return;
+  SYNC.setToken(v); SYNC.sha = null;
+  document.getElementById('syncov').remove();
+  toast('فُعّلت المزامنة — يحفظ الآن');
+  pushPrefs();
+}
 function closeTray(){ const t=document.getElementById('tray'); if(t) t.remove(); document.removeEventListener('click',_trayOut,true); }
 function _trayOut(e){ const t=document.getElementById('tray'); if(t && !t.contains(e.target) && !e.target.closest('.iconbtn.hb')) closeTray(); }
 function trayRow(id, onRemove, sub){
@@ -747,6 +865,8 @@ function render(){
     clearTimeout(t); t=setTimeout(()=>{ F.q=e.target.value; if((location.hash||'#/')!=='#/'){ location.hash='#/'; } else render(); },220);
   });
   refreshBadges();
+  SYNC.status = SYNC.token() ? 'synced' : 'local';
+  pullPrefs().then(ok => { if (ok) { refreshBadges(); render(); } refreshSyncChip(); });
   window.addEventListener('hashchange', route);
   document.getElementById('filters').innerHTML = filtersHTML();
   route();
