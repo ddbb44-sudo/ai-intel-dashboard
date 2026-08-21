@@ -10,6 +10,7 @@
 مبدأ التصميم: عند أي شك — لا تكتب. والسقوف تُعلَن ولا تُخفى.
 """
 import json, os, re, sys, time, datetime, urllib.request, urllib.error, urllib.parse
+from concurrent.futures import ThreadPoolExecutor
 
 def envs(name, default):
     """GitHub Actions يمرّر المتغيّر غير المضبوط كنص فارغ لا كغائب،
@@ -33,14 +34,35 @@ PER_ACCOUNT    = envi("PER_ACCOUNT", 25)
 MAX_READ       = envi("MAX_READ", 150)      # أقصى ما يُعرض على النموذج
 MAX_CARDS      = envi("MAX_CARDS", 40)
 BATCH          = envi("BATCH", 20)
+PARALLEL       = envi("PARALLEL", 4)    # دفعات التصنيف بالتوازي
 POLL_MAX       = envi("POLL_MAX", 1500)   # 25 دقيقة كحد أقصى للاستطلاع
 
 def log(m): print(m, flush=True)
+
+REPORT = {"status": "unknown", "error": "", "started_at": None, "day": "",
+          "pulled": 0, "accounts_seen": 0, "accounts_total": 0,
+          "missing": [], "missing_expected": [], "missing_unexpected": [],
+          "candidates": 0, "read": 0, "capped": 0, "accepted": 0, "merged": 0,
+          "batches_total": 0, "batches_failed": 0, "titles": [],
+          "dropped": {}, "duration_secs": 0, "cost_estimate_usd": 0.0}
+
+def write_report():
+    REPORT["duration_secs"] = int(time.time() - T0)
+    try:
+        with open("report.json", "w", encoding="utf-8") as f:
+            json.dump(REPORT, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        log("report write failed: %s" % e)
+
 def die(m):
     log("FATAL: " + m)
+    REPORT["status"] = "failed"; REPORT["error"] = m
+    write_report()
     with open(os.environ.get("GITHUB_ENV", "/dev/null"), "a", encoding="utf-8") as f:
         f.write("DAILY_ERROR=%s\n" % m.replace("\n", " ")[:300])
-    sys.exit(0)   # لا نُفشل الـ workflow: نُبلغ ونخرج بلا كتابة
+    sys.exit(0)   # لا نُفشل الـ workflow: التقرير هو المخرَج
+
+T0 = time.time()
 
 if not AKEY:  die("ANTHROPIC_API_KEY غير مضبوط")
 if not APIFY: die("APIFY_TOKEN غير مضبوط")
@@ -74,6 +96,10 @@ manifest = rj(f"{DATA}/manifest.json")
 handles = [a["handle"] for a in accounts.get("accounts", []) if a.get("active", True)]
 if not handles: die("لا حسابات نشطة في accounts.json")
 log("accounts: %d نشطًا" % len(handles))
+REPORT["accounts_total"] = len(handles)
+REPORT["day"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+REPORT["started_at"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+EXPECTED_QUIET = {a["handle"] for a in accounts.get("accounts", []) if not a.get("active_30d", True)}
 
 # ---------- 1) السحب ----------
 def _get(url, timeout=180):
@@ -152,6 +178,7 @@ if not raw: die("Apify لم يُعد أي منشور — لم تُسحب أي ح
 seen_accounts = {((t.get("author") or {}).get("username") or "").lower() for t in raw}
 seen_accounts.discard("")
 log("إجمالي المسحوب: %d من %d حسابًا" % (len(raw), len(seen_accounts)))
+REPORT["pulled"] = len(raw); REPORT["accounts_seen"] = len(seen_accounts)
 
 # ---------- 2) التنظيف ----------
 NOW = datetime.datetime.now(datetime.timezone.utc)
@@ -191,7 +218,11 @@ for t in raw:
 
 log("بعد التنظيف: %d مرشحًا (خارج النافذة %d · ردود %d · مقروء سابقًا %d · بلا نص %d)"
     % (len(cands), drop_old, drop_reply, drop_seen, drop_empty))
+REPORT["dropped"] = {"خارج النافذة": drop_old, "ردود": drop_reply,
+                     "مقروء سابقًا": drop_seen, "بلا نص كافٍ": drop_empty}
+REPORT["candidates"] = len(cands)
 if not cands:
+    REPORT["status"] = "nothing"; write_report()
     with open(os.environ.get("GITHUB_ENV", "/dev/null"), "a", encoding="utf-8") as f:
         f.write("DAILY_NOTHING=1\n")
     log("لا جديد اليوم"); sys.exit(0)
@@ -201,6 +232,7 @@ cands.sort(key=lambda c: -( (c["m"].get("likes") or 0) + 2*(c["m"].get("bookmark
                             + 3*(c["m"].get("reposts") or 0) ))
 capped = max(0, len(cands) - MAX_READ)
 cands = cands[:MAX_READ]
+REPORT["capped"] = capped; REPORT["read"] = len(cands)
 
 # ---------- 3) التصنيف ----------
 HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاصطناعي»، لوحة عربية يملكها عزيز.
@@ -256,31 +288,50 @@ def claude(prompt, max_tokens=8000):
 
 def clean(v, allowed): return [x for x in (v or []) if x in allowed]
 
-decisions, batches_failed = {}, 0
-for i in range(0, len(cands), BATCH):
-    part = cands[i:i+BATCH]
+def run_batch(args):
+    """دفعة واحدة، بمحاولتين كاملتين. الفشل يُعاد لا يُعلَن فورًا."""
+    n, part = args
     payload = [{"id": c["id"], "account": "@" + c["handle"], "date": c["created"],
                 "lang": c["lang"], "metrics": c["m"], "links": c["links"],
                 "text": c["text"], "quoted": c["q"]} for c in part]
-    try:
-        resp = claude(HEAD + "\n## المنشورات\n" + json.dumps(payload, ensure_ascii=False, indent=1))
-    except Exception as e:
-        batches_failed += 1; log("batch %d FAILED: %s" % (i//BATCH + 1, e)); continue
-    txt = "".join(b.get("text", "") for b in resp.get("content", []))
-    mm = re.search(r'\[.*\]', txt, re.S)
-    if not mm:
-        batches_failed += 1; log("batch %d: مخرَج غير قابل للقراءة" % (i//BATCH + 1)); continue
-    try:
-        arr = json.loads(mm.group(0))
-    except Exception as e:
-        batches_failed += 1; log("batch %d: JSON غير صالح — %s" % (i//BATCH + 1, e)); continue
-    for d in arr:
-        if isinstance(d, dict) and d.get("id"): decisions[str(d["id"])] = d
-    log("batch %d: %d قرارًا" % (i//BATCH + 1, len(arr)))
+    prompt = HEAD + "\n## المنشورات\n" + json.dumps(payload, ensure_ascii=False, indent=1)
+    last = ""
+    for attempt in (1, 2):
+        try:
+            resp = claude(prompt)
+            txt = "".join(b.get("text", "") for b in resp.get("content", []))
+            mm = re.search(r'\[.*\]', txt, re.S)
+            if not mm:
+                last = "مخرَج غير قابل للقراءة"; time.sleep(5); continue
+            arr = json.loads(mm.group(0))
+            log("دفعة %d: %d قرارًا (محاولة %d)" % (n, len(arr), attempt))
+            return n, arr, ""
+        except Exception as e:
+            last = str(e)[:200]
+            log("دفعة %d محاولة %d فشلت: %s" % (n, attempt, last))
+            time.sleep(8)
+    return n, None, last
+
+chunks = [(i//BATCH + 1, cands[i:i+BATCH]) for i in range(0, len(cands), BATCH)]
+REPORT["batches_total"] = len(chunks)
+decisions, batches_failed, batch_errors = {}, 0, []
+# بالتوازي: التصنيف كان يستهلك 43 دقيقة من 53 حين كان تسلسليًا
+with ThreadPoolExecutor(max_workers=PARALLEL) as ex:
+    for n, arr, err in ex.map(run_batch, chunks):
+        if arr is None:
+            batches_failed += 1; batch_errors.append("دفعة %d: %s" % (n, err)); continue
+        for d in arr:
+            if isinstance(d, dict) and d.get("id"): decisions[str(d["id"])] = d
 
 kept = [c for c in cands if decisions.get(c["id"], {}).get("keep")]
 log("قُبل %d من %d قُرئت (%d دفعة فشلت)" % (len(kept), len(cands), batches_failed))
 if not kept:
+    REPORT["status"] = "nothing"; REPORT["batches_failed"] = batches_failed
+    REPORT["batch_errors"] = batch_errors
+    REPORT["missing"] = [h for h in handles if h.lower() not in seen_accounts]
+    REPORT["missing_unexpected"] = [h for h in REPORT["missing"] if h not in EXPECTED_QUIET]
+    REPORT["missing_expected"]   = [h for h in REPORT["missing"] if h in EXPECTED_QUIET]
+    write_report()
     with open(os.environ.get("GITHUB_ENV", "/dev/null"), "a", encoding="utf-8") as f:
         f.write("DAILY_NOTHING=1\n")
     log("لا بطاقة تستحق اليوم"); sys.exit(0)
@@ -364,13 +415,28 @@ state["updated_at"] = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
 json.dump(state, open(f"{DATA}/state.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 missing = [h for h in handles if h.lower() not in seen_accounts]
+REPORT.update({
+  "status": "ok", "accepted": len(out), "merged": dup_merged,
+  "batches_failed": batches_failed, "batch_errors": batch_errors,
+  "missing": missing,
+  "missing_expected":   [h for h in missing if h in EXPECTED_QUIET],
+  "missing_unexpected": [h for h in missing if h not in EXPECTED_QUIET],
+  "titles": [{"serial": r["serial_display"], "author": r["author"],
+              "title": r["arabic_title"], "tier": r["importance_tier"],
+              "id": r["id"]} for r in out],
+  # تقدير: ~0.9 سنت لكل منشور يدخل التصنيف (مدخلات + مخرجات)
+  "cost_estimate_usd": round(len(cands) * 0.009 + len(raw) * 0.00015, 3),
+})
+write_report()
+
 report = ("سُحب %d تغريدة من %d/%d حسابًا · مرشّحون %d · قُرئ %d · قُبل %d · دُمج %d"
-          % (len(raw), len(seen_accounts), len(handles), len(cands) + capped, len(cands), len(out), dup_merged))
-if missing:        report += " · **%d حسابًا بلا نتائج**: %s" % (len(missing), "، ".join(missing[:15]))
+          % (len(raw), len(seen_accounts), len(handles), len(cands) + capped,
+             len(cands), len(out), dup_merged))
+if REPORT["missing_unexpected"]:
+    report += " · **%d حسابًا بلا نتائج**: %s" % (len(REPORT["missing_unexpected"]),
+                                                  "، ".join(REPORT["missing_unexpected"][:15]))
 if capped:         report += " · **لم يُقرأ %d** (سقف MAX_READ=%d)" % (capped, MAX_READ)
 if batches_failed: report += " · %d دفعة تصنيف فشلت" % batches_failed
-if failed_handles: report += (" · **%d حسابًا لم يُسحب**: %s"
-                              % (len(failed_handles), "، ".join(failed_handles[:15])))
 
 with open(os.environ.get("GITHUB_ENV", "/dev/null"), "a", encoding="utf-8") as f:
     f.write("DAILY_COUNT=%d\nDAILY_DAY=%s\nDAILY_REPORT=%s\n" % (len(out), day, report))
