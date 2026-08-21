@@ -151,14 +151,11 @@ async function pushPrefs(){
    المفردات المعلنة في ملف التعليمات هي المرجع. تظهر كاملة دائمًا حتى لو كان عدّها صفرًا،
    ويُضاف إليها أي تصنيف ظهر في البيانات ولم يكن معلنًا. لا يُخفى تصنيف طلبه المستخدم. */
 const DECLARED = {
-  content_types: ['Skill','MCP','Agent','Prompt','API','Release','Feature','Tutorial','Guide','Tool',
-    'Workflow','Template','SDK','Dataset','Benchmark','Research Paper','Announcement','Case Study',
-    'Comparison','Opinion','Thread','Demo','Course','News','Job','Event'],
-  domains: ['AI','ML','LLM','Software Development','Coding','DevOps','Data','Analytics','Cybersecurity',
-    'Robotics','Product','Design','UI','UX','Marketing','Digital Marketing','SEO','Content','Sales',
-    'E-commerce','Business','Management','Operations','Customer Experience','Finance','Investment',
-    'Legal','Healthcare','Medicine','Education','Research','Engineering','Automotive','Manufacturing',
-    'Media','Creative','Video','Audio','Islamic','Personal Productivity','Automation'],
+  content_types: ['إصدار','أداة','شرح','تجربة','بحث وقياس','رأي','خبر'],
+  tool_types: ['MCP','Skill','Agent','Plugin','Prompt','API/SDK','تطبيق','نموذج'],
+  domains: ['برمجة وهندسة','أعمال وإدارة','تصميم وواجهات','تسويق ومحتوى','نماذج وLLM',
+    'بيانات وتحليلات','بحث وتعليم','إنتاجية شخصية','فيديو وصوت','أمن سيبراني',
+    'روبوتات وعتاد','صحة','إسلامي'],
   change_types: ['New Release','New Feature','Upgrade','Update','Model Update','API Update',
     'Pricing Change','New Integration','MCP Support','New Agent Feature','Beta / Preview',
     'General Availability','Deprecation','Shutdown','Research Release','Open Source','Acquisition',
@@ -180,7 +177,7 @@ const Taxonomy = (() => {
   const dm={};
   Store.all().forEach(i => { const d=i.published_at.slice(0,10); dm[d]=(dm[d]||0)+1; });
   const dates = Object.entries(dm).sort((a,b)=> b[0].localeCompare(a[0]));
-  const PIN=['Skill','MCP','Agent','Prompt','API'];
+  const PIN=[];   // التثبيت انتقل إلى محور «نوع الأداة» المستقل
   const entM = countMap('entities');
   const srcM = {}; Store.all().forEach(i => { const t = i.source_type||'x'; srcM[t]=(srcM[t]||0)+1; });
   const srcRows = ['x','web','youtube','github'].map(t => [t, srcM[t]||0, false])
@@ -189,8 +186,9 @@ const Taxonomy = (() => {
     sources: srcRows,
     dates,
     pinned: PIN,
-    content_types_ordered: merge('content_types', PIN),
-    content_types: merge('content_types', PIN),
+    content_types_ordered: merge('content_types'),
+    content_types: merge('content_types'),
+    tool_types: merge('tool_types'),
     domains: merge('domains'),
     change_types: merge('change_types'),
     entities: Object.entries(entM).sort((a,b)=>b[1]-a[1]).map(([t,n])=>[t,n,false])
@@ -198,8 +196,8 @@ const Taxonomy = (() => {
 })();
 
 /* ---------- 5) FILTER ENGINE ---------- */
-const ZOPEN = { ct:false, dom:false, chg:false, ent:false };
-const F = { q:'', ct:[], dom:[], ent:[], chg:[], src:[], lang:'', tier:'useful+', pref:[], coll:'', from:'', to:'', time:'', sort:'smart' };
+const ZOPEN = { ct:false, tool:false, dom:false, chg:false, ent:false };
+const F = { q:'', ct:[], tool:[], dom:[], ent:[], chg:[], src:[], lang:'', tier:'useful+', pref:[], coll:'', from:'', to:'', time:'', sort:'smart' };
 
 const FilterEngine = {
   apply(items){
@@ -211,8 +209,9 @@ const FilterEngine = {
       if (F.lang==='ar' && !i.is_arabic_source) return false;
       if (F.lang==='fr' && i.is_arabic_source) return false;
       if (F.src.length && !F.src.includes(i.source_type)) return false;
-      if (F.ct.length  && !F.ct.every(x => i.content_types.includes(x))) return false;
-      if (F.dom.length && !F.dom.every(x => i.domains.includes(x))) return false;
+      if (F.ct.length  && !F.ct.some(x => i.content_types.includes(x))) return false;
+      if (F.tool.length && !F.tool.some(x => (i.tool_types||[]).includes(x))) return false;
+      if (F.dom.length && !F.dom.some(x => i.domains.includes(x))) return false;
       if (F.ent.length && !F.ent.every(x => i.entities.includes(x))) return false;
       if (F.chg.length && !F.chg.every(x => i.change_types.includes(x))) return false;
       if (F.pref.includes('liked') && !Prefs.liked(i.id)) return false;
@@ -227,7 +226,7 @@ const FilterEngine = {
       if (F.to && t > new Date(F.to).getTime()+864e5) return false;
       if (q){
         const hay = (i.arabic_title+' '+i.arabic_summary+' '+i.detailed_explanation+' '+i.original_text+' '+
-          i.content_types.join(' ')+' '+i.domains.join(' ')+' '+i.entities.join(' ')+' '+i.change_types.join(' ')+' '+
+          i.content_types.join(' ')+' '+(i.tool_types||[]).join(' ')+' '+i.domains.join(' ')+' '+i.entities.join(' ')+' '+i.change_types.join(' ')+' '+
           i.author+' '+(Store.author(i.author).name||'')).toLowerCase();
         if (!hay.includes(q)) return false;
       }
@@ -249,6 +248,7 @@ const FilterEngine = {
     const push = (label, clear) => out.push({label, clear});
     if (F.q) push('بحث: '+F.q, () => { F.q=''; document.getElementById('q').value=''; });
     F.ct.forEach(x => push(x, () => F.ct = F.ct.filter(y=>y!==x)));
+    F.tool.forEach(x => push(x, () => F.tool = F.tool.filter(y=>y!==x)));
     F.dom.forEach(x => push(x, () => F.dom = F.dom.filter(y=>y!==x)));
     F.ent.forEach(x => push(x, () => F.ent = F.ent.filter(y=>y!==x)));
     F.chg.forEach(x => push(x, () => F.chg = F.chg.filter(y=>y!==x)));
@@ -324,6 +324,7 @@ function cardHTML(i){
   const tags = [
     ...i.entities.slice(0,3).map(x=>`<button class="tag ent" onclick="tagClick(event,'ent','${esc(x)}')">${esc(x)}</button>`),
     ...i.change_types.slice(0,2).map(x=>`<button class="tag chg" onclick="tagClick(event,'chg','${esc(x)}')">${esc(x)}</button>`),
+    ...(i.tool_types||[]).map(x=>`<button class="tag tool" onclick="tagClick(event,'tool','${esc(x)}')">${esc(x)}</button>`),
     ...i.content_types.slice(0,2).map(x=>`<button class="tag" onclick="tagClick(event,'ct','${esc(x)}')">${esc(x)}</button>`),
     ...i.domains.slice(0,2).map(x=>`<button class="tag" onclick="tagClick(event,'dom','${esc(x)}')">${esc(x)}</button>`)
   ].join('');
@@ -418,6 +419,7 @@ function filtersHTML(){
   ${grp('طبيعة التغيير','chg',Taxonomy.change_types)}
   ${grp('الشركة / المنتج','ent',Taxonomy.entities)}
   ${grp('نوع المحتوى','ct',Taxonomy.content_types_ordered)}
+  ${grp('نوع الأداة','tool',Taxonomy.tool_types)}
   ${grp('المجال','dom',Taxonomy.domains)}
   ${grp('المصدر','src',Taxonomy.sources)}
   <div class="fgroup"><h4>تفضيلاتي — مزامنة ونسخ احتياطي</h4><div class="chips">
@@ -516,6 +518,7 @@ function viewDetail(id){
       <div class="tags" style="margin-top:14px">
         ${i.entities.map(x=>`<span class="tag ent">${esc(x)}</span>`).join('')}
         ${i.change_types.map(x=>`<span class="tag chg">${esc(x)}</span>`).join('')}
+        ${(i.tool_types||[]).map(x=>`<span class="tag tool">${esc(x)}</span>`).join('')}
         ${i.content_types.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}
         ${i.domains.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}
       </div>
@@ -605,7 +608,7 @@ function setColl(c){ F.coll = F.coll===c?'':c; refilter(); }
 function showRest(id,btn){ document.getElementById(id+'_rest').style.display='contents'; btn.remove(); }
 function toggleZero(k){ ZOPEN[k]=!ZOPEN[k]; document.getElementById('filters').innerHTML = filtersHTML(); }
 function tagClick(e,k,v){ e.stopPropagation(); if(!F[k].includes(v)) F[k].push(v); if(location.hash!=='#/') go('#/'); else refilter(); }
-function resetAll(){ Object.assign(F,{q:'',ct:[],dom:[],ent:[],chg:[],src:[],lang:'',tier:'useful+',pref:[],coll:'',from:'',to:'',time:'',sort:'smart'}); document.getElementById('q').value=''; refilter(); }
+function resetAll(){ Object.assign(F,{q:'',ct:[],tool:[],dom:[],ent:[],chg:[],src:[],lang:'',tier:'useful+',pref:[],coll:'',from:'',to:'',time:'',sort:'smart'}); document.getElementById('q').value=''; refilter(); }
 function copySerial(s){ navigator.clipboard?.writeText(s); toast('نُسخ رقم البطاقة '+s); }
 function toggleLike(id,btn){
   const on = Prefs.toggleLike(id);
@@ -821,7 +824,7 @@ function unbmFromTray(id,coll){
 }
 function showOnly(kind){
   closeTray();
-  Object.assign(F,{q:'',ct:[],dom:[],ent:[],chg:[],lang:'',tier:'all',pref:[kind==='liked'?'liked':'bookmarked'],coll:'',from:'',to:'',time:''});
+  Object.assign(F,{q:'',ct:[],tool:[],dom:[],ent:[],chg:[],lang:'',tier:'all',pref:[kind==='liked'?'liked':'bookmarked'],coll:'',from:'',to:'',time:''});
   document.getElementById('q').value='';
   if((location.hash||'#/')!=='#/') location.hash='#/'; else render();
 }
