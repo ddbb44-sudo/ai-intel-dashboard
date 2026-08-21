@@ -1,0 +1,390 @@
+[
+ {
+  "id": "c578",
+  "serial": 578,
+  "serial_display": "#000578",
+  "source_type": "x",
+  "source_url": "https://x.com/nvidia/status/2090473127658570184",
+  "source_native_id": "2090473127658570184",
+  "source_name": "NVIDIA",
+  "source_site": "x.com",
+  "author": "nvidia",
+  "published_at": "2026-08-20T16:16:47Z",
+  "fetched_at": "2026-08-21T06:01:46Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تستقبل أولى خوادم NVIDIA Vera Rubin لتدريب نماذجها الأمامية القادمة",
+  "arabic_summary": "أعلنت OpenAI أن أولى خوادم NVIDIA Vera Rubin أصبحت تعمل ضمن بنية التدريب الخاصة بها. تمثل هذه الخطوة توسعًا في القدرة الحسابية المخصصة لتدريب الجيل القادم من نماذج الذكاء الاصطناعي الأمامية من OpenAI.",
+  "detailed_explanation": "أعلنت OpenAI عن بدء تشغيل أولى خوادم NVIDIA Vera Rubin ضمن بنيتها التحتية للتدريب. جاء الإعلان في منشور مشترك بين الشركتين، حيث وصفته OpenAI بأنه \"معلم مهم\" في توسيع القدرة الحسابية التي تدعم تدريب نماذجها الأمامية القادمة.\n\nخوادم Vera Rubin تمثل أحدث جيل من البنية التحتية الحسابية المسرّعة من NVIDIA، وهي مصممة خصيصًا لتلبية متطلبات التدريب المكثف للنماذج اللغوية الكبيرة. التعليق من NVIDIA أكد على أن الشركتين تعملان معًا على بناء البنية التحتية اللازمة للحوسبة المسرّعة لتطوير الذكاء الاصطناعي الأمامي.\n\nهذا الإعلان يأتي في سياق تنافس شركات الذكاء الاصطناعي على توسيع قدراتها الحسابية، حيث أصبح توفير بنية تحتية قوية عاملًا حاسمًا في السباق نحو تطوير نماذج أكثر قوة.",
+  "why_it_matters": "يشير استخدام OpenAI لأحدث أجيال خوادم NVIDIA المتخصصة إلى استعدادها لتدريب نماذج أكبر وأكثر تعقيدًا، مما يعكس السباق المستمر في بناء البنية التحتية اللازمة للنماذج الأمامية.",
+  "original_text": "Awesome to see the first NVIDIA Vera Rubin racks powering @OpenAI 's training stack. \n\nTogether, we’re building the accelerated computing infrastructure to advance frontier AI.",
+  "glossary": [
+   {
+    "term": "Vera Rubin",
+    "ar": "اسم خوادم NVIDIA المتخصصة في تدريب النماذج الأمامية"
+   },
+   {
+    "term": "Frontier AI",
+    "ar": "الذكاء الاصطناعي الأمامي - النماذج الأكثر تقدمًا وقوة"
+   }
+  ],
+  "content_types": [
+   "Announcement",
+   "News"
+  ],
+  "domains": [
+   "AI",
+   "LLM"
+  ],
+  "entities": [
+   "OpenAI",
+   "NVIDIA",
+   "Vera Rubin"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 515,
+   "replies": 37,
+   "reposts": 57,
+   "quotes": 8,
+   "bookmarks": 26,
+   "views": 64956
+  },
+  "metrics_captured_at": "2026-08-21T06:01:46Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "A milestone for our infrastructure: our first NVIDIA Vera Rubin racks are here and now running our training stack. This is an important step as we expand compute that powers OpenAI's next generation of frontier AI pre-training. https://t.co/HXk6DrfLav"
+  },
+  "cluster_id": "openai_vera_rubin",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c579",
+  "serial": 579,
+  "serial_display": "#000579",
+  "source_type": "x",
+  "source_url": "https://x.com/ollama/status/2090505028998140182",
+  "source_native_id": "2090505028998140182",
+  "source_name": "ollama",
+  "source_site": "x.com",
+  "author": "ollama",
+  "published_at": "2026-08-20T18:23:33Z",
+  "fetched_at": "2026-08-21T06:01:46Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Ollama توسّع إتاحة نموذج Kimi K3 لأكثر من نصف مشتركيها مع استضافة أوروبية وأمريكية",
+  "arabic_summary": "أعلنت Ollama عن طرح نموذج Kimi K3 لأكثر من نصف قاعدة المشتركين، مع مواصلة التوسع. يتميز النموذج بالاستضافة في أمريكا وأوروبا مع سياسة عدم الاحتفاظ بالبيانات.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوسّع Ollama خيارات النماذج المتاحة عبر خدمته السحابية مع التركيز على الخصوصية من خلال سياسة عدم الاحتفاظ بالبيانات، مما يعكس اهتمام المستخدمين بالخصوصية عند استخدام النماذج السحابية.",
+  "original_text": "Kimi K3 is now rolled out to over half of the subscription base for included usage, and we're continuing to expand access today.\n\nUS and Europe-hosted and zero data retention.",
+  "glossary": [
+   {
+    "term": "Zero data retention",
+    "ar": "عدم الاحتفاظ بالبيانات - سياسة عدم تخزين بيانات المستخدمين"
+   }
+  ],
+  "content_types": [
+   "Announcement",
+   "Feature"
+  ],
+  "domains": [
+   "AI",
+   "LLM"
+  ],
+  "entities": [
+   "Ollama",
+   "Kimi",
+   "Kimi K3"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 500,
+   "replies": 41,
+   "reposts": 33,
+   "quotes": 8,
+   "bookmarks": 51,
+   "views": 51554
+  },
+  "metrics_captured_at": "2026-08-21T06:01:46Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": ".@Kimi_Moonshot Kimi K3 is starting to roll out on Ollama's cloud subscriptions. \n\nWe are working on improving Ollama's cloud to be much more transparent on the pricing to show the best performance / $. \n\nTry it with the tools you already use. \n\nClaude Code: \nollama launch claude --model kimi-k3:cloud\n\nOpenCode: \nollama launch opencode --model kimi-k3:cloud"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c580",
+  "serial": 580,
+  "serial_display": "#000580",
+  "source_type": "x",
+  "source_url": "https://x.com/nvidia/status/2090548358868070801",
+  "source_native_id": "2090548358868070801",
+  "source_name": "NVIDIA",
+  "source_site": "x.com",
+  "author": "nvidia",
+  "published_at": "2026-08-20T21:15:43Z",
+  "fetched_at": "2026-08-21T06:01:46Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "NVIDIA NeMo Switchyard يوفر توجيه ذكي للنماذج داخل workflows الـ Agents",
+  "arabic_summary": "تقدم NVIDIA أداة NeMo Switchyard التي تساعد المطورين على توجيه كل خطوة في workflow الـ Agent إلى النموذج الأنسب من مجموعة نماذج محددة، بناءً على معايير الجودة والزمن والتكلفة.",
+  "detailed_explanation": "طرحت NVIDIA أداة NeMo Switchyard التي تتيح للمطورين توجيه workflows الـ Agents عبر نماذج مختلفة بناءً على معايير محددة. الفكرة الأساسية هي أن النموذج المناسب يختلف باختلاف المهمة المطلوبة.\n\nتسمح الأداة للمطورين بتحديد مجموعة من النماذج (model pool)، ثم توجيه كل خطوة من خطوات الـ workflow إلى النموذج الأنسب بناءً على ثلاثة معايير رئيسية: الجودة (quality)، والزمن (latency)، والتكلفة (cost). هذا يعني أن خطوات بسيطة يمكن توجيهها لنماذج أصغر وأسرع وأرخص، بينما الخطوات المعقدة توجّه لنماذج أكبر وأكثر قدرة.\n\nشرحت Kari Briski من NVIDIA أن workflows الـ Agents تحتاج إلى هذا النوع من التوجيه الديناميكي لتحقيق التوازن الأمثل بين الأداء والتكلفة، خاصة في التطبيقات الإنتاجية التي تتطلب تنفيذ آلاف العمليات يوميًا.",
+  "why_it_matters": "يعالج NeMo Switchyard تحديًا أساسيًا في بناء الـ Agents: كيفية اختيار النموذج الأمثل لكل مهمة بناءً على احتياجات محددة، مما يحسّن الكفاءة والتكلفة دون التضحية بالجودة.",
+  "original_text": "The right model depends on the task.\n\nNVIDIA NeMo Switchyard helps developers route each agent workflow step across a chosen model pool based on their own quality, latency and cost criteria.\n\nKari Briski joins @MTSlive to explain why agent workflows need model routing. https://t.co/3fMDh26MKY",
+  "glossary": [
+   {
+    "term": "Model routing",
+    "ar": "توجيه النماذج - اختيار النموذج المناسب لكل مهمة ديناميكيًا"
+   },
+   {
+    "term": "Workflow",
+    "ar": "سلسلة الخطوات المترابطة لإنجاز مهمة معينة"
+   }
+  ],
+  "content_types": [
+   "Tool",
+   "Feature"
+  ],
+  "domains": [
+   "AI",
+   "LLM"
+  ],
+  "entities": [
+   "NVIDIA",
+   "NeMo Switchyard"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 181,
+   "replies": 23,
+   "reposts": 29,
+   "quotes": 1,
+   "bookmarks": 26,
+   "views": 47338
+  },
+  "metrics_captured_at": "2026-08-21T06:01:46Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c581",
+  "serial": 581,
+  "serial_display": "#000581",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2090424474373869605",
+  "source_native_id": "2090424474373869605",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-20T13:03:27Z",
+  "fetched_at": "2026-08-21T06:01:46Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LATAM Airlines تخفض الطلبات خارج النطاق من 13% إلى 1% بعد مراجعة آثار الإنتاج",
+  "arabic_summary": "اكتشفت LATAM Airlines أن 13% من الرسائل إلى Agent الحجز كانت تُصنّف خطأً كـ\"خارج النطاق\"، رغم أن 95% منها كانت احتياجات شرعية. بعد إضافة مختص خدمة عملاء، انخفضت النسبة إلى 1% وتحسن معدل العودة بـ 6%.",
+  "detailed_explanation": "استعرضت LangChain حالة دراسية من LATAM Airlines توضح قيمة مراجعة بيانات الإنتاج (production traces) لتحسين أداء الـ Agents. في البداية، كان 13% من الرسائل الواردة إلى Agent الحجز (Concierge agent) تُصنّف كـ\"خارج النطاق\" (out of scope).\n\nعند مراجعة فريق LATAM لسجلات المحادثات الفعلية، اكتشفوا أن 95% من هذه الرسائل المصنّفة خطأً كانت في الواقع احتياجات شرعية للركاب. بناءً على هذه النتائج، أضاف الفريق مختصًا في خدمة العملاء (customer-care specialist) إلى الـ Agent.\n\nالنتيجة كانت مثيرة: انخفضت نسبة الرسائل \"خارج النطاق\" من 13% إلى 1% فقط، كما تحسن معدل العودة (return rate) بنسبة 6%. هذا يعني أن العملاء أصبحوا أكثر رضا وأقل احتمالًا للتخلي عن المحادثة.\n\nالدرس الرئيسي: المحادثات الإنتاجية يمكن أن تكشف احتياجات العملاء التي لم يُصمم الـ Agent الأصلي للتعامل معها، ومراجعة هذه البيانات بانتظام أمر حاسم لتحسين الأداء.",
+  "why_it_matters": "يظهر هذا المثال أهمية مراجعة بيانات الإنتاج الفعلية لتحسين أداء الـ Agents، حيث أن الافتراضات الأولية قد تخفي احتياجات حقيقية للعملاء وتؤدي إلى خسارة الفرص.",
+  "original_text": "Production conversations can reveal customer needs the original agent was not designed to handle.\n\n@LATAMAirlines found that 13% of messages to its Concierge agent were being classified as out of scope. After reviewing production traces, the team discovered that 95% were legitimate passenger needs.\n\nAdding a customer-care specialist reduced the out-of-scope rate from 13% to 1% and improved the return rate by 6%.\n\nLearn how LATAM Airlines and other CX teams are using production feedback to improve agent performance: https://t.co/9tgMzf99HU",
+  "glossary": [
+   {
+    "term": "Production traces",
+    "ar": "سجلات التنفيذ الإنتاجية - البيانات المسجلة من استخدام حقيقي للنظام"
+   },
+   {
+    "term": "Out of scope",
+    "ar": "خارج النطاق - طلبات لا يستطيع النظام التعامل معها"
+   }
+  ],
+  "content_types": [
+   "Case Study"
+  ],
+  "domains": [
+   "AI",
+   "Customer Experience"
+  ],
+  "entities": [
+   "LangChain",
+   "LATAM Airlines",
+   "LangSmith"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 38,
+   "replies": 3,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 14,
+   "views": 7203
+  },
+  "metrics_captured_at": "2026-08-21T06:01:46Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c582",
+  "serial": 582,
+  "serial_display": "#000582",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2090482824554172675",
+  "source_native_id": "2090482824554172675",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-20T16:55:19Z",
+  "fetched_at": "2026-08-21T06:01:46Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith تطلق Preview Builds للـ Agents: اختبار التغييرات قبل الدمج في الإنتاج",
+  "arabic_summary": "أصبحت ميزة Preview Builds متاحة في النسخة التجريبية العامة ضمن LangSmith Deployment. تتيح الميزة إنشاء بيئات نشر مؤقتة تشبه الإنتاج تلقائيًا من فرع Pull Request، مع إمكانية فحص traces ومشاركة التعليقات قبل الدمج.",
+  "detailed_explanation": "أعلنت LangSmith عن إتاحة ميزة Preview Builds في النسخة التجريبية العامة (Public Beta) ضمن منصة LangSmith Deployment. تستهدف الميزة تسهيل عملية اختبار التغييرات على الـ Agents قبل دمجها في الإنتاج.\n\nتعمل الميزة بطريقة تلقائية: عند إنشاء Pull Request من فرع معين، يتم تلقائيًا إنشاء بيئة نشر مؤقتة (temporary deployment) تشبه بيئة الإنتاج. يمكن للمطورين فحص traces (سجلات التنفيذ)، ومشاركة التعليقات مع الفريق، والتأكد من أن الـ Agent يتصرف بالطريقة المتوقعة.\n\nالميزة الذكية هي أن Preview Builds قصيرة العمر (short-lived) وتُحذف تلقائيًا بعد دمج التغييرات، مما يوفر الموارد ويحافظ على نظافة البيئة. هذا النمط مستوحى من ممارسات DevOps الحديثة التي تستخدم بيئات مؤقتة للمراجعة.",
+  "why_it_matters": "تحل Preview Builds مشكلة أساسية في تطوير الـ Agents: كيفية اختبار التغييرات في بيئة تشبه الإنتاج قبل نشرها للمستخدمين، مما يقلل المخاطر ويسرّع دورة التطوير.",
+  "original_text": "Preview Builds are now in Public Beta for LangSmith Deployment.\n\nTest agent changes before merging by automatically spinning up temporary, production-like deployments from a PR branch.\n\nInspect traces, share feedback, and merge once the agent behaves the way you expect.\n\nPreview Builds are short-lived and will automatically tear down after you merge changes.\n\nRead the blog: https://t.co/hM7xbvUR8k",
+  "glossary": [
+   {
+    "term": "Preview Build",
+    "ar": "بناء معاينة - بيئة نشر مؤقتة لاختبار التغييرات"
+   },
+   {
+    "term": "Pull Request",
+    "ar": "طلب دمج - آلية في Git لمراجعة ودمج التغييرات البرمجية"
+   }
+  ],
+  "content_types": [
+   "Feature",
+   "Release"
+  ],
+  "domains": [
+   "AI",
+   "DevOps",
+   "Software Development"
+  ],
+  "entities": [
+   "LangSmith"
+  ],
+  "change_types": [
+   "Beta / Preview",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 15,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 6359
+  },
+  "metrics_captured_at": "2026-08-21T06:01:46Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c583",
+  "serial": 583,
+  "serial_display": "#000583",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2090552153043833195",
+  "source_native_id": "2090552153043833195",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-20T21:30:48Z",
+  "fetched_at": "2026-08-21T06:01:46Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تكامل Stagehand من Browserbase مع DeepAgents لبناء Browser Agents بسهولة",
+  "arabic_summary": "يتيح التكامل بين Stagehand من Browserbase وDeepAgents من LangChain بناء Browser Agents قادرة على النقر والتمرير وأخذ لقطات الشاشة واستخراج البيانات المنظمة. تم عرض مثال على Agent يتنقل في الخرائط ويلعب لعبة تحديد المواقع.",
+  "detailed_explanation": "",
+  "why_it_matters": "يبسّط هذا التكامل بناء Agents قادرة على التفاعل مع واجهات الويب المعقدة، مما يفتح المجال لأتمتة مهام تتطلب تنقلًا وتفاعلًا بصريًا متقدمًا.",
+  "original_text": "It's super easy to build browser agents with stagehand from @browserbase and deepagents from @LangChain_OSS!\n\nBrowser agents can click, scroll, screenshot, extract structured data, and more. For example, @sydneyrunkle just built one to navigate maps!\n\nhttps://t.co/Oo4UnlJqh6",
+  "glossary": [
+   {
+    "term": "Browser Agent",
+    "ar": "Agent متصفح - نظام ذكي قادر على التحكم بالمتصفح والتفاعل مع صفحات الويب"
+   }
+  ],
+  "content_types": [
+   "Demo"
+  ],
+  "domains": [
+   "AI",
+   "Automation",
+   "Software Development"
+  ],
+  "entities": [
+   "Stagehand",
+   "Browserbase",
+   "LangChain",
+   "DeepAgents"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 4,
+   "replies": 3,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 1892
+  },
+  "metrics_captured_at": "2026-08-21T06:01:46Z",
+  "external_links": [
+   "https://docs.langchain.com/oss/python/integrations/tools/stagehand"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "last night i spent some time building a browser agent with stagehand from @browserbase and deepagents from @LangChain \n\ni wanted to build something that required pretty complex web navigation to prove the value of agentic browser use!\n\nmy agent plays a game called \"map tap\" where you are assigned a city around the globe, and have to drag the map, zoom in, and click as close to the given city as po"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
