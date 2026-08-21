@@ -1,0 +1,26 @@
+name: restore-docs
+
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-docs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: restore instructions file
+        run: |
+          git checkout 6e1fe37ab197b48f8a53738cc0bbbdd512fb43a6 -- docs/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "revert: استعادة ملف التعليمات كاملا" || echo "nothing to restore"
+          git push
