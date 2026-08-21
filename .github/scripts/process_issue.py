@@ -223,15 +223,13 @@ if unreadable and not page_title and KIND != "x":
     bail("تعذّر قراءة الصفحة: لا عنوان ولا نص. لم أُنشئ بطاقة فارغة")
 
 # ---------- 5) التصنيف عبر Claude ----------
+# §33 — المفردات المعتمدة (نسخة مطابقة لما في daily_pull.py و taxonomy.py)
 TAXONOMY = {
- "content_types": ['Skill','MCP','Agent','Prompt','API','Release','Feature','Tutorial','Guide','Tool',
-   'Workflow','Template','SDK','Dataset','Benchmark','Research Paper','Announcement','Case Study',
-   'Comparison','Opinion','Thread','Demo','Course','News','Job','Event'],
- "domains": ['AI','ML','LLM','Software Development','Coding','DevOps','Data','Analytics','Cybersecurity',
-   'Robotics','Product','Design','UI','UX','Marketing','Digital Marketing','SEO','Content','Sales',
-   'E-commerce','Business','Management','Operations','Customer Experience','Finance','Investment',
-   'Legal','Healthcare','Medicine','Education','Research','Engineering','Automotive','Manufacturing',
-   'Media','Creative','Video','Audio','Islamic','Personal Productivity','Automation'],
+ "content_types": ['إصدار','أداة','شرح','تجربة','بحث وقياس','رأي','خبر'],
+ "tool_types":    ['MCP','Skill','Agent','Plugin','Prompt','API/SDK','تطبيق','نموذج'],
+ "domains": ['برمجة وهندسة','أعمال وإدارة','تصميم وواجهات','تسويق ومحتوى','نماذج وLLM',
+   'بيانات وتحليلات','بحث وتعليم','إنتاجية شخصية','فيديو وصوت','أمن سيبراني',
+   'روبوتات وعتاد','صحة','إسلامي'],
  "change_types": ['New Release','New Feature','Upgrade','Update','Model Update','API Update',
    'Pricing Change','New Integration','MCP Support','New Agent Feature','Beta / Preview',
    'General Availability','Deprecation','Shutdown','Research Release','Open Source','Acquisition',
@@ -266,8 +264,9 @@ PROMPT = f"""أنت محرّر «مركز المعرفة — الذكاء الا
  "arabic_summary": "ملخص عربي مبسّط لغير المختص، 2-4 جمل",
  "why_it_matters": "جملة أو جملتان عن الأثر الحقيقي — لا إعادة صياغة للملخص",
  "detailed_explanation": "شرح موسّع، فقرات مفصولة بسطرين. إلزامي إن كان التصنيف important.",
- "content_types": ["من القائمة المعتمدة فقط"],
- "domains": ["2-5 من القائمة المعتمدة فقط"],
+ "content_types": ["نوع واحد فقط من القائمة المعتمدة"],
+ "tool_types": ["0-2 — فقط إن كان النوع أداة أو إصدار"],
+ "domains": ["مجال رئيسي واحد، وثانٍ فقط إن كان جمهوره سيبحث عن البطاقة فعلًا"],
  "entities": ["الشركات/المنتجات المذكورة صراحةً فقط، أو []"],
  "change_types": ["من القائمة المعتمدة فقط، أو []"],
  "importance_tier": "important أو useful",
@@ -276,8 +275,10 @@ PROMPT = f"""أنت محرّر «مركز المعرفة — الذكاء الا
 }}
 
 القوائم المعتمدة (لا تخرج عنها إطلاقًا):
-content_types: {json.dumps(TAXONOMY['content_types'], ensure_ascii=False)}
-domains: {json.dumps(TAXONOMY['domains'], ensure_ascii=False)}
+content_types (واحد): {json.dumps(TAXONOMY['content_types'], ensure_ascii=False)}
+tool_types (0-2): {json.dumps(TAXONOMY['tool_types'], ensure_ascii=False)}
+domains (1-2): {json.dumps(TAXONOMY['domains'], ensure_ascii=False)}
+الإفراط في الوسم خطأ: الوسم الذي لا يمكن الدفاع عنه من نص الصفحة لا يوضع.
 change_types: {json.dumps(TAXONOMY['change_types'], ensure_ascii=False)}
 """
 
@@ -305,14 +306,15 @@ except Exception as e:
 
 def clean(vals, allowed):
     return [v for v in (vals or []) if v in allowed]
-card["content_types"] = clean(card.get("content_types"), TAXONOMY["content_types"])
-card["domains"]       = clean(card.get("domains"),       TAXONOMY["domains"])
+card["content_types"] = clean(card.get("content_types"), TAXONOMY["content_types"])[:1]
+card["tool_types"]    = clean(card.get("tool_types"),    TAXONOMY["tool_types"])[:2]
+card["domains"]       = clean(card.get("domains"),       TAXONOMY["domains"])[:2]
 card["change_types"]  = clean(card.get("change_types"),  TAXONOMY["change_types"])
 if not card.get("arabic_title") or not card.get("arabic_summary"):
     bail("البطاقة الناتجة ناقصة العنوان أو الملخص")
 if card.get("importance_tier") not in ("important", "useful"):
     card["importance_tier"] = "useful"
-if not card["domains"]: card["domains"] = ["AI"]
+if not card["domains"]: log("تنبيه: لا مجال معتمد — تُترك بلا مجال بدل التخمين")
 
 # ---------- 6) بناء السجل ----------
 now    = datetime.datetime.now(datetime.timezone.utc)
@@ -351,7 +353,7 @@ rec = {
  "detailed_explanation": de, "why_it_matters": card.get("why_it_matters", ""),
  "original_text": original_text,
  "glossary": [g for g in (card.get("glossary") or []) if isinstance(g, dict) and g.get("term")],
- "content_types": card["content_types"], "domains": card["domains"],
+ "content_types": card["content_types"], "tool_types": card["tool_types"], "domains": card["domains"],
  "entities": card.get("entities") or [], "change_types": card["change_types"],
  "importance_tier": card["importance_tier"],
  "importance_score": 88 if card["importance_tier"] == "important" else 62,

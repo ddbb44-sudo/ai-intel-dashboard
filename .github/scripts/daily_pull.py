@@ -67,15 +67,14 @@ T0 = time.time()
 if not AKEY:  die("ANTHROPIC_API_KEY غير مضبوط")
 if not APIFY: die("APIFY_TOKEN غير مضبوط")
 
+# §33 — المفردات المعتمدة. أي تغيير هنا يجب أن يوازيه تغيير في
+# .github/scripts/taxonomy.py و DECLARED في tpl_js.html، ثم تشغيل retag.
 TAX = {
- "content_types": ['Skill','MCP','Agent','Prompt','API','Release','Feature','Tutorial','Guide','Tool',
-   'Workflow','Template','SDK','Dataset','Benchmark','Research Paper','Announcement','Case Study',
-   'Comparison','Opinion','Thread','Demo','Course','News','Job','Event'],
- "domains": ['AI','ML','LLM','Software Development','Coding','DevOps','Data','Analytics','Cybersecurity',
-   'Robotics','Product','Design','UI','UX','Marketing','Digital Marketing','SEO','Content','Sales',
-   'E-commerce','Business','Management','Operations','Customer Experience','Finance','Investment',
-   'Legal','Healthcare','Medicine','Education','Research','Engineering','Automotive','Manufacturing',
-   'Media','Creative','Video','Audio','Islamic','Personal Productivity','Automation'],
+ "content_types": ['إصدار','أداة','شرح','تجربة','بحث وقياس','رأي','خبر'],
+ "tool_types":    ['MCP','Skill','Agent','Plugin','Prompt','API/SDK','تطبيق','نموذج'],
+ "domains": ['برمجة وهندسة','أعمال وإدارة','تصميم وواجهات','تسويق ومحتوى','نماذج وLLM',
+   'بيانات وتحليلات','بحث وتعليم','إنتاجية شخصية','فيديو وصوت','أمن سيبراني',
+   'روبوتات وعتاد','صحة','إسلامي'],
  "change_types": ['New Release','New Feature','Upgrade','Update','Model Update','API Update',
    'Pricing Change','New Integration','MCP Support','New Agent Feature','Beta / Preview',
    'General Availability','Deprecation','Shutdown','Research Release','Open Source','Acquisition',
@@ -283,14 +282,30 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
  "arabic_title":"عنوان محدّد 6-14 كلمة","arabic_summary":"2-4 جمل لغير المختص",
  "why_it_matters":"جملة أو جملتان عن الأثر الحقيقي",
  "detailed_explanation":"شرح موسّع بفقرات مفصولة بسطرين — إلزامي إن كان التصنيف important",
- "content_types":[],"domains":[],"entities":[],"change_types":[],
+ "content_type":"واحد فقط","tool_types":[],"domains":[],"entities":[],"change_types":[],
  "importance_tier":"important|useful","glossary":[{"term":"","ar":""}]}
 حين keep=false اكتف بـ id و keep و reason (و duplicate_of/cluster_id إن كان تكرارًا).
 
-## القوائم المعتمدة (لا تخرج عنها)
-""" + ("content_types: " + json.dumps(TAX['content_types'], ensure_ascii=False) + "\n"
-     + "domains: "       + json.dumps(TAX['domains'],       ensure_ascii=False) + "\n"
-     + "change_types: "  + json.dumps(TAX['change_types'],  ensure_ascii=False) + "\n")
+## التصنيف — ثلاثة محاور، والإفراط في الوسم خطأ
+**نوع المحتوى: واحد فقط.** إن أعلن المنشور شيئًا جديدًا فهو «إصدار» لا «خبر».
+إن كان جوهره تعليم القارئ كيف يفعل شيئًا فهو «شرح» لا «أداة». «خبر» للسوق:
+استحواذ · تمويل · سياسة · تعطّل.
+
+**نوع الأداة: صفر إلى اثنين، وفقط مع «أداة» أو «إصدار».** `MCP` لخادم أو موصّل MCP
+تحديدًا لا لمجرد ذكر الكلمة، وكذلك `Agent`. `Plugin` لإضافة داخل برنامج قائم.
+`نموذج` لنموذج ذكاء اصطناعي. إن لم تنطبق واحدة بوضوح فأعد [].
+
+**المجال: رئيسي واحد + ثانٍ فقط إن كان جمهوره سيبحث عن البطاقة فعلًا** ولو لم تكن
+موضوعها — أداة توليد فيديو يريدها المصمّم أيضًا، وتغيير في احتساب المشاهدات
+يهم صانع المحتوى. اثنان كحد أقصى.
+
+**القاعدة الحاكمة: الوسم الذي لا يمكن الدفاع عنه من نص المنشور لا يوضع.**
+
+## القوائم المعتمدة (لا تخرج عنها إطلاقًا)
+""" + ("content_type (واحد): " + json.dumps(TAX['content_types'], ensure_ascii=False) + "\n"
+     + "tool_types (0-2): "     + json.dumps(TAX['tool_types'],    ensure_ascii=False) + "\n"
+     + "domains (1-2): "        + json.dumps(TAX['domains'],       ensure_ascii=False) + "\n"
+     + "change_types: "         + json.dumps(TAX['change_types'],  ensure_ascii=False) + "\n")
 
 def claude(prompt, max_tokens=8000):
     req = urllib.request.Request(ABASE + "/v1/messages",
@@ -378,9 +393,15 @@ serial = int(state.get("max_serial", 0))
 out, dup_merged = [], 0
 for c in kept:
     d = decisions[c["id"]]
-    ct  = clean(d.get("content_types"),  TAX["content_types"])
-    dom = clean(d.get("domains"),        TAX["domains"]) or ["AI"]
-    chg = clean(d.get("change_types"),   TAX["change_types"])
+    # content_type مفرد الآن؛ نقبل الشكل القديم أيضًا تحسّبًا
+    _ct_raw = d.get("content_type") or d.get("content_types")
+    if isinstance(_ct_raw, str): _ct_raw = [_ct_raw]
+    ct  = clean(_ct_raw, TAX["content_types"])[:1]
+    tl  = clean(d.get("tool_types"), TAX["tool_types"])[:2]
+    dom = clean(d.get("domains"),    TAX["domains"])[:2]
+    chg = clean(d.get("change_types"), TAX["change_types"])
+    if not dom:
+        log("تنبيه: بطاقة بلا مجال معتمد (%s) — تُترك بلا مجال بدل التخمين" % c["id"])
     tier = d.get("importance_tier") if d.get("importance_tier") in ("important","useful") else "useful"
     title = (d.get("arabic_title") or "").strip()
     summ  = (d.get("arabic_summary") or "").strip()
@@ -402,7 +423,7 @@ for c in kept:
       "why_it_matters": d.get("why_it_matters") or "",
       "original_text": c["text"][:1200],
       "glossary": [g for g in (d.get("glossary") or []) if isinstance(g, dict) and g.get("term")],
-      "content_types": ct, "domains": dom, "entities": d.get("entities") or [], "change_types": chg,
+      "content_types": ct, "tool_types": tl, "domains": dom, "entities": d.get("entities") or [], "change_types": chg,
       "importance_tier": tier, "importance_score": 88 if tier == "important" else 62,
       "engagement_score": eng(c["m"]), "metrics": c["m"],
       "metrics_captured_at": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"),
