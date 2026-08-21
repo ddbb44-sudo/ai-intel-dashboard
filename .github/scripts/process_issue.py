@@ -181,10 +181,23 @@ else:
         except Exception as e:
             log("oembed failed: %s" % e)
         try:
-            _, _, raw_html = fetch_text(URL, want_raw=True)
+            # bpctr يتخطى شاشة موافقة قد تُقدَّم لخوادم لا تحمل كوكيز
+            _, _, raw_html = fetch_text(URL + "&bpctr=9999999999&hl=en", want_raw=True)
             dm = re.search(r'"shortDescription":"((?:[^"\\]|\\.)*)"', raw_html)
             if dm:
                 yt_desc = json.loads('"' + dm.group(1) + '"')
+                log("yt desc via shortDescription (%d chars)" % len(yt_desc))
+            if not yt_desc:
+                for pat in (r'<meta[^>]+property="og:description"[^>]+content="([^"]*)"',
+                            r'<meta[^>]+content="([^"]*)"[^>]+property="og:description"',
+                            r'<meta[^>]+name="description"[^>]+content="([^"]*)"'):
+                    mm = re.search(pat, raw_html, re.I)
+                    if mm and mm.group(1).strip():
+                        yt_desc = htmllib.unescape(mm.group(1)).strip()
+                        log("yt desc via meta (%d chars)" % len(yt_desc))
+                        break
+            if not yt_desc:
+                log("yt desc: no shortDescription and no meta description found")
         except Exception as e:
             log("yt description failed: %s" % e)
         source_name = yt_channel or "YouTube"
