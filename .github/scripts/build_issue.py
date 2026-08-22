@@ -97,8 +97,19 @@ if titles:
 
 L += ["---", "", "**[افتح اللوحة](%s)** · [سجل التشغيلة](%s)" % (DASH, RUN)]
 
-open("issue_body.md", "w", encoding="utf-8").write("\n".join(L))
-with open(os.environ.get("GITHUB_ENV", "/dev/null"), "a", encoding="utf-8") as f:
-    f.write("ISSUE_TITLE=%s\n" % title.replace("\n", " "))
+body = "\n".join(L)
+title = " ".join(title.split()).strip()
+
+# العنوان يُمرَّر عبر ملف لا عبر $GITHUB_ENV.
+# السبب (عطل 22 أغسطس 2026): GitHub Actions لا يُظهر ما يُكتب في $GITHUB_ENV
+# إلا للخطوات **التالية**، لا للخطوة التي كتبته. فكان `gh issue create`
+# في الخطوة نفسها يقرأ متغيّرًا فارغًا، وترد GitHub: `title can't be blank`.
+# النتيجة: لم يُنشَر أي تقرير يومي منذ كتابة الخطوة، ولم يصل عزيز أي إشعار.
+if not title:
+    raise SystemExit("عنوان التقرير فارغ — أوقفت النشر بدل إنشاء طلب بلا عنوان")
+
+open("issue_body.md",  "w", encoding="utf-8").write(body)
+open("issue_title.txt", "w", encoding="utf-8").write(title)
 print("title:", title)
-print("body bytes:", len("\n".join(L).encode()))
+print("title bytes:", len(title.encode()))
+print("body bytes:", len(body.encode()))
