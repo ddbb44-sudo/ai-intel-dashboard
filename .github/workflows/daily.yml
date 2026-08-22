@@ -73,8 +73,17 @@ jobs:
           GITHUB_RUN_ID: ${{ github.run_id }}
         run: |
           python .github/scripts/build_issue.py
+          # العنوان يُقرأ من ملف لا من $GITHUB_ENV — الأخير لا يصل للخطوة التي كتبته
+          TITLE="$(cat issue_title.txt)"
+          if [ -z "$TITLE" ]; then
+            echo "::error::عنوان التقرير فارغ — لن يُنشَر الطلب"
+            exit 1
+          fi
+          # الوسم قد لا يكون موجودًا في مستودع جديد، و`gh` يفشل إن طلبت وسمًا غير موجود.
+          # (فحص 22 أغسطس: وسم report لم يكن موجودًا أصلًا — عطل ثانٍ كان سيظهر بعد إصلاح العنوان.)
+          gh label create report --color 0e8a16 --description "تقرير التشغيلة اليومية" 2>/dev/null || true
           url=$(gh issue create \
-                 --title "$ISSUE_TITLE" \
+                 --title "$TITLE" \
                  --body-file issue_body.md \
                  --label report \
                  --assignee "${{ github.repository_owner }}")
