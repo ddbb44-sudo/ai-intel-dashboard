@@ -1,0 +1,1254 @@
+[
+ {
+  "id": "c638",
+  "serial": 638,
+  "serial_display": "#000638",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2091208189773742448",
+  "source_native_id": "2091208189773742448",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-08-22T16:57:39Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تطلق Claude Academy لتعليم التعاون مع Claude مجانًا",
+  "arabic_summary": "أطلقت Anthropic منصة Claude Academy، وهي دورات تعليمية مجانية تعلّم المستخدمين كيفية استخدام Claude Code وCowork، وكيفية التفكير الصحيح في التعاون مع الذكاء الاصطناعي. المحتوى موجّه لمن يريد الاستفادة القصوى من قدرات Claude في البرمجة والعمل المشترك.",
+  "detailed_explanation": "Claude Academy هي مبادرة تعليمية جديدة من Anthropic، الشركة المطوّرة لنموذج Claude. المنصة تقدّم دورات مجانية تغطي جانبين رئيسيين: الأول هو تعليم استخدام Claude Code وCowork (أدوات Claude للبرمجة والعمل التعاوني)، والثاني — وهو الأهم — تعليم «كيفية التفكير الصحيح في التعاون مع الذكاء الاصطناعي».\n\nهذا التوجه يعكس نضجًا في فهم احتياجات المستخدمين: المشكلة لم تعد في توفير أدوات قوية فقط، بل في كيفية استخدامها بفعالية. التركيز على «طريقة التفكير» يشير إلى أن Anthropic تحاول بناء ثقافة عمل صحيحة مع النماذج اللغوية، بدلاً من الاكتفاء بتوثيق تقني.\n\nالمنصة متاحة مجانًا، مما يجعلها متاحة لجمهور واسع يريد تطوير مهاراته في استخدام Claude بشكل احترافي، سواء في البرمجة أو في سياقات العمل الأخرى.",
+  "why_it_matters": "أول برنامج تعليمي رسمي من Anthropic يركّز على بناء المهارات الصحيحة للتعاون مع Claude، وليس فقط استخدامه كأداة، مما يعكس توجهًا نحو تعليم الممارسات الجيدة في العمل مع الذكاء الاصطناعي.",
+  "original_text": "Anthropic just launched Claude Academy.\n\nFree courses that teach you Claude Code, Cowork, and even how to think about AI collaboration properly. https://t.co/jGDPwZOi4O",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 19,
+   "replies": 10,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 18,
+   "views": 4539
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c639",
+  "serial": 639,
+  "serial_display": "#000639",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2091243296915923048",
+  "source_native_id": "2091243296915923048",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-08-22T19:17:10Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Second Brain آلي يعتمد على Agents لتتبّع الأفكار والمحادثات المفتوحة",
+  "arabic_summary": "يشرح المؤلف نظامًا شخصيًا لإدارة المعرفة يعتمد على sub-agents لمعالجة الملاحظات والمسودات والمحادثات تلقائيًا، وبناء صفحة لكل موضوع تحتوي آخر تحديث والخطوات التالية والحلقات المفتوحة. النظام يقدّم تقريرًا يوميًا أو حسب الطلب، ويُغني عن الحاجة لحفظ كل شيء يدويًا.",
+  "detailed_explanation": "النظام الموصوف يحوّل فكرة الـ second brain من عملية يدوية إلى آلية تعتمد على Agents. التصميم يتألّف من أربع خطوات:\n\n1. **إدخال المصادر الخام**: تُجمع المسودات والرسائل والنصوص المنسوخة والملاحظات في مجلد واحد.\n\n2. **Sub-agents تبني أو تحدّث الصفحات**: كل Agent مسؤول عن معالجة نوع معين من المحتوى وبناء صفحة منظمة له.\n\n3. **بنية موحّدة**: كل صفحة تحتوي نفس الحقول: المصدر، آخر لمسة، الحلقات المفتوحة (open loops)، الخطوة التالية، وما يمكن استخلاصه من الملاحظات الشخصية للعمل عليه.\n\n4. **Orchestrator agent**: يقدّم تقريرًا يوميًا أو حسب الطلب عن حالة كل المواضيع.\n\nالفائدة الأساسية: المؤلف لم يعد بحاجة لـ«تذكّر» أي شيء. المحادثات التي نُسيت، الأفكار من أسابيع سابقة، كلها مُتتبَّعة تلقائيًا. النظام يعمل كمساعد ذاكرة دائم، ويحوّل الفوضى المعرفية إلى بنية قابلة للعمل عليها.",
+  "why_it_matters": "يمثّل تطبيقًا عمليًا لاستخدام Agents في الإنتاجية الشخصية، حيث تصبح إدارة المعلومات المتناثرة (مسودات، محادثات، ملاحظات) عملية آلية بدلاً من عبء يدوي مستمر.",
+  "original_text": "I run everything through a second brain now, every note, idea, and open thread caught in one place.\n\npost ideas, conversations I meant to follow up on, threads from weeks ago I forgot existed…it all sits there until this catches it.\n\none page per thread - last touched, open loops, next step, what I can pull from my own notes to act on it.\n\nsetup:\n\n1. dump raw sources into a folder, drafts, dms, transcripts, notes\n2. sub-agents build or update each page from it\n3. same fields on every page, source, last touched, open loops, next step\n4. orchestrator gives you a daily update, or run it on demand\n\nevery thread tracked, I don't have to memorize any of it anymore.",
+  "glossary": [
+   {
+    "term": "Sub-agents",
+    "ar": "وكلاء فرعيون، كل واحد مسؤول عن مهمة محددة ضمن نظام أكبر"
+   },
+   {
+    "term": "Orchestrator",
+    "ar": "منسّق، Agent رئيسي يدير عمل الـ sub-agents ويقدّم التقارير"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 23,
+   "replies": 4,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 26,
+   "views": 3513
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c640",
+  "serial": 640,
+  "serial_display": "#000640",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2091265346057453820",
+  "source_native_id": "2091265346057453820",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-08-22T20:44:46Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخدام Agents لإدارة Notion تلقائيًا دون تدريب الفريق",
+  "arabic_summary": "المؤلف كان لا يحب Notion، لكنه الآن يستخدمه بشكل مختلف: Agents تصل لكل معلومات العمل في Notion، وتحدّث قواعد البيانات تلقائيًا عند إنجاز المهام، مع agents أخرى تعمل كل ساعة للتأكد من صحة التحديثات. النتيجة: لا حاجة لتدريب الفريق على استخدام Notion.",
+  "detailed_explanation": "التجربة الموصوفة تعكس تحولًا جوهريًا في كيفية استخدام أدوات مثل Notion. بدلاً من أن يكون Notion أداة يتعلمها الموظفون ويدخلون فيها البيانات يدويًا، أصبح مستودعًا مركزيًا تديره Agents.\n\nالآلية كالتالي:\n\n- **Agents لها وصول كامل** لكل معلومات الشركة المخزّنة في Notion.\n- **عند إتمام أي مهمة**، الـ agents تحدّث قواعد البيانات ذات الصلة تلقائيًا.\n- **Agents مراقبة** تعمل كل ساعة للتأكد من أن كل التحديثات تمت بشكل صحيح.\n\nالنتيجة: الفريق لا يحتاج لتعلّم كيفية استخدام Notion على الإطلاق. Notion يصبح طبقة بيانات خلفية تديرها الـ agents، والمستخدمون يتفاعلون مع عملهم بطرق أخرى (ربما عبر chat مع agents أو أدوات أبسط).\n\nهذا النموذج يحلّ مشكلة كلاسيكية: مقاومة الفرق لتبني أدوات جديدة بسبب منحنى التعلّم. عندما تكون الـ agents هي من يدير الأداة، يصبح التبني شفافًا.",
+  "why_it_matters": "يوضح تحولًا في دور أدوات الإنتاجية: من منصات يتعلمها البشر إلى منصات تديرها Agents، مما يقلل عبء التدريب ويجعل الأداة واجهة للبيانات لا واجهة للمستخدمين.",
+  "original_text": "I used to not like Notion... But now I do.\n\nWhy? Because I don't need to teach people on the team how to use it. \n\nAgents maintain everything. All information about the business is viewable by my agents. When something gets done, the agents update the database in notion. \n\nAnd I even have agents run every hour to see if everything was updated correctly. It's working flawlessly so far.",
+  "glossary": [],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Notion"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 195,
+   "replies": 41,
+   "reposts": 3,
+   "quotes": 4,
+   "bookmarks": 88,
+   "views": 26283
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c641",
+  "serial": 641,
+  "serial_display": "#000641",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2091182096605696341",
+  "source_native_id": "2091182096605696341",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-22T15:13:58Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "لماذا طلب الشرح المخصص من LLM أفضل من الشرح المبسط العام",
+  "arabic_summary": "ينتقد إيثان موليك الاعتماد على أسلوب \"اشرح لي كأني بعمر الخمس سنوات\" (ELI5) كطريقة افتراضية لطلب التبسيط من النماذج اللغوية. يقترح بدلاً منه طلب شروحات مخصصة تستند إلى معرفة المستخدم الحالية، مثل \"اشرح لي بناءً على ما أعرفه\"، مما يستفيد من قدرة النماذج على العمل كمترجم عالمي بين المواضيع.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح كيفية الاستفادة القصوى من إمكانات التخصيص في النماذج اللغوية بدلاً من الاكتفاء بالتبسيط العام الذي قد لا يناسب مستوى المستخدم الفعلي.",
+  "original_text": "I don’t like ELI5 as default for “make this easy to understand,” a great thing about LLMs is the ability to work as universal translators across topics\n\nAsking for generic dumbed-down explanations is worse than asking for personalized ones: “explain to me drawing on what I know”",
+  "glossary": [
+   {
+    "term": "LLM",
+    "ar": "نموذج لغوي كبير"
+   },
+   {
+    "term": "ELI5",
+    "ar": "اشرح لي كأني بعمر الخمس سنوات (Explain Like I'm 5)"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   {
+    "name": "Ethan Mollick",
+    "type": "person"
+   }
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 364,
+   "replies": 38,
+   "reposts": 15,
+   "quotes": 2,
+   "bookmarks": 166,
+   "views": 52099
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "a skill people at Anthropic have been using a lot recently: ELI5\n\n/eli5 &lt;what you want explained&gt;\n\n\"explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few words\" https://t.co/OZqzjAyFdT"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c642",
+  "serial": 642,
+  "serial_display": "#000642",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2091092626854330719",
+  "source_native_id": "2091092626854330719",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-08-22T09:18:27Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "استهلاك 170 مليون Token بأقل من 5 دولار: تطور أسعار النماذج اللغوية",
+  "arabic_summary": "يشارك مستخدم تجربته في استهلاك 170 مليون Token في يوم واحد بتكلفة أقل من 5 دولارات فقط. هذا المثال يوضح التطور الكبير في انخفاض تكاليف استخدام النماذج اللغوية الكبيرة، مما يجعلها أكثر إتاحة للاستخدامات المكثفة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يظهر مدى انخفاض تكلفة التشغيل للنماذج اللغوية، مما يفتح المجال لحالات استخدام كانت مكلفة سابقاً ويجعل التجريب والاستخدام المكثف ممكناً للأفراد والشركات الصغيرة.",
+  "original_text": "تخيلوا اني اليوم بس استهلكت 170 مليون توكن وكلها بأقل من 5 دولار بس https://t.co/jA2Aqz6LmD",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "الوحدة الأساسية لمعالجة النص في النماذج اللغوية"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 77,
+  "metrics": {
+   "likes": 198,
+   "replies": 18,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 194,
+   "views": 32338
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c643",
+  "serial": 643,
+  "serial_display": "#000643",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2091067759689871841",
+  "source_native_id": "2091067759689871841",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-08-22T07:39:38Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "und",
+  "is_arabic_source": false,
+  "arabic_title": "تحليل: تقلص الفجوة بين النماذج الأمريكية والصينية خلال سنتين",
+  "arabic_summary": "يعرض تحليل من Bloomberg رسماً بيانياً يقارن أداء النماذج اللغوية الأمريكية (بالأزرق) والصينية (بالبرتقالي) عبر متوسط تسعة اختبارات معيارية متقدمة. البيانات تظهر تقلص الفجوة بشكل ملحوظ خلال سنتين، مع ملاحظة أن نموذج GLM-5.3 لم يُدرج بعد في الرسم. الكاتب يشير إلى أن الادعاء بتأخر النماذج الصينية 6-9 أشهر أصبح قديماً، دون الأخذ بالاعتبار فروق الأسعار.",
+  "detailed_explanation": "الرسم البياني المستند إلى بيانات Bloomberg يقيس الأداء عبر تسعة اختبارات معيارية متخصصة:\n\n- GDPval-AA v2\n- τ³-Banking\n- Terminal-Bench v2.1\n- Humanity's Last Exam\n- GPQA Diamond\n- CritPt\n- SciCode\n- AA-Omniscience\n- AA-LCR\n\nالمحور الرأسي (Y) يمثل المتوسط عبر هذه الاختبارات، والخط المتكسر يربط النماذج الرائدة في كل فترة زمنية. التحليل يغطي فترة سنتين ويظهر تقارباً واضحاً بين أداء النماذج من المصدرين.\n\nالنقطة الأساسية التي يطرحها الكاتب هي أن التقييمات السائدة بين القادة الأمريكيين (تأخر 6-9 أشهر) لم تعد دقيقة بناءً على البيانات الحالية. كما يلفت الانتباه إلى أن نموذج GLM-5.3 الصيني لم يُدرج في المقارنة، مما قد يغير الصورة أكثر.\n\nعامل الأسعار المذكور في نهاية المنشور يضيف بُعداً اقتصادياً مهماً للمقارنة، حيث أن التنافسية لا تقتصر على الأداء التقني فقط بل تشمل التكلفة أيضاً.",
+  "why_it_matters": "يقدم مؤشراً على التنافس العالمي في تطوير النماذج اللغوية ويصحح تصورات شائعة حول الفجوة التقنية، مما يؤثر على قرارات الاستثمار والتطوير في هذا المجال.",
+  "original_text": "رسم بياني من مقال جديد ل Bloomberg\n\nالنقاط البرتقالية موديلات صينية، والزرقاء أمريكية. محور Y هو المتوسط لإختبارات GDPval-AA v2 وτ³-Banking وTerminal-Bench v2.1 وHumanity’s Last Exam وGPQA Diamond وCritPt وSciCode وAA-Omniscience وAA-LCR.\nوالخط المتكسر يربط الموديلات الرائدة. شوفوا كيف الفجوة في القدرات قلت خلال سنتين (طبعا هذا بدون ما يكون GLM-5.3 موجود في الرسم أصلاً). كثير من القادة الأمريكيين للان يقولون إن الموديلات الصينية متأخرة 6 ل 9 أشهر، بس واضح إن المعلومة هذي قديمة. طبعاً هذا من غير مانتكلم عن الأسعار.",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار معياري لقياس أداء النماذج"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   {
+    "name": "Bloomberg",
+    "type": "organization"
+   },
+   {
+    "name": "GLM-5.3",
+    "type": "model"
+   }
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 12,
+   "replies": 3,
+   "reposts": 2,
+   "quotes": 1,
+   "bookmarks": 7,
+   "views": 1757
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c644",
+  "serial": 644,
+  "serial_display": "#000644",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091257649815834927",
+  "source_native_id": "2091257649815834927",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T20:14:12Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مايكروسوفت تطلق تطبيق Microsoft Recommended Search Settings لتحويل المستخدمين إلى Bing",
+  "arabic_summary": "أطلقت مايكروسوفت تطبيقاً جديداً لويندوز 11 اسمه Microsoft Recommended Search Settings، يهدف لجعل Bing محرك البحث الافتراضي. التطبيق يثبت إضافة خاصة بـBing في المتصفحات (Chrome وFirefox وBrave)، ويطلب صلاحيات تغيير محرك البحث والصفحة الرئيسية وإعدادات أخرى. بعد إتمام الإعداد، يوجه المستخدم إلى Microsoft Rewards.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعكس استراتيجية مايكروسوفت الجديدة لتعزيز حصة Bing السوقية عبر التكامل العميق مع نظام التشغيل، مما يثير تساؤلات حول تجربة المستخدم والخصوصية والمنافسة في سوق محركات البحث.",
+  "original_text": "مايكروسوفت سوت تطبيق جديد لويندوز 11 اسمه Microsoft Recommended Search Settings، وفكرته إنه يحاول يخلي Bing هو محرك البحث الأساسي عندك.\n\nيعني حتى لو تستخدم Chrome أو Firefox أو Brave، التطبيق يثبت إضافة خاصة بـBing ويطلب منك تغيير إعدادات البحث إلى Bing.\n\nوفي كروم ممكن يطلع لك تحذير واضح إن الإضافة تبي صلاحية تغيير محرك البحث والصفحة الرئيسية وبعض إعدادات المتصفح.\n\nوبعد ما تكمل الإعداد، يحولك مباشرة إلى Microsoft Rewards.",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق",
+   "Plugin"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   {
+    "name": "Microsoft",
+    "type": "organization"
+   },
+   {
+    "name": "Bing",
+    "type": "product"
+   },
+   {
+    "name": "Windows 11",
+    "type": "product"
+   },
+   {
+    "name": "Microsoft Rewards",
+    "type": "product"
+   }
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 15,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 3101
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c645",
+  "serial": 645,
+  "serial_display": "#000645",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091255254868238618",
+  "source_native_id": "2091255254868238618",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T20:04:41Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "سنغافورة تطلق أول مركز بيانات يعمل بخلايا عصبية بشرية حية",
+  "arabic_summary": "كشفت سنغافورة عن مركز بيانات يحتوي على 16 مليون خلية عصبية بشرية مزروعة في المختبر، موزعة على 20 وحدة، تُستخدم في الحوسبة. الخلايا توضع على شرائح إلكترونية تقرأ إشاراتها وتتفاعل معها. التقنية تستهلك طاقة أقل من المعالجات التقليدية لكنها تحتاج رعاية مستمرة من تغذية وأكسجين. التطبيقات المستقبلية تشمل دراسة أمراض الدماغ وتطوير أنظمة ذكاء اصطناعي أقرب للتعلّم البشري.",
+  "detailed_explanation": "التقنية المستخدمة في سنغافورة تعتمد على ما يُعرف بـ biocomputing، حيث تُزرع خلايا عصبية بشرية في المختبر ثم تُوضع على شرائح إلكترونية قادرة على إرسال إشارات كهربائية إليها وقراءة استجاباتها. النظام يحتوي على 16 مليون خلية عصبية موزعة على 20 وحدة، وهو حجم كبير نسبيًا لهذا النوع من التجارب.\n\nالفائدة الرئيسية تكمن في أن الخلايا العصبية البشرية تتمتع بقدرة عالية على التعلم والتكيف، وتستهلك طاقة أقل بكثير من المعالجات التقليدية عند تنفيذ بعض المهام الحسابية. لكن التحدي الأكبر يكمن في أن هذه الخلايا حية، ما يعني أنها تحتاج إلى تغذية دورية، وتحكم دقيق في مستويات الأكسجين والغازات، وبيئة مستقرة للبقاء على قيد العمل.\n\nحاليًا، التقنية ليست بديلًا عن مراكز البيانات التقليدية، بل هي في مرحلة البحث والتطوير. لكن التطبيقات المحتملة واسعة: من دراسة آليات عمل الدماغ وأمراض الأعصاب، إلى اختبار الأدوية بشكل أكثر دقة، وصولًا إلى تطوير أنظمة ذكاء اصطناعي تتعلم بطريقة أقرب للدماغ البشري بدلًا من الاعتماد الكلي على الشرائح السيليكونية.",
+  "why_it_matters": "تمثل أول محاولة تجارية لدمج الخلايا العصبية الحية في البنية التحتية الحوسبية، وقد تفتح طريقًا جديدًا لأنظمة ذكاء اصطناعي أكثر كفاءة طاقوية وأقرب لطريقة عمل الدماغ.",
+  "original_text": "سنغافورة تدخل الحوسبة بالخلايا البشرية\n\nسنغافورة كشفت عن تجربة غريبة جدًا: مركز بيانات فيه خلايا عصبية بشرية حية تساعد في عمليات الحوسبة.\n\nالفكرة ببساطة، بدل ما كل شيء يعتمد على المعالجات والشرائح التقليدية، أخذوا خلايا عصبية بشرية مزروعة في المختبر وحطوها فوق شرائح إلكترونية تقدر ترسل لها إشارات كهربائية وتقرأ ردودها.\n\nالنظام يحتوي على 16 مليون خلية عصبية موزعة على 20 وحدة.\n\nطيب وش الفائدة؟\n\nالخلايا العصبية ممتازة في التعلم والتكيف، وممكن تنفذ بعض المهام باستهلاك طاقة أقل بكثير من معالجات الذكاء الاصطناعي الحالية.\n\nوالشيء الغريب هنا إن هذه الخلايا حية فعلًا، يعني تحتاج تغذية ورعاية مستمرة، ويتم إعطاؤها مغذيات كل عدة أيام مع التحكم بالأكسجين والغازات المناسبة عشان تستمر بالعمل.\n\nحاليًا التقنية ما راح تستبدل مراكز البيانات العادية، لكنها ممكن تكون مفيدة جدًا في دراسة أمراض الدماغ، تجربة الأدوية، وتطوير أنظمة ذكاء اصطناعي تتعلم بطريقة أقرب للدماغ البشري.",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "سنغافورة"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 14,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1982
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c646",
+  "serial": 646,
+  "serial_display": "#000646",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091185473469227398",
+  "source_native_id": "2091185473469227398",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T15:27:23Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Gemini يضيف قسم Students لمساعدة الطلاب في التعلّم المنظّم",
+  "arabic_summary": "أطلقت جوجل قسمًا جديدًا داخل Gemini على الويب باسم Students، يتيح للطالب إنشاء دفاتر دراسة مخصصة لكل مادة. Gemini يقدم شروحات ودروسًا مخصصة ويتابع تقدم الطالب من آخر نقطة توقف عندها. الهدف هو تنظيم التعلّم بدلًا من طرح أسئلة منفصلة في كل جلسة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يحوّل Gemini من أداة إجابة عامة إلى مساعد تعليمي سياقي يحفظ مسار التعلّم، وهو مهم للطلاب الذين يعتمدون على الذكاء الاصطناعي في المذاكرة.",
+  "original_text": "Gemini صار يساعدك تذاكر بطريقة منظمة\n\nجوجل أضافت داخل Gemini على الويب قسم جديد مخصص للطلاب باسم Students.\n\nفكرته بسيطة: بدل ما تدخل كل مرة وتسأل Gemini سؤال جديد، تقدر تسوي دفتر دراسة لمادة معيّنة وتجمع فيه تعلّمك.\n\nمثلاً لو تدرس رياضيات، تسوي دفتر خاص بالرياضيات، وبعدها Gemini يعطيك شروحات ودروس تناسبك ويكمل معك من المكان اللي وقفت عنده.\n\nوكذلك يقدر يساعدك تتابع وش تعلمت ووش باقي عليك، بحيث تكون دراستك مرتبة أكثر.",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "جوجل",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 67,
+   "replies": 0,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 41,
+   "views": 5165
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c647",
+  "serial": 647,
+  "serial_display": "#000647",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091123892005810401",
+  "source_native_id": "2091123892005810401",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T11:22:41Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "موظف سابق في سامسونج يُسجن 7 سنوات بعد تسريب تقنية DRAM لمنافس صيني",
+  "arabic_summary": "حُكم على مهندس سابق في سامسونج بالسجن 7 سنوات بعد نقله معلومات سرية عن تصنيع رامات DRAM إلى شركة صينية (CXMT). المعلومات المسربة شملت حوالي 600 خطوة تصنيع، استغرق تطويرها 5 سنوات وكلفت 1.2 مليار دولار. المهندس شهد بأن الشركة الصينية نوت استخدام المعلومات لتسريع تطوير منتجاتها.",
+  "detailed_explanation": "",
+  "why_it_matters": "يبرز المخاطر الأمنية في نقل التقنيات الحساسة، والقيمة الاستراتيجية العالية لتقنيات تصنيع أشباه الموصلات، خاصة الذاكرة.",
+  "original_text": "موظف سابق في سامسونج سرّب طريقة تصنيع الرامات لمنافس صيني\n\nمهندس كان يشتغل في سامسونج، وبعدها راح لشركة صينية اسمها CXMT تصنع شرائح الذاكرة.\n\nبحسب القضية، المهندس أخذ معه معلومات سرية جدًا من سامسونج عن طريقة تصنيع رامات DRAM، وهي الذاكرة اللي تُستخدم في الجوالات والكمبيوترات والسيرفرات.\n\nالمعلومات ما كانت مجرد تصميم بسيط، بل كانت تشمل حوالي 600 خطوة تصنيع كاملة.\n\nوسامسونج تقول إنها احتاجت 5 سنوات تقريبًا وصرفت حوالي 1.2 مليار دولار عشان تطور هالطريقة.\n\nوالمهندس نفسه شهد أن الشركة الصينية كانت ناوية تستخدم هذه المعلومات عشان تسرّع تطوير شرائحها بدل ما تبدأ من الصفر.\n\nوفي أبريل صدر عليه حكم بالسجن 7 سنوات.",
+  "glossary": [
+   {
+    "term": "DRAM",
+    "ar": "ذاكرة الوصول العشوائي الديناميكية، نوع من الرام المستخدم في الأجهزة الإلكترونية"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "سامسونج",
+   "CXMT"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 371,
+   "replies": 23,
+   "reposts": 33,
+   "quotes": 1,
+   "bookmarks": 147,
+   "views": 99083
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c648",
+  "serial": 648,
+  "serial_display": "#000648",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091114951242846322",
+  "source_native_id": "2091114951242846322",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T10:47:10Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة Self-hosted تجمع تحويل الملفات واستخراج النصوص وتحويل الصوت",
+  "arabic_summary": "أداة يمكن تشغيلها محليًا على الجهاز أو السيرفر الخاص، تجمع وظائف متعددة: تحويل الملفات بين الصيغ، استخراج النص من PDF والصور، وتحويل التسجيلات الصوتية إلى نص باستخدام faster-whisper. تُستخدم من المتصفح بدلًا من الاعتماد على عدة خدمات سحابية منفصلة.",
+  "detailed_explanation": "",
+  "why_it_matters": "توفر بديلًا خصوصيًا ومحليًا لمهام شائعة كانت تتطلب خدمات سحابية متعددة، مفيدة للأفراد والمؤسسات التي تهتم بحماية البيانات.",
+  "original_text": "أداة وحدة تتعامل مع أغلب ملفاتك\n\nبدل ما تستخدم موقع لتحويل الملفات، وموقع ثاني لاستخراج الكلام من PDF، وبرنامج ثالث لتحويل التسجيل الصوتي إلى نص… هالأداة تجمع لك كل هذا في مكان واحد.\n\nتقدر تستخدمها عشان تحوّل الملفات من صيغة إلى صيغة ثانية، أو ترفع ملف PDF أو صورة وتستخرج منها النص المكتوب.\n\nوعندك تسجيل صوتي؟ تقدر تحوله إلى نص مكتوب باستخدام تقنية faster-whisper.\n\nوالميزة المهمة أنها Self-hosted، يعني تقدر تشغلها على جهازك أو سيرفرك الخاص، وتستخدمها من خلال المتصفح بدل الاعتماد على عدة خدمات مختلفة.",
+  "glossary": [
+   {
+    "term": "Self-hosted",
+    "ar": "مستضاف ذاتيًا، يعمل على جهاز أو سيرفر خاص بدلًا من السحابة"
+   },
+   {
+    "term": "faster-whisper",
+    "ar": "نسخة محسّنة من نموذج Whisper لتحويل الصوت إلى نص"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 81,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 81,
+   "views": 5310
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c649",
+  "serial": 649,
+  "serial_display": "#000649",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091114260952744082",
+  "source_native_id": "2091114260952744082",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T10:44:25Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مشروع مفتوح المصدر لإدارة معلومات المنزل عبر مخطط رقمي تفاعلي",
+  "arabic_summary": "مشروع يتيح إنشاء مخطط رقمي للمنزل، يمكن فيه وضع كل جهاز أو عنصر مهم في مكانه الفعلي على الخريطة. عند النقر على أي جهاز (مكيف، ثلاجة، راوتر)، تظهر معلوماته الكاملة: دليل الاستخدام، تاريخ الصيانة، رقم الموديل، والملاحظات. يجمع كل معلومات المنزل في واجهة موحدة مرتبطة بالمكان.",
+  "detailed_explanation": "",
+  "why_it_matters": "يحل مشكلة تشتت معلومات الأجهزة المنزلية، ويسهل الصيانة والمتابعة لأصحاب المنازل والمستأجرين.",
+  "original_text": "مشروع يخلي كل معلومات بيتك في خريطة وحدة\n\n تسوي مخطط رقمي لبيتك، وكل جهاز أو شيء مهم تحطه في مكانه الصحيح على الخريطة.\n\nمثلاً عندك مكيف في غرفة النوم؟ تضغط على المكيف داخل المخطط، وتطلع لك كل معلوماته مثل دليل الاستخدام، آخر صيانة، رقم الموديل، والملاحظات الخاصة فيه.\n\nونفس الشيء للثلاجة، الغسالة، السخان، الراوتر أو أي جهاز ثاني.\n\nيعني بدل ما تكون معلومات البيت موزعة بين ملفات وصور وكتيبات، كل شيء يصير مربوط بمكانه داخل البيت.",
+  "glossary": [],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 57,
+   "replies": 1,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 40,
+   "views": 3808
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c650",
+  "serial": 650,
+  "serial_display": "#000650",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091113479985881353",
+  "source_native_id": "2091113479985881353",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T10:41:19Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "روبوت Aletta لسحب الدم يحصل على موافقة FDA الأمريكية",
+  "arabic_summary": "Aletta هو روبوت طبي حصل على موافقة FDA، يستخدم التصوير والموجات فوق الصوتية لتحديد موقع الوريد بدقة. يتحقق أولًا من أنه وريد وليس شريانًا، ثم يدخل الإبرة ويسحب الدم ويخرجها ويضع الضمادة آليًا. الهدف تسريع العملية وتخفيف الضغط على العاملين في المختبرات والمستشفيات.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل خطوة نحو أتمتة العمليات الطبية الروتينية، ويمكن أن يحسن دقة سحب الدم ويقلل اعتماد المختبرات على العمالة البشرية.",
+  "original_text": "روبوت يسحب الدم منك لوحده!\n\nتخيل تدخل المختبر، تحط يدك في جهاز، وبعدها روبوت هو اللي يبحث عن الوريد ويسحب الدم منك.\n\nالجهاز اسمه Aletta، وحصل على موافقة من هيئة الغذاء والدواء الأمريكية FDA.\n\nفكرته أنه يستخدم تصوير وتقنية الموجات فوق الصوتية عشان يعرف مكان الوريد المناسب بدقة، ويتأكد أولًا أنه وريد وليس شريان.\n\nبعد ما يحدد المكان، الروبوت يدخل الإبرة بنفسه، يسحب كمية الدم المطلوبة، وبعدها يخرج الإبرة وحتى يحط ضمادة على مكان السحب.\n\nيعني العملية من البداية للنهاية شبه آلية، بدل ما يعتمد سحب الدم بالكامل على الشخص اللي يبحث عن الوريد ويدخل الإبرة يدويًا.\n\nوالهدف من التقنية هو تسريع سحب عينات الدم وتخفيف الضغط على العاملين في المختبرات والمستشفيات.",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة",
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Aletta",
+   "FDA"
+  ],
+  "change_types": [
+   "General Availability"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 22,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 2809
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c651",
+  "serial": 651,
+  "serial_display": "#000651",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091101362171867609",
+  "source_native_id": "2091101362171867609",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T09:53:10Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "XSTO X12: كرسي كهربائي صيني يصعد الدرج باستخدام LiDAR والذكاء الاصطناعي",
+  "arabic_summary": "روبوت تنقل كهربائي يجمع بين العجلات والجنازير، مع 3 أوضاع قيادة. يستخدم LiDAR وحساسات مع ذكاء اصطناعي لمراقبة الطريق وتصحيح الاتجاه. يصعد 25 درجة/دقيقة وينزل 30، ويتعامل مع درجات ارتفاعها 20 سم. سرعته 12 كم/س، مداه 35 كم، يتحمل 136 كيلو، لكن وزنه 115 كيلو. السعر حوالي 27,999 دولار.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل تطورًا في تقنيات التنقل المساعد للأشخاص ذوي الإعاقة، خاصة في بيئات معقدة كالدرج، لكن الوزن والسعر قد يحدان من الانتشار.",
+  "original_text": "هذا XSTO X12، روبوت تنقل كهربائي صيني مصمم للتعامل مع أماكن الكراسي الكهربائية التقليدية تواجه فيها مشكلة.\n\nالجهاز يستخدم نظام يجمع بين العجلات والجنازير، وعنده 3 أوضاع قيادة تتغير حسب الأرض. على الشوارع يستخدم العجلات، وإذا وصل للدرج تتحول المنظومة عشان يبدأ بالصعود أو النزول بثبات.\n\nوالأذكى أنه يستخدم LiDAR وحساسات مع الذكاء الاصطناعي لمراقبة الطريق، تصحيح اتجاهه، والتنبيه من العوائق أو الحواف الخطرة.\n\nيقدر يصعد حوالي 25 درجة سلم في الدقيقة وينزل 30، ويتعامل مع درجات يصل ارتفاعها إلى قرابة 20 سم.\n\nسرعته على الأرض تصل إلى 12 كم/س، ومداه يصل إلى 35 كم بالشحنة، ويتحمل وزن مستخدم يصل إلى 136 كيلو.\n\nلكن فيه نقطة مهمة: الجهاز نفسه ثقيل، وزنه حوالي 115 كيلو بدون البطاريات.\n\nوالسعر؟ حاليًا معروض بحوالي 27,999 دولار، يعني قرابة 105 آلاف ريال سعودي قبل احتساب أي ضرائب أو تكاليف استيراد إضافية.",
+  "glossary": [
+   {
+    "term": "LiDAR",
+    "ar": "تقنية استشعار بالليزر لقياس المسافات وبناء خرائط ثلاثية الأبعاد"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد",
+   "صحة"
+  ],
+  "entities": [
+   "XSTO"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 14,
+   "replies": 0,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 2834
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c652",
+  "serial": 652,
+  "serial_display": "#000652",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091094953057296428",
+  "source_native_id": "2091094953057296428",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T09:27:42Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "الصين تطلق أكبر بطولة عالمية للروبوتات البشرية بمشاركة 2056 روبوتًا",
+  "arabic_summary": "انطلقت في بكين الدورة الثانية من ألعاب الروبوتات البشرية العالمية بمشاركة 2,056 روبوتًا من 666 فريقًا من 16 دولة. تستمر 5 أيام وتشمل 51 مسابقة وأكثر من 1,300 مواجهة في ألعاب مثل الجري، كرة القدم، الجمباز، الفنون القتالية، رفع الأثقال، تنس الطاولة، إضافة إلى مهام تحاكي الأعمال الواقعية.",
+  "detailed_explanation": "",
+  "why_it_matters": "تعكس التطور السريع في الروبوتات البشرية والمنافسة الدولية في هذا المجال، وتحوّل الروبوتات من عروض تقنية إلى كيانات تُختبر في بيئات تنافسية وعملية.",
+  "original_text": "الصين تفتتح أكبر بطولة عالمية للروبوتات البشرية\n\nانطلقت في بكين الدورة الثانية من ألعاب الروبوتات البشرية العالمية بمشاركة 2,056 روبوتًا من 666 فريقًا يمثلون 16 دولة ومنطقة.\n\nالبطولة تستمر 5 أيام وتشمل 51 مسابقة وأكثر من 1,300 مواجهة، في ألعاب مثل الجري، كرة القدم، الجمباز، الفنون القتالية، رفع الأثقال وتنس الطاولة، إضافة إلى مهام تحاكي الأعمال الواقعية.\n\nالفكرة هنا أن الروبوتات البشرية ما عادت مجرد عروض تقنية، بل يتم اختبارها في المنافسة والعمل والتعاون بشكل عملي.\n\nبإذن الله السنه الجاي بكون حاضر لمعرض الروبتات الدولي الشي الي شفته مب طبيعي كيف السنه الجايه !",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 14,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2476
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c653",
+  "serial": 653,
+  "serial_display": "#000653",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091049071389659241",
+  "source_native_id": "2091049071389659241",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T06:25:23Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Agentfy: منصة وكلاء متعددين لإدارة الحملات التسويقية آليًا",
+  "arabic_summary": "مشروع يعتمد على نظام Multi-agent، حيث يتولى كل Agent مهمة محددة: تحديد الجمهور، ترتيب الترويج عبر منصات التواصل، إدارة الرسائل والتواصل مع العملاء. الوكلاء ينسّقون فيما بينهم ضمن سير عمل موحد بدلًا من الانتقال بين أدوات متعددة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يقدم نموذجًا للأتمتة التسويقية باستخدام وكلاء ذكاء اصطناعي متعاونين، مما قد يقلل الحاجة لأدوات منفصلة ويحسّن الكفاءة.",
+  "original_text": "أداة تخلي فريق من وكلاء الذكاء الاصطناعي يدير حملاتك التسويقية\n\nAgentfy مشروع يعتمد على فكرة الوكلاء المتعددين، يعني بدل ما ذكاء اصطناعي واحد يسوي كل شيء، يكون عندك عدة وكلاء، وكل واحد مسؤول عن مهمة معينة.\n\nمثلًا، وكيل يساعدك في تحديد الجمهور المناسب للإعلان، ووكيل ثاني يرتب الترويج عبر أكثر من منصة تواصل اجتماعي، ووكيل آخر يساعد في الرسائل والتواصل مع العملاء.\n\nوالنظام ينسّق بين هؤلاء الوكلاء بحيث يشتغلون مع بعض ضمن سير عمل واحد.\n\nيعني بدل ما تنتقل بين أدوات مختلفة لإدارة الاستهداف والحملات والرسائل، الفكرة إن مجموعة وكلاء AI تتعاون لتنفيذ وإدارة هالمهام معك.",
+  "glossary": [
+   {
+    "term": "Multi-agent",
+    "ar": "نظام متعدد الوكلاء، يعتمد على عدة وكلاء ذكاء اصطناعي يتعاونون لإنجاز مهام معقدة"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Agentfy"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 69,
+   "replies": 1,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 67,
+   "views": 4162
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c654",
+  "serial": 654,
+  "serial_display": "#000654",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091048628223615315",
+  "source_native_id": "2091048628223615315",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T06:23:37Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "موقع AliExpress يستخدم صوتًا خفيًا لتوليد بصمة رقمية للجهاز",
+  "arabic_summary": "اكتُشف أن موقع AliExpress يشغّل في الخلفية صوتًا غير مسموع، لا لتشغيل موسيقى بل لإنشاء بصمة رقمية للجهاز. يُرسل الموقع إشارة صوتية عبر المتصفح ويراقب كيفية معالجة الجهاز لها؛ كل جهاز يُنتج نتيجة مختلفة قليلًا حسب المعالج والنظام والمتصفح. هذا الاختلاف يُستخدم لتمييز الجهاز. المشكلة أن الصوت رغم كتمه يبقى نشطًا في نظام الصوت ويسبب مشاكل مع سماعات البلوتوث.",
+  "detailed_explanation": "",
+  "why_it_matters": "يكشف أسلوبًا خفيًا لتتبع المستخدمين عبر البصمة الرقمية للجهاز، وله آثار على الخصوصية وأداء الأجهزة الصوتية.",
+  "original_text": "تبويب AliExpress كان يخلي السماعة تتصرف بشكل غريب\n\nشخص لاحظ إن سماعة البلوتوث ما كانت ترجع الصوت للجوال بشكل طبيعي، وبعد ما تتبع المشكلة اكتشف إن السبب كان تبويب AliExpress مفتوح في المتصفح.\n\nكيف؟\n\nالموقع يشغّل في الخلفية صوتًا ما تسمعه، والهدف منه مو تشغيل موسيقى، لكن استخدامه كنوع من البصمة الرقمية للجهاز.\n\n بعدين الموقع يرسل إشارة صوتية داخل المتصفح، ثم يشوف كيف جهازك يعالجها. كل جهاز ممكن يطلع نتيجة مختلفة شوي حسب المعالج، النظام والمتصفح.\n\nومن هالاختلاف، يقدر الموقع يكوّن بصمة تساعده يميّز جهازك عن غيره.\n\nالمشكلة إن الصوت رغم إنه مكتوم بالكامل، يظل شغال داخل نظام الصوت، وهذا اللي ممكن يسبب مشاكل غريبة مع سماعات البلوتوث.",
+  "glossary": [],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "AliExpress"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 107,
+   "replies": 2,
+   "reposts": 7,
+   "quotes": 1,
+   "bookmarks": 86,
+   "views": 30221
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c655",
+  "serial": 655,
+  "serial_display": "#000655",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091045651211505723",
+  "source_native_id": "2091045651211505723",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T06:11:47Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Bento: برنامج أوفيس كامل داخل ملف HTML واحد يعمل بدون إنترنت",
+  "arabic_summary": "Bento هو ملف HTML واحد يحتوي على أدوات كتابة وعروض تقديمية وعرض ملفات، يعمل مباشرة من المتصفح بدون تثبيت أو اتصال إنترنت أو خدمات سحابية. يمكن حمله على جهاز أو فلاش ميموري واستخدامه فورًا.",
+  "detailed_explanation": "",
+  "why_it_matters": "يقدم بديلًا خفيفًا ومحمولًا لبرامج الأوفيس التقليدية، مناسب للاستخدام في بيئات محدودة الاتصال أو التي تتطلب خصوصية.",
+  "original_text": "برنامج أوفيس كامل… داخل ملف واحد فقط!\n\nBento فكرته ببساطة: بدل ما تثبت برامج أوفيس على جهازك، يعطيك ملف HTML واحد تفتحه ويشتغل معك مباشرة.\n\nداخل الملف تلقى أدوات تقدر تستخدمها للكتابة، العروض التقديمية، وعرض الملفات.\n\nوالأهم إن كل شيء يشتغل بدون إنترنت وبدون ما يعتمد على خدمات سحابية.\n\nيعني تقدر تحمل الملف على جهازك أو فلاش ميموري، تفتحه من المتصفح، وتبدأ شغلك مباشرة بدون تثبيت أي برنامج.",
+  "glossary": [],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 80,
+   "replies": 1,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 83,
+   "views": 6203
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c656",
+  "serial": 656,
+  "serial_display": "#000656",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2091044750853833187",
+  "source_native_id": "2091044750853833187",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-22T06:08:12Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة تنشئ Screenshots احترافية لصفحات App Store وGoogle Play",
+  "arabic_summary": "أداة تساعد مطوري التطبيقات على إنشاء صور Screenshots جاهزة للنشر في المتاجر باستخدام محرر تصميم متصل. تضع صور التطبيق داخل إطارات أجهزة حقيقية بشكل احترافي، وتوفر الوقت المستغرق في التصميم اليدوي وضبط المقاسات لكل متجر. مفيدة للمطورين والفرق الصغيرة.",
+  "detailed_explanation": "",
+  "why_it_matters": "تسهّل إنتاج مواد تسويقية احترافية للتطبيقات بسرعة، مما يحسّن جودة صفحات التطبيقات في المتاجر بدون الحاجة لمصمم محترف.",
+  "original_text": "أداة تسوي لك صور المتجر بشكل احترافي وجاهز للنشر\n\nإذا عندك تطبيق وودك تجهز له صور App Store وGoogle Play بدون ما تضيع وقتك في التصميم والمقاسات، هالأداة تختصر عليك الشغل.\n\nفكرتها إنها تنشئ لك Screenshots جاهزة للنشر باستخدام محرر تصميم متصل، وتحط صور تطبيقك داخل إطارات أجهزة حقيقية بشكل مرتب واحترافي.\n\nيعني بدل ما تصمم كل صورة يدويًا، وتضبط المقاسات والإطارات لكل متجر، تقدر تجهز مجموعة صور تسويقية للتطبيق بشكل أسرع وأقرب للشكل النهائي المطلوب في المتاجر.\n\nتفيد بشكل كبير مطوري التطبيقات والفرق الصغيرة اللي يبون يطلعون صفحة التطبيق بمظهر احترافي بدون الاعتماد على مصمم لكل تحديث.",
+  "glossary": [],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 48,
+   "replies": 2,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 55,
+   "views": 3490
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c657",
+  "serial": 657,
+  "serial_display": "#000657",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2091211923861971325",
+  "source_native_id": "2091211923861971325",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-22T17:12:30Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "روبوت Lightning من هونر يركض 100 متر في 9.32 ثانية متجاوزًا السرعة البشرية",
+  "arabic_summary": "سجّل روبوت Lightning من شركة الهواتف هونر سرعة قصوى 14.5 م/ث في اختبار بالصين، وأنهى 100 متر في 9.32 ثانية، متجاوزًا أسرع إنسان في التاريخ (يوسين بولت: 12.42 م/ث). الروبوت نفسه سبق أن أنهى نصف ماراثون في 50 دقيقة. يمثل تطورًا كبيرًا في سرعة الروبوتات وثباتها.",
+  "detailed_explanation": "",
+  "why_it_matters": "يشير إلى تجاوز الروبوتات البشرية للقدرات الحركية البشرية القصوى في السرعة، وهو إنجاز مهم في تطور الروبوتات الديناميكية.",
+  "original_text": "روبوت Lightning المطور من شركة الهواتف هونر يركض 100 متر في 9.32 ثانية… وهذا أسرع من أسرع إنسان\n\nوصلت سرعته قصوى 14.5 م/ث في اختبار في الصين 🇨🇳 \n\nعلما نفس الروبوت من قبل أنهى نصف ماراثون في 50 دقيقة  أسرع من الرقم البشري\n\nتطور كبير في سرعة الروبوتات وثباتها… متبقي عقلها😅 https://t.co/L8HaZK1gxH",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "هونر",
+   "Lightning"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 11,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 3724
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "في 2009 يوسين بولت سجل سرعة قصوى 12.42 م/ث في سباق 100 متر في برلين وهو اسرع إنسان في العالم\n\nيوم أمس  (أي بعد 18 سنة تقريباً) سجل روبوت شركة Unitree الصينية سرعة قصوى بلغت 12.66 م/ث\n\nوصلنا لتجاوز السرعة القصوى لأسرع إنسان في التاريخ https://t.co/iApoihLvg6"
+  },
+  "cluster_id": "robot_speed",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c658",
+  "serial": 658,
+  "serial_display": "#000658",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2091024522057338985",
+  "source_native_id": "2091024522057338985",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-22T04:47:50Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ميتا تسجل براءة اختراع لنظارات ذكية بتعرف على الوجوه وتسجيل آلي",
+  "arabic_summary": "ظهر طلب براءة اختراع من Meta لتقنية في النظارات والكاميرات الذكية تستخدم التعرف على الوجوه لتحديد الأشخاص ومتابعة أفعالهم (مشي، التقاط أشياء). النظام يمكنه تسجيل هذه اللحظات تلقائيًا وتحويلها إلى مقاطع، ثم جمعها في فيديو Highlights بالذكاء الاصطناعي.",
+  "detailed_explanation": "",
+  "why_it_matters": "يثير تساؤلات حول الخصوصية ويشير إلى توجه Meta نحو نظارات ذكية أكثر استباقية في التسجيل والتتبع.",
+  "original_text": "🚨 ميتا تعمل على فكرة قد تغيّر مفهوم النظارات الذكية بالكامل!\n\nظهر طلب براءة اختراع من Meta يصف تقنية للنظارات والكاميرات الذكية يمكنها استخدام التعرّف على الوجوه لتحديد الأشخاص أمام الكاميرا، ومتابعة بعض أفعالهم، مثل المشي أو التقاط الأشياء.\n\nوالأكثر إثارة أن النظام يستطيع تسجيل هذه اللحظات تلقائيًا وتحويلها إلى مقاطع، ثم جمعها في فيديو Highlights بالذكاء الاصطناعي.",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Meta"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 6,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2697
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c659",
+  "serial": 659,
+  "serial_display": "#000659",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2091152024750719376",
+  "source_native_id": "2091152024750719376",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-08-22T13:14:29Z",
+  "fetched_at": "2026-08-23T04:02:23Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج Ox Alpha متاح مجانًا عبر Codex لمدة أسبوع",
+  "arabic_summary": "نموذج Ox Alpha الجديد (stealth model) أصبح متاحًا داخل منصة Codex مجانًا لمدة أسبوع كامل، دون الحاجة لمفتاح API أو دفع. النموذج يدعم الرؤية (Vision) ويوفر context window بمليون token، مما يسمح بإرسال مستودعات برمجية كاملة بدلاً من ملفات مختارة.",
+  "detailed_explanation": "يعلن المنشور عن إتاحة نموذج Ox Alpha — وهو نموذج جديد وصفه بـ \"stealth model\" — عبر منصة Codex بشكل مجاني لمدة سبعة أيام. النموذج يظهر في قائمة اختيار النماذج جنبًا إلى جنب مع النماذج المدفوعة، دون الحاجة لإدخال مفتاح API أو معلومات دفع.\n\nالمزايا الأساسية المذكورة هي دعم الرؤية (Vision) — أي القدرة على معالجة الصور والنصوص — وcontext window يصل إلى مليون token. هذا الحجم الكبير من السياق يسمح للمطورين بإرسال مستودع برمجي كامل (whole repo) بدلاً من الاضطرار لاختيار ملفات محددة، مما يوفر فهمًا أشمل للمشروع.\n\nالإتاحة المجانية محدودة بأسبوع واحد، بعده ستنتهي الفترة التجريبية. هذا النوع من العروض المؤقتة يهدف غالبًا لاختبار النموذج على نطاق واسع وجمع ملاحظات المستخدمين قبل الإطلاق الرسمي أو تحديد الأسعار.",
+  "why_it_matters": "فرصة محدودة الوقت لتجربة نموذج جديد بقدرات متقدمة دون تكلفة، خاصة للمطورين الذين يريدون تحليل مشاريع برمجية كبيرة باستخدام context window واسع.",
+  "original_text": "You can use Ox Alpha (new stealth model) in Codex for free\n\nlink to codex-router in Ziwen's post below:",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق — الحد الأقصى من النص الذي يمكن للنموذج معالجته دفعة واحدة"
+   },
+   {
+    "term": "Vision",
+    "ar": "قدرة النموذج على فهم ومعالجة الصور بجانب النصوص"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة النص الأساسية التي يعالجها النموذج، تقريبًا ¾ كلمة إنجليزية"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Ox Alpha",
+   "Codex"
+  ],
+  "change_types": [
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 6,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 9,
+   "views": 1996
+  },
+  "metrics_captured_at": "2026-08-23T04:02:23Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Ox Alpha is wired into codex now, and it's free for the whole week!!\n\nno api key, no billing. \n\nIt sits in the picker next to the models we already pay for, and our native models never moved.\n\nVision and a million tokens of context, costing nothing until the window shuts. so we stopped picking the files we think matter and started handing it the whole repo.\n\nSeven days is the whole deal. after tha"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
