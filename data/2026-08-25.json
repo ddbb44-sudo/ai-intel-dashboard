@@ -1,0 +1,1180 @@
+[
+ {
+  "id": "c684",
+  "serial": 684,
+  "serial_display": "#000684",
+  "source_type": "x",
+  "source_url": "https://x.com/nvidia/status/2091920680317046847",
+  "source_native_id": "2091920680317046847",
+  "source_name": "NVIDIA",
+  "source_site": "x.com",
+  "author": "nvidia",
+  "published_at": "2026-08-24T16:08:50Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "SpaceX تنشر معالج NVIDIA Vera Rubin لتشغيل الذكاء الاصطناعي Agentic في الفضاء",
+  "arabic_summary": "أعلنت NVIDIA أن SpaceX ستنشر معالج Vera Rubin، الذي وصفته بأنه أول CPU مصمم لـ Agents، لتسريع تنسيق وتنفيذ الكود ومعالجة البيانات في الجيل القادم من Agentic AI. المعالج مصمم لإبقاء GPUs مشغولة والـ Agents سريعة، ضمن هندسة NVIDIA الموحدة من مصانع AI بقدرة gigawatt إلى المدار الفضائي.",
+  "detailed_explanation": "أعلنت NVIDIA عن نشر SpaceX لمعالجها Vera Rubin في الفضاء، وهو معالج وُصف بأنه \"أول CPU مُصمم للعمل مع Agents بشكل واسع النطاق\". المعالج سيُستخدم لتسريع ثلاث عمليات حرجة في أنظمة Agentic AI: التنسيق (orchestration)، تنفيذ الكود (code execution)، ومعالجة البيانات (data processing).\n\nالهدف الأساسي من Vera Rubin هو \"إبقاء GPUs مشغولة\" (keeping GPUs fed) وضمان أن Agents تعمل بسرعة. هذا يشير إلى أن Agentic AI تحتاج معمارية hybrid: GPUs للاستدلال الثقيل، ومعالجات متخصصة لإدارة workflow والتنسيق بين الخطوات.\n\nما يميز الإعلان هو السياق: من \"مصانع AI بقدرة gigawatt\" (AI factories بقدرات ضخمة على الأرض) إلى \"المدار\" (orbit)، تحت \"هندسة NVIDIA واحدة في كل مكان\". هذا يضع Agentic AI كحمل عمل يمتد من مراكز البيانات التقليدية إلى بيئات الفضاء، حيث الموارد محدودة والاستقلالية ضرورية.",
+  "why_it_matters": "يشير هذا إلى توسع بنية Agentic AI من مراكز البيانات إلى الفضاء، ويؤكد حاجة Agents لمعالجة متخصصة لتنسيق المهام وإطعام GPUs بكفاءة.",
+  "original_text": "The first CPU built for agents is going to work at scale. \n\n@SpaceX is deploying NVIDIA Vera to accelerate the orchestration, code execution, and data processing that powers its next generation of agentic AI — keeping GPUs fed and agents acting fast.\n\nFrom gigawatt AI factories to orbit. One NVIDIA architecture, everywhere.",
+  "glossary": [
+   {
+    "term": "Agentic AI",
+    "ar": "ذكاء اصطناعي قائم على Agents يقوم بتنفيذ مهام متعددة الخطوات بشكل مستقل"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "NVIDIA",
+   "SpaceX",
+   "Vera Rubin"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 4324,
+   "replies": 201,
+   "reposts": 441,
+   "quotes": 128,
+   "bookmarks": 327,
+   "views": 8749022
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "nvidia_vera_spacex",
+  "also_reported": [
+   {
+    "author": "nvidia",
+    "url": "https://x.com/nvidia/status/2091904062077694153"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c685",
+  "serial": 685,
+  "serial_display": "#000685",
+  "source_type": "x",
+  "source_url": "https://x.com/MistralAI/status/2091964930715013224",
+  "source_native_id": "2091964930715013224",
+  "source_name": "Mistral AI",
+  "source_site": "x.com",
+  "author": "MistralAI",
+  "published_at": "2026-08-24T19:04:40Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Mistral AI تعلن شراكة استراتيجية مع HUMAIN في السعودية لتطوير نماذج محلية",
+  "arabic_summary": "أعلنت Mistral AI عن تعاون استراتيجي مع HUMAIN يشمل بنية تحتية للذكاء الاصطناعي، تطوير نماذج متقدمة، ونشر حلول AI في السعودية والمنطقة. التعاون سيركز على نماذج AI محلية (localized) في مجالات الأمن السيبراني، الصوت، ونماذج قوية باللغة العربية.",
+  "detailed_explanation": "أعلنت Mistral AI عن شراكة استراتيجية مع HUMAIN تغطي ثلاث محاور رئيسية:\n\n**البنية التحتية للذكاء الاصطناعي (AI infrastructure):** بناء القدرات الحاسوبية اللازمة لتشغيل وتدريب النماذج.\n\n**تطوير نماذج متقدمة (advanced model development):** التركيز على \"نماذج AI محلية\" (localized frontier AI models)، وهي نماذج مُكيّفة للسياق واللغة والمتطلبات المحلية.\n\n**نشر حلول AI:** تطبيق هذه التقنيات في السعودية والمنطقة.\n\nالمجالات الأولية للتركيز تشمل:\n- **الأمن السيبراني (cybersecurity)**\n- **الصوت (voice)**\n- **نماذج متفوقة في اللغة العربية (models that perform strongly in Arabic languages)**\n\nهذا التعاون يعكس اتجاهاً متنامياً نحو \"توطين\" نماذج LLM بدلاً من الاعتماد فقط على نماذج عامة مدرّبة على بيانات غربية، وهو ما قد يحسّن الأداء في فهم السياق الثقافي والمصطلحات المحلية والتعامل مع اللهجات العربية المختلفة.",
+  "why_it_matters": "يمثل توجهاً لبناء نماذج لغوية كبيرة محلية مُحسَّنة للغة العربية والسياق الإقليمي، مما قد يحسّن جودة الأداء في التطبيقات العربية مقارنة بالنماذج العامة.",
+  "original_text": "Today, we’re announcing a strategic collaboration with @HUMAIN  spanning AI infrastructure, advanced model development, and the deployment of AI solutions in Saudi Arabia and across the region. \nTogether, we will work on localized frontier AI models, with initial areas of focus including cybersecurity, voice, and models that perform strongly in Arabic languages. \n\nhttps://t.co/OTChHHutnJ",
+  "glossary": [
+   {
+    "term": "Localized models",
+    "ar": "نماذج محلية مُكيّفة للغة وسياق منطقة جغرافية محددة"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Mistral AI",
+   "HUMAIN"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 395,
+   "replies": 28,
+   "reposts": 41,
+   "quotes": 11,
+   "bookmarks": 72,
+   "views": 31200
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c686",
+  "serial": 686,
+  "serial_display": "#000686",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2091972796117364800",
+  "source_native_id": "2091972796117364800",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-08-24T19:35:56Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بطولة Humanoid Olympics في الصين تعرض قدرات الروبوتات البشرية في مسابقات متنوعة",
+  "arabic_summary": "تُقام في الصين أكبر نسخة حتى الآن من بطولة Humanoid Olympics، وهي مسابقة للروبوتات البشرية (humanoids) أنتجت مقاطع مثيرة توثق أداء هذه الروبوتات في مهام مختلفة. المنشور يعرض لحظات بارزة من البطولة، بما في ذلك سقوط روبوت عند خط النهاية.",
+  "detailed_explanation": "",
+  "why_it_matters": "توثيق تطور قدرات الروبوتات البشرية في بيئة تنافسية يساعد على قياس التقدم الفعلي في التوازن والحركة واتخاذ القرار، وهي تحديات أساسية في هذا المجال.",
+  "original_text": "the biggest Humanoid Olympics yet are happening in China right now\n\nand they've already produced some all-time great clips.\n\nmy favorite moments: 🧵\n\n1. finish-line wipeout https://t.co/GzqRlPuteR",
+  "glossary": [
+   {
+    "term": "Humanoid",
+    "ar": "روبوت بشري الشكل مصمم لمحاكاة الحركة والتفاعل البشري"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 293,
+   "replies": 14,
+   "reposts": 43,
+   "quotes": 10,
+   "bookmarks": 208,
+   "views": 76047
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c687",
+  "serial": 687,
+  "serial_display": "#000687",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2091890823797580049",
+  "source_native_id": "2091890823797580049",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-08-24T14:10:12Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "الذكاء الاصطناعي يكتشف آلاف الأجرام الفضائية والظواهر الفلكية في بيانات تلسكوبات قديمة",
+  "arabic_summary": "يستعرض المنشور سلسلة اكتشافات فلكية حققها الذكاء الاصطناعي، منها: 1,400 جسم غريب (800+ جديدة) من بحث 100 مليون صورة Hubble في 2.5 يوم، 370 كوكب جديد أكدتها NASA، 1,031 كويكب مختبئ في صور قديمة، 500 موقع عدسة جاذبية، 72 انفجار راديوي من 3 مليارات سنة ضوئية، وأول صورة للمجرة بواسطة neutrinos بدلاً من الضوء.",
+  "detailed_explanation": "يوثق المنشور كيف أصبح الذكاء الاصطناعي أداة رئيسية في الاكتشافات الفلكية من خلال إعادة تحليل بيانات موجودة مسبقاً:\n\n**البحث في أرشيفات Hubble:** نظام AI فحص ما يقارب 100 مليون صورة من تلسكوب Hubble في 2.5 يوم فقط، واكتشف 1,400 جسم غريب، أكثر من 800 منها لم تُوثّق من قبل، بما في ذلك مجرات متصادمة، مجرات بمجسّات متوهجة، وعشرات الأجرام التي لا تنتمي لأي تصنيف معروف.\n\n**تأكيد الكواكب:** NASA استخدمت AI لتأكيد أن 370 كوكب هي كواكب حقيقية. نسخة أحدث من النظام وجدت 7,000 كوكب محتمل إضافية تنتظر التأكيد.\n\n**الكويكبات المخفية:** AI ساعد في اكتشاف 1,031 كويكب لم يكن معروفاً من قبل، كانت \"تتدفق\" (streaking) عبر صور Hubble قديمة لسنوات دون أن يلاحظها أحد.\n\n**عدسات الجاذبية (Gravitational Lensing):** من 0.04% فقط من بيانات تلسكوب Euclid المستقبلية، قاد AI العلماء إلى 500 موقع حيث تنحني مجرة الفضاء نفسه، محولةً مجرة خلفها إلى حلقة متوهجة. كل هذه تقريباً كانت اكتشافات جديدة.\n\n**الانفجارات الراديوية السريعة (Fast Radio Bursts):** AI وجد 72 انفجار راديوي ضخم قادم من ثلاثة مليارات سنة ضوئية، مخفية داخل خمس ساعات من تسجيلات التلسكوب التي فاتت البحث الأصلي.\n\n**التصوير بـ Neutrinos:** AI ساعد في إنشاء أول صورة لمجرتنا بدون استخدام الضوء، باستخدام neutrinos (\"جسيمات الأشباح\" التي تمر عبر الكواكب بأكملها)، كاشفةً درب التبانة بطريقة لم يرها البشر من قبل.\n\nهذه الاكتشافات تبرز قدرة AI على إيجاد أنماط ومعلومات في بيانات ضخمة كانت متاحة لكن لم يتم تحليلها بشكل كافٍ، مما يعني أن كنوزاً من الاكتشافات قد تكون مخبأة في الأرشيفات العلمية الموجودة.",
+  "why_it_matters": "يُظهر قدرة AI على تحليل كميات ضخمة من البيانات الفلكية المُهملة واستخراج اكتشافات كانت مخفية لسنوات، مما يفتح آفاقاً جديدة في علم الفلك دون الحاجة لمراقبات إضافية.",
+  "original_text": "beyond biology, i think AI’s next great frontier is space\n\nand it's already making major discoveries...\n\n> AI searched nearly 100 million Hubble images in 2.5 days and uncovered 1,400 bizarre objects in deep space. more than 800 had never been documented, including galaxies colliding, galaxies with glowing tentacles and dozens that still don’t fit any known category\n\n> NASA used AI to confirm 370 new planets were real. a newer version has already found 7,000 more possible planets waiting to be confirmed\n\n> AI helped find 1,031 previously unknown asteroids hiding in old Hubble photos. they had been streaking through images scientists already had for years, but nobody knew they were there\n\n> AI led scientists to 500 places where one galaxy bends space itself, turning another galaxy behind it into a glowing ring. almost all were new, and that came from just 0.04% of Euclid’s eventual data\n\n> AI found 72 enormous flashes of radio energy coming from three billion light-years away. every one was hidden inside five hours of telescope recordings that the original search had missed\n\n> AI helped create the first image of our galaxy made without light. it used neutrinos, “ghost particles” tha",
+  "glossary": [
+   {
+    "term": "Neutrino",
+    "ar": "جسيم دون ذري عديم الشحنة تقريباً، يمر عبر المادة دون تفاعل يُذكر"
+   },
+   {
+    "term": "Gravitational Lensing",
+    "ar": "انحناء الضوء بسبب جاذبية جسم ضخم، يحوّل مجرة بعيدة إلى صورة مشوهة أو حلقة"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "NASA",
+   "Hubble",
+   "Euclid"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 73,
+   "replies": 6,
+   "reposts": 19,
+   "quotes": 1,
+   "bookmarks": 19,
+   "views": 5460
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c688",
+  "serial": 688,
+  "serial_display": "#000688",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2091849398489604313",
+  "source_native_id": "2091849398489604313",
+  "source_name": "Dan Shipper 📧",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-08-24T11:25:35Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تخطط لإضافة علامة مائية غير مرئية لكل ما يكتبه Claude",
+  "arabic_summary": "Anthropic ستضيف علامة مائية رقمية لكل نصوص Claude، لن تكون مرئية للمستخدم العادي ولن تستطيع أدوات كشف الذكاء الاصطناعي الحالية رصدها. هذه خطوة لتتبع المحتوى المولّد آليًا دون التأثير على تجربة الاستخدام.",
+  "detailed_explanation": "العلامة المائية الرقمية (watermarking) تقنية تُدمج بيانات خفية داخل المحتوى المُنتَج، في هذه الحالة النصوص. ما يميز خطوة Anthropic أن العلامة لن تكون مرئية ولن يمكن رصدها بأدوات الكشف الموجودة حاليًا، مما يعني أنها ستعمل على مستوى تقني أعمق.\n\nهذا التوجه يأتي وسط ضغوط متزايدة على شركات الذكاء الاصطناعي لتوفير آليات تتبع للمحتوى المُولّد، خاصة مع تزايد استخدامه في السياقات الأكاديمية والمهنية والإعلامية. العلامة غير المرئية تحقق توازنًا: تتيح للجهات المعنية (مثل الجامعات أو الناشرين) التحقق من مصدر النص دون أن تعيق تجربة المستخدم العادي.\n\nالتحدي الأساسي سيكون في كيفية الوصول لهذه العلامة والتحقق منها، وهل ستوفر Anthropic أدوات للكشف عنها، وما السياسات المرتبطة بذلك. كما يُثار سؤال حول قابلية إزالة هذه العلامة أو التلاعب بها.",
+  "why_it_matters": "خطوة مهمة في مجال المسؤولية والشفافية، قد تؤثر على كيفية تعامل المؤسسات مع النصوص المولّدة، وتفتح نقاشًا حول الخصوصية وحقوق المستخدمين في معرفة ما إذا كان النص مُعلّمًا.",
+  "original_text": "RT @every: Anthropic is going to watermark everything Claude writes. You will not be able to see it, and neither will existing AI detectors…",
+  "glossary": [
+   {
+    "term": "Watermarking",
+    "ar": "العلامة المائية الرقمية"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 691
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "anthropic_watermark",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c689",
+  "serial": 689,
+  "serial_display": "#000689",
+  "source_type": "x",
+  "source_url": "https://x.com/Alibaba_Qwen/status/2092090827690610914",
+  "source_native_id": "2092090827690610914",
+  "source_name": "Qwen",
+  "source_site": "x.com",
+  "author": "Alibaba_Qwen",
+  "published_at": "2026-08-25T03:24:57Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Qwen3.8-27B يحتل المركز التاسع عالميًا في Code Arena للبرمجة",
+  "arabic_summary": "نموذج Qwen3.8-27B من Alibaba حقق المركز التاسع في Code Arena: WebDev بـ1595 نقطة، وهو النموذج الوحيد في فئة حجمه ضمن العشرة الأوائل. يأتي خلف Qwen3.8-Max الأكبر بستة مراكز فقط، بينما Gemma 4-31B المنافس في الحجم يحتل المركز الثمانين.",
+  "detailed_explanation": "",
+  "why_it_matters": "يؤكد تفوق النماذج الصينية المفتوحة في مهام البرمجة رغم حجمها الأصغر، ويعكس تقدمًا في كفاءة النماذج (performance per parameter) مما يجعلها خيارًا عمليًا للمطورين.",
+  "original_text": "Qwen3.8-27B at #9 overall on Code Arena, the only model in its size class in the top 10.😎 Small but mighty. Thanks for the recognition! @arena",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "معيار القياس"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Qwen",
+   "Alibaba",
+   "Code Arena"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 465,
+   "replies": 33,
+   "reposts": 37,
+   "quotes": 4,
+   "bookmarks": 42,
+   "views": 31965
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Exciting news: Qwen3.8-27B by @Alibaba_Qwen just landed in Code Arena: WebDev at #9 overall with 1595 pts. It is the only model in its size class in the top 10, and also reshapes the Pareto Frontier!\n\nIt is only 6 ranks behind the much larger Qwen3.8-Max. For scale: Gemma 4-31B which was released back in April sits at #80.\n\nCongrats to @Alibaba_Qwen on the release!\n\nSee thread for more highlights "
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c690",
+  "serial": 690,
+  "serial_display": "#000690",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2091990288738783251",
+  "source_native_id": "2091990288738783251",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-08-24T20:45:26Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "علامات تحذيرية في الاستخدام المبالغ فيه للـAgents والذكاء الاصطناعي",
+  "arabic_summary": "قائمة ساخرة من Matt Pocock لسلوكيات خاطئة شائعة عند العمل مع Agents: إدارة مئات الـagents دون داعٍ، إلقاء المسؤولية على الـagent بدل تحسين الأداة، تضخيم الـContext Window، الشكوى من \"تراجع سري\" في أداء النموذج، والمبالغة في تعقيد الإعدادات.",
+  "detailed_explanation": "",
+  "why_it_matters": "تنبيه من مطور محترف لتجنب فخاخ الاستخدام غير الفعّال للذكاء الاصطناعي، يساعد الفرق على التركيز على الجوهر بدل الضجيج.",
+  "original_text": "AI red flags:\n\n- \"My marketer agent just finished a meeting with my chief of staff agent - just 2 of the 127 agents on my books\"\n- \"The agent did it, not me\"\n- \"I've invented a coding language for agents\"\n- \"I've got 250K tokens in my context before I send a message, is that normal?\"\n- \"Opus 5 is way dumber today than yesterday, secret nerf?\"\n- \"Peasants, gaze upon my 600-line CLAUDE.md, my results are incredible\"\n- \"LOOK WHAT OX ALPHA JUST ONE-SHOTTED, SOFTWARE ENGINEERING IS DEAD\"\n- \"All human knowledge is worthless now\"\n- \"I turned 600 coding books into a skill\"\n- \"Coding is solved. Bugs are not solved\"",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي"
+   },
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1840,
+   "replies": 139,
+   "reposts": 118,
+   "quotes": 17,
+   "bookmarks": 384,
+   "views": 95445
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c691",
+  "serial": 691,
+  "serial_display": "#000691",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2091919592150995285",
+  "source_native_id": "2091919592150995285",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-08-24T16:04:31Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "حلقة أتمتة لتحسين أداء قاعدة البيانات باستخدام Agents",
+  "arabic_summary": "فكرة لحلقة عمل آلية: قاعدة البيانات تُطلق تنبيهًا عند استعلام بطيء، يُفتح issue في المشروع، Agent منفّذ يُنشئ PR لتحسين الأداء، Agent مراجع يفحصه، ثم يُرسل للمطور البشري للمراجعة النهائية. تتكرر العملية حتى يصبح التطبيق سريعًا.",
+  "detailed_explanation": "",
+  "why_it_matters": "نموذج عملي لدمج Agents في سير العمل الهندسي اليومي بشكل تدريجي ومراقَب، يحل مشاكل حقيقية (بطء الاستعلامات) دون استبدال الإنسان.",
+  "original_text": "A really great loop idea is:\n\n- Database alerts you there's a slow query (@PlanetScale does this)\n- Opens an issue in your codebase\n- Immediately schedules a PR from an implementer\n- Reviewer agent reviews the PR\n- Pings the human for review\n\nRepeat ad nauseum until app is fast",
+  "glossary": [],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "PlanetScale"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1228,
+   "replies": 100,
+   "reposts": 43,
+   "quotes": 19,
+   "bookmarks": 867,
+   "views": 138590
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c692",
+  "serial": 692,
+  "serial_display": "#000692",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2091897608293753169",
+  "source_native_id": "2091897608293753169",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-08-24T14:37:10Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill للتحسين الذاتي: /retro يحلل جلسات الـAgent ويصلح أخطاءها",
+  "arabic_summary": "Matt Pocock أطلق Skill اسمه /retro يُشغّل بعد أي جلسة عمل (أو على مجموعة جلسات) لتحليل أخطاء الـAgent وإصلاحها للمرة القادمة. يحاول تحسين: التنقل بين الأدوات، معايير البرمجة، كفاءة استخدام الأدوات، والوصول للمعلومات.",
+  "detailed_explanation": "",
+  "why_it_matters": "خطوة نحو Agents قادرة على التعلم من أخطائها وتحسين سلوكها تلقائيًا، مما يقلل الحاجة لتدخل بشري متكرر لنفس المشكلة.",
+  "original_text": "Moved my /retro skill to in-progress.\n\nYou can run it after any session (or on a bunch of sessions) to try to repair its mistakes for next time.\n\nTries to improve:\n\n- Agent navigation (for better exploration)\n- CODING_STANDARDS (for better review)\n- Tool economy\n- Information access\n\nGive it a go:\n\nhttps://t.co/dNZJOqABvK",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "مهارة قابلة للاستدعاء"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 366,
+   "replies": 21,
+   "reposts": 8,
+   "quotes": 1,
+   "bookmarks": 291,
+   "views": 29396
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c693",
+  "serial": 693,
+  "serial_display": "#000693",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2091895678230303036",
+  "source_native_id": "2091895678230303036",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-08-24T14:29:29Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أفضل صيغة لاستدعاء Skill من داخل Skill آخر",
+  "arabic_summary": "نصيحة عملية من Matt Pocock: أفضل عبارة لاستدعاء Skill من داخل Skill آخر هي: \"Call the Skill tool with `skill-name`.\" بدلًا من صيغ أخرى قد تكون غامضة.",
+  "detailed_explanation": "",
+  "why_it_matters": "تحسين دقة تنفيذ الـSkills المركّبة، مما يقلل الأخطاء في سير العمل المعقد.",
+  "original_text": "FYI the best phrase I've found to invoke a skill from within another skill is:\n\n\"Call the Skill tool with `skill-name`.\"\n\nThank me later",
+  "glossary": [],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1271,
+   "replies": 67,
+   "reposts": 43,
+   "quotes": 4,
+   "bookmarks": 868,
+   "views": 78762
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c694",
+  "serial": 694,
+  "serial_display": "#000694",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2091806367233212872",
+  "source_native_id": "2091806367233212872",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-08-24T08:34:36Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Agents لا تفشل بسرعة: مشكلة في ثقافة معالجة الأخطاء",
+  "arabic_summary": "ملاحظة من Matt Pocock أن Agents تتجنب إيقاف التنفيذ حتى عند وجود خطأ واضح (مثل غياب متغير بيئي ضروري)، وتحاول الاستمرار أو التحايل بدلًا من الفشل السريع (fail fast)، مما يعقّد تتبع المشاكل.",
+  "detailed_explanation": "",
+  "why_it_matters": "يكشف نمطًا سلوكيًا في النماذج قد يُخفي أخطاء حرجة ويجعل الـdebugging أصعب، ويستدعي تحسينات في Prompt أو تصميم الـAgent.",
+  "original_text": "Something agents have a massive problem with is failing fast\n\nThey're cowards, they never want to be responsible for a crash\n\nI've lost count of how many times I've said \"if the environment variable isn't present, throw\"",
+  "glossary": [],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 1006,
+   "replies": 129,
+   "reposts": 21,
+   "quotes": 5,
+   "bookmarks": 124,
+   "views": 70623
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c695",
+  "serial": 695,
+  "serial_display": "#000695",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2091965473558552732",
+  "source_native_id": "2091965473558552732",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-24T19:06:50Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "الخطاب ينتقل من \"تأثير فوري\" إلى \"سنوات حتى يظهر الأثر\"",
+  "arabic_summary": "Ethan Mollick يحذّر من تحول الخطاب العام حول الذكاء الاصطناعي من المبالغة في سرعة التأثير إلى التقليل منها والقول إن التغيير سيستغرق سنوات، وكلا الطرفين غير دقيق.",
+  "detailed_explanation": "",
+  "why_it_matters": "تنبيه لضرورة التوازن في تقييم الأثر الاقتصادي والاجتماعي للذكاء الاصطناعي، وتجنب التطرف في التوقعات.",
+  "original_text": "I think the discourse is shifting too much towards \"AI impacts will take many years to matter,\" just as they were too much towards \"AI will instantly change the economy\" not that long ago.",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 237,
+   "replies": 36,
+   "reposts": 9,
+   "quotes": 1,
+   "bookmarks": 14,
+   "views": 15525
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c696",
+  "serial": 696,
+  "serial_display": "#000696",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2091947166545674368",
+  "source_native_id": "2091947166545674368",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-24T17:54:05Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "من السهل اكتشاف الطلبات والأوراق المكتوبة بالذكاء الاصطناعي",
+  "arabic_summary": "Ethan Mollick يؤكد أن الأشخاص الذين يقرؤون عشرات الطلبات أو الأوراق يستطيعون غالبًا كشف استخدام الذكاء الاصطناعي حتى لو تغيّرت الصياغة، لأن الأفكار والمفاهيم تبدأ في التشابه والتكرار.",
+  "detailed_explanation": "",
+  "why_it_matters": "تنبيه للطلاب والباحثين أن الاعتماد الكامل على الذكاء الاصطناعي في الكتابة الأكاديمية أو المهنية ليس خفيًا كما يظنون.",
+  "original_text": "Note to anyone sending in an application, paper, or any other document where one person reads many submissions: yes, they can tell\n\nIt is obvious in most cases that you are using AI, even if the language is changed, as the ideas &amp; concepts start to rhyme as you read lots of them",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 441,
+   "replies": 31,
+   "reposts": 23,
+   "quotes": 6,
+   "bookmarks": 74,
+   "views": 32617
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c697",
+  "serial": 697,
+  "serial_display": "#000697",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2091893964311855222",
+  "source_native_id": "2091893964311855222",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-24T14:22:41Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "قيمة Agents في المهام غير المنتظمة والمرهقة لا الروتينية",
+  "arabic_summary": "Ethan Mollick يجادل بأن السؤال الخاطئ هو \"ما المهام المنتظمة التي يمكن أتمتتها؟\" بل الأهم هو المهام غير المنتظمة المرهقة: فاتورة طبية معقدة، نزاع ائتماني، نماذج حكومية مملة. الذكاء الاصطناعي الحديث جيد جدًا في هذه المهام التي يتخبط فيها الناس عادة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعيد تعريف القيمة المضافة للذكاء الاصطناعي الشخصي من الأتمتة البسيطة إلى المساعدة في التعقيدات اليومية التي تستنزف الوقت والطاقة.",
+  "original_text": "When people ask: “what personal tasks do I need an agent for?” I think that it is because they think of automation as a simple regular task for the AI.\n\nBut frontier AI is now really good at helping with irregular, draining tasks: a medical bill, a credit dispute, tedious forms…",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 452,
+   "replies": 53,
+   "reposts": 15,
+   "quotes": 6,
+   "bookmarks": 134,
+   "views": 36784
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Life is full of things that, by complexity or design or lack of care or required time, are hard to navigate: healthcare, government, personal finance, school forms are all among them\n\nIt is why I feel consumer AI is underrated. People muddle by, but need help than they can't get."
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c698",
+  "serial": 698,
+  "serial_display": "#000698",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2092013729940733969",
+  "source_native_id": "2092013729940733969",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-08-24T22:18:35Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Runway تطلق WAN 3.0 لتوليد فيديو وصوت مع مدخلات مرجعية متعددة",
+  "arabic_summary": "أعلنت Runway عن إصدار WAN 3.0، وهو نموذج يتيح توليد فيديو وصوت متقدم باستخدام مدخلات مرجعية متعددة من صور وفيديو وصوت. النموذج متاح الآن للاستخدام على منصة Runway.",
+  "detailed_explanation": "أصدرت Runway نسخة 3.0 من نموذج WAN، وهو نظام توليد متقدّم يجمع بين الفيديو والصوت. ما يميّز هذا الإصدار هو قدرته على استقبال مدخلات مرجعية متعددة (multiple reference inputs) من أنواع مختلفة: صور وفيديو وصوت.\n\nهذه القدرة تعني أن المستخدم يمكنه توجيه النموذج بدقة أكبر من خلال تزويده بعناصر مرجعية متنوعة، سواءً كانت أسلوبًا بصريًا من صورة، أو حركة من فيديو مرجعي، أو نبرة صوتية من ملف صوتي. النموذج متاح للاستخدام الفوري على منصة Runway.\n\nالإصدار يأتي ضمن تطوّر مستمر في أدوات التوليد الإبداعي، حيث تتّجه النماذج نحو فهم سياقات أغنى وأكثر تعقيدًا من خلال الجمع بين أنماط بيانات مختلفة (multimodal).",
+  "why_it_matters": "يمثّل تطورًا في قدرة نماذج التوليد على فهم ودمج أنواع مختلفة من المدخلات المرجعية، مما يتيح تحكّمًا أدق في المخرجات ويفتح إمكانيات جديدة لصنّاع المحتوى.",
+  "original_text": "WAN 3.0 is now on Runway.\n\nGenerate state-of-the-art video and audio with multiple image, video and audio reference inputs. Try it now at the link below. https://t.co/VzTkPZR3cz",
+  "glossary": [
+   {
+    "term": "reference inputs",
+    "ar": "مدخلات مرجعية"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Runway",
+   "WAN"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 114,
+   "replies": 11,
+   "reposts": 7,
+   "quotes": 6,
+   "bookmarks": 23,
+   "views": 11773
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c699",
+  "serial": 699,
+  "serial_display": "#000699",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2091872521318814183",
+  "source_native_id": "2091872521318814183",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-08-24T12:57:28Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Runway تطلق Ruby لتحويل الفيديو المولّد إلى معايير احترافية للإنتاج",
+  "arabic_summary": "أعلنت Runway عن أداة Ruby التي تحوّل الفيديو المولّد من أي نموذج (Gen-4.5 أو Seedance أو MiniMax وغيرها) إلى صيغ احترافية جاهزة للإنتاج مثل 16-bit EXR و10/12-bit ProRes وHEVC. الأداة متاحة الآن على Runway.",
+  "detailed_explanation": "طرحت Runway أداة جديدة اسمها Ruby، وظيفتها تحويل الفيديو المولّد بالذكاء الاصطناعي من أي نموذج متاح على المنصة إلى صيغ احترافية جاهزة للتسليم (delivery spec).\n\nالنماذج المذكورة تشمل Seedance 2.5 وGen-4.5 وMiniMax H3، وأيًا كان النموذج المستخدَم، فإن Ruby تحوّل مخرجاته مباشرةً إلى صيغ ذات عمق لوني عالٍ وضغط احترافي مثل:\n- 16-bit EXR (صيغة تستخدم في المؤثرات البصرية والإنتاج السينمائي)\n- 10-bit و12-bit ProRes وHEVC (معايير تُستخدم في المونتاج الاحترافي والبثّ)\n\nهذه الخطوة تعني أن منصّات التوليد لم تعد تكتفي بإخراج محتوى \"جيد بما يكفي\" لوسائل التواصل، بل تستهدف سير عمل الإنتاج الاحترافي الذي يشترط معايير لونية وضغط دقيقة. Ruby تختصر مرحلة ما بعد التوليد وتجعل الفيديو المولّد جاهزًا للدمج مع pipeline الإنتاج الفعلي.",
+  "why_it_matters": "تسدّ فجوة حرجة بين التوليد السريع والإخراج الاحترافي، إذ تتيح للمحترفين استخدام نماذج توليد متعددة ثم رفع جودة المخرجات مباشرةً إلى معايير صناعة السينما والبثّ دون الحاجة لأدوات خارجية معقدة.",
+  "original_text": "Generate with any model on Runway, then take it to delivery spec with Ruby. Seedance 2.5, Gen-4.5, MiniMax H3, whatever you use, converts straight to 16-bit EXR or 10 and 12-bit ProRes and HEVC.\n\nTry it now at the link below. https://t.co/Qb1wKAO0sP",
+  "glossary": [
+   {
+    "term": "delivery spec",
+    "ar": "مواصفات التسليم الاحترافي"
+   },
+   {
+    "term": "EXR",
+    "ar": "صيغة ملف صور عالية الدقة"
+   },
+   {
+    "term": "ProRes",
+    "ar": "صيغة ضغط فيديو احترافية من Apple"
+   },
+   {
+    "term": "HEVC",
+    "ar": "صيغة ضغط فيديو عالية الكفاءة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Runway",
+   "Ruby",
+   "Seedance",
+   "Gen-4.5",
+   "MiniMax H3"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 232,
+   "replies": 20,
+   "reposts": 22,
+   "quotes": 10,
+   "bookmarks": 106,
+   "views": 50932
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c700",
+  "serial": 700,
+  "serial_display": "#000700",
+  "source_type": "x",
+  "source_url": "https://x.com/ElevenLabs/status/2091916523132616961",
+  "source_native_id": "2091916523132616961",
+  "source_name": "ElevenLabs",
+  "source_site": "x.com",
+  "author": "ElevenLabs",
+  "published_at": "2026-08-24T15:52:19Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ElevenLabs تصدر CLI v1 لإدارة workflows الصوت من سطر الأوامر",
+  "arabic_summary": "أطلقت ElevenLabs النسخة الأولى من أداة سطر الأوامر (CLI) التي تتيح للمطوّرين والـagents إدارة كامل API الخاصّ بها من Terminal. الأداة تتضمّن توثيقًا شاملًا وأوامر جاهزة للـagents ومخرجات JSON منظّمة وإمكانية المعاينة (dry run) قبل التنفيذ.",
+  "detailed_explanation": "أصدرت ElevenLabs النسخة الأولى الرسمية من أداة سطر الأوامر الخاصة بها (CLI v1)، وهي أداة موجّهة للمطوّرين والـcoding agents لإدارة كامل workflows الصوت من Terminal مباشرةً.\n\nالأداة توفّر:\n- أوامر موثّقة بشكل جيد (well-documented commands) لتسهيل الاستخدام\n- مهارات جاهزة للـagents (built-in agent skills) بحيث يمكن للـagent الاستفادة منها مباشرة\n- مخرجات JSON منظّمة لسهولة التكامل البرمجي\n- ميزة dry run التي تتيح معاينة أي عملية قبل تنفيذها فعليًا\n\nهذا الإصدار يأتي في سياق توجّه عامّ نحو جعل الأدوات السحابية أكثر قابلية للاستخدام من قِبل الـagents والأتمتة، حيث لا يعود المطوّر مضطرًا للتعامل مع واجهات الويب أو كتابة wrappers معقّدة حول الـAPI، بل يمكنه — أو الـagent الذي يستخدمه — التفاعل مع الخدمة مباشرةً من سطر الأوامر بطريقة قياسية.",
+  "why_it_matters": "تسهّل دمج قدرات الصوت المتقدّمة في سير عمل المطوّرين وتمكّن الـagents من استخدام خدمات ElevenLabs بشكل برمجي ومباشر، ما يفتح المجال لأتمتة واسعة في التطبيقات الصوتية.",
+  "original_text": "Today we are releasing ElevenLabs CLI v1, which brings the entire ElevenLabs API into the terminal.",
+  "glossary": [
+   {
+    "term": "CLI",
+    "ar": "واجهة سطر الأوامر"
+   },
+   {
+    "term": "dry run",
+    "ar": "تشغيل تجريبي / معاينة قبل التنفيذ"
+   },
+   {
+    "term": "agent skills",
+    "ar": "مهارات جاهزة للـagent"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "ElevenLabs"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 225,
+   "replies": 15,
+   "reposts": 28,
+   "quotes": 5,
+   "bookmarks": 110,
+   "views": 27807
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing ElevenLabs CLI v1.\n\nDevelopers and coding agents can now manage ElevenLabs workflows directly in the terminal with well-documented commands, built-in agent skills, structured JSON, and dry runs to preview any operation. https://t.co/dEYaNgIONR"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c701",
+  "serial": 701,
+  "serial_display": "#000701",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2091966982015103068",
+  "source_native_id": "2091966982015103068",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-08-24T19:12:50Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج GPT-5.6 أصبح متاحًا في منصة Kiro للتطوير",
+  "arabic_summary": "أعلنت OpenAI أن نموذج GPT-5.6 أصبح متاحًا في منصة Kiro، وهي أداة تطوير تستخدمها الفرق في بيئات الإنتاج للتخطيط والبناء والاختبار ومراجعة البرمجيات. هذا يتيح للمطوّرين استخدام أحدث نماذج OpenAI داخل workflows الإنتاج الفعلية.",
+  "detailed_explanation": "أعلنت OpenAI عبر حسابها الموجّه للمطوّرين أن نموذج GPT-5.6 — وهو من أحدث نماذجها — أصبح متاحًا ضمن منصة Kiro.\n\nKiro هي منصة تطوير تُستخدم في بيئات الإنتاج، وتوفّر workflows متكاملة تشمل:\n- التخطيط (plan)\n- البناء (build)\n- الاختبار (test)\n- المراجعة (review)\n\nإتاحة GPT-5.6 في Kiro تعني أن الفرق الهندسية يمكنها الآن الاستفادة من أحدث قدرات OpenAI مباشرةً داخل أدوات التطوير التي تعتمد عليها يوميًا، دون الحاجة للانتقال بين بيئات مختلفة أو الانتظار حتى تنضج الأداة.\n\nهذا التكامل جزء من استراتيجية أوسع لجعل النماذج اللغوية الكبيرة جزءًا عضويًا من بيئة التطوير بدلًا من كونها أدوات منفصلة.",
+  "why_it_matters": "يعكس توجّهًا نحو دمج النماذج الأحدث مباشرةً في أدوات التطوير الفعلية بدلًا من بقائها في بيئات تجريبية، ما يسرّع اعتماد التقنيات الجديدة في سير العمل الإنتاجي.",
+  "original_text": "GPT-5.6 is now available in @kirodotdev, bringing our latest models into the workflows developers already use in production to plan, build, test, and review software. https://t.co/8C3eUqmhZd",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-5.6",
+   "Kiro"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 596,
+   "replies": 34,
+   "reposts": 43,
+   "quotes": 19,
+   "bookmarks": 95,
+   "views": 67636
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c702",
+  "serial": 702,
+  "serial_display": "#000702",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2091958205492719806",
+  "source_native_id": "2091958205492719806",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-24T18:37:57Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كيف استخدمت Toyota منصة LangSmith لتسريع إنتاج الـAgents من واحد كل 6 أشهر إلى 50+",
+  "arabic_summary": "نشرت LangChain دراسة حالة عن Toyota التي استخدمت LangSmith لمراقبة وتحسين الـagents في الإنتاج. المنصة أتاحت لهم فهم أداء الـagents، وتتبّع استدعاءات الأدوات الفاشلة، واكتشاف الأعطال الناتجة عن تحديثات الكود، ومعرفة أي ميزات يتبنّاها المستخدمون. النتيجة: الانتقال من إنتاج agent واحد كل 6 أشهر إلى أكثر من 50 agent.",
+  "detailed_explanation": "نشرت LangChain مقابلة مفصّلة مع فريق Toyota حول كيفية توسّع عملهم في بناء الـagents باستخدام منصة LangSmith وإطار عمل LangGraph.\n\nقبل استخدام LangSmith، كانت Toyota تُنتج agent واحدًا فقط كل ستة أشهر. بعد اعتماد المنصة وأدوات Deep Agents، تمكّنت من إنتاج أكثر من 50 agent.\n\nما أتاحته LangSmith لهم:\n- مراقبة شاملة لجميع الـagents في الإنتاج\n- فهم ما ينجح وما يفشل\n- تتبّع أي استدعاءات أدوات (tool calls) فشلت\n- اكتشاف أي pull request تسبّب في كسر الـpipeline\n- معرفة أي ميزات يتبنّاها المستخدمون فعليًا\n\nهذه الحالة تسلّط الضوء على أهمية الـobservability في بيئات الـagents، حيث لا يكفي أن يعمل الـagent مرّة واحدة، بل يجب مراقبة سلوكه على نطاق واسع وفهم أين يتعثّر ولماذا. LangGraph — إطار العمل الخاص ببناء agents — وLangSmith — أداة المراقبة — شكّلا معًا بيئة تمكّن من التوسّع السريع والآمن.",
+  "why_it_matters": "يوضّح الفرق الذي يحدثه التتبّع والمراقبة المنظّمة في بيئات الإنتاج، وكيف أن القدرة على فهم سلوك الـagents تسرّع التطوير وتزيد الثقة في النشر على نطاق واسع.",
+  "original_text": "\"LangSmith gives us the ability to monitor all of our agents, understand what's working, what's not, what tool calls have failed, what PR just broke the pipeline, and what features our users are adopting.\"\n\nAn inside look at how @Toyota went from shipping one production agent every 6 months to shipping 50+ using Deep Agents and LangGraph. https://t.co/j1gk81ZnlW",
+  "glossary": [
+   {
+    "term": "observability",
+    "ar": "القدرة على مراقبة وفهم سلوك النظام"
+   },
+   {
+    "term": "tool calls",
+    "ar": "استدعاءات الأدوات التي يقوم بها الـagent"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Toyota",
+   "LangChain",
+   "LangSmith",
+   "LangGraph",
+   "Deep Agents"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 21,
+   "replies": 3,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 7,
+   "views": 6134
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c703",
+  "serial": 703,
+  "serial_display": "#000703",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2091888961664798880",
+  "source_native_id": "2091888961664798880",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-24T14:02:48Z",
+  "fetched_at": "2026-08-25T06:50:13Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كيف بنت Schneider Electric بنيتها التحتية لـLLMOps على مستوى المؤسسات باستخدام LangSmith",
+  "arabic_summary": "نشرت LangChain دراسة حالة عن Schneider Electric وكيف استخدمت LangSmith لبناء أساس عمليات النماذج اللغوية (LLMOps) على نطاق مؤسّسي. الشركة أكّدت أن تحدّيات الدقة وجودة الإجابات والحماية (guardrailing) حقيقية جدًا، وأن نشر حلول على نطاق واسع يتطلّب أدوات مثل LangSmith.",
+  "detailed_explanation": "نشرت LangChain مقالة تفصيلية عن تجربة شركة Schneider Electric في بناء البنية التحتية لعمليات النماذج اللغوية الكبيرة (LLMOps) باستخدام منصة LangSmith.\n\nالشركة — وهي من كبريات شركات الطاقة والأتمتة — واجهت التحديات النموذجية عند محاولة نشر حلول LLM على نطاق المؤسسة:\n- تحدّي الدقة (accuracy)\n- تحدّي جودة الإجابات (quality)\n- تحدّي الحماية والضوابط (guardrailing)\n\nبحسب الاقتباس المنشور، فإن هذه التحديات \"حقيقية جدًا\"، وعندما تريد نشر حل على نطاق واسع، فإنك تحتاج إلى أدوات مثل LangSmith.\n\nالمقالة تشرح كيف استخدمت Schneider المنصة لبناء أساس قابل للتوسّع يغطّي المراقبة والتقييم والتحسين المستمر، بما يتيح لها الثقة في نشر تطبيقات LLM في بيئات حرجة. هذا النوع من الحالات مهمّ لأنه يوضّح الفجوة بين التجريب والإنتاج الفعلي في سياق مؤسّسي.",
+  "why_it_matters": "يعكس واقع تبنّي الذكاء الاصطناعي في المؤسسات الكبيرة، حيث لا يكفي بناء نموذج يعمل، بل يلزم بنية تحتية كاملة لإدارة الجودة والأمان والمراقبة عند التوسّع.",
+  "original_text": "\"The challenge of accuracy, the challenge of quality of answers, the challenge of guardrailing, are very real. \n\nWhen you deploy a solution at scale, you need tooling like LangSmith.”\n\n@SchneiderElec's story https://t.co/gIXU4aSVaO",
+  "glossary": [
+   {
+    "term": "LLMOps",
+    "ar": "عمليات إدارة النماذج اللغوية الكبيرة"
+   },
+   {
+    "term": "guardrailing",
+    "ar": "وضع ضوابط وحواجز لحماية المخرجات"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Schneider Electric",
+   "LangChain",
+   "LangSmith"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 14,
+   "replies": 1,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 10,
+   "views": 7292
+  },
+  "metrics_captured_at": "2026-08-25T06:50:13Z",
+  "external_links": [
+   "https://www.langchain.com/blog/how-schneider-electric-built-their-llmops-foundations-at-enterprise-scale-with-langsmith"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
