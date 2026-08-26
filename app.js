@@ -303,7 +303,9 @@ function avatarHTML(i, size, onclick){
 }
 function avStyle(handle, size){
   const a = Store.author(handle), i = (a && a.sprite>=0) ? a.sprite : -1;
-  if(i<0) return 'background-image:none';
+  if(i<0) return (a && a.avatar)
+    ? `background-image:url('${a.avatar}');background-size:cover;background-position:center`
+    : 'background-image:none';
   const k = size/SP.tile, c = i%SP.cols, r = Math.floor(i/SP.cols);
   return `background-size:${(SP.cols*SP.tile*k).toFixed(1)}px auto;background-position:${(-c*size).toFixed(1)}px ${(-r*size).toFixed(1)}px`;
 }
@@ -540,6 +542,64 @@ function viewDetail(id){
     </div>
    </div>`;
   window.scrollTo(0,0);
+}
+
+let ACCQ = '';
+function accSearch(v){ ACCQ = (v||'').trim().toLowerCase(); viewAccounts(true); }
+function viewAccounts(keepFocus){
+  const cards = Store.all();
+  const cnt = {};
+  cards.forEach(i => { if(i.author) cnt[i.author] = (cnt[i.author]||0) + 1; });
+
+  // authors.json هو مصدر القائمة؛ ونضيف أي حساب له بطاقات ولم يُسجَّل بعد
+  const seen = {}, list = [];
+  (Store.authors()||[]).forEach(a => { seen[a.handle.toLowerCase()] = 1; list.push(a); });
+  Object.keys(cnt).forEach(h => {
+    if(!seen[h.toLowerCase()]) list.push({handle:h, name:h, bio:'', followers:null,
+      url:'https://x.com/'+h, sprite:-1, is_arabic:false, _new:true});
+  });
+
+  list.forEach(a => a._n = cnt[a.handle] || 0);
+  const q = ACCQ;
+  const shown = q ? list.filter(a =>
+      (a.handle+' '+(a.name||'')+' '+(a.bio||'')).toLowerCase().includes(q)) : list;
+  shown.sort((x,y) => y._n - x._n || (x.name||x.handle).localeCompare(y.name||y.handle,'ar'));
+
+  const withCards = list.filter(a=>a._n>0).length;
+  const row = a => `
+    <div class="acccard" onclick="go('#/u/${encodeURIComponent(a.handle)}')">
+      <div class="av" style="width:44px;height:44px;${avStyle(a.handle,44)}"></div>
+      <div class="accmain">
+        <div class="accname">${esc(a.name||a.handle)}${a._new?' <span class="accnew">جديد</span>':''}</div>
+        <div class="acchandle">@${esc(a.handle)}</div>
+        ${a.bio?`<div class="accbio">${esc(a.bio)}</div>`:''}
+      </div>
+      <div class="accright">
+        <div class="accn ${a._n?'':'zero'}"><b>${a._n}</b><span>بطاقة</span></div>
+        ${a.followers!=null?`<div class="accf">${nf(a.followers)} متابع</div>`:''}
+        <a class="accx" href="${esc(a.url||('https://x.com/'+a.handle))}" target="_blank"
+           rel="noopener" onclick="event.stopPropagation()" title="فتح في X">${ICON.x}</a>
+      </div>
+    </div>`;
+
+  document.getElementById('main').innerHTML = `
+    <div class="backbar"><button class="backbtn" onclick="go('#/')">→ رجوع إلى اللوحة</button></div>
+    <div class="acchead">
+      <h2>المتابَعون</h2>
+      <div class="accsub"><b class="num">${list.length}</b> حسابًا مُتابَعًا ·
+        <b class="num">${withCards}</b> منها له بطاقات ·
+        <b class="num">${cards.length}</b> بطاقة إجمالًا</div>
+      <input id="accq" class="accinput" placeholder="ابحث باسم الحساب أو معرّفه…"
+        value="${esc(ACCQ)}" oninput="accSearch(this.value)" autocomplete="off">
+      <div class="accnote">اضغط أي حساب لترى بطاقاته · لإضافة حساب جديد استخدم زر + والصق رابط ملفه الشخصي</div>
+    </div>
+    ${shown.length ? `<div class="accgrid">${shown.map(row).join('')}</div>`
+      : `<div class="empty"><b>لا حساب يطابق بحثك</b>جرّب كلمة أخرى.</div>`}`;
+  setLive(shown.length);
+  if(keepFocus){
+    const el = document.getElementById('accq');
+    if(el){ el.focus(); el.setSelectionRange(el.value.length, el.value.length); }
+  } else window.scrollTo(0,0);
 }
 
 function viewProfile(handle){
@@ -851,6 +911,7 @@ function route(){
   const h = location.hash || '#/';
   if(h.startsWith('#/c/')) return viewDetail(h.slice(4));
   if(h.startsWith('#/u/')) return viewProfile(decodeURIComponent(h.slice(4)));
+  if(h.startsWith('#/accounts')) return viewAccounts();
   viewFeed();
   requestAnimationFrame(()=>window.scrollTo(0,_scroll));
 }
@@ -860,6 +921,7 @@ function render(){
   const h = location.hash||'#/';
   if(h.startsWith('#/c/')) viewDetail(h.slice(4));
   else if(h.startsWith('#/u/')) viewProfile(decodeURIComponent(h.slice(4)));
+  else if(h.startsWith('#/accounts')) viewAccounts();
   else viewFeed();
 }
 

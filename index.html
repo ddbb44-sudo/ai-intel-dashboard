@@ -284,6 +284,30 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
   background:#f2ede9;color:#8a6a55;border:1px solid #e6ddd6;margin-inline-start:4px;vertical-align:1px}
 
 .iconbtn.addbtn{background:var(--accent);border-color:var(--accent);color:#fff}
+.acchead{padding:18px 2px 10px}
+.acchead h2{margin:0 0 4px;font-size:21px}
+.accsub{color:var(--faint);font-size:12.5px;margin-bottom:12px}
+.accinput{width:100%;max-width:420px;padding:9px 12px;border-radius:9px;
+  border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit;font-size:13px}
+.accinput:focus{outline:none;border-color:var(--accent)}
+.accnote{color:var(--faint);font-size:11.5px;margin-top:8px}
+.accgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:9px;padding-bottom:40px}
+.acccard{display:flex;gap:11px;align-items:flex-start;padding:12px;border:1px solid var(--line);
+  border-radius:12px;background:var(--card);cursor:pointer;transition:border-color .12s,transform .12s}
+.acccard:hover{border-color:var(--accent);transform:translateY(-1px)}
+.accmain{flex:1;min-width:0}
+.accname{font-weight:650;font-size:14px;line-height:1.35}
+.accnew{font-size:10px;background:var(--accent);color:#fff;border-radius:5px;padding:1px 5px;vertical-align:middle}
+.acchandle{color:var(--faint);font-size:11.5px;direction:ltr;text-align:right}
+.accbio{color:var(--faint);font-size:11.5px;margin-top:4px;line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.accright{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
+.accn{font-size:11px;color:var(--faint);text-align:center;line-height:1.2}
+.accn b{display:block;font-size:16px;color:var(--fg)}
+.accn.zero b{color:var(--faint);opacity:.6}
+.accf{font-size:10.5px;color:var(--faint)}
+.accx{color:var(--faint);margin-top:2px}
+.accx:hover{color:var(--accent)}
 .iconbtn.addbtn:hover{filter:brightness(1.06)}
 .addbox{background:#fff;border-radius:16px;max-width:520px;width:100%;padding:22px;
   box-shadow:0 18px 50px rgba(60,45,35,.22);border:1px solid var(--line)}
@@ -325,6 +349,9 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
   <button class="iconbtn hb" onclick="openTray('bm')" title="المحفوظات" aria-label="المحفوظات">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
     <span class="badge zero" id="bBm">0</span>
+  </button>
+  <button class="iconbtn hb" onclick="go('#/accounts')" title="الحسابات المتابَعة" aria-label="الحسابات المتابَعة">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
   </button>
   <button class="iconbtn addbtn" onclick="openAdd()" title="أضف رابطًا إلى اللوحة" aria-label="أضف رابطًا">
     <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>

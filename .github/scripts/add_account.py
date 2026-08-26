@@ -125,7 +125,14 @@ def probe(handle):
     a = (items[0].get("author") or {})
     return {"handle": a.get("username") or handle,
             "name": a.get("name") or "",
-            "followers": a.get("followers")}, ""
+            "followers": a.get("followers"),
+            "id": a.get("id") or "",
+            "avatar": (a.get("profilePicture") or "").replace("_normal", "_400x400"),
+            "bio": a.get("description") or "",
+            "location": a.get("location") or "",
+            "website": a.get("url") or "",
+            "verified": bool(a.get("isBlueVerified") or a.get("verified")),
+            "lang": (items[0].get("lang") or "")}, ""
 
 # ---------- 4) الإضافة ----------
 p = "accounts.json"
@@ -155,8 +162,42 @@ if added:
         json.dump(acc, f, ensure_ascii=False, indent=1)
         f.write("\n")
 
+    # authors.json يُبنى محليًا لا في التشغيلة، فحساب جديد يظهر في اللوحة بلا اسم
+    # ولا صورة حتى إعادة البناء التالية. نسجّله هنا كي يظهر صحيحًا فورًا.
+    ap = f"{DATA}/authors.json"
+    try:
+        with open(ap, encoding="utf-8") as f:
+            authors = json.load(f)
+        if isinstance(authors, list):
+            have = {str(x.get("handle","")).lower() for x in authors}
+            for a in added:
+                if a["handle"].lower() in have: continue
+                authors.append({
+                  "handle": a["handle"], "id": a.get("id",""),
+                  "name": a["name"] or a["handle"], "avatar": a.get("avatar",""),
+                  "followers": a.get("followers"), "location": a.get("location",""),
+                  "website": a.get("website",""), "verified": a.get("verified", False),
+                  "source": "added:dashboard", "bio": a.get("bio",""),
+                  "is_arabic": a.get("lang") == "ar",
+                  "url": "https://x.com/" + a["handle"],
+                  "sprite": -1, "linkedin": "",
+                  "domains": [], "entities": [], "card_count": 0,
+                })
+            with open(ap, "w", encoding="utf-8") as f:
+                json.dump(authors, f, ensure_ascii=False, indent=1)
+                f.write("\n")
+            log("سُجّل %d حسابًا في authors.json" % len(added))
+        else:
+            log("تنبيه: authors.json ليس مصفوفة — تُرك كما هو")
+    except FileNotFoundError:
+        log("تنبيه: authors.json غير موجود — تُرك كما هو")
+    except Exception as e:
+        log("تنبيه: تعذّر تحديث authors.json (%s) — تُرك كما هو" % e)
+
 with open("new_handles.txt", "w", encoding="utf-8") as f:
-    f.write("\n".join(a["handle"] for a in added))
+    # سطر جديد في الآخر إلزامي: حلقة `while read` في سير العمل تتجاهل
+    # السطر الأخير غير المنتهي بسطر جديد، وهذا ما عطّل سحب BadwiNew.
+    f.write("".join(a["handle"] + "\n" for a in added))
 
 # ---------- 5) التقرير ----------
 lines = []
