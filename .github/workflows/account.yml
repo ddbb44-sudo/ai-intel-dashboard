@@ -47,7 +47,7 @@ jobs:
           fi
           git config user.name  "ai-intel-bot"
           git config user.email "actions@github.com"
-          git add accounts.json
+          git add accounts.json data/authors.json
           git diff --cached --quiet || git commit -m "account: إضافة $(tr '\n' ' ' < new_handles.txt)"
           ok=0
           for i in 1 2 3; do
@@ -66,7 +66,7 @@ jobs:
         run: |
           if [ ! -s new_handles.txt ]; then exit 0; fi
           : > backfill_all.md
-          while read -r h; do
+          while read -r h || [ -n "$h" ]; do
             [ -z "$h" ] && continue
             echo "== سحب تاريخي: $h =="
             BF_HANDLE="$h" python .github/scripts/backfill_account.py || echo "فشل السحب لـ $h"
