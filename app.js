@@ -670,9 +670,17 @@ function refreshBadges(){
    الصفحة ملفات ثابتة بلا خادم، فلا يمكنها الكتابة في المستودع ولا استدعاء نموذج.
    لذلك تُجهّز البطاقةَ طلبًا في GitHub بضغطة، ثم تلتقطه المهمة المجدولة وتصنّفه. */
 const REPO_ISSUE_URL = 'https://github.com/ddbb44-sudo/ai-intel-dashboard/issues/new';
+const X_RESERVED = ['home','search','explore','notifications','messages','settings',
+  'i','intent','compose','login','signup','about','tos','privacy','hashtag'];
 function linkKind(u){
-  try{ const h=new URL(u).hostname.replace(/^www\./,'');
-    if(/^(x|twitter)\.com$/.test(h)) return ['x','تغريدة X'];
+  try{ const U=new URL(u), h=U.hostname.replace(/^www\./,'');
+    if(/^(x|twitter)\.com$/.test(h)){
+      const seg = U.pathname.split('/').filter(Boolean);
+      // /USER/status/123 = تغريدة · /USER = حساب
+      if(seg.length===1 && !X_RESERVED.includes(seg[0].toLowerCase()))
+        return ['xprofile','حساب X — يُتابَع يوميًا'];
+      return ['x','تغريدة X'];
+    }
     if(/^(youtube\.com|youtu\.be|m\.youtube\.com)$/.test(h)) return ['youtube','فيديو YouTube'];
     if(h==='github.com') return ['github','مستودع GitHub'];
     return ['web','مقالة أو موقع'];
@@ -683,11 +691,13 @@ function openAdd(){
   ov.onclick=e=>{ if(e.target===ov) ov.remove(); };
   ov.innerHTML = `<div class="addbox">
     <h4>أضف رابطًا إلى اللوحة</h4>
-    <p class="sub">الصق رابط تغريدة أو مقالة أو فيديو أو مستودع. سيُقرأ ويُصنَّف ويُكتب بالعربية،
-      ثم يظهر هنا ببطاقة تحمل وسم «مضافة يدويًا».</p>
+    <p class="sub">الصق رابط تغريدة أو مقالة أو فيديو أو مستودع ← بطاقة واحدة.<br>
+      أو الصق رابط <b>حساب X</b> (<code>x.com/USERNAME</code>) ← يُضاف للمتابعة اليومية
+      ويُسحب تاريخه لآخر 60 يومًا تلقائيًا.</p>
     <input type="url" id="addurl" placeholder="https://…" autocomplete="off" inputmode="url"
       oninput="addCheck()" onkeydown="if(event.key==='Enter')addGo()">
     <div class="addkinds" id="addkinds">
+      <span class="addkind" data-k="xprofile">حساب X</span>
       <span class="addkind" data-k="x">تغريدة X</span>
       <span class="addkind" data-k="web">مقالة أو موقع</span>
       <span class="addkind" data-k="youtube">فيديو YouTube</span>
@@ -717,11 +727,15 @@ function addGo(){
   const note=(document.getElementById('addnote').value||'').trim();
   const [k,label]=linkKind(u);
   const body = u + (note ? '\n\nملاحظة عزيز: '+note : '');
-  const url = REPO_ISSUE_URL + '?labels=inbox&title=' + encodeURIComponent('رابط: '+(label||'')) +
-              '&body=' + encodeURIComponent(body);
+  const isAcc = (k==='xprofile');
+  const url = REPO_ISSUE_URL
+            + '?labels=' + (isAcc ? 'account' : 'inbox')
+            + '&title=' + encodeURIComponent((isAcc?'حساب: ':'رابط: ')+(label||''))
+            + '&body=' + encodeURIComponent(body);
   window.open(url,'_blank','noopener');
   document.getElementById('addov').remove();
-  toast('افتحت GitHub — اضغط زر التأكيد الأخضر لإتمام الإضافة');
+  toast(isAcc ? 'افتحت GitHub — اضغط التأكيد الأخضر ليُضاف الحساب ويُسحب تاريخه'
+              : 'افتحت GitHub — اضغط زر التأكيد الأخضر لإتمام الإضافة');
 }
 function syncLabel(){
   const m = {synced:'✓ مزامنة مفعّلة', saving:'… يحفظ', failed:'⚠ فشل الحفظ', local:'مزامنة معطّلة', idle:'مزامنة'};
