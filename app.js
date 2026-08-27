@@ -217,7 +217,7 @@ const FilterEngine = {
       if (F.pref.includes('liked') && !Prefs.liked(i.id)) return false;
       if (F.pref.includes('bookmarked') && !Prefs.isBookmarked(i.id)) return false;
       if (F.pref.includes('unread') && Prefs.isOpened(i.id)) return false;
-      if (F.pref.includes('mine') && !i.added_via) return false;
+      if (F.pref.includes('mine') && i.added_via !== 'issue') return false;
       if (F.pref.includes('rec') && Ranking.relevance(i,v) < 12) return false;
       if (F.coll && !Prefs.bookmarksOf(i.id).includes(F.coll)) return false;
       const t = new Date(i.published_at).getTime();
@@ -348,7 +348,7 @@ function cardHTML(i){
         <div>${isX(i)
             ? `<span class="nm" onclick="go('#/u/${esc(i.author)}')">${esc(srcName(i))}</span>`
             : `<span class="nm plain">${esc(srcName(i))}</span>`}
-          <span class="hd">${esc(srcSub(i))} · ${ago(i.published_at)}</span>${i.added_via?' <span class="mine" title="أضفتها بنفسك">مضافة يدويًا</span>':''}</div>
+          <span class="hd">${esc(srcSub(i))} · ${ago(i.published_at)}</span>${i.added_via==='issue'?' <span class="mine" title="أضفتها بنفسك">مضافة يدويًا</span>':''}</div>
         <div style="display:flex;gap:6px;align-items:center;margin-top:3px">
           <span class="serial" onclick="copySerial('${i.serial_display}')" title="انسخ رقم البطاقة">${i.serial_display}</span>
           <span class="tier ${i.importance_tier}">${tierLbl}</span>
