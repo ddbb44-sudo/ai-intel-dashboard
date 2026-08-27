@@ -1,8 +1,10 @@
 name: install-2
 
-# ١) شاشة «المتابَعون» في اللوحة
-# ٢) تسجيل الحسابات الجديدة في authors.json (اسم وصورة ونبذة)
-# ٣) السحب التاريخي الفائت لـ BadwiNew
+# ١) شاشة «المتابَعون» + زرها في الشريط العلوي
+# ٢) «أضفتها بنفسي» = الروابط الملصوقة فقط (يسبق السحب عمدًا،
+#    وإلا دخلت بطاقات بدوي القسم وحملت شارة «مضافة يدويًا» خطأً)
+# ٣) تسجيل الحسابات الجديدة في authors.json (اسم وصورة ونبذة)
+# ٤) السحب التاريخي الفائت لـ BadwiNew
 # لا يلمس .github/workflows — GitHub يرفض ذلك من سير عمل.
 on:
   workflow_dispatch:
@@ -306,9 +308,42 @@ jobs:
           B64EOF
           tr -d ' \n' < /tmp/b.b64 | base64 -d > .github/scripts/patch_accounts_view.py
           echo "  .github/scripts/patch_accounts_view.py ($(wc -c < .github/scripts/patch_accounts_view.py) بايت)"
+          mkdir -p "$(dirname .github/scripts/patch_mine_filter.py)"
+          cat > /tmp/b.b64 <<'B64EOF'
+          IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKwqvYo9i22YHYqtmH2Kcg2KjZhtmB2LPZ
+          isK7ID0g2KfZhNix2YjYp9io2Lcg2KfZhNiq2Yog2KPZhNi12YLZh9inINi52LLZitiyINmB2YLYty4KCtmD2KfZhiDYp9mE2YHZ
+          hNiq2LEg2YrYudiq2KjYsSDYo9mKINmC2YrZhdipINmB2YogYWRkZWRfdmlhINil2LbYp9mB2KnZiyDZitiv2YjZitip2Iwg2YHY
+          qNi32KfZgtin2Kog2KfZhNiz2K3YqCDYp9mE2KrYp9ix2YrYrtmKCihhZGRlZF92aWEgPSAiYmFja2ZpbGwiKSDZg9in2YbYqiDY
+          s9iq2K/YrtmEINin2YTZgtiz2YUg2YjYqtit2YXZhCDYtNin2LHYqSDCq9mF2LbYp9mB2Kkg2YrYr9mI2YrZi9inwrsg4oCUINmI
+          2YfZiiDZhNmK2LPYqgrZg9iw2YTZgzog2KfZhNit2LPYp9ioINij2Y/YttmK2YEg2YrYr9mI2YrZi9in2Iwg2KPZhdinINio2LfY
+          p9mC2KfYqtmHINmB2KzYp9ih2Kog2YXZhiDYs9it2Kgg2KLZhNmKLgoK2YbYrNi52YQg2KfZhNi02LHYtyDYtdix2YrYrdmL2Kcg
+          2LnZhNmJICdpc3N1ZScg2YjZhNinINmG2YXYrdmIINmC2YrZhdipICdiYWNrZmlsbCcg2YXZhiDYp9mE2KjZitin2YbYp9iqOgrY
+          pdiu2YHYp9ihINin2YTZhdi52YTZiNmF2Kkg2YXZhiDYp9mE2YjYp9is2YfYqSDYo9mG2LjZgSDZhdmGINmF2K3ZiNmH2Kcg2YXZ
+          hiDYp9mE2YXYtdiv2LEuCgrYotmF2YYg2YTZhNiq2YPYsdin2LHYmyDZitiq2YjZgtmBINiv2YjZhiDYqti62YrZitixINil2YYg
+          2YTZhSDZiti32KfYqNmCINin2YTZhdmE2YEg2KfZhNmF2KrZiNmC2LkuCiIiIgppbXBvcnQgc3lzCgpQID0gImFwcC5qcyIKc3Jj
+          ID0gb3BlbihQLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKCmlmICJhZGRlZF92aWEgIT09ICdpc3N1ZSciIGluIHNyYzoKICAg
+          IHByaW50KCJhcHAuanM6INin2YTZgdmE2KrYsSDZhdmP2LXZhNmO2K0g2YXYs9io2YLZi9inIOKAlCDYqtiu2LfZjdmRIikKICAg
+          IHN5cy5leGl0KDApCgpQQUlSUyA9IFsKICAgICMg2aEpINin2YTZgdmE2KrYsQogICAgKCIgICAgICBpZiAoRi5wcmVmLmluY2x1
+          ZGVzKCdtaW5lJykgJiYgIWkuYWRkZWRfdmlhKSByZXR1cm4gZmFsc2U7IiwKICAgICAiICAgICAgaWYgKEYucHJlZi5pbmNsdWRl
+          cygnbWluZScpICYmIGkuYWRkZWRfdmlhICE9PSAnaXNzdWUnKSByZXR1cm4gZmFsc2U7IiksCiAgICAjINmiKSDYp9mE2LTYp9ix
+          2Kkg2LnZhNmJINin2YTYqNi32KfZgtipCiAgICAoIiIiJHtpLmFkZGVkX3ZpYT8nIDxzcGFuIGNsYXNzPSJtaW5lIiB0aXRsZT0i
+          2KPYttmB2KrZh9inINio2YbZgdiz2YMiPtmF2LbYp9mB2Kkg2YrYr9mI2YrZi9inPC9zcGFuPic6Jyd9IiIiLAogICAgICIiIiR7
+          aS5hZGRlZF92aWE9PT0naXNzdWUnPycgPHNwYW4gY2xhc3M9Im1pbmUiIHRpdGxlPSLYo9i22YHYqtmH2Kcg2KjZhtmB2LPZgyI+
+          2YXYttin2YHYqSDZitiv2YjZitmL2Kc8L3NwYW4+JzonJ30iIiIpLApdCgpmb3IgbiwgKG9sZCwgbmV3KSBpbiBlbnVtZXJhdGUo
+          UEFJUlMsIDEpOgogICAgYyA9IHNyYy5jb3VudChvbGQpCiAgICBpZiBjICE9IDE6CiAgICAgICAgcHJpbnQoItiq2YjZgtmR2YE6
+          INin2YTZhdmI2LbYuSAlZCDZiNmP2KzYryAlZCDZhdix2KkgKNin2YTZhdiq2YjZgti5IDEpIOKAlCDZhNmFINij2LrZitmR2LEg
+          2LTZitim2YvYpy4iICUgKG4sIGMpKQogICAgICAgIHN5cy5leGl0KDEpCiAgICBzcmMgPSBzcmMucmVwbGFjZShvbGQsIG5ldykK
+          Cm9wZW4oUCwgInciLCBlbmNvZGluZz0idXRmLTgiKS53cml0ZShzcmMpCnByaW50KCJhcHAuanM6IMKr2KPYttmB2KrZh9inINio
+          2YbZgdiz2YrCuyDYtdin2LEg2YTZhNix2YjYp9io2Lcg2KfZhNmF2YTYtdmI2YLYqSDZgdmC2LcgKNmF2YjYtti52KfZhikiKQo=
+          B64EOF
+          tr -d ' \n' < /tmp/b.b64 | base64 -d > .github/scripts/patch_mine_filter.py
+          echo "  .github/scripts/patch_mine_filter.py ($(wc -c < .github/scripts/patch_mine_filter.py) بايت)"
 
-      - name: إضافة شاشة المتابَعون
+      - name: شاشة المتابَعون
         run: python .github/scripts/patch_accounts_view.py
+
+      - name: تصحيح «أضفتها بنفسي» قبل أي سحب
+        run: python .github/scripts/patch_mine_filter.py
 
       - name: السحب التاريخي الفائت
         env:
@@ -328,7 +363,7 @@ jobs:
           git config user.email 'actions@github.com'
           git add app.js index.html data/ .github/scripts/
           if git diff --cached --quiet; then echo 'لا تغيير'; exit 0; fi
-          git commit -m 'شاشة المتابَعون + تسجيل الحسابات في authors.json + سحب BadwiNew'
+          git commit -m 'شاشة المتابَعون + «أضفتها بنفسي» للملصوق فقط + سحب BadwiNew'
           ok=0
           for i in 1 2 3; do
             if git pull --rebase --autostash origin main && git push origin HEAD:main; then ok=1; break; fi
@@ -347,6 +382,8 @@ jobs:
           print('سُحب %d · مرشحون %d · قُرئ %d · **بطاقات %d** · $%.3f\n'
                 % (r.get('pulled',0), r.get('candidates',0), r.get('read',0),
                    r.get('accepted',0), r.get('cost_estimate_usd',0)))
+          d=r.get('dropped') or {}
+          if d: print('أُسقط: ' + ' · '.join('%s %d'%(k,v) for k,v in d.items()) + '\n')
           for t in (r.get('titles') or []):
               print('- `%s` [%s](%s)' % (t['serial'], t['title'], t['url']))
           PY
