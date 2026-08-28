@@ -7,9 +7,9 @@ name: daily
 # شبكة أمان. خطوة «هل سُحب اليوم؟» تُخرجهما فورًا إن نجح الأول، فلا تكلفة مكررة.
 on:
   schedule:
-    - cron: '0 3 * * *'
-    - cron: '0 6 * * *'
-    - cron: '0 9 * * *'
+    # كل ساعتين. جدولة GitHub تتأخر ساعاتٍ وتُسقط مواعيد، فنعطيها 12 فرصة
+    # بدل 3. أول محاولة تصل تسحب، والباقي يخرج في ثوانٍ بلا تكلفة.
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,7 +35,9 @@ jobs:
         id: guard
         run: |
           DAY=$(date -u +%F)
-          if [ -f "data/$DAY.json" ]; then
+          # الشارد لا يُكتب في يوم بلا بطاقات، فنعتمد أيضًا على علامة صريحة
+          MARK=$(cat data/.pulled 2>/dev/null || true)
+          if [ -f "data/$DAY.json" ] || [ "$MARK" = "$DAY" ]; then
             echo "::notice::شارد $DAY موجود — سُحب اليوم مسبقًا. تخطٍّ قبل لمس Apify."
             echo "تخطٍّ: اليوم $DAY مسحوب مسبقًا." >> $GITHUB_STEP_SUMMARY
             echo "skip=1" >> "$GITHUB_OUTPUT"
@@ -55,13 +57,18 @@ jobs:
           MAX_CARDS: ${{ vars.MAX_CARDS }}
         run: python .github/scripts/daily_pull.py
 
+      - name: تسجيل أن اليوم جُرِّب
+        if: steps.guard.outputs.skip != '1' && (env.DAILY_COUNT != '' || env.DAILY_NOTHING == '1')
+        run: date -u +%F > data/.pulled
+
       - name: حفظ ونشر
-        if: steps.guard.outputs.skip != '1' && env.DAILY_COUNT != ''
+        if: steps.guard.outputs.skip != '1' && (env.DAILY_COUNT != '' || env.DAILY_NOTHING == '1')
         run: |
           git config user.name  "ai-intel-bot"
           git config user.email "actions@github.com"
           git add data/
-          git commit -m "daily: ${DAILY_DAY} — ${DAILY_COUNT} بطاقة جديدة"
+          if git diff --cached --quiet; then echo "لا تغيير"; exit 0; fi
+          git commit -m "daily: $(date -u +%F) — ${DAILY_COUNT:-0} بطاقة جديدة"
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin HEAD:main && break
             sleep 5
