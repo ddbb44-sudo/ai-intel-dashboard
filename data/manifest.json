@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generated_at": "2026-08-28T09:47:29Z",
+ "generated_at": "2026-08-29T07:04:07Z",
  "stats": {
   "sprite_cols": 10,
   "sprite_tile": 52,
   "accounts_watched": 69,
   "accounts_with_cards": 62,
   "tweets_fetched": 2367,
-  "cards": 827,
+  "cards": 856,
   "merged_sources": 93,
   "reviewed": 1295,
   "read_rejected": 780,
@@ -15,7 +15,7 @@
   "heuristic_dropped": 478,
   "rejected": 1500,
   "window": "آخر 24 ساعة",
-  "fetched_at": "2026-08-28T09:47:29Z"
+  "fetched_at": "2026-08-29T07:04:07Z"
  },
  "authors": "authors.json",
  "shards": [
@@ -39,7 +39,8 @@
   "inbox-2026-08-26.json",
   "backfill-badwinew.json",
   "2026-08-27.json",
-  "2026-08-28.json"
+  "2026-08-28.json",
+  "2026-08-29.json"
  ],
  "counts": {
   "items": 574,

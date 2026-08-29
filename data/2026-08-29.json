@@ -1,0 +1,1733 @@
+[
+ {
+  "id": "c829",
+  "serial": 829,
+  "serial_display": "#000829",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2093498158559183011",
+  "source_native_id": "2093498158559183011",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-08-29T00:37:10Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "لماذا تبقى أساسيات هندسة البرمجيات مهمة حتى مع Agents",
+  "arabic_summary": "Addy Osmani يوضح أن Agents لا تلغي أهمية الفهم العميق لمبادئ البرمجة. السبب أن Agents تختار التسويات (tradeoffs) بين الأداء والتكلفة والاتساق، والخبرة الحقيقية هي معرفة الخيارات المتاحة وتوجيه Agent نحو القرار المناسب لنظامك.",
+  "detailed_explanation": "المنشور يرد على خريطة مهارات هندسة الذكاء الاصطناعي ويطرح نقطة محورية: أن الانتقال إلى Agentic Coding لا يعني أن المبادئ الأساسية للبرمجة أصبحت غير ذات قيمة.\n\nالفكرة الجوهرية هي أن كل نظام برمجي يواجه تسويات حتمية — بين سرعة الاستجابة (latency) والتكلفة (cost) والاتساق (consistency) والموثوقية. وعندما تستخدم Agent لبناء شيء ما، فإن Agent ستختار أحد هذه المسارات.\n\nلكن الخبرة — وهنا يكمن الفارق — تعني أن المطور يعرف القائمة الكاملة للخيارات ويفهم آثار كل قرار. وبناءً على ذلك يستطيع توجيه Agent نحو الخيار الأنسب للسياق الذي يعمل ضمنه.\n\nهذا يشير إلى أن دور المهندس لا يختفي، بل يتحول من الكتابة المباشرة للكود إلى التوجيه الاستراتيجي لعملية التطوير.",
+  "why_it_matters": "يصحح التصور الشائع بأن Agents ستستبدل الفهم الهندسي. الواقع أن دور المطور يتطور نحو تحديد الأولويات والاختيار الواعي بين البدائل.",
+  "original_text": "Software fundamentals still matter with agents because tradeoffs still exist.\n\nAgents will pick a tradeoff. Expertise is knowing the menu - latency, consistency, cost etc - and steering the agent to the one that's right for your system.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي قادر على تنفيذ مهام معقدة بشكل مستقل"
+   },
+   {
+    "term": "Tradeoff",
+    "ar": "تسوية أو مقايضة بين خيارات متعارضة"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Addy Osmani"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 77,
+  "metrics": {
+   "likes": 200,
+   "replies": 12,
+   "reposts": 14,
+   "quotes": 2,
+   "bookmarks": 178,
+   "views": 26607
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. https://t.co/cnRLj43DLs"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c830",
+  "serial": 830,
+  "serial_display": "#000830",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2093393512075342193",
+  "source_native_id": "2093393512075342193",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-08-28T17:41:21Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "جراحو لندن ينجحون في استئصال ورم دماغي بمساعدة AI فورية",
+  "arabic_summary": "جراحو أعصاب في لندن نجحوا في إجراء عملية استئصال ورم دماغي بمساعدة ذكاء اصطناعي يعمل في الوقت الفعلي أثناء العملية، مما يشير إلى تطور استخدام AI في الجراحات الدقيقة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل تطبيقًا عمليًا للذكاء الاصطناعي في بيئة طبية حرجة، مما قد يفتح الباب لتحسين دقة الجراحات وتقليل المخاطر.",
+  "original_text": "London neurosurgeons successfully removed a brain tumor with real-time AI assistance.",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 14,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 5086
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c831",
+  "serial": 831,
+  "serial_display": "#000831",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2093533221296198103",
+  "source_native_id": "2093533221296198103",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-08-29T02:56:30Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تنهي شراكتها مع Cursor بعد استحواذ SpaceX عليه",
+  "arabic_summary": "OpenAI أعلنت إنهاء شراكتها التجارية مع Cursor بعد استحواذ SpaceX على المحرر، وستوقف الوصول المباشر لنماذجها بحلول 12 نوفمبر. السبب المعلن هو فقدان الثقة ومخاوف من استخدام النماذج خارج الشروط المتفق عليها. الاستخدام عبر API key الشخصي وإضافات OpenAI سيبقى متاحًا.",
+  "detailed_explanation": "الإعلان يأتي كتطور مباشر لاستحواذ SpaceX على Cursor، وهو ما أثار قلق OpenAI بشأن كيفية استخدام نماذجها مستقبلًا. الشراكة المباشرة التي كانت تتيح لـCursor الوصول المميز إلى نماذج OpenAI ستنتهي في 12 نوفمبر.\n\nلكن OpenAI توضح أن المطورين لن يفقدوا الوصول بالكامل — فالاستخدام عبر API key شخصي، وكذلك الإضافات (plugins) المدمجة، سيبقى متاحًا. الفارق الجوهري أن النماذج الجديدة لن تصل إلى Cursor عبر قنوات الشراكة المباشرة.\n\nهذا الموقف يعكس حساسية العلاقة بين مزودي النماذج ومطوري الأدوات، خاصة عندما تدخل أطراف كبرى مثل SpaceX على الخط.",
+  "why_it_matters": "يؤثر على ملايين المطورين الذين يعتمدون على Cursor مع نماذج OpenAI، ويعكس توترات تجارية واستراتيجية بين الشركات الكبرى في مجال الذكاء الاصطناعي.",
+  "original_text": "💥 OpenAI أعلنت إنهاء شراكتها مع Cursor بعد استحواذ SpaceX على الشركة\n\n🔐 السبب حسب OpenAI هو فقدان الثقة وخشيتها من استخدام نماذجها خارج الشروط\n\n📆 وتطلب إيقاف الوصول المباشر إلى نماذجها داخل Cursor في 12 نوفمبر\n\n🚫 نماذج OpenAI القادمة ما راح تصل إلى Cursor عبر الشراكة\n\n🧩 لكن GPT ما يختفي بالكامل لأن استخدام OpenAI API key وإضافات OpenAI داخل Cursor بتستمر",
+  "glossary": [
+   {
+    "term": "API key",
+    "ar": "مفتاح برمجي يمنح وصولًا شخصيًا لخدمة معينة"
+   },
+   {
+    "term": "Plugin",
+    "ar": "إضافة برمجية تدمج داخل تطبيق لتوسيع وظائفه"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Cursor",
+   "SpaceX"
+  ],
+  "change_types": [
+   "Shutdown"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 9,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 2766
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access to our models would end on November 12.\n\nWe know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.\n\nhttps://t.co/OzuCTzU"
+  },
+  "cluster_id": "cursor_openai_split",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c832",
+  "serial": 832,
+  "serial_display": "#000832",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093550436238217526",
+  "source_native_id": "2093550436238217526",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-29T04:04:54Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مشاركة قوالب Bots في ChatGPT تفتح سوقًا جديدة محتملة",
+  "arabic_summary": "ChatGPT أتاح الآن إمكانية مشاركة قوالب Bots الجاهزة مع الآخرين، بحيث يمكن لأي شخص استخدام القالب مباشرة دون بناء Bot من الصفر. هذا يفتح الباب لسوق جديد لبيع قوالب مصممة لأغراض مثل التسويق وصناعة المحتوى وخدمة العملاء.",
+  "detailed_explanation": "الميزة الجديدة تسمح لمصممي Bots في ChatGPT بتصدير قوالبهم ومشاركتها مع آخرين. هذا يعني أن من يبني Bot معقد لمهمة معينة — مثل تحليل بيانات العملاء أو صياغة محتوى تسويقي أو إدارة جدول مهام — يمكنه الآن تحويل هذا الجهد إلى قالب قابل للاستخدام المتكرر.\n\nالمنشور يشير إلى إمكانية تحويل هذا إلى نموذج عمل: بيع قوالب Bot مصممة بعناية لجماهير محددة، تمامًا مثل سوق القوالب في التصميم أو البرمجة.\n\nهذا التطور يشبه ما حدث مع GPTs عند إطلاقها، لكنه الآن يركز على Bots القابلة للتنفيذ والتفاعل مع أدوات خارجية.",
+  "why_it_matters": "يحول Bots من أدوات شخصية إلى أصول قابلة للتوزيع، ويمهد لاقتصاد جديد حول القوالب الجاهزة للذكاء الاصطناعي.",
+  "original_text": "قوالب Bots ممكن تتحول لسوق جديد! \n\nصار بإمكانك الآن مشاركة قوالب البوتات اللي تصممها مع الآخرين، بحيث يقدر أي شخص يأخذ القالب ويستخدمه بدل ما يبدأ بناء البوت من الصفر.\n\nوهذا يفتح باب جديد لصناعة وبيع قوالب جاهزة لأغراض مختلفة، مثل التسويق، صناعة المحتوى، خدمة العملاء أو تنفيذ المهام المتكررة.\n\nتخيل تستثمر وتبيع  قوالب  وتطلع فلوس 🤣",
+  "glossary": [
+   {
+    "term": "Bot",
+    "ar": "وكيل محادثة ذكي مبرمج لأداء مهام محددة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 3,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 1325
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "You can now share templates of your Bots with others. https://t.co/zYATjuxU5O"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c833",
+  "serial": 833,
+  "serial_display": "#000833",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093547012801040825",
+  "source_native_id": "2093547012801040825",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-29T03:51:18Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "GLM 5.3 Flash يضاهي الإصدار الكامل بأداء مقارب وتكلفة أقل بـ17 مرة",
+  "arabic_summary": "اختبار عملي في Blender أظهر أن GLM 5.3 Flash أنتج نموذج معماري (811 عنصر) في 38 دقيقة بتكلفة 0.053 دولار فقط، بينما GLM 5.3 الكامل أنتج 847 عنصر في 40 دقيقة بتكلفة 0.88 دولار. النسخة Flash التزمت بالتعليمات بشكل أدق، ويمكن تشغيلها محليًا على MacBook بذاكرة 128GB.",
+  "detailed_explanation": "الاختبار قارن بين نسختين من نموذج GLM 5.3 في سيناريو واقعي: تصميم بنتهاوس معماري بمواصفات دقيقة داخل Blender.\n\nالنتيجة المفاجئة هي أن GLM 5.3 Flash — النسخة المخففة — لم تقدم فقط أداءً قريبًا من النسخة الكاملة من حيث عدد العناصر والوقت، بل تفوقت في الالتزام بالتعليمات (صممت البنتهاوس بالأبعاد الصحيحة بينما أخطأت النسخة الكاملة).\n\nالأهم هو فارق التكلفة الهائل: 0.053 دولار مقابل 0.88 دولار — أي أن Flash أرخص بـ17 مرة تقريبًا. وإضافة إلى ذلك، Flash يمكن تشغيله محليًا على أجهزة MacBook بذاكرة 128GB، مما يفتح الباب لاستخدام النموذج دون الاعتماد على سحابة.\n\nهذا يشير إلى أن النماذج المحسّنة أصبحت خيارًا عمليًا واقتصاديًا لمهام معقدة مثل التصميم ثلاثي الأبعاد والبرمجة.",
+  "why_it_matters": "يثبت أن النماذج المحسّنة (Flash) يمكن أن تقدم أداءً منافسًا للنماذج الكاملة بتكلفة أقل بكثير، مما يجعل الاستخدامات المعقدة أكثر جدوى اقتصاديًا.",
+  "original_text": "GLM 5.3 Flash ينافس النسخة الأقوى… بس أرخص بـ17 مرة! 🔥\n\nاختبار عملي داخل Blender كشف نتيجة ملفتة جدًا بين GLM 5.3 ونسخة Flash.\n\nالنموذجين أخذوا نفس المهمة: تصميم بنتهاوس دوبلكس بمساحة 2,800 قدم²، بصالة بارتفاع مزدوج، ميزانين، درج معلّق، واجهات زجاجية، تراس، أثاث وخامات PBR واقعية.\n\nالنتيجة؟\n\nGLM 5.3 Flash أنشأ 811 عنصر خلال 38 دقيقة و52 ثانية، وبتكلفة حوالي 0.053 دولار فقط.\n\nبينما GLM 5.3 أنشأ 847 عنصر خلال 40 دقيقة و43 ثانية، لكن التكلفة وصلت إلى 0.88 دولار.\n\nوالأغرب أن نسخة Flash التزمت بالتعليمات بشكل أفضل، بينما GLM 5.3 صمّم البنتهاوس بعمق أصغر من المطلوب.\n\nوالميزة المهمة أيضًا: GLM 5.3 Flash يمكن تشغيله محليًا على MacBook بذاكرة 128GB.",
+  "glossary": [
+   {
+    "term": "Flash",
+    "ar": "نسخة محسّنة وأسرع من نموذج ذكاء اصطناعي"
+   },
+   {
+    "term": "PBR",
+    "ar": "Physically Based Rendering، تقنية إضاءة وخامات واقعية في التصميم ثلاثي الأبعاد"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GLM",
+   "Blender"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 8,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 2029
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "GLM-5.3 is now open-weight.\n\nOur most capable model for agentic coding and cyber defense is now available to download, run, and customize.\n\nWeights: https://t.co/v1IbWMXxg4\nTech blog: https://t.co/ekQkO83jCv https://t.co/f8XlJksKyf"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c834",
+  "serial": 834,
+  "serial_display": "#000834",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093279429296329070",
+  "source_native_id": "2093279429296329070",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-28T10:08:01Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Brave يضيف ميزة Email Aliases لإخفاء البريد الإلكتروني الحقيقي",
+  "arabic_summary": "متصفح Brave أضاف على نسخة الكمبيوتر ميزة Email Aliases التي تتيح للمستخدم إنشاء عناوين بريد بديلة للتسجيل في المواقع. أي رسالة تصل إلى البريد البديل يتم تحويلها تلقائيًا إلى البريد الأساسي، مما يحمي الخصوصية ويقلل الرسائل المزعجة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعزز الخصوصية الرقمية ويمنح المستخدمين سيطرة أكبر على بياناتهم، مع تقليل التعرض للرسائل الترويجية والتتبع عبر البريد الإلكتروني.",
+  "original_text": "🔥 Brave يخفي بريدك الحقيقي\n\nمتصفح Brave أضاف ميزة Email Aliases على الكمبيوتر.\n\nتنشئ لك بريدًا بديلًا تستخدمه في التسجيل بالمواقع، وأي رسالة توصله تتحول تلقائيًا إلى بريدك الأساسي.\n\nكذا تحمي بريدك الحقيقي وتقلل الرسائل المزعجة.",
+  "glossary": [
+   {
+    "term": "Email Alias",
+    "ar": "عنوان بريد إلكتروني بديل يُحوّل الرسائل إلى بريد رئيسي"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Brave"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 75,
+   "replies": 1,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 43,
+   "views": 10501
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Brave on desktop just added Email Aliases, a feature that lets you sign up for online services without revealing your personal email address.\n\nEmail Aliases creates unique email addresses that forward to your primary inbox. https://t.co/TY5SMUp48q"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c835",
+  "serial": 835,
+  "serial_display": "#000835",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093277678086328685",
+  "source_native_id": "2093277678086328685",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-28T10:01:04Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تجربة علاج CAR-T على 6 مرضى روماتويد: نتائج أولية واعدة",
+  "arabic_summary": "باحثون جرّبوا علاج CAR-T المستخدم عادة ضد السرطان على 6 مرضى يعانون من روماتويد شديد لم يستجب للعلاجات المعتادة. العلاج يعتمد على تعديل خلايا مناعية من جسم المريض لتهاجم B cells المرتبطة بالمرض. النتيجة: تحسّن ملحوظ عند الجميع، ثلاثة وصلوا لمرحلة هدوء، وثلاثة تحسّنوا بشكل كبير، مع ملاحظة عودة الخلايا المناعية لحالة أقرب للطبيعة.",
+  "detailed_explanation": "التجربة اختبرت علاج CAR-T على 6 مرضى بالروماتويد الشديد. العلاج يأخذ خلايا مناعية من المريض نفسه، يعدّلها وراثيًا لتهاجم B cells، ثم يعيدها للجسم.\n\nالنتائج الأولية واعدة: كل المرضى تحسّنوا، نصفهم وصل لمرحلة هدوء تام للمرض، والنصف الآخر حقق تحسنًا كبيرًا في الأعراض. الباحثون لاحظوا أيضًا عودة الخلايا المناعية لوضع أقرب للطبيعي بعد العلاج.\n\nهذا يشير إلى أن CAR-T قد لا يكون مجرد مثبط مؤقت للالتهاب، بل قد يعيد ضبط الجهاز المناعي بشكل أعمق.\n\nلكن العينة صغيرة جدًا (6 مرضى فقط)، والنتائج تحتاج لتأكيد في تجارب أوسع قبل اعتباره علاجًا قياسيًا.",
+  "why_it_matters": "قد يفتح الباب لاستخدام علاجات السرطان المتقدمة في أمراض المناعة الذاتية، وربما إعادة برمجة جهاز المناعة بدلًا من مجرد كبت الالتهاب.",
+  "original_text": "🔥 علاج للسرطان قد يفتح بابًا جديدًا لعلاج الروماتويد!\n\nباحثون جرّبوا علاج CAR-T على 6 مرضى يعانون من روماتويد شديد، وما عادوا يستفيدون من العلاجات المعتادة.\n\nوش يسوي العلاج؟\n\nيتم أخذ خلايا مناعة من جسم المريض، وتعديلها بحيث تهاجم نوعًا معينًا من خلايا المناعة اسمه B cells، وهي من الخلايا اللي ممكن يكون لها دور في استمرار المرض.\n\nالنتيجة؟\n\nكل المرضى الستة تحسنت حالتهم بشكل واضح.\n\n3 منهم وصلوا إلى مرحلة هدوء للمرض، و3 حصل عندهم تحسن كبير جدًا في الأعراض.\n\nوالشيء المثير أكثر أن الباحثين لاحظوا بعد العلاج أن خلايا المناعة بدأت ترجع بشكل أقرب للطبيعي.\n\nوهذا يخليهم يعتقدون أن CAR-T ممكن مستقبلًا ما يكون مجرد علاج يخفف الالتهاب، بل قد يساعد على إعادة ترتيب الجهاز المناعي من جديد.\n\nلكن لازم ننتبه: التجربة كانت على 6 مرضى فقط، لذلك ما نقدر نقول إلى الآن إنه علاج نهائي للروماتويد.",
+  "glossary": [
+   {
+    "term": "CAR-T",
+    "ar": "علاج مناعي يعتمد على تعديل خلايا المريض لمهاجمة أهداف محددة"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة"
+  ],
+  "entities": [],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 28,
+   "replies": 1,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 3905
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c836",
+  "serial": 836,
+  "serial_display": "#000836",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2093338124596441464",
+  "source_native_id": "2093338124596441464",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-08-28T14:01:15Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصيحة لتوفير استهلاك Codex: اطلب من GPT-5.6 Sol تشغيل أقل عدد من الاختبارات",
+  "arabic_summary": "مطوّر ينصح بطلب من GPT-5.6 Sol تشغيل الحد الأدنى الضروري من الاختبارات مع تفسير السبب له. يقول إن هذا أحدث فرقًا كبيرًا: لا يزال لديه أكثر من 90% من حصة الاستخدام المتبقية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يساعد المطورين على تحسين استخدام Codex وتجنب استنزاف الحصة المتاحة بسرعة عبر تحسين استراتيجية تشغيل الاختبارات.",
+  "original_text": "Codex usage tip:\n\nAsk GPT-5.6 Sol to only run the minimum number of tests necessary, and explain to Sol why.\n\nIt's made a drastic difference for me: I'm still above 90% usage left",
+  "glossary": [],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GPT-5.6 Sol",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 1357,
+   "replies": 41,
+   "reposts": 25,
+   "quotes": 8,
+   "bookmarks": 995,
+   "views": 110132
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "codex_usage",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c837",
+  "serial": 837,
+  "serial_display": "#000837",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2093530834124800046",
+  "source_native_id": "2093530834124800046",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-29T02:47:01Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دراسة: Google AI Overviews تخفض حركة المرور على Wikipedia مثلما فعلت أدوات الكود مع StackExchange",
+  "arabic_summary": "دراسة أولية تشير إلى أن خاصية AI Overviews من Google قد تتسبب في تراجع حركة المرور على Wikipedia، بنمط مشابه لما حدث مع StackExchange عندما بدأت أدوات البرمجة بالذكاء الاصطناعي في الإجابة مباشرة على أسئلة المطورين. الدراسة تفتح نقاشًا حول تأثير الذكاء الاصطناعي على منصات المعرفة المفتوحة.",
+  "detailed_explanation": "تشير دراسة أولية إلى أن خاصية AI Overviews من Google — التي تقدم ملخصات فورية مولدة بالذكاء الاصطناعي في نتائج البحث — قد تكون لها تأثيرات سلبية على حركة المرور إلى Wikipedia، بشكل مشابه لما حدث مع StackExchange.\n\nStackExchange كانت منصة أساسية للمطورين للحصول على إجابات على أسئلة البرمجة، لكن مع ظهور أدوات coding agents وقدرتها على الإجابة المباشرة على الأسئلة التقنية، تراجعت حركة المرور والمساهمات في المنصة بشكل ملحوظ. الآن، البيانات الأولية تشير إلى أن Wikipedia قد تواجه مصيرًا مشابهًا.\n\nالمشكلة الأساسية هي أن هذه المنصات تعتمد على نموذج مفتوح يساهم فيه المتطوعون ببياناتهم ومعرفتهم، وهذه المعرفة نفسها تُستخدم في تدريب نماذج الذكاء الاصطناعي. عندما تقدم Google إجابات مباشرة مستمدة من Wikipedia دون إرسال حركة مرور إليها، يتآكل الحافز للمساهمة، ويضعف نموذج الاستدامة الذي بُنيت عليه هذه المنصات.\n\nهذا الاتجاه يطرح أسئلة حول مستقبل المعرفة المفتوحة: هل ستستمر المجتمعات في المساهمة إذا لم تحصل على الزيارات والتفاعل؟ وهل ستتحمل شركات الذكاء الاصطناعي مسؤولية دعم البنية التحتية المعرفية التي تعتمد عليها نماذجها؟",
+  "why_it_matters": "يكشف عن أثر غير مباشر للذكاء الاصطناعي على استدامة مصادر المعرفة المجانية التي يعتمد عليها في التدريب، وقد يؤثر على نماذج التمويل والمساهمة التطوعية في هذه المنصات.",
+  "original_text": "Some early evidence that Google AI Overviews may be doing to Wikipedia the same thing that coding agents did to StackExchange... https://t.co/jwyYUHATTT https://t.co/qNN1hhwOZJ",
+  "glossary": [
+   {
+    "term": "AI Overviews",
+    "ar": "ملخصات فورية مولدة بالذكاء الاصطناعي تظهر في نتائج بحث Google"
+   },
+   {
+    "term": "coding agents",
+    "ar": "أدوات ذكاء اصطناعي تساعد المطورين في كتابة وفهم الكود"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Google",
+   "Wikipedia",
+   "StackExchange"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 160,
+   "replies": 16,
+   "reposts": 15,
+   "quotes": 5,
+   "bookmarks": 63,
+   "views": 13403
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6164926"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c838",
+  "serial": 838,
+  "serial_display": "#000838",
+  "source_type": "x",
+  "source_url": "https://x.com/AnthropicAI/status/2093386528668172373",
+  "source_native_id": "2093386528668172373",
+  "source_name": "Anthropic",
+  "source_site": "x.com",
+  "author": "AnthropicAI",
+  "published_at": "2026-08-28T17:13:36Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic: Claude ينجح في تحسين alignment لنماذج صغيرة بشكل مستقل خلال 48 ساعة",
+  "arabic_summary": "باحثون في Anthropic منحوا Claude مدة 48 ساعة ومعالج GPU واحد لتحسين توافق (alignment) نماذج صغيرة. Claude قام بالبحث واقتراح الطرق ثم تدريب واختبار النماذج بشكل مستقل، وحقق نتائج مفاجئة في نجاح المهمة.",
+  "detailed_explanation": "في تجربة بحثية جديدة من برنامج Fellows في Anthropic، منح الباحثون نموذج Claude مهمة طموحة: تحسين توافق (alignment) نماذج ذكاء اصطناعي صغيرة بشكل مستقل تمامًا، مع موارد محدودة — 48 ساعة فقط ومعالج GPU واحد.\n\nالـ alignment هو عملية جعل النموذج يتصرف بما يتوافق مع القيم والمعايير الإنسانية، وتجنب الإجابات الضارة أو المضللة. هذه العملية تتطلب عادة خبرة بشرية عميقة، وتجارب متعددة، وموارد حسابية كبيرة.\n\nفي هذه التجربة، لم يُعطَ Claude تعليمات مفصلة، بل قام بالبحث عن طرق alignment بنفسه، واقترح أساليب، ثم نفّذ التدريب، واختبر النتائج. النتائج كانت مفاجئة: Claude نجح في تحسين alignment النماذج الصغيرة بشكل ملموس.\n\nهذا الإنجاز يمثل خطوة نحو «meta-alignment» — أي استخدام الذكاء الاصطناعي نفسه لجعل أجيال الذكاء الاصطناعي اللاحقة أكثر أمانًا وتوافقًا. إذا نجحت هذه الطريقة على نطاق أوسع، قد تصبح عملية alignment أسرع وأرخص، وتقلل الاعتماد على التدخل البشري المكثف في كل دورة تدريب.",
+  "why_it_matters": "يفتح الباب أمام أتمتة عملية alignment للنماذج — وهي واحدة من أصعب التحديات في الذكاء الاصطناعي — مما قد يسرّع من إنتاج نماذج أكثر أمانًا وتوافقًا مع القيم الإنسانية بتكلفة أقل.",
+  "original_text": "New Fellows Research: Can Claude autonomously align other AIs?\n\nWe gave Claude 48 hours and 1 GPU to improve the alignment of small models. It researched and proposed methods, then trained and tested the models on its own. It worked surprisingly well.\nhttps://t.co/nhlCMgQl46",
+  "glossary": [
+   {
+    "term": "alignment",
+    "ar": "عملية جعل النموذج يتصرف بما يتوافق مع القيم والمعايير الإنسانية"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2743,
+   "replies": 249,
+   "reposts": 256,
+   "quotes": 124,
+   "bookmarks": 950,
+   "views": 343136
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c839",
+  "serial": 839,
+  "serial_display": "#000839",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAI/status/2093515564786540695",
+  "source_native_id": "2093515564786540695",
+  "source_name": "OpenAI",
+  "source_site": "x.com",
+  "author": "OpenAI",
+  "published_at": "2026-08-29T01:46:20Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تنهي شراكتها مع Cursor بعد استحواذ SpaceX عليه — الوصول ينتهي في نوفمبر",
+  "arabic_summary": "OpenAI أعلنت إنهاء شراكتها مع محرر الكود Cursor بعد استحواذ SpaceX عليه. الوصول المباشر لنماذج OpenAI سينتهي في 12 نوفمبر. OpenAI تعهدت بدعم المطورين المتأثرين خلال الفترة الانتقالية.",
+  "detailed_explanation": "أعلنت OpenAI رسميًا إنهاء شراكتها مع Cursor — أحد أشهر محررات الكود المدعومة بالذكاء الاصطناعي — وذلك بعد استحواذ SpaceX على الشركة. بموجب القرار، سينتهي الوصول المباشر لنماذج OpenAI من داخل Cursor في 12 نوفمبر 2026.\n\nCursor كان يعتمد بشكل رئيسي على نماذج OpenAI لتقديم ميزات مثل الإكمال التلقائي للكود، وشرح الكود، وكتابة دوال كاملة بناء على وصف نصي. ملايين المطورين حول العالم يستخدمون Cursor يوميًا، مما يجعل هذا القرار مؤثرًا بشكل مباشر على سير عملهم.\n\nOpenAI لم تكشف عن الأسباب التفصيلية وراء القرار، لكن من الواضح أن استحواذ SpaceX — التي يقودها Elon Musk، والذي له تاريخ متوتر مع OpenAI — كان عاملًا رئيسيًا. OpenAI أكدت أنها ستقدم دعمًا إضافيًا للمطورين المتأثرين خلال الفترة الانتقالية، لكن لم توضح شكل هذا الدعم.\n\nهذه الخطوة تثير تساؤلات حول استدامة الاعتماد على نماذج طرف ثالث في أدوات البنية التحتية، وقد تدفع Cursor إلى التحول نحو نماذج مفتوحة أو بناء نماذجها الخاصة.",
+  "why_it_matters": "يكشف عن تعقيدات العلاقات التجارية في عالم الذكاء الاصطناعي، خاصة عندما تتقاطع مصالح شركات كبرى مثل OpenAI وSpaceX، وقد يؤثر على ملايين المطورين الذين يعتمدون على Cursor يوميًا.",
+  "original_text": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access to our models would end on November 12.\n\nWe know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.\n\nhttps://t.co/OzuCTzUjfX",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Cursor",
+   "SpaceX"
+  ],
+  "change_types": [
+   "Shutdown"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 12964,
+   "replies": 1702,
+   "reposts": 1363,
+   "quotes": 2099,
+   "bookmarks": 2650,
+   "views": 4858090
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c840",
+  "serial": 840,
+  "serial_display": "#000840",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2093486538370032050",
+  "source_native_id": "2093486538370032050",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-08-28T23:51:00Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تستمر في استقبال المشاركات في WebMCP Challenge حتى 3 سبتمبر",
+  "arabic_summary": "OpenAI تدعو المطورين للمشاركة في WebMCP Challenge الذي يستمر حتى 3 سبتمبر. المنافسة تركز على بناء مشاريع باستخدام بروتوكول MCP.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعكس اهتمام OpenAI بتوسيع نظام MCP البيئي وتشجيع المطورين على بناء تطبيقات عملية باستخدام البروتوكول.",
+  "original_text": "The WebMCP Challenge is in full swing.\n\nWhat are you building this weekend?\n\nYou have until September 3 to submit your project.\nhttps://t.co/DZ032U1NjM",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "Model Context Protocol — بروتوكول لربط نماذج اللغة بمصادر بيانات خارجية"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 402,
+   "replies": 32,
+   "reposts": 32,
+   "quotes": 9,
+   "bookmarks": 148,
+   "views": 39473
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://openai.com/webmcp-challenge"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c841",
+  "serial": 841,
+  "serial_display": "#000841",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2093437797982204052",
+  "source_native_id": "2093437797982204052",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-08-28T20:37:19Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تعرض حالات استخدام متقدمة لـ appshots: من تلخيص Slack إلى تعديل الفيديو",
+  "arabic_summary": "OpenAI عرضت قائمة واسعة من حالات الاستخدام العملية لميزة appshots، تشمل تلخيص محادثات Slack، ملء النماذج، استخدام مراجع API، تحليل الردود على X، إدارة الرسائل، إنشاء عروض تقديمية، وحتى تعديل الفيديو وتحويل الوصفات إلى قوائم تسوق.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح كيف يمكن لميزة appshots أن تتحول إلى مساعد بصري شامل يفهم واجهات التطبيقات المختلفة وينفذ مهام معقدة عبرها، مما يقلل الحاجة إلى تكاملات مخصصة لكل تطبيق.",
+  "original_text": "⌘ ⌘\n\nUse appshots to:\n• Give me TL;DR on this Slack thread\n• Check out this form and fill it out for me\n• Use this API reference to add a feature to my app\n• Pull out the themes in these replies on X\n• Find out which of these DMs need a reply\n• Draft three follow-ups to this dashboard’s top posts\n• Turn my notes into a presentation deck\n• Help me trim this video in iMovie\n• Turn this recipe I have open into a grocery list\n• Plan the rest of this trip from this itinerary and search the web",
+  "glossary": [
+   {
+    "term": "appshots",
+    "ar": "ميزة من OpenAI تسمح للنموذج بفهم لقطات شاشة التطبيقات والتفاعل معها"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 576,
+   "replies": 52,
+   "reposts": 31,
+   "quotes": 14,
+   "bookmarks": 225,
+   "views": 62430
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c842",
+  "serial": 842,
+  "serial_display": "#000842",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2093405504433447257",
+  "source_native_id": "2093405504433447257",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-08-28T18:29:00Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تطلق Rosalind Workbench: منصة لربط الأسئلة العلمية بالنماذج والأدوات المتخصصة",
+  "arabic_summary": "OpenAI أطلقت Rosalind Workbench، منصة تربط الأسئلة العلمية بنماذج وأدوات متخصصة في سير عمل واحد قابل للمراجعة. تغطي المنصة تحليل البنية البروتينية والتسلسل وخطوط معالجة البيانات الجينية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل خطوة نحو تسريع البحث العلمي الحيوي عبر دمج الذكاء الاصطناعي مع أدوات التحليل المتخصصة، مما يقلل الحواجز التقنية أمام الباحثين.",
+  "original_text": "Rosalind Workbench connects scientific questions to specialized models, tools, and reviewable outputs in one workflow, from protein structure and sequence analysis to sequencing pipelines.\n\nhttps://t.co/03b2Q4gfaF",
+  "glossary": [
+   {
+    "term": "Workbench",
+    "ar": "منصة عمل متكاملة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "صحة",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 411,
+   "replies": 39,
+   "reposts": 39,
+   "quotes": 6,
+   "bookmarks": 86,
+   "views": 43351
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://developers.openai.com/blog/rosalind-workbench"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c843",
+  "serial": 843,
+  "serial_display": "#000843",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleDeepMind/status/2093338200580256172",
+  "source_native_id": "2093338200580256172",
+  "source_name": "Google DeepMind",
+  "source_site": "x.com",
+  "author": "GoogleDeepMind",
+  "published_at": "2026-08-28T14:01:34Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google DeepMind تطلق Gemini Omni 1.1 Flash لتوليد فيديو أكثر تحكمًا وجاهزية للإنتاج",
+  "arabic_summary": "Google DeepMind أطلقت Gemini Omni 1.1 Flash، نسخة محسّنة من نموذج توليد الفيديو تتيح تحكمًا أكبر، سرعة أعلى في التكرار، وجودة جاهزة للاستخدام في الإنتاج. النموذج متاح عبر Flow.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعزز قدرة المبدعين والمصممين على إنتاج فيديو احترافي بسرعة أكبر وتحكم أدق، مما يقلل الفجوة بين التجربة والنتيجة النهائية.",
+  "original_text": "We’re rolling out Gemini Omni 1.1 Flash to make generative video highly controllable, faster to iterate on, and more polished for production-grade use.\n\nHere’s how you can try it in @FlowbyGoogle and more → https://t.co/nV8brVS9xR",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Google DeepMind",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 347,
+   "replies": 48,
+   "reposts": 27,
+   "quotes": 9,
+   "bookmarks": 34,
+   "views": 42128
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://goo.gle/4zHEzJ2"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c844",
+  "serial": 844,
+  "serial_display": "#000844",
+  "source_type": "x",
+  "source_url": "https://x.com/perplexity_ai/status/2093491900405956993",
+  "source_native_id": "2093491900405956993",
+  "source_name": "Perplexity",
+  "source_site": "x.com",
+  "author": "perplexity_ai",
+  "published_at": "2026-08-29T00:12:18Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity Search API يتصدر Artificial Analysis Search Index بفارق خمس نقاط",
+  "arabic_summary": "Perplexity Search API حقق المراكز الثلاثة الأولى في Artificial Analysis Search Index. الإعداد المتوسط سجل خمس نقاط أعلى من القادة السابقين، ووسّع حدود الكفاءة مقابل التكلفة بسعر 0.091 دولار لكل مهمة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يؤكد تفوق Perplexity في البحث المدعوم بالذكاء الاصطناعي، ويقدم خيارًا تنافسيًا من حيث الجودة والتكلفة للمطورين الذين يبنون تطبيقات بحث.",
+  "original_text": "The Perplexity Search API takes the top three spots on the Artificial Analysis Search Index.\n\nThe medium setting scored five points above the previous leaders, and extended the quality-cost Pareto frontier at about $0.091 per task.",
+  "glossary": [
+   {
+    "term": "Search Index",
+    "ar": "مؤشر قياس لجودة أنظمة البحث"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Perplexity",
+   "Artificial Analysis"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 160,
+   "replies": 18,
+   "reposts": 14,
+   "quotes": 2,
+   "bookmarks": 12,
+   "views": 25540
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Perplexity Search debuts on the Artificial Analysis Search Index, with all three context size variants taking top positions on the leaderboard\n\nThe @perplexity_ai Search API comes with three context settings (low, medium, and high) that control how much extracted content each search result carries. We tested all three variants using our standardized methodology: the same model (GPT-5.6 Luna at med"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c845",
+  "serial": 845,
+  "serial_display": "#000845",
+  "source_type": "x",
+  "source_url": "https://x.com/perplexity_ai/status/2093410587338575936",
+  "source_native_id": "2093410587338575936",
+  "source_name": "Perplexity",
+  "source_site": "x.com",
+  "author": "perplexity_ai",
+  "published_at": "2026-08-28T18:49:12Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity Computer يضيف GLM 5.3 ويتفوق على النسخة السابقة في WANDR benchmark",
+  "arabic_summary": "Perplexity أضافت نموذج GLM 5.3 إلى منصة Perplexity Computer. النموذج الجديد، المصمم لمهام Agent طويلة السياق ومتعددة الوسائط، تفوق على GLM 5.2 في WANDR، معيار القياس الخاص بالبحث واسع النطاق المدعوم بالأدلة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوسع خيارات المطورين في بناء agents معقدة تعتمد على بحث وتحليل عميق، خاصة في السياقات الطويلة.",
+  "original_text": "GLM 5.3 is now available in Perplexity Computer.\n\nBuilt for long-context, multimodal agent workloads, it beat GLM 5.2 on WANDR, our benchmark for large-scale, evidence-backed research. https://t.co/02FMedtoJb",
+  "glossary": [
+   {
+    "term": "WANDR",
+    "ar": "معيار قياس لتقييم قدرات البحث واسع النطاق المدعوم بالأدلة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Perplexity",
+   "GLM"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 248,
+   "replies": 26,
+   "reposts": 10,
+   "quotes": 4,
+   "bookmarks": 14,
+   "views": 39067
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c846",
+  "serial": 846,
+  "serial_display": "#000846",
+  "source_type": "x",
+  "source_url": "https://x.com/grok/status/2093443133615055332",
+  "source_native_id": "2093443133615055332",
+  "source_name": "Grok",
+  "source_site": "x.com",
+  "author": "grok",
+  "published_at": "2026-08-28T20:58:32Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Grok 4.6 متاح الآن على الويب و iOS و Android",
+  "arabic_summary": "أعلن Grok عن إطلاق النسخة 4.6 من نموذجه عبر الويب وتطبيقات iOS و Android. النسخة الجديدة موجّهة للاستعمالات المعقدة والاستفسارات التي تتطلب Agents وبناء التطبيقات.",
+  "detailed_explanation": "",
+  "why_it_matters": "إصدار جديد من نموذج Grok يوسّع قدراته في الاستعمالات المعقدة والوظائف الـ Agentic، مما يعزز توفّره عبر المنصات المختلفة.",
+  "original_text": "Grok 4.6 is now available across https://t.co/MaWv2moBxM, iOS, and Android.\n\nTry it for complex problems, agentic queries, or building apps! https://t.co/aPcxOpHAaE",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Grok"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 2112,
+   "replies": 153,
+   "reposts": 221,
+   "quotes": 46,
+   "bookmarks": 94,
+   "views": 237525
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://Grok.com"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c847",
+  "serial": 847,
+  "serial_display": "#000847",
+  "source_type": "x",
+  "source_url": "https://x.com/huggingface/status/2093354897664041409",
+  "source_native_id": "2093354897664041409",
+  "source_name": "Hugging Face",
+  "source_site": "x.com",
+  "author": "huggingface",
+  "published_at": "2026-08-28T15:07:54Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GLM-5.3 يصبح نموذجاً مفتوح الأوزان للبرمجة والأمن السيبراني",
+  "arabic_summary": "أعلنت Zai عن إطلاق GLM-5.3 كنموذج مفتوح الأوزان، وهو النموذج الأكثر قدرة من الشركة للبرمجة بأسلوب Agentic والدفاع السيبراني. النموذج متاح للتحميل والتشغيل المحلي والتخصيص.",
+  "detailed_explanation": "",
+  "why_it_matters": "إطلاق نموذج مفتوح الأوزان متخصص في البرمجة والأمن السيبراني يفتح المجال للمطورين لتشغيله محلياً وتخصيصه لاحتياجاتهم دون الاعتماد على APIs مغلقة.",
+  "original_text": "RT @Zai_org: GLM-5.3 is now open-weight.\n\nOur most capable model for agentic coding and cyber defense is now available to download, run, an…",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Zai",
+   "GLM"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 92,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 827,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 2409
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "glm53_release",
+  "also_reported": [
+   {
+    "author": "ollama",
+    "url": "https://x.com/ollama/status/2093492205029908752"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c848",
+  "serial": 848,
+  "serial_display": "#000848",
+  "source_type": "x",
+  "source_url": "https://x.com/vercel/status/2093364921073549667",
+  "source_native_id": "2093364921073549667",
+  "source_name": "Vercel",
+  "source_site": "x.com",
+  "author": "vercel",
+  "published_at": "2026-08-28T15:47:44Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Vercel تطلق نشر Agent في دقيقة واحدة عبر eve",
+  "arabic_summary": "أطلقت Vercel ميزة جديدة تتيح نشر Agent في دقيقة واحدة من خلال منصة eve. يمكن للمطورين إضافة Prompt واختيار النماذج وربط MCP ثم النشر مباشرة، حيث يصبح الـ Agent جاهزاً للإنتاج مدعوماً بمستودع Git خاص.",
+  "detailed_explanation": "",
+  "why_it_matters": "تبسيط جذري لنشر Agents يقلّص الفجوة بين التجربة والإنتاج، مما يسرّع دورة تطوير التطبيقات الذكية التي تعتمد على MCP والنماذج.",
+  "original_text": "Ship a new eve agent in one minute.\n\nFrom https://t.co/i9Vv3noQtm:\n1. Add a prompt\n2. Pick models &amp; MCP connections\n3. Deploy\n\nYour agent is in production, ready to chat, backed by a Git repo you own. https://t.co/qRMehsjDoQ",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج Model Context Protocol، معيار لربط Agents بمصادر البيانات"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Vercel",
+   "eve"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 549,
+   "replies": 26,
+   "reposts": 36,
+   "quotes": 14,
+   "bookmarks": 366,
+   "views": 90498
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://vercel.com/new/agent"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c849",
+  "serial": 849,
+  "serial_display": "#000849",
+  "source_type": "x",
+  "source_url": "https://x.com/vercel/status/2093357677003096416",
+  "source_native_id": "2093357677003096416",
+  "source_name": "Vercel",
+  "source_site": "x.com",
+  "author": "vercel",
+  "published_at": "2026-08-28T15:18:57Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Ora تستعمل Vercel وeve لاختبار Agents على مواقع حقيقية",
+  "arabic_summary": "منصة Ora تقوم باختبار Agents على مواقع حية وتتبع كل خطوة بالتفصيل. عندما يتوقف الـ Agent عند عملية تسجيل أو دفع، يرى الفريق الخطوة التي فشلت وما حاول الـ Agent فعله وما يجب تغييره. المنصة بأكملها مبنية على Vercel وagents الخاصة بها تعمل على eve.",
+  "detailed_explanation": "",
+  "why_it_matters": "أداة مراقبة وتتبع متخصصة لاختبار Agents تساعد الفِرق على تحسين أداء الـ Agents في سيناريوهات حقيقية معقدة مثل التسجيل والدفع.",
+  "original_text": "Ora runs agents on live websites and traces every step. When a signup, integration, or payment stalls, teams see which step, what the agent tried, and what to change.\n\nThe whole platform is built on Vercel, and Ora's own agents run on eve.\n\nhttps://t.co/PlCNHmRfBW",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Ora",
+   "Vercel",
+   "eve"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 68,
+   "replies": 16,
+   "reposts": 4,
+   "quotes": 3,
+   "bookmarks": 33,
+   "views": 14818
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [
+   "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c850",
+  "serial": 850,
+  "serial_display": "#000850",
+  "source_type": "x",
+  "source_url": "https://x.com/nvidia/status/2093399189690691994",
+  "source_native_id": "2093399189690691994",
+  "source_name": "NVIDIA",
+  "source_site": "x.com",
+  "author": "nvidia",
+  "published_at": "2026-08-28T18:03:54Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "NVIDIA Nemotron 3.5 Lightning نموذج مدمج سريع لـ Agents الدائمة",
+  "arabic_summary": "أعلنت NVIDIA عن Nemotron 3.5 Lightning، نموذج مفتوح مدمج وسريع التخصيص، مصمم خصيصاً لمساعدة Agents الدائمة (always-on) على إتمام المهام المتخصصة بسرعة أكبر. النموذج يركز على السرعة في التخصيص والتشغيل.",
+  "detailed_explanation": "",
+  "why_it_matters": "نموذج مخصص لتطبيقات Agents التي تعمل على مدار الساعة، حيث السرعة والكفاءة حاسمتان، مما يفتح إمكانيات جديدة للأتمتة المستمرة.",
+  "original_text": "Lightning fast to customize. Lightning fast to run.\n\nNVIDIA Nemotron 3.5 Lightning is a compact, customizable open model built to help always-on agents complete specialized tasks faster.\n\nKari Briski joins @MTSlive to explain how Lightning helps always-on agents work faster. https://t.co/JInmQmA07g",
+  "glossary": [
+   {
+    "term": "always-on agents",
+    "ar": "Agents تعمل بشكل مستمر دون توقف"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "NVIDIA",
+   "Nemotron"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 206,
+   "replies": 29,
+   "reposts": 22,
+   "quotes": 2,
+   "bookmarks": 18,
+   "views": 60292
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c851",
+  "serial": 851,
+  "serial_display": "#000851",
+  "source_type": "x",
+  "source_url": "https://x.com/ollama/status/2093356025084797176",
+  "source_native_id": "2093356025084797176",
+  "source_name": "ollama",
+  "source_site": "x.com",
+  "author": "ollama",
+  "published_at": "2026-08-28T15:12:23Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Ollama يطرح GLM-5.3 و Flash على سحابته الخاصة والآمنة",
+  "arabic_summary": "Ollama تطلق نموذجي GLM-5.3 و GLM-5.3-Flash على بنيتها السحابية الخاصة مع استضافة في أمريكا وأوروبا. الخدمة تضمن الخصوصية وعدم الاحتفاظ بأي بيانات، وتعمل مع عدة Harnesses مثل Claude Code و OpenCode و Hermes Agent، بالإضافة إلى API مباشر.",
+  "detailed_explanation": "",
+  "why_it_matters": "توفير GLM-5.3 عبر بنية سحابية خاصة تحترم الخصوصية يوفر بديلاً للمطورين الذين يحتاجون إلى قوة النموذج دون المساومة على حماية البيانات.",
+  "original_text": "We are rolling out GLM-5.3 on Ollama. Private. Fast. US and Europe hosted. No data retention. \n\nTry Ollama's GLM-5.3-Flash as we bring it GLM-5.3 online. Super fast. \n\nClaude Code: \nollama launch claude --model glm-5.3-flash:cloud\n\nOpenCode: \nollama launch opencode --model glm-5.3-flash:cloud\n\nHermes Agent: \nollama launch hermes --model glm-5.3-flash:cloud \n\nor plug it into any other harness/apps. API endpoint is also available.",
+  "glossary": [
+   {
+    "term": "Harness",
+    "ar": "إطار عمل لتشغيل النماذج والتفاعل معها"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Ollama",
+   "GLM"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 873,
+   "replies": 57,
+   "reposts": 59,
+   "quotes": 15,
+   "bookmarks": 189,
+   "views": 88640
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "GLM-5.3 is now open-weight.\n\nOur most capable model for agentic coding and cyber defense is now available to download, run, and customize.\n\nWeights: https://t.co/v1IbWMXxg4\nTech blog: https://t.co/ekQkO83jCv https://t.co/f8XlJksKyf"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c852",
+  "serial": 852,
+  "serial_display": "#000852",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2093344307021545601",
+  "source_native_id": "2093344307021545601",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-08-28T14:25:49Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Runway تضيف نموذج Google Omni 1.1 Flash إلى منصتها",
+  "arabic_summary": "أعلنت Runway عن إتاحة نموذج Google Omni 1.1 Flash الجديد على منصتها، إلى جانب نماذج الصور والفيديو الأخرى. النموذج متاح للاستخدام الفوري عبر الموقع.",
+  "detailed_explanation": "أضافت Runway نموذج Google Omni 1.1 Flash إلى منصتها، وهو أحدث إصدار من سلسلة نماذج Google متعددة الوسائط. يأتي هذا الإعلان ضمن استراتيجية Runway في توفير مجموعة متنوعة من النماذج لمستخدميها.\n\nالنموذج متاح الآن للاستخدام المباشر على المنصة جنبًا إلى جنب مع نماذج الصور والفيديو الأخرى التي تدعمها Runway، مما يمنح المستخدمين خيارات أوسع في اختيار النموذج الأنسب لاحتياجاتهم.",
+  "why_it_matters": "يوسّع خيارات المستخدمين في Runway بإضافة أحدث إصدار من نماذج Google متعددة الوسائط، مما يعكس اتجاه المنصات نحو دعم نماذج متعددة بدلاً من الاعتماد على نموذج واحد.",
+  "original_text": "Google Omni 1.1 Flash is now on Runway.\n\nThe newest release, available now alongside the world's best image and video models. Try it now at the link below. https://t.co/XC9uDk9WYs",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Runway",
+   "Google"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 113,
+   "replies": 10,
+   "reposts": 12,
+   "quotes": 1,
+   "bookmarks": 29,
+   "views": 13964
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c853",
+  "serial": 853,
+  "serial_display": "#000853",
+  "source_type": "x",
+  "source_url": "https://x.com/midjourney/status/2093495563467796751",
+  "source_native_id": "2093495563467796751",
+  "source_name": "Midjourney",
+  "source_site": "x.com",
+  "author": "midjourney",
+  "published_at": "2026-08-29T00:26:52Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Midjourney تحدّث نموذج التحرير V8.2 لتحسين جودة الصور",
+  "arabic_summary": "أصدرت Midjourney تحديثًا لنموذج التحرير V8.2 يحسّن جودة الصور الناتجة. الشركة تطلب من المستخدمين الذين واجهوا مشاكل في الـ24 ساعة الماضية تجربة النموذج مجددًا وإرسال ملاحظاتهم.",
+  "detailed_explanation": "أطلقت Midjourney تحديثًا لنموذج التحرير V8.2 يركز على تحسين جودة الصور. يأتي هذا التحديث بعد فترة قصيرة من الإصدار السابق، حيث يبدو أن بعض المستخدمين واجهوا مشاكل في جودة المخرجات خلال الـ24 ساعة الماضية.\n\nالشركة تدعو المستخدمين الذين واجهوا مشاكل سابقة إلى تجربة النموذج المحدّث ومواصلة إرسال الملاحظات، مما يشير إلى اعتماد نهج تكراري سريع في تطوير وتحسين النماذج. الشركة تعد بمزيد من التحديثات قريبًا.",
+  "why_it_matters": "يعكس التحديث السريع استجابة Midjourney لملاحظات المستخدمين وحرصها على تحسين جودة المخرجات بشكل مستمر في نماذج التحرير.",
+  "original_text": "We've updated our V8.2 edit model for better image quality. If you've had any issues in the last 24 hours give it a new shot and keep giving us feedback. Thanks! More updates soon. https://t.co/JHYpGn5PzR",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Midjourney"
+  ],
+  "change_types": [
+   "Model Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 69,
+  "metrics": {
+   "likes": 199,
+   "replies": 15,
+   "reposts": 10,
+   "quotes": 1,
+   "bookmarks": 19,
+   "views": 16792
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c854",
+  "serial": 854,
+  "serial_display": "#000854",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2093411543186649542",
+  "source_native_id": "2093411543186649542",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-28T18:53:00Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كيف وصّعت Clay اختبارات الـAgents إلى 300 مليون تشغيل شهريًا",
+  "arabic_summary": "تشارك LangChain فيديو يشرح فيه فريق Clay كيفية توسيع نطاق تقييم الـAgents عند 300 مليون تشغيل شهريًا. يغطي الشرح إطار التقييم رباعي الأبعاد، التحدي في ربط حلقة الإنتاج بالتقييم، وكيف غيّر Data lake والسياق الطويل قدرات الـAgents على التعامل مع البيانات.",
+  "detailed_explanation": "يقدم فريق Clay في فيديو مدته 13 دقيقة شرحًا تفصيليًا لكيفية توسيع نطاق تقييم الـAgents عند حجم هائل يصل إلى أكثر من 300 مليون تشغيل شهريًا. يشارك في الشرح Jeff Barg وVyshu Khota وSoroush Khadem.\n\nيغطي المحتوى ثلاثة محاور رئيسية: أولاً، إطار التقييم رباعي الأبعاد الذي طوّرته الشركة. ثانيًا، التحدي الأصعب وهو ربط حلقة الإنتاج بالتقييم (production-to-eval loop)، وهو ما يعتبرونه الجزء الأكثر تعقيدًا. ثالثًا، كيف أدى استخدام Data lake والسياق الطويل إلى تغيير جذري في قدرة الـAgents على التعامل مع البيانات.\n\nهذا المحتوى يقدم دروسًا عملية من بيئة إنتاجية حقيقية تعمل على نطاق واسع، وليس مجرد تجارب نظرية.",
+  "why_it_matters": "يقدم رؤية عملية من شركة تشغّل Agents على نطاق واسع جدًا، ويكشف التحديات الحقيقية في تقييم الأنظمة الإنتاجية وليس فقط النماذج الأولية.",
+  "original_text": "In 13 minutes, @jeffbarg, Vyshu Khota, and Soroush Khadem walk through how Clay scaled agent evals agents at 300M+ runs a month.  \n\nTopics covered: \n✅ Their four quadrant eval framework \n✅ Why closing the production-to-eval loop is the hardest part \n✅ How a data lake and long context changed what agents can do with data",
+  "glossary": [
+   {
+    "term": "Data lake",
+    "ar": "بحيرة بيانات - مستودع مركزي لتخزين كميات كبيرة من البيانات بصيغتها الأولية"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "LangChain",
+   "Clay"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 33,
+   "replies": 4,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 18,
+   "views": 5579
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c855",
+  "serial": 855,
+  "serial_display": "#000855",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2093398502063698292",
+  "source_native_id": "2093398502063698292",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-28T18:01:11Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كيف خفّضت Unify تكاليف الـAgent بنسبة 90-95% قبل الإطلاق بأسبوعين",
+  "arabic_summary": "قبل أسبوعين من الإطلاق، كان Agent شركة Unify يستهلك موارد حسابية ضخمة لدرجة أن رسالة واحدة قد تستنفد ميزانية العميل فورًا. يشارك CTO الشركة Connor Heggie كيف تمكنوا من خفض التكاليف بنسبة 90-95%.",
+  "detailed_explanation": "واجهت شركة Unify أزمة تكاليف حادة قبل أسبوعين فقط من إطلاق منتجها. كان الـAgent يستهلك موارد حسابية بمعدلات غير مستدامة، حيث يمكن لرسالة واحدة أن تستنفد الميزانية المخصصة للعميل بالكامل وبشكل فوري.\n\nيشارك Connor Heggie، المؤسس المشارك والـCTO في Unify، القصة الكاملة لكيفية معالجة هذه المشكلة الحرجة وتحقيق خفض هائل في التكاليف بنسبة تتراوح بين 90% و95%. هذا الخفض الدراماتيكي جعل المنتج قابلاً للاستمرار تجاريًا.\n\nالمحتوى يوثّق تحديًا شائعًا في نشر تطبيقات الـAgents على نطاق تجاري، حيث يمكن للاستهلاك غير المحكوم للموارد أن يجعل المنتج غير قابل للحياة ماليًا حتى لو كان تقنيًا ناجحًا.",
+  "why_it_matters": "يكشف تحديًا حقيقيًا يواجه تطبيقات الـAgents في الإنتاج وهو التحكم في التكاليف، ويقدم حالة دراسية لحل المشكلة قبل الإطلاق مباشرة.",
+  "original_text": "Two weeks before launch, @unifygtm's agent was burning so much compute that one message could instantly eat through a customer budget.\n\nCo-Founder &amp; CTO @HeggieConnor on how they cut costs by 90-95% https://t.co/rrYIBFup1q",
+  "glossary": [],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Unify",
+   "LangChain"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 13,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 6236
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c856",
+  "serial": 856,
+  "serial_display": "#000856",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2093369050323616136",
+  "source_native_id": "2093369050323616136",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-28T16:04:09Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "لماذا اختارت Box منصة Deep Agents لبناء الـAgents الخاصة بها",
+  "arabic_summary": "تشارك LangChain أسباب اختيار شركة Box لمنصة Deep Agents. السببان الرئيسيان هما: الحياد التام تجاه النماذج (model agnosticism) مما يتيح للعملاء اختيار مزود الـLLM، وسرعة التطوير لأن البنية المفتوحة تتيح التركيز على حل مشاكل المؤسسات بدلاً من بناء البنية التحتية الأساسية للـAgent.",
+  "detailed_explanation": "تكشف LangChain عن الأسباب التي دفعت شركة Box لاختيار منصة Deep Agents لبناء حلول الـAgents الخاصة بها في سياق المؤسسات.\n\nالسبب الأول هو الحياد التام تجاه النماذج (complete model agnosticism). هذه الميزة تتيح لعملاء Box اختيار مزود الـLLM الذي يناسبهم، وتدعم Deep Agents هذه المرونة على مستوى المنصة نفسها، وهو أمر بالغ الأهمية في البيئات المؤسسية حيث قد تختلف التفضيلات والقيود بين عميل وآخر.\n\nالسبب الثاني هو سرعة التكرار والتطوير. استخدام بنية Agent مفتوحة وجاهزة (open agent harness) يعني قضاء وقت أقل في بناء البنية التحتية الأساسية للـAgent، ووقت أكبر في حل المشاكل الخاصة بالمؤسسات. هذا يسرّع بشكل كبير من وقت الوصول للسوق ويتيح التركيز على القيمة الفعلية للعملاء.",
+  "why_it_matters": "يوضح معايير اختيار المؤسسات الكبرى لمنصات بناء الـAgents، خاصة أهمية المرونة في اختيار النماذج وتوفير الوقت في البنية التحتية.",
+  "original_text": "Why @Box chose Deep Agents:\n\n1️⃣ Complete model agnosticism \nCustomers can choose LLM providers, and Deep Agents allows this flexibility at the platform level.\n\n2️⃣ Speed of iteration\nOpen agent harness = less time spent on building core agent infrastructure, more time solving enterprise-specific problems.\n\nInside the Box Agent ⤵️ \nhttps://t.co/BJVMvLwVIy",
+  "glossary": [
+   {
+    "term": "Deep Agents",
+    "ar": "منصة من LangChain لبناء Agents معقدة بقدرات تخطيط وذاكرة"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Box",
+   "LangChain"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 58,
+  "metrics": {
+   "likes": 33,
+   "replies": 2,
+   "reposts": 12,
+   "quotes": 1,
+   "bookmarks": 14,
+   "views": 6662
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c857",
+  "serial": 857,
+  "serial_display": "#000857",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2093353136719065136",
+  "source_native_id": "2093353136719065136",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-08-28T15:00:55Z",
+  "fetched_at": "2026-08-29T07:04:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith كشفت أن Agent شركة Podium يعمل بمنطق صحيح رغم ظهور المشكلة",
+  "arabic_summary": "بدا أن Agents شركة Podium معطّلة، لكن تتبع العمليات في LangSmith كشف القصة الحقيقية: الـAgent كان يتصرف بعقلانية بناءً على السياق المتاح له. يشارك Walker Ward، مهندس البرمجيات الرئيسي، تجربته في تتبع استدلال الـAgent من البداية للنهاية.",
+  "detailed_explanation": "واجهت شركة Podium موقفًا حيث بدا أن الـAgents التي بنوها لا تعمل بشكل صحيح. لكن عند استخدام LangSmith لتتبع العمليات، ظهرت الصورة الحقيقية.\n\nالـAgent لم يكن معطلاً؛ بل كان يتصرف بشكل عقلاني ومنطقي تمامًا بناءً على السياق والمعلومات المتوفرة له. المشكلة لم تكن في الـAgent نفسه، بل في جودة أو اكتمال السياق الذي كان يُقدَّم له.\n\nيشارك Walker Ward، مهندس البرمجيات الرئيسي في Podium، كيف مكّنهم تتبع عملية الاستدلال (reasoning) من البداية للنهاية من فهم السلوك الفعلي للـAgent وتشخيص المشكلة الحقيقية. هذه الحالة توضح قيمة أدوات Observability و Tracing في تطوير تطبيقات الـAgents، حيث قد يكون السلوك غير المتوقع نتيجة لعوامل خارج منطق الـAgent نفسه.",
+  "why_it_matters": "يبرز أهمية أدوات Tracing في فهم سلوك الـAgents، وأن ما يبدو خللاً قد يكون في الواقع مشكلة في السياق المقدم وليس في منطق الـAgent نفسه.",
+  "original_text": ".@PodiumHQ's agents seemed broken. \n\nLangSmith showed the real story: the agent was behaving rationally based on the context it had.\n\nPrincipal Software Engineer Walker Ward on tracing agent reasoning end to end. https://t.co/YW1hNjJRq9",
+  "glossary": [
+   {
+    "term": "Tracing",
+    "ar": "تتبع مسار تنفيذ العمليات خطوة بخطوة لفهم السلوك"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Podium",
+   "LangSmith",
+   "LangChain"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 20,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 6579
+  },
+  "metrics_captured_at": "2026-08-29T07:04:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
