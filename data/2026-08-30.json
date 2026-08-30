@@ -1,0 +1,632 @@
+[
+ {
+  "id": "c858",
+  "serial": 858,
+  "serial_display": "#000858",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2093786985509061082",
+  "source_native_id": "2093786985509061082",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-08-29T19:44:52Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "find-skills أداة بحث تلقائي عن Skills داخل نظام Vercel",
+  "arabic_summary": "أطلق Vercel مع Anthropic أداة Skill جديدة اسمها find-skills تبحث تلقائيًا في مستودع Skills بالكامل لإيجاد الـ Skill المطلوب. بدلاً من البحث اليدوي، تقوم الأداة بالبحث الآلي بناءً على الوصف أو الحاجة، وتُرتّب النتائج حسب عدد التثبيتات والمصدر الرسمي. يمكن تثبيتها عبر npx وتشغيلها للعثور على Skills محددة ثم تثبيتها مباشرةً.",
+  "detailed_explanation": "تُمثل find-skills خطوة نوعية في إدارة منظومة Skills داخل Vercel. المنطق بسيط: بدلًا من أن يبحث المطور يدويًا أو يخمن Agent أي Skill يحتاجه، تقوم الأداة بفهرسة المستودعات والبحث ضمنها تلقائيًا.\n\nالاستخدام يتم عبر الأوامر التالية:\n• تثبيت الأداة: `npx skills add vercel-labs/skills --skill find-skills`\n• السؤال داخل Agent: \"هل هناك Skill لـ X؟\"\n• أو التشغيل المباشر: `npx skills find orchestration`\n• ثم تثبيت النتيجة: `npx skills add owner/repo@skill`\n\nالأداة تُرتّب النتائج حسب عدد التثبيتات ومصدر الـ Skill، وتُفضّل Skills التي تم تثبيتها أكثر من 1000 مرة، كما تعطي الأولوية للمصادر الرسمية من Vercel أو Anthropic.\n\nالغاية العملية: إنهاء مرحلة البحث العشوائي أو نسخ Skill خاطئ، وإدخال الأتمتة في إدارة التبعيات داخل بيئة Agent-based.",
+  "why_it_matters": "توفر الأداة على المطورين وقت البحث اليدوي عن Skills، وتقلل من تخمين Agent لأي Skill يُستخدم، وتُعزز من موثوقية الاختيار بإعطاء الأولوية للمصادر الرسمية والـ Skills الأكثر تثبيتًا.",
+  "original_text": "Hunting for agent skills by hand is officially over.\n\nThere's a skill that searches the ENTIRE skills ecosystem to find what you need.\n\nIt's called find-skills.\n\n> npx skills add vercel-labs/skills --skill find-skills\n\nThen:\n\n1. Ask \"is there a skill for X\"\n2. Or run it yourself: npx skills find orchestration\n3. Install the hit: npx skills add owner/repo@skill\n4. Check https://t.co/zxUeESzTzX first when you want the thing people already installed\n\nIt ranks by install count and source. Prefer 1k+ installs. Official Vercel / Anthropic packs first.\n\nI run find-skills at the start of a repo now. The agent stops guessing which Skill to paste.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "وحدة وظيفية قابلة للتثبيت يستخدمها Agent لتنفيذ مهام محددة"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Vercel",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 58,
+  "metrics": {
+   "likes": 28,
+   "replies": 5,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 28,
+   "views": 4073
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "skill-search",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2093813152999690463"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c859",
+  "serial": 859,
+  "serial_display": "#000859",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2093776298132820391",
+  "source_native_id": "2093776298132820391",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-08-29T19:02:24Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تسريبات أولى لمخرجات نموذج Astra المرتقب من OpenAI",
+  "arabic_summary": "بدأت تظهر مخرجات غير رسمية مُنسوبة لنموذج Astra من OpenAI، يُقال أنها تحمل اسم الاختبار الداخلي mozaik-alpha-fdm. التجارب المتسربة تُظهر قدرة على بناء عالم Voxel تفاعلي كامل وموقع ويب احترافي ثلاثي الأبعاد من Prompt واحد دون أمثلة مسبقة. OpenAI أكدت تقدم Astra في البرمجة الوكيلة والأمن السيبراني لكن لم تؤكد صحة التسريبات.",
+  "detailed_explanation": "التسريبات المتداولة تشير إلى نموذج باسم داخلي mozaik-alpha-fdm يُحتمل أن يكون Checkpoint تجريبي من Astra، النموذج القادم من OpenAI. المخرجات المنشورة على Discord في مجتمع zAI تضمنت:\n\n• عالم Voxel تفاعلي كامل من Prompt واحد، يشمل قلعة وشخصيات وخريطة بتفاصيل ثابتة ومتناسقة\n• موقع ويب احترافي يجمع تصميمًا ثلاثي الأبعاد مع حركات وتفاعلات متكاملة\n\nOpenAI سبق أن أكدت أن Astra متقدم في مجالي البرمجة الوكيلة (Agentic Coding) والأمن السيبراني، لكنها لم تُصدر تأكيدًا رسميًا بشأن هذه التسريبات أو بشأن الاسم mozaik-alpha-fdm.\n\nالنقلة المفترضة، لو ثبتت الأمور، هي أن النموذج لم يعد مجرد مُنتج للكود، بل أصبح مُنتجًا لتجربة تفاعلية كاملة قابلة للتشغيل مباشرة، دون الحاجة لخطوات وسيطة مثل التجميع أو الربط اليدوي.",
+  "why_it_matters": "إن ثبتت المخرجات، فالقفزة النوعية هي أن النموذج لم يعد يكتفي بكتابة ملفات برمجية بل يبني تجارب ويب تفاعلية وثلاثية الأبعاد كاملة من Prompt واحد، وهو تحول في طبيعة الإخراج من مجرد كود إلى بيئة قابلة للاستخدام مباشرة.",
+  "original_text": "👀 بدأت تظهر أول مخرجات غير رسمية من Astra نموذج OpenAI القادم\n\n🏰 من Prompt واحد وبدون أمثلة مسبقة بنى عالم Voxel كامل وتفاعلي بتفاصيل ثابتة من القلعة إلى الشخصيات والخريطة\n\n🌐 وتجربة ثانية خرجت بموقع احترافي يجمع تصميم ثلاثي الأبعاد وحركات وتفاعلات متناسقة\n\n🧠 OpenAI أكدت أن Astra متقدم بشكل كبير في البرمجة الوكيلة والأمن السيبراني لكنها لم تؤكد أن هذه المخرجات منه\n\n⚠️ الاسم المتداول للاختبار هو mozaik-alpha-fdm وما زال ربطه بـ Astra مجرد تسريب\n\n🚀 لو ثبتت النتائج فالقفزة الحقيقية أن النموذج صار يبني تجربة ويب كاملة بدل مجرد كتابة ملفاتها https://t.co/ZvwsxhsoeS",
+  "glossary": [
+   {
+    "term": "Voxel",
+    "ar": "عنصر حجمي ثلاثي الأبعاد يُستخدم في بناء عوالم رقمية"
+   },
+   {
+    "term": "Checkpoint",
+    "ar": "نسخة مرحلية من نموذج أثناء تدريبه"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 8,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 2140
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "astra-leak",
+  "also_reported": [
+   {
+    "author": "SultanAlFardan",
+    "url": "https://x.com/SultanAlFardan/status/2093721650155909572"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c860",
+  "serial": 860,
+  "serial_display": "#000860",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2093640209418326072",
+  "source_native_id": "2093640209418326072",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-29T10:01:38Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تُنهي شراكتها مع Cursor بعد استحواذ SpaceX عليه",
+  "arabic_summary": "أعلنت OpenAI إنهاء شراكتها مع Cursor بعد استحواذ SpaceX عليه، وسيتوقف الوصول المباشر للنماذج في 12 نوفمبر. السبب المعلن هو اعتراف إيلون ماسك بأن xAI تستخدم تقنية التقطير (Distillation) على ChatGPT لتدريب نماذجها الجديدة جزئيًا، ما يُعتبر انتهاكًا لشروط الاستخدام. OpenAI أعربت عن استعدادها لدعم المطورين المتأثرين خلال الفترة الانتقالية.",
+  "detailed_explanation": "القرار جاء بعد استحواذ SpaceX على Cursor، محرر الأكواد الذي يعتمد على نماذج OpenAI. OpenAI أعلنت أن الوصول المباشر للنماذج سينتهي في 12 نوفمبر، وأوضحت أن السبب المباشر هو اعتراف إيلون ماسك بأن شركته xAI تستخدم تقنية التقطير (Distillation) على ChatGPT لتحسين نماذجها.\n\nالتقطير يعني تدريب نموذج صغير باستخدام مخرجات نموذج كبير، وهو ما يُعد انتهاكًا واضحًا لشروط استخدام OpenAI التي تمنع استخدام مخرجات نماذجها لتطوير نماذج منافسة.\n\nالقرار يُؤثر مباشرة على المطورين الذين يعتمدون على Cursor للوصول لنماذج OpenAI، وأعربت الشركة عن استعدادها لتقديم دعم استثنائي لهم خلال الفترة الانتقالية.\n\nهذا التحرك يُظهر تشديد OpenAI لسياسات حماية نماذجها، خاصة أمام منافسين مباشرين مثل xAI التي يملكها إيلون ماسك ويديرها كمنافس مباشر في مجال النماذج اللغوية الكبيرة.",
+  "why_it_matters": "يُظهر القرار حساسية OpenAI تجاه استخدام مخرجات نماذجها في تدريب نماذج منافسة، ويُنذر باحتمال تشديد قيود الاستخدام على الشركات المنافسة أو المستحوَذ عليها من جهات ذات مصالح متضاربة مثل xAI.",
+  "original_text": "لماذا؟\n\nلأن إيلون ماسك اعترف بأن\n xAI تستخدم تقنية التقطير على ChatGPT لتدريب نماذجها الجديدة (جزئياً😅)",
+  "glossary": [
+   {
+    "term": "Distillation",
+    "ar": "تقنية تدريب نموذج صغير باستخدام مخرجات نموذج أكبر لنقل المعرفة"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Cursor",
+   "SpaceX",
+   "xAI",
+   "Elon Musk"
+  ],
+  "change_types": [
+   "Shutdown"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 21,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 17,
+   "views": 12698
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access to our models would end on November 12.\n\nWe know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.\n\nhttps://t.co/OzuCTzU"
+  },
+  "cluster_id": "openai-cursor",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c861",
+  "serial": 861,
+  "serial_display": "#000861",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093706940006187305",
+  "source_native_id": "2093706940006187305",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-29T14:26:48Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "MiniStack أداة لتشغيل أكثر من 60 خدمة AWS محليًا",
+  "arabic_summary": "MiniStack أداة تتيح للمطورين تشغيل أكثر من 60 خدمة من AWS محليًا على أجهزتهم من منفذ واحد، دون الحاجة للاتصال بالسحابة. تدعم الأداة Terraform، وتوفر بنية قواعد بيانات فعلية بدل المحاكاة، وتتيح تشغيل نماذج Bedrock محليًا للاستدلال بالذكاء الاصطناعي.",
+  "detailed_explanation": "MiniStack توفر بيئة محلية كاملة لخدمات AWS، ما يعني أن المطور يمكنه بناء واختبار تطبيقات Serverless وقواعد بيانات ونماذج ذكاء اصطناعي بشكل كامل على جهازه دون الحاجة للاتصال بالإنترنت أو استهلاك موارد سحابية.\n\nالأداة تدعم:\n• أكثر من 60 خدمة من AWS\n• Terraform لإدارة البنية التحتية كـ Code\n• قواعد بيانات فعلية بدل مجرد Mock بسيط\n• تشغيل نماذج Bedrock محليًا للاستدلال\n\nالفائدة الرئيسية هي تسريع دورة التطوير والاختبار، وتقليل التكاليف، خاصة للفرق الصغيرة أو المطورين المستقلين الذين لا يريدون دفع تكاليف AWS أثناء مراحل التطوير الأولية.\n\nالأداة مفيدة بشكل خاص لمن يعمل على تطبيقات تعتمد على Lambda أو DynamoDB أو S3 أو Bedrock، ويريد بيئة اختبار محلية سريعة ومتكاملة.",
+  "why_it_matters": "تُسهّل الأداة بناء واختبار بيئات AWS بشكل محلي، ما يوفر تكاليف التطوير ويُسرّع دورة الاختبار خاصة للمطورين الذين يعملون على تطبيقات Serverless أو نماذج ذكاء اصطناعي دون الحاجة لرفعها للسحابة أثناء التطوير.",
+  "original_text": "تشغّل أكثر من 60 خدمة من AWS محليًا على جهازك ومن منفذ واحد فقط! 🤯\n\nأداة MiniStack تتيح للمطورين بناء واختبار بيئات شبيهة بـ AWS بدون الحاجة للاتصال بالسحابة طوال الوقت.\n\nتدعم Terraform، وتوفر بنية قواعد بيانات فعلية بدل مجرد محاكاة بسيطة، وحتى تشغيل نماذج Bedrock محليًا للاستدلال بالذكاء الاصطناعي.",
+  "glossary": [
+   {
+    "term": "Bedrock",
+    "ar": "خدمة من AWS لتشغيل نماذج الذكاء الاصطناعي الجاهزة"
+   },
+   {
+    "term": "Terraform",
+    "ar": "أداة لإدارة البنية التحتية السحابية عبر الكود"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "AWS",
+   "Bedrock"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 55,
+  "metrics": {
+   "likes": 27,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 23,
+   "views": 2673
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "ministack",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c862",
+  "serial": 862,
+  "serial_display": "#000862",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093677516569383106",
+  "source_native_id": "2093677516569383106",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-29T12:29:53Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "قوقل تُلزم تطبيقات أندرويد بتقليل استهلاك الذاكرة اعتبارًا من 2027",
+  "arabic_summary": "قوقل تستعد لتشديد قواعد استخدام الذاكرة في تطبيقات أندرويد ابتداءً من فبراير 2027، لإجبار المطورين على تحسين كفاءة تطبيقاتهم وتقليل استهلاك الـRAM، خاصة عند انتقال التطبيق للخلفية. القواعد تشمل تحرير الذاكرة المؤقتة، تقليص استهلاك الصور، وتقليص حجم الكود بنسبة 25% على الأقل باستخدام R8. التطبيقات التي تتجاوز الحدود قد تُبطأ أو تُغلق تلقائيًا.",
+  "detailed_explanation": "قوقل تستهدف تحسين تجربة المستخدم في أندرويد عبر إجبار المطورين على تقليل استهلاك تطبيقاتهم للـRAM. القواعد الجديدة تشمل:\n\n• **تحرير الذاكرة عند الانتقال للخلفية**: التطبيق يجب أن يُحرر الذاكرة المؤقتة غير المستخدمة عندما ينتقل للخلفية\n• **تقليص استهلاك الصور والـBitmap**: تحسين كيفية تحميل وعرض الصور لتقليل البصمة على الذاكرة\n• **حذف الأكواد غير الضرورية**: استخدام أدوات مثل R8 لتقليص حجم الكود بنسبة 25% على الأقل\n• **عقوبات على التجاوز**: لو التطبيق تجاوز حدود الذاكرة، أندرويد قد يبطئه أو يغلقه تلقائيًا\n\nالفوائد للمستخدم:\n• تطبيقات أكثر تبقى مفتوحة في الخلفية\n• إعادة تحميل أقل\n• أداء أكثر سلاسة\n• تعليق وانهيارات أقل\n\nالتوقيت مثير للاهتمام لأن الطلب العالمي على شرائح الذاكرة يرتفع بشكل كبير مع توسع مراكز بيانات الذكاء الاصطناعي، ما يجعل الاستغلال الأمثل للذاكرة الموجودة في الهواتف ضرورة اقتصادية وتقنية.",
+  "why_it_matters": "التغيير يعني تطبيقات أخف وأسرع، وبقاء عدد أكبر من التطبيقات مفتوحة في الخلفية دون إعادة تحميل، خاصة على الأجهزة محدودة الذاكرة. التوقيت مهم لأنه يتزامن مع ارتفاع الطلب العالمي على شرائح الذاكرة بسبب توسع مراكز بيانات الذكاء الاصطناعي.",
+  "original_text": "قوقل تجبر تطبيقات أندرويد على استهلاك RAM أقل 📱\n\nقوقل تستعد لتشديد قواعد استخدام الذاكرة في تطبيقات أندرويد ابتداءً من فبراير 2027، والهدف إن التطبيقات تصير أخف وأكثر كفاءة وما تستهلك الـRAM بدون داعي.\n\nالمطورين بيكون مطلوب منهم تحسين طريقة تعامل تطبيقاتهم مع الذاكرة، خصوصًا عند انتقال التطبيق للخلفية، بحيث يحرر الذاكرة المؤقتة اللي ما عاد يحتاجها.\n\nكذلك بيكون فيه تركيز على تقليل استهلاك الصور والـBitmap للذاكرة، وحذف الأكواد غير الضرورية. وبحسب المعلومات المتداولة، قوقل تستهدف أيضًا تقليص حجم أكواد التطبيقات بنسبة تصل إلى 25% على الأقل باستخدام أدوات مثل R8.\n\nولو التطبيق تجاوز حدود الذاكرة المسموحة، أندرويد ممكن يبطئه أو يغلقه حتى ما يؤثر على أداء الجهاز بالكامل.\n\nوش الفائدة لك؟\n\nتطبيقات أكثر تظل مفتوحة بالخلفية، إعادة تحميل أقل، أداء أكثر سلاسة، وتعليق وانهيارات أقل، خصوصًا في الأجهزة اللي عندها RAM محدودة.\n\nوالتوقيت مثير للاهتمام، لأن الطلب العالمي على شرائح الذاكرة يرتفع بشكل كبير مع توسع مراكز بيانات الذكاء الاصطناعي، وهذا يزيد أهمية استغلال الذاكرة الموجودة في الهواتف بكفاءة أكبر.",
+  "glossary": [
+   {
+    "term": "R8",
+    "ar": "أداة من قوقل لضغط وتحسين حجم كود تطبيقات أندرويد"
+   },
+   {
+    "term": "Bitmap",
+    "ar": "تمثيل رقمي للصورة يستهلك ذاكرة كبيرة إن لم يُحسّن"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Android"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 31,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 3828
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "android-ram",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c863",
+  "serial": 863,
+  "serial_display": "#000863",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2093657966431830235",
+  "source_native_id": "2093657966431830235",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-29T11:12:12Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "وكلاء البرمجة بالذكاء الاصطناعي قد يثبتون برامج ضارة دون قصد",
+  "arabic_summary": "باحثون اكتشفوا أن وكلاء البرمجة مثل Claude وCodex يمكن أن يثبتوا حزمًا برمجية ضارة دون قصد، عبر قراءة تعليمات قديمة من الإنترنت تطلب تثبيت حزم لم تعد مملوكة لأحد. لو سجّل شخص اسم الحزمة المهجورة ووضع فيها كودًا ضارًا، الـAgent قد يثبتها تلقائيًا. في تجربة عملية، تم تشغيل إحدى الحزم داخل شركة Fortune 500 خلال ساعة واحدة.",
+  "detailed_explanation": "الباحثون اكتشفوا ثغرة في طريقة عمل وكلاء البرمجة بالذكاء الاصطناعي مثل Claude وCodex. هذه الوكلاء تقرأ تعليمات من مواقع الإنترنت (مثل Stack Overflow أو GitHub) وتستخدمها أثناء كتابة الكود.\n\nالمشكلة تحدث عندما:\n1. التعليمات القديمة تطلب تثبيت حزمة برمجية معينة\n2. الحزمة لم تعد مملوكة لأحد (مهجورة)\n3. شخص يسجل اسم الحزمة المهجورة ويضع فيها كودًا ضارًا\n4. الـAgent يثبت الحزمة تلقائيًا لأنه يعتقد أنها الحزمة الصحيحة\n\nالباحثون جرّبوا هذا عمليًا:\n• سجلوا بعض الأسماء المهجورة\n• خلال ساعة واحدة تم تشغيل إحدى الحزم داخل شركة من Fortune 500\n\nالخطر الحقيقي ليس في أن الذكاء الاصطناعي مخترق، بل في أنه يثق بتعليمات قديمة دون التحقق من أن الحزمة ما زالت آمنة أو أن مالكها الأصلي هو من يديرها.\n\nهذا يفتح بابًا جديدًا لهجمات Supply Chain تستغل الـAgent كوسيط غير واعٍ لنشر البرمجيات الخبيثة.",
+  "why_it_matters": "الخطر ليس في اختراق الذكاء الاصطناعي نفسه، بل في ثقته العمياء بتعليمات قديمة أو أسماء حزم استولى عليها آخرون، ما يفتح بابًا جديدًا لهجمات Supply Chain عبر استغلال الـAgent كوسيط غير واعٍ.",
+  "original_text": "🚨 الذكاء الاصطناعي ممكن يثبت برنامج خبيث وهو ما يدري!\n\nبعض وكلاء البرمجة بالذكاء الاصطناعي، مثل Claude وCodex، يقرأون تعليمات من مواقع الإنترنت ويستخدمونها أثناء كتابة الكود.\n\nالباحثون اكتشفوا أن بعض هذه التعليمات تطلب تثبيت حزم برمجية بأسماء لم تعد مملوكة لأحد.\n\nوهنا تبدأ المشكلة.\n\nلو جاء شخص وسجّل اسم الحزمة المهجورة ووضع فيها كود ضار، وكيل الـAI ممكن يثبتها تلقائيًا لأنه يعتقد أنها الحزمة الصحيحة.\n\nالباحثون جرّبوا هذا فعليًا: سجلوا بعض الأسماء المهجورة، وخلال ساعة واحدة تم تشغيل إحدى الحزم داخل شركة من شركات Fortune 500.\n\nيعني الخطر مو أن الذكاء الاصطناعي نفسه مخترق، بل أنه ممكن يثق بتعليمات قديمة أو أسماء برامج استولى عليها شخص آخر.",
+  "glossary": [
+   {
+    "term": "Supply Chain Attack",
+    "ar": "هجوم يستهدف سلسلة التوريد البرمجية بإدخال كود ضار في مكتبة أو أداة يعتمد عليها المطورون"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Codex"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 15,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 3624
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "ai-malware",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c864",
+  "serial": 864,
+  "serial_display": "#000864",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdulaziz_Hmadi/status/2093812337887080558",
+  "source_native_id": "2093812337887080558",
+  "source_name": "عبدالعزيز الحمادي",
+  "source_site": "x.com",
+  "author": "Abdulaziz_Hmadi",
+  "published_at": "2026-08-29T21:25:37Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Bitdefender تطلق تطبيقًا للكشف عن المحتوى المُولّد بالذكاء الاصطناعي",
+  "arabic_summary": "أطلقت شركة Bitdefender المتخصصة في الأمن السيبراني تطبيقًا جديدًا لتحليل منشورات شبكات التواصل الاجتماعي والكشف عما إذا كانت المقاطع مُولّدة بالذكاء الاصطناعي أم حقيقية. التطبيق متاح لأنظمة iOS وAndroid ويقدم تحليلًا بنسب احتمالية، لكنه مدفوع بعد فترة تجريبية.",
+  "detailed_explanation": "يمثل التطبيق الجديد من Bitdefender استجابة عملية لتحدٍّ متصاعد: الانتشار الواسع للمحتوى المُولّد بالذكاء الاصطناعي على شبكات التواصل الاجتماعي، وصعوبة تمييزه عن المحتوى الحقيقي.\n\nالتطبيق يعمل على تحليل المنشورات — خاصة المقاطع المرئية — ويعطي المستخدم تقييمًا حول احتمالية كونها مُولّدة بالذكاء الاصطناعي. بحسب التجربة المذكورة، التطبيق يقدم تحليلًا \"واقعيًا\" مع أغلب المقاطع، وعندما يشك في محتوى معين يعطي نسبة احتمالية لكونه مُولّدًا.\n\nنموذج العمل التجاري للتطبيق يعتمد على فترة تجريبية مجانية، ثم يتحول إلى اشتراك مدفوع — وهو نمط شائع في أدوات الأمن السيبراني الموجهة للمستهلكين.\n\nالتطبيق متاح على كلا المنصتين الرئيسيتين: iOS وAndroid، مما يوسع قاعدة المستخدمين المحتملين.",
+  "why_it_matters": "مع تزايد صعوبة التمييز بين المحتوى الحقيقي والمُولّد، تصبح أدوات الكشف ضرورية للحفاظ على مصداقية المعلومات ومكافحة التضليل.",
+  "original_text": "مع كثرة المقاطع المولدة بالذكاء الاصطناعي وصعوبة معرفة هل هي مقاطع حقيقية أو لا!\nأعجبني تطبيق أطلقته شركة Bitdefender الشهيرة في السايبر، متخصص في تحليل المنشورات في شبكات التواصل الاجتماعي وإعطاءك تحليل عن إمكانية أن تكون مولدة بالـAI من عدمه!\n\nجربته مع بعض المقاطع وأعطاني تحليل واقعي مع أغلبها، والمقاطع إلي شك فيها يعطيني أنها قد تكون مولّدة بالـAI بنسبة معينة.\n\nرابط التطبيق\nآيفون:\nhttps://t.co/lkjrHXXoSX\nآندرويد:\nhttps://t.co/i3VGighgrD\n\n\"التطبيق فيه فترة تجربة، ثم يكون مدفوع\"",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "أمن سيبراني",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Bitdefender"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 173,
+   "replies": 5,
+   "reposts": 26,
+   "quotes": 1,
+   "bookmarks": 119,
+   "views": 20642
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c865",
+  "serial": 865,
+  "serial_display": "#000865",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2093594680655012270",
+  "source_native_id": "2093594680655012270",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-08-29T07:00:43Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مبتكر Minecraft يتراجع عن موقفه ويبدأ استخدام الذكاء الاصطناعي في البرمجة",
+  "arabic_summary": "ماركوس بيرسون، مبتكر Minecraft، تحول من معارض شرس للبرمجة بالذكاء الاصطناعي إلى مستخدم فعلي بعد تجربة Claude وأسلوب Vibe Coding. كان يصف البرمجة بالذكاء الاصطناعي بـ\"الفكرة السيئة\" ودعا لمقاطعتها، لكنه اعترف بأن موقفه السابق كان خطأ، مشيرًا إلى صعوبة إيجاد مبرمجين ممتازين وسهولة \"فصل\" الذكاء الاصطناعي مقارنة بالموظف.",
+  "detailed_explanation": "القصة تعكس تحولًا دراماتيكيًا في موقف أحد أبرز مطوري الألعاب في العالم. في يناير 2026، كان ماركوس بيرسون صريحًا في رفضه للبرمجة بالذكاء الاصطناعي، واصفًا إياها بـ\"فكرة سيئة بشكل لا يُصدق\" ومعتبرًا من يعتمدون عليها \"غير مؤهلين تمامًا\". وصل الأمر إلى دعوته لمقاطعة الذكاء الاصطناعي قبل شهر واحد فقط من تحوله.\n\nالتحول بدأ في نهاية يوليو عندما قرر تجربة ما يُعرف بـ Vibe Coding باستخدام Claude. التجربة العملية غيّرت نظرته بشكل جذري، وبحلول أغسطس اعترف علنًا بأن موقفه السابق كان خاطئًا.\n\nالمبررات التي قدمها بيرسون عملية بحتة: صعوبة إيجاد مبرمجين بمستوى عالٍ، وحقيقة أن \"فصل\" الذكاء الاصطناعي عند الخطأ أسهل بكثير من فصل موظف بشري — وهي نقطة صريحة وعملية تعكس حسابات الأعمال الواقعية.\n\nمع ذلك، بيرسون وضع حدودًا لاستخدامه: لا يريد أن يتحول إلى مجرد \"مدير للذكاء الاصطناعي\" بل يفضل البقاء مطورًا فعليًا — وهو موقف يعكس توازنًا بين الاستفادة من الأدوات الجديدة والحفاظ على الهوية المهنية.\n\nالعبارة الختامية \"آخر المحاربين سقط\" تعكس كيف أن حتى المعارضين الأشد صوتًا للتقنية يجدون أنفسهم في النهاية يتبنونها عند التجربة الفعلية.",
+  "why_it_matters": "تراجع أحد أبرز المعارضين للبرمجة بالذكاء الاصطناعي يعكس تحولًا حقيقيًا في الصناعة، ويظهر كيف أن التجربة العملية تغير المواقف المبدئية حتى عند المطورين الأكثر شهرة.",
+  "original_text": "حتى مبتكر Minecraft، اللي كان طول الوقت يهاجم البرمجة بالذكاء الاصطناعي، صار يستخدمه بنفسه في تطوير الألعاب.\n\nفي يناير ماركوس بيرسون كان يقول إن البرمجة بالذكاء الاصطناعي «فكرة سيئة بشكل لا يصدق»، ووصف اللي يعتمدون عليها بأنهم غير مؤهلين تمامًا.\n\nوقبل شهر فقط كان حتى يدعو لمقاطعة الذكاء الاصطناعي 😂\n\nلكن بيرسون ماصمد كثير.\n\nبنهاية يوليو قرر يجرب ال Vibe Coding، وبدأ يستخدم Claude وبعدها أعجبه الموضوع لدرجة إنه في أغسطس اعترف إن موقفه السابق كان غلط.\n\nوبحسب حسب كلامه السبب الرئيسي بسيط:\n\nصعب جدًا يلقى مبرمجين ممتازين، ولو الذكاء الاصطناعي خبص فصله بيكون أسهل بكثير من فصل موظف 😅\n\nلكن إلى الآن مايريد يسلم كل الشغل للوكلاء بالكامل.\n\nيقول إنه يحب يبقى مطور، مو يتحول إلى مجرد مدير للذكاء الاصطناعي.\n\nآخر المحاربين سقط 🫡",
+  "glossary": [
+   {
+    "term": "Vibe Coding",
+    "ar": "أسلوب برمجة يعتمد على التفاعل الطبيعي مع الذكاء الاصطناعي لكتابة الكود"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Minecraft",
+   "Markus Persson",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 35,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 16,
+   "views": 5204
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c866",
+  "serial": 866,
+  "serial_display": "#000866",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2093825400178917519",
+  "source_native_id": "2093825400178917519",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-08-29T22:17:31Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub Issues تحصل على تحديثات جديدة لتحسين تجربة إدارة المشاريع",
+  "arabic_summary": "أعلنت GitHub عن مجموعة تحديثات لخدمة Issues تشمل إمكانية تثبيت العروض في الشريط الجانبي، وعرض صور الملفات الشخصية للتفاعلات، وضبط كثافة لوحة التحكم، وإخفاء المهام الفرعية المغلقة، بالإضافة إلى REST API جديد لتبعيات المهام يدعم النطاقات.",
+  "detailed_explanation": "أطلقت GitHub حزمة تحديثات جديدة لمنصة Issues تركز على تحسين قابلية الاستخدام وإدارة المشاريع. التحديثات تشمل:\n\nإمكانية تثبيت العروض (Views) في الشريط الجانبي، مما يسمح للمطورين بالوصول السريع للعروض المخصصة التي يستخدمونها بشكل متكرر. عرض صور الملفات الشخصية (Profile Avatars) للتفاعلات على المهام، مما يجعل من السهل معرفة من تفاعل مع كل مهمة. خيار ضبط كثافة لوحة التحكم (Dashboard Density)، مما يتيح للمستخدمين التحكم في كمية المعلومات المعروضة حسب تفضيلاتهم.\n\nكما تم إضافة ميزة إخفاء المهام الفرعية المغلقة (Hide Closed Sub-issues) لتبسيط العرض والتركيز على المهام النشطة فقط. والأهم للمطورين، تم إطلاق REST API جديد لتبعيات المهام يدعم النطاقات (Scope-aware Issue Dependency REST API)، مما يسمح بإدارة برمجية أكثر دقة للعلاقات بين المهام عبر مختلف نطاقات المشروع.\n\nهذه التحسينات تأتي ضمن جهود GitHub المستمرة لتطوير أدوات إدارة المشاريع، مما يجعل المنصة أكثر ملاءمة للفرق الكبيرة والمشاريع المعقدة.",
+  "why_it_matters": "هذه التحديثات تحسّن تجربة فرق التطوير في تتبع المهام والمشاريع، وتوفر مرونة أكبر في تنظيم سير العمل من خلال واجهة أكثر قابلية للتخصيص.",
+  "original_text": "🚀 New updates in GitHub Issues\n• Pin views in the Issues sidebar\n• See profile avatars for reactions\n• Adjust dashboard density \n• Hide closed sub-issues\n• Scope-aware Issue dependency REST API https://t.co/jbHz4M6IDu",
+  "glossary": [
+   {
+    "term": "REST API",
+    "ar": "واجهة برمجية تعتمد على بروتوكول HTTP للتفاعل مع الخدمات"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 50,
+   "replies": 17,
+   "reposts": 9,
+   "quotes": 1,
+   "bookmarks": 4,
+   "views": 12243
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c867",
+  "serial": 867,
+  "serial_display": "#000867",
+  "source_type": "x",
+  "source_url": "https://x.com/nvidia/status/2093722690049695780",
+  "source_native_id": "2093722690049695780",
+  "source_name": "NVIDIA",
+  "source_site": "x.com",
+  "author": "nvidia",
+  "published_at": "2026-08-29T15:29:23Z",
+  "fetched_at": "2026-08-30T00:27:57Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "NVIDIA تعلن عن Vera Rubin NVL72 مع أداء يصل إلى 30 ضعفًا في معيار Agent",
+  "arabic_summary": "أعلنت NVIDIA عن نتائج اختبار Vera Rubin NVL72 على معيار AgentX الذي طورته SemiAnalysis لقياس أداء البنية التحتية للذكاء الاصطناعي في تشغيل الـAgents. النتائج أظهرت أداءً يصل إلى 30 ضعفًا في الإنتاجية لكل ميجاوات مقارنة بـGB300 NVL72.",
+  "detailed_explanation": "قدمت NVIDIA نتائج قياس جديدة لمعالجها Vera Rubin NVL72 باستخدام معيار AgentX الذي طورته شركة SemiAnalysis المتخصصة في تحليل أشباه الموصلات. المعيار الجديد يمثل تحولًا مهمًا في كيفية قياس أداء البنية التحتية للذكاء الاصطناعي.\n\nتقليديًا، كانت معايير الأداء تركز على سرعة المعالجة النظرية أو قدرة الحوسبة الخام. لكن AgentX يقيس الأداء بناءً على كيفية عمل الـAgents فعليًا في سيناريوهات حقيقية، مما يعطي صورة أدقّ عن الأداء العملي للأنظمة.\n\nوفقًا لقياسات NVIDIA، حقق Vera Rubin NVL72 أداءً يصل إلى 30 ضعفًا من حيث الإنتاجية (Throughput) لكل ميجاوات مقارنة بمعالج GB300 NVL72. هذا الفارق الكبير في كفاءة الطاقة مهم جدًا للمؤسسات التي تدير مراكز بيانات كبيرة، حيث يؤثر استهلاك الطاقة بشكل مباشر على التكاليف التشغيلية والأثر البيئي.\n\nهذا الإعلان يأتي في سياق تزايد استخدام الـAgents في تطبيقات الذكاء الاصطناعي المؤسسية، مما يجعل قياس الأداء على أحمال عمل Agents حقيقية أكثر أهمية من المعايير الاصطناعية التقليدية.",
+  "why_it_matters": "المعيار الجديد يقدم طريقة أكثر واقعية لقياس أداء البنية التحتية للذكاء الاصطناعي بناءً على كيفية عمل الـAgents فعليًا، وليس فقط المعايير التقليدية، مما يساعد المؤسسات على اتخاذ قرارات شراء أفضل.",
+  "original_text": "Are you measuring AI infrastructure performance on how agents actually run? \n\n@SemiAnalysis_ built AgentX to do just that. \n\nVera Rubin NVL72 performance measured by NVIDIA on the SemiAnalysis AgentX workload shows up to 30x better throughput per megawatt than GB300 NVL72. \n\nLearn more ➡️ https://t.co/7GTEtxFk76",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي قادر على اتخاذ قرارات وتنفيذ مهام بشكل مستقل"
+   },
+   {
+    "term": "Throughput",
+    "ar": "معدل الإنتاجية أو كمية العمليات المنجزة في وحدة زمنية"
+   },
+   {
+    "term": "Benchmark",
+    "ar": "معيار قياسي لتقييم ومقارنة أداء الأنظمة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "NVIDIA",
+   "SemiAnalysis"
+  ],
+  "change_types": [
+   "Research Release",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 250,
+   "replies": 21,
+   "reposts": 28,
+   "quotes": 6,
+   "bookmarks": 26,
+   "views": 47341
+  },
+  "metrics_captured_at": "2026-08-30T00:27:57Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
