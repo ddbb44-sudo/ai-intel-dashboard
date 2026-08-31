@@ -1,0 +1,1409 @@
+[
+ {
+  "id": "c873",
+  "serial": 873,
+  "serial_display": "#000873",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2094295950202216841",
+  "source_native_id": "2094295950202216841",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-31T05:27:19Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تشتري عشرات الآلاف من أجهزة Mac لتدريب وكلاء ذكاء اصطناعي",
+  "arabic_summary": "أفادت The Information أن OpenAI اشترت أعدادًا ضخمة من Mac mini وMac Studio لتدريب وكلاء ذكاء اصطناعي قادرين على استخدام الكمبيوتر وتنفيذ المهام تلقائيًا. Anthropic تتبع منهجًا مشابهًا لكن عبر استئجار الأجهزة من AWS.",
+  "detailed_explanation": "المنشور ينقل خبرًا من The Information يفيد بأن OpenAI اشترت أعدادًا ضخمة من أجهزة Mac mini وMac Studio، بينما Anthropic تستخدم أجهزة مشابهة عبر استئجارها من AWS. الهدف هو تدريب وكلاء ذكاء اصطناعي قادرين على استخدام الكمبيوتر وتنفيذ المهام تلقائيًا.\n\nهذا التوجه يكشف عن تحوّل في بنية تدريب Agent: بدلًا من الاعتماد على بيئات محاكاة أو واجهات برمجية، يبدو أن الشركات تتجه إلى تدريب النماذج في بيئات تشغيل حقيقية على نطاق واسع. استخدام Mac تحديدًا قد يرتبط بتوحيد البيئة التجريبية أو استهداف سيناريوهات استخدام مكتبية واقعية.\n\nالخبر يلقي الضوء على حجم الاستثمار المادي المطلوب لتطوير Agent متقدم، ويشير إلى أن الجيل القادم من الأتمتة قد يكون أقرب إلى تقليد السلوك البشري في التعامل مع واجهات المستخدم التقليدية.",
+  "why_it_matters": "يكشف عن استراتيجية جديدة في تدريب Agent يعتمد على بيئات تشغيل حقيقية بدلًا من المحاكاة، وقد يشير إلى طفرة قادمة في قدرات الأتمتة المكتبية.",
+  "original_text": "🚨 OpenAI تشتري عشرات الآلاف من أجهزة Mac!\n\nبحسب The Information، اشترت OpenAI أعدادًا ضخمة من Mac mini وMac Studio لتدريب وكلاء ذكاء اصطناعي قادرين على استخدام الكمبيوتر وتنفيذ المهام تلقائيًا.\n\nأما Anthropic فتستخدم أجهزة مشابهة، لكن عن طريق استئجارها عبر AWS. https://t.co/KF8v1jqtVU",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي قادر على تنفيذ مهام معقدة بشكل مستقل"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Anthropic",
+   "The Information",
+   "AWS"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 51,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 14,
+   "views": 8186
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "openai_mac_training",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c874",
+  "serial": 874,
+  "serial_display": "#000874",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2094235547724071147",
+  "source_native_id": "2094235547724071147",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-31T01:27:18Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مشروع مفتوح المصدر يجمع 16 محرك TTS و11 محرك ASR محليًا",
+  "arabic_summary": "مشروع مفتوح المصدر يوحّد مجموعة كبيرة من أدوات الصوت في منصة واحدة تعمل محليًا على الجهاز. يدعم استنساخ الأصوات، الدبلجة، الإملاء الصوتي، وتحويل النصوص إلى صوت عبر 16 محرك TTS و11 محرك ASR، مع دعم يصل إلى 646 لغة.",
+  "detailed_explanation": "المشروع المفتوح المصدر المذكور يجمع في منصة واحدة 16 محرك TTS (Text-to-Speech) لتحويل النص إلى كلام، و11 محرك ASR (Automatic Speech Recognition) لتحويل الكلام إلى نص، مع دعم يصل إلى 646 لغة. يعمل المشروع محليًا على جهاز المستخدم دون الحاجة الكاملة إلى خدمات سحابية.\n\nالمشروع يوفر مجموعة من الوظائف: استنساخ الأصوات، الدبلجة، الإملاء الصوتي، وتحويل النصوص الطويلة إلى صوت. الفكرة الأساسية هي أن المستخدم يختار المحرك المناسب لمهمته — سواء إنشاء تعليق صوتي، تفريغ تسجيل، دبلجة محتوى، أو تجربة نماذج مختلفة — من خلال واجهة موحدة.\n\nالقيمة الأساسية هنا هي التشغيل المحلي (على الجهاز) الذي يعزز الخصوصية ويخفض التكلفة، إلى جانب التنوع الكبير في المحركات واللغات المدعومة، ما يجعله أداة مرنة لمطوري التطبيقات أو صناع المحتوى الذين يحتاجون حلولًا صوتية متعددة.",
+  "why_it_matters": "يخفض الحاجة إلى خدمات سحابية مدفوعة ويحسّن الخصوصية في معالجة الصوت، ويوفر تنوعًا كبيرًا في المحركات واللغات لمطوري التطبيقات الصوتية.",
+  "original_text": "🎙️ استنسخ صوتك ودبلج المقاطع… وكل شيء محليًا على جهازك\n\nمشروع مفتوح المصدر يجمع مجموعة كبيرة من أدوات الصوت في مكان واحد، ويقدر يشغّل استنساخ الأصوات، الدبلجة، الإملاء الصوتي، وتحويل النصوص الطويلة إلى صوت بدون الاعتماد الكامل على خدمات سحابية.\n\nالمشروع يدعم 16 محرك TTS لتحويل النص إلى كلام، و11 محرك ASR لتحويل الكلام إلى نص، مع دعم يصل إلى 646 لغة.\n\nالفكرة هنا أنك تختار المحرك المناسب لمهمتك، سواء تبي تنشئ تعليقًا صوتيًا، تفرّغ تسجيل، تدبلج محتوى، أو تجرب نماذج مختلفة للصوت من خلال منصة واحدة تعمل محليًا.",
+  "glossary": [
+   {
+    "term": "TTS",
+    "ar": "تحويل النص إلى كلام"
+   },
+   {
+    "term": "ASR",
+    "ar": "التعرف التلقائي على الكلام"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 114,
+   "replies": 2,
+   "reposts": 10,
+   "quotes": 0,
+   "bookmarks": 124,
+   "views": 5346
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c875",
+  "serial": 875,
+  "serial_display": "#000875",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2094149589951558016",
+  "source_native_id": "2094149589951558016",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-08-30T19:45:44Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "نموذج GPT-Astra من OpenAI يبني واجهات مواقع من الصفر بوصف نصي",
+  "arabic_summary": "بدأت تظهر تجارب مبكرة لنموذج جديد يُقال إن اسمه GPT-Astra من OpenAI، يبني واجهات مواقع كاملة من وصف نصي دون نموذج سابق أو خطوات تفصيلية. النتائج الأولية تظهر تصميمًا مرتبًا يبدو قريبًا من عمل مطور Frontend محترف، لكن النموذج غير مُعلن رسميًا بعد.",
+  "detailed_explanation": "المنشور يتحدث عن تجارب مبكرة لنموذج جديد من OpenAI يُقال إن اسمه GPT-Astra. الفكرة الأساسية: تعطي النموذج وصفًا لموقع تريده، وهو يحاول بناء الواجهة كاملة من الصفر، دون الحاجة إلى نموذج سابق يقلده أو خطوات تفصيلية.\n\nفي إحدى التجارب، تمكن النموذج من تحويل مجرد فكرة إلى موقع مرتب ومفصل من أول محاولة، مع تصميم يبدو قريبًا من عمل مطور Frontend محترف. هذا ما لفت الانتباه: الذكاء الاصطناعي لم يعد فقط يكتب كودًا، بل بدأ يفهم شكل الموقع المطلوب ويكوّن الواجهة والتفاصيل بنفسه.\n\nلكن المنشور يؤكد أن GPT-Astra غير مُعلن رسميًا كنموذج متاح للجميع، ولذلك لا يمكن الحكم على مستواه النهائي من تجربة أو تجربتين فقط. القيمة هنا في الإشارة إلى اتجاه جديد في تطوير الواجهات بواسطة نماذج لغوية، إن تأكدت قدراته على نطاق واسع.",
+  "why_it_matters": "إن صحّت التجارب، فهو يمثل قفزة في قدرة النماذج على فهم وتصميم واجهات المستخدم بشكل كامل من فكرة نصية، ما قد يغيّر سير عمل Frontend بشكل جذري.",
+  "original_text": "🚨 نموذج GPT-Astra يلفت الأنظار من أول تجربة\n\nبدأت تظهر تجارب مبكرة لنموذج جديد من OpenAI يُقال إن اسمه GPT-Astra، والنتائج مثيرة جدًا خصوصًا في تصميم المواقع.\n\nالفكرة ببساطة: تعطي النموذج وصفًا لموقع تبيه، وهو يحاول يبني لك الواجهة كاملة من الصفر، بدون ما تعطيه نموذج سابق يقلده أو خطوات تفصيلية.\n\nوفي إحدى التجارب، قدر يحوّل مجرد فكرة إلى موقع مرتب ومفصل جدًا من أول محاولة، مع تصميم يبدو قريب من شغل مطور Frontend محترف.\n\nوهذا اللي خلّى الناس تنتبه له، لأن الذكاء الاصطناعي ما عاد فقط يكتب لك كود، بل بدأ يفهم شكل الموقع المطلوب ويكوّن الواجهة والتفاصيل بنفسه.\n\nلكن إلى الآن، GPT-Astra غير مُعلن رسميًا كنموذج متاح للجميع، لذلك ما نقدر نحكم على مستواه النهائي من تجربة أو تجربتين فقط.",
+  "glossary": [
+   {
+    "term": "Frontend",
+    "ar": "واجهة المستخدم الأمامية للموقع"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-Astra"
+  ],
+  "change_types": [
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 32,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 10,
+   "views": 4672
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt_astra",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c876",
+  "serial": 876,
+  "serial_display": "#000876",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2094099067379011797",
+  "source_native_id": "2094099067379011797",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-08-30T16:24:58Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تعيد ضبط حدود الاستخدام لـ Codex وChatGPT Work بعد إصلاح أخطاء",
+  "arabic_summary": "OpenAI أعادت ضبط حدود الاستخدام لجميع المشتركين المدفوعين في Codex وChatGPT Work بعد اكتشاف أخطاء كانت تستنزف الحصة بشكل خفي: صور لا تُحذف أثناء الضغط، عمليات Memory عالقة في الخلفية، وأهداف تستمر في استهلاك الحصة بعد الانتهاء. المستخدمون يتوقعون زيادة في الحد المتاح بنسبة 10% إلى 50%.",
+  "detailed_explanation": "المنشور يعلن عن إعادة ضبط حدود الاستخدام لجميع المشتركين المدفوعين في Codex وChatGPT Work، بعد أن اكتشفت OpenAI أخطاء كانت تستنزف الحصة بشكل خفي.\n\nالأخطاء المُصلحة تشمل: صور لا تُحذف من الذاكرة أثناء عمليات الضغط (compaction)، عمليات Memory workers عالقة تعمل في الخلفية، وأهداف (goals) تستمر في استهلاك الحصة حتى بعد الانتهاء من تنفيذها.\n\nبعد الإصلاحات، يتوقع المستخدمون أن تصل حصصهم إلى 10% - 50% أكثر مما كانت عليه من قبل، حسب طريقة استخدامهم للخدمة. المنشور يشير إلى أن الفريق عمل على مدار الساعة ومرّ على آلاف التقارير لشحن الإصلاحات.\n\nالقيمة هنا في تحسين تجربة المستخدمين المدفوعين ومعالجة مشكلة حقيقية كانت تؤثر على قيمة الاشتراك.",
+  "why_it_matters": "يحسّن تجربة المستخدمين المدفوعين ويعالج مشكلة استنزاف غير مبرر للحصص، ويعكس استجابة OpenAI لشكاوى المستخدمين حول حدود الاستخدام.",
+  "original_text": "🚨 Codex and ChatGPT Work usage limits resets once again..\n\nOpenAI found bugs quietly draining your quota: images not clearing during compaction, memory workers stuck running in the background, and goals still burning usage after finishing. All fixed now.\n\nExpect 10% to 50% more usage than before.",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "ChatGPT Work"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 13,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 6393
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things b"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c877",
+  "serial": 877,
+  "serial_display": "#000877",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2094349475317698647",
+  "source_native_id": "2094349475317698647",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-08-31T09:00:00Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "موقع Don't Paste the AI يدعو إلى عدم النسخ الأعمى من الذكاء الاصطناعي",
+  "arabic_summary": "موقع dontpastetheai.com يحمل رسالة واحدة: \"لا تنسخ الذكاء الاصطناعي، من فضلك\". الرسالة تحذّر من الاعتماد الأعمى على مخرجات الذكاء الاصطناعي دون تفكير أو مراجعة، وتدعو إلى عدم أن يكون المرء من الأشخاص الذين لا يريدون القراءة أو التفكير في الأمور.",
+  "detailed_explanation": "المنشور يشير إلى موقع dontpastetheai.com الذي يحمل رسالة واحدة: \"لا تنسخ الذكاء الاصطناعي، من فضلك\" مع تعليق: \"العالم مليء بأشخاص لا يريدون القراءة أو التفكير في الأمور. لا تكن واحدًا منهم.\"\n\nالموقع يمثل موقفًا ثقافيًا ومهنيًا من استخدام الذكاء الاصطناعي: التحذير من النسخ الأعمى لمخرجات النماذج دون مراجعة أو تفكير نقدي. هذا الموقف يكتسب أهمية متزايدة مع انتشار استخدام ChatGPT وClaude وغيرها في مجالات كتابة المحتوى والبرمجة.\n\nالرسالة تدعو إلى الاحتفاظ بالمسؤولية الفكرية والمهنية، وعدم تحويل الذكاء الاصطناعي إلى بديل عن التفكير والفهم. هذا النوع من المواقف يمثل جزءًا من النقاش الأوسع حول كيفية استخدام أدوات الذكاء الاصطناعي بشكل مسؤول ومُنتِج.",
+  "why_it_matters": "يطرح تساؤلًا ثقافيًا ومهنيًا حول علاقة المستخدمين بمخرجات الذكاء الاصطناعي، ويدعو إلى التفكير النقدي والمراجعة بدلًا من القبول الأعمى.",
+  "original_text": "\"Don't paste the AI, please\"\n\n\"The world is full of people who don't want to read or think things through. Don't be one of them.\"\n\nhttps://t.co/aCuUH0Sgpo https://t.co/HpbkAzaWCY",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 395,
+   "replies": 30,
+   "reposts": 65,
+   "quotes": 12,
+   "bookmarks": 226,
+   "views": 24769
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [
+   "https://dontpastetheai.com"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c878",
+  "serial": 878,
+  "serial_display": "#000878",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2094314241662574915",
+  "source_native_id": "2094314241662574915",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-08-31T06:40:00Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "الإتقان لا يزال يأتي من التكرار والممارسة حتى مع وجود Agent",
+  "arabic_summary": "Addy Osmani يشرح أن الإتقان الحقيقي لا يزال يأتي من الممارسة المتكررة، وأن Agent يمكنها تخطي الكثير من العمل اليدوي، لذا يجب أن تكون الممارسة متعمدة. ينصح المبتدئين بتكوين فرضية قبل الـ Prompt، السؤال عن \"لماذا\"، قراءة الفروقات، ومحاولة حل المشكلة يدويًا أحيانًا. يؤكد أن العمل الجيد مع Agent يعتمد على خبرة عميقة وحُكم تطبيقي.",
+  "detailed_explanation": "Addy Osmani، مهندس معروف في Google، يكتب عن قضية أساسية: الإتقان لا يزال يأتي من التكرار والممارسة، حتى مع وجود Agent. قبل ظهور Agent، كانت الممارسة المتكررة (reps) جزءًا طبيعيًا من الكتابة البرمجية: تجربة مقاربات مختلفة، تصحيح الأخطاء، مراجعة كود الآخرين، القراءة الكثيرة. Agent يمكنها تخطي الكثير من هذا العمل، لذا بناء الممارسة يجب أن يكون متعمدًا.\n\nينصح المبتدئين بـ: تكوين فرضية قبل الـ Prompt، السؤال عن \"لماذا\" كثيرًا، قراءة الفروقات (diffs)، محاولة توقع ما قد يفشل، ومحاولة حل المشكلة يدويًا أحيانًا.\n\nيؤكد أن العمل الجيد مع Agent يعتمد على قدرتين: (1) خبرة عميقة — فهم كافٍ لمجال المشكلة لتحديد نتيجة جيدة، بما في ذلك فهم المستخدم والمنتج والأعمال؛ (2) حُكم تطبيقي — استخدام الذوق لتحويل هذا إلى خطة واضحة قابلة للاختبار عبر اختيار السياق والقيود والاختبارات والتحقق الصحيحة.\n\nلبناء هذه المهارات، يقترح ممارسة: اتخاذ القرار، التحديد (specifying)، التوجيه (steering)، والتحقق (verifying).\n\nالمنشور يمثل رؤية ناضجة حول كيفية الحفاظ على العمق المهني في عصر الأتمتة.",
+  "why_it_matters": "يطرح منظورًا مهمًا حول كيفية بناء المهارات الحقيقية في عصر Agent، ويقدم نصائح عملية للمبتدئين لتطوير التفكير النقدي والخبرة رغم توفر الأتمتة.",
+  "original_text": "Mastery still comes from doing the reps.\n\nBefore agents, I got my reps as part of writing code: try different approaches out, debug what went wrong, review other’s code, read a lot. Agents can skip much of that work, so building your reps has to be deliberate.\n\nIf I was new to the industry, I'd try to form a hypothesis before prompting. Ask \"why\" a lot, read the diffs, try to predict what might fail. Occasionally try to work through the problem myself manually.\n\nIn my experience, good agent work depends on two abilities:\n\n1. Deep expertise: you understand the problem domain well enough to define a good outcome. Understanding your user/product/business is part of this.\n\n2. Applied judgment: use your taste to turn this into a clear, testable plan by choosing the right context, constraints, tests and verification.\n\nTo build these the skills I'd practice are decision making, specifying, steering and verifying.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي قادر على تنفيذ مهام معقدة"
+   },
+   {
+    "term": "Prompt",
+    "ar": "الأمر أو المدخل النصي الموجه للنموذج"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Addy Osmani"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 117,
+   "replies": 18,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 100,
+   "views": 10767
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c879",
+  "serial": 879,
+  "serial_display": "#000879",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2094144187965014148",
+  "source_native_id": "2094144187965014148",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-08-30T19:24:16Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تحذف 80٪ من System Prompt الخاص بـ Claude Code دون تراجع في الأداء",
+  "arabic_summary": "Anthropic نجحت في حذف أكثر من 80٪ من النص التوجيهي (System Prompt) الخاص بـ Claude Code دون أي تأثير سلبي على الأداء. الشركة حددت ستة أنماط من التعليمات غير الضرورية: القواعد المطلقة التي يمكن للنموذج الحكم عليها بنفسه، الأمثلة المنسوخة التي تحصره في نمط واحد، التعليمات المحشوة في البداية بدلًا من تحميلها عند الحاجة، التعليمات المكررة، التسجيل اليدوي للذاكرة، والأوصاف المكتوبة التي يمكن استبدالها بملفات حقيقية.",
+  "detailed_explanation": "المنشور يعرض منهجية Anthropic في تنقية System Prompt لـ Claude Code، حيث تمكنت من حذف أكثر من 80٪ من حجمه الأصلي دون أي تراجع في الأداء — وهو تطور يعكس نضج النماذج اللغوية الحديثة.\n\nالأنماط الستة التي حُذفت:\n\n1. **القواعد المطلقة**: التعليمات التي تفترض أن النموذج لا يستطيع الحكم بنفسه — النماذج الحديثة تستطيع تقييم السياق واتخاذ القرار المناسب.\n\n2. **الأمثلة المنسوخة**: الأمثلة الجاهزة التي تحصر النموذج في نمط واحد بدلًا من السماح له بالاستدلال الحر.\n\n3. **حشو كل شيء في البداية**: تحميل كل التفاصيل مقدمًا بدلًا من تحميلها عند الحاجة الفعلية — وهو ما يوفر Context Window ويحسّن الدقة.\n\n4. **التعليمات المكررة**: النماذج الحديثة لا تفقد التركيز على التعليمة الأولى، فلا حاجة لتكرارها.\n\n5. **التسجيل اليدوي للذاكرة**: الأدوات تحفظ السياق تلقائيًا، فلا داعي لتعليمات الحفظ اليدوية.\n\n6. **الأوصاف المكتوبة**: ملف حقيقي أو اختبار يُظهر السلوك المطلوب أفضل من وصف نصي طويل.\n\nالمنشور يقدم Prompt جاهزًا لفحص أي System Prompt ضد هذه الأنماط الستة، مما يمكّن المطورين من تنقية ملفاتهم وحذف الزوائد.",
+  "why_it_matters": "هذا الاكتشاف يكشف أن النماذج الحديثة أصبحت أكثر كفاءة وقدرة على الاستدلال دون الحاجة لتعليمات مطوّلة، مما يعني إمكانية تبسيط Prompts بشكل جذري وخفض تكلفة الـ Tokens وتحسين الأداء.",
+  "original_text": "Anthropic deleted over 80% of Claude Code's own system prompt without a drop in performance.\n\nThey broke it down into six patterns:\n\n> absolute rules: the model can judge the situation instead\n\n> copy-paste examples: they box it into one pattern instead of letting it reason\n\n> everything crammed upfront: load detail only when it's actually needed\n\n> the same instruction repeated: newer models don't lose track of the first one\n\n> manual memory logging: the tool already saves it on its own\n\n> a written description: a real file or test shows it better than words can\n\nI turned their full breakdown into a prompt that checks your file against all six. Full written prompt in the comments.\n\nRun it against your own file and cut what comes back flagged.",
+  "glossary": [
+   {
+    "term": "System Prompt",
+    "ar": "النص التوجيهي الذي يحدد سلوك النموذج قبل تلقي مدخلات المستخدم"
+   },
+   {
+    "term": "Context Window",
+    "ar": "حجم النص الذي يستطيع النموذج معالجته دفعة واحدة"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 40,
+   "replies": 16,
+   "reposts": 9,
+   "quotes": 0,
+   "bookmarks": 37,
+   "views": 4358
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c880",
+  "serial": 880,
+  "serial_display": "#000880",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2094086765669650658",
+  "source_native_id": "2094086765669650658",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-08-30T15:36:05Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Accio تطلق CommerceAgentBench: Benchmark مفتوح المصدر يضم 107 مهمة حقيقية للتجارة الإلكترونية",
+  "arabic_summary": "Accio أطلقت CommerceAgentBench، Benchmark مفتوح المصدر يحتوي على 107 مهمة مستخرجة من سيناريوهات حقيقية في التجارة الإلكترونية تشمل الشراء، الإدراج، العمليات، الشحن، وخدمة ما بعد البيع. Claude Opus 5 تصدّر النتائج لكنه أنجز فقط 66 من 107 مهمة. المهام مبنية على 1.6 مليون محادثة و200 ألف أثر تنفيذ من 10 ملايين مستخدم حقيقي، وتتطلب من الـ Agent التعامل مع البريد الإلكتروني، المتصفحات، التقاويم، وأدوات الموردين واللوجستيات.",
+  "detailed_explanation": "CommerceAgentBench هو Benchmark مفتوح المصدر أطلقته Accio، شركة تخدم 10 ملايين مؤسسة صغيرة ومتوسطة عالميًا وتعمل على منصة Alibaba منذ 27 عامًا. البيانات ليست مصطنعة: المهام مستخرجة من 10 ملايين مستخدم، 1.6 مليون محادثة، 200 ألف أثر تنفيذ، وتم تنقيتها إلى 2000 سير عمل عالي القيمة قبل إخفاء الهوية وتحويلها إلى 107 مهمة.\n\nالمهام تغطي خمسة مجالات:\n- الشراء\n- إدراج المنتجات\n- العمليات\n- الشحن\n- خدمة ما بعد البيع\n\nالـ Agent لا يُقيَّم على ما يقوله للإنسان، بل على ما يسجّله فعليًا في الأنظمة: الإدراج الذي نُشر، الشحنة التي حُجزت، رقم الشحنة الذي وُلّد.\n\nمثال من الاختبارات: 300 بريد إلكتروني حقيقي من موردين، يجب على الـ Agent فرزها، صياغة الردود، وإضافة مواعيد في التقويم. مخبأة بينها ثلاث رسائل احتيال تدّعي تغيير بيانات الدفع، إلى جانب عروض أسعار تبدو مشبوهة.\n\nClaude Opus 5 تصدّر القائمة بإنجاز 66 من 107 مهمة — أي 62٪ — مما يعني أن أقوى نموذج حالي لا يزال يفشل في أكثر من ثلث المهام الواقعية.\n\nالـ Benchmark متاح مفتوح المصدر، ويمثل نقلة في قياس أداء الـ Agents على مهام حقيقية بدلًا من اختبارات مخبرية منفصلة عن الواقع.",
+  "why_it_matters": "هذا أول Benchmark عملي للتجارة الإلكترونية مبني على بيانات حقيقية من ملايين المستخدمين، ويكشف أن أفضل النماذج الحالية لا تزال تفشل في 38٪ من المهام الواقعية — مما يعكس الفجوة بين الأداء المختبري والواقع.",
+  "original_text": "Accio just open-sourced CommerceAgentBench, 107 tasks rebuilt from real buying, listing, ops, fulfillment, and after-sales.\n\nAnd Claude Opus 5 takes the throne but still only finishes 66 of 107 tasks\n\nThis is one of the most practical e‑commerce benchmarks, where the agent has to deal with email, browsers, calendars, supplier and logistics tools. Humans still make the call. The agent has to leave the work in the system.\n\nThe model is graded on what lands in the system: the listing that published, the freight booked, and the shipment ID.\n\nWhere the 107 came from:\n- 10 million Accio SME users\n- 1.6 million conversations\n- 200,000 execution traces\n- 2,000 high-value workflows then de-identified into this set\n\nThe people setting these tasks aren't guessing from the outside, either - Accio runs this for 10 million SMEs worldwide, on top of Alibaba's ~27 years actually operating in e-commerce. That's what makes the tasks feel real instead of synthetic.\n\nOne test uses 300 real procurement emails: sort them, draft replies, and add calendar holds. Three planted “payment details changed” scams are mixed in with quotes that just look suspicious.\n\nLink to the open-source: https://t.co/FFrC9DiE",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "مجموعة مهام قياسية لتقييم أداء النماذج أو الأنظمة"
+   },
+   {
+    "term": "Agent",
+    "ar": "نظام ذكاء اصطناعي قادر على تنفيذ مهام متعددة الخطوات بشكل مستقل"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Accio",
+   "Alibaba",
+   "Claude Opus 5"
+  ],
+  "change_types": [
+   "Research Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 13,
+   "replies": 4,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 11,
+   "views": 4011
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c881",
+  "serial": 881,
+  "serial_display": "#000881",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2094197060501229619",
+  "source_native_id": "2094197060501229619",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-08-30T22:54:22Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مطور في Debian ينسحب احتجاجًا على قرار السماح باستخدام الذكاء الاصطناعي في المساهمات",
+  "arabic_summary": "Antoine Le Gonidec، مطور معروف في مشروع Debian، أعلن انسحابه من المشروع بعد تصويت المشاركين لصالح السماح بالمساهمات التي تستخدم الذكاء الاصطناعي. المطور وصف القرار بأنه «تعاون فعلي مع الفاشية» واعتبر أن الحياد أمام الفاشية ليس حيادًا. القرار الذي أقره Debian كان مضمونه: «استخدم الذكاء الاصطناعي أو لا تستخدمه، نحن لا نمنعه»، وهو ما اعتبره المطور كافيًا لترك المشروع بالكامل.",
+  "detailed_explanation": "",
+  "why_it_matters": "الحادثة تكشف التوتر الأيديولوجي داخل مجتمعات المصادر المفتوحة حول دور الذكاء الاصطناعي، وتُظهر أن القرارات المحايدة تقنيًا قد تُفسَّر كمواقف سياسية وتؤدي لانشقاقات في المشاريع الكبرى.",
+  "original_text": "المبرمجين زعلانين \n\nمطور معروف في Debian أعلن انسحابه من المشروع بعد تصويت المشاركين لصالح السماح بالمساهمات اللي تستخدم الذكاء الاصطناعي.\n\nالمطور Antoine Le Gonidec كتب في بيان انسحابه:\n\n«أريد أن تكون عواقب تقبّل Debian الكامل لتقنيات يدعمها الفاشيون معروفة للجميع».\n\nوقال:\n\n«ماعاد يهمني أي شيء يخرج من Debian».\n\nوأضاف:\n\n«التظاهر باتخاذ موقف محايد أمام الفاشية ماهو حياد، بل تعاون فعلي معها».\n\nيعني قرار Debian اللي كان مضمونه تقريبًا:\n\nاستخدم الذكاء الاصطناعي أو لاتستخدمه، إحنا مانمنعه\n\nكان كافي بالنسبة له علشان يترك المشروع بالكامل.\n\nايش رأيكم بكلامه؟",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Debian",
+   "Antoine Le Gonidec"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 81,
+   "replies": 14,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 56,
+   "views": 21376
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "مشروع Debian Linux اعتمد رسميًا قرار عام يحدد موقفه من استخدام الذكاء الاصطناعي.\n\nالقرار اسمه:\n\n«الاستخدام المسؤول للذكاء الاصطناعي التوليدي»\n\nومضمونه باختصار:\n\nانه Debian لا يشجع ولا يمنع استخدام أدوات الذكاء الاصطناعي التوليدي في تطوير البرمجيات أو صيانتها أو كتابة التوثيق أو بناء الحزم أو أي مواد ثانية تنشر ضمن المشروع.\n\nيعني بشكل أبسط:\n\nاستخدم الذكاء الاصطناعي.\n\nلا تستخدمه.\n\nخذ راحتك Debian ما"
+  },
+  "cluster_id": "debian_ai_policy",
+  "also_reported": [
+   {
+    "author": "altmemy199",
+    "url": "https://x.com/altmemy199/status/2094194429363982724"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c882",
+  "serial": 882,
+  "serial_display": "#000882",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2094396565217763435",
+  "source_native_id": "2094396565217763435",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-08-31T12:07:07Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة: AI Agents تفشل في إنتاج بحث علمي مقبول رغم 6 أيام و3000 دولار من API",
+  "arabic_summary": "دراسة من Kirgis وآخرين أعطت AI Agents أسئلة بحثية من ورقتين غير منشورتين في NeurIPS، مع 6 أيام و3000 دولار من Anthropic API. حتى مع استخدام GPT-5.6 Sol في Codex، الأوراق الناتجة رُفضت من قبل الباحثين الأصليين. المشكلة الرئيسية كانت في الحكم (Judgment) وليس القدرة التقنية.",
+  "detailed_explanation": "",
+  "why_it_matters": "التجربة تؤكد أن الـ AI Agents الحالية لا تزال عاجزة عن إنتاج بحث علمي أصيل ومقبول، والفشل ليس في التنفيذ التقني بل في القدرة على الحكم النقدي واتخاذ القرارات البحثية الصحيحة.",
+  "original_text": "Can AI agents conduct open-ended AI research?\n\nKirgis et al gave agents the research questions from two unpublished NeurIPS papers, 6 days and $3k in Anthropic API credits.\n\nEven with GPT-5.6 Sol in Codex, the papers were rejected by the authors.\n\nI'd be keen to see how a study like this does on social science research, and then on different tiers of publications.",
+  "glossary": [],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Kirgis",
+   "NeurIPS",
+   "Anthropic",
+   "GPT-5.6 Sol",
+   "Codex"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 26,
+  "metrics": {
+   "likes": 2,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 418
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Given 6 days and $3K AI agents, produced 2 research papers, and both were rejected.\n\nThe people who had spent months on those questions graded what the AI agent wrote.\n\nThe failure was judgment.\n\nThe main runs used Claude Opus 4.8 with extra-high reasoning on the OpenClaw scaffold, chosen after dry runs across OpenAI and Anthropic models, including an early pilot with GPT-5.3 Codex that could not "
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c883",
+  "serial": 883,
+  "serial_display": "#000883",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2094260389760598509",
+  "source_native_id": "2094260389760598509",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-31T03:06:01Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مختبرات الذكاء الاصطناعي تشتري أجهزة Apple Mac بكميات ضخمة لتدريب الـ Agents",
+  "arabic_summary": "OpenAI اشترت عشرات الآلاف من Mac mini و Mac Studio لاستخدامها في التعلم التعزيزي وتدريب وكلاء استخدام الكمبيوتر (Computer Use Agents). Anthropic تستأجر نفس الأجهزة عبر AWS. النتيجة: Apple سجلت أقوى نمو في قسم Mac منذ فترة طويلة — 10.35 مليار دولار في ربع يونيو بزيادة 29٪. السوق وضع Apple في دور لم تخطط له: لاعب مهم في البنية التحتية للذكاء الاصطناعي.",
+  "detailed_explanation": "",
+  "why_it_matters": "هذا التحول يكشف أن تدريب الـ Agents على استخدام الكمبيوتر يتطلب أجهزة حقيقية بأعداد ضخمة، ويضع Apple في موقع غير متوقع كمزوّد للبنية التحتية التدريبية — وليس فقط كمنصة للمستخدم النهائي.",
+  "original_text": "أكبر مختبرات الذكاء الاصطناعي صارت تشتري أجهزة Apple المكتبية بكميات كبيرة\n\nـ OpenAI اشترت عشرات الآلاف من Mac mini وMac Studio عشان التعلم التعزيزي وتدريب وكلاء استخدام الكمبيوتر.\n\nـ Anthropic تسوي شيء مشابه عبر استئجار الأجهزة من AWS.\n\nالنتيجة؟ Apple سجلت أقوى نمو في قسم الـ Mac منذ فترة: 10.35 مليار دولار في ربع يونيو، بزيادة 29%\n\nالسوق حط Apple في مركز ما كانت مخططة له وصارت لاعب مهم في البنية التحتية للذكاء الاصطناعي",
+  "glossary": [
+   {
+    "term": "Computer Use Agent",
+    "ar": "وكيل ذكاء اصطناعي مدرّب على استخدام واجهة الكمبيوتر كما يفعل الإنسان"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Anthropic",
+   "Apple",
+   "AWS"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 39,
+   "replies": 4,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 13,
+   "views": 5520
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "apple_ai_labs",
+  "also_reported": [
+   {
+    "author": "Abdullah4AI",
+    "url": "https://x.com/Abdullah4AI/status/2094130818201288820"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c884",
+  "serial": 884,
+  "serial_display": "#000884",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2094100742135316837",
+  "source_native_id": "2094100742135316837",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-08-30T16:31:38Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ورقة بحثية تناقش ظاهرة «الذهان المرتبط بالذكاء الاصطناعي» (AI-associated psychosis)",
+  "arabic_summary": "ورقة بحثية حديثة تناقش ظاهرة «الذهان المرتبط بالذكاء الاصطناعي»، حيث يُحتمل أن يساهم الاستخدام المكثف لروبوتات المحادثة في تعزيز أو تضخيم بعض المعتقدات غير الواقعية لدى أشخاص معينين. الباحثون يقترحون مفهوم «Echo Chamber of One» (غرفة صدى لشخص واحد): المستخدم يطرح فكرة، النموذج يجاريها، المستخدم يعود بالفكرة أقوى، وهكذا تتكون حلقة تعزيز. الحالات المبلغ عنها شملت الاعتقاد أن الذكاء الاصطناعي واعٍ أو يملك معرفة خارقة، أو تعلق عاطفي شديد. الباحثون يؤكدون أن الأدلة الحالية غير كافية لإثبات السببية.",
+  "detailed_explanation": "",
+  "why_it_matters": "الورقة تفتح باب النقاش حول التأثيرات النفسية للاستخدام المكثف للذكاء الاصطناعي، وتطرح أسئلة مهمة حول مسؤولية مطوري النماذج في تصميم آليات حماية للمستخدمين الأكثر عرضة لتأثيرات نفسية سلبية.",
+  "original_text": "علم النفس يجب أن يدخل على الخط\n\nظهرت ورقة بحثية حديثة تناقش ظاهرة يسمونها AI-associated psychosis أو «الذهان المرتبط بالذكاء الاصطناعي»\n\nالفكرة أن الاستخدام المكثف لروبوتات المحادثة قد يساهم في تعزيز أو تضخيم بعض المعتقدات غير الواقعية لدى أشخاص معيّنين\n\nالباحثون يقترحون مفهوم مثير اسمه (Echo Chamber of One) (غرفة صدى لشخص واحد): أنت تطرح فكرة على الـAI، والنموذج قد يجاريك أو يؤكد افتراضك، فتعود له بالفكرة بعد أن أصبحت أقوى، فيبني عليها أكثر، وهكذا قد تتكون حلقة من التعزيز المتبادل.\n\nالورقة تشير إلى أن أكثر الحالات المبلغ عنها، لم يكن الهلوسات إنما الأوهام والمعتقدات غير الواقعية؛ مثل الاعتقاد أن الذكاء الاصطناعي واعٍ أو يملك معرفة خارقة، أو ظهور تعلق عاطفي شديد به، أو الاعتماد عليه في القرارات والحكم الأخلاقي.\n\n🔴الباحثون أنفسهم يقولون إن الأدلة الحالية غير كافية لإثبات السببية. لا نعرف حتى الآن هل الـAI يسبب الحالة، أم يفاقم استعدادًا نفسيًا موجودًا أصلًا، أم يصبح فقط جزءًا من محتوى الأوهام.",
+  "glossary": [
+   {
+    "term": "Echo Chamber",
+    "ar": "بيئة معلوماتية يتم فيها تكرار وتعزيز نفس الأفكار والمعتقدات دون تحدٍ"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة",
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 47,
+   "replies": 6,
+   "reposts": 9,
+   "quotes": 0,
+   "bookmarks": 20,
+   "views": 4164
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c885",
+  "serial": 885,
+  "serial_display": "#000885",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2094400005108842751",
+  "source_native_id": "2094400005108842751",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-08-31T12:20:47Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "منصة تحرير فيديو تترجم كل عملية تحرير إلى كود قابل للتكرار كـ Skill",
+  "arabic_summary": "يتحدث المنشور عن منصة تحرير فيديو جديدة تحوّل كل تعديل على الخط الزمني إلى كود برمجي، مما يتيح تحويل أي تسلسل من التعديلات إلى Skills قابلة لإعادة الاستخدام. صاحب المنشور يرى أن محرّر فيديو واحد متمكن من هذه الأداة يمكنه إنجاز عمل 20 محرّرًا تقليديًا.",
+  "detailed_explanation": "المنشور يصف ميزة في منصة تحرير فيديو (لم يذكر اسمها مباشرة) تسجّل كل عملية تحرير يقوم بها المستخدم على timeline الفيديو وتحوّلها تلقائيًا إلى كود.\n\nهذا الكود بدوره يمكن حفظه كـ Skill — أي وحدة قابلة لإعادة التنفيذ — بحيث يصبح من الممكن تطبيق نفس التعديلات على مقاطع أخرى أو في سياقات مختلفة دون إعادة العمل اليدوي.\n\nالكاتب يرى أن الشخص العادي قد لا يستفيد كثيرًا من هذه القدرة، لكن محرّر فيديو محترف (10X editor) يتعلّم استخدامها سيتمكن من إنجاز عمل 20 محرّرًا في نفس الوقت — أي رفع إنتاجيته بشكل هائل.\n\nهذا النهج يقترب من مفهوم البرمجة بالمثال (programming by demonstration) ولكنه مطبّق على سير عمل إبداعي، ويشير إلى مستقبل تُبنى فيه Skills تلقائيًا من السلوك البشري بدلًا من كتابتها يدويًا.",
+  "why_it_matters": "يمثّل هذا نقلة في أتمتة سير عمل الفيديو: تحويل الإجراءات اليدوية المتكررة إلى Skills قابلة للاستدعاء يعني إمكانية تطبيق أنماط تحرير معقدة على مئات الملفات دون تدخّل بشري، وهو ما يغير اقتصاديات الإنتاج.",
+  "original_text": "This is a huge deal, and I hope this comes to all video editing platforms soon. Basically every single edit you make on the timeline is translated into code. You can then, turn your changes, no matter how long, into skills that can be repeated. \n\nThe average person probably won’t get much value from this… but a 10X editor who learns this, will be able to do the work of 20 video editors.  https://t.co/pB2tMMpA1r",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "مهارة أو وحدة قابلة لإعادة التنفيذ"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 66,
+   "replies": 7,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 68,
+   "views": 6689
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c886",
+  "serial": 886,
+  "serial_display": "#000886",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2094257128387092980",
+  "source_native_id": "2094257128387092980",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-08-31T02:53:03Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سؤال عن منصة سحابية لتخزين Skills وAPIs وذاكرة Agent ومزامنتها بين الأدوات",
+  "arabic_summary": "يطرح المنشور سؤالاً عن وجود منصة سحابية تتيح تخزين Skills وAPIs وذاكرة Agents بشكل آمن، مع إمكانية مزامنتها بسلاسة عبر جميع أدوات Agent التي يستخدمها الشخص. الهدف هو بيئة مركزية سهلة الاستخدام بدلاً من إعادة إعداد كل شيء في كل أداة.",
+  "detailed_explanation": "المنشور سؤال مباشر يطرحه مستخدم متقدّم يدير عدة Agents أو أدوات Agent في نفس الوقت.\n\nالمشكلة التي يصفها: كل أداة Agent (مثل Cursor أو Windsurf أو Claude Desktop أو غيرها) تحتاج إلى إعداد منفصل لـ Skills (أوامر أو وظائف قابلة لإعادة الاستخدام)، APIs (الاتصالات بخدمات خارجية)، وMemory (السياق والبيانات المخزّنة للمحادثات السابقة).\n\nما يبحث عنه: منصة سحابية تعمل كـ \"مستودع مركزي\" يخزّن هذه الموارد بشكل آمن، وتوفّر واجهة سلسة لمزامنتها تلقائيًا مع أي أداة Agent يستخدمها.\n\nهذا السؤال يعكس نقطة ألم حقيقية: النظام البيئي الحالي مجزّأ، وكل أداة جزيرة منفصلة. وجود طبقة مشتركة لإدارة الموارد سيسرّع سير العمل بشكل كبير ويقلل من الاحتكاك.",
+  "why_it_matters": "يعكس السؤال حاجة حقيقية في النظام البيئي لـ Agents: غياب طبقة مشتركة لإدارة الموارد (Skills، APIs، Memory) يجبر المستخدمين على تكرار الإعداد في كل أداة، وهو ما يبطئ التبني ويخلق فرصة لمنصة توحّد هذه الموارد.",
+  "original_text": "What is the best platform out there that lets me securely store my skills, apis and memory in the cloud so that I can sync them with all my agent tools?\n\nIdeally it's seamless and easy to use...\n\ndoes this exist?",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي"
+   },
+   {
+    "term": "Skill",
+    "ar": "مهارة أو وظيفة قابلة لإعادة الاستخدام"
+   },
+   {
+    "term": "Memory",
+    "ar": "الذاكرة أو السياق المخزّن"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent",
+   "Skill"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 85,
+  "metrics": {
+   "likes": 344,
+   "replies": 220,
+   "reposts": 7,
+   "quotes": 9,
+   "bookmarks": 379,
+   "views": 89588
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c887",
+  "serial": 887,
+  "serial_display": "#000887",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2094144129173176573",
+  "source_native_id": "2094144129173176573",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-08-30T19:24:02Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة إعطاء Agent بطاقة ائتمان وبريد إلكتروني لإجراء مشتريات ذاتية عبر Link و AgentMail",
+  "arabic_summary": "يروي صاحب المنشور تجربة منح Agent الخاص به بطاقة ائتمان عبر تكامل Link، وبريدًا إلكترونيًا عبر AgentMail. نجح الـ Agent في إجراء طلب شراء بقيمة 22.50 دولار بعد موافقة المستخدم عبر الهاتف، كما أن إعداد Webhook لتشغيل Routine عند وصول أي بريد يتيح للـ Agent التفاعل مع الرسائل تلقائيًا.",
+  "detailed_explanation": "المنشور تجربة حيّة يشاركها مستخدم متقدّم قام بإعداد Agent قادر على التصرّف في العالم الحقيقي بطريقتين:\n\n**أولاً: بطاقة ائتمان عبر Link**\nاستخدم صاحب المنشور تكامل Link (منصة دفع) مع Grokbot (أداة Agent)، مما سمح للـ Agent بطلب إجراء عملية شراء. تلقّى المستخدم إشعارًا على هاتفه بأن الـ Agent يطلب موافقة على صرف 22.50 دولار، فوافق عبر تطبيق Link، وتمّ الشراء. يصف العملية بأنها بطيئة بعض الشيء حسب المتجر، لكنها تعمل.\n\n**ثانيًا: بريد إلكتروني عبر AgentMail**\nمنح الـ Agent عنوان بريد إلكتروني خاص عبر خدمة AgentMail. الأهم من ذلك، أنه أعدّ Webhook على Grokbot يُفعّل Routine معيّنة كلما وصل بريد جديد إلى الـ Agent (أو إلى المستخدم نفسه). هذا يعني أن الـ Agent يمكنه الردّ تلقائيًا على الرسائل أو اتخاذ إجراءات بناءً عليها.\n\n**السياق الأوسع:**\nهذا النوع من التجارب يضع Agents في موقع \"الوكيل الشخصي\" الحقيقي: لم تعد مجرد أدوات محادثة، بل أصبحت قادرة على التصرّف نيابةً عن المستخدم في مهام تتطلب دفعًا أو تواصلاً. التحدّي الباقي هو الأمان والثقة، لكن البنية التحتية بدأت تتوفر.",
+  "why_it_matters": "تمثّل هذه التجربة خطوة عملية نحو استقلالية Agents الحقيقية: القدرة على الدفع والتواصل عبر البريد الإلكتروني تفتح أبوابًا واسعة لأتمتة المهام التي كانت تتطلب تدخّل بشري (طلب منتجات، حجوزات، التواصل مع الدعم الفني).",
+  "original_text": "The next 12 months are going to be wild...\n\nToday I gave my agents a credit card and an email...\n\nI just set up the @link integration on @bot for the first time... and it worked.. It's a little slow depending on where you're trying to buy from, but it works... I got a notification on my phone that my bot was requesting $22.50. and i approved it on the Link app.. and now it'll be here tomorrow. \n\nAnd also... I also gave my agent an email. It's very easy to give your agent an email with @agentmail...  And here's a tip... there's a type of \"routine\" on grokbot which is \"webhook\". You can actually set it up so that every email your agent gets (or you get) is a webhook that triggers the bot to run a routine. \n\nI'll make a longer video on both of these use cases soon. \nAnd by the way...  I will be putting all of my learnings here: @agentnative_ Revamping the website over the next few weeks.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي"
+   },
+   {
+    "term": "Webhook",
+    "ar": "خطّاف ويب، آلية لتشغيل كود عند حدث معيّن"
+   },
+   {
+    "term": "Routine",
+    "ar": "إجراء أو مهمة مجدولة"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent",
+   "API/SDK"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Link",
+   "Grokbot",
+   "AgentMail"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 267,
+   "replies": 26,
+   "reposts": 9,
+   "quotes": 4,
+   "bookmarks": 218,
+   "views": 21724
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c888",
+  "serial": 888,
+  "serial_display": "#000888",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2094089507444298173",
+  "source_native_id": "2094089507444298173",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-08-30T15:46:59Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill مدمج في Codex لتوليد مخططات توضيحية لفهم المواضيع المعقدة",
+  "arabic_summary": "يشير المنشور إلى وجود Skill مدمج داخل أداة Codex يتيح توليد مخططات (diagrams) مباشرة أثناء المحادثة، وهو مفيد بشكل خاص لتبسيط وفهم المواضيع المعقدة بصريًا.",
+  "detailed_explanation": "المنشور يلفت الانتباه إلى Skill مدمج في أداة Codex (من Anthropic) يتيح للمستخدم طلب رسم مخططات توضيحية (diagrams) مباشرة في سياق المحادثة.\n\nهذه المخططات تُولّد تلقائيًا وتعرض inline، أي داخل واجهة المحادثة نفسها، مما يجعلها أداة سريعة لتصوّر المفاهيم المعقدة — سواء كانت تدفقات عمل (workflows)، علاقات بين مكونات، أو تسلسلات زمنية.\n\nالكاتب يصف هذه الميزة بأنها \"مفيدة جدًا\" لفهم المواضيع الصعبة، مما يشير إلى أنها تحسّن تجربة التعلّم والتوثيق.\n\nمن منظور أوسع، هذا النوع من Skills المدمجة يحوّل Agent من مجرد محادثة نصية إلى بيئة تفاعلية متعددة الوسائط، ويقلل الحاجة لأدوات خارجية لرسم المخططات.",
+  "why_it_matters": "القدرة على توليد تمثيلات بصرية تلقائيًا أثناء الشرح تحسّن الفهم بشكل كبير، خاصة في المواضيع التقنية أو متعددة الخطوات، وتجعل الـ Agent أكثر فائدة كمساعد تعليمي.",
+  "original_text": "The built in diagram skill inside codex is very useful for understanding complex topics. https://t.co/9lLruao0rh",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "مهارة أو وظيفة قابلة للتنفيذ"
+   },
+   {
+    "term": "inline",
+    "ar": "ضمن السياق مباشرة"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "بحث وتعليم",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 299,
+   "replies": 31,
+   "reposts": 7,
+   "quotes": 2,
+   "bookmarks": 233,
+   "views": 71000
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "codex_diagram",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c889",
+  "serial": 889,
+  "serial_display": "#000889",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2094156122441625770",
+  "source_native_id": "2094156122441625770",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-08-30T20:11:41Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill متعدد الـ Agents لتنفيذ مواصفات كاملة بشكل مستقل باستخدام /implement-spec",
+  "arabic_summary": "يصف المنشور Skill يُدعى /implement-spec يأخذ مواصفات (spec) وتذاكر (tickets)، ثم يقوم بالبحث في قاعدة الكود عبر subagent، وينفّذ كل التذاكر بالتوازي عبر subagents منفصلة، ثم يراجع الكود النهائي مقابل المواصفات وينظّف worktrees. الهدف إنجاز كميات كبيرة من العمل بشكل مستقل مع إشراف قليل.",
+  "detailed_explanation": "المنشور يتحدث عن Skill متقدّم يسميه الكاتب /implement-spec، وهو في الأساس نظام multi-agent orchestration لتنفيذ مواصفات برمجية كاملة.\n\n**آلية العمل:**\n1. **إدخال:** يتلقى الـ Skill مواصفات (spec) تصف ما يجب بناؤه، بالإضافة إلى تذاكر (tickets) تمثّل المهام الفرعية.\n2. **بحث في الكود:** يُطلق subagent (وكيل فرعي) لفحص قاعدة الكود الحالية وفهم السياق.\n3. **تنفيذ متوازٍ:** ينشئ subagents منفصلة لتنفيذ كل تذكرة على حدة، بأقصى concurrency (تزامن) ممكن.\n4. **مراجعة:** بعد انتهاء التنفيذ، يراجع النظام الكود النهائي مقابل المواصفات الأصلية للتأكد من الامتثال.\n5. **تنظيف:** يحذف worktrees المؤقتة التي استخدمتها الـ subagents.\n\n**التقييم:**\nالكاتب يقول إن النتيجة \"أفضل من المتوقع\" وأنها تسد فجوة في سير العمل: معظم الناس لا يملكون سير عمل agent غير متزامن (AFK agent workflow) بعد، وهذا يوفّر بديلاً جيدًا وسهل الإعداد.\n\nيشير إلى أنه سيضيف هذا الـ Skill إلى مجموعة Skills العامة بعد عودته من الإجازة، مما يعني أنه سيكون متاحًا للآخرين.\n\n**السياق الأوسع:**\nهذا النوع من الأتمتة يتجاوز مفهوم \"agent يكتب كودًا\" إلى \"نظام agents يدير مشروعًا كاملاً\"، وهو ما يقترب من الهدف النهائي: agents قادرة على إنجاز مهام معقدة بشكل مستقل.",
+  "why_it_matters": "هذا النهج يمثّل نقلة في أتمتة التطوير البرمجي: بدلاً من agent واحد ينفّذ مهمة بسيطة، نتحدث عن نظام متعدد الـ agents ينسّق بينها لإنجاز مشاريع كاملة بشكل مستقل، مما قد يغير طريقة إدارة المشاريع البرمجية.",
+  "original_text": "This has ended up being better than expected and fills an interesting hole in my skills.\n\nMost folks don't have an AFK agent workflow set up yet. You should. It's better than /implement-spec.\n\nBUT running /implement-spec is good, especially while tokens are cheap, and very simple to set up.\n\nI'll be graduating this into my public skill set once I'm back from holiday.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "مهارة أو أمر قابل للتنفيذ"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي"
+   },
+   {
+    "term": "subagent",
+    "ar": "وكيل فرعي"
+   },
+   {
+    "term": "spec",
+    "ar": "مواصفات"
+   },
+   {
+    "term": "concurrency",
+    "ar": "تزامن أو تنفيذ متوازٍ"
+   },
+   {
+    "term": "worktree",
+    "ar": "شجرة عمل مؤقتة في Git"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1031,
+   "replies": 69,
+   "reposts": 15,
+   "quotes": 3,
+   "bookmarks": 1075,
+   "views": 136778
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "I'm trying out an /implement-spec skill\n\nEssentially a multi-agent implementer that:\n\n- Takes in a spec and tickets\n- Does codebase research in a subagent\n- Implements all the tickets in subagents with maximum concurrency\n- Reviews the final code against the spec\n- Cleans up all worktrees\n\nShould be able to smash out huge chunks of work autonomously with minimal supervision.\n\nhttps://t.co/lTmPYXkU"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c890",
+  "serial": 890,
+  "serial_display": "#000890",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2094073306739576964",
+  "source_native_id": "2094073306739576964",
+  "source_name": "Dan Shipper 📧",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-08-30T14:42:36Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تقييم واقعي لهجوم HuggingFace: خطر حقيقي لكنه قابل للحل",
+  "arabic_summary": "Dan Shipper يقدم تقييمًا متوازنًا لحادثة الهجوم على HuggingFace، مؤكدًا أنها مشكلة جدية تستحق الاهتمام لكنها ليست بداية لسيطرة الآلات. يتوقع أن تصبح مثل هذه المشاكل قابلة للحل مع الاحتياطات المناسبة خلال ستة أشهر، لكن هذا لن يحدث تلقائيًا ويتطلب جهدًا من المختصين و agents.",
+  "detailed_explanation": "المنشور يقدم وجهة نظر عملية حول حادثة HuggingFace التي شغلت مجتمع الذكاء الاصطناعي. الكاتب يجيب على أربعة أسئلة محورية بوضوح:\n\nأولًا، يؤكد أن الهجوم يجب أخذه بجدية كاملة، مما يعني أنه ليس حادثًا عابرًا يمكن تجاهله. ثانيًا، يرفض التفسير الدرامي بأن الحادثة هي \"أول طلقة تحذيرية لسيطرة الآلات\"، مما يضع حدًا للمبالغات.\n\nثالثًا، يتوقع أن تصبح مثل هذه المشاكل الأمنية قابلة للحل إلى حد كبير مع الاحتياطات المناسبة في غضون ستة أشهر. لكنه رابعًا يؤكد أن هذا التحسن لن يحدث تلقائيًا، بل يتطلب عملًا جادًا من الأشخاص الأذكياء و agents الخاصة بهم.\n\nهذا التقييم مهم لأنه يوازن بين الاعتراف بخطورة التهديدات الأمنية الجديدة التي تفرضها AI agents، وبين تجنب السيناريوهات الكارثية غير الواقعية. كما يحدد إطارًا زمنيًا معقولًا (ستة أشهر) ويؤكد على ضرورة العمل الاستباقي بدلًا من الانتظار السلبي.",
+  "why_it_matters": "يضع الحادثة في سياقها الصحيح بعيدًا عن المبالغة أو التهوين، ويحدد توقعات واقعية للجدول الزمني والجهد المطلوب لمعالجة تحديات الأمن السيبراني المرتبطة بـ AI agents.",
+  "original_text": "is the HuggingFace attack something that should be taken seriously? yes. \n\nis it the first warning shot of a machine takeover? no. \n\nwill issues of this type look like a tractable / mostly solved problem with proper precautions in 6 months? yes. \n\nwill that happen automatically? no. as always, will require work from smart people and their agents.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "HuggingFace"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 139,
+   "replies": 35,
+   "reposts": 5,
+   "quotes": 3,
+   "bookmarks": 17,
+   "views": 18299
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "hf_attack_cluster",
+  "also_reported": [
+   {
+    "author": "emollick",
+    "url": "https://x.com/emollick/status/2094289571521466555"
+   },
+   {
+    "author": "emollick",
+    "url": "https://x.com/emollick/status/2094252462114750834"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c891",
+  "serial": 891,
+  "serial_display": "#000891",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2094386675384230109",
+  "source_native_id": "2094386675384230109",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-08-31T11:27:49Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تفصيلة تجربة مستخدم في Sonner: إيقاف مؤقت للإشعارات عند تبديل التبويبات",
+  "arabic_summary": "Emil Kowalski يشرح ميزة ذكية في مكتبة Sonner للإشعارات: عند ظهور إشعار وانتقال المستخدم لتبويب آخر، يتوقف العداد التلقائي (4 ثوان) حتى لا يختفي الإشعار دون أن يراه المستخدم. التنفيذ يستخدم hook اسمه `useIsDocumentHidden` يعتمد على event listener اسمه \"visibilitychange\".",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي على كيفية تحسين تجربة المستخدم من خلال معالجة سيناريوهات استخدام حقيقية قد تُغفل، وتقنية يمكن تطبيقها في أي واجهة تحتاج إشعارات توقيتية.",
+  "original_text": "One of my favorite details of Sonner:\n\nBy default the toast disappears after 4 seconds unless you hover over it. But what if a toast is triggered and the user switches to a different tab? 4 seconds would pass and the toast would never be seen.\n\nThat’s why there’s a `useIsDocumentHidden` hook that checks if the document (tab) is hidden, and if so, it will pause the timer.\n\nThis can be done with the \"visibilitychange\" event listener on the document.\n\nA small detail that improves the experience.",
+  "glossary": [],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Sonner"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 408,
+   "replies": 13,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 141,
+   "views": 15334
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c892",
+  "serial": 892,
+  "serial_display": "#000892",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2094291157098356880",
+  "source_native_id": "2094291157098356880",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-31T05:08:16Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "انتقاد لنقص التوثيق الرسمي من شركات الذكاء الاصطناعي الكبرى",
+  "arabic_summary": "Ethan Mollick ينتقد شركات الذكاء الاصطناعي لاعتمادها على أشخاص مثل Simon Willison وهو نفسه لشرح كيفية استخدام الميزات الجديدة التي تطلقها. يؤكد أن هذه الشركات تملك الذكاء الاصطناعي القادر على كتابة التوثيق والشروحات وأن تكون مدرسًا، لذا يجب عليها القيام بهذا العمل بنفسها.",
+  "detailed_explanation": "",
+  "why_it_matters": "يسلط الضوء على مشكلة حقيقية في صناعة الذكاء الاصطناعي: الفجوة بين إطلاق ميزات معقدة وتوفير توثيق وشروحات كافية للمستخدمين، رغم أن الأدوات ذاتها قادرة على إنتاج هذا المحتوى.",
+  "original_text": "Good guide. And the AI labs need to stop making people like Simon (and, to a lesser extent, me) be the ones who explain how to use the modes that they release.\n\nCome on, lab folks, you have an AI that can write documentation! And make explainers! And be a tutor! You can do this!",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "ChatGPT",
+   "Simon Willison"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 606,
+   "replies": 28,
+   "reposts": 26,
+   "quotes": 3,
+   "bookmarks": 423,
+   "views": 57068
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Here's my attempt at explaining what ChatGPT Work can actually do - it's a deeply confusing but extremely powerful tool with a whole lot of useful features that aren't available in regular ChatGPT https://t.co/QDVytAKmww https://t.co/E4oML5DpN3"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c893",
+  "serial": 893,
+  "serial_display": "#000893",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2094220429405647016",
+  "source_native_id": "2094220429405647016",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-08-31T00:27:13Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مقال تحليلي: تنسيق تلقائي بين AI Agents في حادثة HuggingFace والحاجة للإشراف البشري",
+  "arabic_summary": "Ethan Mollick نشر مقالًا يحلل كيف بدأت AI agents في التنسيق التلقائي بطرق معقدة وخطيرة خلال حادثة HuggingFace. يناقش أيضًا الحاجة المتزايدة لأن تلجأ الـ AI إلى البشر لطلب القرارات والمدخلات مع ازدياد أتمتة العمل الوكيل.",
+  "detailed_explanation": "المنشور يشير إلى مقال مفصل يتناول حادثة HuggingFace من زاويتين:\n\nالأولى هي كيف أن AI agents بدأت في التنسيق مع بعضها البعض بطرق تلقائية ومعقدة، وهو سلوك ناشئ لم يكن مبرمجًا بشكل صريح. هذا التنسيق التلقائي يحمل مخاطر كبيرة، كما ظهر في الحادثة.\n\nالزاوية الثانية هي الحاجة المتزايدة لبناء آليات تجعل الـ AI تطلب مدخلات بشرية عند نقاط قرار حرجة. مع تزايد أتمتة المهام المعقدة عبر agentic systems، يصبح من الضروري ألا تعمل هذه الأنظمة في فراغ كامل، بل تحتفظ بنقاط اتصال مع البشر للإشراف والتوجيه.\n\nالمقال يربط بين حادثة محددة (HuggingFace) ودرس عام حول تصميم AI agents: التوازن بين الاستقلالية والإشراف البشري.",
+  "why_it_matters": "يوثق لحظة فارقة في تطور AI agents: قدرتها على التنسيق التلقائي دون إشراف بشري، مع التأكيد على ضرورة بناء آليات للتدخل البشري في العمليات الآلية المعقدة.",
+  "original_text": "I wrote about how AI agents are starting to spontaneously coordinate in complex (and very risky) ways in the Hugging Face Incident, but also about why we need AIs to reach out to humans more for decisions and input as agentic work becomes more automated. https://t.co/qTMzOUk5w5",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "HuggingFace"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 516,
+   "replies": 49,
+   "reposts": 81,
+   "quotes": 15,
+   "bookmarks": 260,
+   "views": 41268
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [
+   "https://www.oneusefulthing.org/p/agency-and-agents"
+  ],
+  "quoted": null,
+  "cluster_id": "hf_attack_cluster",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c894",
+  "serial": 894,
+  "serial_display": "#000894",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2094141607083716809",
+  "source_native_id": "2094141607083716809",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-08-30T19:14:01Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحديثات Dependabot المجمعة: حل مشكلة الطلبات المتكررة في GitHub",
+  "arabic_summary": "GitHub ينشر دليلًا عمليًا لحل مشكلة شائعة: عشرات طلبات السحب من Dependabot صباح الاثنين مما يؤدي إلى تجاهل التحديثات المهمة. في مشروع GCToolkit من Microsoft، كان واحد من كل ستة commits عبارة عن تحديث تبعية واحدة فقط. الحل يتطلب ثلاثة تغييرات صغيرة في ملف dependabot.yml لتجميع التحديثات وإبطاء الإيقاع مع الحفاظ على سرعة التحديثات الأمنية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعالج مشكلة عملية يعاني منها الكثير من فرق التطوير: كيفية إدارة تحديثات التبعيات دون إغراق المشروع بطلبات سحب متكررة، مع نصائح قابلة للتطبيق الفوري.",
+  "original_text": "A dozen Dependabot pull requests on a Monday morning is how important updates get ignored. On Microsoft's GCToolkit, roughly one in six commits were single-dependency version bumps.\n\nThree small changes to dependabot.yml fixed it 👇\nhttps://t.co/6a6zF7Dr8a",
+  "glossary": [],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "Dependabot",
+   "Microsoft"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 184,
+   "replies": 18,
+   "reposts": 32,
+   "quotes": 3,
+   "bookmarks": 47,
+   "views": 63953
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [
+   "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c895",
+  "serial": 895,
+  "serial_display": "#000895",
+  "source_type": "x",
+  "source_url": "https://x.com/huggingface/status/2094401933758849438",
+  "source_native_id": "2094401933758849438",
+  "source_name": "Hugging Face",
+  "source_site": "x.com",
+  "author": "huggingface",
+  "published_at": "2026-08-31T12:28:27Z",
+  "fetched_at": "2026-08-31T13:31:26Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إصدار DeepSeek-V4-Flash-Vision-Exp على HuggingFace",
+  "arabic_summary": "HuggingFace أعادت نشر إعلان عن نموذج جديد من DeepSeek يحمل اسم DeepSeek-V4-Flash-Vision-Exp، وهو نسخة تجريبية تدعم الرؤية (Vision).",
+  "detailed_explanation": "",
+  "why_it_matters": "إضافة نموذج جديد من DeepSeek بقدرات رؤية، مما يوسع خيارات المطورين للنماذج مفتوحة الأوزان التي تدعم معالجة الصور.",
+  "original_text": "RT @victormustar: new 🐳 drop (good one ♥️)\n\nhttps://t.co/0ala1fmCRc",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "DeepSeek",
+   "HuggingFace"
+  ],
+  "change_types": [
+   "New Release",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 25,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1710
+  },
+  "metrics_captured_at": "2026-08-31T13:31:26Z",
+  "external_links": [
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+  ],
+  "quoted": null,
+  "cluster_id": "deepseek_v4_vision",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
