@@ -42,5 +42,57 @@
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": "issue"
+ },
+ {
+  "id": "c869",
+  "serial": 869,
+  "serial_display": "#000869",
+  "source_type": "youtube",
+  "source_url": "https://www.youtube.com/watch?v=hltLrjabkiY",
+  "source_native_id": null,
+  "source_name": "ByteByteGo",
+  "source_site": "youtube.com",
+  "author": "youtube.com",
+  "published_at": "2026-08-31T05:20:23Z",
+  "fetched_at": "2026-08-31T05:20:23Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شرح مفهوم الـ APIs في ست دقائق من ByteByteGo",
+  "arabic_summary": "فيديو تعليمي قصير من قناة ByteByteGo يشرح مفهوم الـ APIs. النص المتوفر يقتصر على وصف عام للفيديو دون تفاصيل المحتوى الفعلي. لا يمكن استخلاص الشرح التقني أو الأمثلة المستخدمة من المصدر المعطى.",
+  "detailed_explanation": "",
+  "why_it_matters": "المصدر المتوفر لا يحتوي على معلومات كافية لتحديد القيمة الفعلية أو الأثر التقني للمحتوى المشروح.",
+  "original_text": "",
+  "glossary": [
+   {
+    "term": "API",
+    "ar": "واجهة برمجية تسمح لتطبيقات مختلفة بالتواصل وتبادل البيانات والوظائف فيما بينها"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "ByteByteGo",
+   "YouTube"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 0,
+  "metrics": {},
+  "metrics_captured_at": "2026-08-31T05:20:23Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
  }
 ]
