@@ -180,8 +180,8 @@ const Taxonomy = (() => {
   const PIN=[];   // التثبيت انتقل إلى محور «نوع الأداة» المستقل
   const entM = countMap('entities');
   const srcM = {}; Store.all().forEach(i => { const t = i.source_type||'x'; srcM[t]=(srcM[t]||0)+1; });
-  const srcRows = ['x','web','youtube','github'].map(t => [t, srcM[t]||0, false])
-      .concat(Object.keys(srcM).filter(t=>!['x','web','youtube','github'].includes(t)).map(t=>[t,srcM[t],false]));
+  const srcRows = ['x','article','web','youtube','github'].map(t => [t, srcM[t]||0, false])
+      .concat(Object.keys(srcM).filter(t=>!['x','article','web','youtube','github'].includes(t)).map(t=>[t,srcM[t],false]));
   return {
     sources: srcRows,
     dates,
@@ -283,8 +283,8 @@ function ago(iso){
 }
 function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
 const SP = {cols: RAW.stats.sprite_cols||10, tile: RAW.stats.sprite_tile||52};
-const SRC_LABEL = {x:'X / Twitter', youtube:'YouTube', github:'GitHub', web:'مواقع ومقالات'};
-const SRC_HUE   = {youtube:0, github:265, web:200, x:20};
+const SRC_LABEL = {x:'X / Twitter', youtube:'YouTube', github:'GitHub', web:'مواقع ومقالات', article:'مقالات'};
+const SRC_HUE   = {youtube:0, github:265, web:200, x:20, article:150};
 function srcOf(i){ return i.source_type || 'x'; }
 function isX(i){ return srcOf(i)==='x'; }
 /* اسم المصدر المعروض: حساب X، أو اسم القناة/المستودع/الموقع */
@@ -354,7 +354,7 @@ function cardHTML(i){
           <span class="tier ${i.importance_tier}">${tierLbl}</span>
         </div>
       </div>
-      <a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="فتح المصدر">${isX(i)?ICON.x:ICON.ext}</a>
+      ${i.source_url?`<a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="فتح المصدر">${isX(i)?ICON.x:ICON.ext}</a>`:''}
     </div>
     <h3 class="t" onclick="go('#/c/${i.id}')">${esc(i.arabic_title)}</h3>
     <p class="s">${esc(i.arabic_summary)}</p>
@@ -365,7 +365,7 @@ function cardHTML(i){
       <div class="acts">
         <button class="act ${liked?'on':''}" onclick="toggleLike('${i.id}',this)" title="إعجاب (إشارة تفضيل داخلية)">${liked?ICON.likeF:ICON.like}</button>
         <button class="act ${bm?'on':''}" onclick="openBookmark('${i.id}')" title="حفظ في مجموعة">${bm?ICON.bmF:ICON.bm}</button>
-        <a class="srcbtn" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="${esc(i.source_url)}">${isX(i)?ICON.x:ICON.ext}<span>${isX(i)?'التغريدة الأصلية':'المصدر'}</span></a>
+        ${!i.source_url?'':`<a class="srcbtn" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="${esc(i.source_url)}">${isX(i)?ICON.x:ICON.ext}<span>${isX(i)?'التغريدة الأصلية':'المصدر'}</span></a>`}
         <button class="readmore" onclick="go('#/c/${i.id}')">قراءة المزيد</button>
       </div>
     </div>
@@ -474,6 +474,19 @@ function viewFeed(){
   armAutoLoad();
 }
 
+/* نص طويل ← فقرات. سطران فارغان = فقرة جديدة، و«## » = عنوان فرعي.
+   بدون هذا تظهر المقالة الكاملة كتلة واحدة لا تُقرأ. */
+function richText(t){
+  if(!t) return '';
+  return String(t).split(/\n{2,}/).map(function(b){
+    b = b.trim();
+    if(!b) return '';
+    var m = b.match(/^#{2,4}\s*(.+)$/);
+    if(m) return '<h4 class="artsub">' + esc(m[1]) + '</h4>';
+    return '<p>' + esc(b).replace(/\n/g,'<br>') + '</p>';
+  }).join('');
+}
+
 function viewDetail(id){
   const i = Store.get(id);
   if(!i) return viewFeed();
@@ -510,13 +523,13 @@ function viewDetail(id){
           <div>${xsrc?`<span class="nm" onclick="go('#/u/${esc(i.author)}')">${esc(srcName(i))}</span>`:`<span class="nm plain">${esc(srcName(i))}</span>`} <span class="hd">${esc(srcSub(i))}</span></div>
           <div class="hd">${ago(i.published_at)} · <span class="num">${new Date(i.published_at).toISOString().slice(0,10)}</span></div>
         </div>
-        <a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener">${ICON.x}</a>
+        ${i.source_url?`<a class="xlink" href="${esc(i.source_url)}" target="_blank" rel="noopener" title="فتح المصدر">${isX(i)?ICON.x:ICON.ext}</a>`:''}
       </div>
       <h1>${esc(i.arabic_title)}</h1>
       <p style="font-size:15.5px;color:var(--ink-2);line-height:1.9;margin:0">${esc(i.arabic_summary)}</p>
-      <a class="opensrc" href="${esc(i.source_url)}" target="_blank" rel="noopener">
+      ${!i.source_url?'':`<a class="opensrc" href="${esc(i.source_url)}" target="_blank" rel="noopener">
         ${xsrc?ICON.x:ICON.ext}<b>${xsrc?'افتح التغريدة الأصلية على X':'افتح المصدر الأصلي'}</b>
-        <span class="u">${esc(i.source_url.replace(/^https?:\/\/(www\.)?/,''))}</span></a>
+        <span class="u">${esc(i.source_url.replace(/^https?:\/\/(www\.)?/,''))}</span></a>`}
       <div class="tags" style="margin-top:14px">
         ${i.entities.map(x=>`<span class="tag ent">${esc(x)}</span>`).join('')}
         ${i.change_types.map(x=>`<span class="tag chg">${esc(x)}</span>`).join('')}
@@ -524,7 +537,7 @@ function viewDetail(id){
         ${i.content_types.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}
         ${i.domains.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}
       </div>
-      ${sec('شرح موسّع', '<p>'+esc(i.detailed_explanation)+'</p>')}
+      ${sec(srcOf(i)==='article'?'المقالة':'شرح موسّع', richText(i.detailed_explanation))}
       ${sec('لماذا هذا مهم', '<p>'+esc(i.why_it_matters)+'</p>')}
       ${gloss}
       ${quoted}
@@ -746,6 +759,61 @@ function linkKind(u){
     return ['web','مقالة أو موقع'];
   }catch(e){ return [null,null]; }
 }
+/* ---------- صندوق «أضف مقالة» ----------
+   زر منفصل عن + عمدًا: رابط المقالة نفسه لا يخبرنا إن كان عزيز يريد بطاقة
+   موجزة أم قراءة كاملة مرتّبة. القصد لا يُستنتج من الرابط، فيُسأل عنه.
+
+   ولماذا لا يوجد صندوق نص هنا؟ اللوحة صفحة ثابتة تمرّر المحتوى عبر رابط،
+   وللروابط سقف طول لا تمرّ فيه مقالة. فبدل «انسخ ← الصق هنا ← ننسخ ← الصق
+   هناك»، نفتح الطلب فارغًا ويلصق عزيز مرة واحدة. */
+const ART_ISSUE = REPO_ISSUE_URL + '?labels=article&title=' + encodeURIComponent('مقالة: ');
+function openArticle(){
+  const ov=document.createElement('div'); ov.className='ov'; ov.id='artov';
+  ov.onclick=e=>{ if(e.target===ov) ov.remove(); };
+  ov.innerHTML = `<div class="addbox">
+    <h4>أضف مقالة</h4>
+    <p class="sub">تُقرأ كاملة وتُرتَّب بفقرات وعناوين، وتُصنَّف كبقية البطاقات.
+      تجدها بفلتر <b>المصدر ← مقالات</b>.</p>
+    <div class="artpick">
+      <button class="artopt" onclick="artText()">
+        <b>عندي نص المقالة</b>
+        <span>يفتح طلبًا فارغًا جاهزًا — الصق النص هناك مباشرة واضغط التأكيد</span>
+      </button>
+      <button class="artopt" onclick="artShowUrl()">
+        <b>عندي رابط المقالة</b>
+        <span>تُقرأ بمتصفح حقيقي إن تعذّر جلبها بالطريقة العادية</span>
+      </button>
+    </div>
+    <div id="arturlrow" style="display:none;margin-top:12px">
+      <input type="url" id="arturl" placeholder="https://…" autocomplete="off" inputmode="url"
+        oninput="document.getElementById('artgo').disabled=!/^https?:\/\/.+\..+/.test(this.value.trim())"
+        onkeydown="if(event.key==='Enter')artGo()">
+      <div class="addrow" style="margin-top:10px">
+        <button onclick="document.getElementById('artov').remove()">إلغاء</button>
+        <button class="go" id="artgo" disabled onclick="artGo()">أضف المقالة</button>
+      </div>
+    </div>
+    <div class="addnote">ما تضيفه بنفسك لا يُرفض أبدًا، ويظهر في «أضفتها بنفسي».</div>
+  </div>`;
+  document.body.appendChild(ov);
+}
+function artShowUrl(){
+  document.getElementById('arturlrow').style.display='block';
+  setTimeout(()=>document.getElementById('arturl').focus(),40);
+}
+function artText(){
+  window.open(ART_ISSUE, '_blank', 'noopener');
+  document.getElementById('artov').remove();
+  toast('افتحت طلبًا فارغًا — الصق نص المقالة فيه واضغط التأكيد الأخضر');
+}
+function artGo(){
+  const u=(document.getElementById('arturl').value||'').trim();
+  if(!/^https?:\/\/.+\..+/.test(u)) return;
+  window.open(ART_ISSUE + '&body=' + encodeURIComponent(u), '_blank', 'noopener');
+  document.getElementById('artov').remove();
+  toast('افتحت GitHub — اضغط التأكيد الأخضر لتُقرأ المقالة وتُضاف');
+}
+
 function openAdd(){
   const ov=document.createElement('div'); ov.className='ov'; ov.id='addov';
   ov.onclick=e=>{ if(e.target===ov) ov.remove(); };
