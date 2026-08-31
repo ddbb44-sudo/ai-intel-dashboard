@@ -1,0 +1,68 @@
+name: article
+
+# مقالة كاملة ← بطاقة تُقرأ داخل اللوحة بلا رجوع للمصدر.
+# نصًا ملصوقًا كان أو رابطًا يُقرأ بمتصفح حقيقي عند العجز.
+on:
+  issues:
+    types: [opened, labeled, reopened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: article-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: >-
+      contains(join(github.event.issue.labels.*.name, ','), 'article')
+      || startsWith(github.event.issue.title, 'مقالة:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: قراءة المقالة وترتيبها وتصنيفها
+        env:
+          GH_OWNER: ${{ github.repository_owner }}
+          GH_REPO: ${{ github.event.repository.name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: python .github/scripts/process_article.py
+
+      - name: حفظ ونشر
+        if: env.ART_ID != ''
+        run: |
+          git config user.name  "ai-intel-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "::error::لم يتغيّر شيء رغم إنشاء البطاقة"; exit 1
+          fi
+          git commit -m "article: ${ART_SERIAL}"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then ok=1; break; fi
+            sleep 5
+          done
+          [ "$ok" = 1 ] || { echo "::error::فشل الدفع بعد ٣ محاولات"; exit 1; }
+
+      - name: التعليق والإغلاق
+        if: env.ART_ID != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --body-file article_result.md
+          gh issue close "${{ github.event.issue.number }}"
