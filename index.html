@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>مركز المعرفة — الذكاء الاصطناعي</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#c25f3c">
+<meta name="apple-mobile-web-app-title" content="مركز المعرفة">
+<meta name="description" content="لوحة عربية ترصد أخبار الذكاء الاصطناعي وأدواته يوميًا وتصنّفها.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -292,6 +300,14 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
 .artopt b{display:block;font-size:14px;margin-bottom:3px}
 .artopt span{display:block;font-size:11.5px;color:var(--faint);line-height:1.6}
 .artsub{margin:18px 0 6px;font-size:15px;font-weight:650}
+.arttw{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:var(--r-sm)}
+.arttbl{border-collapse:collapse;width:100%;min-width:480px;font-size:13px}
+.arttbl th,.arttbl td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--line);
+  vertical-align:top;line-height:1.65}
+.arttbl th{background:var(--surface-2);font-weight:600;font-size:12px;color:var(--ink-2);white-space:nowrap}
+.arttbl tr:last-child td{border-bottom:0}
+.artul{margin:10px 0;padding-inline-start:20px}
+.artul li{margin-bottom:6px;line-height:1.8}
 .artsub:first-child{margin-top:0}
 .acchead{padding:18px 2px 10px}
 .acchead h2{margin:0 0 4px;font-size:21px}
@@ -412,7 +428,7 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
       window.__RAW = { items: items, authors: authors, stats: man.stats };
       var b = document.getElementById('boot'); if(b) b.remove();
       var s = document.createElement('script');
-      s.src = 'app.js?v=' + encodeURIComponent(man.generated_at || '1');
+      s.src = 'app.js?v=4f6a024885';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
       s.onerror = function(){ fail('\u062a\u0639\u0630\u0651\u0631 \u062a\u062d\u0645\u064a\u0644 app.js'); };
       document.body.appendChild(s);
       console.log('[dash] ' + items.length + ' cards in ' + (Date.now() - T0) + 'ms');

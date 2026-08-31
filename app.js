@@ -476,14 +476,40 @@ function viewFeed(){
 
 /* نص طويل ← فقرات. سطران فارغان = فقرة جديدة، و«## » = عنوان فرعي.
    بدون هذا تظهر المقالة الكاملة كتلة واحدة لا تُقرأ. */
+function artTable(lines){
+  // صف فاصل مثل |---|---| ليس بيانات
+  var rows = lines.filter(function(l){ return !/^\|[\s:|-]+\|?$/.test(l.trim()); })
+    .map(function(l){
+      var s = l.trim().replace(/^\|/,'').replace(/\|$/,'');
+      return s.split('|').map(function(c){ return c.trim(); });
+    });
+  if(!rows.length) return '';
+  var head = rows.shift();
+  var th = head.map(function(c){ return '<th>' + artInline(c) + '</th>'; }).join('');
+  var tb = rows.map(function(r){
+    return '<tr>' + r.map(function(c){ return '<td>' + artInline(c) + '</td>'; }).join('') + '</tr>';
+  }).join('');
+  return '<div class="arttw"><table class="arttbl"><thead><tr>' + th +
+         '</tr></thead><tbody>' + tb + '</tbody></table></div>';
+}
+function artInline(s){
+  // **غامق** فقط — لا نفتح الباب لـHTML من النص
+  return esc(s).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+}
 function richText(t){
   if(!t) return '';
   return String(t).split(/\n{2,}/).map(function(b){
     b = b.trim();
     if(!b) return '';
+    var lines = b.split('\n').map(function(l){ return l.trim(); }).filter(Boolean);
+    if(lines.length >= 2 && lines.every(function(l){ return l.indexOf('|') === 0; }))
+      return artTable(lines);
     var m = b.match(/^#{2,4}\s*(.+)$/);
     if(m) return '<h4 class="artsub">' + esc(m[1]) + '</h4>';
-    return '<p>' + esc(b).replace(/\n/g,'<br>') + '</p>';
+    if(lines.length && lines.every(function(l){ return /^[-*]\s+/.test(l); }))
+      return '<ul class="artul">' + lines.map(function(l){
+        return '<li>' + artInline(l.replace(/^[-*]\s+/,'')) + '</li>'; }).join('') + '</ul>';
+    return '<p>' + artInline(b).replace(/\n/g,'<br>') + '</p>';
   }).join('');
 }
 
