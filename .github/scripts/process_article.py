@@ -96,17 +96,43 @@ URL = um.group(0).rstrip(".,،؛)") if um else ""
 source_url, source_site, page_title = "", "", ""
 
 def clean_html(raw):
+    """ينزع الوسوم ويحفظ ما يحمل معنى: الروابط والعناوين والقوائم والجداول.
+    النسخة السابقة كانت تمحو <a href> فتضيع كل روابط المقالة — وهذا إتلاف
+    لا تنظيف."""
     t = re.sub(r'(?is)<(script|style|noscript|svg|nav|footer|header|aside)[^>]*>.*?</\1>', ' ', raw)
     title = ""
     tm = re.search(r'(?is)<title[^>]*>(.*?)</title>', t)
     if tm: title = htmllib.unescape(re.sub(r'\s+', ' ', tm.group(1))).strip()
-    # نحافظ على حدود الفقرات قبل نزع الوسوم
-    t = re.sub(r'(?i)</(p|div|h[1-6]|li|section|article|br)\s*>', '\n\n', t)
+
+    # الروابط أولًا — قبل أي نزع — بصيغة Markdown
+    def _a(m):
+        href = htmllib.unescape(m.group(1)).strip()
+        txt  = re.sub(r'(?s)<[^>]+>', '', m.group(2))
+        txt  = htmllib.unescape(re.sub(r'\s+', ' ', txt)).strip()
+        if not href or href.startswith(('javascript:', '#')): return txt
+        if not txt: return href
+        if txt == href: return href
+        return "[%s](%s)" % (txt, href)
+    t = re.sub(r'(?is)<a\s[^>]*?href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', _a, t)
+
+    # الجداول: صفوف بأنابيب
+    t = re.sub(r'(?i)</t[hd]>\s*<t[hd][^>]*>', ' | ', t)
+    t = re.sub(r'(?i)<t[hd][^>]*>', '\n| ', t)
+    t = re.sub(r'(?i)</t[hd]>', ' |', t)
+    t = re.sub(r'(?i)</tr>', '\n', t)
+
+    # العناوين والقوائم
+    t = re.sub(r'(?is)<h[1-6][^>]*>(.*?)</h[1-6]>',
+               lambda m: '\n\n## ' + re.sub(r'(?s)<[^>]+>', '', m.group(1)).strip() + '\n\n', t)
+    t = re.sub(r'(?i)<li[^>]*>', '\n- ', t)
+    t = re.sub(r'(?i)</(p|div|section|article|ul|ol|table)\s*>', '\n\n', t)
     t = re.sub(r'(?i)<br\s*/?>', '\n', t)
-    b = re.sub(r'(?s)<[^>]+>', ' ', t)
+
+    b = re.sub(r'(?s)<[^>]+>', '', t)
     b = htmllib.unescape(b)
     b = re.sub(r'[ \t]+', ' ', b)
-    b = re.sub(r'\n\s*\n\s*\n+', '\n\n', b).strip()
+    b = re.sub(r' *\n *', '\n', b)
+    b = re.sub(r'\n{3,}', '\n\n', b).strip()
     return title, b
 
 def fetch_plain(u):
@@ -234,6 +260,88 @@ PROMPT = """أنت محرّر «مركز المعرفة — الذكاء الا�
      + "domains: "      + json.dumps(TAX['domains'],       ensure_ascii=False) + "\n"
      + "change_types: " + json.dumps(TAX['change_types'],  ensure_ascii=False) + "\n")
 
+# برومبت النص الملصوق: النموذج لا يرى مهمة تحرير إطلاقًا.
+# القاعدة (عزيز، 31 أغسطس): «عدم التعديل على النص، فقط ترتيبه، وعدم إعادة
+# صياغته، وعدم كتابة ملاحظات في البداية أو إضافة أي شيء».
+# فالنص يُرتَّب ببايثون حرفيًا، ولا يُطلب من النموذج إلا العنوان والوسوم.
+TAG_PROMPT = """أنت مفهرس في «مركز المعرفة — الذكاء الاصطناعي»، لوحة عربية يملكها عزيز.
+
+وصلك نص مقالة اختارها عزيز. **مهمتك الفهرسة فقط: عنوان ووسوم.**
+
+**لا تعيد كتابة النص. لا تلخّصه. لا تترجمه. لا تعلّق عليه.** لن يُستخدم أي نص
+تكتبه سوى الحقول المطلوبة أدناه.
+
+## المخرَج
+أعد **JSON فقط**، كائنًا واحدًا ولا شيء قبله ولا بعده:
+{"arabic_title":"عنوان عربي محدّد 6-14 كلمة يصف موضوع المقالة",
+ "arabic_summary":"جملتان إلى أربع بالعربية تصف ما تتناوله المقالة",
+ "why_it_matters":"جملة أو جملتان عن سبب أهميتها، أو اتركها فارغة إن لم يتضح",
+ "original_language":"ar أو en",
+ "source_name":"اسم الموقع أو الكاتب إن ظهر صراحة في النص، وإلا فارغ",
+ "content_type":"واحد فقط","tool_types":[],"domains":[],"entities":[],"change_types":[],
+ "importance_tier":"important أو useful",
+ "glossary":[{"term":"مصطلح إنجليزي ورد في النص","ar":"شرحه بالعربية"}]}
+
+العنوان والملخص بالعربية دائمًا ولو كان النص إنجليزيًا — فهما للفهرسة والبحث
+داخل اللوحة، لا بديلًا عن المقالة.
+
+## التصنيف — والإفراط في الوسم خطأ
+**نوع المحتوى: واحد فقط.** تشرح كيف تفعل شيئًا = «شرح». تحلّل أو تبدي موقفًا =
+«رأي». تعرض دراسة أو قياسًا = «بحث وقياس». تعلن جديدًا = «إصدار».
+**نوع الأداة: صفر إلى اثنين**، وفقط إن كانت عن أداة بعينها.
+**المجال: واحد أو اثنان.** الوسم الذي لا يمكن الدفاع عنه من النص لا يوضع.
+
+## القوائم المعتمدة (لا تخرج عنها إطلاقًا)
+""" + ("content_type: " + json.dumps(TAX['content_types'], ensure_ascii=False) + "\n"
+     + "tool_types: "   + json.dumps(TAX['tool_types'],    ensure_ascii=False) + "\n"
+     + "domains: "      + json.dumps(TAX['domains'],       ensure_ascii=False) + "\n"
+     + "change_types: " + json.dumps(TAX['change_types'],  ensure_ascii=False) + "\n")
+
+
+def tidy(text):
+    """ترتيب حرفي: حدود الفقرات فقط، بلا أي تخمين.
+
+    المحاولة الأولى خمّنت أن كل سطر قصير بلا نقطة = عنوان فرعي، فأنتجت 99
+    عنوانًا من 126 فقرة — لأن خلايا الجداول أسطر قصيرة أيضًا. الدرس: لا
+    نخترع بنية غير موجودة. العنوان عنوانٌ فقط إن كان معلَّمًا في الأصل
+    (<h1-6> يحوّلها clean_html إلى ##). ما عدا ذلك نصٌّ كما كتبه صاحبه.
+    """
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r' *\n *', '\n', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+
+    blocks, cur = [], []
+    def flush():
+        if cur:
+            blocks.append("\n".join(cur)); cur.clear()
+
+    for ln in text.split("\n"):
+        s_ = ln.strip()
+        if not s_:
+            flush(); continue
+        marked = (s_.startswith("|") or s_.startswith("#")
+                  or re.match(r'^[-*•]\s+', s_))
+        if marked:
+            # نجمع الأسطر المعلَّمة المتشابهة في كتلة واحدة (جدول/قائمة)
+            kind = "|" if s_.startswith("|") else ("#" if s_.startswith("#") else "-")
+            prev = cur[0][:1] if cur else ""
+            prevkind = ("|" if prev == "|" else ("#" if prev == "#" else
+                        ("-" if cur and re.match(r'^[-*•]\s+', cur[0]) else "")))
+            if cur and prevkind == kind and kind in ("|", "-"):
+                cur.append(s_)
+            else:
+                flush(); cur.append(s_)
+                if kind == "#": flush()
+        else:
+            if cur and (cur[0].startswith("|") or cur[0].startswith("#")
+                        or re.match(r'^[-*•]\s+', cur[0])):
+                flush()
+            cur.append(s_)
+    flush()
+    return "\n\n".join(b for b in blocks if b.strip())
+
+
 def claude(prompt, max_tokens):
     req = urllib.request.Request(ABASE + "/v1/messages",
         data=json.dumps({"model": MODEL, "max_tokens": max_tokens,
@@ -253,12 +361,21 @@ def claude(prompt, max_tokens):
             last = str(e); time.sleep(6*(attempt+1))
     raise RuntimeError(last or "unknown")
 
+# مساران مختلفان جذريًا:
+#   نص ملصوق → النص ملك عزيز، يُرتَّب ببايثون حرفيًا والنموذج يفهرس فقط.
+#   رابط      → مصدر أجنبي، يُنقل إلى العربية ويُرتَّب كما كان.
+VERBATIM = not url_only
+
 payload = json.dumps({
     "title_hint": re.sub(r'^\s*مقالة:\s*', '', TITLE).strip(),
     "url": source_url, "text": article_text}, ensure_ascii=False)
 
 try:
-    resp = claude(PROMPT + "\n\n## المقالة\n" + payload, MAX_OUT)
+    if VERBATIM:
+        # مخرَج صغير: عنوان ووسوم لا أكثر. أرخص وأسرع، وبلا خطر بتر.
+        resp = claude(TAG_PROMPT + "\n\n## النص\n" + payload, 3000)
+    else:
+        resp = claude(PROMPT + "\n\n## المقالة\n" + payload, MAX_OUT)
 except Exception as e:
     bail("فشل التصنيف: %s" % str(e)[:250])
 
@@ -276,11 +393,20 @@ def clean(v, allowed): return [x for x in (v or []) if x in allowed]
 
 title = (card.get("arabic_title") or "").strip()
 summ  = (card.get("arabic_summary") or "").strip()
-full  = (card.get("detailed_explanation") or "").strip()
-if not title or not full:
-    bail("النموذج لم يُعد عنوانًا أو نص مقالة")
-if stop == "max_tokens":
-    full += "\n\n— بلغت المقالة الحد الأقصى للمعالجة وقد تكون مبتورة في آخرها."
+
+if VERBATIM:
+    # نص عزيز كما هو، مرتَّبًا فقط. لا حرف يُضاف ولا يُحذف.
+    full = tidy(article_text)
+    if not title:
+        bail("النموذج لم يُعد عنوانًا")
+    if not full:
+        bail("النص فارغ بعد الترتيب")
+else:
+    full = (card.get("detailed_explanation") or "").strip()
+    if not title or not full:
+        bail("النموذج لم يُعد عنوانًا أو نص مقالة")
+    if stop == "max_tokens":
+        full += "\n\n— بلغت المقالة الحد الأقصى للمعالجة وقد تكون مبتورة في آخرها."
 
 _ct = card.get("content_type") or card.get("content_types")
 if isinstance(_ct, str): _ct = [_ct]
@@ -291,8 +417,14 @@ chg = clean(card.get("change_types"), TAX["change_types"])
 tier = card.get("importance_tier") if card.get("importance_tier") in ("important","useful") else "useful"
 lang = "ar" if card.get("original_language") == "ar" else "en"
 
+# ملاحظة عزيز لا تُقحَم داخل نصه الملصوق — «عدم كتابة ملاحظات في البداية
+# أو إضافة أي شيء». تُوضع في why_it_matters حيث مكانها الطبيعي.
 if note:
-    full += "\n\n## ملاحظة عزيز\n\n" + note
+    if VERBATIM:
+        why = (card.get("why_it_matters") or "").strip()
+        card["why_it_matters"] = ("ملاحظة عزيز: " + note + ("\n\n" + why if why else ""))
+    else:
+        full += "\n\n## ملاحظة عزيز\n\n" + note
 
 # ---------- 3) الكتابة ----------
 state    = rj(f"{DATA}/state.json")

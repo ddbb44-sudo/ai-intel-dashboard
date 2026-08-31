@@ -47,8 +47,15 @@ else:
          '</tr></thead><tbody>' + tb + '</tbody></table></div>';
 }
 function artInline(s){
-  // **غامق** فقط — لا نفتح الباب لـHTML من النص
-  return esc(s).replace(/\\*\\*([^*]+)\\*\\*/g, '<b>$1</b>');
+  // نهرب أولًا ثم نضيف وسومنا — فلا يدخل HTML من نص المقالة
+  var t = esc(s).replace(/\\*\\*([^*]+)\\*\\*/g, '<b>$1</b>');
+  // [نص](رابط) — روابط المقالة تُحفظ ولا تُمحى
+  t = t.replace(/\\[([^\\]]+)\\]\\((https?:\\/\\/[^)\\s]+)\\)/g,
+        '<a class="artlink" href="$2" target="_blank" rel="noopener">$1</a>');
+  // رابط عارٍ لم يُغلَّف
+  t = t.replace(/(^|[\\s(])(https?:\\/\\/[^\\s<)]+)/g,
+        '$1<a class="artlink" href="$2" target="_blank" rel="noopener">$2</a>');
+  return t;
 }
 function richText(t){
   if(!t) return '';
@@ -91,7 +98,23 @@ else:
 .arttbl th{background:var(--surface-2);font-weight:600;font-size:12px;color:var(--ink-2);white-space:nowrap}
 .arttbl tr:last-child td{border-bottom:0}
 .artul{margin:10px 0;padding-inline-start:20px}
-.artul li{margin-bottom:6px;line-height:1.8}"""
+.artul li{margin-bottom:6px;line-height:1.8}
+.artlink{color:var(--accent);text-decoration:underline;text-underline-offset:3px;
+  word-break:break-word;overflow-wrap:anywhere}
+.artlink:hover{color:var(--accent-2)}
+.sec p{line-height:1.95;overflow-wrap:break-word}
+/* ملاحظة: هناك فيض أفقي 5px سابق لهذا العمل، سببه درج الفلاتر
+   position:fixed خارج الشاشة — و overflow-x:hidden الموجود أصلًا في السطر 24
+   لا يقصّ العناصر الثابتة. لم أمسّه هنا: إصلاحه يتطلب تغيير موضع الدرج،
+   وهو واجهة أساسية لا تُخاطَر بها لأجل 5 بكسل. */
+@media(max-width:700px){
+  .sec p,.artul li{font-size:15px;line-height:2.0}
+  .artsub{font-size:16px;margin:20px 0 8px}
+  .arttbl{min-width:340px;font-size:12.5px}
+  .arttbl th,.arttbl td{padding:8px 9px}
+  .arttw{margin:12px -4px}
+  .detail{padding-inline:2px}
+}"""
     h = h.replace(anchor, css)
     open(H, "w", encoding="utf-8").write(h)
     changed.append("index.html")
