@@ -299,7 +299,65 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
 .artopt:hover{border-color:var(--accent)}
 .artopt b{display:block;font-size:14px;margin-bottom:3px}
 .artopt span{display:block;font-size:11.5px;color:var(--faint);line-height:1.6}
-.artsub{margin:18px 0 6px;font-size:15px;font-weight:650}
+.act.del{color:var(--faint)}
+.act.del:hover{color:#b3261e;border-color:#b3261e;background:#fdecea}
+.delcard{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);
+  padding:12px 14px;margin:4px 0 12px}
+.delserial{font-size:11.5px;color:var(--muted);margin-bottom:4px}
+.deltitle{font-size:14.5px;font-weight:600;line-height:1.7}
+button.go.danger{background:#b3261e;border-color:#b3261e}
+button.go.danger:hover{background:#8f1d17}
+.artsub{margin:30px 0 12px;font-size:17px;font-weight:650;line-height:1.6;
+  padding-inline-start:12px;border-inline-start:3px solid var(--accent)}
+.artsub:first-child{margin-top:0}
+
+/* الرابط فعلٌ لا بيان: زرّ لا خانة في آخر جدول */
+.artbtn{display:flex;align-items:center;gap:11px;text-decoration:none;
+  background:var(--surface-2);border:1px solid var(--line-2);border-radius:var(--r-sm);
+  padding:11px 14px;margin:0 0 11px;color:var(--accent);transition:.15s}
+.artbtn:hover{border-color:var(--accent);background:var(--accent-soft)}
+.artbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.artbtn span{display:flex;flex-direction:column;gap:1px;min-width:0;flex:1}
+.artbtn b{font-size:13.5px;font-weight:600;color:var(--accent);line-height:1.5}
+.artbtn i{font-style:normal;font-size:11.5px;color:var(--muted);direction:ltr;text-align:right;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.artbtn .x{flex:0 0 auto;color:var(--faint)}
+.artbtn:hover .x{color:var(--accent)}
+
+.arttw{overflow-x:auto;margin:0 0 16px;border:1px solid var(--line);
+  border-radius:var(--r-sm);background:var(--surface)}
+.arttw:focus-visible{outline:2px solid var(--accent)}
+.arttbl{border-collapse:collapse;width:100%;min-width:600px;font-size:13px}
+.arttbl th,.arttbl td{padding:10px 13px;text-align:right;border-bottom:1px solid var(--line);
+  vertical-align:top;line-height:1.7}
+.arttbl th{background:var(--surface-2);font-weight:600;font-size:11.5px;color:var(--muted);
+  white-space:nowrap;letter-spacing:.02em}
+.arttbl tbody tr:last-child td{border-bottom:0}
+
+.artcards{display:none}
+.artkv{border:1px solid var(--line);border-radius:var(--r-sm);overflow:hidden;margin:0 0 12px}
+.kvr{display:flex;gap:10px;padding:9px 12px;border-bottom:1px solid var(--line);font-size:13.5px}
+.kvr:last-child{border-bottom:0}
+.kvr span{flex:0 0 82px;color:var(--muted);font-size:11.5px;padding-top:2px}
+.kvr b{font-weight:500;line-height:1.75;min-width:0;overflow-wrap:anywhere}
+
+.artul{margin:10px 0 18px;padding-inline-start:22px}
+.artul li{margin-bottom:8px;line-height:1.9}
+.artul li::marker{color:var(--accent)}
+
+.artlink{color:var(--accent);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px;word-break:break-word;overflow-wrap:anywhere}
+.artlink:hover{color:var(--accent-2);text-decoration-thickness:2px}
+
+.sec p{line-height:2.0;overflow-wrap:break-word;max-width:68ch}
+
+@media(max-width:760px){
+  .arttw{display:none}
+  .artcards{display:block}
+  .sec p,.artul li{font-size:15.2px;line-height:2.05}
+  .artsub{font-size:16px;margin:24px 0 10px}
+  .artbtn b{font-size:13px}
+}
 .arttw{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:var(--r-sm)}
 .arttbl{border-collapse:collapse;width:100%;min-width:480px;font-size:13px}
 .arttbl th,.arttbl td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--line);
@@ -428,7 +486,7 @@ p.s{margin:0 0 11px;color:var(--ink-2);font-size:14px;line-height:1.8}
       window.__RAW = { items: items, authors: authors, stats: man.stats };
       var b = document.getElementById('boot'); if(b) b.remove();
       var s = document.createElement('script');
-      s.src = 'app.js?v=4f6a024885';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
+      s.src = 'app.js?v=fbf1c03704';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
       s.onerror = function(){ fail('\u062a\u0639\u0630\u0651\u0631 \u062a\u062d\u0645\u064a\u0644 app.js'); };
       document.body.appendChild(s);
       console.log('[dash] ' + items.length + ' cards in ' + (Date.now() - T0) + 'ms');

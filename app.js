@@ -315,6 +315,7 @@ const ICON = {
   likeF:'<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
   bm:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>',
   bmF:'<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>',
+  trash:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/></svg>',
   x:'<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-7.3L6 22H2.9l7.5-8.6L2.5 2h6.6l4.5 6.6zM17.8 20.1h1.7L7.3 3.8H5.5z"/></svg>'
 };
 
@@ -476,9 +477,37 @@ function viewFeed(){
 
 /* نص طويل ← فقرات. سطران فارغان = فقرة جديدة، و«## » = عنوان فرعي.
    بدون هذا تظهر المقالة الكاملة كتلة واحدة لا تُقرأ. */
+/* ---------- عرض نص المقالة ----------
+   يحوّل النص المرتَّب إلى HTML: فقرات · عناوين ## · قوائم · جداول Markdown ·
+   روابط [نص](رابط). لا يدخل HTML من النص إطلاقًا — نهرب أولًا ثم نضيف وسومنا. */
+function artInline(s){
+  var t = esc(s).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+  t = t.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+        '<a class="artlink" href="$2" target="_blank" rel="noopener">$1</a>');
+  t = t.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g,
+        '$1<a class="artlink" href="$2" target="_blank" rel="noopener">$2</a>');
+  return t;
+}
+/* كل رابط في النص يستحق زرًّا واضحًا. الرابط المدفون في خانة جدول لا يُرى. */
+function artLinks(s){
+  var out = [], seen = {}, m;
+  var re = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+  while((m = re.exec(s))){ if(!seen[m[2]]){ seen[m[2]]=1; out.push([m[1], m[2]]); } }
+  return out;
+}
+function artBtn(txt, url){
+  var yt = /youtube\.com|youtu\.be/.test(url);
+  var icon = yt
+    ? '<svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10 15.2V8.8l5.2 3.2z"/></svg>'
+    : '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7L12 19"/></svg>';
+  var host = '';
+  try{ host = new URL(url).hostname.replace(/^www\./,''); }catch(e){ host = url; }
+  return '<a class="artbtn" href="' + esc(url) + '" target="_blank" rel="noopener">' + icon +
+    '<span><b>' + esc(txt) + '</b><i>' + esc(host) + '</i></span>' +
+    '<svg class="x" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg></a>';
+}
 function artTable(lines){
-  // صف فاصل مثل |---|---| ليس بيانات
-  var rows = lines.filter(function(l){ return !/^\|[\s:|-]+\|?$/.test(l.trim()); })
+  var rows = lines.filter(function(l){ return !/^\|?[\s:|-]{3,}\|?$/.test(l.trim()); })
     .map(function(l){
       var s = l.trim().replace(/^\|/,'').replace(/\|$/,'');
       return s.split('|').map(function(c){ return c.trim(); });
@@ -489,29 +518,43 @@ function artTable(lines){
   var tb = rows.map(function(r){
     return '<tr>' + r.map(function(c){ return '<td>' + artInline(c) + '</td>'; }).join('') + '</tr>';
   }).join('');
-  return '<div class="arttw"><table class="arttbl"><thead><tr>' + th +
-         '</tr></thead><tbody>' + tb + '</tbody></table></div>';
+  /* الجدول العريض على الجوال: بطاقات مفتاح/قيمة بدل تمرير أفقي مُتعب */
+  var cards = rows.map(function(r){
+    return '<div class="artkv">' + r.map(function(c,i){
+      if(!c) return '';
+      return '<div class="kvr"><span>' + esc(head[i]||'') + '</span><b>' + artInline(c) + '</b></div>';
+    }).join('') + '</div>';
+  }).join('');
+  /* كل رابط في الجدول يظهر أيضًا كزرّ — وإلا اختفى مع التمرير */
+  var btns = artLinks(lines.join('\n')).map(function(p){ return artBtn(p[0], p[1]); }).join('');
+  return btns +
+    '<div class="arttw" role="region" aria-label="جدول" tabindex="0"><table class="arttbl">' +
+    '<thead><tr>' + th + '</tr></thead><tbody>' + tb + '</tbody></table></div>' +
+    '<div class="artcards">' + cards + '</div>';
 }
-function artInline(s){
-  // **غامق** فقط — لا نفتح الباب لـHTML من النص
-  return esc(s).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
-}
-function richText(t){
+function artBlocks(t){
   if(!t) return '';
   return String(t).split(/\n{2,}/).map(function(b){
     b = b.trim();
     if(!b) return '';
     var lines = b.split('\n').map(function(l){ return l.trim(); }).filter(Boolean);
-    if(lines.length >= 2 && lines.every(function(l){ return l.indexOf('|') === 0; }))
+    /* جدول: سطران فأكثر وكلها تحوي فاصل «|». لا نشترط أن يبدأ السطر به —
+       Google Docs يُخرج «أ | ب | ج» بلا أنابيب طرفية. */
+    if(lines.length >= 2 && lines.every(function(l){ return l.indexOf('|') > -1; }))
       return artTable(lines);
     var m = b.match(/^#{2,4}\s*(.+)$/);
     if(m) return '<h4 class="artsub">' + esc(m[1]) + '</h4>';
     if(lines.length && lines.every(function(l){ return /^[-*]\s+/.test(l); }))
       return '<ul class="artul">' + lines.map(function(l){
         return '<li>' + artInline(l.replace(/^[-*]\s+/,'')) + '</li>'; }).join('') + '</ul>';
+    /* فقرة ليست إلا رابطًا = زرّ، لا سطر أزرق تائه */
+    var only = b.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+    if(only) return artBtn(only[1], only[2]);
+    if(/^https?:\/\/\S+$/.test(b)) return artBtn(b, b);
     return '<p>' + artInline(b).replace(/\n/g,'<br>') + '</p>';
   }).join('');
 }
+function richText(t){ return artBlocks(t); }
 
 function viewDetail(id){
   const i = Store.get(id);
@@ -540,6 +583,7 @@ function viewDetail(id){
       <div style="margin-inline-start:auto;display:flex;gap:6px">
         <button class="act ${liked?'on':''}" onclick="toggleLike('${i.id}',this)">${liked?ICON.likeF:ICON.like}</button>
         <button class="act ${bm?'on':''}" onclick="openBookmark('${i.id}')">${bm?ICON.bmF:ICON.bm}</button>
+        <button class="act del" onclick="askDelete('${i.id}')" title="حذف البطاقة">${ICON.trash}</button>
       </div>
     </div>
     <div class="dwrap">
@@ -785,6 +829,40 @@ function linkKind(u){
     return ['web','مقالة أو موقع'];
   }catch(e){ return [null,null]; }
 }
+/* ---------- حذف بطاقة ----------
+   اللوحة صفحة ثابتة لا تكتب في المستودع، فالحذف يمرّ بطلب مثل الإضافة.
+   التأكيد يعرض العنوان كاملًا — لا حذف بضغطة واحدة طائشة. */
+function askDelete(id){
+  const i = Store.get(id);
+  if(!i) return;
+  const ov=document.createElement('div'); ov.className='ov'; ov.id='delov';
+  ov.onclick=e=>{ if(e.target===ov) ov.remove(); };
+  ov.innerHTML = `<div class="addbox">
+    <h4>حذف هذه البطاقة؟</h4>
+    <div class="delcard">
+      <div class="delserial">${esc(i.serial_display)}</div>
+      <div class="deltitle">${esc(i.arabic_title)}</div>
+    </div>
+    <p class="sub">تُزال من اللوحة نهائيًا. رقمها لا يُعاد استخدامه، والنسخة
+      السابقة تبقى في تاريخ Git إن احتجتها.</p>
+    <div class="addrow">
+      <button onclick="document.getElementById('delov').remove()">إلغاء</button>
+      <button class="go danger" onclick="delGo('${i.id}')">نعم، احذفها</button>
+    </div>
+    <div class="addnote">تفتح صفحة GitHub — اضغط التأكيد الأخضر فيها لإتمام الحذف.</div>
+  </div>`;
+  document.body.appendChild(ov);
+}
+function delGo(id){
+  const i = Store.get(id);
+  const url = REPO_ISSUE_URL + '?labels=delete'
+            + '&title=' + encodeURIComponent('حذف: ' + (i ? i.serial_display : id))
+            + '&body='  + encodeURIComponent(id + (i ? '\n\n' + i.arabic_title : ''));
+  window.open(url,'_blank','noopener');
+  const ov=document.getElementById('delov'); if(ov) ov.remove();
+  toast('افتحت GitHub — اضغط التأكيد الأخضر لإتمام الحذف');
+}
+
 /* ---------- صندوق «أضف مقالة» ----------
    زر منفصل عن + عمدًا: رابط المقالة نفسه لا يخبرنا إن كان عزيز يريد بطاقة
    موجزة أم قراءة كاملة مرتّبة. القصد لا يُستنتج من الرابط، فيُسأل عنه.
