@@ -4,10 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>مركز المعرفة — الذكاء الاصطناعي</title>
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- أيقونة مضمّنة: الملفات الأربعة المشار إليها سابقًا غير موجودة في المستودع
+     فكانت الصفحة تطلبها وتتلقى 404 في كل فتحة. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23c25f3c%22/%3E%3Cpath%20d%3D%22M20%2044V20h6.6l5.4%2012%205.4-12H44v24h-6V31l-4.4%209.6h-3.2L26%2031v13z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#c25f3c">
 <meta name="apple-mobile-web-app-title" content="مركز المعرفة">
@@ -411,6 +410,46 @@ button.go.danger:hover{background:#8f1d17}
 .addkinds{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .addkind{font-size:11.5px;padding:3px 9px;border-radius:20px;background:#f5f1ee;color:var(--muted);border:1px solid var(--line)}
 .addkind.on{background:#fdf0e8;color:#a85c30;border-color:#e9cdbb;font-weight:600}
+
+/* تقرير الحسابات */
+.accrepbtn{margin:12px 0 4px}
+.rpsort{margin:12px 0 2px;font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rpsortb{border:1px solid var(--line);background:var(--card);color:var(--muted);
+  border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer}
+.rpsortb:hover{border-color:var(--accent)}
+.rpsortb.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+.rplist{display:flex;flex-direction:column;gap:9px;margin-top:14px}
+.rplist.dim{opacity:.72}
+.rprow{display:flex;align-items:flex-start;gap:12px;background:var(--card);
+  border:1px solid var(--line);border-radius:14px;padding:13px 15px}
+.rprow:hover{border-color:var(--accent)}
+.rprank{flex:0 0 auto;min-width:24px;font-weight:700;color:var(--faint);font-size:13px;padding-top:9px}
+.rpmain{flex:1;min-width:0}
+.rpname{font-weight:600;font-size:14.5px;cursor:pointer}
+.rpname:hover{color:var(--accent)}
+.rphandle{font-weight:400;font-size:12px;color:var(--faint);direction:ltr;display:inline-block}
+.rpchips{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0 6px}
+.rpchip{font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--muted)}
+.rpchip.core{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.rpchip.zero{color:var(--faint)}
+.rpchip b{font-weight:700}
+.rpmeta{display:flex;flex-wrap:wrap;gap:4px 13px;font-size:11.5px;color:var(--muted)}
+.rpright{flex:0 0 auto;display:flex;flex-direction:column;align-items:stretch;gap:8px;min-width:96px}
+.rpscore{text-align:center}
+.rpscore b{display:block;font-size:21px;font-weight:700;line-height:1.1;color:var(--accent)}
+.rpscore span{font-size:10.5px;color:var(--faint)}
+.rpbar{height:4px;border-radius:99px;background:var(--line);margin-top:5px;overflow:hidden}
+.rpbar i{display:block;height:100%;background:var(--accent)}
+.rpstop{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:9px;
+  padding:5px 10px;font:inherit;font-size:11.5px;cursor:pointer;white-space:nowrap}
+.rpstop:hover{border-color:#c2410c;color:#c2410c}
+.rpsep{margin:26px 0 4px;font-weight:600;font-size:14px}
+.rpsep span{display:block;font-weight:400;font-size:12px;color:var(--muted);margin-top:2px}
+@media (max-width:640px){
+  .rprow{flex-wrap:wrap}
+  .rpright{flex-direction:row;align-items:center;justify-content:space-between;width:100%}
+  .rpbar{width:120px}
+}
 </style>
 </head>
 <body>

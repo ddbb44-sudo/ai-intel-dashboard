@@ -693,6 +693,7 @@ function viewAccounts(keepFocus){
         <b class="num">${cards.length}</b> بطاقة إجمالًا</div>
       <input id="accq" class="accinput" placeholder="ابحث باسم الحساب أو معرّفه…"
         value="${esc(ACCQ)}" oninput="accSearch(this.value)" autocomplete="off">
+      <div class="accrepbtn"><button class="btn" onclick="go('#/report')">تقرير الحسابات — ترتيب وتحليل ↗</button></div>
       <div class="accnote">اضغط أي حساب لترى بطاقاته · لإضافة حساب جديد استخدم زر + والصق رابط ملفه الشخصي</div>
     </div>
     ${shown.length ? `<div class="accgrid">${shown.map(row).join('')}</div>`
@@ -702,6 +703,134 @@ function viewAccounts(keepFocus){
     const el = document.getElementById('accq');
     if(el){ el.focus(); el.setSelectionRange(el.value.length, el.value.length); }
   } else window.scrollTo(0,0);
+}
+
+/* ---------- 8.5) تقرير الحسابات ----------
+   السؤال الذي يجيب عنه: مِن الذين أتابعهم، مَن يُنتج فعلًا أدوات وسكيلز تنفعني؟
+   المتابعون كثر والوقت واحد، والعدد وحده يخدع: حساب ينشر ٣٠ خبرًا أقل نفعًا من
+   حساب ينشر ٦ سكيلز. لذلك الترتيب يقيس الأدوات أولًا لا الغزارة.
+
+   الدرجة مركّبة ومعلنة — كل مكوّن ظاهر في البطاقة كي تُراجَع لا كي تُصدَّق:
+     حجم الأدوات 45٪ · تركيزها 20٪ · جودتها 20٪ · الاستمرارية 10٪ · ذوقك 5٪
+   لوغاريتم لا خطّي في الحجم والاستمرارية، كيلا يبتلع حسابٌ ضخم بقية القائمة. */
+const TOOL_CORE = ['Skill','MCP','Agent','Plugin','API/SDK'];
+const TOOL_SOFT = ['Prompt','تطبيق','نموذج'];
+let RSORT = 'tools';
+
+function accountStats(){
+  const by = {};
+  Store.all().forEach(i => {
+    const h = i.author; if(!h) return;
+    const s = by[h] || (by[h] = {handle:h, cards:0, core:0, soft:0, byType:{}, imp:0, impN:0,
+                                 days:new Set(), last:'', doms:{}, mine:0});
+    s.cards++;
+    let isCore = false, isSoft = false;
+    (i.tool_types||[]).forEach(t => {
+      s.byType[t] = (s.byType[t]||0) + 1;
+      if(TOOL_CORE.includes(t)) isCore = true; else if(TOOL_SOFT.includes(t)) isSoft = true;
+    });
+    if(isCore) s.core++; else if(isSoft) s.soft++;
+    if(isCore || isSoft){ s.imp += (i.importance_score||0); s.impN++; }
+    const d = (i.published_at||'').slice(0,10);
+    if(d){ s.days.add(d); if(d > s.last) s.last = d; }
+    (i.domains||[]).forEach(x => s.doms[x] = (s.doms[x]||0) + 1);
+    if(Prefs.liked(i.id) || Prefs.isBookmarked(i.id)) s.mine++;
+  });
+  const rows = Object.values(by);
+  if(!rows.length) return rows;
+  const maxTool = Math.max(1, ...rows.map(r => r.core + .4*r.soft));
+  const maxDays = Math.max(1, ...rows.map(r => r.days.size));
+  const maxMine = Math.max(1, ...rows.map(r => r.mine));
+  rows.forEach(r => {
+    r.toolW  = r.core + .4*r.soft;
+    r.ratio  = r.cards ? r.toolW / r.cards : 0;
+    r.quality= r.impN ? r.imp / r.impN : 0;
+    r.parts = [
+      ['حجم الأدوات', .45, Math.log1p(r.toolW)/Math.log1p(maxTool)],
+      ['تركيز الأدوات', .20, Math.min(1, r.ratio)],
+      ['جودة الأدوات', .20, Math.min(1, r.quality/100)],
+      ['الاستمرارية', .10, Math.log1p(r.days.size)/Math.log1p(maxDays)],
+      ['ذوقك', .05, r.mine/maxMine]
+    ];
+    r.score = Math.round(100 * r.parts.reduce((a,[,w,v]) => a + w*(v||0), 0));
+  });
+  return rows;
+}
+
+function rsort(k){ RSORT = k; viewReport(); }
+
+function stopAccount(h){
+  const url = REPO_ISSUE_URL + '?labels=account'
+    + '&title=' + encodeURIComponent('إيقاف حساب: @' + h)
+    + '&body='  + encodeURIComponent('أوقف سحب هذا الحساب يوميًا. بطاقاته السابقة تبقى كما هي.');
+  window.open(url, '_blank', 'noopener');
+  toast('افتحت طلبًا — اضغط التأكيد الأخضر ليتوقف السحب من @' + h);
+}
+
+function viewReport(){
+  const rows = accountStats();
+  const cmp = {
+    tools:  (a,b) => b.score - a.score || b.toolW - a.toolW,
+    cards:  (a,b) => b.cards - a.cards,
+    quality:(a,b) => b.quality - a.quality || b.score - a.score,
+    recent: (a,b) => (b.last||'').localeCompare(a.last||'')
+  }[RSORT];
+  const ranked = rows.slice().sort(cmp);
+  const useful = ranked.filter(r => r.toolW > 0);
+  const barren = ranked.filter(r => r.toolW === 0).sort((a,b) => b.cards - a.cards);
+  const totCore = rows.reduce((a,r) => a + r.core, 0);
+  const sortBtn = (k,l) => `<button class="rpsortb${RSORT===k?' on':''}" onclick="rsort('${k}')">${l}</button>`;
+
+  const chip = (t,n) => `<span class="rpchip${TOOL_CORE.includes(t)?' core':''}">${esc(t)} <b>${n}</b></span>`;
+  const row = (r,ix) => {
+    const types = Object.entries(r.byType).sort((a,b) => b[1]-a[1]);
+    const doms  = Object.entries(r.doms).sort((a,b) => b[1]-a[1]).slice(0,3).map(d => d[0]);
+    const a = Store.author(r.handle);
+    return `<div class="rprow">
+      <div class="rprank">${ix+1}</div>
+      <div class="av" style="width:40px;height:40px;flex:0 0 auto;${avStyle(r.handle,40)}"></div>
+      <div class="rpmain">
+        <div class="rpname" onclick="go('#/u/${encodeURIComponent(r.handle)}')">
+          ${esc(a.name||r.handle)} <span class="rphandle">@${esc(r.handle)}</span></div>
+        <div class="rpchips">${types.length ? types.map(([t,n]) => chip(t,n)).join('')
+            : '<span class="rpchip zero">لا بطاقة أداة</span>'}</div>
+        <div class="rpmeta">
+          <span><b class="num">${r.cards}</b> بطاقة</span>
+          <span>أدوات <b class="num">${r.core}</b></span>
+          <span>جودة <b class="num">${Math.round(r.quality)}</b></span>
+          <span><b class="num">${r.days.size}</b> يومًا نشطًا</span>
+          <span>آخر بطاقة ${esc(r.last||'—')}</span>
+          ${doms.length ? `<span>${doms.map(esc).join(' · ')}</span>` : ''}
+        </div>
+      </div>
+      <div class="rpright">
+        <div class="rpscore" title="${r.parts.map(([l,w,v]) => l+' '+Math.round(100*v)+'٪ (وزن '+Math.round(w*100)+'٪)').join(' · ')}">
+          <b>${r.score}</b><span>الدرجة</span>
+          <div class="rpbar"><i style="width:${r.score}%"></i></div>
+        </div>
+        <button class="rpstop" onclick="event.stopPropagation();stopAccount('${esc(r.handle)}')"
+          title="يوقف السحب اليومي · البطاقات تبقى">أوقف السحب</button>
+      </div>
+    </div>`;
+  };
+
+  document.getElementById('main').innerHTML = `
+    <div class="backbar"><button class="backbtn" onclick="go('#/accounts')">→ رجوع إلى المتابَعين</button></div>
+    <div class="acchead">
+      <h2>تقرير الحسابات</h2>
+      <div class="accsub"><b class="num">${rows.length}</b> حسابًا له بطاقات ·
+        <b class="num">${useful.length}</b> منها أنتج أدوات ·
+        <b class="num">${totCore}</b> بطاقة أداة (Skill · MCP · Agent · Plugin · API)</div>
+      <div class="rpsort">رتّب بـ ${sortBtn('tools','الأدوات')}${sortBtn('cards','العدد')}${sortBtn('quality','الجودة')}${sortBtn('recent','الأحدث')}</div>
+      <div class="accnote">الدرجة = حجم الأدوات ٤٥٪ · تركيزها ٢٠٪ · جودتها ٢٠٪ · الاستمرارية ١٠٪ · ذوقك ٥٪ —
+        مرّر فوق الدرجة لترى مكوّناتها. «أوقف السحب» يوقف اليومي فقط ولا يحذف بطاقة.</div>
+    </div>
+    ${useful.length ? `<div class="rplist">${useful.map(row).join('')}</div>` : ''}
+    ${barren.length ? `<div class="rpsep">حسابات لم تُنتج أي بطاقة أداة بعد
+        <span>مرشّحة للإيقاف إن كنت تتابعها للأدوات</span></div>
+      <div class="rplist dim">${barren.map((r,i) => row(r, useful.length+i)).join('')}</div>` : ''}`;
+  setLive(ranked.length);
+  window.scrollTo(0,0);
 }
 
 function viewProfile(handle){
@@ -1084,6 +1213,7 @@ function route(){
   const h = location.hash || '#/';
   if(h.startsWith('#/c/')) return viewDetail(h.slice(4));
   if(h.startsWith('#/u/')) return viewProfile(decodeURIComponent(h.slice(4)));
+  if(h.startsWith('#/report')) return viewReport();
   if(h.startsWith('#/accounts')) return viewAccounts();
   viewFeed();
   requestAnimationFrame(()=>window.scrollTo(0,_scroll));
@@ -1094,6 +1224,7 @@ function render(){
   const h = location.hash||'#/';
   if(h.startsWith('#/c/')) viewDetail(h.slice(4));
   else if(h.startsWith('#/u/')) viewProfile(decodeURIComponent(h.slice(4)));
+  else if(h.startsWith('#/report')) viewReport();
   else if(h.startsWith('#/accounts')) viewAccounts();
   else viewFeed();
 }
