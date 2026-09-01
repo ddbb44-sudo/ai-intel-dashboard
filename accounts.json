@@ -11,7 +11,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-08-26",
+ "updated": "2026-09-01",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -368,6 +368,11 @@
   {
    "handle": "BadwiNew",
    "name": "Badwi",
+   "active": true
+  },
+  {
+   "handle": "SamiBizConsult",
+   "name": "سامي المحيميد | مستشار تطوير أعمال",
    "active": true
   }
  ]
