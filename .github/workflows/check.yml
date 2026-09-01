@@ -1,0 +1,70 @@
+name: فحص
+
+# لماذا هذا الملف موجود
+# ---------------------
+# الطلب #27 (٣١ أغسطس) مرّ بلا بطاقة وبلا رسالة خطأ. السبب كان سطرًا ينادي
+# دالة تُعرَّف بعده بمئة سطر: NameError عند التشغيل، لا شيء يمسكه قبل ذلك.
+# قبل هذا الملف لم يكن في المستودع أي فحص يعمل عند الدفع — كان lint_design.py
+# يُشغَّل مرة واحدة داخل workflow تثبيت ثم يُنسى.
+#
+# pyflakes يمسك بالضبط هذا الصنف: اسم يُستعمل ولا وجود له. اكتشف عند كتابته
+# عطلًا ثانيًا نائمًا: DATA غير معرّف في add_account.py.
+
+on:
+  push:
+    paths:
+      - '.github/scripts/**.py'
+      - '.github/workflows/**.yml'
+      - 'app.js'
+      - 'index.html'
+      - 'sync/**'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: أسماء غير معرّفة واستيراد ميت (pyflakes)
+        run: |
+          pip install pyflakes
+          python -m pyflakes .github/scripts/*.py
+
+      - name: صياغة بايثون سليمة
+        run: python -m compileall -q .github/scripts
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: صياغة app.js سليمة
+        run: node --check app.js
+
+      - name: منطق حفظ التفضيلات (٩ اختبارات)
+        run: node sync/tests/test_state.mjs
+
+      - name: قواعد التصميم
+        run: python .github/scripts/lint_design.py
+
+      - name: صياغة كل ملفات الـworkflow
+        run: |
+          python - <<'PY'
+          import glob, sys, re
+          bad = []
+          for f in glob.glob('.github/workflows/*.yml'):
+              s = open(f, encoding='utf-8').read()
+              if not re.search(r'^on:', s, re.M):
+                  bad.append(f + ' — لا يحمل مُشغِّلًا (on:)')
+              if '\t' in s:
+                  bad.append(f + ' — فيه tab، وYAML يرفض الجدولة')
+          if bad:
+              print('\n'.join(bad)); sys.exit(1)
+          print('كل ملفات الـworkflow سليمة الشكل')
+          PY
