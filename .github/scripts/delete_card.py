@@ -42,6 +42,22 @@ def bail(msg):
     comment("لم أحذف شيئًا: %s\n\nالطلب باقٍ مفتوحًا." % msg)
     sys.exit(0)
 
+# ── إيصال الفشل ────────────────────────────────────────────────────────────
+# قاعدة: لا عملية تفشل بصمت. أي انهيار غير متوقّع يترك تعليقًا على الطلب
+# بنصّ العطل، فيعرف صاحبه أن الطلب لم يُنفَّذ ولماذا — بدل انتظار لا ينتهي.
+def _crash(t, v, tb):
+    import traceback
+    detail = "".join(traceback.format_exception(t, v, tb))[-1200:]
+    try:
+        comment("\u26a0\ufe0f **تعذّر تنفيذ الطلب — عطل تقني.** الطلب يبقى مفتوحًا ولم يُكتب شيء.\n\n"
+                "```\n" + detail + "\n```")
+    except Exception:
+        pass
+    sys.__excepthook__(t, v, tb)
+
+sys.excepthook = _crash
+
+
 if AUTHOR.lower() != OWNER.lower():
     log("author %s is not owner — ignoring" % AUTHOR); sys.exit(0)
 

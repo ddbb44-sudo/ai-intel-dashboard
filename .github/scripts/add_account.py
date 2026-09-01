@@ -26,6 +26,8 @@ APIFY = _envs("APIFY_TOKEN", "")
 ABASE = _envs("APIFY_BASE", "https://api.apify.com")
 ACT   = "xquik~x-tweet-scraper"
 
+DATA   = "data"   # كان غير معرّف رغم استعماله في authors.json
+
 def log(m): print(m, flush=True)
 
 def gh(method, path, payload=None):
@@ -46,6 +48,22 @@ def bail(msg):
     log("BAIL: " + msg)
     comment("تعذّرت الإضافة: %s\n\nالطلب باقٍ مفتوحًا — صحّح وأعد المحاولة." % msg)
     sys.exit(0)
+
+# ── إيصال الفشل ────────────────────────────────────────────────────────────
+# قاعدة: لا عملية تفشل بصمت. أي انهيار غير متوقّع يترك تعليقًا على الطلب
+# بنصّ العطل، فيعرف صاحبه أن الطلب لم يُنفَّذ ولماذا — بدل انتظار لا ينتهي.
+def _crash(t, v, tb):
+    import traceback
+    detail = "".join(traceback.format_exception(t, v, tb))[-1200:]
+    try:
+        comment("\u26a0\ufe0f **تعذّر تنفيذ الطلب — عطل تقني.** الطلب يبقى مفتوحًا ولم يُكتب شيء.\n\n"
+                "```\n" + detail + "\n```")
+    except Exception:
+        pass
+    sys.__excepthook__(t, v, tb)
+
+sys.excepthook = _crash
+
 
 # ---------- 1) الهوية ----------
 if AUTHOR.lower() != OWNER.lower():

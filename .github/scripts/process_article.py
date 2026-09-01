@@ -56,6 +56,22 @@ def bail(msg):
     comment("تعذّرت إضافة المقالة: %s\n\nالطلب باقٍ مفتوحًا." % msg)
     sys.exit(0)
 
+# ── إيصال الفشل ────────────────────────────────────────────────────────────
+# قاعدة: لا عملية تفشل بصمت. أي انهيار غير متوقّع يترك تعليقًا على الطلب
+# بنصّ العطل، فيعرف صاحبه أن الطلب لم يُنفَّذ ولماذا — بدل انتظار لا ينتهي.
+def _crash(t, v, tb):
+    import traceback
+    detail = "".join(traceback.format_exception(t, v, tb))[-1200:]
+    try:
+        comment("\u26a0\ufe0f **تعذّر تنفيذ الطلب — عطل تقني.** الطلب يبقى مفتوحًا ولم يُكتب شيء.\n\n"
+                "```\n" + detail + "\n```")
+    except Exception:
+        pass
+    sys.__excepthook__(t, v, tb)
+
+sys.excepthook = _crash
+
+
 if AUTHOR.lower() != OWNER.lower():
     log("author %s is not owner — ignoring" % AUTHOR); sys.exit(0)
 if not AKEY: bail("ANTHROPIC_API_KEY غير مضبوط")
@@ -167,6 +183,114 @@ def fetch_browser(u):
     md = re.sub(r'\n\s*\n\s*\n+', '\n\n', md).strip()
     ttl = ((it.get("metadata") or {}).get("title")) or it.get("title") or ""
     return ttl, md
+
+# ── دوال المعالجة تُعرَّف قبل استعمالها ─────────────────────────────────
+# العطل (٣١ أغسطس، الطلب #27): النداء كان في السطر ٢٠٩ والتعريف في ٣٠١،
+# والسكربت ينفَّذ من أعلى لأسفل — فانهار بـNameError قبل أن يعلّق على الطلب،
+# فبدا للمستخدم أن «الإضافة لم تتم» بلا سبب ظاهر.
+
+def dedupe(text):
+    """اللصق من Google Docs يحمل نسختين للمحتوى نفسه، وهما **متكاملتان لا
+    متطابقتين**: نسخة نصية فيها الجداول بأنابيب لكن روابطها نصٌّ مجرّد،
+    ونسخة HTML فيها الروابط الحقيقية لكن خلايا الجداول مبعثرة سطرًا سطرًا.
+    (قياس بطاقة c872: 6,994 حرفًا — نصف بجداول بلا روابط، ونصف بخمسة روابط
+    بلا جداول.)
+
+    فحذف أحدهما خسارة. ندمج: بنية النصف الأغنى جداولَ + روابط النصف الآخر،
+    باستبدال نصّ الرابط المطابق تمامًا لا غير."""
+    t = text.strip()
+    if len(t) < 600: return t
+    probe = re.sub(r'\s+', ' ', t[:180]).strip()
+    if len(probe) < 60: return t
+    idx = t.find(probe[:120], 200)
+    if idx < 0 or idx < len(t) * 0.25: return t
+
+    a, b = t[:idx].strip(), t[idx:].strip()
+    if not a or not b: return t
+    wa = set(re.findall(r'[\w\u0600-\u06FF]+', a))
+    wb = set(re.findall(r'[\w\u0600-\u06FF]+', b))
+    if not wa or not wb: return t
+    overlap = len(wa & wb) / min(len(wa), len(wb))
+    if overlap < 0.7:
+        return t   # نصفان مختلفان — ليس تكرارًا
+
+    rows  = lambda x: sum(1 for l in x.split("\n") if l.count("|") >= 2)
+    links = lambda x: re.findall(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', x)
+
+    # الاكتمال قبل الشكل: النسخة النصية من Google Docs تُهمل أقسامًا كاملة
+    # (قياس c872: قسم واحد مقابل خمسة في نسخة HTML). فقدان أربعة أقسام أفدح
+    # من فقدان حدود جدول — فنُبقي الأطول ونستعير منه لا إليه.
+    keep, other = (a, b) if len(a) >= len(b) * 1.15 else (b, a)
+    borrowed = 0
+    if not links(keep):
+        for txt, url in links(other):
+            txt = txt.strip()
+            if len(txt) < 3 or ("[%s]" % txt) in keep: continue
+            # استبدال نصّي مضبوط: النص كما هو، وليس جزءًا من كلمة أطول
+            pat = re.compile(r'(?<![\w\]])' + re.escape(txt) + r'(?![\w(])')
+            keep, n = pat.subn("[%s](%s)" % (txt, url), keep, count=1)
+            if n: borrowed += 1
+
+    log("تكرار مدموج: %d حرفًا ← %d (تشابه %d%% · جداول %d · روابط مستعارة %d)"
+        % (len(t), len(keep), round(overlap*100), rows(keep), borrowed))
+    return keep
+
+
+def refold_tables(text):
+    """يعيد بناء الجداول التي سطّحها اللصق إلى خلية في كل سطر.
+
+    لا تخمين ولا كلمات مثبَّتة: نبحث عن أطول تسلسل أسطر قصيرة **يتكرر حرفيًا**
+    في مواضع متفرقة — ذاك هو صف الترويسة، لأن ترويسة الجدول وحدها تتكرر بنصّها
+    في كل قسم. ما يليها بعدد أعمدتها هو صف القيم.
+
+    إن لم يتكرر تسلسل كهذا مرتين فأكثر، لا نلمس النص. (قياس c872: ترويسة من
+    عشرة أعمدة تكررت خمس مرات، فأُعيد بناء خمسة جداول.)
+    """
+    lines = [l.strip() for l in text.split("\n")]
+    n = len(lines)
+    short = [bool(l) and len(l) <= 90 and not re.search(r'[.!؟?]$', l) for l in lines]
+
+    best = None
+    for k in range(12, 2, -1):                       # نجرّب الأطول أولًا
+        seen = {}
+        for i in range(n - k + 1):
+            if not all(short[i:i+k]): continue
+            key = "\u0000".join(lines[i:i+k])
+            if len(key) < 20: continue
+            seen.setdefault(key, []).append(i)
+        cands = {key: pos for key, pos in seen.items() if len(pos) >= 2}
+        if cands:
+            key = max(cands, key=lambda x: len(cands[x]) * len(x.split("\u0000")))
+            best = (key.split("\u0000"), cands[key], k)
+            break
+    if not best:
+        return text
+
+    head, positions, k = best
+    out, i, built = [], 0, 0
+    posset = set(positions)
+    while i < n:
+        # الترويسة لافتات قصيرة، أما القيم فقد تكون جملًا تنتهي بنقطة —
+        # فلا نشترط فيها ما نشترطه في الترويسة (وهذا ما منع الكشف أولًا).
+        vals_ok = (i + 2*k <= n and all(lines[i+k:i+2*k])
+                   and all(len(x) <= 400 for x in lines[i+k:i+2*k]))
+        if i in posset and vals_ok:
+            vals = lines[i+k:i+2*k]
+            out.append("| " + " | ".join(head) + " |")
+            out.append("|" + "---|" * len(head))
+            out.append("| " + " | ".join(vals) + " |")
+            built += 1
+            i += 2*k
+            continue
+        out.append(lines[i]); i += 1
+
+    if not built:
+        return text
+    log("أُعيد بناء %d جدولًا من %d عمودًا (الترويسة تكررت %d مرة)"
+        % (built, k, len(positions)))
+    return "\n".join(out)
+
+
 
 if url_only:
     if not URL: bail("لم أجد رابطًا صالحًا")
@@ -296,108 +420,6 @@ TAG_PROMPT = """أنت مفهرس في «مركز المعرفة — الذكا�
      + "tool_types: "   + json.dumps(TAX['tool_types'],    ensure_ascii=False) + "\n"
      + "domains: "      + json.dumps(TAX['domains'],       ensure_ascii=False) + "\n"
      + "change_types: " + json.dumps(TAX['change_types'],  ensure_ascii=False) + "\n")
-
-
-def dedupe(text):
-    """اللصق من Google Docs يحمل نسختين للمحتوى نفسه، وهما **متكاملتان لا
-    متطابقتين**: نسخة نصية فيها الجداول بأنابيب لكن روابطها نصٌّ مجرّد،
-    ونسخة HTML فيها الروابط الحقيقية لكن خلايا الجداول مبعثرة سطرًا سطرًا.
-    (قياس بطاقة c872: 6,994 حرفًا — نصف بجداول بلا روابط، ونصف بخمسة روابط
-    بلا جداول.)
-
-    فحذف أحدهما خسارة. ندمج: بنية النصف الأغنى جداولَ + روابط النصف الآخر،
-    باستبدال نصّ الرابط المطابق تمامًا لا غير."""
-    t = text.strip()
-    if len(t) < 600: return t
-    probe = re.sub(r'\s+', ' ', t[:180]).strip()
-    if len(probe) < 60: return t
-    idx = t.find(probe[:120], 200)
-    if idx < 0 or idx < len(t) * 0.25: return t
-
-    a, b = t[:idx].strip(), t[idx:].strip()
-    if not a or not b: return t
-    wa = set(re.findall(r'[\w\u0600-\u06FF]+', a))
-    wb = set(re.findall(r'[\w\u0600-\u06FF]+', b))
-    if not wa or not wb: return t
-    overlap = len(wa & wb) / min(len(wa), len(wb))
-    if overlap < 0.7:
-        return t   # نصفان مختلفان — ليس تكرارًا
-
-    rows  = lambda x: sum(1 for l in x.split("\n") if l.count("|") >= 2)
-    links = lambda x: re.findall(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', x)
-
-    # الاكتمال قبل الشكل: النسخة النصية من Google Docs تُهمل أقسامًا كاملة
-    # (قياس c872: قسم واحد مقابل خمسة في نسخة HTML). فقدان أربعة أقسام أفدح
-    # من فقدان حدود جدول — فنُبقي الأطول ونستعير منه لا إليه.
-    keep, other = (a, b) if len(a) >= len(b) * 1.15 else (b, a)
-    borrowed = 0
-    if not links(keep):
-        for txt, url in links(other):
-            txt = txt.strip()
-            if len(txt) < 3 or ("[%s]" % txt) in keep: continue
-            # استبدال نصّي مضبوط: النص كما هو، وليس جزءًا من كلمة أطول
-            pat = re.compile(r'(?<![\w\]])' + re.escape(txt) + r'(?![\w(])')
-            keep, n = pat.subn("[%s](%s)" % (txt, url), keep, count=1)
-            if n: borrowed += 1
-
-    log("تكرار مدموج: %d حرفًا ← %d (تشابه %d%% · جداول %d · روابط مستعارة %d)"
-        % (len(t), len(keep), round(overlap*100), rows(keep), borrowed))
-    return keep
-
-
-def refold_tables(text):
-    """يعيد بناء الجداول التي سطّحها اللصق إلى خلية في كل سطر.
-
-    لا تخمين ولا كلمات مثبَّتة: نبحث عن أطول تسلسل أسطر قصيرة **يتكرر حرفيًا**
-    في مواضع متفرقة — ذاك هو صف الترويسة، لأن ترويسة الجدول وحدها تتكرر بنصّها
-    في كل قسم. ما يليها بعدد أعمدتها هو صف القيم.
-
-    إن لم يتكرر تسلسل كهذا مرتين فأكثر، لا نلمس النص. (قياس c872: ترويسة من
-    عشرة أعمدة تكررت خمس مرات، فأُعيد بناء خمسة جداول.)
-    """
-    lines = [l.strip() for l in text.split("\n")]
-    n = len(lines)
-    short = [bool(l) and len(l) <= 90 and not re.search(r'[.!؟?]$', l) for l in lines]
-
-    best = None
-    for k in range(12, 2, -1):                       # نجرّب الأطول أولًا
-        seen = {}
-        for i in range(n - k + 1):
-            if not all(short[i:i+k]): continue
-            key = "\u0000".join(lines[i:i+k])
-            if len(key) < 20: continue
-            seen.setdefault(key, []).append(i)
-        cands = {key: pos for key, pos in seen.items() if len(pos) >= 2}
-        if cands:
-            key = max(cands, key=lambda x: len(cands[x]) * len(x.split("\u0000")))
-            best = (key.split("\u0000"), cands[key], k)
-            break
-    if not best:
-        return text
-
-    head, positions, k = best
-    out, i, built = [], 0, 0
-    posset = set(positions)
-    while i < n:
-        # الترويسة لافتات قصيرة، أما القيم فقد تكون جملًا تنتهي بنقطة —
-        # فلا نشترط فيها ما نشترطه في الترويسة (وهذا ما منع الكشف أولًا).
-        vals_ok = (i + 2*k <= n and all(lines[i+k:i+2*k])
-                   and all(len(x) <= 400 for x in lines[i+k:i+2*k]))
-        if i in posset and vals_ok:
-            vals = lines[i+k:i+2*k]
-            out.append("| " + " | ".join(head) + " |")
-            out.append("|" + "---|" * len(head))
-            out.append("| " + " | ".join(vals) + " |")
-            built += 1
-            i += 2*k
-            continue
-        out.append(lines[i]); i += 1
-
-    if not built:
-        return text
-    log("أُعيد بناء %d جدولًا من %d عمودًا (الترويسة تكررت %d مرة)"
-        % (built, k, len(positions)))
-    return "\n".join(out)
 
 
 def tidy(text):
