@@ -1,6 +1,8 @@
-# النشر على Netlify يقتصر على مجلد sync (خدمة حفظ التفضيلات).
-# اللوحة نفسها تبقى على GitHub Pages من جذر المستودع.
+# Netlify يخدم المستودع كما هو، ودوال الحفظ من sync/netlify/functions.
+# اللوحة تبقى على GitHub Pages؛ هذا المشروع لخدمة /prefs فقط.
 [build]
-  base = "sync"
-  publish = "public"
+  publish = "."
   command = "echo no build"
+
+[functions]
+  directory = "sync/netlify/functions"
