@@ -760,8 +760,10 @@ function accountStats(){
 function rsort(k){ RSORT = k; viewReport(); }
 
 function stopAccount(h){
-  const url = REPO_ISSUE_URL + '?labels=account'
-    + '&title=' + encodeURIComponent('إيقاف حساب: @' + h)
+  /* بلا وسم: workflow إضافة الحسابات يلتقط أي طلب وسمه يحتوي «account»،
+     فكان طلب الإيقاف يوقظ إضافةً وإيقافًا معًا على الملف نفسه. العنوان وحده يكفي. */
+  const url = REPO_ISSUE_URL + '?title=' 
+    + encodeURIComponent('إيقاف حساب: @' + h)
     + '&body='  + encodeURIComponent('أوقف سحب هذا الحساب يوميًا. بطاقاته السابقة تبقى كما هي.');
   window.open(url, '_blank', 'noopener');
   toast('افتحت طلبًا — اضغط التأكيد الأخضر ليتوقف السحب من @' + h);
