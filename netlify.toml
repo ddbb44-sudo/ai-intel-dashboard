@@ -1,0 +1,6 @@
+# النشر على Netlify يقتصر على مجلد sync (خدمة حفظ التفضيلات).
+# اللوحة نفسها تبقى على GitHub Pages من جذر المستودع.
+[build]
+  base = "sync"
+  publish = "public"
+  command = "echo no build"

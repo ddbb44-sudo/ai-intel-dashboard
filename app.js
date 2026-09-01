@@ -26,13 +26,41 @@ const Store = (() => {
    القراءة مجانية من أي جهاز بلا إعداد. الكتابة تحتاج توكن يُلصق مرة واحدة.
    المتصفح يبقى النسخة العاملة — إن فشلت المزامنة لا ينكسر شيء. */
 const SYNC = {
-  owner: 'ddbb44-sudo', repo: 'ai-intel-dashboard', path: 'prefs.json',
-  raw:  'https://raw.githubusercontent.com/ddbb44-sudo/ai-intel-dashboard/main/prefs.json',
-  tokKey: 'aiintel.synctoken',
-  token(){ try { return localStorage.getItem(this.tokKey) || ''; } catch(e){ return ''; } },
-  setToken(t){ try { t ? localStorage.setItem(this.tokKey, t) : localStorage.removeItem(this.tokKey); } catch(e){} },
-  status: 'idle', sha: null, _timer: null,
+  url: 'https://ai-intel-sync.netlify.app/prefs',
+  key: 'sRRrqpWu3BzDKAmHDhTgfD6Z',
+  qKey: 'aiintel.queue.v1',
+  status: 'idle', _timer: null,
+  queue(){ try { return JSON.parse(localStorage.getItem(this.qKey) || '[]'); } catch(e){ return []; } },
+  setQueue(q){ try { localStorage.setItem(this.qKey, JSON.stringify(q.slice(-500))); } catch(e){} },
 };
+
+/* العميل يرسل عمليات لا حالة كاملة — نسخة مطابقة لما يطبّقه الخادم،
+   تُستعمل لعرض فوري قبل وصول الرد ولتغطية فترة انقطاع الشبكة. */
+function applyOps(st, ops){
+  const tog = (list, id, on) => { const i = list.indexOf(id);
+    if (on && i < 0) list.push(id); if (!on && i >= 0) list.splice(i,1); };
+  (ops||[]).forEach(op => {
+    if (!op || !op.k) return;
+    const on = op.on !== false;
+    if (op.k === 'like' && op.id) tog(st.likes, op.id, on);
+    else if (op.k === 'bm' && op.id && op.coll){
+      st.bookmarks[op.coll] = st.bookmarks[op.coll] || [];
+      tog(st.bookmarks[op.coll], op.id, on);
+      if (!st.bookmarks[op.coll].length) delete st.bookmarks[op.coll];
+    }
+    else if (op.k === 'open' && op.id) tog(st.opened, op.id, true);
+    else if (op.k === 'coll' && op.name && !st.collections.includes(op.name)) st.collections.push(op.name);
+  });
+  return st;
+}
+
+/* كل تغيير يدخل طابورًا محفوظًا في المتصفح، فلا يضيع بانقطاع أو إغلاق */
+function emit(op){
+  const q = SYNC.queue(); q.push(op); SYNC.setQueue(q);
+  if (SYNC.status !== 'saving') { SYNC.status = 'pending'; refreshSyncChip(); }
+  clearTimeout(SYNC._timer);
+  SYNC._timer = setTimeout(flushPrefs, 1200);   // دفعة واحدة بعد آخر ضغطة
+}
 
 const Prefs = (() => {
   const KEY = 'aiintel.prefs.v1';
@@ -40,23 +68,24 @@ const Prefs = (() => {
   let s = { likes:[], bookmarks:{}, collections:[...DEFAULT_COLLECTIONS], opened:[] };
   try { const raw = localStorage.getItem(KEY); if (raw) s = Object.assign(s, JSON.parse(raw)); } catch(e) {}
   const saveLocal = () => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch(e) {} };
-  const save = () => { saveLocal(); scheduleSync(); };
+  const save = saveLocal;
   return {
     state: () => s,
     replace(next){ s = Object.assign(s, next); saveLocal(); },
     liked: id => s.likes.includes(id),
-    toggleLike(id){ const i = s.likes.indexOf(id); i<0 ? s.likes.push(id) : s.likes.splice(i,1); save(); return i<0; },
+    toggleLike(id){ const i = s.likes.indexOf(id); i<0 ? s.likes.push(id) : s.likes.splice(i,1);
+      save(); emit({k:'like', id, on: i<0}); return i<0; },
     bookmarksOf: id => Object.keys(s.bookmarks).filter(c => (s.bookmarks[c]||[]).includes(id)),
     isBookmarked: id => Object.values(s.bookmarks).some(a => a.includes(id)),
     toggleBookmark(id, coll){
       s.bookmarks[coll] = s.bookmarks[coll] || [];
       const i = s.bookmarks[coll].indexOf(id);
       i<0 ? s.bookmarks[coll].push(id) : s.bookmarks[coll].splice(i,1);
-      save(); return i<0;
+      save(); emit({k:'bm', id, coll, on: i<0}); return i<0;
     },
     collections: () => s.collections,
-    addCollection(n){ n=(n||'').trim(); if(n && !s.collections.includes(n)){ s.collections.push(n); save(); } },
-    markOpened(id){ if(!s.opened.includes(id)){ s.opened.push(id); save(); } },
+    addCollection(n){ n=(n||'').trim(); if(n && !s.collections.includes(n)){ s.collections.push(n); save(); emit({k:'coll', name:n}); } },
+    markOpened(id){ if(!s.opened.includes(id)){ s.opened.push(id); save(); emit({k:'open', id}); } },
     isOpened: id => s.opened.includes(id),
     /* متجه التفضيلات: يُبنى من الإعجابات والحفظ */
     vector(){
@@ -92,57 +121,47 @@ const Ranking = {
   }
 };
 
-/* دمج لا استبدال: اتحاد الإعجابات والمحفوظات، فلا يمحو جهازٌ عملَ جهاز */
-function mergePrefs(a, b){
-  const uniq = x => Array.from(new Set(x || []));
-  const out = { likes: uniq([...(a.likes||[]), ...(b.likes||[])]),
-                opened: uniq([...(a.opened||[]), ...(b.opened||[])]),
-                collections: uniq([...(a.collections||[]), ...(b.collections||[])]),
-                bookmarks: {} };
-  for (const src of [a.bookmarks||{}, b.bookmarks||{}])
-    for (const c of Object.keys(src)) out.bookmarks[c] = uniq([...(out.bookmarks[c]||[]), ...src[c]]);
-  return out;
+/* الخادم هو المرجع، ثم تُطبَّق فوقه العمليات التي لم تصل بعد من هذا الجهاز */
+function adopt(remote){
+  const st = { likes: remote.likes || [], bookmarks: remote.bookmarks || {},
+               opened: remote.opened || [],
+               collections: (remote.collections && remote.collections.length)
+                              ? remote.collections.slice() : Prefs.state().collections.slice() };
+  applyOps(st, SYNC.queue());
+  Prefs.replace(st);
 }
 
 async function pullPrefs(){
   try {
-    const r = await fetch(SYNC.raw + '?t=' + Date.now(), {cache:'no-store'});
-    if (!r.ok) return false;
+    const r = await fetch(SYNC.url + '?t=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
     const remote = await r.json();
-    if (!remote || remote.empty) return false;
-    Prefs.replace(mergePrefs(Prefs.state(), remote));
-    SYNC.status = 'synced';
+    if (!remote || typeof remote !== 'object') throw new Error('bad');
+    adopt(remote);
+    SYNC.status = SYNC.queue().length ? 'pending' : 'synced';
+    if (SYNC.queue().length) flushPrefs();
     return true;
-  } catch(e){ return false; }
+  } catch(e){ SYNC.status = 'offline'; return false; }   // المحلي يبقى سليمًا
 }
 
-function scheduleSync(){
-  if (!SYNC.token()) { SYNC.status = 'local'; return; }
-  clearTimeout(SYNC._timer);
-  SYNC._timer = setTimeout(pushPrefs, 3000);   // رفعة واحدة بعد آخر تغيير لا رفعة لكل ضغطة
-}
-
-async function pushPrefs(){
-  const tok = SYNC.token(); if (!tok) return;
+async function flushPrefs(){
+  const q = SYNC.queue();
+  if (!q.length){ SYNC.status = 'synced'; refreshSyncChip(); return; }
   SYNC.status = 'saving'; refreshSyncChip();
   try {
-    const api = `https://api.github.com/repos/${SYNC.owner}/${SYNC.repo}/contents/${SYNC.path}`;
-    if (SYNC.sha === null) {
-      const head = await fetch(api, {headers:{Authorization:'Bearer '+tok}});
-      SYNC.sha = head.ok ? (await head.json()).sha : undefined;
-    }
-    const body = JSON.stringify(Object.assign({}, Prefs.state(),
-                   {saved_at: new Date().toISOString()}), null, 1);
-    const enc = btoa(String.fromCharCode(...new TextEncoder().encode(body)));
-    const res = await fetch(api, {method:'PUT',
-      headers:{Authorization:'Bearer '+tok, 'content-type':'application/json'},
-      body: JSON.stringify({message:'prefs: تحديث من اللوحة', content: enc, sha: SYNC.sha})});
-    if (res.status === 409 || res.status === 422) { SYNC.sha = null; return pushPrefs(); }
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    SYNC.sha = (await res.json()).content.sha;
-    SYNC.status = 'synced';
+    const r = await fetch(SYNC.url, {method:'POST',
+      headers:{'content-type':'application/json', 'x-key': SYNC.key},
+      body: JSON.stringify({ops: q})});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const st = await r.json();
+    SYNC.setQueue(SYNC.queue().slice(q.length));   // ما جدّ أثناء الإرسال يبقى
+    adopt(st);
+    SYNC.status = SYNC.queue().length ? 'pending' : 'synced';
+    if (typeof refreshBadges === 'function') refreshBadges();
   } catch(e){
-    SYNC.status = 'failed';   // محلي سليم — يُعاد الرفع مع أي تغيير قادم
+    SYNC.status = 'failed';                        // الطابور محفوظ — يُعاد بهدوء
+    clearTimeout(SYNC._timer);
+    SYNC._timer = setTimeout(flushPrefs, 20000);
   }
   refreshSyncChip();
 }
@@ -970,7 +989,8 @@ function addGo(){
               : 'افتحت GitHub — اضغط زر التأكيد الأخضر لإتمام الإضافة');
 }
 function syncLabel(){
-  const m = {synced:'✓ مزامنة مفعّلة', saving:'… يحفظ', failed:'⚠ فشل الحفظ', local:'مزامنة معطّلة', idle:'مزامنة'};
+  const m = {synced:'\u2713 محفوظ', saving:'\u2026 يحفظ', pending:'\u2026 بانتظار الحفظ',
+             failed:'\u26a0 تعذّر الحفظ', offline:'\u26a0 بلا اتصال', idle:'مزامنة'};
   return m[SYNC.status] || 'مزامنة';
 }
 function refreshSyncChip(){
@@ -978,39 +998,20 @@ function refreshSyncChip(){
   if (el) el.textContent = syncLabel();
 }
 function openSync(){
-  const has = !!SYNC.token();
+  const n = SYNC.queue().length;
   const ov = document.createElement('div'); ov.className='ov'; ov.id='syncov';
   ov.onclick = e => { if (e.target===ov) ov.remove(); };
   ov.innerHTML = `<div class="addbox">
-    <h4>مزامنة التفضيلات</h4>
-    <p class="sub">إعجاباتك ومحفوظاتك تُحفظ في مستودعك، فتنتقل بين أجهزتك ولا يمحوها المتصفح.
-      <b>القراءة تعمل على كل جهاز بلا إعداد.</b> الكتابة من هذا الجهاز تحتاج تفعيلًا مرة واحدة.</p>
-    ${has ? `<div class="addnote">المزامنة <b>مفعّلة</b> على هذا الجهاز.</div>
-      <div class="addrow">
-        <button onclick="document.getElementById('syncov').remove()">إغلاق</button>
-        <button class="go" onclick="pushPrefs();document.getElementById('syncov').remove();toast('يحفظ الآن…')">احفظ الآن</button>
-        <button onclick="SYNC.setToken('');SYNC.status='local';refreshSyncChip();document.getElementById('syncov').remove();toast('أُوقفت المزامنة على هذا الجهاز')">إيقاف</button>
-      </div>`
-    : `<input type="text" id="synctok" placeholder="github_pat_..." autocomplete="off" spellcheck="false">
-      <div class="addrow">
-        <button onclick="document.getElementById('syncov').remove()">إلغاء</button>
-        <button class="go" onclick="saveSyncToken()">تفعيل</button>
-      </div>
-      <div class="addnote">
-        أنشئ توكنًا من <b>GitHub ← Settings ← Developer settings ← Fine-grained tokens</b>،
-        اختر مستودع <b>ai-intel-dashboard</b> وحده، وصلاحية <b>Contents: Read and write</b> فقط.
-        يُحفظ في هذا المتصفح ولا يُرسل لأحد.
-      </div>`}
+    <h4>حفظ التفضيلات</h4>
+    <p class="sub">إعجاباتك ومحفوظاتك تُحفظ خارج المتصفح، فتظهر على جوالك وماكك معًا
+      ولا يمحوها Safari. <b>بلا أي إعداد على أي جهاز.</b></p>
+    <div class="addnote">الحالة الآن: <b>${syncLabel()}</b>${n ? ` · <b>${n}</b> تغييرًا لم يُرفع بعد` : ''}</div>
+    <div class="addrow">
+      <button onclick="document.getElementById('syncov').remove()">إغلاق</button>
+      <button class="go" onclick="flushPrefs();pullPrefs().then(()=>{refreshBadges();render();});document.getElementById('syncov').remove();toast('يزامن الآن\u2026')">زامن الآن</button>
+    </div>
   </div>`;
   document.body.appendChild(ov);
-}
-function saveSyncToken(){
-  const v = (document.getElementById('synctok').value||'').trim();
-  if (!v) return;
-  SYNC.setToken(v); SYNC.sha = null;
-  document.getElementById('syncov').remove();
-  toast('فُعّلت المزامنة — يحفظ الآن');
-  pushPrefs();
 }
 function closeTray(){ const t=document.getElementById('tray'); if(t) t.remove(); document.removeEventListener('click',_trayOut,true); }
 function _trayOut(e){ const t=document.getElementById('tray'); if(t && !t.contains(e.target) && !e.target.closest('.iconbtn.hb')) closeTray(); }
@@ -1135,8 +1136,13 @@ function render(){
     clearTimeout(t); t=setTimeout(()=>{ F.q=e.target.value; if((location.hash||'#/')!=='#/'){ location.hash='#/'; } else refilter(); },220);
   });
   refreshBadges();
-  SYNC.status = SYNC.token() ? 'synced' : 'local';
+  SYNC.status = SYNC.queue().length ? 'pending' : 'idle';
   pullPrefs().then(ok => { if (ok) { refreshBadges(); render(); } refreshSyncChip(); });
+  /* العودة إلى اللسان أو إلى الشبكة تلتقط ما فعله الجهاز الآخر */
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) pullPrefs().then(ok => { if (ok) { refreshBadges(); render(); } refreshSyncChip(); });
+  });
+  window.addEventListener('online', flushPrefs);
   window.addEventListener('hashchange', route);
   document.getElementById('filters').innerHTML = filtersHTML();
   route();
