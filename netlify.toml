@@ -1,8 +1,14 @@
-# Netlify يخدم المستودع كما هو، ودوال الحفظ من sync/netlify/functions.
-# اللوحة تبقى على GitHub Pages؛ هذا المشروع لخدمة /prefs فقط.
+# Netlify هنا لغرض واحد فقط: دالة /prefs التي تحفظ الإعجابات والمحفوظات
+# وتنقلها بين الجوال والماك. اللوحة نفسها تُنشر من GitHub Pages لا من هنا.
+#
+# ignore: كل نشر إنتاجي يكلّف ١٥ نقطة من ٣٠٠ نقطة مجانية شهريًا. والمستودع
+# يستقبل كوميتات بيانات يوميًا (السحب الصباحي · المقالات · الروابط · الحذف)،
+# فلو بنى Netlify مع كل كوميت لاستُنفدت النقاط خلال أيام وتوقّفت الخدمة.
+# فلا نبني إلا إذا تغيّر ما يخصّ الخدمة فعلًا: مجلد sync أو هذا الملف.
 [build]
   publish = "."
   command = "echo no build"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- sync netlify.toml"
 
 [functions]
   directory = "sync/netlify/functions"
