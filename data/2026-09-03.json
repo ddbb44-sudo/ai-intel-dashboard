@@ -1,0 +1,2389 @@
+[
+ {
+  "id": "c957",
+  "serial": 957,
+  "serial_display": "#000957",
+  "source_type": "x",
+  "source_url": "https://x.com/joshwoodward/status/2095177483129917849",
+  "source_native_id": "2095177483129917849",
+  "source_name": "Josh Woodward",
+  "source_site": "x.com",
+  "author": "joshwoodward",
+  "published_at": "2026-09-02T15:50:13Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Gemini 3.8 Flash في تطبيق Gemini",
+  "arabic_summary": "أعلنت Google عن بدء طرح نموذج Gemini 3.8 Flash في تطبيق Gemini. النموذج يمثل الجيل الأحدث من نماذج Flash التي تجمع بين الجودة العالية والسرعة والسعر المنخفض.",
+  "detailed_explanation": "أعلن Josh Woodward من Google عن بدء طرح نموذج Gemini 3.8 Flash في تطبيق Gemini الرسمي للمستخدمين.\n\nهذا الإعلان يأتي في نفس يوم إطلاق النموذج عبر API وAI Studio، مما يعني أن Google تسرّع في إتاحة النموذج الجديد عبر جميع قنواتها.\n\nالنموذج يمثل تطوراً سريعاً في سلسلة Flash، حيث صدر بعد 20 يوماً فقط من Gemini 3.7 Flash، ويقدم أداءً منافساً لنماذج Opus 5 وGPT-5.6 Sol بتكلفة أقل بكثير (6× أرخص من Claude Opus 5 و5× أرخص من GPT-5.6 Sol).\n\nإتاحة النموذج في التطبيق تعني أن المستخدمين العاديين يمكنهم الاستفادة من قدراته المتقدمة في البرمجة والاستدلال دون الحاجة لاستخدام API.",
+  "why_it_matters": "يوسع النموذج الجديد نطاق وصول قدرات Gemini 3.8 Flash المتقدمة إلى المستخدمين النهائيين عبر التطبيق الرسمي بعد إطلاقه في API.",
+  "original_text": "3.8 Flash rolling out to @GeminiApp https://t.co/FItHefpEdv",
+  "glossary": [
+   {
+    "term": "Flash",
+    "ar": "نماذج Flash من Google تركز على السرعة والكفاءة والتكلفة المنخفضة مع الحفاظ على جودة عالية"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Release",
+   "General Availability"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 706,
+   "replies": 55,
+   "reposts": 37,
+   "quotes": 4,
+   "bookmarks": 23,
+   "views": 34228
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini_3.8_flash_release",
+  "also_reported": [
+   {
+    "author": "itsPaulAi",
+    "url": "https://x.com/itsPaulAi/status/2095177823833227356"
+   },
+   {
+    "author": "smalkalbani",
+    "url": "https://x.com/smalkalbani/status/2095179374668775934"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c958",
+  "serial": 958,
+  "serial_display": "#000958",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2095229882578161996",
+  "source_native_id": "2095229882578161996",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-02T19:18:26Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "استهلاك ChatGPT من الماء: مقارنات واقعية لفهم البصمة البيئية",
+  "arabic_summary": "استعلام واحد في ChatGPT يستهلك نحو 0.32 ملليلتر من الماء. للمقارنة، زجاجة ماء 500 مل تعادل 1560 استعلام، ودقيقة استحمام واحدة تعادل 30,000 استعلام.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر منظوراً واقعياً حول التكلفة البيئية لاستخدام نماذج اللغة الكبيرة، ويُظهر أن الاستهلاك الفردي متواضع نسبياً مقارنة بالاستخدامات اليومية الأخرى للماء.",
+  "original_text": "كم يستهلك ChatGPT من الماء؟\n\nاستعلام واحد في ChatGPT يستهلك نحو 0.32ml من الماء\n\nللمقارنة:\n\nزجاجة ماء 500 مل ≈ 1560 استعلام ChatGPT\n\nدقيقة استحمام واحدة ≈ 30000 استعلام ChatGPT https://t.co/JoGKfAaJrx",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 35,
+  "metrics": {
+   "likes": 4,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2498
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c959",
+  "serial": 959,
+  "serial_display": "#000959",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2095176018726453441",
+  "source_native_id": "2095176018726453441",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-02T15:44:24Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "سجن مهندس Google السابق 12 شهراً لسرقة أسرار الذكاء الاصطناعي لصالح الصين",
+  "arabic_summary": "حُكم على المهندس لينوي دينغ بالسجن 12 شهراً ناقص يوم بتهمة سرقة أكثر من 2000 صفحة من الوثائق السرية لـGoogle (1000+ ملف) تتضمن تصميم رقائق TPU وأنظمة GPU والبرمجيات التي تربط الرقائق لبناء حواسيب فائقة لتدريب نماذج اللغة الكبيرة. كان يخطط لاستخدام المعلومات في شركات تقنية صينية.",
+  "detailed_explanation": "حكمت محكمة أمريكية على المهندس السابق في Google لينوي دينغ بالسجن لمدة 12 شهراً ناقص يوم بتهمة سرقة أسرار تجارية تتعلق بتقنيات الذكاء الاصطناعي.\n\nسرق دينغ أكثر من 2000 صفحة من الوثائق السرية تحتوي على أكثر من 1000 ملف، وركزت القضية على 105 وثيقة اعتُبرت أسراراً تجارية أساسية.\n\nالوثائق المسروقة تضمنت تفاصيل تقنية شديدة الحساسية عن تصميم رقائق TPU (Tensor Processing Units) الخاصة بـGoogle، وأنظمة GPU، والأهم: البرمجيات التي تجعل هذه الرقائق تتواصل مع بعضها، وطريقة تنسيق آلاف الرقائق معاً لبناء حواسيب فائقة قادرة على تدريب نماذج الذكاء الاصطناعي الكبيرة.\n\nكان المهندس يخطط لاستخدام هذه المعلومات في شركات تكنولوجية صينية كان يعمل معها أو أسسها بنفسه، مما يجعل القضية جزءاً من الصراع التقني الأوسع بين الولايات المتحدة والصين حول تقنيات الذكاء الاصطناعي المتقدمة.\n\nالقضية تسلط الضوء على أهمية البنية التحتية الحسابية (الرقائق والأنظمة) في سباق تطوير الذكاء الاصطناعي، وليس فقط الخوارزميات أو البيانات.",
+  "why_it_matters": "تُبرز القضية المخاطر الأمنية المتزايدة حول تقنيات الذكاء الاصطناعي المتقدمة وسباق التسلح التقني بين الولايات المتحدة والصين، وتكشف عن حساسية البنية التحتية للحوسبة الفائقة المستخدمة في تدريب النماذج.",
+  "original_text": "سجن 12 شهر ناقص يوم\nبسبب سرقة التكنولوجيا\n\nالحكم بالسجن لمدة عام تقريباً (12 شهراً ناقص يوم) على المهندس السابق في جوجل (لينوي دينغ) بتهمة سرقة أسرار تجارية تتعلق بتقنيات الذكاء الاصطناعي\n\nسرق أكثر من 2000 صفحة من الوثائق السرية (أكثر من 1000 ملف)، والقضية ركزت على 105 وثائق اعتبرت أسراراً تجارية أساسية.\n\nالوثائق المسروقة تحتوي على تفاصيل تقنية عن:\n•تصميم رقائق TPU الخاصة بجوجل\n•أنظمة GPU\n•البرمجيات التي تجعل الرقائق تتواصل مع بعضها\n•طريقة تنسيق آلاف الرقائق لبناء حواسيب فائقة تدرب نماذج الذكاء الاصطناعي الكبيرة\n\nكان يخطط لاستخدام هذه المعلومات في شركات تكنولوجية صينية كان يعمل معها أو أسسها.",
+  "glossary": [
+   {
+    "term": "TPU",
+    "ar": "Tensor Processing Unit رقاقة معالجة مخصصة صممتها Google لتسريع عمليات التعلم الآلي"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Google"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 13,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 3602
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c960",
+  "serial": 960,
+  "serial_display": "#000960",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2095040819271250365",
+  "source_native_id": "2095040819271250365",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-02T06:47:09Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تسريب تعليمات النظام الكاملة لنموذج Fable 5.1 من Claude",
+  "arabic_summary": "تم تسريب system prompt الكامل لنموذج Fable 5.1 من Claude بعد ساعات من إصداره. التعليمات تتجاوز 270,000 حرف وتكشف بتفصيل دقيق طريقة عمل النموذج وتفكيره والتغييرات عن الإصدارات السابقة.",
+  "detailed_explanation": "تم تسريب تعليمات النظام (system prompt) الكاملة لنموذج Fable 5.1 من Claude بعد ساعات فقط من إطلاقه الرسمي.\n\nالتعليمات تتجاوز 270,000 حرف، مما يجعلها واحدة من أكثر تعليمات النظام تفصيلاً التي تم الكشف عنها علناً.\n\nيحتوي التسريب على معلومات قيّمة تشمل طريقة تفكير النموذج خطوة بخطوة، والتغييرات التي أُدخلت عن الإصدارات السابقة، والقيود والضوابط المفروضة عليه، وأفضل الممارسات التي صممه المهندسون لاتباعها.\n\nهذا النوع من التسريبات يعتبر \"كنزاً\" في مجتمع الذكاء الاصطناعي لأنه يكشف الستار عن \"الصندوق الأسود\" ويُمكّن المطورين من فهم أعمق لكيفية صياغة prompts أفضل وتوقع سلوك النموذج.\n\nالتعليمات منشورة على GitHub ومتاحة للجميع، مما يجعلها مرجعاً مهماً للمهندسين الذين يعملون مع Claude.",
+  "why_it_matters": "يوفر فرصة نادرة لفهم البنية الداخلية لأحد أقوى نماذج اللغة، ويساعد المطورين على تحسين استخدامهم للنموذج من خلال فهم آليات عمله الفعلية.",
+  "original_text": "كنز جديد (بعد ساعات من إصداره)\n\nتم تسريب system prompt تعليمات النظام لـ Fable 5.1\n\nالتعليمات تتجاوز يتجاوز 270,000 حرف\n\nولكنها تحتوي على الكثير من المعرفة ويمكن فهم ما الذي تغير في النموذج عن سابقة، ويمكنك تعلم طريقة عمل وتفكير النموذج\n\nhttps://t.co/4TTqFxp0fG https://t.co/lIQWZNUAxX",
+  "glossary": [
+   {
+    "term": "System Prompt",
+    "ar": "التعليمات الأساسية المخفية التي تحدد سلوك النموذج وشخصيته وقيوده"
+   }
+  ],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 123,
+   "replies": 4,
+   "reposts": 11,
+   "quotes": 0,
+   "bookmarks": 155,
+   "views": 12632
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [
+   "https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/Claude-Fable-5.1.md"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c961",
+  "serial": 961,
+  "serial_display": "#000961",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2095026448503591129",
+  "source_native_id": "2095026448503591129",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-02T05:50:03Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "وزارة الدفاع الأمريكية تطلق نسخاً رسمية من Grok وChatGPT لـ3 ملايين موظف",
+  "arabic_summary": "أطلق البنتاغون رسمياً نسخاً مخصصة من Grok وChatGPT عبر منصة GenAI.mil لأكثر من 3 ملايين موظف عسكري ومدني. النسخ مخصصة للأعمال غير المصنفة مثل التخطيط والسياسات واللوجستيات والإدارة، وتنضم إلى Gemini الذي كان متاحاً سابقاً.",
+  "detailed_explanation": "أعلنت وزارة الدفاع الأمريكية (البنتاغون) عن إطلاق رسمي لنسخ مخصصة من نموذجي Grok من xAI وChatGPT من OpenAI للاستخدام الداخلي.\n\nالنسخ متاحة عبر منصة GenAI.mil لأكثر من 3 ملايين موظف عسكري ومدني في وزارة الدفاع.\n\nالاستخدام مخصص للأعمال غير المصنفة (unclassified) مثل التخطيط والسياسات واللوجستيات والإدارة، وليس للعمليات القتالية المباشرة أو المعلومات السرية المصنفة.\n\nالمنصة كانت قد بدأت سابقاً بنسخة من Gemini من Google، والآن أصبحت استراتيجية متعددة النماذج (multi-model) تتيح للموظفين اختيار النموذج الأنسب للمهمة.\n\nالهدف المعلن هو تسريع العمل الروتيني وزيادة الإنتاجية الإدارية، مما يعكس اتجاهاً أوسع لتبني الذكاء الاصطناعي في المؤسسات الحكومية الكبرى.\n\nهذا التطور يُظهر ثقة متزايدة في نماذج اللغة الكبيرة كأدوات إنتاجية آمنة عند استخدامها ضمن بيئات محكومة وأعمال غير حساسة.",
+  "why_it_matters": "تمثل خطوة كبيرة في تبني المؤسسات العسكرية الكبرى للذكاء الاصطناعي التوليدي على نطاق واسع، وتوضح اتجاه استراتيجية multi-model لتحسين الإنتاجية في الأعمال الإدارية والتشغيلية.",
+  "original_text": "خبر جديد من البنتاغون\n\nوزارة الدفاع الأمريكية أطلقت رسميًا نسخ مخصصة من Grok  وChatGPT للاستخدام داخل الوزارة.\n\nالنسختان متاحتان عبر منصة GenAI. mil لأكثر من 3 ملايين موظف عسكري ومدني، وتركزان على الأعمال غير المصنفة مثل التخطيط والسياسات واللوجستيات والإدارة.\n\nالمنصة كانت بدأت بنسخة من Gemini، والآن أصبحت متعددة النماذج.\n\nالهدف المعلن:\nتسريع العمل الروتيني وزيادة الإنتاجية، وليس الاستخدام القتالي المباشر أو المعلومات السرية المصنفة.",
+  "glossary": [],
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Pentagon",
+   "xAI",
+   "OpenAI",
+   "Google"
+  ],
+  "change_types": [
+   "New Integration",
+   "General Availability"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 13,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 3373
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c962",
+  "serial": 962,
+  "serial_display": "#000962",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2095013105889849538",
+  "source_native_id": "2095013105889849538",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-02T04:57:02Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "دراسة حديثة: نماذج اللغة الكبيرة تنظّم المعلومات داخلياً بحسب الدور النحوي",
+  "arabic_summary": "وجدت دراسة جديدة أن التمثيلات الداخلية للشبكات العصبية ونماذج اللغة الكبيرة قد تنظّم المعلومات بحسب الأدوار النحوية (فاعل، فعل، مفعول به) وليس فقط الكلمات والأرقام. عند تعديل هذه التمثيلات، تغيّر سلوك النموذج بالطريقة المتوقعة، مما يشير إلى بنية منطقية داخلية.",
+  "detailed_explanation": "نشرت دراسة حديثة نتائج مثيرة حول طبيعة التمثيلات الداخلية (internal representations) في نماذج اللغة الكبيرة والشبكات العصبية.\n\nلسنوات، كان أحد أكبر الأسئلة في الذكاء الاصطناعي: ما الذي يحدث داخل النموذج بين المدخل والمخرج؟ هل هي مجرد أرقام عشوائية، أم هناك بنية منظّمة؟\n\nوجدت الدراسة أن النماذج لا تخزن الكلمات والأرقام فحسب، بل قد تنظّم المعلومات بحسب الدور الذي تؤديه في الجملة. مثلاً في جملة \"الطبيب ساعد المعلم\"، قد يكون التمثيل الداخلي أقرب إلى: الطبيب = الفاعل، ساعد = الفعل، المعلم = المفعول به.\n\nالأهم: قام الباحثون بتعديل هذه التمثيلات الداخلية مباشرة، فتغيّر سلوك النموذج بالطريقة المتوقعة، مما يؤكد أن هذه البنية ليست مجرد مصادفة بل مرتبطة فعلياً بطريقة عمل النموذج.\n\nهذا لا يعني أن مشكلة \"الصندوق الأسود\" قد حُلّت تماماً، لكنه يشير إلى أن ما يبدو من الخارج مجرد متجهات ومصفوفات معقدة، قد يخفي داخله تنظيماً وعلاقات قابلة للفهم تشبه الرموز (symbols) والأدوار النحوية.\n\nالنتائج تدعم فرضية أن الذكاء الاصطناعي قد يجمع بين المعالجة الإحصائية (الأرقام) والتمثيل الرمزي (المعاني)، مما يفتح آفاقاً جديدة لتفسير عمل النماذج الكبيرة.",
+  "why_it_matters": "تقدم خطوة مهمة نحو فهم \"الصندوق الأسود\" للذكاء الاصطناعي، وتُظهر أن النماذج قد تملك تنظيماً داخلياً أقرب للرموز والعلاقات المنطقية مما كان يُعتقد، مما يفتح آفاقاً لتفسيرية أفضل.",
+  "original_text": "هل الـ AI فعلًا \"صندوق أسود\" لا نفهم ما يحدث بداخله؟\n\nلسنوات كان هذا أحد أكبر الأسئلة في الذكاء الاصطناعي:\nنرى ما ندخله للنموذج، ونرى النتيجة التي يخرجها…\nلكن ما الذي يحدث بينهما؟\n\nدراسة حديثة وجدت شيئ مثير: التمثيلات الداخلية للشبكات العصبية، ومنها نماذج اللغة الكبيرة، قد تكون أكثر تنظيمًا مما تبدو عليه. فهي لا تخزن الكلمات والأرقام فقط، بل قد تنظّم المعلومات بحسب الدور الذي تؤديه.\n\nمثلاً في جملة:\n\"الطبيب ساعد المعلم\"\nقد يكون التمثيل الداخلي أقرب إلى:\nالطبيب = الفاعل\nساعد = الفعل\nالمعلم = المفعول به\n\nوالأقوى أن الباحثين قاموا بتعديل هذه التمثيلات داخل النموذج، فتغيّر سلوكه بالطريقة المتوقعة، ما يشير إلى أن هذه البنية مرتبطة فعليًا بطريقة عمله وليست مجرد مصادفة.\n\nوهذا يشرح أن ما يبدو من الخارج مجرد أرقام ومتجهات معقدة، قد يخفي داخله تنظيم وعلاقات قابلة للفهم\n\n⭕️هل انتهت مشكلة \"الصندوق الأسود\"؟ بالتأكيد لا.\n\nلكن ربما بدأنا نكتشف أن الصندوق ليس أسود بالكامل.\n\nالذكاء الاصطناعي يعمل بالأرقام…\nلكن داخل هذه الأرقام قد تظهر بنية تشبه الرموز والأدوار والعلاقات.",
+  "glossary": [
+   {
+    "term": "Internal Representations",
+    "ar": "التمثيلات الداخلية: الطريقة التي يُخزّن بها النموذج المعلومات ويعالجها في طبقاته الوسطى"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 33,
+   "replies": 3,
+   "reposts": 6,
+   "quotes": 1,
+   "bookmarks": 19,
+   "views": 4195
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c963",
+  "serial": 963,
+  "serial_display": "#000963",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2095231154261516641",
+  "source_native_id": "2095231154261516641",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-02T19:23:29Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "4 خطوات لتجنب استنزاف رصيدك الأسبوعي مع Fable 5.1 في Claude",
+  "arabic_summary": "يقدم المنشور 4 خطوات عملية لتقليل استهلاك tokens مع Fable 5.1: ضبط مستوى الجهد على منخفض، تشغيل أمر cost-optimize لاكتشاف أكبر مواطن الهدر، تنظيف prompts القديمة عبر prompt-audit، وتحديث معرفات النماذج القديمة بأمر migrate.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر حلولاً عملية لمشكلة شائعة يواجهها مستخدمو Claude مع استهلاك الرصيد السريع عند استخدام النماذج المتقدمة، مما يحسّن الكفاءة المالية.",
+  "original_text": "Do these 4 steps to stop Fable 5.1 from wiping out your weekly credits:\n\n1. Set /effort to low\n2. Run /claude-api cost-optimize to find the biggest wastes\n3. Run /claude-api prompt-audit to clear old junk\n4. Run /claude-api migrate this project to claude-fable-5-1 to update old model ids\n\nYou won’t have to worry about wasting tokens anymore.",
+  "glossary": [],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 152,
+   "replies": 6,
+   "reposts": 16,
+   "quotes": 0,
+   "bookmarks": 297,
+   "views": 20085
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/5T3iSBSWVm"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c964",
+  "serial": 964,
+  "serial_display": "#000964",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2095074257965568271",
+  "source_native_id": "2095074257965568271",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-02T09:00:02Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "المهارة الأهم في التعامل مع LLM: الخبرة في المجال نفسه وليس في الـPrompting",
+  "arabic_summary": "يؤكد المقال المرتبط أن أهم مهارة في صياغة Prompts ليست مهارة الـPrompting نفسها، بل الخبرة العميقة في المجال الذي تطلب فيه المساعدة. نماذج اللغة الكبيرة تعمل كمُضاعِف قوة (force multiplier) إن كنت ماهراً، وأحياناً يكون الإنسان هو العائق.",
+  "detailed_explanation": "",
+  "why_it_matters": "يصحح فهماً شائعاً بأن إتقان تقنيات Prompting كافٍ، ويُذكّر بأن LLM أدوات لتعزيز الخبرة البشرية وليس بديلاً عنها، مما يوجه الجهد نحو بناء خبرة المجال أولاً.",
+  "original_text": "\"The most important skill in prompting is expertise in the domain you’re prompting for\"\n\nhttps://t.co/Dgme0HcL2z \n\nSometimes the human is the bottleneck. A good reminder LLMs are a force multiplier if you're skilled and to build this domain expertise if you don't have it yet. https://t.co/Xx0dAEnp4z",
+  "glossary": [
+   {
+    "term": "Force Multiplier",
+    "ar": "مُضاعِف قوة: أداة أو عامل يزيد من فعالية الجهد أو المهارة الموجودة"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 85,
+  "metrics": {
+   "likes": 447,
+   "replies": 33,
+   "reposts": 51,
+   "quotes": 8,
+   "bookmarks": 308,
+   "views": 22764
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [
+   "https://www.seangoedecke.com/llms-reward-expertise/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c965",
+  "serial": 965,
+  "serial_display": "#000965",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2095126714787807287",
+  "source_native_id": "2095126714787807287",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-02T12:28:29Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "3 نصائح من Anthropic لتجنب تفعيل مرشحات الأمان في Fable 5.1",
+  "arabic_summary": "يشارك المنشور 3 نصائح رسمية من Anthropic لتقليل احتمالية رفض الطلبات بواسطة مرشحات الأمان (safety classifiers) عند استخدام Fable 5.1.",
+  "detailed_explanation": "",
+  "why_it_matters": "يساعد المطورين على تجنب المشاكل الشائعة مع قيود الأمان التي قد تعيق الاستخدامات المشروعة للنموذج.",
+  "original_text": "Fable 5.1: Here's 3 tips from Anthropic on how to reduce the chance of being flagged by safety classifiers https://t.co/h0kEd04azk",
+  "glossary": [
+   {
+    "term": "Safety Classifiers",
+    "ar": "مرشحات الأمان: أنظمة آلية تفحص المدخلات والمخرجات للكشف عن محتوى ضار أو غير مسموح"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 29,
+  "metrics": {
+   "likes": 3,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 1,
+   "views": 1090
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c966",
+  "serial": 966,
+  "serial_display": "#000966",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2095177572300578874",
+  "source_native_id": "2095177572300578874",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-09-02T15:50:34Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "جوجل تطلق Gemini 3.8 Flash بقدرات متقدمة في الاستدلال والبرمجة",
+  "arabic_summary": "أطلقت جوجل نموذجين جديدين: Gemini 3.8 Flash للاستخدام العام، و3.8 Flash Cyber المخصص لأمن المعلومات. النموذج العام يتفوق على نماذج أكبر في البرمجة طويلة المدى ويحقق 54.9% في اختبار HLE-Verified متعدد المراحل. النموذج متاح الآن للمشتركين في Gemini Pro وUltra بنفس سعر 3.7 Flash ($0.75 للإدخال و$3.75 للإخراج لكل مليون token).",
+  "detailed_explanation": "أعلنت جوجل عن إطلاق Gemini 3.8 Flash، النموذج الثالث في سلسلة Flash خلال ستة أسابيع فقط، في خطوة تعكس تسارعًا ملحوظًا في تحديث النماذج اللغوية الكبيرة.\n\nيتضمن الإطلاق نسختين: Gemini 3.8 Flash للاستخدام العام، وGemini 3.8 Flash Cyber المقيّد لفرق الأمن السيبراني عبر برنامج Fairwind من جوجل.\n\nعلى صعيد الأداء، حقق النموذج 71% في اختبار DeepSWE v1.1 الخاص بالبرمجة طويلة المدى، متفوقًا على معظم النماذج الأكبر حجمًا، وحصل على 54.9% في HLE-Verified الذي يقيس الاستدلال متعدد المراحل عبر مجالات STEM والعلوم الإنسانية. كما يتصدر اختبارات التمويل والقانون (Vals Finance Agent V2 وHarvey's Legal Agent Benchmark).\n\nأما النسخة الأمنية 3.8 Flash Cyber، فحققت معدل نجاح 70% في اكتشاف الثغرات عبر 20 لغة برمجية في الاختبارات الواقعية، وفاقت النماذج الأكبر في دقة اكتشاف الثغرات بنسبة 7.5-9.7% مع تكلفة أقل تصل إلى 5 أضعاف. فريق أمن Chrome أفاد أن النموذج ينتج رقعات صحيحة أكثر بـ 2.6 مرة من أفضل النماذج التجارية.\n\nالنموذج متاح الآن على Gemini وGoogle AI Studio والـ API، ويحافظ على نفس تسعير 3.7 Flash حتى نهاية 2026: $0.75 للإدخال و$3.75 للإخراج لكل مليون token.",
+  "why_it_matters": "يمثل الإصدار الثالث في ستة أسابيع، ويقدم أداء قريبًا من النماذج الأكبر بتكلفة منخفضة جدًا، ما يفتح استخدامات واسعة للذكاء الاصطناعي في البرمجة والتطبيقات الوكيلة مع تحكم أفضل بالتكاليف للمطورين والشركات.",
+  "original_text": "⚡️ Gemini 3.8 Flash توه وصل لمشتركي Pro و Ultra\n\n🧠 Google تقول إنه يعطي إجابات أوثق وأشمل\n\n📝 موجه للنصائح العملية وتحليل النصوص المتعمق\n\n💻 ويدعم مهام البرمجة المعقدة\n\n📱 تلقاه الحين من قائمة نماذج Gemini",
+  "glossary": [
+   {
+    "term": "Flash",
+    "ar": "فئة من نماذج Gemini مصممة للسرعة والكفاءة التشغيلية مع أداء قوي"
+   },
+   {
+    "term": "Long-horizon coding",
+    "ar": "مهام برمجية معقدة تتطلب تخطيطًا وتنفيذًا متعدد الخطوات على فترة طويلة"
+   },
+   {
+    "term": "HLE-Verified",
+    "ar": "معيار قياس للاستدلال متعدد المراحل عبر تخصصات متنوعة"
+   },
+   {
+    "term": "Agentic loops",
+    "ar": "دورات تشغيل طويلة يعمل فيها النموذج كوكيل مستقل لإنجاز مهام معقدة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 20,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 10,
+   "views": 5951
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Two new Gemini models are here to help scale your AI agents and secure code:\n\n🔘 3.8 Flash: our most intelligent model yet with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.\n\n🔘 3.8 Flash Cyber: our most capable cybersecurity model with frontier-level vulnerability detection and automated patching."
+  },
+  "cluster_id": "gemini38_launch",
+  "also_reported": [
+   {
+    "author": "CodeByPoonam",
+    "url": "https://x.com/CodeByPoonam/status/2095192239828005287"
+   },
+   {
+    "author": "SultanAlFardan",
+    "url": "https://x.com/SultanAlFardan/status/2095180948132274295"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c967",
+  "serial": 967,
+  "serial_display": "#000967",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095187892557545750",
+  "source_native_id": "2095187892557545750",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-02T16:31:34Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "شريحة دماغية قابلة للتحكم عن بُعد عبر الإنترنت لإيصال الأدوية والتحفيز الضوئي",
+  "arabic_summary": "طوّر باحثون شريحة دماغية تُدعى RAPIDO يمكن التحكم فيها عن بُعد عبر الإنترنت لإرسال أدوية أو تحفيز مناطق محددة بالدماغ باستخدام الضوء. في تجربة ناجحة، أرسل باحثون أمرًا من شيكاغو إلى جهاز في كوريا الجنوبية (أكثر من 10,000 كم) واستجاب خلال 109 جزء من الثانية. التجارب حاليًا على فئران فقط.",
+  "detailed_explanation": "",
+  "why_it_matters": "تفتح إمكانيات جديدة لدراسة الدماغ عن بُعد لفترات طويلة، خصوصًا في أبحاث الاكتئاب والإدمان والأمراض التنكسية العصبية، مع قدرة على التحكم الدقيق بالتجارب عبر القارات.",
+  "original_text": "🧠 باحثون تحكموا في شريحة دماغية بكوريا وهم موجودين في أمريكا!\n\nباحثون طوروا شريحة دماغية صغيرة اسمها RAPIDO، ويمكن التحكم فيها عن بعد عبر الإنترنت لإرسال أدوية أو تحفيز مناطق محددة في الدماغ باستخدام الضوء.\n\nوفي التجربة، أرسل الباحثون أمرًا من شيكاغو في أمريكا إلى الجهاز الموجود في دايجون بكوريا الجنوبية، على مسافة أكثر من 10 آلاف كيلومتر، واستجاب الجهاز خلال حوالي 109 أجزاء من الثانية.\n\nلكن المهم: التجربة حتى الآن كانت على فئران وليست على البشر.\n\nالشريحة تحتوي على خزان صغير قابل لإعادة التعبئة لإيصال جرعات دوائية محددة داخل الدماغ، بالإضافة إلى ضوء LED مجهري يستخدم تقنية تسمى التحفيز البصري العصبي، بحيث يمكن للباحثين تنشيط دوائر عصبية معينة ومراقبة تأثيرها.\n\nوالهدف مستقبلًا هو مساعدة العلماء على دراسة الدماغ لفترات طويلة، خصوصًا الدوائر المرتبطة بأمراض مثل الاكتئاب والإدمان والأمراض العصبية التنكسية.",
+  "glossary": [
+   {
+    "term": "Optogenetics",
+    "ar": "التحفيز البصري العصبي: تقنية تستخدم الضوء للتحكم بالخلايا العصبية المعدلة وراثيًا"
+   }
+  ],
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "صحة"
+  ],
+  "entities": [
+   "RAPIDO"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 11,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 2688
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c968",
+  "serial": 968,
+  "serial_display": "#000968",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095187559978590591",
+  "source_native_id": "2095187559978590591",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-02T16:30:15Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تسريع تلفزيون Android بعمر 4 سنوات باستخدام Claude Code دون Root",
+  "arabic_summary": "نجح مطور في تسريع تلفزيون Android قديم عبر توصيل Claude Code به بعد تفعيل Developer Options. قام الوكيل تلقائيًا بتعطيل خدمات غير ضرورية، تثبيت FLauncher كواجهة أخف، وتقليل مدة الحركات. العملية تمت دون Root ودون حذف التطبيقات نهائيًا، وجميع التغييرات قابلة للتراجع. المطور نشر الـ prompt ودليلًا من 4 خطوات.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح قدرة الوكلاء على إدارة أجهزة Android عن بُعد لتحسين الأداء، ما يوفّر بديلًا عمليًا عن شراء أجهزة جديدة ويفتح استخدامات جديدة لأتمتة صيانة الأجهزة الذكية.",
+  "original_text": "مطور سرّع تلفزيون أندرويد عمره 4 سنوات باستخدام Claude Code!\n\nبدل ما يشتري تلفزيون جديد، مطور قرر يجرب طريقة مختلفة لتخفيف النظام وتسريعه.\n\nفعّل Developer Options في تلفزيون Android TV، وبعدها وصل عليه Claude Code وخلى وكيل الذكاء الاصطناعي ينفذ مجموعة تعديلات بشكل تلقائي.\n\n الي سواه Claude عطّل بعض التطبيقات والخدمات غير الضرورية، وثبّت FLauncher كواجهة أخف، وقلّل مدة الحركات والانتقالات داخل النظام.\n\nوالأهم أن كل هذا تم بدون Root وبدون حذف التطبيقات نهائيًا.\n\nبحسب المطور، التلفزيون صار الآن أسرع وأنعم من أي وقت سابق، خصوصًا في التنقل بين القوائم وفتح التطبيقات.\n\nونشر المطور البرومبت المستخدم مع دليل مكوّن من 4 خطوات حتى يقدر الآخرون يجربون الطريقة.\n\nويقول إن جميع التغييرات قابلة للتراجع، لأن التطبيقات يتم تعطيلها فقط وليس حذفها من الجهاز.",
+  "glossary": [
+   {
+    "term": "Developer Options",
+    "ar": "خيارات المطور: قائمة مخفية في Android تتيح تعديلات متقدمة"
+   },
+   {
+    "term": "Root",
+    "ar": "صلاحيات الجذر: وصول كامل لنظام التشغيل يسمح بتعديلات عميقة"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 373,
+   "replies": 11,
+   "reposts": 19,
+   "quotes": 0,
+   "bookmarks": 487,
+   "views": 53105
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c969",
+  "serial": 969,
+  "serial_display": "#000969",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095181755133153344",
+  "source_native_id": "2095181755133153344",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-02T16:07:11Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Catch تطلق مساعدًا إداريًا بالذكاء الاصطناعي ينفذ مهام فعلية بدلًا من المستخدم",
+  "arabic_summary": "أطلقت خدمة Catch مساعدًا إداريًا يتجاوز الإجابة والكتابة لينفذ مهامًا فعلية. يتصل بالبريد الإلكتروني والتقويم وSlack وWhatsApp وiMessage، ويقدر على ترتيب الاجتماعات وتغيير المواعيد، الاتصال الفعلي بالمطاعم والعيادات والفنادق وشركات الطيران، إعداد وإرسال الإيميلات بعد تأكيد المستخدم، وتقديم ملخص صوتي لجدول اليوم.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل تطورًا من المساعدات التي تجيب فقط إلى وكلاء ينفذون مهامًا واقعية، ما يقرّب الذكاء الاصطناعي من دور المساعد الشخصي الكامل ويوفّر وقتًا كبيرًا في المهام الإدارية اليومية.",
+  "original_text": "🔥 مساعد ذكاء اصطناعي جديد يقدر يدير يومك بدلًا عنك\n\nخدمة اسمها Catch أطلقت مساعد إداري بالذكاء الاصطناعي، وفكرته أنه ما يكتفي يجاوبك أو يكتب لك نصوص… بل يقدر ينفذ مهام فعلية نيابة عنك.\n\nمثلاً، تقدر تربطه مع البريد الإلكتروني، التقويم، Slack، WhatsApp وiMessage.\n\nومن الأشياء اللي يقدر يسويها:\n\nيرتب لك الاجتماعات أو يغيّر مواعيدها ويتواصل مع الطرف الثاني بالإيميل.\nيتصل فعليًا بالمطاعم أو العيادات أو الفنادق أو شركات الطيران نيابة عنك.\nيجهز ويرسل الإيميلات بعد ما تؤكد له المطلوب.\nيعطيك ملخص صوتي لجدول يومك، وبعدها يسألك إذا تبي ينفذ أي مهمة مرتبطة به.",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Catch"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 11,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 2312
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c970",
+  "serial": 970,
+  "serial_display": "#000970",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095131391264456868",
+  "source_native_id": "2095131391264456868",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-02T12:47:03Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة Python للتعرف على الوجوه داخل البنية التحتية دون رفع البيانات للسحابة",
+  "arabic_summary": "أداة مبنية على Python SDK تكتشف الوجوه داخل الصور، تحدد معالم الوجه، وتقارن بين وجهين. مصممة للعمل On-Premise بحيث تتم المعالجة داخل جهاز المستخدم أو خوادم الشركة بدل رفع الصور لخدمة سحابية. مفيدة للمطورين والشركات التي تحتاج تقنيات التعرف على الوجوه مع تحكم أكبر في البيانات والخصوصية.",
+  "detailed_explanation": "",
+  "why_it_matters": "تلبي احتياج متزايد للتقنيات الذكية التي تعمل محليًا دون مشاركة بيانات حساسة مع أطراف خارجية، ما يناسب البيئات المنظمة أو الحساسة للخصوصية.",
+  "original_text": "تعرّف على الوجوه بدون ما ترسل بياناتك للسحابة 👤🔒\n\nأداة مبنية على Python SDK تقدر تكتشف الوجوه داخل الصور، تحدد معالم الوجه، وتقارن بين وجهين لمعرفة مدى التطابق.\n\nالميزة الأهم أنها مصممة للعمل On-Premise، يعني المعالجة تتم داخل جهازك أو خوادم شركتك بدل رفع صور الوجوه لخدمة سحابية خارجية.\n\nمفيدة للمطورين والشركات اللي تحتاج تقنيات التعرف على الوجوه مع تحكم أكبر في البيانات والخصوصية.",
+  "glossary": [
+   {
+    "term": "On-Premise",
+    "ar": "داخل البنية التحتية الخاصة: معالجة تتم على أجهزة المستخدم أو خوادمه دون الاعتماد على خدمات سحابية خارجية"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 12,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 17,
+   "views": 2193
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c971",
+  "serial": 971,
+  "serial_display": "#000971",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095130974019338606",
+  "source_native_id": "2095130974019338606",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-02T12:45:24Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مشروع ODS يجمع Ollama وOpen WebUI وn8n وComfyUI في بيئة محلية واحدة",
+  "arabic_summary": "مشروع يجمع أربع أدوات رئيسية في تثبيت واحد لبناء بيئة ذكاء اصطناعي محلية: Ollama لتشغيل النماذج، Open WebUI كواجهة للتعامل معها، n8n لبناء وأتمتة سير العمل، وComfyUI لتدفقات توليد الصور. الهدف منصة واحدة لتشغيل النماذج وبناء أتمتة مع بقاء المعالجة والبيانات على جهاز المستخدم.",
+  "detailed_explanation": "",
+  "why_it_matters": "يبسّط بناء بيئة ذكاء اصطناعي محلية كاملة للمطورين والشركات التي تريد استقلالية عن الخدمات السحابية، ويوفر نقطة انطلاق جاهزة للتجارب والإنتاج الداخلي.",
+  "original_text": "تبي تبني بيئة ذكاء اصطناعي خاصة على جهازك بدون الاعتماد على الخدمات السحابية؟\n\nمشروع ODS يجمع لك أهم الأدوات في تثبيت واحد:\n\nOllama لتشغيل نماذج الذكاء الاصطناعي محليًا،\nOpen WebUI لواجهة سهلة للتعامل معها،\nn8n لبناء وأتمتة سير العمل،\nوComfyUI لإنشاء وتشغيل تدفقات توليد الصور.\n\nالفكرة ببساطة: منصة واحدة تساعدك تشغّل نماذج AI وتبني أتمتة خاصة بك، مع بقاء جزء كبير من البيانات والمعالجة على جهازك.",
+  "glossary": [],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Ollama",
+   "Open WebUI",
+   "n8n",
+   "ComfyUI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 110,
+   "replies": 4,
+   "reposts": 17,
+   "quotes": 0,
+   "bookmarks": 108,
+   "views": 6273
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c972",
+  "serial": 972,
+  "serial_display": "#000972",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095012263874719900",
+  "source_native_id": "2095012263874719900",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-02T04:53:41Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "دايسون تطلق CameraJet فرشاة أسنان ذكية بكاميرا وذكاء اصطناعي بـ 499 دولار",
+  "arabic_summary": "أطلقت دايسون فرشاة أسنان ذكية تجمع بين التنظيف بالفرشاة والماء. تحتوي على كاميرا ماكرو 100 ألف بكسل تراقب الأسنان أثناء التنظيف، وخوارزمية تعلم آلي مدربة على 470 ألف صورة للفم تحدد الفراغات بين الأسنان وتوجه نفثات ماء لتلك المناطق. الهدف دمج وظيفتي الفرشاة وخيط الأسنان المائي في جهاز واحد.",
+  "detailed_explanation": "",
+  "why_it_matters": "يظهر توسع الذكاء الاصطناعي في منتجات الصحة الشخصية ودخول شركات كبرى مثل دايسون السوق بمنتجات فائقة التقنية، لكن السعر المرتفع يحد من الانتشار الواسع.",
+  "original_text": "🪥 دايسون تدخل عالم فرش الأسنان… وبطريقة غريبة جدًا\n\nجيمس دايسون، وعمره 79 سنة، ما زال يطبق أفكاره الهندسية على منتجات ما تتوقعها.\n\nأحدث مثال هو Dyson CameraJet، فرشاة أسنان ذكية بسعر 499 دولار، تجمع بين فرشاة أسنان وكاميرا ونظام تنظيف بالماء.\n\nداخل الفرشاة توجد كاميرا ماكرو بدقة 100 ألف بكسل تراقب الأسنان أثناء التنظيف، ومعها خوارزمية تعلم آلي تقول دايسون إنها تدربت على 470 ألف صورة للفم.\n\nالفكرة أن النظام يتعرف على الفراغات بين الأسنان، وبعدها يوجه نفثات ماء لهذه المناطق بحيث تحصل على تنظيف شبيه بخيط الأسنان المائي أثناء التفريش نفسه.\n\nيعني بدل ما تستخدم فرشاة ثم جهاز Water Flosser بشكل منفصل، دايسون تحاول تجمع الوظيفتين في جهاز واحد وتخلي الذكاء الاصطناعي يحدد الأماكن اللي تحتاج تنظيف إضافي.",
+  "glossary": [
+   {
+    "term": "Water Flosser",
+    "ar": "خيط الأسنان المائي: جهاز ينظف بين الأسنان بضغط ماء"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "صحة"
+  ],
+  "entities": [
+   "Dyson"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 25,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 13,
+   "views": 6800
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c973",
+  "serial": 973,
+  "serial_display": "#000973",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2095240535917179379",
+  "source_native_id": "2095240535917179379",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-09-02T20:00:46Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ميتا تطلق Muse Spark 1.3 بأداء 75% في DeepSWE للبرمجة طويلة المدى",
+  "arabic_summary": "أطلقت ميتا نموذج Muse Spark 1.3 الذي حقق 75% في معيار DeepSWE المتخصص بالبرمجة طويلة المدى، متفوقًا على Claude Opus 5 (74%). النموذج متاح عبر Muse Code وAPI، وتعِد الشركة بإصدار أوزان مفتوحة قريبًا. يركز على المهام الوكيلة والبرمجة المعقدة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يضع ميتا في مقدمة نماذج البرمجة طويلة المدى بفارق بسيط عن Claude، ووعد بإصدار أوزان مفتوحة يمكن أن يتيح استخدامات واسعة للمطورين مع تحكم كامل بالنموذج.",
+  "original_text": "صدور مودل جديد من ميتا كسر حاجز قوي في بنش مارك DeepSWE الى 75% 🤯\n\nمتخصص المقياس هذا ببرومبت قصير يجيب نتيجة نهائية كبيرة مثلًا \"صلح موقعي\" عادي يشتغل لحاله عدة ساعات\n\nصراحة شغلهم رهيب بس لا ازال ما اثق في ميتا صراحة",
+  "glossary": [
+   {
+    "term": "Open weights",
+    "ar": "أوزان مفتوحة: نشر معاملات النموذج بحيث يمكن للمطورين تشغيله وتعديله محليًا"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Meta",
+   "Muse"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 19,
+   "replies": 3,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 4744
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Muse Spark 1.3 is rolling out today with frontier performance almost too cheap to meter. This is the biggest jump we've made so far on coding and agentic work. Try it in Muse Code and our API.\n\nNext up 🍉 and Muse Spark open weights releases coming soon. https://t.co/XQQEDEJGD7"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c974",
+  "serial": 974,
+  "serial_display": "#000974",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2095067596659790182",
+  "source_native_id": "2095067596659790182",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-02T08:33:34Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Ansible: أداة أتمتة مفتوحة المصدر لإدارة الخوادم والبنية التحتية عبر SSH",
+  "arabic_summary": "Ansible أداة مفتوحة المصدر تتيح أتمتة نشر التطبيقات وإعداد الخوادم وإدارة البنية التحتية عبر ملفات نصية بسيطة (Playbooks). تعمل عبر SSH بدون الحاجة لتثبيت وكيل على الخوادم، وتتميز بصياغة واضحة قريبة من اللغة الطبيعية. وصلت لأكثر من 69 ألف نجمة على GitHub وتُعد من الأدوات الأساسية في DevOps.",
+  "detailed_explanation": "Ansible أداة مفتوحة المصدر متخصصة في أتمتة البنية التحتية وإدارة الخوادم. الفكرة الأساسية أنك تكتب ملف نصي واحد يسمى Playbook يصف الحالة المطلوبة للخادم — مثل تثبيت PostgreSQL وضبط الإعدادات وتقسيم الموارد — ثم تشغّله فتنفّذ الأداة كل الخطوات تلقائيًا.\n\nالميزة الكبرى أن Ansible لا تحتاج تثبيت برمجيات إضافية (agent) على الخوادم المستهدفة؛ كل شيء يتم عبر SSH. هذا يجعل إعداد البيئة سريعًا وآمنًا. الصياغة المستخدمة في Playbooks تشبه اللغة الإنجليزية البسيطة (YAML)، مما يسهّل تعلّمها حتى لمن ليس لديهم خلفية عميقة في DevOps.\n\nحسب تجربة الكاتب، كان يستغرق ساعتين أو أكثر لإعداد خادم يدويًا، بينما مع Ansible يمكن تطبيق نفس الإعداد على عشرات أو مئات الخوادم بأمر واحد. هذا مفيد بشكل خاص لمن يدير بيئات تجريبية متعددة أو يحتاج توسّع سريع.\n\nالأداة وصلت لأكثر من 69 ألف نجمة على GitHub وتُعتبر من الأدوات المعيارية في مجال DevOps، حتى لو كان تركيزك الأساسي على الذكاء الاصطناعي.",
+  "why_it_matters": "توفر Ansible حلاً عمليًا لمن يريد الانتقال من الإدارة اليدوية للخوادم إلى الأتمتة الكاملة، وتقلل ساعات العمل اليدوي إلى دقائق عبر تطبيق إعداد واحد على عشرات أو مئات الأجهزة.",
+  "original_text": "الأسبوع هذا سحبت على aws وناوي انقل كل مشاريعي الى hetzner لانه ارخص ولي يومين تقريبا اضبط السرفر واقسمه واثبت postgresql وغيره من الخدمات وتعبت صراحه لانه كنت مخطط ابني سرفر قابل للتوسع وسهل الاداره بالنهايه رحت ابحث عن ادوات مساعدة ولقيت  Ansible، والمشروع فعلًا قوي جدًا ومفتوح المصدر، ووصل لأكثر من 69 ألف نجمة على GitHub.\n\nتقدر تستخدم ملفات نصية بسيطة لأتمتة نشر التطبيقات، إعداد الخوادم وإدارة البنية التحتية.\n\nيعني بدل الشغل اليدوي كامل كنت اقدر اكتب Playbook واحد وكل شيء تقريبًا يشتغل تلقائي، بدل ساعتين أو أكثر من الشغل اليدوي.\n\nالإدارة كلها تتم عبر SSH، بدون الحاجة لتثبيت وكيل على الخوادم.\n\nوهذي من أكثر الأشياء اللي اعجبتني انك تعدل الإعداد مرة وتطبقه على عشرات أو مئات الأجهزة بسهولة.\n\nالصياغة واضحة وقريبة من الإنجليزية العادية، علشان كذا تعلمه سريع نسبيًا.\n\nحتى لو شغلكم بالذكاء الاصطناعي، يستاهل تجربوا Ansible، خصوصًا لإدارة الخوادم والبيئات التجريبية.\n\nطبعا  يعتبر من الأدوات الأساسية في DevOps بس انا ماكنت اعرفه 😅\n\nhttps://t.co/caO9UQ8BIE",
+  "glossary": [
+   {
+    "term": "Playbook",
+    "ar": "ملف نصي يصف مهام الأتمتة والإعدادات المطلوبة"
+   },
+   {
+    "term": "SSH",
+    "ar": "بروتوكول اتصال آمن للوصول البعيد للخوادم"
+   },
+   {
+    "term": "DevOps",
+    "ar": "ممارسات دمج التطوير والعمليات لتسريع النشر"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Ansible",
+   "GitHub",
+   "Hetzner",
+   "AWS",
+   "PostgreSQL"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 153,
+   "replies": 18,
+   "reposts": 9,
+   "quotes": 0,
+   "bookmarks": 255,
+   "views": 11462
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c975",
+  "serial": 975,
+  "serial_display": "#000975",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095276496671953297",
+  "source_native_id": "2095276496671953297",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-02T22:23:39Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فجوة الجودة في النماذج القانونية: النماذج المتقدمة ممتازة والرخيصة خطرة",
+  "arabic_summary": "يشير Ethan Mollick إلى نتائج اختبارات قانونية أجراها Prinz تظهر أن أحدث النماذج ممتازة في المهام القانونية، لكن النماذج الأرخص أو ذات القدرة المنطقية المحدودة سيئة جدًا. يطرح سؤالاً حول كيف يضمن المشتري أن المورّد يستخدم النموذج الجيد (الباهظ) وليس الرخيص.",
+  "detailed_explanation": "المنشور يشير إلى تجربة عملية: مذكرة قانونية أُنتجت بمساعدة ذكاء اصطناعي كانت جيدة الشكل لكنها وصلت لنتيجة خاطئة تمامًا بشأن الحاجة لموافقة تنظيمية، وفاتتها نقطتان حرجتان.\n\nPrinz (باحث متخصص) يُجري اختبارات قانونية دورية على النماذج، والنتيجة: النماذج الأحدث والأقوى (frontier models) أداؤها ممتاز، لكن النماذج الأرخص أو ذات القدرة المنطقية المحدودة (low reasoning) أداؤها ضعيف جدًا.\n\nالمشكلة: عندما تشتري شركة حلاً قائمًا على ذكاء اصطناعي من مورّد، كيف تضمن أن المورّد يستخدم النموذج الجيد (الباهظ الثمن)؟ لا يوجد حافز تجاري واضح للمورّد أن يستمر في استخدام النموذج الأغلى إذا كان العقد لا يحدد ذلك، خاصة مع ضغط هوامش الربح.\n\nهذا يطرح قضية حوكمة وشفافية: المشترون بحاجة لآليات تعاقدية أو تقنية للتحقق من جودة النموذج المستخدم، وإلا فإن المخاطر — خاصة في مجالات حرجة مثل القانون والطب — قد تكون كبيرة.",
+  "why_it_matters": "يكشف مشكلة حوكمة حقيقية: الشركات التي تشتري حلول ذكاء اصطناعي قد لا تعرف أي نموذج يُستخدم فعلاً، وقد ينتهي بها الأمر بمخرجات خاطئة خطيرة لأسباب تتعلق بالتكلفة.",
+  "original_text": "Prinz has been running legal benchmarks against AI systems and the latest models are very good... but cheaper/low reasoning models are not very good.\n\nSo, how do you make sure your vendor selling an AI solution is incentivized to serve the good (and therefore expensive) models?",
+  "glossary": [
+   {
+    "term": "Frontier models",
+    "ar": "النماذج الأكثر تقدمًا وقدرة في وقت معين"
+   },
+   {
+    "term": "Low reasoning models",
+    "ar": "نماذج ذات قدرة منطقية محدودة، عادة أرخص وأسرع"
+   }
+  ],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Prinz"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 55,
+   "replies": 9,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 13,
+   "views": 10814
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Reading a memo produced by the client's legal department with extensive help from AI:\n\n- looks very pretty; beautiful font; nice formatting; there's even a handsome-looking (although unnecessary) organizational chart included\n\n- completely incorrect conclusion on whether a regulatory approval is required for a transaction\n\n- even worse, misses two separate reasons due to which the transaction is a"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c976",
+  "serial": 976,
+  "serial_display": "#000976",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095203002210807816",
+  "source_native_id": "2095203002210807816",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-02T17:31:37Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Gemini 3.8 Flash: نموذج سريع جيد لكنه ليس في مستوى النماذج الرائدة",
+  "arabic_summary": "Ethan Mollick حصل على وصول مبكر لـ Gemini 3.8 Flash ويصفه بأنه نموذج Flash جيد جدًا لكنه لا يعادل النماذج الرائدة (frontier). اختبره في توليد shader لبرج غوطي غارق، وأنتج النموذج النتيجة بسرعة كبيرة لكن الجودة لم تكن بمستوى Fable 5.1.",
+  "detailed_explanation": "Gemini 3.8 Flash هو نموذج من عائلة Flash التي تركز على السرعة والتكلفة المنخفضة. Ethan Mollick حصل على وصول مبكر وأجرى اختبارًا عمليًا: طلب من النموذج كتابة shader (كود رسومات) لمشهد برج غوطي غارق، ثم قارنه بنتيجة Fable 5.1.\n\nالنتيجة: Gemini 3.8 Flash أنتج shader بسرعة كبيرة، لكن الجودة البصرية لم تكن بمستوى Fable 5.1. هذا يؤكد أن نماذج Flash — رغم تحسّنها — لا تزال أقل من النماذج الرائدة في المهام التي تتطلب دقة عالية أو إبداع معقد.\n\nالدرس العملي: إذا كان المشروع يحتاج سرعة واستجابة فورية ويتحمل جودة أقل قليلاً، فنماذج Flash خيار ممتاز واقتصادي. أما المهام الحرجة أو الإبداعية فتحتاج النماذج الرائدة الأبطأ والأغلى.",
+  "why_it_matters": "يوضح الفارق المستمر بين نماذج Flash (السريعة والرخيصة) والنماذج الرائدة في المهام المعقدة، ويساعد المطورين على اختيار النموذج المناسب حسب التوازن بين السرعة والجودة.",
+  "original_text": "Had early access to Gemini 3.8 Flash, it is a very good Flash model, but not equivalent to a frontier model, though. Here is Gemini 3.8 Flash's version of the shader with the same prompts (which it provided very quickly) https://t.co/yXyH73BguR",
+  "glossary": [
+   {
+    "term": "Flash model",
+    "ar": "نموذج مُحسّن للسرعة والتكلفة المنخفضة"
+   },
+   {
+    "term": "Shader",
+    "ar": "كود برمجي يحدد كيفية عرض الرسومات"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Gemini 3.8 Flash",
+   "Fable 5.1"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 255,
+   "replies": 30,
+   "reposts": 10,
+   "quotes": 4,
+   "bookmarks": 22,
+   "views": 31028
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "The drowned neo-gothic tower twigl shader created by Fable 5.1 with the same prompt. (compare to Fable 5 in the quoted tweet, and other models before that) https://t.co/b3OCbBc9g6"
+  },
+  "cluster_id": "gem38flash",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c977",
+  "serial": 977,
+  "serial_display": "#000977",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095150992954466517",
+  "source_native_id": "2095150992954466517",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-02T14:04:57Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "الأنظمة المعقدة تعمل وهي معطوبة: لماذا نحتاج فلسفة دفاع جديدة ضد الذكاء الاصطناعي",
+  "arabic_summary": "يشارك Ethan Mollick ثلاث صفحات من بحث قديم (ما قبل الذكاء الاصطناعي) عن الأنظمة المعقدة: تعمل وهي معطوبة لأن العيوب نادرًا ما تتراصف، مما يمنح البشر فرصة للتدخل. الذكاء الاصطناعي يستطيع إيجاد أو خلق عيوب متراصفة، لذا نحتاج فلسفة دفاع جديدة تستخدم الذكاء الاصطناعي أيضًا.",
+  "detailed_explanation": "المنشور يستند إلى بحث قديم (قبل عصر الذكاء الاصطناعي الحديث) يشرح أن الأنظمة المعقدة — مثل أنظمة الطيران أو الطاقة أو البنية التحتية الرقمية — تعمل دائمًا وهي بها عيوب. السبب أنها لا تنهار هو أن العيوب نادرًا ما تتراصف في نفس اللحظة: ثغرة في نقطة أ، وخطأ بشري في نقطة ب، وعطل تقني في نقطة ج — عادة لا تحدث كلها معًا. هذا يمنح البشر فرصة للتدخل وتصحيح المسار.\n\nلكن الذكاء الاصطناعي — خاصة في مجال الأمن السيبراني — يستطيع الآن إيجاد سلاسل معقدة من الثغرات والأخطاء التي تتراصف، أو حتى خلق هذا التراصف عبر استغلال نقاط ضعف متعددة في نفس الوقت. هذا يعني أن الافتراض القديم (أن الأنظمة آمنة \"بما يكفي\" لأن الفشل الكامل نادر) لم يعد صالحًا.\n\nMollick يدعو إلى فلسفة دفاع جديدة تستخدم الذكاء الاصطناعي نفسه للكشف المبكر عن سلاسل الثغرات وإصلاحها قبل استغلالها. هذا تحوّل من النموذج التفاعلي (إصلاح بعد الحادثة) إلى نموذج استباقي مدعوم بالذكاء الاصطناعي.",
+  "why_it_matters": "يطرح تحولاً في التفكير الأمني: الافتراض القديم أن الأنظمة تبقى آمنة لأن الثغرات لا تتزامن لم يعد صالحًا مع قدرة الذكاء الاصطناعي على إيجاد سلاسل هجوم معقدة.",
+  "original_text": "These 3 pages (from before AI) on complex systems are worth reading\n\nComplex systems run broken but survive because the flaws rarely line up, which allows humans a chance to intervene. AI can find or make aligned flaws. We  need a similar new philosophy of system defense using AI https://t.co/M9M5JOBMt7",
+  "glossary": [],
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 340,
+   "replies": 35,
+   "reposts": 47,
+   "quotes": 7,
+   "bookmarks": 330,
+   "views": 37752
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c978",
+  "serial": 978,
+  "serial_display": "#000978",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2095245632533622862",
+  "source_native_id": "2095245632533622862",
+  "source_name": "Dan Shipper 📧",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-02T20:21:01Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصيحة عملية لإدارة مهام Computer Use في Codex عبر اتفاقية تسمية الـ tabs",
+  "arabic_summary": "Dan Shipper يشارك اتفاقية عملية لتسمية الـ tabs في Codex عند استخدام computer use: استخدام رموز تعبيرية للحالة (⚠️ للجاري، ✅ للمكتمل) ورمز 🖥️ لتمييز المهام التي تستخدم computer use في المتصفح أو التطبيقات. الهدف تسهيل تتبع المهام المتزامنة.",
+  "detailed_explanation": "عند استخدام Agents مثل Codex مع ميزة computer use (حيث يتحكم الـ Agent بالمتصفح أو التطبيقات الأخرى)، تصبح إدارة عدة مهام متزامنة معقدة: أي tab يعمل عليه الـ Agent الآن؟ أيها انتهى؟ أيها فيه مشكلة؟\n\nDan Shipper يقترح اتفاقية تسمية بسيطة:\n\n- رمز 🖥️ في البداية: يعني أن هذا الـ tab حاليًا يُستخدم في computer use (متصفح أو تطبيق). يُزال عند انتهاء تلك المرحلة.\n- رموز الحالة: ⚠️ للمهام الجارية أو التي بها مشاكل غير محلولة، ✅ للمهام المكتملة.\n- رمز المشروع ورمز الجهد (اختياري): لتصنيف المهمة.\n- العنوان الوصفي.\n\nمثال: 🖥️ ⚠️ 🎬 Edit video\n\nالفائدة: عندما تفتح قائمة الـ tabs أو المهام، تعرف فورًا أيها يعمل عليه الـ Agent (🖥️) وأيها يحتاج تدخل (⚠️) وأيها انتهى (✅). هذا مهم خاصة عند تشغيل عدة مهام طويلة بالتوازي.\n\nملاحظة: أوامر Shell والـ API calls وعمليات البحث على الويب وحدها لا تُعتبر computer use — المصطلح يُطلق على التحكم الفعلي بواجهة المتصفح أو التطبيقات.",
+  "why_it_matters": "يحل مشكلة عملية حقيقية لمن يستخدم Agents مع computer use: كيف تعرف أي tab يعمل عليه الـ Agent الآن وأيها انتهى، دون الحاجة للتنقل بين الشاشات.",
+  "original_text": "CODEX COMPUTER-USE PRO-TIP:\n\nHave Codex show you which tabs computer use is running in with a shared task-title convention:\n\nConvention:\n[optional 🖥️] [status emoji] [project emoji] [optional effort/mode emoji] Title\n\n- ⚠️ means ongoing work or unresolved items; ✅ means fully complete.\n\n- Put exactly one 🖥️ first before browser/native-app computer use. Remove it when that phase ends.\n\n- Shell commands, API calls, and web searches alone don’t count as computer use.\n\n- Preserve existing project/effort emojis and title text. Don’t guess effort levels.\n\n- Update the canonical shared instructions, sync generated configurations, and verify. Don’t bulk-rename unrelated tasks.\n\nExample: 🖥️ ⚠️ 🎬 Edit video",
+  "glossary": [
+   {
+    "term": "Computer use",
+    "ar": "ميزة تسمح للـ Agent بالتحكم بالمتصفح أو التطبيقات"
+   },
+   {
+    "term": "Tab",
+    "ar": "تبويب في المتصفح أو قائمة المهام"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 134,
+   "replies": 20,
+   "reposts": 8,
+   "quotes": 1,
+   "bookmarks": 253,
+   "views": 13288
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c979",
+  "serial": 979,
+  "serial_display": "#000979",
+  "source_type": "x",
+  "source_url": "https://x.com/shadcn/status/2095179046904607092",
+  "source_native_id": "2095179046904607092",
+  "source_name": "shadcn",
+  "source_site": "x.com",
+  "author": "shadcn",
+  "published_at": "2026-09-02T15:56:25Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "shadcn تُطلق cn: محرّك جديد لدمج أصناف Tailwind أسرع 30 مرة",
+  "arabic_summary": "أطلق shadcn ومطوّر آخر مكتبة cn مفتوحة المصدر، وهي بديل مباشر لـ tailwind-merge و clsx لدمج أصناف Tailwind وحل التعارضات. المحرّك الجديد أسرع بـ 30 مرة من الحلول الحالية، ويعمل مع جميع الأطر ويعمل في كل البيئات. المطوّران يعلنان عن أشياء إضافية مبنية فوقه قريبًا.",
+  "detailed_explanation": "المكتبة الجديدة cn تستهدف مشكلة معروفة في مشاريع Tailwind CSS: دمج الأصناف وحل التعارضات بينها عند التركيب الديناميكي. المطوّرون يعتمدون عادة على مكتبتَيْ tailwind-merge (للدمج الذكي) و clsx (لتجميع الأصناف الشرطية).\n\nالمحرّك الجديد يدّعي تحقيق سرعة أعلى بثلاثين ضعفًا مع الحفاظ على واجهة برمجية متوافقة تمامًا، مما يجعل عملية الترحيل مباشرة. كونه يعمل مع جميع الأطر (React, Vue, Svelte...) وفي جميع البيئات (Node.js، المتصفّح، Edge Runtime) يجعله حلًا شاملًا.\n\nالإشارة إلى \"أشياء إضافية قريبًا\" توحي بأن هذا المحرّك قاعدة لأدوات أو ميزات أخرى سيطلقها shadcn، المعروف بمكتبة مكوّنات shadcn/ui الشهيرة.",
+  "why_it_matters": "يحل مشكلة أداء شائعة في تطبيقات Tailwind الكبيرة، ويقدّم تحسينًا كبيرًا في السرعة مع إمكانية الاستبدال المباشر دون تعديل الكود.",
+  "original_text": "We are open sourcing `cn`, a new engine for Tailwind class merging and conflict resolution. It is a drop-in replacement for tailwind-merge and clsx.\n\nIt works with all frameworks, runs everywhere and is 30x faster.\n\nBrought to you by @aidenybai and me.\n\nhttps://t.co/G0xVuZdd6H",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "shadcn",
+   "Aiden Bai",
+   "Tailwind CSS"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3352,
+   "replies": 111,
+   "reposts": 195,
+   "quotes": 34,
+   "bookmarks": 1417,
+   "views": 192833
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [
+   "https://github.com/shadcn-ui/cn"
+  ],
+  "quoted": null,
+  "cluster_id": "cn_release",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c980",
+  "serial": 980,
+  "serial_display": "#000980",
+  "source_type": "x",
+  "source_url": "https://x.com/claudeai/status/2095226833293685100",
+  "source_native_id": "2095226833293685100",
+  "source_name": "Claude",
+  "source_site": "x.com",
+  "author": "claudeai",
+  "published_at": "2026-09-02T19:06:19Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude يمكنه الآن التحكّم بحاسوبك في الخلفية عبر Cowork و Code",
+  "arabic_summary": "أضافت Anthropic قدرة جديدة لـ Claude في تطبيقَي Cowork و Code تتيح له العمل على سطح المكتب في الخلفية: ينقر، يكتب، ويفتح التطبيقات مثل المستخدم تمامًا، بينما تعمل أنت على شيء آخر. الميزة تحوّل Claude إلى مساعد يؤدّي مهام طويلة بشكل مستقل.",
+  "detailed_explanation": "ميزة Computer Use في Claude كانت متاحة سابقًا لكن تتطلّب تركيز المستخدم ومتابعته. الإعلان الجديد يضيف بُعدًا جديدًا: العمل في الخلفية.\n\nفي تطبيقَي Claude Cowork (للتعاون) و Claude Code (للبرمجة)، يمكن الآن إعطاء Claude مهمة تتطلّب استخدام سطح المكتب — مثل البحث عن بيانات وتنظيمها، أو اختبار تطبيق، أو جمع معلومات من عدة أماكن — ويقوم هو بتنفيذها بشكل مستقل: يتحكّم بالماوس، يكتب، يفتح التطبيقات، ويتنقّل بين النوافذ.\n\nهذا النموذج يقترب من مفهوم Agent الحقيقي: نظام يُعطى هدفًا ويخطّط وينفّذ بشكل مستقل، بدلًا من أن يكون مجرد مساعد تفاعلي. التطبيق العملي واسع: أتمتة سير عمل معقّد، إعداد تقارير تتطلّب بيانات من مصادر متعدّدة، أو حتى تنفيذ مهام روتينية طويلة بينما ينشغل المستخدم بعمل آخر.",
+  "why_it_matters": "تمثّل نقلة نوعية في استخدام النماذج: من المحادثة إلى التنفيذ المستقل على الحاسوب، مما يوفّر وقت المستخدم ويسمح بتفويض مهام كاملة بدلًا من خطوات.",
+  "original_text": "Claude can now use your computer in the background in Claude Cowork and Claude Code.\n\nGive it something to do on your desktop and Claude clicks, types, and opens apps just like you would, while you work on something else. https://t.co/AOiup03pQK",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي يعمل بشكل مستقل لتحقيق هدف محدد"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 6465,
+   "replies": 287,
+   "reposts": 352,
+   "quotes": 138,
+   "bookmarks": 1416,
+   "views": 389016
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "claude_background",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c981",
+  "serial": 981,
+  "serial_display": "#000981",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleAI/status/2095197704406065635",
+  "source_native_id": "2095197704406065635",
+  "source_name": "Google AI",
+  "source_site": "x.com",
+  "author": "GoogleAI",
+  "published_at": "2026-09-02T17:10:34Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تُطلق Gemini 3.8 Flash Cyber لإصلاح الثغرات الأمنية تلقائيًا",
+  "arabic_summary": "أعلنت Google عن Gemini 3.8 Flash Cyber، نموذج متخصص في الأمن السيبراني يركّز على توليد patch تلقائي (كود إصلاح) للثغرات الأمنية. النموذج حقّق 2.6 ضعف دقة النماذج التجارية الرائدة في مشروع Chrome، ويُستخدم فعليًا لتأمين كود Google الداخلي. الوصول مُعطى بالأولوية للجهات الحكومية والبنية التحتية الحرجة عبر برنامج Fairwind.",
+  "detailed_explanation": "توليد Patch (رقعة الإصلاح) هو أحد أصعب التحديات في الأمن السيبراني: اكتشاف الثغرة خطوة أولى، لكن كتابة كود آمن وموثوق لإصلاحها — دون كسر الوظائف الحالية — يتطلّب خبرة عميقة ووقتًا.\n\nGemini 3.8 Flash Cyber مُصمّم خصيصًا لهذه المهمة. النموذج لا يقتصر على تحليل الثغرة، بل يكتب الكود اللازم لإصلاحها. النتائج الداخلية في Google Chrome (2.6x تحسّن عن النماذج التجارية الأخرى) تشير إلى قفزة واضحة في الجودة.\n\nالأهم أن Google تستخدمه فعليًا في تأمين كودها الداخلي، وهو دليل ثقة قوي. الوصول المُقيّد عبر Fairwind Program (للجهات الحكومية، البنية التحتية الحرجة، ومطوّري البرمجيات الحسّاسة) يعكس حساسية الأداة وإمكانية سوء استخدامها إن أُتيحت بلا قيود.\n\nالنموذج يُقدّم أيضًا بتكلفة أقل من النماذج المنافسة رغم أدائه المتقدّم، مما يجعله جذابًا للمؤسسات الكبيرة التي تحتاج لإصلاح آلاف الثغرات سنويًا.",
+  "why_it_matters": "ينقل الدفاع السيبراني من اكتشاف الثغرات إلى إصلاحها تلقائيًا على نطاق واسع، مما يقلّل الوقت بين الاكتشاف والحماية الفعلية ويعالج نقص الكوادر الأمنية.",
+  "original_text": "Identifying security flaws is only half the battle; generating automated, reliable fixes in real time is where defense gets real. Enter Gemini 3.8 Flash Cyber ⚡️🛡\n\nThe new release is a major improvement  from our 3.5 generation and among our most capable defensive models to date.\n\nBuilt specifically for defenders (like security teams), it acts as an expert partner to help write new code to fix flaws at scale, a process known as patch generation.\n\nWe’re already using it to secure @Google’s own code, helping our @GoogleChrome team produce 2.6X more correct patches than top commercial models. Even better? It brings a  cost advantage by delivering frontier-level performance for a fraction of the price.\n\nGiven these capabilities, we're providing prioritized access to government authorities, critical infrastructure operators, and software maintainers through our FairwindProgram.",
+  "glossary": [
+   {
+    "term": "Patch Generation",
+    "ar": "توليد رقعة إصلاح: كتابة كود تلقائيًا لإصلاح ثغرة أمنية"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Google DeepMind",
+   "Chrome"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 248,
+   "replies": 18,
+   "reposts": 26,
+   "quotes": 2,
+   "bookmarks": 27,
+   "views": 33459
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini_cyber",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c982",
+  "serial": 982,
+  "serial_display": "#000982",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleAI/status/2095175759606231439",
+  "source_native_id": "2095175759606231439",
+  "source_name": "Google AI",
+  "source_site": "x.com",
+  "author": "GoogleAI",
+  "published_at": "2026-09-02T15:43:22Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تُطلق Gemini 3.8 Flash: نموذج عمل ذكي لمهام Agent متعدّدة الخطوات",
+  "arabic_summary": "أعلنت Google عن Gemini 3.8 Flash، نموذج \"workhorse\" (للعمل الشاق) مُحسّن لمهام Agent المعقّدة ومتعدّدة الخطوات. يقدّم تحسينات كبيرة في البرمجة والاستدلال، مع ضوابط \"effort\" تسمح بموازنة استهلاك الـ tokens حسب تعقيد المهمة. العرض التوضيحي أظهر قدرته على فهم الفيديو، بناء لعبة ثلاثية الأبعاد، لعبها، اكتشاف الأخطاء، وإصلاحها في حلقة مستقلة.",
+  "detailed_explanation": "Gemini 3.8 Flash يُوصف بـ \"workhorse\" — نموذج للعمل المكثّف والمتواصل، على عكس النماذج \"الذكية جدًا\" التي تُستخدم لمهام استثنائية. التحسينات تركّز على السيناريوهات التي تتطلّب تخطيطًا متعدّد الخطوات واستدلالًا معقّدًا، وهي صفات جوهرية للـ Agents.\n\nالميزة الأبرز هي \"effort controls\" (ضوابط الجهد): بدلًا من أن يستهلك النموذج دائمًا أقصى tokens ممكنة، يمكن ضبطه ليُطابق \"الجهد\" (وبالتالي التكلفة) مع تعقيد المهمة. هذا حاسم في السيناريوهات الوكيلة، حيث قد ينفّذ Agent مئات المهام الصغيرة والكبيرة.\n\nالعرض التوضيحي في @antigravity مثير: النموذج يستقبل فيديو، يفهمه، يكتب كود لعبة ثلاثية الأبعاد، يلعبها (ربما عبر محاكاة أو واجهة)، يرصد الأخطاء، ويعدّل الكود — كل ذلك في \"حلقة وكيلة\" مستقلة. هذا النوع من السلوك التكراري والتصحيحي الذاتي هو ما يميّز Agent حقيقي عن نموذج لغة بسيط.\n\nالنموذج متاح بنفس سعر 3.7 Flash التمهيدي، مما يجعل التحسينات متاحة دون زيادة تكلفة.",
+  "why_it_matters": "يُشكّل خطوة نحو Agents أكثر استقلالية وقدرة على إدارة مشاريع كاملة بدلًا من مهام فردية، مع نموذج تسعير مرن يجعل الاستخدام المكثّف اقتصاديًا.",
+  "original_text": "We’re introducing Gemini 3.8 Flash ⚡️ built to tackle complex agentic and multi-step tasks with even greater diligence.\n\nOur most intelligent workhorse model yet delivers significant  improvements in reasoning, evolving to an AI partner that doesn’t just write code, but can also navigate complex projects.\n\nWhile solving ambiguous and high-friction tasks is immensely helpful, it can also be expensive. Fortunately, 3.8 Flash features the usual effort controls, ensuring that the amount of thinking required to accomplish the task at hand is proportional to the tokens spent.\n\nWatch Gemini 3.8 Flash combine native video understanding with advanced coding to autonomously build this 3D game, play it to find errors, and execute code changes in a seamless agentic loop in @antigravity.",
+  "glossary": [
+   {
+    "term": "Workhorse Model",
+    "ar": "نموذج عمل شاق: نموذج مصمّم للاستخدام المكثّف والمتواصل بدلًا من المهام الاستثنائية"
+   },
+   {
+    "term": "Effort Controls",
+    "ar": "ضوابط الجهد: آلية لموازنة استهلاك الموارد (Tokens) حسب تعقيد المهمة"
+   },
+   {
+    "term": "Agentic Loop",
+    "ar": "حلقة وكيلة: دورة تكرارية يخطّط فيها النموذج، ينفّذ، يقيّم النتيجة، ويصحّح بشكل مستقل"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Google DeepMind"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 94,
+  "metrics": {
+   "likes": 1616,
+   "replies": 82,
+   "reposts": 146,
+   "quotes": 38,
+   "bookmarks": 299,
+   "views": 115253
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini_38_flash",
+  "also_reported": [
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2095201941592899837"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2095184264426111156"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2095178382950695104"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2095176192307691835"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2095175690341826725"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2095175683911905669"
+   },
+   {
+    "author": "GoogleAIStudio",
+    "url": "https://x.com/GoogleAIStudio/status/2095175731630207314"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c983",
+  "serial": 983,
+  "serial_display": "#000983",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleDeepMind/status/2095175498967949359",
+  "source_native_id": "2095175498967949359",
+  "source_name": "Google DeepMind",
+  "source_site": "x.com",
+  "author": "GoogleDeepMind",
+  "published_at": "2026-09-02T15:42:20Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تطلق Gemini 3.8 Flash و Gemini 3.8 Flash Cyber لتطوير Agent والأمن السيبراني",
+  "arabic_summary": "أعلنت Google DeepMind عن نموذجين جديدين: Gemini 3.8 Flash الذي يحقق تحسينات كبيرة مقارنة بـ 3.7 Flash في هندسة البرمجيات ومهام Agent والاستدلال متعدد الخطوات، و Gemini 3.8 Flash Cyber المتخصص في الأمن السيبراني مع قدرات متقدمة في اكتشاف الثغرات الأمنية والتصحيح التلقائي.",
+  "detailed_explanation": "تقدم Google DeepMind نموذجين من عائلة Gemini موجهين لحالات استخدام مختلفة:\n\nGemini 3.8 Flash هو النموذج الأكثر ذكاءً في السلسلة حتى الآن، مع تحسينات ملموسة عبر ثلاثة محاور رئيسية: هندسة البرمجيات (software engineering)، المهام التي تتطلب Agent (agentic tasks)، والاستدلال متعدد الخطوات (multi-step reasoning). هذا النموذج مصمم لمساعدة المطورين في بناء Agent أكثر قدرة واستقلالية.\n\nGemini 3.8 Flash Cyber هو نموذج متخصص في الأمن السيبراني، يوصف بأنه الأكثر كفاءة في هذا المجال من Google. يتميز بقدرات على مستوى الصدارة (frontier-level) في اكتشاف الثغرات الأمنية (vulnerability detection) والتصحيح التلقائي (automated patching)، مما يمنح فرق الدفاع السيبراني ميزة حاسمة في مواجهة التهديدات المتطورة.",
+  "why_it_matters": "النموذجان يمثلان تطورًا نوعيًا: الأول يعزز قدرات الـ Agent على العمل المستقل المعقد، والثاني يوفر للمدافعين أداة متقدمة للبقاء متقدمين على التهديدات الناشئة في الأمن السيبراني.",
+  "original_text": "Two new Gemini models are here to help scale your AI agents and secure code:\n\n🔘 3.8 Flash: our most intelligent model yet with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.\n\n🔘 3.8 Flash Cyber: our most capable cybersecurity model with frontier-level vulnerability detection and automated patching.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي يعمل بشكل مستقل لإنجاز مهام معقدة"
+   },
+   {
+    "term": "Multi-step reasoning",
+    "ar": "استدلال متعدد الخطوات"
+   },
+   {
+    "term": "Vulnerability detection",
+    "ar": "اكتشاف الثغرات الأمنية"
+   },
+   {
+    "term": "Automated patching",
+    "ar": "التصحيح التلقائي للثغرات"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Google",
+   "DeepMind",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1866,
+   "replies": 133,
+   "reposts": 218,
+   "quotes": 81,
+   "bookmarks": 177,
+   "views": 285473
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini38_launch",
+  "also_reported": [
+   {
+    "author": "GoogleDeepMind",
+    "url": "https://x.com/GoogleDeepMind/status/2095196704769237137"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c984",
+  "serial": 984,
+  "serial_display": "#000984",
+  "source_type": "x",
+  "source_url": "https://x.com/perplexity_ai/status/2095241544383226274",
+  "source_native_id": "2095241544383226274",
+  "source_name": "Perplexity",
+  "source_site": "x.com",
+  "author": "perplexity_ai",
+  "published_at": "2026-09-02T20:04:46Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity تفتح مصدر Lily محرك الاستدلال المحلي المتخصص لـ Apple Silicon",
+  "arabic_summary": "أطلقت Perplexity كود مفتوح المصدر لمحرك Lily، وهو محرك استدلال محلي مصمم خصيصًا لتشغيل نموذج Qwen3.6-35B-A3B على معالجات Apple Silicon. المحرك مبني لدعم الحوسبة الهجينة (hybrid compute) في منتج Perplexity Computer، بحيث لا يشكل الاستدلال على الجهاز عنق زجاجة في المهام.",
+  "detailed_explanation": "Lily هو محرك استدلال (inference engine) محلي طورته Perplexity لتشغيل نماذج الذكاء الاصطناعي مباشرة على أجهزة المستخدم بدلاً من السحابة. المحرك متخصص في تشغيل نموذج Qwen3.6-35B-A3B على معالجات Apple Silicon (M-series chips).\n\nالهدف من Lily هو دعم الحوسبة الهجينة (hybrid compute) في Perplexity Computer، وهو ما يعني توزيع المهام بين الجهاز المحلي والسحابة بحسب الحاجة. التحدي الذي يحله Lily هو ضمان أن الاستدلال المحلي لا يصبح نقطة اختناق (bottleneck) تبطئ تنفيذ المهام في Computer.\n\nإطلاق المشروع كمصدر مفتوح (open-source) يتيح للمطورين استخدامه في مشاريعهم الخاصة، ويساهم في بناء نظام بيئي للتطبيقات التي تعمل محليًا مع الحفاظ على الأداء.",
+  "why_it_matters": "إتاحة محرك استدلال محلي محسّن يفتح المجال أمام المطورين لبناء تطبيقات ذكاء اصطناعي تعمل على الأجهزة بكفاءة عالية، خاصة على أجهزة Mac وiPad، مما يحسن الخصوصية والسرعة ويقلل الاعتماد على الخوادم السحابية.",
+  "original_text": "Today we’re open-sourcing Lily, the local inference engine we built for hybrid compute in Perplexity Computer.\n\nLily is specialized for Qwen3.6-35B-A3B on Apple silicon, built so on-device compute doesn’t bottleneck Computer tasks.\n\nRead more: https://t.co/OnowTP3ql6",
+  "glossary": [
+   {
+    "term": "Inference engine",
+    "ar": "محرك استدلال يشغّل نماذج الذكاء الاصطناعي"
+   },
+   {
+    "term": "Hybrid compute",
+    "ar": "حوسبة هجينة تجمع بين المعالجة المحلية والسحابية"
+   },
+   {
+    "term": "Apple Silicon",
+    "ar": "معالجات Apple من سلسلة M"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Perplexity",
+   "Apple",
+   "Qwen"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1163,
+   "replies": 41,
+   "reposts": 106,
+   "quotes": 32,
+   "bookmarks": 781,
+   "views": 126656
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [
+   "https://www.perplexity.ai/hub/blog/optimizing-on-device-inference-for-apple-silicon"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c985",
+  "serial": 985,
+  "serial_display": "#000985",
+  "source_type": "x",
+  "source_url": "https://x.com/AIatMeta/status/2095234385129963666",
+  "source_native_id": "2095234385129963666",
+  "source_name": "AI at Meta",
+  "source_site": "x.com",
+  "author": "AIatMeta",
+  "published_at": "2026-09-02T19:36:19Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Meta تطلق Muse Spark 1.3 بتحسينات في الأداء الـ Agent وكفاءة الاستخدام",
+  "arabic_summary": "أعلنت Meta عن إصدار Muse Spark 1.3 مع تحسينات في مهام Agent والبرمجة وقابلية الاستخدام العملي. النموذج يستطيع الحفاظ على عمل طويل المدى عبر workflows متعددة، يتعاون بشكل نشط مع المستخدمين بطرح أسئلة توضيحية والتأكيد قبل الإجراءات الحرجة، ويحقق تخفيضًا بنحو 20% في استدعاءات الأدوات و25% في الـ tokens مقارنة بالإصدار السابق.",
+  "detailed_explanation": "Muse Spark 1.3 هو نموذج من Meta يركز على تحسينات في ثلاثة محاور رئيسية:\n\nأولًا، القدرة على الحفاظ على عمل طويل المدى (longer-horizon work) عبر workflows متعددة ضمن thread واحد، مما يعني أن الـ Agent يستطيع إدارة مشاريع معقدة دون فقدان السياق.\n\nثانيًا، التعاون النشط (active collaboration) مع المستخدمين: النموذج يطرح أسئلة توضيحية عند الحاجة، يعلن عندما يواجه صعوبة (flags when stuck)، ويطلب تأكيدًا قبل تنفيذ إجراءات ذات عواقب مهمة (consequential actions). هذا السلوك يجعل الـ Agent أكثر أمانًا وموثوقية.\n\nثالثًا، معايرة أفضل (better calibrated) لقدرات النموذج نفسه، بمعنى أنه يدرك حدوده بدلاً من التوهم بنتائج (hallucinating outcomes)، مما يقلل من الأخطاء المكلفة.\n\nمن ناحية الكفاءة، حقق النموذج تخفيضًا بنحو 20% في عدد استدعاءات الأدوات (tool calls) و25% في عدد الـ tokens المستهلكة مقارنة بـ Muse Spark 1.2 في المقارنات الداخلية، مما يعني تكلفة أقل وسرعة أعلى.",
+  "why_it_matters": "النموذج يمثل تطورًا في اتجاه Agent أكثر وعيًا بحدودها وأكثر تعاونًا مع المستخدم، مع تحسين الكفاءة في استهلاك الموارد، مما يجعل استخدام Agent في سيناريوهات العالم الحقيقي أكثر عملية واقتصادية.",
+  "original_text": "We’re excited to release Muse Spark 1.3 with improved performance on agentic and coding tasks, and a focus on real-world usability.\n\nKey capabilities:\n→ Sustains longer-horizon work across multiple workflows in a single thread\n→ More actively collaborates with users: it asks clarifying questions, flags when it's stuck, confirms before consequential actions\n→ Better calibrated on its own limits instead of hallucinating outcomes\n→ ~20% fewer tool calls and ~25% fewer tokens vs. Muse Spark 1.2 in internal comparisons",
+  "glossary": [
+   {
+    "term": "Longer-horizon work",
+    "ar": "عمل طويل المدى يمتد عبر مهام متعددة"
+   },
+   {
+    "term": "Workflow",
+    "ar": "سير عمل أو مجموعة خطوات لإنجاز مهمة"
+   },
+   {
+    "term": "Tool calls",
+    "ar": "استدعاءات الأدوات التي يستخدمها الـ Agent"
+   },
+   {
+    "term": "Hallucinating",
+    "ar": "توهم النموذج بنتائج غير حقيقية"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Meta"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 1729,
+   "replies": 59,
+   "reposts": 164,
+   "quotes": 69,
+   "bookmarks": 156,
+   "views": 116227
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c986",
+  "serial": 986,
+  "serial_display": "#000986",
+  "source_type": "x",
+  "source_url": "https://x.com/cursor_ai/status/2095257412781396114",
+  "source_native_id": "2095257412781396114",
+  "source_name": "Cursor",
+  "source_site": "x.com",
+  "author": "cursor_ai",
+  "published_at": "2026-09-02T21:07:49Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Cursor تتيح تشغيل Cloud Agent على البنية التحتية الخاصة بالمستخدم",
+  "arabic_summary": "أعلنت Cursor عن إمكانية تشغيل الـ Agent السحابية الخاصة بها على البنية التحتية الخاصة بالمستخدم، بما في ذلك مجموعات من الأجهزة (pools of machines) التي تتوسع تلقائيًا حسب الطلب. هذا يتيح للمطورين منح الـ Agent وصولاً للخدمات الداخلية أو العتاد المتخصص، بينما تبقى حلقة الـ Agent (agent loop) تعمل داخل Cursor.",
+  "detailed_explanation": "تقدم Cursor حلاً للمطورين والمؤسسات التي تريد استخدام Agent مع الحفاظ على السيطرة الكاملة على البنية التحتية والبيانات.\n\nسابقًا، كانت الـ Agent السحابية في Cursor تعمل على خوادم Cursor، مما قد يمنع بعض حالات الاستخدام التي تتطلب الوصول لخدمات داخلية غير متاحة عبر الإنترنت، أو تتطلب عتادًا متخصصًا (specialized hardware) مثل GPU معينة أو أجهزة خاصة.\n\nالآن، يمكن للمستخدمين تشغيل الـ Agent على بنيتهم التحتية الخاصة (your infrastructure)، سواء كانت on-premise أو سحابة خاصة. الميزة تدعم pools of machines التي تتوسع تلقائيًا حسب الطلب (automatically scale with demand)، مما يعني أن المستخدم لا يحتاج لإدارة يدوية للموارد.\n\nالمهم هنا أن حلقة الـ Agent (agent loop) - أي المنطق الذي يتحكم في تسلسل الأوامر واتخاذ القرارات - تبقى تعمل داخل Cursor نفسه، بينما التنفيذ الفعلي يحدث على البنية التحتية الخاصة. هذا يجمع بين تجربة استخدام Cursor وأمان وتحكم البنية الخاصة.",
+  "why_it_matters": "الميزة تحل مشكلة أساسية للمؤسسات: استخدام Agent قوية مع الحفاظ على أمان البيانات الداخلية والتحكم في البنية التحتية، وتمكين حالات استخدام تتطلب عتادًا متخصصًا كالـ GPU أو الوصول لقواعد بيانات خاصة.",
+  "original_text": "You can now run Cursor cloud agents on your infrastructure, including pools of machines that automatically scale with demand.\n\nThis lets you give agents access to internal services or specialized hardware, while the agent loop stays in Cursor. https://t.co/BUdeFDRsz7",
+  "glossary": [
+   {
+    "term": "Cloud Agent",
+    "ar": "وكيل ذكي يعمل على السحابة"
+   },
+   {
+    "term": "Agent loop",
+    "ar": "حلقة الوكيل الذكي التي تتحكم في تسلسل المهام"
+   },
+   {
+    "term": "Pools of machines",
+    "ar": "مجموعات من الأجهزة"
+   },
+   {
+    "term": "Scale with demand",
+    "ar": "التوسع تلقائيًا حسب الحاجة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Cursor"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1801,
+   "replies": 77,
+   "reposts": 98,
+   "quotes": 52,
+   "bookmarks": 430,
+   "views": 109427
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c987",
+  "serial": 987,
+  "serial_display": "#000987",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2095159754414813249",
+  "source_native_id": "2095159754414813249",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-09-02T14:39:46Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Runway تطلق Runway Dev MCP للاتصال بمنصة المطورين من داخل الـ Agent",
+  "arabic_summary": "أعلنت Runway عن Runway Dev MCP، وهو خادم MCP يتيح الاتصال بمنصة Runway للمطورين من داخل الـ coding agent مباشرة. يمكن للمطورين بناء وتصحيح وإدارة مشاريعهم، وإعداد Model Routers، والاستعلام عن المهام (tasks)، وغيرها من العمليات دون مغادرة الـ Agent.",
+  "detailed_explanation": "Runway Dev MCP هو خادم MCP (Model Context Protocol) يربط بين الـ coding agent وبين منصة Runway للمطورين.\n\nMCP هو بروتوكول يتيح لـ Agent الاتصال بخدمات خارجية بطريقة موحدة. في هذه الحالة، يوفر Runway Dev MCP واجهة للمطورين للتفاعل مع Runway API مباشرة من داخل Agent مثل Cursor أو غيره.\n\nالوظائف التي يوفرها تشمل:\n- بناء وتصحيح (build and debug) المشاريع\n- إدارة المشاريع\n- إعداد Model Routers (موجهات النماذج التي تختار النموذج المناسب للمهمة)\n- الاستعلام عن المهام (lookup tasks) ومراقبة حالتها\n\nالميزة الأساسية هي أن المطور لا يحتاج لمغادرة Agent الخاص به للقيام بهذه العمليات، مما يجعل workflow التطوير أكثر سلاسة وتكاملاً.",
+  "why_it_matters": "إضافة دعم MCP من Runway يسهل على المطورين دمج قدرات توليد الفيديو المتقدمة في workflows البرمجية الخاصة بهم، مما يسرّع التطوير ويقلل الحاجة للتنقل بين الأدوات.",
+  "original_text": "Introducing Runway Dev MCP.\n\nConnect to the Runway developer platform from inside your coding agent to build, debug and manage. Set up Model Routers, lookup tasks, and more all without leaving your agent. Start building at the link below. https://t.co/OttOZ2Fzjz",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "Model Context Protocol بروتوكول يربط Agent بالخدمات الخارجية"
+   },
+   {
+    "term": "Model Router",
+    "ar": "موجه النماذج الذي يختار النموذج المناسب للمهمة"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP",
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Runway"
+  ],
+  "change_types": [
+   "New Release",
+   "MCP Support"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 83,
+   "replies": 11,
+   "reposts": 13,
+   "quotes": 5,
+   "bookmarks": 29,
+   "views": 10155
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c988",
+  "serial": 988,
+  "serial_display": "#000988",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2095173265379487780",
+  "source_native_id": "2095173265379487780",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-02T15:33:27Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenWiki تضيف تكامل مع محرر Cursor لتوفير وصول لوثائق البرمجة داخل بيئة التطوير",
+  "arabic_summary": "أعلنت LangChain عن تكامل جديد بين OpenWiki ومحرر Cursor، يتيح للمطورين الوصول إلى وثائق البرمجة مباشرة أثناء العمل. التكامل يتطلب تثبيت OpenWiki عبر npm ثم تفعيل التكامل بأمر واحد. المنشور يشير إلى سهولة إضافة تكاملات جديدة مع أدوات أخرى.",
+  "detailed_explanation": "OpenWiki أداة توفر وصولًا موحّدًا لوثائق البرمجة، وتكاملها مع Cursor يعني أن المطور يستطيع الآن استدعاء المعلومات التقنية مباشرة أثناء الكتابة أو التصحيح.\n\nالتثبيت يتم بخطوتين: تثبيت OpenWiki عبر npm بشكل عام على النظام، ثم تفعيل التكامل المطلوب (Claude، Codex، OpenCode، أو Cursor). هذا النهج يجعل التوسع إلى أدوات جديدة سريعًا.\n\nالتكامل يعكس اتجاهًا متزايدًا نحو دمج المعرفة البرمجية في سير عمل المطور بدلاً من الاعتماد على البحث اليدوي، وهو ما يناسب بيئات العمل السريعة التي تعتمد على Agents وأدوات الذكاء الاصطناعي المساعدة.",
+  "why_it_matters": "يسهّل على المطورين الوصول لوثائق تقنية محدثة دون مغادرة بيئة التطوير، مما يحسّن تجربة البرمجة ويقلل وقت البحث عن المعلومات.",
+  "original_text": "OpenWiki now integrates with @cursor_ai!",
+  "glossary": [],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "OpenWiki",
+   "Cursor"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 17,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 4779
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "openwiki 🤝 cursor\n\nwe recently made openwiki more accessible than ever with coding agent integrations. our newest integration is cursor!\n\ntwo commands and you're ready to go:\n1⃣ npm install -g openwiki@latest\n2⃣ openwiki integrations install <claude|codex|opencode|cursor>\n\nnew integrations are incredibly easy to add. let me know what you want to see next!\n\ncheck it out ⤵️"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c989",
+  "serial": 989,
+  "serial_display": "#000989",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2095234101422792969",
+  "source_native_id": "2095234101422792969",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-02T19:35:12Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Claude Code Desktop يتيح تشغيل Computer Use في الخلفية دون مراقبة مباشرة",
+  "arabic_summary": "أصبح بإمكان Claude Code في نسخة Desktop تنفيذ مهام Computer Use في الخلفية بينما المستخدم يعمل على شيء آخر. الميزة تتيح للـAgent فتح التطبيقات، تغيير الإعدادات، ونقل البيانات بين البرامج دون الحاجة لمراقبة الشاشة. متاحة حالياً في وضع Preview لمشتركي Pro وMax على macOS فقط.",
+  "detailed_explanation": "Computer Use هي ميزة كانت متاحة سابقًا في Claude لكنها كانت تتطلب مراقبة مباشرة لما يحدث على الشاشة. التحديث الجديد يسمح بتشغيلها في الخلفية، مما يعني أن الـAgent يمكنه:\n\n• فتح تطبيقات معينة سمح له المستخدم بالوصول إليها\n• تنفيذ تغييرات في الإعدادات\n• نقل بيانات بين أكثر من برنامج\n• تنفيذ خطوات ليس لها API أو واجهة سطر أوامر\n\nهذا التحول يعكس تطورًا في دور Agents: من أدوات تعمل داخل محرر أو واجهة واحدة، إلى كيانات قادرة على التفاعل مع نظام التشغيل بأكمله بشكل مستقل.\n\nالميزة حاليًا محدودة بـmacOS وتتطلب اشتراك Pro أو Max، وتُفعَّل من الإعدادات. هذا النوع من الأتمتة يفتح المجال لسيناريوهات جديدة مثل إعداد بيئات تطوير، تنفيذ اختبارات عبر واجهات غير قابلة للتشغيل الآلي تقليديًا، أو إدارة مهام روتينية معقدة تشمل أكثر من أداة.",
+  "why_it_matters": "ينقل Claude Code من مساعد برمجة تفاعلي إلى Agent مستقل قادر على تنفيذ مهام على مستوى نظام التشغيل، مما يفتح إمكانيات أوسع للأتمتة الحقيقية على الحاسب الشخصي.",
+  "original_text": "أهم تغيير في Claude Code مو موديل جديد\n\nإنه صار يقدر يشتغل على جهازك\nوأنت تكمل شغلك\nComputer Use في Claude Code Desktop صار يقدر يتعامل مع التطبيقات اللي سمحت له فيها بالخلفية\n\nيعني ممكن تطلب منه مثلا:\n\nيفتح تطبيق\nيغير إعداد\nينقل بيانات بين أكثر من برنامج\nأو ينفذ خطوة ما لها API ولا CLI\n\nوأنت ما تحتاج تجلس تراقب كل حركة على الشاشة\nالميزة حاليا Preview لمشتركي Pro وMax\nوتقدر تفعلها من:\nSettings > General > Computer use\nالفكرة هنا أكبر من مجرد “تحكم بالماوس”\n\nClaude Code بدأ ينتقل من:\nمساعد برمجة داخل المحرر\n\nإلى Agent يشتغل فعليا على الكمبيوتر نفسه\nبينما أنت تشتغل على شيء ثاني",
+  "glossary": [
+   {
+    "term": "Computer Use",
+    "ar": "استخدام الحاسوب - ميزة تتيح للذكاء الاصطناعي التحكم بواجهة نظام التشغيل كما يفعل المستخدم البشري"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 11,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 1332
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Computer use in the Claude Code desktop app now runs in the background.\n\nClaude works in the apps you've allowed it to while you keep working. It's already on if you've used computer use before, or turn it on in Settings &gt; General. \n\nIn beta on Pro and Max, macOS only. https://t.co/o9UrFpjmPB"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c990",
+  "serial": 990,
+  "serial_display": "#000990",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2095174912420036946",
+  "source_native_id": "2095174912420036946",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-02T15:40:00Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Fable 5.1 ينجح في توليد 100 صفحة HTML متنوعة من Prompt واحد",
+  "arabic_summary": "في اختبار قدرات التنوع، تمكن نموذج Fable 5.1 من إنشاء 100 صفحة HTML بتصاميم مختلفة من Prompt واحد فقط. التحدي كان في الحفاظ على الجودة والإبداع دون تكرار التصميم عبر الصفحات. النتائج أظهرت تنوعًا ملحوظًا وجودة مستقرة عبر العدد الكبير من المخرجات.",
+  "detailed_explanation": "التحدي في توليد الواجهات بالذكاء الاصطناعي ليس في إنتاج صفحة واحدة جميلة، بل في القدرة على:\n\n• الحفاظ على الجودة عبر مخرجات متعددة\n• تجنب التكرار والأنماط المحفوظة\n• الاستمرار في الإبداع بعد العينة العاشرة أو العشرين\n\nFable 5.1 نجح في إنتاج 100 ملف HTML بتصاميم مختلفة، ومعظم الملفات عملت بدون أخطاء واضحة. هذا يشير إلى أن النموذج يمتلك:\n\n• ذاكرة سياق جيدة تمنع التكرار\n• فهمًا عميقًا لمبادئ التصميم يتجاوز الأنماط الجاهزة\n• قدرة على التنويع دون فقدان الجودة\n\nالاختبار مهم لأنه يقيس جانبًا غير شائع في معايير قياس النماذج، وهو الاستقرار الإبداعي عبر دفعات كبيرة. النتائج المنشورة تشمل الصفحات والـPrompts المستخدمة، مما يسهّل إعادة الاختبار أو المقارنة مع نماذج أخرى.",
+  "why_it_matters": "يكشف قدرة النموذج على الحفاظ على الإبداع والتنوع في مخرجات متعددة، وهي نقطة ضعف شائعة في نماذج توليد الواجهات التي تميل للتكرار بعد عدة محاولات.",
+  "original_text": "100 صفحة HTML\n\nمن Prompt واحد فقط\n\nالتحدي كان بسيط:\n\nخلي كل صفحة جميلة\nولا تكرر نفس التصميم\nواستخدم أقصى قدر من الإبداع\nFable 5.1 أنشأ الـ100 ملف كاملين\nواللافت مو العدد\n\nاللافت إن النتائج متنوعة فعلا\nومعظم الملفات اشتغلت بدون مشاكل واضحة\n\nفي اختبارات الواجهات هذا مهم جدا\n\nلأن أي موديل يقدر يطلع لك Landing Page جميلة مرة واحدة\nلكن الأصعب إنه يحافظ على الجودة\nويغير الأسلوب\nولا يبدأ يكرر نفسه بعد الصفحة العاشرة\n\nالنتائج المنشورة تشمل الصفحات والـPrompts المستخدمة\n\nإذا كنت تستخدم AI في الـFrontend",
+  "glossary": [],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Fable"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 24,
+   "replies": 1,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 14,
+   "views": 1634
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c991",
+  "serial": 991,
+  "serial_display": "#000991",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2095111998275031532",
+  "source_native_id": "2095111998275031532",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-02T11:30:00Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أجهزة IP-KVM تتيح التحكم الكامل بحاسوب عن بُعد عبر الإنترنت دون برامج وسيطة",
+  "arabic_summary": "أجهزة مثل NanoKVM Pro وPiKVM وJetKVM تتيح التحكم الكامل بحاسوب من أي مكان: مشاهدة الشاشة، استخدام لوحة المفاتيح والفأرة، الدخول إلى BIOS، وإعادة التشغيل حتى لو تعطل النظام. تُستخدم مع Workstations أو أجهزة ألعاب أو خوادم منزلية لتجنب نقلها مع المستخدم.",
+  "detailed_explanation": "IP-KVM هي أجهزة صغيرة تُركّب على الحاسوب المستهدف وتتيح التحكم به عبر الشبكة كأنك جالس أمامه. الفرق الجوهري بينها وبين برامج Remote Desktop أو VNC أنها:\n\n• لا تعتمد على نظام التشغيل - تعمل حتى لو تعطل النظام\n• تتيح الوصول إلى BIOS وإعدادات Pre-boot\n• قادرة على إعادة تشغيل الجهاز فيزيائياً\n• لا تحتاج برامج مثبتة على الجهاز المستهدف\n\nهذه الأجهزة مفيدة بشكل خاص مع:\n\n• Workstations عالية الأداء يصعب نقلها\n• خوادم منزلية (Home Labs)\n• أجهزة Mac mini أو أجهزة ألعاب قوية\n• أي جهاز تحتاج وصولاً كاملاً له دون قيود النظام\n\nالأجهزة المذكورة (NanoKVM Pro، PiKVM، JetKVM) تتراوح أسعارها بين عشرات إلى مئات الدولارات، وتوفر بديلاً عملياً عن شراء حاسوب محمول أو نقل الجهاز الرئيسي.",
+  "why_it_matters": "توفر وصولاً فيزيائياً كاملاً لحاسوب عن بُعد دون الاعتماد على نظام التشغيل أو برامج مثبتة، مما يجعلها حلاً موثوقاً لإدارة الأجهزة القوية أو الخوادم الشخصية عن بُعد.",
+  "original_text": "تخيل جهاز كمبيوتر سعره 20 أو 30 ألف ريال… وتقدر تستخدمه من أي مكان في العالم بدون ما تشيله معك.\n\nهذا بالضبط اللي تسويه أجهزة IP-KVM مثل NanoKVM Pro وPiKVM وJetKVM.\n\nتركب الجهاز الصغير على الكمبيوتر في البيت أو المكتب، وبعدها تقدر:\nتفتح الجهاز عن بعد\nتشوف الشاشة\nتستخدم الكيبورد والماوس\nتدخل BIOS\nتعيد تشغيله حتى لو النظام علق\nوتستخدمه وكأنك جالس قدامه\nمفيد جدًا إذا عندك Workstation كبير، سيرفر منزلي، Mac mini، جهاز ألعاب قوي، أو جهاز غالي ما تبي تنقله معك كل مرة.\nجهاز صغير يخليك تحمل كمبيوترك معك… بدون ما تحمله.",
+  "glossary": [
+   {
+    "term": "IP-KVM",
+    "ar": "جهاز تحكم عن بُعد يتيح الوصول الفيزيائي لحاسوب عبر الشبكة دون الاعتماد على نظام التشغيل"
+   },
+   {
+    "term": "BIOS",
+    "ar": "برنامج ثابت يعمل قبل تشغيل نظام التشغيل ويتحكم في إعدادات الجهاز الأساسية"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "NanoKVM Pro",
+   "PiKVM",
+   "JetKVM"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 116,
+   "replies": 2,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 117,
+   "views": 20646
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "في ChatGPT فيه أوامر قصيرة تقدر تختصر عليك وصف طويل كل مرة.\n\nمثلاً:\n\n/blueprint → مخطط تقني\n/mindmap → خريطة ذهنية\n/xray → كشف المكونات الداخلية\n/explodedview → تفكيك المنتج\n/flowchart → مخطط تدفق\n/architecture → معمارية نظام\n/infographic → إنفوجرافيك\nوالقائمة أكبر بكثير.\nهذه Cheat Sheet لأهم الأوامر اللي أستخدمها:"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c992",
+  "serial": 992,
+  "serial_display": "#000992",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2095069555374658026",
+  "source_native_id": "2095069555374658026",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-02T08:41:21Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "خمس طرق لتقليل تكاليف استخدام Claude API في Fable 5.1",
+  "arabic_summary": "يشرح المنشور خمس تحسينات عملية لتخفيض تكلفة استخدام Claude API بعد تحديث Fable 5.1، تشمل استخدام effort: low في المهام المناسبة، وأدوات فحص Prompt Cache والـPrompts، وتغيير مستوى Effort أثناء المحادثة، وأداة ترحيل الإعدادات. يبرز المنشور أن تكلفة Cache Reads انخفضت بنسبة 75% لتصبح $0.25 لكل مليون Token بدلاً من $1.",
+  "detailed_explanation": "يقدم المنشور دليلاً عملياً لمستخدمي Claude API الذين لم يحدثوا إعداداتهم بعد تحديث Fable 5.1، موضحاً خمس تحسينات مباشرة لخفض التكاليف.\n\nالتحسين الأول يتمثل في استخدام effort: low في بعض المهام التي لا تحتاج أقصى دقة، مما يعطي نتائج قوية بتكلفة أقل. الثاني والثالث يعتمدان على أدوات مدمجة: /claude-api cost-optimize لفحص إعدادات Prompt Cache وكشف فرص التوفير، و/claude-api prompt-audit لمراجعة الـPrompts واكتشاف التعليمات الزائدة أو المتعارضة.\n\nالتحسين الرابع يسمح بتغيير مستوى Effort أثناء نفس المحادثة دون كسر الـPrompt Cache، وهو تحسين مهم لم يكن متاحاً سابقاً. أما الخامس فهو أداة /claude-api migrate التي تساعد المطورين على ترحيل إعدادات مشاريعهم القائمة إلى Fable 5.1.\n\nالسبب الرئيسي لأهمية هذه التحسينات هو أن تكلفة Cache Reads انخفضت من $1 إلى $0.25 لكل مليون Token، أي بنسبة 75%، مما يجعل استخدام Claude في الجلسات الطويلة أو تطبيقات الـAgents أكثر فعالية من حيث التكلفة.",
+  "why_it_matters": "انخفاض تكلفة Cache Reads بنسبة 75% يجعل استخدام Claude في الجلسات الطويلة والـAgents أكثر جدوى اقتصادية، خاصة للمطورين الذين يعتمدون على API في مشاريعهم.",
+  "original_text": "إذا تستخدم Fable 5.1 وما غيرت إعداداتك\n\nممكن تكون تدفع أكثر من اللازم\n\nفيه 5 تحسينات تقدر تبدأ بها الآن:\n\nجرّب effort: low\nفي بعض المهام يعطي نتيجة قوية بتكلفة أقل\nشغّل:\n/claude-api cost-optimize\nعشان يفحص إعدادات Prompt Cache ويكشف فرص التوفير\n\nشغّل:\n/claude-api prompt-audit\nعشان يراجع الـPrompts ويكشف التعليمات الزائدة أو المتعارضة\nغيّر مستوى Effort أثناء نفس المحادثة\nبدون ما تكسر الـPrompt Cache مثل السابق\nإذا عندك مشروع يستخدم API\nشغّل:\n/claude-api migrate\nعشان يساعدك تحدث الإعدادات إلى Fable 5.1\n\nوالسبب اللي يخلي هذا مهم:\nCache Reads في Fable 5.1 صارت بـ$0.25 لكل مليون توكن\nبدل $1 سابقا\nيعني أرخص 75%.\n\nاحفظها\nخصوصا إذا Claude عندك يشتغل في جلسات طويلة أو Agents",
+  "glossary": [
+   {
+    "term": "Prompt Cache",
+    "ar": "ذاكرة مؤقتة للتعليمات تخزن أجزاء من الـPrompts المستخدمة مسبقاً لتسريع الاستجابة وتقليل التكلفة"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة قياس النص في نماذج اللغة، تقريباً كلمة أو جزء منها"
+   },
+   {
+    "term": "Effort",
+    "ar": "مستوى الجهد الحسابي المطلوب من النموذج، حيث low يعني دقة أقل وتكلفة أقل"
+   },
+   {
+    "term": "Cache Reads",
+    "ar": "عمليات قراءة البيانات من الذاكرة المؤقتة"
+   }
+  ],
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic",
+   "Fable"
+  ],
+  "change_types": [
+   "API Update",
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 126,
+   "replies": 3,
+   "reposts": 12,
+   "quotes": 1,
+   "bookmarks": 153,
+   "views": 16777
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "🚨 THIS IS INSANE 🚨\n\nSomeone already shared Fable 5.1 optimizations you can start to use \"NOW\".\n\nHere I show you how you can use them: 👇\n\n1. Set effort to 'low'\n2. Run '/claude-api cost-optimize'\n3. Run 'claude-api prompt-audit'\n4. Change effort mid-conversation w/o cache hit \n5. Update Fable 5.1 API config w/ 'claude-api migrate'\n\nBookmark this, you will need it 🔖"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c993",
+  "serial": 993,
+  "serial_display": "#000993",
+  "source_type": "x",
+  "source_url": "https://x.com/BadwiNew/status/2095081329683476898",
+  "source_native_id": "2095081329683476898",
+  "source_name": "Badwi",
+  "source_site": "x.com",
+  "author": "BadwiNew",
+  "published_at": "2026-09-02T09:28:08Z",
+  "fetched_at": "2026-09-03T00:08:04Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تجربة استخدام ChatGPT لتحليل النتائج المخبرية الصحية على مدى سنتين",
+  "arabic_summary": "يشارك الكاتب تجربته في استخدام ChatGPT لتحليل نتائج التحاليل الطبية له ولعائلته على مدى سنتين تقريباً، مشيداً بجودة القراءات والاستنتاجات التي تفوق شروحات كثير من الأطباء في الوضوح والتفصيل والترابط. يشير إلى أن التحدي الرئيسي يتمثل في خصوصية البيانات، مقترحاً حلولاً مثل RAG أو مزودين محليين موثوقين.",
+  "detailed_explanation": "يوثق المنشور تجربة عملية لاستخدام ChatGPT في تحليل النتائج المخبرية الصحية بشكل دوري (كل 3-4 أشهر) على مدى سنتين تقريباً. الكاتب، الذي أسس تطبيقاً متخصصاً في العناية المنزلية، يمتلك وصولاً مريحاً للتحاليل بأسعار تنافسية، مما أتاح له تجربة مستمرة.\n\nيقيّم الكاتب أداء ChatGPT بأنه \"أكثر من رائع\"، موضحاً أن القراءات والاستنتاجات أوضح وأكثر تفصيلاً وترابطاً من شروحات كثير من الأطباء. هذا التقييم يأتي من تجربة ممتدة وليس انطباعاً أولياً.\n\nلكن المنشور يحدد بوضوح \"المعضلة الأساسية\" في خصوصية البيانات الصحية، وهي قضية حساسة في التطبيقات الطبية. يقترح الكاتب حلين محتملين: استخدام تقنيات RAG التي تسمح بمعالجة البيانات محلياً دون إرسالها لخوادم خارجية، أو الاعتماد على مزود محلي موثوق مثل HUMAIN عند جاهزيته.\n\nالمنشور يربط بمنشور من OpenAI حول تكامل ChatGPT مع أنظمة السجلات الصحية الإلكترونية (EHR) وتسع مصادر بيانات صناعية، مما يضع التجربة الشخصية في سياق التطورات المؤسسية في هذا المجال.",
+  "why_it_matters": "يعكس المنشور واقع استخدام حقيقي طويل الأمد للذكاء الاصطناعي في المجال الصحي، ويبرز الفجوة بين الإمكانيات التقنية ومشكلة خصوصية البيانات الطبية التي تحتاج حلولاً محلية.",
+  "original_text": "من حوالي سنتين، وأنا أشارك ChatGPT نتائج تحاليلي  وتحاليل أفراد عائلتي الصحية، \nوالتي نجريها كل ثلاثة أو أربعة أشهر تقريبًا بسبب تأسيسي لتطبيق متخصص في العناية المنزلية منذ سنوات وقربي من هذا القطاع والحصول على أسعار جدا منافسة\n\nوبصراحة، القراءات والاستنتاجات الي يقدمها الذكاء الاصطناعي أكثر من رائعة؛ \n\nفهي أوضح وأكثر تفصيلًا وترابطًا من شروحات كثير من الأطباء.\n\nتبقى المعضلة الأساسية في خصوصية البيانات، \nويمكن معالجتها عبر تقنيات مثل RAG، \n\nأو من خلال مزود محلي موثوق مثل @HUMAIN عند جاهزيته.",
+  "glossary": [
+   {
+    "term": "RAG",
+    "ar": "Retrieval-Augmented Generation، تقنية تسمح للنموذج باسترجاع معلومات من مصادر محلية دون إرسال البيانات للخوادم الخارجية"
+   },
+   {
+    "term": "EHR",
+    "ar": "Electronic Health Records، أنظمة السجلات الصحية الإلكترونية"
+   }
+  ],
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "ChatGPT",
+   "OpenAI",
+   "HUMAIN"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 52,
+   "replies": 4,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 59,
+   "views": 35870
+  },
+  "metrics_captured_at": "2026-09-03T00:08:04Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Today, we’re bringing ChatGPT closer to the systems, information, and workflows healthcare teams already rely on. ♥️\n\nWe’re introducing a new EHR integration to connect supported Epic environments to ChatGPT and a plugin connecting to nine additional industry data sources. https://t.co/XlMtU4cFUt"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
