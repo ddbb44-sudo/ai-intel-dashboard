@@ -732,6 +732,7 @@ function viewAccounts(keepFocus){
       <div class="accmain">
         <div class="accname">${esc(a.name||a.handle)}${a._new?' <span class="accnew">جديد</span>':''}</div>
         <div class="acchandle">@${esc(a.handle)}</div>
+        ${a.active===false?'<span class="accoff">السحب متوقّف</span>':''}
         ${a.bio?`<div class="accbio">${esc(a.bio)}</div>`:''}
       </div>
       <div class="accright">
@@ -747,7 +748,8 @@ function viewAccounts(keepFocus){
     <div class="acchead">
       <h2>المتابَعون</h2>
       <div class="accsub"><b class="num">${list.length}</b> حسابًا مُتابَعًا ·
-        <b class="num">${withCards}</b> منها له بطاقات ·
+        <b class="num">${list.filter(a=>a.active!==false).length}</b> يُسحب يوميًا ·
+        <b class="num">${withCards}</b> له بطاقات ·
         <b class="num">${cards.length}</b> بطاقة إجمالًا</div>
       <input id="accq" class="accinput" placeholder="ابحث باسم الحساب أو معرّفه…"
         value="${esc(ACCQ)}" oninput="accSearch(this.value)" autocomplete="off">
@@ -786,7 +788,8 @@ function accountStats(){
     const a0 = Store.author(h);
     const s = by[h] || (by[h] = {handle:h, cards:0, core:0, soft:0, byType:{}, imp:0, impN:0,
                                  days:new Set(), last:'', doms:{}, mine:0,
-                                 type:a0.account_type || 'أخرى', arab:!!a0.is_arab});
+                                 type:a0.account_type || 'أخرى', arab:!!a0.is_arab,
+                                 off:a0.active === false});
     s.cards++;
     let isCore = false, isSoft = false;
     (i.tool_types||[]).forEach(t => {
@@ -842,13 +845,17 @@ function viewReport(){
     quality:(a,b) => b.quality - a.quality || b.score - a.score,
     recent: (a,b) => (b.last||'').localeCompare(a.last||'')
   }[RSORT];
-  const inType = r => !RTYPE || (RTYPE === 'عرب' ? r.arab : r.type === RTYPE);
+  /* المتوقّف يبقى في القائمة لأن بطاقاته باقية وتاريخه يُقرأ — لكنه موسوم،
+     وله زرّه. إخفاؤه يجعل عزيز يظنّه محذوفًا وهو ليس كذلك. */
+  const inType = r => !RTYPE || (RTYPE === 'عرب' ? r.arab
+                              : RTYPE === 'متوقّف' ? r.off : r.type === RTYPE);
   const ranked = rows.filter(inType).sort(cmp);
   const useful = ranked.filter(r => r.toolW > 0);
   const barren = ranked.filter(r => r.toolW === 0).sort((a,b) => b.cards - a.cards);
   const totCore = rows.reduce((a,r) => a + r.core, 0);
   const sortBtn = (k,l) => `<button class="rpsortb${RSORT===k?' on':''}" onclick="rsort('${k}')">${l}</button>`;
-  const nType = k => rows.filter(r => k === 'عرب' ? r.arab : r.type === k).length;
+  const nType = k => rows.filter(r => k === 'عرب' ? r.arab
+                                    : k === 'متوقّف' ? r.off : r.type === k).length;
   const typeBtn = (k,l) => { const n = nType(k); return n ? `<button class="rptypeb${RTYPE===k?' on':''}" onclick="rtype('${k}')">${l}<b>${n}</b></button>` : ''; };
 
   const chip = (t,n) => `<span class="rpchip${TOOL_CORE.includes(t)?' core':''}">${esc(t)} <b>${n}</b></span>`;
@@ -862,7 +869,7 @@ function viewReport(){
       <div class="rpmain">
         <div class="rpname" onclick="go('#/u/${encodeURIComponent(r.handle)}')">
           ${esc(a.name||r.handle)} <span class="rphandle">@${esc(r.handle)}</span></div>
-        <div class="rpchips"><span class="rptag">${esc(r.type)}${r.arab?' · عربي':''}</span>${types.length ? types.map(([t,n]) => chip(t,n)).join('')
+        <div class="rpchips">${r.off?'<span class="rptag off">متوقّف</span>':''}<span class="rptag">${esc(r.type)}${r.arab?' · عربي':''}</span>${types.length ? types.map(([t,n]) => chip(t,n)).join('')
             : '<span class="rpchip zero">لا بطاقة أداة</span>'}</div>
         <div class="rpmeta">
           <span><b class="num">${r.cards}</b> بطاقة</span>
@@ -878,8 +885,9 @@ function viewReport(){
           <b>${r.score}</b><span>الدرجة</span>
           <div class="rpbar"><i style="width:${r.score}%"></i></div>
         </div>
-        <button class="rpstop" onclick="event.stopPropagation();stopAccount('${esc(r.handle)}')"
-          title="يوقف السحب اليومي · البطاقات تبقى">أوقف السحب</button>
+        ${r.off ? '<span class="rpstopped" title="لا يُسحب يوميًا · بطاقاته السابقة باقية">السحب متوقّف</span>'
+          : `<button class="rpstop" onclick="event.stopPropagation();stopAccount('${esc(r.handle)}')"
+          title="يوقف السحب اليومي · البطاقات تبقى">أوقف السحب</button>`}
       </div>
     </div>`;
   };
@@ -893,7 +901,7 @@ function viewReport(){
         <b class="num">${totCore}</b> بطاقة أداة (Skill · MCP · Agent · Plugin · API)</div>
       <div class="rptypes">
         <button class="rptypeb${RTYPE?'':' on'}" onclick="rtype('')">الكل<b>${rows.length}</b></button>
-        ${typeBtn('عرب','العرب')}${typeBtn('شركة','الشركات')}${typeBtn('تقني','التقنيون')}${typeBtn('عامل في شركة','العاملون في الشركات')}${typeBtn('أخرى','أخرى')}
+        ${typeBtn('عرب','العرب')}${typeBtn('شركة','الشركات')}${typeBtn('تقني','التقنيون')}${typeBtn('عامل في شركة','العاملون في الشركات')}${typeBtn('أخرى','أخرى')}${typeBtn('متوقّف','متوقّفة')}
       </div>
       <div class="rpsort">رتّب بـ ${sortBtn('tools','الأدوات')}${sortBtn('cards','العدد')}${sortBtn('quality','الجودة')}${sortBtn('recent','الأحدث')}</div>
       <div class="accnote">الدرجة = حجم الأدوات ٤٥٪ · تركيزها ٢٠٪ · جودتها ٢٠٪ · الاستمرارية ١٠٪ · ذوقك ٥٪ —

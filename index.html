@@ -450,6 +450,13 @@ button.go.danger:hover{background:#8f1d17}
   background:var(--surface-2);border-radius:999px;padding:1px 6px;min-width:20px;text-align:center}
 .rptypeb.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
 .rptypeb.on b{background:rgba(255,255,255,.22);color:#fff}
+/* «متوقّف» يُقرأ قبل أي شيء آخر في الصف — الحساب المتوقّف يبقى معروضًا
+   لأن بطاقاته باقية، فلا بدّ أن يقول عن نفسه إنه لم يعد يُسحب. */
+.rptag.off{background:var(--warn-soft);border-color:var(--warn);color:var(--warn);font-weight:600}
+.rpstopped{font-size:11.5px;color:var(--warn);background:var(--warn-soft);
+  border:1px solid var(--warn);border-radius:8px;padding:4px 9px;white-space:nowrap;text-align:center}
+.accoff{display:inline-block;font-size:11px;color:var(--warn);background:var(--warn-soft);
+  border:1px solid var(--warn);border-radius:999px;padding:1px 8px;margin-top:3px}
 .rptag{font-size:11.5px;padding:2.5px 8px;border-radius:999px;border:1px solid var(--line-2);
   background:var(--surface-2);color:var(--muted);white-space:nowrap}
 .rpsort{margin:12px 0 2px;font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;flex-wrap:wrap}
@@ -568,7 +575,7 @@ button.go.danger:hover{background:#8f1d17}
       window.__RAW = { items: items, authors: authors, stats: man.stats };
       var b = document.getElementById('boot'); if(b) b.remove();
       var s = document.createElement('script');
-      s.src = 'app.js?v=9f8712bc47';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
+      s.src = 'app.js?v=134b663a79';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
       s.onerror = function(){ fail('\u062a\u0639\u0630\u0651\u0631 \u062a\u062d\u0645\u064a\u0644 app.js'); };
       document.body.appendChild(s);
       console.log('[dash] ' + items.length + ' cards in ' + (Date.now() - T0) + 'ms');

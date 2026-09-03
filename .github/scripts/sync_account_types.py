@@ -43,6 +43,13 @@ def main(check_only=False):
             problems.append("@%s نوعه «%s» غير معتمد" % (a["handle"], t))
         if not isinstance(a.get("is_arab"), bool):
             problems.append("@%s بلا is_arab (منطقي)" % a["handle"])
+        # فرق active يُبلَّغ في وضع الفحص فقط — في وضع النقل هو ما سيُصلَح بعد سطور،
+        # والإبلاغ عمّا نحن بصدد إصلاحه ضجيجٌ يخفي المشكلات الحقيقية.
+        r = by_aut.get(h)
+        if check_only and r is not None and r.get("active") != a.get("active", True):
+            problems.append("@%s: active في accounts=%s وفي authors=%s — "
+                            "الإيقاف لن يظهر في اللوحة"
+                            % (a["handle"], a.get("active", True), r.get("active")))
 
     # ٢) الملفّان يتطابقان في مجموعة الحسابات
     for h in sorted(set(by_acc) - set(by_aut)):
@@ -60,14 +67,21 @@ def main(check_only=False):
         print("تطابق الحسابات — سليم (%d حسابًا)" % len(by_acc))
         return 0
 
-    # ٣) النقل
+    # ٣) النقل — النوع والعلَم و«نشط»
+    #    active يُنقل لأن «أوقف السحب» كان يعمل بلا أن يُرى: يوقف السحب في
+    #    daily_pull فعلًا (السطر ١٠٤)، لكن اللوحة لا تحمّل accounts.json فيبقى
+    #    الحساب في القائمة كأنه نشط. سأل عزيز: «لماذا الذين حذفتهم ما زالوا؟»
+    #    — والجواب أن الإيقاف وقع ولم يصل الشاشة.
+    FIELDS = ("account_type", "is_arab", "active")
     moved = 0
     for h, a in by_acc.items():
         r = by_aut.get(h)
         if not r: continue
-        if r.get("account_type") != a.get("account_type") or r.get("is_arab") != a.get("is_arab"):
-            r["account_type"] = a.get("account_type")
-            r["is_arab"] = a.get("is_arab")
+        vals = {"account_type": a.get("account_type"),
+                "is_arab": a.get("is_arab"),
+                "active": a.get("active", True)}
+        if any(r.get(k) != v for k, v in vals.items()):
+            r.update(vals)
             moved += 1
         # is_arabic القديم مشتقٌّ من إعداد اللغة في X وقد وضع شركةً في «العرب».
         # يبقى للتوافق ولا يُقرأ في التصنيف — is_arab هو الحكم.
