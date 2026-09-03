@@ -169,19 +169,34 @@ async function flushPrefs(){
 /* ---------- 4) TAXONOMY ----------
    المفردات المعلنة في ملف التعليمات هي المرجع. تظهر كاملة دائمًا حتى لو كان عدّها صفرًا،
    ويُضاف إليها أي تصنيف ظهر في البيانات ولم يكن معلنًا. لا يُخفى تصنيف طلبه المستخدم. */
+/* طبيعة التغيير — تُعرض مجموعةً لا مفردة (٣ سبتمبر ٢٠٢٦).
+   البيانات تحتفظ بقيمها الإنجليزية؛ الدمج هنا عرضٌ وفلترةٌ فقط، فلا يحتاج إعادة وسم. */
+const CHG_GROUPS = {
+  'ميزة أو تحديث': ['New Feature','Update','Upgrade','Model Update','API Update'],
+  'إصدار جديد':    ['New Release','General Availability'],
+  'مفتوح المصدر':  ['Open Source'],
+  'تكامل ووكلاء':  ['New Integration','MCP Support','New Agent Feature'],
+  'بحث':           ['Research Release'],
+  'أمن':           ['Security'],
+  'تجريبي':        ['Beta/Preview','Beta / Preview'],
+  'تسعير':         ['Pricing Change'],
+  'توقّف أو عطل':  ['Deprecation','Shutdown','Outage/Incident','Outage / Incident'],
+  'استحواذ':       ['Acquisition']
+};
+const CHG_OF = (() => { const m={}; for(const g in CHG_GROUPS) CHG_GROUPS[g].forEach(v => m[v]=g); return m; })();
+const chgGroupsOf = card => [...new Set((card.change_types||[]).map(x => CHG_OF[x] || x))];
+
 const DECLARED = {
   content_types: ['إصدار','أداة','شرح','تجربة','بحث وقياس','رأي','خبر'],
   tool_types: ['MCP','Skill','Agent','Plugin','Prompt','API/SDK','تطبيق','نموذج'],
   domains: ['برمجة وهندسة','أعمال وإدارة','تصميم وواجهات','تسويق ومحتوى','نماذج وLLM',
     'بيانات وتحليلات','بحث وتعليم','إنتاجية شخصية','فيديو وصوت','أمن سيبراني',
     'روبوتات وعتاد','صحة','إسلامي'],
-  change_types: ['New Release','New Feature','Upgrade','Update','Model Update','API Update',
-    'Pricing Change','New Integration','MCP Support','New Agent Feature','Beta / Preview',
-    'General Availability','Deprecation','Shutdown','Research Release','Open Source','Acquisition',
-    'Outage / Incident','Security']
+  change_types: Object.keys(CHG_GROUPS)
 };
 const Taxonomy = (() => {
-  const countMap = key => { const m={}; Store.all().forEach(i => (i[key]||[]).forEach(x => m[x]=(m[x]||0)+1)); return m; };
+  const valsOf = (i,key) => key==='change_types' ? chgGroupsOf(i) : (i[key]||[]);
+  const countMap = key => { const m={}; Store.all().forEach(i => valsOf(i,key).forEach(x => m[x]=(m[x]||0)+1)); return m; };
   const merge = (key, pinned) => {
     const m = countMap(key);
     const declared = DECLARED[key] || [];
@@ -209,13 +224,17 @@ const Taxonomy = (() => {
     content_types: merge('content_types'),
     tool_types: merge('tool_types'),
     domains: merge('domains'),
-    change_types: merge('change_types'),
+    change_types: merge('change_types'),   /* مجموعات لا قيمًا مفردة */
     entities: Object.entries(entM).sort((a,b)=>b[1]-a[1]).map(([t,n])=>[t,n,false])
   };
 })();
 
 /* ---------- 5) FILTER ENGINE ---------- */
 const ZOPEN = { ct:false, tool:false, dom:false, chg:false, ent:false };
+/* أقل عدد بطاقات يُظهر الفلتر في الشريط. الكيانات ٣٢١ قيمة، ٧٠٪ منها ظهر مرة
+   واحدة — والقيمة اليتيمة ليست فلترًا. ما دونها يبقى في البطاقة وفي البحث
+   النصي، ويُعرض خلف زر «إظهار». (٣ سبتمبر ٢٠٢٦) */
+const FMIN = { ent: 3 };
 const F = { q:'', ct:[], tool:[], dom:[], ent:[], chg:[], src:[], lang:'', tier:'useful+', pref:[], coll:'', from:'', to:'', time:'', sort:'smart' };
 
 const FilterEngine = {
@@ -232,7 +251,7 @@ const FilterEngine = {
       if (F.tool.length && !F.tool.some(x => (i.tool_types||[]).includes(x))) return false;
       if (F.dom.length && !F.dom.some(x => i.domains.includes(x))) return false;
       if (F.ent.length && !F.ent.every(x => i.entities.includes(x))) return false;
-      if (F.chg.length && !F.chg.every(x => i.change_types.includes(x))) return false;
+      if (F.chg.length){ const g = chgGroupsOf(i); if (!F.chg.every(x => g.includes(x))) return false; }
       if (F.pref.includes('liked') && !Prefs.liked(i.id)) return false;
       if (F.pref.includes('bookmarked') && !Prefs.isBookmarked(i.id)) return false;
       if (F.pref.includes('unread') && Prefs.isOpened(i.id)) return false;
@@ -397,12 +416,13 @@ function filtersHTML(){
     const id='g_'+key;
     const lbl  = n => (key==='src' ? (SRC_LABEL[n]||n) : n);
     const chip = ([name,n,pin]) => `<button class="chip ${pin?'pin ':''}${F[key].includes(name)?'on':''}${n?'':' empty'}" onclick="toggleF('${key}','${esc(name)}')" ${n?'':'title="تصنيف معتمد لكن لا توجد بطاقات تحمله في هذه الدفعة"'}>${esc(lbl(name))}<span class="c">(${n})</span></button>`;
-    const full = list.filter(r=>r[1]>0 || r[2]);
-    const zero = list.filter(r=>r[1]===0 && !r[2]);
+    const min  = FMIN[key] || 1;
+    const full = list.filter(r=>r[1] >= min || r[2]);
+    const zero = list.filter(r=>r[1] <  min && !r[2]);
     const openZ = ZOPEN[key];
     return `<div class="fgroup"><h4>${title} <span class="gcount">${full.length}</span>${F[key].length?`<button onclick="clearF('${key}')">مسح</button>`:''}</h4>
       <div class="chips ${full.length>14?'scroll':''}" id="${id}">${full.map(chip).join('')}${openZ?zero.map(chip).join(''):''}</div>
-      ${zero.length?`<button class="more" onclick="toggleZero('${key}')">${openZ?'إخفاء':'إظهار'} ${zero.length} تصنيفًا معتمدًا بلا بطاقات ${openZ?'−':'+'}</button>`:''}</div>`;
+      ${zero.length?`<button class="more" onclick="toggleZero('${key}')">${openZ?'إخفاء':'إظهار'} ${zero.length} ${min>1?`قيمة نادرة (أقل من ${min} بطاقات)`:'تصنيفًا معتمدًا بلا بطاقات'} ${openZ?'−':'+'}</button>`:''}</div>`;
   };
   const prefChip = (k,l) => `<button class="chip ${F.pref.includes(k)?'on':''}" onclick="toggleF('pref','${k}')">${l}</button>`;
   const colls = Prefs.collections().map(cn => `<button class="chip ${F.coll===cn?'on':''}" onclick="setColl('${esc(cn)}')">${esc(cn)}</button>`).join('');

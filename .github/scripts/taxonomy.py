@@ -30,6 +30,23 @@ CHANGE_TYPES = [
     "Research Release","Open Source","Acquisition","Outage/Incident","Security",
 ]
 
+# مجموعات العرض لطبيعة التغيير (٣ سبتمبر ٢٠٢٦).
+# النموذج يظلّ يُخرج القيم أعلاه؛ الدمج للعرض والفلترة فقط، فلا يحتاج إعادة وسم.
+# نسخة مطابقة في app.js باسم CHG_GROUPS — أيّ تعديل هنا يُنسخ هناك.
+CHANGE_GROUPS = {
+    "ميزة أو تحديث": ["New Feature", "Update", "Upgrade", "Model Update", "API Update"],
+    "إصدار جديد":    ["New Release", "General Availability"],
+    "مفتوح المصدر":  ["Open Source"],
+    "تكامل ووكلاء":  ["New Integration", "MCP Support", "New Agent Feature"],
+    "بحث":           ["Research Release"],
+    "أمن":           ["Security"],
+    "تجريبي":        ["Beta/Preview", "Beta / Preview"],
+    "تسعير":         ["Pricing Change"],
+    "توقّف أو عطل":  ["Deprecation", "Shutdown", "Outage/Incident", "Outage / Incident"],
+    "استحواذ":       ["Acquisition"],
+}
+CHANGE_GROUP_OF = {v: g for g, vs in CHANGE_GROUPS.items() for v in vs}
+
 # خريطة الدمج للمجالات القديمة — تُستخدم كشبكة أمان إن ردّ النموذج بمجال قديم
 LEGACY_DOMAIN = {
     "Software Development":"برمجة وهندسة","Coding":"برمجة وهندسة","DevOps":"برمجة وهندسة","Engineering":"برمجة وهندسة",
