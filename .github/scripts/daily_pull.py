@@ -12,6 +12,10 @@
 import json, os, re, sys, time, datetime, urllib.request, urllib.error, urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dedupe
+from jsontools import salvage
+
 def envs(name, default):
     """GitHub Actions يمرّر المتغيّر غير المضبوط كنص فارغ لا كغائب،
     فـ os.environ.get(name, default) يعيد '' ويكسر أي تحويل. هذه تعالجها."""
@@ -340,12 +344,21 @@ def run_batch(args):
     last = ""
     for attempt in (1, 2):
         try:
-            resp = claude(prompt)
+            # 20 بطاقة × (شرح موسّع + تصنيف) تتجاوز 8000 توكن بسهولة، فيُقصّ
+            # المخرَج في منتصف JSON ويفشل التحليل مرتين بالسبب نفسه.
+            # (تقريرا 1 و3 سبتمبر: «Expecting , delimiter» — قصٌّ لا عطل نموذج.)
+            resp = claude(prompt, max_tokens=24000)
             txt = "".join(b.get("text", "") for b in resp.get("content", []))
             mm = re.search(r'\[.*\]', txt, re.S)
             if not mm:
                 last = "مخرَج غير قابل للقراءة"; time.sleep(5); continue
-            arr = json.loads(mm.group(0))
+            try:
+                arr = json.loads(mm.group(0))
+            except Exception:
+                arr = salvage(mm.group(0))
+                if not arr:
+                    raise
+                log("دفعة %d: أُنقذ %d قرارًا من مخرَج مقصوص" % (n, len(arr)))
             log("دفعة %d: %d قرارًا (محاولة %d)" % (n, len(arr), attempt))
             return n, arr, ""
         except Exception as e:
@@ -437,6 +450,108 @@ for c in kept:
 
 if not out: die("لم تنجُ أي بطاقة بعد التحقق")
 
+# ---------- 4.5) منع التكرار ----------
+# العطل (٣ سبتمبر): خبر Gemini 3.8 ظهر في سبع بطاقات وفرشاة دايسون في بطاقتين.
+# النموذج كان يخترع cluster_id نصًّا حرًّا فيختلف لكل بطاقة، ودمجُه لا يتجاوز
+# تشغيلة اليوم أصلًا. هنا المفتاح يُحسب، والمقارنة تشمل ما نُشر في الأيام السابقة،
+# والمشكوك فيه وحده يُعرض على النموذج في نداء واحد.
+
+def _all_cards():
+    got = []
+    for sh in manifest.get("shards", []):
+        d = rj("%s/%s" % (DATA, sh), [])
+        if isinstance(d, list):
+            got.extend([x for x in d if isinstance(x, dict)])
+    return got
+
+_corpus = _all_cards()
+_idf = dedupe.build_idf(_corpus + out)
+
+# البطاقات المنشورة داخل نافذة الأيام، مع ملفّها كي نكتب فيه
+_cut = (NOW - datetime.timedelta(days=dedupe.WINDOW_DAYS + 1)).strftime("%Y-%m-%d")
+_shard_of, _recent = {}, []
+for _sh in manifest.get("shards", []):
+    _d = rj("%s/%s" % (DATA, _sh), [])
+    if not isinstance(_d, list):
+        continue
+    for _row in _d:
+        if isinstance(_row, dict) and (_row.get("published_at") or "")[:10] >= _cut:
+            _shard_of[id(_row)] = (_sh, _d)
+            _recent.append(_row)
+
+# كل الأزواج المرشّحة: داخل اليوم، ومع المنشور سابقًا
+_pairs = dedupe.all_pairs(out, _idf)
+_sig_new = {id(c): dedupe.signature(c) for c in out}
+_sig_old = {id(c): dedupe.signature(c) for c in _recent}
+for _a in out:
+    for _b in _recent:
+        _ok, _sc, _ = dedupe.same_event(_sig_new[id(_a)], _sig_old[id(_b)], _idf)
+        if _ok:
+            _pairs.append((_a, _b, _sc))
+
+_sure, _ask = dedupe.pairs_needing_judgment(_pairs)
+_confirmed = list(_sure)
+if _ask:
+    try:
+        _r = claude(dedupe.judge_prompt(_ask), max_tokens=1500)
+        _txt = "".join(b.get("text", "") for b in _r.get("content", []) if b.get("type") == "text")
+        _m = re.search(r"\[.*\]", _txt, re.S)
+        _confirmed += dedupe.apply_judgment(_ask, json.loads(_m.group(0)) if _m else None)
+        log("حكم التكرار: %d زوجًا قاطعًا · %d سُئل عنها · %d أُكِّدت"
+            % (len(_sure), len(_ask), len(_confirmed) - len(_sure)))
+    except Exception as _e:
+        # عند العجز لا ندمج: التكرار يُرى ويُحذف، والخبر المبتلَع لا يُعرف أنه فُقد
+        log("تعذّر حكم التكرار (%s) — أُبقيت الأزواج المشكوكة بلا دمج" % _e)
+
+_pair_new  = [(a, b) for a, b in _confirmed if id(a) in _sig_new and id(b) in _sig_new]
+_pair_old  = [(a, b) for a, b in _confirmed if id(b) in _sig_old]
+
+# أ) تكرار داخل دفعة اليوم — يبقى الأغنى معلومةً وتصير البقية مصادر تحته
+_kept, _dropped_today = [], 0
+for _g in dedupe.groups_from_pairs(out, _pair_new):
+    if len(_g) == 1:
+        _kept.append(_g[0]); continue
+    _w, _rest = dedupe.pick_winner(_g)
+    _w["also_reported"] = (_w.get("also_reported") or []) + dedupe.sources_of(_rest)
+    _dropped_today += len(_rest)
+    log("دُمج داخل اليوم: %d تحت «%s» (@%s)" % (len(_rest), _w["arabic_title"][:46], _w["author"]))
+    _kept.append(_w)
+out = _kept
+
+# ب) تكرار لخبر منشور سابقًا — لا بطاقة جديدة، بل مصدر يُضاف للقائمة
+_survivors, _touched, _merged_old = [], {}, 0
+for _c in out:
+    _hit = next((b for a, b in _pair_old if id(a) == id(_c) and id(b) in _shard_of), None)
+    if _hit is None:
+        _survivors.append(_c); continue
+    _hit["also_reported"] = (_hit.get("also_reported") or []) + dedupe.sources_of([_c])
+    _sh, _doc = _shard_of[id(_hit)]
+    _touched[_sh] = _doc
+    _merged_old += 1
+    log("تكرار لخبر منشور: «%s» (@%s) صار مصدرًا تحت %s"
+        % (_c["arabic_title"][:44], _c["author"], _hit.get("serial_display")))
+out = _survivors
+
+for _sh, _doc in _touched.items():
+    json.dump(_doc, open("%s/%s" % (DATA, _sh), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+# ج) الأرقام التسلسلية تُعاد بعد الحذف كي لا تبقى فجوات
+serial = int(state.get("max_serial", 0))
+for _c in out:
+    serial += 1
+    _c["id"] = "c%03d" % serial
+    _c["serial"] = serial
+    _c["serial_display"] = "#%06d" % serial
+
+dup_merged += _dropped_today + _merged_old
+REPORT["deduped_today"] = _dropped_today
+REPORT["deduped_previous_days"] = _merged_old
+log("منع التكرار: %d داخل اليوم · %d مع أيام سابقة · بقي %d بطاقة"
+    % (_dropped_today, _merged_old, len(out)))
+
+if not out:
+    log("كل بطاقات اليوم كانت تكرارًا لأخبار منشورة — لا جديد يُكتب")
+
 # ---------- 5) الكتابة ----------
 day   = NOW.strftime("%Y-%m-%d")
 shard = "%s.json" % day
@@ -453,9 +568,16 @@ st["window"] = "آخر %d ساعة" % WINDOW_HOURS
 json.dump(manifest, open(f"{DATA}/manifest.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 state["max_serial"] = serial
-ids_today = [c["id"] for c in cands]
+# ما فشلت دفعته لا يُسجَّل مقروءًا، فيُقرأ غدًا بدل أن يضيع بلا أثر.
+# العطل: كل منشورات الدفعة الفاشلة كانت تُوسم «مقروءة» فلا تعود أبدًا —
+# صمتٌ كامل: لا بطاقة ولا رسالة (تقريرا 1 و3 سبتمبر، ≈20 منشورًا لكل دفعة).
+_undecided = [c["id"] for c in cands if c["id"] not in decisions]
+ids_today = [c["id"] for c in cands if c["id"] in decisions]
+if _undecided:
+    log("لم يُصنَّف %d منشورًا — تُركت غير مقروءة لتُقرأ غدًا" % len(_undecided))
+    REPORT["undecided"] = len(_undecided)
 state["recent_ids"] = sorted(set(list(recent) + ids_today))[-4000:]
-for c in cands:
+for c in [x for x in cands if x["id"] in decisions]:
     prevlast = state.setdefault("last_id_per_account", {}).get(c["handle"], "")
     if not prevlast or c["id"] > prevlast:
         state["last_id_per_account"][c["handle"]] = c["id"]
