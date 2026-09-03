@@ -1,0 +1,123 @@
+name: backfill
+
+# سحب تاريخي عند الطلب لحسابٍ متابَع أصلًا.
+#
+# لماذا هذا منفصل عن account.yml: ذاك يُشغَّل عند إضافة حساب جديد فقط، ويسحب
+# لما كتبه add_account.py في new_handles.txt — فالحساب الموجود في accounts.json
+# لا يمرّ به أبدًا. وكان السحب التاريخي لحسابٍ قائم يتطلّب حذفه ثم إعادة إضافته،
+# وهو التفافٌ يفقد تاريخه ويخالف قاعدة «الإيقاف لا الحذف».
+#
+# السكربت نفسه (backfill_account.py) بلا تعديل — الاختلاف في المُشغِّل فقط.
+
+on:
+  workflow_dispatch:
+    inputs:
+      handle:
+        description: 'المعرّف بلا @ — مثل SamiBizConsult'
+        required: true
+        type: string
+      days:
+        description: 'كم يومًا إلى الوراء'
+        required: false
+        default: '60'
+        type: string
+      max_cards:
+        description: 'سقف البطاقات — حماية تكلفة'
+        required: false
+        default: '60'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-write        # لا يتزامن مع daily أو account على data/
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: التحقق أن الحساب متابَع
+        run: |
+          python - "${{ inputs.handle }}" <<'PY'
+          import json, sys
+          h = sys.argv[1].lstrip('@').lower()
+          accs = json.load(open('accounts.json', encoding='utf-8'))['accounts']
+          hit = next((a for a in accs if a['handle'].lower() == h), None)
+          if not hit:
+              print("::error::@%s ليس في accounts.json. أضِفه أولًا بطلب `حساب:` "
+                    "كي لا يدخل تاريخٌ لحسابٍ لا يُسحب يوميًا." % sys.argv[1])
+              sys.exit(1)
+          if not hit.get('active', True):
+              print("::warning::@%s متوقّف — سيُسحب تاريخه ولن يُسحب يوميًا." % hit['handle'])
+          print("✓ @%s متابَع" % hit['handle'])
+          PY
+
+      - name: السحب التاريخي
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_TOKEN:       ${{ secrets.APIFY_TOKEN }}
+          CLAUDE_MODEL:      ${{ vars.CLAUDE_MODEL }}
+          BF_HANDLE:         ${{ inputs.handle }}
+          BF_DAYS:           ${{ inputs.days }}
+          BF_MAX_CARDS:      ${{ inputs.max_cards }}
+          BF_DROP_RT:        ${{ vars.BF_DROP_RT || '1' }}
+        run: python .github/scripts/backfill_account.py
+
+      - name: الملخّص
+        if: always()
+        run: |
+          if [ ! -f bf_report.json ]; then
+            echo "لم يُنتج السحب تقريرًا — راجع السجل أعلاه." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          python - "${{ inputs.handle }}" <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, sys, collections
+          h = sys.argv[1]
+          r = json.load(open('bf_report.json'))
+          print("## @%s — آخر %s يومًا\n" % (h, r.get('days')))
+          print("سُحب %d · مرشحون %d · قُرئ %d · **بطاقات %d** · $%.3f\n"
+                % (r.get('pulled',0), r.get('candidates',0), r.get('read',0),
+                   r.get('accepted',0), r.get('cost_estimate_usd',0)))
+          d = r.get('dropped') or {}
+          if d:
+              print("أُسقط: " + " · ".join("%s %d" % (k,v) for k,v in d.items()) + "\n")
+          # توزيع المحور الحاكم — يُقرأ من الشارد نفسه
+          import glob, os
+          p = "data/backfill-%s.json" % h.lower()
+          if os.path.exists(p):
+              cards = json.load(open(p, encoding='utf-8'))
+              t = collections.Counter(c.get('audience_topic') or '(بلا موضوع)' for c in cards)
+              print("### الموضوع\n")
+              print("| الدرجة | بطاقات |")
+              print("|---|---|")
+              for k, v in t.most_common():
+                  print("| %s | %d |" % (k, v))
+              print("")
+          for t_ in (r.get('titles') or []):
+              print("- `%s` [%s](%s)" % (t_['serial'], t_['title'], t_['url']))
+          PY
+
+      - name: حفظ البطاقات
+        run: |
+          git config user.name  "ai-intel-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "لا بطاقات جديدة — لا شيء يُحفظ"; exit 0
+          fi
+          git commit -m "backfill: سحب تاريخي لـ @${{ inputs.handle }} (${{ inputs.days }} يومًا)"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then ok=1; break; fi
+            sleep 5
+          done
+          [ "$ok" = 1 ] || { echo "::error::فشل الدفع بعد ٣ محاولات"; exit 1; }

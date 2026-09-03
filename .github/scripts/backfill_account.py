@@ -72,6 +72,11 @@ TAX = {
  "domains": ['برمجة وهندسة','أعمال وإدارة','تصميم وواجهات','تسويق ومحتوى','نماذج وLLM',
    'بيانات وتحليلات','بحث وتعليم','إنتاجية شخصية','فيديو وصوت','أمن سيبراني',
    'روبوتات وعتاد','صحة','إسلامي'],
+ "audience_topics": ['سكيل','أداة يستعملها','بنية الوكلاء','نموذج','عالم AI عام','خارج الاهتمام'],
+ "user_tools": ['ChatGPT','OpenAI','Codex','Sora','Claude','Claude Code','Cowork','Anthropic',
+   'Gemini','Google AI Studio','AI Studio','NotebookLM','GitHub','Cursor','Vercel','Ollama',
+   'Netlify','Apify','Chrome','Google Docs','Google Drive','Gmail','Trello','WordPress',
+   'Chatbase','المكتبة الشاملة'],
  "change_types": ['New Release','New Feature','Upgrade','Update','Model Update','API Update',
    'Pricing Change','New Integration','MCP Support','New Agent Feature','Beta / Preview',
    'General Availability','Deprecation','Shutdown','Research Release','Open Source','Acquisition',
@@ -224,11 +229,33 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
  "arabic_title":"عنوان محدّد 6-14 كلمة","arabic_summary":"2-4 جمل لغير المختص",
  "why_it_matters":"جملة أو جملتان عن الأثر الحقيقي",
  "detailed_explanation":"شرح موسّع بفقرات مفصولة بسطرين — إلزامي إن كان التصنيف important",
+ "audience_topic":"واحد فقط — انظر المحور الحاكم أدناه",
  "content_type":"واحد فقط","tool_types":[],"domains":[],"entities":[],"change_types":[],
  "importance_tier":"important|useful","glossary":[{"term":"","ar":""}]}
 حين keep=false اكتف بـ id و keep و reason.
 
-## التصنيف — ثلاثة محاور، والإفراط في الوسم خطأ
+## التصنيف — المحور الحاكم أولًا
+**`audience_topic`: قيمة واحدة، وهي أهمّ حقل في البطاقة.**
+اللوحة تخصّ عزيز لا عموم القرّاء، فالسؤال ليس «كم يهمّ هذا الخبرُ العالم؟»
+بل **«هل يمسّ هذا عملَ عزيز؟»**. اختر **أعلى درجة تنطبق** لا أوسعها:
+
+1. **سكيل** — ملفات Skills: بناؤها · عيوبها · إصداراتها · أدلّتها. أولويته الأولى،
+   ولو جاءت في صورة دراسة أو رأي. «دراسة: ٩١٫٨٪ من ملفات Skills فيها عيوب» = سكيل.
+2. **أداة يستعملها** — الأداة من القائمة المعتمدة أدناه، والخبر يمسّها هي:
+   ميزة · تسعير · حدّ استخدام · تعطّل · ثغرة أمنية · طريقة استعمال.
+3. **بنية الوكلاء** — MCP أو Agent أو Plugin بوصفها بنيةً، لا أداةً بعينها.
+4. **نموذج** — إصدار نموذج أو قياس قدراته، ولا يقع فيما فوقه.
+5. **عالم AI عام** — يهمّ عمومًا ولا يمسّ عمله: أبحاث بعيدة · روبوتات ·
+   عتاد · أثر مجتمعي · أخبار شركات لا يستعملها.
+6. **خارج الاهتمام** — استحواذ · تمويل · تقييم شركات · أسهم · اكتتاب · دعاوى ·
+   تعيينات · صراعات شركات. **ويُستثنى فيرتفع:** التسعير · الإيقاف والتعطّل ·
+   أمن أداةٍ يستعملها. «Anthropic تُقيَّم بتريليونين» = خارج الاهتمام،
+   و«ثغرة في Claude Code» = أداة يستعملها.
+
+**الفرق بين ١ و٢ حين يجتمعان:** «Skill جديد لـ Claude» = سكيل (الأعلى يفوز).
+**والشكل لا يقرّر الدرجة:** الدرجة موضوعٌ لا صيغة.
+
+## بقية المحاور — والإفراط في الوسم خطأ
 **نوع المحتوى: واحد فقط.** إن أعلن المنشور شيئًا جديدًا فهو «إصدار» لا «خبر».
 إن كان جوهره تعليم القارئ كيف يفعل شيئًا فهو «شرح» لا «أداة». «خبر» للسوق:
 استحواذ · تمويل · سياسة · تعطّل.
@@ -243,7 +270,9 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
 **القاعدة الحاكمة: الوسم الذي لا يمكن الدفاع عنه من نص المنشور لا يوضع.**
 
 ## القوائم المعتمدة (لا تخرج عنها إطلاقًا)
-""" % DAYS + ("content_type (واحد): " + json.dumps(TAX['content_types'], ensure_ascii=False) + "\n"
+""" % DAYS + ("audience_topic (واحد): " + json.dumps(TAX['audience_topics'], ensure_ascii=False) + "\n"
+     + "أدوات عزيز (لدرجة «أداة يستعملها»): " + json.dumps(TAX['user_tools'], ensure_ascii=False) + "\n"
+     + "content_type (واحد): " + json.dumps(TAX['content_types'], ensure_ascii=False) + "\n"
      + "tool_types (0-2): "     + json.dumps(TAX['tool_types'],    ensure_ascii=False) + "\n"
      + "domains (1-2): "        + json.dumps(TAX['domains'],       ensure_ascii=False) + "\n"
      + "change_types: "         + json.dumps(TAX['change_types'],  ensure_ascii=False) + "\n")
@@ -330,6 +359,13 @@ for c in kept:
     tl  = clean(d.get("tool_types"), TAX["tool_types"])[:2]
     dom = clean(d.get("domains"),    TAX["domains"])[:2]
     chg = clean(d.get("change_types"), TAX["change_types"])
+    # المحور الحاكم — نفس السقوط الآمن في daily_pull: الردّ الشاذّ يهبط إلى
+    # «عالم AI عام» لا إلى فراغ، والحقل الفارغ يُسقط البطاقة من فلاتر المحور.
+    _top = (d.get("audience_topic") or "").strip()
+    if _top not in TAX["audience_topics"]:
+        if _top: log("تنبيه: audience_topic غير معتمد (%s) في %s — رُدّ إلى «عالم AI عام»" % (_top, c["id"]))
+        else:    log("تنبيه: بطاقة بلا audience_topic (%s) — رُدّت إلى «عالم AI عام»" % c["id"])
+        _top = "عالم AI عام"
     if not dom:
         log("تنبيه: بطاقة بلا مجال معتمد (%s) — تُترك بلا مجال بدل التخمين" % c["id"])
     tier = d.get("importance_tier") if d.get("importance_tier") in ("important","useful") else "useful"
@@ -350,6 +386,7 @@ for c in kept:
       "why_it_matters": d.get("why_it_matters") or "",
       "original_text": c["text"][:1200],
       "glossary": [g for g in (d.get("glossary") or []) if isinstance(g, dict) and g.get("term")],
+      "audience_topic": _top,
       "content_types": ct, "tool_types": tl, "domains": dom,
       "entities": d.get("entities") or [], "change_types": chg,
       "importance_tier": tier, "importance_score": 88 if tier == "important" else 62,
