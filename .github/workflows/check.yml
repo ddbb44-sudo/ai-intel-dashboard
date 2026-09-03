@@ -59,6 +59,9 @@ jobs:
       - name: تطابق daily_pull و backfill_account
         run: python .github/scripts/test_parity.py
 
+      - name: تطابق accounts.json و authors.json
+        run: python .github/scripts/sync_account_types.py --check
+
       - name: قواعد التصميم
         run: python .github/scripts/lint_design.py
 

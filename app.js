@@ -774,13 +774,19 @@ function viewAccounts(keepFocus){
 const TOOL_CORE = ['Skill','MCP','Agent','Plugin','API/SDK'];
 const TOOL_SOFT = ['Prompt','تطبيق','نموذج'];
 let RSORT = 'tools';
+/* نوع الحساب محورٌ يصفّي فوق الأوزان لا بديلًا عنها: النوع يقرّر مَن يظهر،
+   والدرجة المركّبة ترتّب مَن بقي. و«العرب» علَمٌ مستقل يتقاطع مع الثلاثة
+   الباقية لأن العروبة صفة لغةٍ لا مهنة — فالعربي التقني يظهر تحت الزرّين. */
+let RTYPE = '';   // '' = الكل · 'عرب' · أو إحدى قيم account_type
 
 function accountStats(){
   const by = {};
   Store.all().forEach(i => {
     const h = i.author; if(!h) return;
+    const a0 = Store.author(h);
     const s = by[h] || (by[h] = {handle:h, cards:0, core:0, soft:0, byType:{}, imp:0, impN:0,
-                                 days:new Set(), last:'', doms:{}, mine:0});
+                                 days:new Set(), last:'', doms:{}, mine:0,
+                                 type:a0.account_type || 'أخرى', arab:!!a0.is_arab});
     s.cards++;
     let isCore = false, isSoft = false;
     (i.tool_types||[]).forEach(t => {
@@ -816,6 +822,7 @@ function accountStats(){
 }
 
 function rsort(k){ RSORT = k; viewReport(); }
+function rtype(k){ RTYPE = (RTYPE === k) ? '' : k; viewReport(); }
 
 function stopAccount(h){
   /* بلا وسم: workflow إضافة الحسابات يلتقط أي طلب وسمه يحتوي «account»،
@@ -835,11 +842,14 @@ function viewReport(){
     quality:(a,b) => b.quality - a.quality || b.score - a.score,
     recent: (a,b) => (b.last||'').localeCompare(a.last||'')
   }[RSORT];
-  const ranked = rows.slice().sort(cmp);
+  const inType = r => !RTYPE || (RTYPE === 'عرب' ? r.arab : r.type === RTYPE);
+  const ranked = rows.filter(inType).sort(cmp);
   const useful = ranked.filter(r => r.toolW > 0);
   const barren = ranked.filter(r => r.toolW === 0).sort((a,b) => b.cards - a.cards);
   const totCore = rows.reduce((a,r) => a + r.core, 0);
   const sortBtn = (k,l) => `<button class="rpsortb${RSORT===k?' on':''}" onclick="rsort('${k}')">${l}</button>`;
+  const nType = k => rows.filter(r => k === 'عرب' ? r.arab : r.type === k).length;
+  const typeBtn = (k,l) => { const n = nType(k); return n ? `<button class="rptypeb${RTYPE===k?' on':''}" onclick="rtype('${k}')">${l}<b>${n}</b></button>` : ''; };
 
   const chip = (t,n) => `<span class="rpchip${TOOL_CORE.includes(t)?' core':''}">${esc(t)} <b>${n}</b></span>`;
   const row = (r,ix) => {
@@ -852,7 +862,7 @@ function viewReport(){
       <div class="rpmain">
         <div class="rpname" onclick="go('#/u/${encodeURIComponent(r.handle)}')">
           ${esc(a.name||r.handle)} <span class="rphandle">@${esc(r.handle)}</span></div>
-        <div class="rpchips">${types.length ? types.map(([t,n]) => chip(t,n)).join('')
+        <div class="rpchips"><span class="rptag">${esc(r.type)}${r.arab?' · عربي':''}</span>${types.length ? types.map(([t,n]) => chip(t,n)).join('')
             : '<span class="rpchip zero">لا بطاقة أداة</span>'}</div>
         <div class="rpmeta">
           <span><b class="num">${r.cards}</b> بطاقة</span>
@@ -878,9 +888,13 @@ function viewReport(){
     <div class="backbar"><button class="backbtn" onclick="go('#/accounts')">→ رجوع إلى المتابَعين</button></div>
     <div class="acchead">
       <h2>تقرير الحسابات</h2>
-      <div class="accsub"><b class="num">${rows.length}</b> حسابًا له بطاقات ·
+      <div class="accsub"><b class="num">${ranked.length}</b> حسابًا${RTYPE?' في هذا النوع':' له بطاقات'} ·
         <b class="num">${useful.length}</b> منها أنتج أدوات ·
         <b class="num">${totCore}</b> بطاقة أداة (Skill · MCP · Agent · Plugin · API)</div>
+      <div class="rptypes">
+        <button class="rptypeb${RTYPE?'':' on'}" onclick="rtype('')">الكل<b>${rows.length}</b></button>
+        ${typeBtn('عرب','العرب')}${typeBtn('شركة','الشركات')}${typeBtn('تقني','التقنيون')}${typeBtn('عامل في شركة','العاملون في الشركات')}${typeBtn('أخرى','أخرى')}
+      </div>
       <div class="rpsort">رتّب بـ ${sortBtn('tools','الأدوات')}${sortBtn('cards','العدد')}${sortBtn('quality','الجودة')}${sortBtn('recent','الأحدث')}</div>
       <div class="accnote">الدرجة = حجم الأدوات ٤٥٪ · تركيزها ٢٠٪ · جودتها ٢٠٪ · الاستمرارية ١٠٪ · ذوقك ٥٪ —
         مرّر فوق الدرجة لترى مكوّناتها. «أوقف السحب» يوقف اليومي فقط ولا يحذف بطاقة.</div>

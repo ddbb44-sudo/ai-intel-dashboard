@@ -439,6 +439,19 @@ button.go.danger:hover{background:#8f1d17}
 
 /* تقرير الحسابات */
 .accrepbtn{margin:12px 0 4px}
+/* شريط نوع الحساب — يصفّي، بخلاف .rpsort الذي يرتّب. لذلك أثقل بصريًّا:
+   حدٌّ أوضح وعدّادٌ داخل الزر، كي يُقرأ الفرق بين «مَن يظهر» و«بأي ترتيب». */
+.rptypes{margin:14px 0 4px;display:flex;gap:6px;flex-wrap:wrap}
+.rptypeb{border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);
+  font:inherit;font-size:12.5px;padding:5px 11px;border-radius:999px;display:inline-flex;
+  align-items:center;gap:6px;transition:.14s;white-space:nowrap}
+.rptypeb:hover{border-color:var(--accent);color:var(--ink)}
+.rptypeb b{font-family:inherit;font-size:11px;font-weight:600;color:var(--faint);
+  background:var(--surface-2);border-radius:999px;padding:1px 6px;min-width:20px;text-align:center}
+.rptypeb.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.rptypeb.on b{background:rgba(255,255,255,.22);color:#fff}
+.rptag{font-size:11.5px;padding:2.5px 8px;border-radius:999px;border:1px solid var(--line-2);
+  background:var(--surface-2);color:var(--muted);white-space:nowrap}
 .rpsort{margin:12px 0 2px;font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .rpsortb{border:1px solid var(--line);background:var(--card);color:var(--muted);
   border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer}
@@ -555,7 +568,7 @@ button.go.danger:hover{background:#8f1d17}
       window.__RAW = { items: items, authors: authors, stats: man.stats };
       var b = document.getElementById('boot'); if(b) b.remove();
       var s = document.createElement('script');
-      s.src = 'app.js?v=cf253a2179';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
+      s.src = 'app.js?v=9f8712bc47';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
       s.onerror = function(){ fail('\u062a\u0639\u0630\u0651\u0631 \u062a\u062d\u0645\u064a\u0644 app.js'); };
       document.body.appendChild(s);
       console.log('[dash] ' + items.length + ' cards in ' + (Date.now() - T0) + 'ms');

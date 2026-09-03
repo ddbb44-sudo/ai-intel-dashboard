@@ -7,373 +7,517 @@
   "name": "الاسم الظاهر (اختياري — يُملأ آليًا)",
   "active": "true يُسحب يوميًا · false يُتجاهل",
   "max_per_day": "حد أقصى للمنشورات المسحوبة من هذا الحساب يوميًا (افتراضي 25)",
-  "note": "ملاحظتك الخاصة (اختياري)"
+  "note": "ملاحظتك الخاصة (اختياري)",
+  "account_type": "نوع الحساب: شركة · تقني · عامل في شركة · أخرى (قيمة واحدة)",
+  "is_arab": "true إن كان الحساب عربيًّا — علَم مستقل يتقاطع مع النوع"
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-03T17:13:40Z",
+ "updated": "2026-09-03T20:17:53Z",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
    "name": "Open Design",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "Wa7d_ai",
    "name": "مجتمع واحد",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "yousefrol",
    "name": "Yousef Rol",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "itsPaulAi",
    "name": "Paul Couvert",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "JeremyNguyenPhD",
    "name": "Jeremy Nguyen",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "CodeByPoonam",
    "name": "Poonam Soni",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": false
   },
   {
    "handle": "SultanAlsafran",
    "name": "سلطان آل سفران",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "almarzouq783",
    "name": "عبدالله آل مرزوق",
    "active": false,
-   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً"
+   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً",
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "dr_cintas",
    "name": "Alvaro Cintas",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "altmemy199",
    "name": "التميمي",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "python_ar",
    "name": "مجتمع بايثون العربي",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "DsHodifa",
    "name": "حذيفة — عالِم بيانات",
    "active": false,
-   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً"
+   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً",
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "mckaywrigley",
    "name": "Mckay Wrigley",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "the_cyw",
    "name": "Peter Wang",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "smalkalbani",
    "name": "سعيد الكلباني",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "Al_3sli",
    "name": "Taha Alasli",
    "active": false,
-   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً"
+   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً",
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "almatrafi_dev",
    "name": "علي المطرفي",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "madebymouath",
    "name": "معاذ — بيانات وذكاء اصطناعي",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "Abdullah4AI",
    "name": "عبدالله الرشودي",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "trq212",
    "name": "Thariq",
-   "active": true
+   "active": true,
+   "account_type": "عامل في شركة",
+   "is_arab": false
   },
   {
    "handle": "qunaieer",
    "name": "فارس القنيعير",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "SultanAlFardan",
    "name": "سلطان الفردان",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "Dr_Hmood",
    "name": "حمود الدوسري",
-   "active": false
+   "active": false,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "muath2",
    "name": "معاذ الخلف",
    "active": false,
-   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً"
+   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً",
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "joshwoodward",
    "name": "Josh Woodward",
-   "active": true
+   "active": true,
+   "account_type": "عامل في شركة",
+   "is_arab": false
   },
   {
    "handle": "Saud_Omar",
    "name": "سعود العمر",
    "active": false,
-   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً"
+   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً",
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "alashalash",
    "name": "عبدالسلام الشلاش",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "Malaz_Madani",
    "name": "Malaz Madani",
-   "active": false
+   "active": false,
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "addyosmani",
    "name": "Addy Osmani",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "karpathy",
    "name": "Andrej Karpathy",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "Abdulaziz_Hmadi",
    "name": "عبدالعزيز الحمادي",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "falhazmiai",
    "name": "فهد الحازمي",
-   "active": false
+   "active": false,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "w2me",
    "name": "سامي الحصيّن",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "mznmel",
    "name": "mazen",
-   "active": false
+   "active": false,
+   "account_type": "تقني",
+   "is_arab": true
   },
   {
    "handle": "rileybrown",
    "name": "Riley Brown",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "itsolelehmann",
    "name": "Ole Lehmann",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": false
   },
   {
    "handle": "emilkowalski",
    "name": "Emil Kowalski",
-   "active": true
+   "active": true,
+   "account_type": "عامل في شركة",
+   "is_arab": false
   },
   {
    "handle": "JayAlammar",
    "name": "Jay Alammar",
    "active": false,
-   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً"
+   "note": "أُوقف ٣ سبتمبر ٢٠٢٦ — صفر بطاقة في ٨٧ يوماً",
+   "account_type": "عامل في شركة",
+   "is_arab": true
   },
   {
    "handle": "mattpocockuk",
    "name": "Matt Pocock",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "emollick",
    "name": "Ethan Mollick",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   },
   {
    "handle": "shadcn",
    "name": "shadcn",
-   "active": true
+   "active": true,
+   "account_type": "عامل في شركة",
+   "is_arab": false
   },
   {
    "handle": "danshipper",
    "name": "Dan Shipper",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": false
   },
   {
    "handle": "OpenAI",
    "name": "OpenAI",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "OpenAIDevs",
    "name": "OpenAI Developers",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "AnthropicAI",
    "name": "Anthropic",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "claudeai",
    "name": "Claude",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "GoogleAI",
    "name": "Google AI",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "GeminiApp",
    "name": "Google Gemini",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "GoogleAIStudio",
    "name": "Google AI Studio",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "GoogleLabs",
    "name": "Google Labs",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "GoogleDeepMind",
    "name": "Google DeepMind",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "AIatMeta",
    "name": "AI at Meta",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "perplexity_ai",
    "name": "Perplexity",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "SpaceXAI",
    "name": "SpaceXAI",
    "active": true,
-   "note": "تحوّل @xai إلى @SpaceXAI — صُحّح ٣ سبتمبر ٢٠٢٦"
+   "note": "تحوّل @xai إلى @SpaceXAI — صُحّح ٣ سبتمبر ٢٠٢٦",
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "grok",
    "name": "Grok",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "cursor_ai",
    "name": "Cursor",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "github",
    "name": "GitHub",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "huggingface",
    "name": "Hugging Face",
-   "active": false
+   "active": false,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "vercel",
    "name": "Vercel",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "MistralAI",
    "name": "Mistral AI",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "nvidia",
    "name": "NVIDIA",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "ollama",
    "name": "Ollama",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "runwayml",
    "name": "Runway",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "midjourney",
    "name": "Midjourney",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "deepseek_ai",
    "name": "DeepSeek",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "Alibaba_Qwen",
    "name": "Qwen",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "LangChain",
    "name": "LangChain",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "ElevenLabs",
    "name": "ElevenLabs",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "Kimi_Moonshot",
    "name": "Kimi.ai",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   },
   {
    "handle": "BadwiNew",
    "name": "Badwi",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": true
   },
   {
    "handle": "SamiBizConsult",
    "name": "سامي المحيميد | مستشار تطوير أعمال",
-   "active": true
+   "active": true,
+   "account_type": "أخرى",
+   "is_arab": true
   }
  ]
 }
