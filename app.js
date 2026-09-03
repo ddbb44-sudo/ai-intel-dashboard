@@ -186,6 +186,10 @@ const CHG_GROUPS = {
 const CHG_OF = (() => { const m={}; for(const g in CHG_GROUPS) CHG_GROUPS[g].forEach(v => m[v]=g); return m; })();
 const chgGroupsOf = card => [...new Set((card.change_types||[]).map(x => CHG_OF[x] || x))];
 
+/* محور الموضوع — يُعرض بترتيب الأولوية لا بالعدد، لأن الترتيب نفسه معلومة.
+   البطاقات المكتوبة قبل ٣ سبتمبر ٢٠٢٦ بلا هذا الحقل حتى تُعاد وسمها. */
+const TOPICS = ['سكيل','أداة يستعملها','بنية الوكلاء','نموذج','عالم AI عام','خارج الاهتمام'];
+
 const DECLARED = {
   content_types: ['إصدار','أداة','شرح','تجربة','بحث وقياس','رأي','خبر'],
   tool_types: ['MCP','Skill','Agent','Plugin','Prompt','API/SDK','تطبيق','نموذج'],
@@ -195,7 +199,9 @@ const DECLARED = {
   change_types: Object.keys(CHG_GROUPS)
 };
 const Taxonomy = (() => {
-  const valsOf = (i,key) => key==='change_types' ? chgGroupsOf(i) : (i[key]||[]);
+  const valsOf = (i,key) => key==='change_types' ? chgGroupsOf(i)
+                          : key==='audience_topic' ? (i.audience_topic ? [i.audience_topic] : [])
+                          : (i[key]||[]);
   const countMap = key => { const m={}; Store.all().forEach(i => valsOf(i,key).forEach(x => m[x]=(m[x]||0)+1)); return m; };
   const merge = (key, pinned) => {
     const m = countMap(key);
@@ -225,17 +231,19 @@ const Taxonomy = (() => {
     tool_types: merge('tool_types'),
     domains: merge('domains'),
     change_types: merge('change_types'),   /* مجموعات لا قيمًا مفردة */
+    audience_topics: (() => { const m = countMap('audience_topic');
+      return TOPICS.map(t => [t, m[t]||0, false]); })(),
     entities: Object.entries(entM).sort((a,b)=>b[1]-a[1]).map(([t,n])=>[t,n,false])
   };
 })();
 
 /* ---------- 5) FILTER ENGINE ---------- */
-const ZOPEN = { ct:false, tool:false, dom:false, chg:false, ent:false };
+const ZOPEN = { ct:false, tool:false, dom:false, chg:false, ent:false, top:false };
 /* أقل عدد بطاقات يُظهر الفلتر في الشريط. الكيانات ٣٢١ قيمة، ٧٠٪ منها ظهر مرة
    واحدة — والقيمة اليتيمة ليست فلترًا. ما دونها يبقى في البطاقة وفي البحث
    النصي، ويُعرض خلف زر «إظهار». (٣ سبتمبر ٢٠٢٦) */
 const FMIN = { ent: 3 };
-const F = { q:'', ct:[], tool:[], dom:[], ent:[], chg:[], src:[], lang:'', tier:'useful+', pref:[], coll:'', from:'', to:'', time:'', sort:'smart' };
+const F = { q:'', top:[], ct:[], tool:[], dom:[], ent:[], chg:[], src:[], lang:'', tier:'useful+', pref:[], coll:'', from:'', to:'', time:'', sort:'smart' };
 
 const FilterEngine = {
   apply(items){
@@ -247,6 +255,7 @@ const FilterEngine = {
       if (F.lang==='ar' && !i.is_arabic_source) return false;
       if (F.lang==='fr' && i.is_arabic_source) return false;
       if (F.src.length && !F.src.includes(i.source_type)) return false;
+      if (F.top.length && !F.top.includes(i.audience_topic)) return false;
       if (F.ct.length  && !F.ct.some(x => i.content_types.includes(x))) return false;
       if (F.tool.length && !F.tool.some(x => (i.tool_types||[]).includes(x))) return false;
       if (F.dom.length && !F.dom.some(x => i.domains.includes(x))) return false;
@@ -264,7 +273,7 @@ const FilterEngine = {
       if (F.to && t > new Date(F.to).getTime()+864e5) return false;
       if (q){
         const hay = (i.arabic_title+' '+i.arabic_summary+' '+i.detailed_explanation+' '+i.original_text+' '+
-          i.content_types.join(' ')+' '+(i.tool_types||[]).join(' ')+' '+i.domains.join(' ')+' '+i.entities.join(' ')+' '+i.change_types.join(' ')+' '+
+          (i.audience_topic||'')+' '+i.content_types.join(' ')+' '+(i.tool_types||[]).join(' ')+' '+i.domains.join(' ')+' '+i.entities.join(' ')+' '+i.change_types.join(' ')+' '+
           i.author+' '+(Store.author(i.author).name||'')).toLowerCase();
         if (!hay.includes(q)) return false;
       }
@@ -459,6 +468,7 @@ function filtersHTML(){
   ${(F.from||F.to)?`<button class="more" onclick="setRange('clear')">مسح المدى الزمني</button>`:''}
   </div>
   ${grp('طبيعة التغيير','chg',Taxonomy.change_types)}
+  ${Taxonomy.audience_topics.some(r=>r[1]>0) ? grp('الموضوع','top',Taxonomy.audience_topics) : ''}
   ${grp('الشركة / المنتج','ent',Taxonomy.entities)}
   ${grp('نوع المحتوى','ct',Taxonomy.content_types_ordered)}
   ${grp('نوع الأداة','tool',Taxonomy.tool_types)}
@@ -921,7 +931,7 @@ function setColl(c){ F.coll = F.coll===c?'':c; refilter(); }
 function showRest(id,btn){ document.getElementById(id+'_rest').style.display='contents'; btn.remove(); }
 function toggleZero(k){ ZOPEN[k]=!ZOPEN[k]; document.getElementById('filters').innerHTML = filtersHTML(); }
 function tagClick(e,k,v){ e.stopPropagation(); if(!F[k].includes(v)) F[k].push(v); if(location.hash!=='#/') go('#/'); else refilter(); }
-function resetAll(){ Object.assign(F,{q:'',ct:[],tool:[],dom:[],ent:[],chg:[],src:[],lang:'',tier:'useful+',pref:[],coll:'',from:'',to:'',time:'',sort:'smart'}); document.getElementById('q').value=''; refilter(); }
+function resetAll(){ Object.assign(F,{q:'',top:[],ct:[],tool:[],dom:[],ent:[],chg:[],src:[],lang:'',tier:'useful+',pref:[],coll:'',from:'',to:'',time:'',sort:'smart'}); document.getElementById('q').value=''; refilter(); }
 function copySerial(s){ navigator.clipboard?.writeText(s); toast('نُسخ رقم البطاقة '+s); }
 function toggleLike(id,btn){
   const on = Prefs.toggleLike(id);
@@ -1222,7 +1232,7 @@ function unbmFromTray(id,coll){
 }
 function showOnly(kind){
   closeTray();
-  Object.assign(F,{q:'',ct:[],tool:[],dom:[],ent:[],chg:[],lang:'',tier:'all',pref:[kind==='liked'?'liked':'bookmarked'],coll:'',from:'',to:'',time:''});
+  Object.assign(F,{q:'',top:[],ct:[],tool:[],dom:[],ent:[],chg:[],lang:'',tier:'all',pref:[kind==='liked'?'liked':'bookmarked'],coll:'',from:'',to:'',time:''});
   document.getElementById('q').value='';
   if((location.hash||'#/')!=='#/') location.hash='#/'; else render();
 }
