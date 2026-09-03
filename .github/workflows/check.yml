@@ -56,6 +56,9 @@ jobs:
       - name: إنقاذ مخرَج التصنيف المقصوص (٦ اختبارات)
         run: python .github/scripts/test_jsontools.py
 
+      - name: تطابق daily_pull و backfill_account
+        run: python .github/scripts/test_parity.py
+
       - name: قواعد التصميم
         run: python .github/scripts/lint_design.py
 

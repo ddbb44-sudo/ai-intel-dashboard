@@ -16,6 +16,8 @@
 """
 import json, os, re, sys, time, datetime, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from jsontools import salvage
 
 def envs(name, default):
     v = os.environ.get(name)
@@ -309,12 +311,22 @@ def run_batch(args):
     last = ""
     for attempt in (1, 2):
         try:
-            resp = claude(prompt)
+            # السقف الافتراضي 8000 يقصّ المخرَج في منتصف JSON: عشرون بطاقة
+            # بشرح موسّع تتجاوزه بسهولة. أُصلح هذا في daily_pull ولم يُنقل هنا،
+            # فأخفقت تشغيلة ٣ سبتمبر بسبعِ دفعات كلها «Expecting , delimiter»
+            # عند ~13000 حرف — قصٌّ لا عطل نموذج. والصفر خرج بتشغيلة خضراء.
+            resp = claude(prompt, max_tokens=24000)
             txt = "".join(b.get("text", "") for b in resp.get("content", []))
             mm = re.search(r'\[.*\]', txt, re.S)
             if not mm:
                 last = "مخرَج غير قابل للقراءة"; time.sleep(5); continue
-            arr = json.loads(mm.group(0))
+            try:
+                arr = json.loads(mm.group(0))
+            except Exception:
+                arr = salvage(mm.group(0))
+                if not arr:
+                    raise
+                log("دفعة %d: أُنقذ %d قرارًا من مخرَج مقصوص" % (n, len(arr)))
             log("دفعة %d: %d قرارًا (محاولة %d)" % (n, len(arr), attempt))
             return n, arr, ""
         except Exception as e:
