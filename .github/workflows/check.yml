@@ -50,6 +50,12 @@ jobs:
       - name: منطق حفظ التفضيلات (٩ اختبارات)
         run: node sync/tests/test_state.mjs
 
+      - name: منع تكرار الأخبار (١٥ اختبارًا)
+        run: python .github/scripts/test_dedupe.py
+
+      - name: إنقاذ مخرَج التصنيف المقصوص (٦ اختبارات)
+        run: python .github/scripts/test_jsontools.py
+
       - name: قواعد التصميم
         run: python .github/scripts/lint_design.py
 
