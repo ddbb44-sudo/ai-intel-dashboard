@@ -85,6 +85,35 @@ for name, n in seen.items():
         WARN.append("`.%s` معرّفة %d مرات خارج media query — قد يُلغي أحدها الآخر." % (name, n))
 
 
+# ── فحص 5: بصمة app.js ──────────────────────────────────────────────────
+# العطل (٣ سبتمبر ٢٠٢٦): index.html يحمّل `app.js?v=<بصمة>` لكسر المخبأ، والبصمة
+# تُحدَّث يدويًا. عُدِّل app.js ثلاث مرات دون تحديثها، فكان الزائر العائد يأخذ
+# نسخة قديمة ولا يرى التعديل — عطل صامت تمامًا: لا خطأ ولا تحذير، والصفحة تعمل.
+import hashlib
+_m = re.search(r"app\.js\?v=([0-9a-f]+)", html)
+if not _m:
+    FAIL.append("لا بصمة لـ app.js في index.html — المخبأ سيقدّم نسخة قديمة بعد كل تعديل.")
+elif os.path.exists(A):
+    _real = hashlib.sha256(open(A, "rb").read()).hexdigest()[:len(_m.group(1))]
+    if _real != _m.group(1):
+        FAIL.append("بصمة app.js قديمة: index.html يطلب `%s` والمحتوى `%s`. "
+                    "حدّثها وإلا لن يرى الزائر العائد التعديل." % (_m.group(1), _real))
+
+
+# ── فحص 6: ملفات الأيقونات التي يطلبها المانيفست ────────────────────────
+# العطل نفسه من نوع آخر: المانيفست كان يشير إلى icon-192.png و icon-512.png
+# وهما غير موجودين، فتُطلبان في كل فتحة وتُردّان 404 بلا أثر يراه أحد.
+if os.path.exists("site.webmanifest"):
+    import json as _json
+    try:
+        _man = _json.load(open("site.webmanifest", encoding="utf-8"))
+        for _ic in _man.get("icons", []):
+            if not os.path.exists(_ic.get("src", "")):
+                FAIL.append("المانيفست يطلب `%s` وهو غير موجود — 404 في كل فتحة." % _ic.get("src"))
+    except Exception as _e:
+        FAIL.append("site.webmanifest غير صالح: %s" % _e)
+
+
 # ── التقرير ─────────────────────────────────────────────────────────────
 print("فحص التصميم — %d مخالفة · %d تنبيه" % (len(FAIL), len(WARN)))
 for x in FAIL: print("  ✗ " + x)

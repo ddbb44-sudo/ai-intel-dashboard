@@ -328,6 +328,34 @@ function ago(iso){
   if(dd<30) return 'قبل '+arPlural(dd,'يوم','يومين','أيام','يومًا');
   return d.getDate()+' '+AR_MONTHS[d.getMonth()]+' '+d.getFullYear();
 }
+/* زر التحديث في الشريط العلوي.
+   لا يُعيد التحميل جزافًا: يسأل manifest.json أولًا (بتجاوز المخبأ) فيقارن عدد
+   البطاقات بما هو معروض. إن تغيّر أعاد التحميل ليأخذ الشظايا الجديدة، وإن لم
+   يتغيّر أخبر المستخدم أنّ ما عنده هو الأحدث — فإعادة تحميلٍ بلا جديد تُفقده
+   موضعه في اللوحة بلا مقابل. ويسحب التفضيلات من المزامنة في الحالتين. */
+async function refreshData(){
+  const btn = document.getElementById('refreshBtn');
+  if (btn) btn.classList.add('busy');
+  try {
+    const r = await fetch('data/manifest.json?t=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const man   = await r.json();
+    const fresh = (man.stats && man.stats.cards) || 0;
+    const have  = Store.all().length;
+    if (fresh && fresh !== have){
+      toast('وصلت ' + Math.abs(fresh - have) + ' بطاقة — يُعاد التحميل');
+      setTimeout(() => location.reload(), 700);
+      return;
+    }
+    try { await pullPrefs(); render(); } catch(e){}
+    toast('محدَّث — ' + have + ' بطاقة');
+  } catch(e){
+    toast('تعذّر التحديث: ' + ((e && e.message) || e));
+  } finally {
+    if (btn) btn.classList.remove('busy');
+  }
+}
+
 function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
 const SP = {cols: RAW.stats.sprite_cols||10, tile: RAW.stats.sprite_tile||52};
 const SRC_LABEL = {x:'X / Twitter', youtube:'YouTube', github:'GitHub', web:'مواقع ومقالات', article:'مقالات'};

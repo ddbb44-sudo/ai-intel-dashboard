@@ -3,13 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>مركز المعرفة — الذكاء الاصطناعي</title>
-<!-- أيقونة مضمّنة: الملفات الأربعة المشار إليها سابقًا غير موجودة في المستودع
-     فكانت الصفحة تطلبها وتتلقى 404 في كل فتحة. -->
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23c25f3c%22/%3E%3Cpath%20d%3D%22M20%2044V20h6.6l5.4%2012%205.4-12H44v24h-6V31l-4.4%209.6h-3.2L26%2031v13z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E">
+<title>أفضل أدوات الذكاء الاصطناعي</title>
+<!-- أيقونة مضمّنة: دائرة بلون الهوية #c25f3c وشرطة ألف بيضاء.
+     مضمّنة كـ data URI لا كملف، فلا تُطلب من الشبكة ولا تُخطئ 404.
+     ونسخ PNG للمانيفست: icon-192 · icon-512 · icon-512-maskable. -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2230%22%20fill%3D%22%23c25f3c%22%2F%3E%3Crect%20x%3D%2228.3%22%20y%3D%2218.5%22%20width%3D%227.4%22%20height%3D%2227%22%20rx%3D%223.7%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#c25f3c">
-<meta name="apple-mobile-web-app-title" content="مركز المعرفة">
+<meta name="apple-mobile-web-app-title" content="أفضل أدوات الذكاء الاصطناعي">
 <meta name="description" content="لوحة عربية ترصد أخبار الذكاء الاصطناعي وأدواته يوميًا وتصنّفها.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,7 +46,8 @@ a{color:inherit}
 header{position:sticky;top:0;z-index:60;background:rgba(250,249,247,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .hwrap{max-width:1320px;margin:0 auto;padding:11px 18px;display:flex;gap:14px;align-items:center}
 .brand{display:flex;align-items:center;gap:10px;flex:0 0 auto;cursor:pointer}
-.dot{width:22px;height:22px;border-radius:7px;background:linear-gradient(140deg,var(--accent),#e08a63);flex:0 0 auto}
+.dot{width:22px;height:22px;border-radius:50%;background:var(--accent);flex:0 0 auto;position:relative}
+.dot::after{content:'';position:absolute;left:50%;top:23%;transform:translateX(-50%);width:2.6px;height:54%;border-radius:1.3px;background:#fff}
 .brand b{font-weight:600;font-size:15px;letter-spacing:-.2px}
 .brand span{color:var(--muted);font-size:11.5px;display:block;line-height:1.2;font-weight:400}
 .search{flex:1;position:relative;max-width:520px}
@@ -55,6 +58,11 @@ header{position:sticky;top:0;z-index:60;background:rgba(250,249,247,.88);backdro
 .topstat b{color:var(--ink);font-weight:600}
 .iconbtn{width:36px;height:36px;border-radius:9px;border:1px solid var(--line-2);background:var(--surface);display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transition:.15s;order:-1}
 .iconbtn:hover{background:var(--surface-2)}
+/* التحديث: دوران أثناء الجلب، ويتوقّف مع prefers-reduced-motion */
+@keyframes spin{to{transform:rotate(-360deg)}}
+#refreshBtn.busy svg{animation:spin .9s linear infinite}
+#refreshBtn.busy{pointer-events:none;opacity:.65}
+@media (prefers-reduced-motion:reduce){#refreshBtn.busy svg{animation:none}}
 body.fopen .iconbtn{background:var(--accent);border-color:var(--accent);color:#fff}
 
 /* ---------- layout ---------- */
@@ -457,13 +465,16 @@ button.go.danger:hover{background:#8f1d17}
  <div class="hwrap">
   <div class="brand" onclick="go('#/')">
     <div class="dot"></div>
-    <div><b>مركز المعرفة</b><span>الذكاء الاصطناعي · تجربة أولى</span></div>
+    <div><b>أفضل أدوات الذكاء الاصطناعي</b><span>رصد يومي · مصنَّف بالعربية</span></div>
   </div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
     <input id="q" placeholder="ابحث في العناوين والملخصات والنصوص الأصلية…" autocomplete="off">
   </div>
   <div class="topstat" id="topstat"></div>
+  <button class="iconbtn hb" id="refreshBtn" onclick="refreshData()" title="تحديث البيانات" aria-label="تحديث البيانات">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+  </button>
   <button class="iconbtn hb" onclick="openTray('liked')" title="ما أعجبني" aria-label="ما أعجبني">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
     <span class="badge zero" id="bLike">0</span>
@@ -525,7 +536,7 @@ button.go.danger:hover{background:#8f1d17}
       window.__RAW = { items: items, authors: authors, stats: man.stats };
       var b = document.getElementById('boot'); if(b) b.remove();
       var s = document.createElement('script');
-      s.src = 'app.js?v=fbf1c03704';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
+      s.src = 'app.js?v=cf253a2179';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
       s.onerror = function(){ fail('\u062a\u0639\u0630\u0651\u0631 \u062a\u062d\u0645\u064a\u0644 app.js'); };
       document.body.appendChild(s);
       console.log('[dash] ' + items.length + ' cards in ' + (Date.now() - T0) + 'ms');
