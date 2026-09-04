@@ -72,7 +72,6 @@ def main(check_only=False):
     #    daily_pull فعلًا (السطر ١٠٤)، لكن اللوحة لا تحمّل accounts.json فيبقى
     #    الحساب في القائمة كأنه نشط. سأل عزيز: «لماذا الذين حذفتهم ما زالوا؟»
     #    — والجواب أن الإيقاف وقع ولم يصل الشاشة.
-    FIELDS = ("account_type", "is_arab", "active")
     moved = 0
     for h, a in by_acc.items():
         r = by_aut.get(h)
