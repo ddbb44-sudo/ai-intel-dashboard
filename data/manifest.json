@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generated_at": "2026-09-03T19:22:31Z",
+ "generated_at": "2026-09-04T04:34:43Z",
  "stats": {
   "sprite_cols": 10,
   "sprite_tile": 52,
   "accounts_watched": 69,
   "accounts_with_cards": 62,
   "tweets_fetched": 2367,
-  "cards": 1049,
+  "cards": 1082,
   "merged_sources": 93,
   "reviewed": 1295,
   "read_rejected": 780,
@@ -15,7 +15,7 @@
   "heuristic_dropped": 478,
   "rejected": 1500,
   "window": "آخر 24 ساعة",
-  "fetched_at": "2026-09-03T00:08:04Z"
+  "fetched_at": "2026-09-04T04:34:43Z"
  },
  "authors": "authors.json",
  "shards": [
@@ -49,7 +49,8 @@
   "article-2026-09-01.json",
   "2026-09-02.json",
   "2026-09-03.json",
-  "backfill-samibizconsult.json"
+  "backfill-samibizconsult.json",
+  "2026-09-04.json"
  ],
  "counts": {
   "items": 574,

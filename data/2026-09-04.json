@@ -1,0 +1,2183 @@
+[
+ {
+  "id": "c1054",
+  "serial": 1054,
+  "serial_display": "#001054",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2095596559748477189",
+  "source_native_id": "2095596559748477189",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-09-03T19:35:28Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تُطلق GPT-6 Astra: نموذج قادر على أتمتة مهام الكمبيوتر بالكامل",
+  "arabic_summary": "أعلنت OpenAI رسميًا عن GPT-6 Astra، نموذج يستطيع تنفيذ أي مهمة على الكمبيوتر نيابة عن المستخدم: تصفح، ملء نماذج، تحديث CRM، كتابة مستندات وجداول، بناء مواقع واختبارها. داخل Codex، سرعة إكمال المهام أعلى 1.9× من GPT-5.6 Sol. يحتفظ بملاحظات قابلة للبحث عبر نوافذ السياق، ويصنّف Critical في الأمن السيبراني لذلك حُجبت عنه مهام الاستغلال المتقدمة. الإطلاق بدأ محدودًا ويصل تدريجيًا للاشتراكات المدفوعة وAPI وAWS.",
+  "detailed_explanation": "GPT-6 Astra هو نموذج جديد من OpenAI مصمّم ليتجاوز التوليد النصي إلى التحكم الفعلي في الكمبيوتر.\n\nالقدرات المعلَنة:\n- تصفّح الويب\n- ملء النماذج\n- تحديث أنظمة CRM\n- تنظيم التقويم\n- كتابة وتعديل المستندات والجداول والعروض التقديمية\n- بناء المواقع واختبارها\n\nداخل Codex (بيئة تطوير OpenAI): سرعة إكمال المهام تصل إلى 1.9× مقارنة بتجربة GPT-5.6 Sol الحالية.\n\nإدارة السياق: Astra يحتفظ بملاحظات قابلة للبحث عبر نوافذ سياق متعددة، ما يمنع ضياع قرارات المشروع ونتائج الاختبارات في الجلسات الطويلة — وهذه ميزة حاسمة في مشاريع البرمجة المعقدة.\n\nالأمن السيبراني: وصل تصنيف Astra إلى مستوى Critical، لذلك OpenAI تحجب حاليًا عنه مهام الاستغلال المتقدمة (advanced exploitation).\n\nالإتاحة: الإطلاق بدأ لمجموعة محدودة، ويصل خلال أيام إلى Plus وPro وBusiness وEnterprise، وكذلك عبر API وAWS.\n\nبالنسبة لعزيز: Astra يُغيّر طبيعة العمل داخل Codex، ويفتح إمكانية بناء Agents تنفّذ مهامًا معقدة في بيئات حقيقية (ليس مجرد كتابة كود)، وقد يؤثر على بناء Skills التي تحتاج تفاعلًا مع أنظمة خارجية.",
+  "why_it_matters": "يُمثّل قفزة في قدرة النماذج على التحكم الفعلي بالكمبيوتر، ما يفتح مجالات أتمتة واسعة داخل بيئات التطوير والإنتاج، ويؤثر على سير عمل عزيز في Codex وفي بناء Agents تتعامل مع أنظمة حقيقية.",
+  "original_text": "🚨 OpenAI أعلنت GPT-6 Astra رسميًا وتقول إن أي شيء تسويه على الكمبيوتر يقدر يسويه عنك وبسرعة\n\n🖥️ يتصفح ويملأ النماذج ويحدث CRM وينظم التقويم ويكتب المستندات والجداول والعروض ويبني المواقع ويختبرها\n\n⚡ داخل Codex إكمال مهام الكمبيوتر صار أسرع 1.9 مرة مقارنة بتجربة GPT-5.6 Sol الحالية\n\n🧠 يحافظ على ملاحظات قابلة للبحث بين نوافذ السياق عشان ما تضيع قرارات المشروع ونتائج الاختبارات في الجلسات الطويلة\n\n🛡️ قدراته السيبرانية وصلت مستوى Critical لذلك OpenAI تحجب عنه حاليًا مهام الاستغلال المتقدمة\n\n📦 بدأ اليوم لأشخاص محدودين وبيوصل خلال أيام إلى Plus وPro وBusiness وEnterprise وعبر API وAWS",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي ينفّذ مهاماً معقدة بشكل مستقل"
+   },
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق: حجم النص الذي يستطيع النموذج الاحتفاظ به في الذاكرة"
+   },
+   {
+    "term": "Critical (security)",
+    "ar": "تصنيف أمني يشير إلى قدرات خطرة قد تُستغل في هجمات سيبرانية"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-6 Astra",
+   "Codex"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 100,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 81,
+   "views": 26300
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast. https://t.co/gDd0IsewJw"
+  },
+  "cluster_id": "astra_launch",
+  "also_reported": [
+   {
+    "author": "Abdullah4AI",
+    "url": "https://x.com/Abdullah4AI/status/2095527985113612458"
+   },
+   {
+    "author": "yousefrol",
+    "url": "https://x.com/yousefrol/status/2095618115593785813"
+   },
+   {
+    "author": "OpenAI",
+    "url": "https://x.com/OpenAI/status/2095595741528125780"
+   },
+   {
+    "author": "SultanAlFardan",
+    "url": "https://x.com/SultanAlFardan/status/2095688972190007554"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095676727733502238"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1055",
+  "serial": 1055,
+  "serial_display": "#001055",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2095560114237329777",
+  "source_native_id": "2095560114237329777",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-03T17:10:39Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "IFM تطلق K2 Horizon: مجموعة من ستة نماذج مفتوحة بالكامل من 0.9B إلى 375B",
+  "arabic_summary": "IFM أطلقت K2 Horizon، مجموعة من ستة نماذج مفتوحة المصدر بالكامل، تتراوح من 0.9 مليار إلى 375 مليار parameter. النماذج الصغيرة مصممة للاستخدام على الأجهزة، والكبيرة للمهام الصعبة والعمليات الوكيلية (agentic work). IFM تدعي أن K2 هو النموذج الأول الذي يفتح كل شيء: Weights، كود التدريب، وصفات البيانات، Checkpoints، وليس فقط Weights.",
+  "detailed_explanation": "IFM أعلنت عن إطلاق K2 Horizon، مجموعة من ستة نماذج لغوية مفتوحة المصدر بالكامل، تتراوح من 0.9 مليار إلى 375 مليار parameter. المنشور يركز على التفرقة بين «Open Weights» (فتح الأوزان فقط) و«Open Source» الحقيقي الذي يفتح كل شيء:\n\n**Open Weights:** تحصل على النموذج الجاهز، يمكنك تشغيله، لكن لا يمكنك إعادة بنائه أو فهم كيف تم تدريبه.\n\n**Open Source الكامل (K2 Horizon):** تحصل على:\n- Weights (الأوزان)\n- Training code (كود التدريب)\n- Data recipes (وصفات البيانات)\n- Checkpoints (نقاط الحفظ أثناء التدريب)\n- من 0.9B إلى 375B\n\nIFM تدعي أن K2 Horizon يقدم أداءً متقدمًا في البرمجة والمهام الوكيلية (agentic tasks)، وأن النماذج الصغيرة (0.9B، 3.7B، 7B) تحقق state-of-the-art في فئاتها. النماذج الصغيرة مصممة للاستخدام على الأجهزة، والنموذج الكبير 375B للمهام الصعبة والعمل الوكيلي.\n\nالمنشور يشبّه النموذج ببيت: هل تريد الإقامة كنزيل في فندق، أم تملك البيت بدون مخططات، أم تملك البيت مع كل تفاصيل الأسلاك والسباكة والتصميم؟ K2 Horizon هو الخيار الأخير.",
+  "why_it_matters": "يوفر لعزيز نماذج مفتوحة بالكامل يمكن تشغيلها محليًا أو إعادة بنائها من الصفر، وهو خيار استراتيجي لمن يريد استقلالية كاملة عن الخدمات السحابية المغلقة.",
+  "original_text": "the distinction Eric's drawing here is what most \"open source\" releases skip\n\nopen weights give you the model, not the process... you can run it, but you can't rebuild it\n\nK2 Horizon opens all of it: training code, data recipes, checkpoints, 0.9B to 375B",
+  "glossary": [
+   {
+    "term": "Open Weights",
+    "ar": "فتح أوزان النموذج فقط، دون كود التدريب أو البيانات"
+   },
+   {
+    "term": "Checkpoint",
+    "ar": "نقطة حفظ حالة النموذج أثناء التدريب"
+   },
+   {
+    "term": "Parameter",
+    "ar": "معامل، وحدة قياس حجم النموذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Ollama"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 14,
+   "replies": 3,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 3128
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "When you consider a house, do you just want to be a pay-to-stay tenant like in a hotel, or buy it but without blueprint and document, or own the house alone with all its wiring, plumbing, design and construction details? What if this house is AI ? \n\nToday’s release marks the first panoramic debut of IFM’s K2 fleet — six 360-open source LLMs ranging from 0.9B all the way to 375B covering deployment"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2095510607277477967"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1056",
+  "serial": 1056,
+  "serial_display": "#001056",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095606622055760159",
+  "source_native_id": "2095606622055760159",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-03T20:15:27Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GPT-6 بنى قاعدة معرفة شخصية من عشرات آلاف الرسائل على مدى خمسة أيام",
+  "arabic_summary": "كلّف موليك GPT-6 ببناء قاعدة معرفة شخصية من عشرات الآلاف من رسائله البريدية وكتاباته ومواعيده. النموذج حمّل البرمجيات اللازمة، وضع استراتيجية، وبنى wiki شخصي متعدد الجيجابايتات على مدى خمسة أيام دون تدخل. الآن يراجع النموذج الرسائل يوميًا ويرسل ملخصات مرجعية بناءً على قاعدة المعرفة.",
+  "detailed_explanation": "موليك قدّم مثالاً محددًا على استخدام GPT-6 (Astra) في عمل معرفي حقيقي: بناء نظام إدارة معرفة شخصية شامل. المهمة تضمنت:\n\n**ما قام به النموذج:**\n- قراءة عشرات الآلاف من رسائل البريد الإلكتروني\n- مراجعة كتابات موليك\n- فحص مواعيد التقويم وغيرها من البيانات\n- تحميل البرمجيات المناسبة لإدارة قواعد البيانات\n- وضع استراتيجية لتنظيم المعلومات\n- بناء wiki شخصي بحجم عدة جيجابايتات\n- كل ذلك على مدى خمسة أيام متواصلة دون تدخل بشري\n\n**الاستخدام الحالي:**\nبعد بناء القاعدة، يقوم النموذج الآن مرتين يوميًا بـ:\n- مراجعة الرسائل الجديدة\n- الربط المرجعي بقاعدة المعرفة الموجودة\n- إرسال ملخصات بالأمور المهمة والموضوعات ذات الصلة\n\n**التحذيرات التي قدمها موليك:**\n١. منح النموذج وصولاً إلى الحاسوب ينطوي على مخاطر أمنية\n٢. خلال فترة التجربة لم يُحمّل برسوم tokens، لكن التكلفة الفعلية ستكون \"كبيرة جدًا\" على الأرجح\n٣. الملخصات اليومية لا تستهلك tokens كثيرة\n\nهذا المثال مهم لأنه يوضح:\n- القدرة على التخطيط والتنفيذ الممتد\n- القدرة على اختيار الأدوات المناسبة وتحميلها\n- القدرة على بناء أنظمة معرفية معقدة\n- لكنه يثير أيضًا أسئلة حول الأمن والتكلفة والخصوصية",
+  "why_it_matters": "دليل عملي على قدرة النماذج الجديدة على مشاريع معرفية ممتدة ومعقدة: من التخطيط إلى اختيار الأدوات إلى التنفيذ على مدى أيام. يفتح إمكانيات جديدة لإدارة المعرفة الشخصية لكن يثير تساؤلات أمنية.",
+  "original_text": "An example of useful knowledge work: I assigned GPT-6 to read through tens of thousands of my emails, my writings, my calendar appointments and more to assemble a personal knowledge base of research, contacts, ideas, relationships, and tasks over my recent career. GPT-6 downloaded the appropriate software, figured out a strategy, and built a multi-gigabyte personal wiki without any further intervention from me over the course of five days of uninterrupted work.\n\nTwice a day, the AI now goes through my emails, cross-references them with this extensive knowledge base, and sends me a summary of things I should be paying attention to, things I might be interested in, etc. \n\n(Two questions you may have: Yes, I gave the AI access to my computer and this involves risks, and you should be careful before you do the same. And I do not take money from any AI lab and pay for my own usage, but during the trial period, I was not charged for tokens, so I cannot tell you how much this process would have cost, but it likely would have been very substantial. The ongoing briefings do not use substantial amounts of token)",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي مستقل"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة حسابية لتكلفة استخدام النموذج"
+   },
+   {
+    "term": "Wiki",
+    "ar": "قاعدة معرفة منظمة"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "GPT-6",
+   "Astra",
+   "OpenAI"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 97,
+  "metrics": {
+   "likes": 1556,
+   "replies": 62,
+   "reposts": 78,
+   "quotes": 11,
+   "bookmarks": 933,
+   "views": 109074
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt6_announcement",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1057",
+  "serial": 1057,
+  "serial_display": "#001057",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2095593705214300394",
+  "source_native_id": "2095593705214300394",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-03T19:24:08Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تطلق GPT-6 Astra: نموذج متقدم في الكتابة واستخدام الحاسوب مع بعض التعقيد الزائد",
+  "arabic_summary": "أطلقت OpenAI نموذج GPT-6 Astra، وهو ترقية كبيرة من 5.6-Sol. التقييمات الأولية تُظهر تفوقًا في الكتابة وسرعة الاستجابة وقدرات استخدام الحاسوب، لكنه يميل لتعقيد الواجهات وإضافة ميزات غير مطلوبة، ولا يتفوق على Fable في الفهم الحدسي للمطلوب.",
+  "detailed_explanation": "GPT-6 Astra هو أحدث نموذج من OpenAI، وقد خضع لاختبارات مكثفة في شركة Every عبر حالات استخدام متنوعة: الكتابة، البرمجة، العمل المعرفي.\n\n**نقاط القوة:**\n- **الكتابة:** أفضل نموذج كتابة حسب المُقيّم. سريع، ينتج slop (محتوى ركيك) أقل بكثير، وسهل التوجيه. مناسب للعمل اليومي على النصوص.\n- **استخدام الحاسوب (Computer Use):** يمكنه العمل لساعات متواصلة على تطبيقات معقدة. مثلًا: أنتج المسودة الأولى لفيديو مراجعة Fable 5.1.\n- **التصورات ثلاثية الأبعاد:** يولّد عوالم 3D جميلة من prompt واحد (مثل معركة واترلو التاريخية).\n\n**نقاط الضعف:**\n- **التعقيد الزائد:** خاصة في مستويات الجهد العالية. عند طلب واجهة بسيطة، يُضيف labels وأزرارًا وميزات غير مطلوبة. يُحوّل كل شيء إلى landing page.\n- **لا يُضاهي Fable:** في الفهم الحدسي للـ prompt وتقديم شيء ممتع دون إفراط.\n\n**الخلاصة العملية:**\nإن كنت تعيش في ChatGPT أو Codex يوميًا وتستطيع تحمل التكلفة، فهي ترقية واضحة من 5.6-Sol. لكن توقع الحاجة لتوجيه أكثر دقة لتفادي الإفراط في التعقيد.\n\nالنموذج يُظهر أن OpenAI تدفع حدود Computer Use والكتابة، لكن التحدي الحقيقي الآن ليس القدرات بل **التحكم** في سلوك النموذج.",
+  "why_it_matters": "ترقية مهمة لمستخدمي ChatGPT وCodex اليوميين، خاصة في الكتابة والبرمجة، لكنها تتطلب تعديل توقعات المستخدم للتعامل مع ميل النموذج للإفراط في التصميم.",
+  "original_text": "BREAKING:\n\nOpenAI just dropped GPT-6 ASTRA!!! 🚀✨\n\nWe’ve been testing it extensively at @every across coding, writing, and knowledge work. My take: it’s a big upgrade from 5.6-Sol, with some frustrating habits that keep it from matching Fable at the top end.\n\nHere’s your vibe check:\n\n- The best writing model I’ve tried. It’s fast, produces very little slop, and is easy to steer. It’s a good companion for actually working through the writing I do every day. (Not to mention, it one-shotted the first draft of its own vibe check today!)\n\n- The computer use is wild. It can go for hours at a time using complicated apps to get work done. It did the first cut of our Fable 5.1 vibe check video...kind of mindblowing\n\n- Impressive 3D games and visualizations. It can make beautiful 3D worlds from a single prompt. I one-shotted a historically accurate rendition of the Battle of Waterloo\n\n- It can overcomplicate things. (Especially at higher effort levels.) Ask for a simple interface and you get extra labels, buttons, and features everywhere. It has a habit of turning everything into a landing page.\n\nIt just doesnt quite match Fable's ability to intuitively understand your prompt and do something",
+  "glossary": [
+   {
+    "term": "Computer Use",
+    "ar": "قدرة النموذج على التحكم بالحاسوب واستخدام التطبيقات"
+   },
+   {
+    "term": "slop",
+    "ar": "محتوى ركيك أو مُولّد بشكل آلي واضح"
+   },
+   {
+    "term": "one-shot",
+    "ar": "توليد ناجح من محاولة واحدة"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT",
+   "Codex"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 508,
+   "replies": 36,
+   "reposts": 31,
+   "quotes": 23,
+   "bookmarks": 258,
+   "views": 307344
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "astra_release",
+  "also_reported": [
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095670269264445741"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095659334860497123"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095657928367747369"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095618294812139808"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095598213864784228"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2095596020638036311"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1058",
+  "serial": 1058,
+  "serial_display": "#001058",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2095558955816960273",
+  "source_native_id": "2095558955816960273",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-03T17:06:03Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Respan تطلق نموذج P-1 لاكتشاف وحذف البيانات الشخصية الحساسة",
+  "arabic_summary": "Respan أطلقت P-1، نموذج خصوصية تدّعي أنه الأفضل في اكتشاف وحذف البيانات الشخصية الحساسة (PII redaction). في اختبار على 20 ألف عينة من أربع قواعد بيانات، تفوق P-1 على AWS وRaindrop وPresidio في دقة الاكتشاف (F1 score)، محققًا 79.5% على AI4Privacy EN مقابل 69.1% لـ AWS، و96.1% على WikiNEuRaL PERSON مقابل 86.9% لـ AWS.",
+  "detailed_explanation": "Respan أعلنت عن P-1، نموذج مخصص لحماية الخصوصية من خلال اكتشاف وحذف البيانات الشخصية الحساسة (PII redaction). الشركة تقول إن P-1 مصمم للتغلب على المفاضلة بين الدقة والسرعة والتكلفة التي تفرضها الأدوات الحالية.\n\nالمنشور يركز على أن الصعوبة الحقيقية في PII redaction ليست اكتشاف البيانات الحساسة، بل تجنب تصنيف البيانات العادية خطأً (false positives). P-1 اختُبر على 20 ألف عينة من أربع قواعد بيانات عامة، وقورن بـ AWS وRaindrop وPresidio.\n\nالنتائج على دقة الاكتشاف (F1 score) كالتالي:\n- AI4Privacy EN: P-1 سجل 79.5% مقابل 69.1% لـ AWS\n- AI4Privacy ES: P-1 سجل 75.5% مقابل 71.5% لـ AWS\n- WikiNEuRaL PERSON: P-1 سجل 96.1% مقابل 86.9% لـ AWS\n\nالنموذج يدعي أنه سريع بما يكفي للتشغيل في تطبيقات الإنتاج، ما يجعله خيارًا بديلًا عن الحلول السحابية الحالية.",
+  "why_it_matters": "إذا كان عزيز يتعامل مع بيانات شخصية في تطبيقات AI أو في معالجة نصوص، فنموذج P-1 قد يكون أداة أفضل من AWS لحماية الخصوصية بدقة أعلى وأخطاء false positive أقل.",
+  "original_text": "Do you understand the actual hard part of PII redaction?\n\nNot catching sensitive data; it's not flagging clean data by mistake. Respan's new P-1 model is built around exactly that 👇\n\nIt's called P-1, and Respan is calling it the best privacy model out there. The pitch: existing tools force a tradeoff between accuracy, latency, and cost. P-1 is built to skip that tradeoff entirely.\n\nThey tested it against AWS, Raindrop, and Presidio on 20,000 samples across four public datasets.\n\nOn detection accuracy (F1 score), P-1 led across the board:\n\n→ AI4Privacy EN: 79.5% vs AWS's 69.1%\n→ AI4Privacy ES: 75.5% vs AWS's 71.5%\n→ WikiNEuRaL PERSON: 96.1% vs AWS's 86.9%",
+  "glossary": [
+   {
+    "term": "PII",
+    "ar": "البيانات الشخصية القابلة للتعريف"
+   },
+   {
+    "term": "F1 score",
+    "ar": "مقياس لدقة النموذج يجمع بين الدقة والاستدعاء"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج",
+   "API/SDK"
+  ],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "AWS"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 7,
+   "replies": 8,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 4321
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Respan P-1, the world’s best privacy model.\n\nEvery AI application handles sensitive data. Existing approaches to protecting it force a tradeoff between accuracy, latency, and cost.\n\nWe built P-1 to eliminate that tradeoff.\n\nP-1 sets a new state of the art for detecting and redacting sensitive information - outperforming existing models across our benchmark while being fast enough to ru"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1059",
+  "serial": 1059,
+  "serial_display": "#001059",
+  "source_type": "x",
+  "source_url": "https://x.com/qunaieer/status/2095557019264549250",
+  "source_native_id": "2095557019264549250",
+  "source_name": "فارس القنيعير",
+  "source_site": "x.com",
+  "author": "qunaieer",
+  "published_at": "2026-09-03T16:58:21Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "استراتيجية اختيار النموذج الأنسب: الأصغر القادر على الجودة المطلوبة، لا الأقوى المتاح",
+  "arabic_summary": "يوضح قنيعير أن الخطأ الشائع في بناء تطبيقات الذكاء الاصطناعي هو استخدام أقوى (وأضخم) نموذج لكل مهمة. السؤال الأفضل: ما أصغر نموذج يستطيع إنجاز المهمة بالجودة المطلوبة؟ النماذج الأصغر أسرع، أرخص، ويمكن تشغيلها محليًا، وقد تكون أفضل في المهام المتخصصة. التصميم الأمثل قد يجمع نماذج صغيرة للمهام الشائعة ونموذج أقوى للحالات المعقدة.",
+  "detailed_explanation": "المنشور يعالج مشكلة شائعة: الافتراض أن استخدام أقوى نموذج متاح سيعطي أفضل نتيجة في كل الحالات. الواقع أن كثيرًا من المهام لا تحتاج لقدرات نموذج كبير، وقد يكون نموذج صغير كافيًا تمامًا.\n\nالمثال المذكور: في نظام يتعامل مع آلاف رسائل العملاء، قد يكون نموذج صغير كافيًا لتصنيف الرسائل واستخراج المعلومات منها وتوجيهها. لا يوجد سبب لاستخدام نموذج ضخم إذا كانت النتيجة متقاربة.\n\nالفوائد:\n- **التكلفة:** النماذج الأصغر أرخص بكثير.\n- **السرعة:** استجابة أسرع.\n- **الخصوصية:** بعض النماذج الصغيرة يمكن تشغيلها محليًا.\n- **التخصص:** نموذج صغير متخصص قد يفوق نموذجًا كبيرًا عامًا في مهمة محددة.\n\nلكن هذا لا يعني أن النماذج الكبيرة غير مهمة. في الاستدلال المعقد، والبرمجة المتقدمة، والتخطيط، قد يكون الفرق في قدراتها حاسمًا.\n\nالنصيحة العملية:\n- ابدأ بنموذج صغير.\n- قِس النتائج.\n- انتقل إلى نموذج أكبر **فقط** عندما تثبت النتائج أنك تحتاجه.\n- فكّر في تصميم هجين: نموذج صغير للمهام الشائعة، ونموذج أقوى يُستدعى للحالات المعقدة.\n\nهذه استراتيجية تصميمية محورية لمن يبني أنظمة إنتاجية، وتنطبق بشكل خاص على أنظمة الوكلاء التي تستدعي النماذج بشكل متكرر.",
+  "why_it_matters": "هذا المبدأ يحسّن التوازن بين الجودة والتكلفة والسرعة، وهو قرار تصميمي محوري في بناء أنظمة الذكاء الاصطناعي القابلة للتوسع.",
+  "original_text": "من الأخطاء الشائعة في بناء تطبيقات الذكاء الاصطناعي استخدام أقوى (وغالباً يكون أضخم) نموذج متاح لكل مهمة. السؤال الأفضل في كثير من الحالات ليس: ما أقوى نموذج يمكنني استخدامه؟ بل: ما أصغر نموذج يستطيع إنجاز المهمة بالجودة التي أحتاجها؟\n\nفمثلاً، في نظام يتعامل مع آلاف رسائل العملاء، قد يكون نموذج صغير كافياً لتصنيف الرسائل، واستخراج المعلومات منها، وتوجيهها للجهة المناسبة. لا يوجد سبب لاستخدام نموذج أكبر وأكثر تكلفة إذا كانت النتيجة متقاربة.\n\nوالأمر لا يتعلق بالتكلفة فقط. النماذج الأصغر غالباً أسرع، ويمكن تشغيل بعضها محلياً على أجهزة المستخدمين أو خوادم الشركة، وهذا مهم للخصوصية والعمل دون اتصال. كما أن نموذجاً صغيراً متخصصاً في مهمة محددة قد يكون عملياً أفضل من نموذج أكبر عام.\n\nلكن هذا لا يعني أن النماذج الكبيرة غير مهمة. في الاستدلال المعقد، والبرمجة المعقدة، والتخطيط، والمهام الغامضة، قد يكون الفرق في قدراتها مهماً جداً. لذلك أعتقد أن التصميم الأفضل لكثير من التطبيقات سيكون باستخدام أكثر من نموذج: نموذج صغير يتعامل مع أغلب المهام وويكون محرك بعض وكلاء الذكاء الاصطناعي، ونموذج أقوى يُستدعى فقط للحالات التي تحتاجه.\n\nفي النهاية، النموذج الأفضل ليس بالضرورة الذي يتصدر اختبارات الأداء، بل الذي يؤدي العمل ويحقق مستوى الجودة المطلوب بأفضل توازن بين الجودة والسرعة والتكلفة والخصوصية.\n\nقاع",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 13,
+   "replies": 2,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 9,
+   "views": 2219
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1060",
+  "serial": 1060,
+  "serial_display": "#001060",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095604776822083629",
+  "source_native_id": "2095604776822083629",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-03T20:08:07Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Astra يحافظ على theory-of-mind أفضل: أقل إشارات غريبة وأقل انحرافًا في المهام الطويلة",
+  "arabic_summary": "يلاحظ موليك أن Astra يحافظ على \"theory-of-mind\" أفضل من النماذج السابقة: المخرجات النهائية تحتوي على إشارات أقل للمسودات السابقة أو عملية البناء، وهناك انحراف أقل (drift) خلال المهام الطويلة. ليس مثاليًا لكنه تحسّن ملحوظ.",
+  "detailed_explanation": "موليك يسلط الضوء على تحسين دقيق لكنه مهم في Astra: القدرة على الحفاظ على \"theory-of-mind\" — أي فهم ما يعرفه ويحتاجه المستخدم مقابل ما يعرفه النموذج نفسه.\n\n**المشكلة في النماذج السابقة:**\nعند تكليف Agent بمهمة طويلة تتطلب عدة مراحل، كانت المخرجات النهائية غالبًا تحتوي على:\n- إشارات لمسودات أو نسخ سابقة من العمل\n- ملاحظات داخلية عن عملية البناء\n- \"drift\" أو انحراف تدريجي عن الهدف الأصلي\n- خلط بين ما هو للمستخدم النهائي وما هو جزء من عملية العمل\n\n**التحسين في Astra:**\n- المخرجات النهائية أنظف وأكثر احترافية\n- إشارات أقل بكثير للعمل الداخلي\n- انحراف أقل عن الهدف الأصلي في المهام الممتدة\n- قدرة أفضل على التمييز بين \"ما أعمل عليه\" و\"ما يحتاجه المستخدم\"\n\n**أهمية ذلك:**\ntheory-of-mind ضرورية للعمل المستقل: النموذج يحتاج أن يفهم أن المستخدم لا يرى كل الخطوات الوسيطة، ولا يهتم بتفاصيل عملية البناء. هذا التمييز يجعل المخرجات أكثر قابلية للاستخدام مباشرة، ويقلل الحاجة إلى تنظيف وتحرير المخرجات النهائية.\n\nموليك حريص على عدم المبالغة (\"ليس مثاليًا\")، لكن التحسين واضح ومهم للاستخدام العملي في مشاريع ممتدة.",
+  "why_it_matters": "مشكلة الانحراف وفقدان السياق في المهام الطويلة كانت قيدًا كبيرًا في الـ Agents. تحسين theory-of-mind يعني قدرة أفضل على التمييز بين ما يهم المستخدم النهائي وما هو جزء من عملية البناء الداخلية.",
+  "original_text": "One of the most subtle valuable things about Astra is that it maintains better theory-of-mind: you don't get nearly as many weird references in the final product to previous drafts or work you did during building, and there less drift as it runs long. Not perfect, but very good.",
+  "glossary": [
+   {
+    "term": "Theory-of-mind",
+    "ar": "القدرة على فهم ما يعرفه ويحتاجه الطرف الآخر"
+   },
+   {
+    "term": "Drift",
+    "ar": "انحراف تدريجي عن الهدف الأصلي"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي مستقل"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Astra",
+   "GPT-6"
+  ],
+  "change_types": [
+   "Model Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 422,
+   "replies": 13,
+   "reposts": 16,
+   "quotes": 2,
+   "bookmarks": 33,
+   "views": 18361
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt6_announcement",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1061",
+  "serial": 1061,
+  "serial_display": "#001061",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2095540014645920040",
+  "source_native_id": "2095540014645920040",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-09-03T15:50:47Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Runway تكشف عن GWM Worlds 2 لتوليد عوالم تفاعلية في الوقت الفعلي",
+  "arabic_summary": "شاركت Runway بحثها الجديد عن نموذج GWM Worlds 2، وهو General World Model يولد محاكاة تفاعلية في الوقت الفعلي بدقة 720p مستمرة وبمعدل 24 إطار بالثانية مع صوت 48000 Hz. النموذج يسمح بتحديد البيئة والأشخاص والأسلوب البصري والقوانين الفيزيائية والأجواء، ثم التحكم بها عبر أوامر نصية وحركة كاميرا مستمرة. الجلسات ليس لها طول محدد مسبقاً، والعالم يستمر من كل إدخال جديد.",
+  "detailed_explanation": "GWM Worlds 2 هو نموذج عالمي عام (General World Model) جديد من Runway، وهو تطور عن نموذج سابق. النموذج قادر على توليد محاكاة تفاعلية في الوقت الفعلي بجودة 720p مستمرة وبمعدل 24 إطار في الثانية (fps)، مع صوت عالي الدقة 48000 Hz.\n\nالنموذج مبني فوق نموذج توليد صوتي-بصري أساسي (foundational audio-visual generation model)، ويسمح للمستخدم بتحديد عناصر العالم: البيئة، الأشخاص، الأسلوب البصري، القوانين الفيزيائية، والأجواء العامة.\n\nالتفاعل يتم عبر أوامر نصية موجهة لأي شخص أو للمشهد ككل، بالإضافة إلى حركة كاميرا مستمرة. الميزة الفريدة أن العالم يستمر من كل إدخال جديد بدلاً من اتباع مقطع أو سيناريو ثابت، وبالتالي الجلسات ليس لها طول محدد مسبقاً.\n\nRunway تصف النموذج بأنه يخلق أساساً جديداً (new foundation) لأربعة مجالات: الترفيه التفاعلي، الشخصيات الافتراضية، الروبوتات، ومحاكاة embodied-agent.",
+  "why_it_matters": "يمثل أساساً جديداً للترفيه التفاعلي والشخصيات الافتراضية والروبوتات ومحاكاة الـ Agent المجسدة، مع قدرته على التفاعل المستمر دون سيناريو ثابت.",
+  "original_text": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates interactive real-time simulations in continuous 720p video at 24 fps with 48000 Hz audio.\n\nBuilt on top of our foundational audio-visual generation model, GWM Worlds 2 allows you to define the environment, subjects, visual style, physical rules and ambience of any world. Once inside, you steer it with text actions addressed to any subject or to the scene itself, alongside continuous camera motion.\n\nThe world continues from each new input instead of following a fixed clip or script so sessions have no preset length. GWM Worlds 2 creates a new foundation for interactive entertainment, virtual characters, robotics and embodied-agent simulation.\n\nLearn more about GWM Worlds 2 at the link below.",
+  "glossary": [
+   {
+    "term": "General World Model",
+    "ar": "نموذج عالمي عام — نموذج قادر على محاكاة بيئات وقوانين متنوعة"
+   },
+   {
+    "term": "Embodied-agent",
+    "ar": "وكيل مجسد — Agent يتفاعل مع بيئة محاكاة أو فيزيائية"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Runway",
+   "GWM Worlds 2"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 664,
+   "replies": 34,
+   "reposts": 92,
+   "quotes": 45,
+   "bookmarks": 297,
+   "views": 188422
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gwm_worlds_2",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1062",
+  "serial": 1062,
+  "serial_display": "#001062",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2095579601246314956",
+  "source_native_id": "2095579601246314956",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-03T18:28:05Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Martian تطلق AI Frontier: benchmark يثبت أن الجمع بين نماذج مختلفة يخفض الأخطاء 46%",
+  "arabic_summary": "Martian أطلقت AI Frontier، بحث يوضح أن Benchmarks التقليدية تختبر نموذجًا واحدًا مرة واحدة، ما يقلل من تقدير قدرات AI الفعلية. الفكرة: النماذج المختلفة تتخصص في مهام مختلفة، والتشغيل الواحد لا يعكس استقرار الأداء. الجمع بين نماذج مختلفة حسب المهمة خفض الأخطاء بنسبة 46% مقارنة بأفضل نموذج واحد عبر 16 Benchmark الأكثر استخدامًا (TerminalBench، LiveCodeBench، وغيرها).",
+  "detailed_explanation": "Martian أطلقت AI Frontier، بحث أكاديمي مُحكّم يكشف أن Benchmarks التقليدية التي تختبر نموذجًا واحدًا مرة واحدة تقلل من تقدير قدرات AI الفعلية بنسبة تصل إلى 82%. السبب:\n\n1. **النماذج المختلفة تتخصص في مهام مختلفة:** لا يوجد نموذج واحد يفوز في كل المهام، فكل نموذج له نقاط قوة محددة.\n2. **التشغيل الواحد لا يعكس استقرار الأداء:** اختبار نموذج مرة واحدة لا يكشف مدى استقرار حله للمشكلة نفسها عند تكرار المحاولة.\n\nالنتيجة الرئيسية: الجمع بين نماذج مختلفة حسب المهمة (بدلًا من الاعتماد على نموذج واحد) خفض الأخطاء بنسبة 46% عبر 16 Benchmark الأكثر استخدامًا، بما في ذلك TerminalBench وLiveCodeBench.\n\nAI Frontier يوفر لوحة تفاعلية تعرض جودة كل نموذج وتكلفته المقاسة واستقراره، لمساعدة المطورين على معرفة أين يتفوق كل نموذج، وأين يكون الجمع بين نموذجين أفضل من استخدام أي منهما بمفرده.\n\nالبحث يوفر موقعًا تفاعليًا وورقة أكاديمية.",
+  "why_it_matters": "يغيّر طريقة تقييم عزيز للنماذج: بدلًا من الاعتماد على Benchmark واحد لنموذج واحد، قد يكون الجمع بين نماذج مختلفة حسب المهمة أكثر كفاءة ودقة.",
+  "original_text": "Martian just launched AI Frontier, and the main finding…there’s no single best LLM.\n\nDifferent models win on different tasks. The dashboard maps quality, measured cost, and reliability so you can see where each one does best, and where combining two beats either alone.",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "قاعدة بيانات اختبار لقياس أداء النماذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 11,
+   "replies": 4,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 3248
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We got 46% fewer errors than the single best LLM across the 16 most used benchmarks (TerminalBench, LiveCodeBench, etc).\n\nHere's how that's possible and what each model can achieve when used optimally (every benchmarks misses the majority of model capabilities) 👇\n\nInteractive Site: https://t.co/6ZqljIhKBh\nAcademic Paper: https://t.co/AX7QEMtEF5"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "CodeByPoonam",
+    "url": "https://x.com/CodeByPoonam/status/2095575548600922196"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1063",
+  "serial": 1063,
+  "serial_display": "#001063",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2095470695446712790",
+  "source_native_id": "2095470695446712790",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-03T11:15:20Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "توضيح تقني: معمارية «العمق التكراري» في نموذج Astra ليست ثورية كما صُوِّرت",
+  "arabic_summary": "تقرير The Information ادّعى أن نموذج Astra من OpenAI يعتمد معمارية ثورية اسمها «العمق التكراري» أو «المحول الحلقي» تخفي سلسلة التفكير. لكن المنشور يوضح أن الفكرة معروفة منذ فترة ومستخدمة في مشاريع مفتوحة، وأن إعادة استخدام نفس الطبقات لا تخفي سلسلة التفكير، بل تضيف حسابات داخلية قبل توليد Token التالي.",
+  "detailed_explanation": "المنشور يعرض نقدًا تقنيًا لتقرير The Information حول معمارية نموذج Astra القادم من OpenAI. التقرير الأصلي وصف المعمارية بأنها ثورية واسمها «العمق التكراري» (Recursive Depth) أو «المحول الحلقي» (Looped Transformer)، والفكرة أن النموذج يمرر الحالة الداخلية على نفس مجموعة الطبقات عدة مرات قبل توليد Token التالي.\n\nلكن الكاتب يوضح أن هذه الفكرة ليست ثورية: هي تقنية معروفة من بحث Google السابق عن Mixture-of-Recursions في NeurIPS، وسبق استخدامها في مشاريع مفتوحة المصدر. ما أثار الجدل هو ادعاء التقرير أن المعمارية تخفي سلسلة التفكير، وهو ما حوّل الموضوع من نقاش تقني إلى قلق أمني.\n\nياكوب باخوتسكي رد علنًا ووصف التقرير بأنه مضلل، وسيباستيان راشكا وضح أن إعادة استخدام نفس الطبقات لا تخفي سلسلة التفكير، بل تضيف حسابات داخلية في الحالات الداخلية قبل توليد Token التالي، وهذا شيء النماذج العادية تفعله أصلًا داخل طبقاتها. الاحتمال الوحيد المنطقي هو أن النموذج قد يحتاج كتابة Tokens تفكير أقل لأن الحسابات الداخلية أكثر.",
+  "why_it_matters": "يصحّح فهمًا شائعًا حول معمارية نموذج قادم قد يؤثر على كيفية تقييم عزيز لقدراته وشفافيته مقارنة بالنماذج التي يستخدمها حاليًا.",
+  "original_text": "المعمارية «الثورية والخطيرة جدًا» لنموذج Astra الجديد طلعت كلام فاضي تقريبا 😅\n\nقبل كم يوم انتشر تقرير من The Information يقول إن نموذج OpenAI الجديد، واللي اسمه الرمزي Astra، مبني على معمارية ثورية اسمها:\n\n«العمق التكراري» أو «المحول الحلقي».\n\nالفكرة ببساطة:\n\nبدل ما النموذج يمر على مجموعة طبقات مختلفة مرة وحدة، يرجع يمرر الحالة الداخلية على نفس مجموعة الطبقات عدة مرات قبل ما يولد التوكن التالي.\n\nلكن اللي يتابع أبحاث تعلم الآلة يعرف إن الفكرة ماهي ثورية أصلًا.\n\nهي تقنية معروفة من فترة، وترجع لأفكار مثل بحث Google عن Mixture-of-Recursions في NeurIPS، وسبق استخدمتها مشاريع مفتوحة المصدر أكثر من مرة.\n\nلكن تقرير The Information رفع الموضوع لمستوى ثاني.\n\nلأنهم ما اكتفوا بالقول إن المعمارية جديدة، بل قالوا إنها تخفي سلسلة التفكير.\n\nيعني بدل ما النموذج يكتب خطوات تفكيره كنص، تصير هذي الحسابات داخلية وما يقدر الإنسان يشوفها.\n\nوهنا الموضوع تحول بسرعة من نقاش تقني إلى قصة عن مخاطر وأمان الذكاء الاصطناعي، وبدأ البعض يتهم OpenAI إنها تجاوزت خط خطير.\n\nلكن المشكلة إن هذا الكلام نفسه ماكان دقيق بالشكل اللي تم تقديمه.\n\nياكوب باخوتسكي اعترض علنًا وقال إن التقرير مضلل.\n\nوسيباستيان راشكا وضح إن مجرد إعادة استخدام نفس الطبقات ما تخفي سلسلة التفكير.\n\nهي فقط تضيف حسابات إضافية داخل الحالات الداخلية قبل ت",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة النص الأساسية التي يعالجها النموذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 36,
+   "replies": 4,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 24,
+   "views": 2713
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1064",
+  "serial": 1064,
+  "serial_display": "#001064",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2095706486701695370",
+  "source_native_id": "2095706486701695370",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-09-04T02:52:17Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GPT-6 في Codex يُنهي مرحلة نسخ الأخطاء يدويًا: فحص ذاتي متواصل حتى النجاح",
+  "arabic_summary": "يُقيّم Riley Brown تجربته مع GPT-6 في Codex بأنه نموذج «يفعل كل شيء» ولا يمكن تقييمه بالطرق التقليدية. النموذج يفحص عمله ذاتيًا بأخذ screenshots ويُصحّح حتى يرضى عن النتيجة، مُنهيًا مرحلة نسخ الأخطاء يدويًا. Codex أصبح يعرف تفضيلات المستخدم عبر Computer History ويُضيف تفاصيل تلقائيًا.",
+  "detailed_explanation": "التقييم من مطوّر يستخدم Codex بشكل مكثف، ويُسلّط الضوء على تحوّل نوعي في كيفية عمل النماذج داخل بيئات البرمجة.\n\n**التغيير الأساسي:**\nانتهت مرحلة «vibe coding» حيث كان المطور ينسخ رسالة الخطأ ويُعيدها للنموذج. GPT-6 الآن:\n- يفحص عمله ذاتيًا\n- يأخذ screenshots للتحقق من النتائج البصرية\n- يُصحّح نفسه حتى يرضى عن المخرجات\n- لا يحتاج تدخل المطور في كل خطوة\n\n**Computer History:**\nCodex يحتفظ بتاريخ استخدام الحاسوب، ما يعني:\n- يتعلّم تفضيلات المستخدم\n- يُضيف تفاصيل صغيرة للمشاريع بناءً على الأسلوب السابق\n- يُخصّص التجربة تلقائيًا\n\n**الأثر على المطورين:**\nالمُقيّم يعبّر عن شعور بـ «عدم الأهمية» — النموذج لم يعد يحتاج المطور ليكون حلقة الوصل بين الخطأ والحل. هذا تحوّل نفسي مهم: الأدوات لم تعد مساعدة بل مستقلة.\n\n**ملاحظة مهمة:**\nهذا التقييم متفائل جدًا ويأتي من مستخدم منبهر. يجب موازنته مع تقييم danshipper@ الذي أشار لميل النموذج للتعقيد الزائد.",
+  "why_it_matters": "تحوّل جذري في تجربة البرمجة بالـ AI: من مساعد يحتاج إشرافًا لكل خطوة إلى نظام ذاتي التصحيح يفهم السياق والتفضيلات الشخصية.",
+  "original_text": "It’s official. I’m not sure I can evaluate models like this any more. What am I going to do? find the edges of its capabilities? LMAO! I don’t even know how I would begin to do that. \n\nFrom my perspective… this model can just DO EVERYTHING. \n\nThat little phase of vibe coding where we would copy and paste the error back into the prompt box is done. I miss it, it made me feel seen. Like I mattered. \n\nGPT6 is always checking its own work taking screenshots evaluating itself until it’s satisfied with the result. \n\nAdditionally, Codex has computer history and already knows my preferences… it’ll add little things my projects based on my preferences. It’s truly a remarkable experience.\n\nIm speechless.",
+  "glossary": [
+   {
+    "term": "vibe coding",
+    "ar": "أسلوب برمجة يعتمد على الحدس والتجربة مع نسخ الأخطاء يدويًا"
+   },
+   {
+    "term": "Computer History",
+    "ar": "سجل استخدام الحاسوب الذي يحتفظ به النموذج"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Codex"
+  ],
+  "change_types": [
+   "Model Update",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 370,
+   "replies": 35,
+   "reposts": 16,
+   "quotes": 2,
+   "bookmarks": 49,
+   "views": 24062
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "astra_release",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1065",
+  "serial": 1065,
+  "serial_display": "#001065",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095601539066777748",
+  "source_native_id": "2095601539066777748",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-03T19:55:15Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "موليك يعلن تجربته المبكرة مع GPT-6: قادر على عمل معرفي مستقل لأيام",
+  "arabic_summary": "حصل إيثان موليك على وصول مبكر لـ GPT-6 (Astra على الأرجح)، ويصفه بأنه \"مذهل\" وقادر على أداء عمل معرفي معقد ذي معنى بشكل مستقل لأيام متواصلة. كمثال ترفيهي، أنتج النموذج محاكاة تاريخية لمكتبة الإسكندرية. موليك يعد بمنشور أطول قادم.",
+  "detailed_explanation": "إيثان موليك، أستاذ في Wharton وباحث بارز في تطبيقات الذكاء الاصطناعي، أعلن أنه حصل على وصول مبكر لما يسميه GPT-6 (يُرجح أنه نظام Astra من OpenAI أو نموذج متقدم آخر). وصفه للنموذج يركز على قدرته على أداء \"عمل معرفي معقد ذي معنى\" (complex meaningful work) بشكل مستقل لأيام.\n\nهذا يمثل تحولًا من النماذج التي تحتاج توجيهًا مستمرًا أو تنفذ مهام محدودة، إلى أنظمة قادرة على إدارة مشاريع ممتدة زمنيًا. موليك لم يقدم تفاصيل تقنية في هذا المنشور، لكنه أشار إلى أن منشورًا أطول قادم.\n\nالمثال الذي قدمه (محاكاة مكتبة الإسكندرية) هو مثال ترفيهي لإظهار القدرات، لكن تأكيده على استخدام النموذج لعمل حقيقي على مدى أيام يشير إلى تطبيقات عملية جادة.\n\nهذا الإعلان مهم لأنه يأتي من باحث موثوق له سجل في اختبار النماذج بشكل نقدي، ويشير إلى أن الجيل القادم من النماذج قد يغيّر طبيعة التفاعل معها من \"مساعد يحتاج إشرافًا\" إلى \"زميل يمكن تفويض مشاريع إليه\".",
+  "why_it_matters": "إشارة مبكرة إلى قفزة نوعية في قدرة النماذج على العمل المستقل الممتد: من إنجاز مهام محددة إلى إدارة مشاريع معقدة على مدى أيام دون تدخل بشري.",
+  "original_text": "I had early access, and a longer post is coming, but GPT-6 is stunning & is good enough that it actually does complex meaningful work for me autonomously for days.\n\nAs a more fun example, it made a historically-based simulation of the Library of Alexandria: https://t.co/6cUlATHWxC",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي مستقل"
+   },
+   {
+    "term": "meaningful work",
+    "ar": "عمل ذو معنى أو قيمة حقيقية"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "GPT-6",
+   "Astra",
+   "OpenAI"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 1122,
+   "replies": 44,
+   "reposts": 84,
+   "quotes": 12,
+   "bookmarks": 315,
+   "views": 70760
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt6_announcement",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1066",
+  "serial": 1066,
+  "serial_display": "#001066",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095645030941630763",
+  "source_native_id": "2095645030941630763",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-03T22:48:05Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "النموذج الذهني لاستخدام Fable وAstra: التفويض لفريق خبير لا لمتدرّب",
+  "arabic_summary": "ينصح موليك بتغيير الطريقة التي نتعامل بها مع نماذج من فئة Fable وAstra: يجب معاملتها كفريق خارجي محترف نفوّض إليه المهام، وليس كمتدرّب مبتدئ. هذا يعني توضيح الأهداف ودرجة الحرية المسموحة، تحديد ما يجب اختباره ومتى يُرجع للمستخدم، ووصف معايير الجودة.",
+  "detailed_explanation": "موليك يقدّم إطار عمل لاستخدام النماذج المتقدمة مثل Fable وAstra: بدلاً من التعامل معها كأدوات تنفّذ أوامر بسيطة أو كمتدرّبين يحتاجون توجيهًا مستمرًا، يجب التعامل معها كفريق خارجي ذي خبرة يُفوَّض إليه العمل.\n\nهذا التحول يتطلب من المستخدم:\n١. توضيح الهدف النهائي وليس الخطوات التفصيلية\n٢. تحديد درجة الحرية المسموحة للنموذج في اتخاذ القرارات\n٣. تحديد ما يحتاج اختباره والتأكد منه\n٤. توضيح متى يجب الرجوع للمستخدم لطلب المساعدة\n٥. وصف معايير الجودة وما يعنيه \"العمل الجيد\" في السياق المحدد\n\nهذا النموذج الذهني مهم لأنه يعكس القدرات الجديدة للنماذج: لم تعد محدودة بتنفيذ تعليمات فورية، بل قادرة على التخطيط وإدارة مهام ممتدة. لكن هذا يتطلب من المستخدم مهارات إدارة وتفويض أكثر من مهارات كتابة تعليمات تفصيلية.",
+  "why_it_matters": "تحوّل أساسي في كيفية استخدام الـ Agents: من إعطاء تعليمات تفصيلية خطوة بخطوة، إلى تحديد الأهداف والمعايير وترك مساحة للنموذج. هذا يتطلب مهارات مختلفة في الـ prompting والإدارة.",
+  "original_text": "The mental model for Fable and Astra class models is that you are delegating to a good outside team, not an intern.\n\nCan you say what you want &amp; how much leeway the AI has? Can you specify what you want tested &amp; when to come to you for help? Can you describe what good looks like?",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي مستقل"
+   },
+   {
+    "term": "Prompting",
+    "ar": "كتابة التعليمات للنموذج"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Fable",
+   "Astra",
+   "GPT-6"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 446,
+   "replies": 20,
+   "reposts": 19,
+   "quotes": 3,
+   "bookmarks": 128,
+   "views": 21840
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1067",
+  "serial": 1067,
+  "serial_display": "#001067",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2095402662963646748",
+  "source_native_id": "2095402662963646748",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-03T06:45:00Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تنشر دليل Prompt لإزالة الأسلوب المميز لـ Claude (de-flavoring) في Fable 5.1",
+  "arabic_summary": "نشرت Anthropic دليلًا رسميًا لكتابة Prompt يزيل الأسلوب المميز لـ Claude (مثل النبرة الرسمية الزائدة والمصطلحات المصطنعة) من مخرجاته. Fable 5.1 يقلل هذه السمات أصلًا، لكن الـ prompt يتيح مزيدًا من التحكم في النبرة والأسلوب.",
+  "detailed_explanation": "من المشاكل الشائعة في مخرجات النماذج الكبيرة ظهور «أسلوب مميز» يجعل النص يبدو آليًا أو مصطنعًا. في حالة Claude، كان ذلك يظهر في:\n- نبرة رسمية زائدة\n- استخدام مصطلحات عامة وفارغة\n- تكرار عبارات معينة\n\nFable 5.1 قلل من هذه السمات أصلًا مقارنة بالإصدارات السابقة، لكن Anthropic أصدرت الآن دليلًا رسميًا لكتابة Prompt يتيح للمطوّر إزالة هذه السمات بشكل أكبر، والحصول على نصوص تبدو أقرب للكتابة البشرية الطبيعية.\n\nالـ prompt يتضمن تعليمات محددة للنموذج حول:\n- تجنب عبارات معينة\n- استخدام نبرة أكثر مباشرة\n- التركيز على المحتوى لا على الشكل\n\nهذا مفيد في:\n- تطبيقات الكتابة والمحتوى\n- روبوتات الدردشة التي تحتاج لنبرة طبيعية\n- توليد نصوص تسويقية أو تواصل عملاء\n\nوجود Prompt رسمي من Anthropic يعني أن المطوّرين لن يحتاجوا لتجربة صيغ مختلفة بأنفسهم، بل يمكنهم البدء من نموذج موثوق.",
+  "why_it_matters": "التحكم في أسلوب مخرجات النموذج مهم لمن يبني تطبيقات تواجه المستخدمين، ووجود Prompt رسمي من Anthropic يوفر نقطة بداية موثوقة.",
+  "original_text": "Anthropic published a new guide on how to strip the \"Claude\" out of Claude's writing (e.g. mannered prose)\n\nHere's an official de-flavoring prompt for Fable 5.1, which already cuts back on AI boilerplate/jargon:\n\nhttps://t.co/yfpWUtdT8h https://t.co/RT4Z6FzK8V",
+  "glossary": [
+   {
+    "term": "De-flavoring",
+    "ar": "إزالة الأسلوب المميز للنموذج، للحصول على نصوص أقرب للكتابة البشرية الطبيعية"
+   },
+   {
+    "term": "Prompt",
+    "ar": "التعليمات أو المدخلات التي تُعطى للنموذج لتوجيه سلوكه ومخرجاته"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1610,
+   "replies": 73,
+   "reposts": 102,
+   "quotes": 25,
+   "bookmarks": 2830,
+   "views": 156619
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [
+   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1"
+  ],
+  "quoted": null,
+  "cluster_id": "claude_5_1",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1068",
+  "serial": 1068,
+  "serial_display": "#001068",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2095573248645698024",
+  "source_native_id": "2095573248645698024",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-03T18:02:51Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain تتيح للوكلاء الدفع مقابل الخدمات تلقائيًا أثناء العمل عبر شراكة مع Nevermined",
+  "arabic_summary": "أعلنت LangChain عن شراكة مع Nevermined تتيح لوكلاء الذكاء الاصطناعي شراء الأدوات والخدمات التي تحتاجها أثناء تنفيذ المهام، دون تدخل بشري. يمكن للمطوّر تفويض بطاقة دفع للوكيل وتحديد حدود الإنفاق، ويتمكن الوكيل من شراء الأرصدة والدفع مقابل الأدوات بنفسه. كل عملية شراء قابلة للتتبع في LangSmith.",
+  "detailed_explanation": "الشراكة بين LangChain وNevermined تركّز على سدّ فجوة مهمة في بناء الوكلاء: القدرة على اتخاذ قرارات شراء أثناء التنفيذ دون إيقاف العمل. الفكرة أن الوكيل لا يحتاج إلى موافقة بشرية كل مرة يحتاج فيها إلى خدمة مدفوعة (مثل API خارجية أو أداة تحليل).\n\nالآلية تعتمد على تفويض المطوّر لبطاقة دفع أو حساب رقمي للوكيل، مع تحديد حدود الإنفاق والسياسات. عند الحاجة لأداة، يشتريها الوكيل، ويوثّق العملية في LangSmith، ما يتيح مراجعة كل عملية شراء وتقييم ما إذا كانت ضرورية أو مبالغًا فيها.\n\nهذا النموذج يفتح المجال لوكلاء أكثر استقلالية في بيئات العمل، لكنه يتطلب بنية تحتية قوية لمراقبة التكاليف والتدقيق، وهو ما توفره LangSmith في هذه الحالة. التطبيق عملي في سيناريوهات مثل وكلاء البحث أو التحليل التي تحتاج لمصادر بيانات متعددة أثناء العمل.",
+  "why_it_matters": "تتجاوز هذه الخطوة مجرد السماح للوكيل بالدفع، إلى بناء آلية محاسبة وتدقيق للتكاليف خلال دورة عمل الوكيل، ما يمهّد لاستقلالية أعلى في أنظمة الوكلاء التجارية.",
+  "original_text": "New cookbook with @Nevermined_AI:\n✅ Let your agents pay for what they need mid-task, no human required\n✅ Delegate your card, and set limits\n✅ Let your agent buy credits, top itself up, and pay for the tools it uses\n✅ Every purchase, traceable in LangSmith\n\nLearn more: https://t.co/4YjlvAwqv2",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي قادر على اتخاذ قرارات وتنفيذ مهام بشكل مستقل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "Nevermined",
+   "LangSmith"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 11,
+   "replies": 3,
+   "reposts": 4,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 5572
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1069",
+  "serial": 1069,
+  "serial_display": "#001069",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2095571583440191766",
+  "source_native_id": "2095571583440191766",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-09-03T17:56:13Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تسريب داخل Codex يكشف ترقية قادمة لتوليد الصور بجودة وسرعة أعلى",
+  "arabic_summary": "ظهر داخل Codex إعلان مخفي عن ترقية كبيرة لتوليد الصور، تَعِد بجودة أعلى وسرعة توليد أسرع وأدوات إبداعية أذكى. داخل Codex قد يعني هذا إنشاء صور المواقع والتطبيقات وتعديلها ضمن المشروع. تزامن التسريب مع ظهور نموذج صور جديد في اختبارات Image Arena. الميزة مقفلة حاليًا وظهرت فقط بإجبار الواجهة.",
+  "detailed_explanation": "التسريب يكشف وجود إعلان داخلي في Codex عن ترقية قادمة لنظام توليد الصور.\n\nالوعود:\n- جودة أعلى\n- توليد أسرع\n- أدوات إبداعية أذكى\n\nداخل Codex تحديدًا: القدرة على إنشاء صور المواقع والتطبيقات (مثل شعارات، أيقونات، صور خلفيات) وتعديلها ضمن سير العمل نفسه، دون الحاجة للخروج لأداة منفصلة.\n\nالدلائل: ظهر نموذج صور جديد في Image Arena (منصة مقارنة نماذج الصور) بالتزامن مع التسريب.\n\nالحالة الحالية: الميزة مقفلة للجميع، والنافذة ظهرت فقط بعد إجبار الواجهة على عرضها.\n\nالاسم (GPT Image 2.5): مجرد توقّع لأن النافذة لا تعرض اسم النموذج، ولا يوجد تأكيد رسمي من OpenAI.\n\nبالنسبة لعزيز: تحسين توليد الصور داخل Codex يعني سرعة أكبر في بناء الواجهات والأصول البصرية، وقد يُقلل الاعتماد على أدوات خارجية مثل Midjourney أو DALL·E منفصلًا.",
+  "why_it_matters": "تحسين توليد الصور داخل Codex يعني قدرة أسرع على إنتاج واجهات مرئية وأصول بصرية للمشاريع، ما يُسرّع التطوير ويقلل الاعتماد على أدوات خارجية.",
+  "original_text": "🎨 انكشف داخل Codex إعلان مخفي عن ترقية كبيرة قادمة لتوليد الصور\n\n⚡ الإعلان يوعد بجودة أعلى وتوليد أسرع وأدوات إبداعية أذكى\n\n🧩 داخل Codex هذا قد يعني إنشاء صوو المواقع والتطبيقات وتعديلها بسرعة ضمن نفس المشروع\n\n🧪 وبحسب التسريبات فيه نموذج صور جديد ظهر في اختبارات Image Arena بالتزامن مع الإعلان\n\n🔒 الميزة ما زالت مقفلة للجميع والنافذة ظهرت فقط بعد إجبار الواجهة على عرضها\n\n⚠️ اسم GPT Image 2.5 مجرد توقع لأن النافذة ما تعرض اسم النموذج وما فيه تأكيد رسمي من OpenAI",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex",
+   "OpenAI"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 9,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 2758
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1070",
+  "serial": 1070,
+  "serial_display": "#001070",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2095717185200988439",
+  "source_native_id": "2095717185200988439",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-04T03:34:48Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Astra يفشل في إنتاج أبحاث ريادية ذات ذوق علمي رغم القدرة التقنية",
+  "arabic_summary": "أجرى إيثان موليك تجربة طلب فيها من Astra إجراء بحث ريادي أصلي باستخدام مجموعات بيانات متاحة عبر الإنترنت مع تسجيل الفرضيات مسبقًا. النتيجة كانت أوراقًا بحثية منسّقة بشكل جميل وصحيحة تقنيًا، لكنها تناولت موضوعات مملة. الخلاصة: الـ Agent يفتقر إلى \"الذوق البحثي\" في اختيار المواضيع المهمة.",
+  "detailed_explanation": "التجربة استهدفت اختبار قدرة Astra على إجراء بحث علمي مستقل في ريادة الأعمال، بما في ذلك تحديد الفرضيات وإيجاد البيانات المناسبة. النموذج نجح في الجوانب الإجرائية: وجد البيانات، صاغ الفرضيات، أنتج أوراقًا بحثية بتنسيق احترافي وصحيحة من الناحية التقنية.\n\nلكن المشكلة ظهرت في اختيار المواضيع البحثية نفسها — كانت مملة وغير مهمة. هذا يعني أن النموذج يفتقد ما يسميه موليك \"research taste\" أو الذوق البحثي: القدرة على التمييز بين السؤال المهم والسؤال التافه، بين المشكلة التي تستحق الجهد والمشكلة الروتينية.\n\nهذا القيد مهم لأن العمل المعرفي الحقيقي لا يقتصر على التنفيذ، بل يتطلب حكمًا على ما يستحق التنفيذ أصلًا. الـ Agent هنا يشبه باحثًا يجيد استخدام الأدوات لكنه لا يعرف أي أسئلة تستحق الطرح.",
+  "why_it_matters": "يكشف قيدًا حاسمًا في الـ Agents المستقلة: القدرة على التنفيذ التقني لا تعني القدرة على اتخاذ قرارات حول ما يستحق العمل عليه، وهو عنصر جوهري في العمل المعرفي.",
+  "original_text": "An interesting failure of Astra: I asked it to conduct  original entrepreneurship research with whatever online datasets it could find, pre-registering its hypotheses. It churned out a lot of beautifully formatted, technically correct papers on boring topics. No research taste. https://t.co/f3uV2eUGQj",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي يعمل بشكل مستقل"
+   },
+   {
+    "term": "research taste",
+    "ar": "الذوق أو الحكم البحثي"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Astra"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 90,
+   "replies": 14,
+   "reposts": 3,
+   "quotes": 1,
+   "bookmarks": 13,
+   "views": 7432
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1071",
+  "serial": 1071,
+  "serial_display": "#001071",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2095593682871394409",
+  "source_native_id": "2095593682871394409",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-03T19:24:02Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج Gemini 3.8 Flash من Google AI متاح الآن في GitHub Copilot",
+  "arabic_summary": "أعلنت GitHub عن توفر نموذج Gemini 3.8 Flash من Google AI في GitHub Copilot. الاختبارات الأولية أظهرت أداءً قوياً في مهام البرمجة المعقدة عبر الطرفية (terminal)، مع قدرة على التحقق الصارم والتعافي المستمر من الأخطاء القابلة للإصلاح. النموذج متاح في تطبيق GitHub Copilot وواجهة سطر الأوامر وVS Code.",
+  "detailed_explanation": "GitHub أعلنت عن إتاحة نموذج Gemini 3.8 Flash من Google AI ضمن GitHub Copilot. هذا النموذج هو إضافة جديدة لمجموعة النماذج المتاحة في الأداة.\n\nبحسب الاختبارات الأولية التي أجرتها GitHub، أظهر النموذج أداءً قوياً في مهام البرمجة المعقدة التي تتم عبر الطرفية (terminal-based coding tasks). كما أظهر قدرة على التحقق الصارم (rigorous validation) والتعافي المستمر من الأخطاء القابلة للتصحيح (persistent recovery from actionable failures).\n\nالنموذج متاح للاستخدام في ثلاث واجهات: تطبيق GitHub Copilot، وواجهة سطر الأوامر CLI، وفي VS Code.\n\nهذا الإعلان يأتي ضمن استراتيجية GitHub في دعم نماذج متعددة، مما يمنح المطورين خيارات أوسع بحسب طبيعة مهامهم.",
+  "why_it_matters": "إضافة نموذج جديد إلى GitHub Copilot يوسع خيارات المطورين، خاصة إذا كان أداؤه متميزاً في مهام الطرفية والتعافي من الأخطاء.",
+  "original_text": "⚡️ @GoogleAI's Gemini 3.8 Flash is now available in GitHub Copilot. \n\nOur early testing shows:\n• it performed strongly on complex terminal-based coding tasks\n• it demonstrated rigorous validation and persistent recovery from actionable failures\n\nTry it out in the GitHub Copilot app, CLI, or @code.\nhttps://t.co/5pDArBUHQc",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "GitHub Copilot",
+   "Google AI",
+   "Gemini 3.8 Flash"
+  ],
+  "change_types": [
+   "New Integration",
+   "Model Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 265,
+   "replies": 14,
+   "reposts": 18,
+   "quotes": 2,
+   "bookmarks": 23,
+   "views": 42220
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini_38_flash_github",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1072",
+  "serial": 1072,
+  "serial_display": "#001072",
+  "source_type": "x",
+  "source_url": "https://x.com/perplexity_ai/status/2095546427384709366",
+  "source_native_id": "2095546427384709366",
+  "source_name": "Perplexity",
+  "source_site": "x.com",
+  "author": "perplexity_ai",
+  "published_at": "2026-09-03T16:16:16Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity تطلق Portable Computer على Linux لبطاقات NVIDIA RTX بذاكرة 24GB فأكثر",
+  "arabic_summary": "Perplexity أعلنت أن Portable Computer، النسخة المحلية بالكامل من Perplexity Computer، أصبحت متاحة على Linux لبطاقات NVIDIA RTX بذاكرة 24GB أو أكثر. النظام يشغل orchestrator LLM وsubagent LLM وAgent harness محليًا بدون أي اعتماد على السحابة.",
+  "detailed_explanation": "Perplexity أعلنت توفر Portable Computer على Linux لبطاقات NVIDIA RTX التي تحتوي على 24GB من ذاكرة VRAM أو أكثر. Portable Computer هي نسخة محلية بالكامل من Perplexity Computer، حيث يتم تشغيل orchestrator LLM (النموذج الذي يُدير المهام) وsubagent LLM (النموذج الفرعي) وAgent harness (بيئة تشغيل Agent) محليًا على الجهاز، بدون أي اعتماد على السحابة.\n\nهذا يعني أن المستخدم يمكنه تشغيل نظام Agent كامل على جهازه الخاص، ما يوفر خصوصية كاملة للبيانات وسيطرة تامة على العمليات، دون الحاجة إلى إرسال أي معلومات إلى خوادم خارجية.\n\nالمنشور يشير إلى أن الإعلان السابق كان عن إطلاق Portable Computer على NVIDIA DGX Spark، والإعلان الجديد يوسع التوفر إلى أنظمة Linux العادية التي تحتوي على بطاقات RTX مناسبة.",
+  "why_it_matters": "إذا كان عزيز يملك بطاقة NVIDIA RTX مناسبة، فهذا يتيح له تشغيل نظام Agent كامل محليًا دون اعتماد على السحابة، ما يوفر خصوصية أكبر وسيطرة كاملة.",
+  "original_text": "Portable Computer is now available on Linux for @NVIDIA RTX GPUs with 24GB of VRAM or higher.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي يؤدي مهام بشكل مستقل"
+   },
+   {
+    "term": "orchestrator LLM",
+    "ar": "النموذج الذي يُدير ويُنسّق المهام"
+   },
+   {
+    "term": "subagent",
+    "ar": "وكيل فرعي يؤدي مهمة محددة ضمن نظام أكبر"
+   },
+   {
+    "term": "VRAM",
+    "ar": "ذاكرة بطاقة الرسوميات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Ollama"
+  ],
+  "change_types": [
+   "New Release",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 462,
+   "replies": 22,
+   "reposts": 28,
+   "quotes": 5,
+   "bookmarks": 133,
+   "views": 93021
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Today we’re launching Portable Computer on @NVIDIA DGX Spark.\n\nPortable Computer is a fully local version of Perplexity Computer, where the entire runtime: orchestrator LLM, subagent LLM, agent harness all run on your local hardware. No cloud dependency. https://t.co/plVWz5PaAw"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1073",
+  "serial": 1073,
+  "serial_display": "#001073",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095556073830658106",
+  "source_native_id": "2095556073830658106",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-03T16:54:36Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Zite MCP تبني بنية التطبيقات الكاملة من قاعدة البيانات إلى الصلاحيات",
+  "arabic_summary": "Zite MCP أداة تربط مع Claude أو ChatGPT أو Cursor، وتبني البنية التحتية للتطبيق: قاعدة بيانات، تسجيل دخول، صلاحيات، ونشر. بدلاً من كتابة الكود فقط، المطور يطلب تطبيقًا والأداة تتولى كل ما يحتاجه ليشتغل مع الفريق. الشركة تقول إن الاستخدام بهذه الطريقة لا يستهلك Zite Credits.",
+  "detailed_explanation": "Zite MCP تشتغل مع أدوات كتابة الكود الذكية (Claude وChatGPT وCursor) وتتولى الطبقة التحتية اللي يحتاجها أي تطبيق فعلي: قاعدة بيانات، نظام تسجيل دخول، صلاحيات وأدوار المستخدمين، وسير العمل (workflows).\n\nالمطور يطلب من الأداة بناء تطبيق، وZite تنشئ البنية الكاملة بحيث التطبيق يطلع جاهزًا للاستخدام من أعضاء الفريق، كل واحد بصلاحياته الخاصة.\n\nالنقطة الملفتة أن الشركة تقول إن هذا الاستخدام لا يستهلك Zite Credits، مما يعني أن المطور يقدر يستفيد من البنية الكاملة دون تكلفة إضافية.\n\nهذا التوجه يعكس تحولًا في أدوات التطوير: من مجرد كتابة الكود إلى بناء تطبيقات كاملة جاهزة للنشر والاستخدام الفعلي.",
+  "why_it_matters": "تحل المشكلة الحقيقية بعد كتابة الكود: البنية التحتية والنشر. بدل ما المطور يقضي وقت في إعداد قواعد البيانات والصلاحيات، Zite تتولى الموضوع وتخلي التطبيق جاهزًا للاستخدام الفعلي مع الفريق.",
+  "original_text": "اشتراك Claude عندك ممكن يتحول إلى منصة كاملة لبناء التطبيقات!\n\nكتابة الكود صارت أسهل مع أدوات مثل Claude وChatGPT وCursor، لكن المشكلة الحقيقية تبدأ بعد الكود: قاعدة البيانات، تسجيل الدخول، الصلاحيات، سير العمل، ونشر التطبيق.\n\nهنا تجي Zite MCP.\n\nتربطها مع الأداة اللي تستخدمها، وتطلب منها بناء تطبيق، وZite تتولى البنية اللي يحتاجها التطبيق عشان يشتغل فعليًا مع فريقك.\n\nيعني التطبيق ممكن يطلع مباشرة ومعه قاعدة بيانات، حسابات دخول لأعضاء الفريق، وصلاحيات تحدد مين يشوف أو يستخدم كل جزء.\n\nوالملفت أكثر؟ الشركة تقول إن استخدام Zite بهذه الطريقة ما يستهلك أي Zite Credits.",
+  "glossary": [],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Zite",
+   "Claude",
+   "ChatGPT",
+   "Cursor"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 153,
+   "replies": 0,
+   "reposts": 17,
+   "quotes": 0,
+   "bookmarks": 141,
+   "views": 9794
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1074",
+  "serial": 1074,
+  "serial_display": "#001074",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2095592665031340512",
+  "source_native_id": "2095592665031340512",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-09-03T19:20:00Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Huawei تُدخل شرائح MPU الصينية إلى السعودية في ثلاثة مراكز بيانات",
+  "arabic_summary": "أعلنت Huawei عن توفير شرائح MPU الصينية في ثلاثة مراكز بيانات داخل السعودية، لتمكين تشغيل النماذج محليًا. الشركة تدرس توفير Token Packages للشركات الناشئة.",
+  "detailed_explanation": "Huawei أعلنت عن دخولها السوق السعودي بشرائح MPU (وحدات معالجة خاصة بالذكاء الاصطناعي) صينية الصنع، في ثلاثة مراكز بيانات.\n\nالهدف: تمكين الشركات والمطورين من تشغيل نماذجهم محليًا داخل السعودية، باستخدام عتاد صيني بدلًا من NVIDIA.\n\nالعرض الإضافي: Huawei تدرس توفير Token Packages — أي حزم استخدام مدفوعة مقدّمًا — موجّهة للشركات الناشئة، لتسهيل الوصول للبنية التحتية.\n\nالأثر المحتمل:\n- تنويع مصادر العتاد (خاصة مع قيود تصدير NVIDIA)\n- احتمال خفض التكلفة\n- لكن يبقى السؤال عن أداء الشرائح الصينية مقارنة بـ H100/A100، وعن دعم الأطر البرمجية الشائعة (PyTorch, TensorFlow).\n\nبالنسبة لعزيز: لو كان يخطط لتشغيل نماذج محلية أو بناء خدمات API محلية، هذا الخيار قد يكون بديلًا اقتصاديًا، لكن يحتاج تقييم الأداء والتوافقية أولًا.",
+  "why_it_matters": "يوفر بديلًا صينيًا لشرائح NVIDIA داخل السعودية، ويفتح خيارات جديدة لتشغيل النماذج محليًا بتكلفة قد تكون أقل، لكن يبقى الأثر مرهونًا بأداء الشرائح وتوافقها مع الأدوات الحالية.",
+  "original_text": "فيه لاعب صيني معضل في السعودية ما سمعنا منه!\n\nهواوي جابت الشريحة حقتها MPU في السعودية لثلاث مراكز بيانات ويقولون حنا موجودين وراح نعطيكم القدرة على تشغيل مودلاتكم بالسعودية بشرايح صينية!\n\nطلبت منهم توفير Token Packages للستارت ابز وجازت لهم الفكرة. https://t.co/4T0y5EKT8b",
+  "glossary": [
+   {
+    "term": "MPU",
+    "ar": "وحدة معالجة (Processing Unit) مخصصة للذكاء الاصطناعي"
+   },
+   {
+    "term": "Token Package",
+    "ar": "حزمة Token مدفوعة مقدّمًا لاستخدام النماذج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Huawei"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 61,
+   "replies": 3,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 51,
+   "views": 7021
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1075",
+  "serial": 1075,
+  "serial_display": "#001075",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2095690942942523544",
+  "source_native_id": "2095690942942523544",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-04T01:50:31Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Gemini Live يتصل الآن بـ Gmail وGoogle Keep وGoogle Docs مباشرة",
+  "arabic_summary": "Gemini Live صار قادرًا على الاتصال بخدمات Google Workspace (Gmail وGoogle Keep وGoogle Docs) أثناء المحادثة. المستخدم يقدر يسأله عن معلومة موجودة في بريده أو ملاحظاته أو مستنداته، ويستفيد منها مباشرة دون الحاجة لإعادة إدخالها. هذا يقرّب Gemini Live من فكرة المساعد الشخصي الذي يعرف سياق عملك.",
+  "detailed_explanation": "التحديث يضيف قدرة Gemini Live على الوصول إلى محتويات Gmail وGoogle Keep وGoogle Docs أثناء المحادثات الصوتية أو النصية. المستخدم يقدر يسأل عن تفاصيل في رسالة بريدية، أو يطلب من النموذج استرجاع ملاحظة سابقة، أو الاستفادة من محتوى مستند موجود.\n\nالفرق الأساسي أن النموذج ما عاد يشتغل في فراغ، بل يقدر يستعين بسياق العمل الفعلي للمستخدم. هذا يوفّر وقت النسخ واللصق، ويخلي التجربة أقرب للمساعد الشخصي الذي يعرف تفاصيل مشاريعك.\n\nالتحديث جزء من جهود Google لدمج Gemini في بيئة العمل اليومية وتحويله من أداة منفصلة إلى جزء من سير العمل داخل منظومة Google.",
+  "why_it_matters": "التكامل يحوّل Gemini Live من أداة محادثة عامة إلى مساعد يعرف محتويات عملك ويقدر يبني على معلوماتك الموجودة بدلاً من البدء من الصفر كل مرة. هذا يرفع القيمة العملية للأداة خصوصًا لمستخدمي Google Workspace.",
+  "original_text": "Gemini Live صار يفهم شغلك داخل خدمات Google 🔥\n\nتحديث مهم جدًا لـ Gemini Live: الآن يقدر يتصل بخدمات Google Workspace مثل Gmail وGoogle Keep وGoogle Docs.\n\nوش يعني هذا عمليًا؟\n\nبدل ما تتكلم مع Gemini بدون ما يعرف محتوياتك، يقدر يستفيد من المعلومات الموجودة في بريدك ومستنداتك وملاحظاتك أثناء المحادثة.\n\nمثلاً تسأله عن معلومة موجودة في إيميل، أو تخليه يرجع لملاحظة كتبتها في Keep، أو يستفيد من محتوى مستند عندك في Docs، وكل هذا وأنت تتحدث معه بشكل مباشر.\n\nوهذا يقرب Gemini Live أكثر من فكرة المساعد الشخصي الحقيقي اللي يعرف سياق أعمالك ومعلوماتك بدل ما تبدأ معه من الصفر كل مرة.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Gemini",
+   "Gemini Live",
+   "Google Workspace",
+   "Gmail",
+   "Google Keep",
+   "Google Docs"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 1213
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "CodeByPoonam",
+    "url": "https://x.com/CodeByPoonam/status/2095554602167132382"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1076",
+  "serial": 1076,
+  "serial_display": "#001076",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2095498043110150562",
+  "source_native_id": "2095498043110150562",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-03T13:04:00Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Plugin جديد Fable Advisor: تنسيق Fable 5.1 مع GPT-5.6 Luna داخل Claude Code",
+  "arabic_summary": "أطلق plugin يُدعى Fable Advisor يعمل داخل Claude Code، يعتمد على تقسيم المهام بين نموذجين: Fable 5.1 يتولى التنسيق والمراجعة، وGPT-5.6 Luna ينفّذ التطبيق الفعلي. الفكرة أن يحصل Luna على ذكاء Fable بتكلفة أقل عبر آلية تشبه الـ in-context distillation.",
+  "detailed_explanation": "المنشور يُعلن عن plugin يُسمّى Fable Advisor، مصمّم ليعمل داخل Claude Code، البيئة التطويرية التي يستخدمها عزيز.\n\nالآلية: Fable 5.1 يعمل كمنسّق (orchestrator)، يحدّد المهام ويراجع النتائج، بينما GPT-5.6 Luna يتولى التنفيذ الفعلي للكود. المنشور يصف هذا بـ «in-context distillation»، أي نقل ذكاء نموذج أكبر إلى نموذج أصغر/أرخص في سياق المحادثة، دون Fine-tuning.\n\nالفائدة المزعومة: الحصول على جودة Fable بجزء من تكلفته، لأن الجزء الأكبر من العمل يُنفَّذ بواسطة Luna.\n\nهذا يدخل ضمن بنية Agent متعدّدة النماذج، وهو نمط معماري قد يفيد عزيز عند بناء أنظمة تحتاج توزيع الأدوار بين نماذج حسب التكلفة والقدرات.",
+  "why_it_matters": "يعرض نموذجًا عمليًا لتوزيع الأدوار بين نماذج مختلفة داخل Claude Code، وقد يُفيد في تقليل تكلفة التشغيل عند بناء وكلاء معقدة.",
+  "original_text": "Fable Advisor plugin:\n\nFable 5.1 orchestrates, GPT-5.6 Luna does the work!",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة برمجية تعمل داخل تطبيق قائم لتوسيع قدراته"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي يؤدي مهاماً معقدة بشكل مستقل أو شبه مستقل"
+   },
+   {
+    "term": "in-context distillation",
+    "ar": "نقل قدرات نموذج كبير إلى نموذج أصغر عبر السياق دون إعادة تدريب"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Plugin",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Fable",
+   "GPT-5.6 Luna"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 6,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 1484
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Fable 5.1 orchestrates GPT-5.6 Luna agents.\n\nVia the 'fable-advisor' plugin for Claude Code.\n\n1. Fable 5.1 orchestrates\n2. GPT-5.6 Luna implements\n3. Fable 5.1 reviews\n\nThink of it like in-context distillation: give Luna the intelligence of Fable 5.1 at a fraction the cost."
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1077",
+  "serial": 1077,
+  "serial_display": "#001077",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenDesignHQ/status/2095722812468330709",
+  "source_native_id": "2095722812468330709",
+  "source_name": "OpenDesign",
+  "source_site": "x.com",
+  "author": "OpenDesignHQ",
+  "published_at": "2026-09-04T03:57:09Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Fable 5.1 متاح الآن في Open Design",
+  "arabic_summary": "أعلنت Open Design عن توفر نموذج Claude Fable 5.1 من Anthropic في منصتها. النموذج موصوف بأنه الأكثر قدرة المتاح عموماً من Anthropic، ومبني للأفكار الطموحة والعمل الطويل. متاح لمشتركي Pro وMax، مع عرض محدود: رصيد إضافي 20 دولار على Pro و100 دولار على Max.",
+  "detailed_explanation": "Open Design أعلنت عن دمج نموذج Claude Fable 5.1، وهو النموذج الأحدث والأكثر قدرة من Anthropic المتاح عموماً (generally available). النموذج موصوف بأنه مصمم للأفكار الطموحة والعمل الطويل الأمد، ما يشير إلى قدرته على التعامل مع سياقات كبيرة ومهام معقدة.\n\nالنموذج متاح لمشتركي الباقات Pro وMax في Open Design. وكجزء من الإطلاق، تقدم المنصة عرضاً محدود الوقت: رصيد استخدام إضافي بقيمة 20 دولار لمشتركي Pro و100 دولار لمشتركي Max.\n\nالمنشور يقتبس من إعلان Anthropic الرسمي الذي يصف Fable 5.1 وMythos 5.1 بأنهما \"الأكثر تقدماً في العالم\" للبرمجة والعمل المعرفي.",
+  "why_it_matters": "إتاحة أحدث نموذج من Anthropic في أداة Open Design يعني وصول المصممين إلى قدرات متقدمة في الكود والعمل المعرفي ضمن بيئة عملهم.",
+  "original_text": "Claude Fable 5.1 is now available in Open Design.\n\nAnthropic’s most capable generally available model, built for ambitious ideas and long-running work.\n\nIncluded with Pro &amp; Max. Limited time: $20 bonus usage on Pro, $100 on Max. https://t.co/1rNZIV8X07",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Open Design",
+   "Claude",
+   "Anthropic",
+   "Claude Fable 5.1"
+  ],
+  "change_types": [
+   "New Feature",
+   "Model Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 8,
+  "metrics": {
+   "likes": 0,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 214
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work. https://t.co/8P9PSrWPi3"
+  },
+  "cluster_id": "claude_fable_5_1",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1078",
+  "serial": 1078,
+  "serial_display": "#001078",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+  "source_native_id": "2095528012791902536",
+  "source_name": "Google DeepMind",
+  "source_site": "x.com",
+  "author": "GoogleDeepMind",
+  "published_at": "2026-09-03T15:03:05Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google DeepMind تطلق WeatherNext 3 لتوقعات الطقس عالية الدقة",
+  "arabic_summary": "أطلقت Google DeepMind بالتعاون مع Google Research نموذج WeatherNext 3 لتوقعات الطقس العالمية. النموذج يتعلم مباشرة من بيانات رصد واقعية وفورية ليقدم توقعات محلية عالية الدقة بسرعة أكبر. هذا تطور جوهري في كيفية التنبؤ بالطقس العالمي.",
+  "detailed_explanation": "WeatherNext 3 نموذج جديد من Google DeepMind طُوّر بالتعاون مع Google Research، ويمثل نقلة في مجال التنبؤ بالطقس. النموذج يعتمد على التعلم المباشر من ملاحظات العالم الحقيقي وفي الوقت الفعلي، بدلاً من الاعتماد الكامل على نماذج محاكاة تقليدية.\n\nالميزة الأساسية هي القدرة على تقديم توقعات محلية (high-resolution) لدرجات الحرارة والهطول المطري بدقة أعلى وسرعة أكبر. هذا يعني أن النموذج يستطيع التعامل مع تفاصيل جغرافية دقيقة ويقدم توقعات أسرع من الأنظمة التقليدية.\n\nالإعلان يصف النموذج بأنه \"major breakthrough\"، ما يشير إلى تحسن ملموس في الأداء مقارنة بالإصدارات السابقة أو الأنظمة المنافسة.",
+  "why_it_matters": "يمثل تقدماً في استخدام نماذج التعلم العميق للتنبؤ بالطقس من بيانات حية، مما يفتح المجال لتطبيقات مشابهة في مجالات أخرى تعتمد على بيانات زمنية.",
+  "original_text": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅\n\nDeveloped with @GoogleResearch, the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 https://t.co/iI8c6uEN4n",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Google DeepMind",
+   "Google Research",
+   "WeatherNext 3"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 91,
+  "metrics": {
+   "likes": 1035,
+   "replies": 113,
+   "reposts": 145,
+   "quotes": 41,
+   "bookmarks": 303,
+   "views": 407154
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "weather_next_3",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1079",
+  "serial": 1079,
+  "serial_display": "#001079",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2095547366611030233",
+  "source_native_id": "2095547366611030233",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-09-03T16:20:00Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "HUMAIN تُطلق Node: منصة سعودية تجمع نماذج محلية وعالمية في مكان واحد",
+  "arabic_summary": "أطلقت شركة HUMAIN السعودية منصة Node، تجمع نماذج سعودية وعالمية في واجهة موحدة. تشمل نموذج M3 المدرّب على تريليون Token عربي بالشراكة مع MiniMax الصينية. المنصة متاحة للأفراد والشركات والمطورين، مع إمكانية طلب وصول مبكر.",
+  "detailed_explanation": "HUMAIN، شركة سعودية، أطلقت منصة Node، وهي بمثابة OpenRouter سعودي: منصة تجمع نماذج متعددة (سعودية وعالمية) وتوفر وصولًا موحّدًا لها عبر API واحد.\n\nالنماذج المتاحة:\n- نماذج سعودية محلية\n- نماذج عالمية\n- نموذج M3: مدرّب على تريليون Token عربي، بالشراكة مع MiniMax (شركة صينية).\n\nالجمهور المستهدف:\n- أفراد\n- شركات\n- مطورين\n\nالإتاحة: المنصة متاحة للتسجيل وطلب وصول مبكر.\n\nبالنسبة لعزيز: Node يوفّر بديلاً محليًا لـ OpenRouter، ويسهّل تجربة نماذج عربية قوية (مثل M3) دون الحاجة لإعداد بنية تحتية منفصلة. كما يفتح المجال لمقارنة أداء النماذج السعودية بالعالمية في تطبيقات عربية.",
+  "why_it_matters": "توفر بديلاً سعوديًا لـ OpenRouter، وتسهّل الوصول لنماذج عربية ونماذج عالمية من واجهة واحدة، ما يُفيد المطورين والشركات السعودية في تجربة النماذج ومقارنتها.",
+  "original_text": "صار عندنا OpenRouter في السعودية!\n\nواحد من أهم منتجات هيومين @HUMAIN الجديدة منتج إسمه Node وهو مكان واحد فيه مودلات سعودية وعالمية... جدًا عظيم وجربته بنفسي.. خرافي!\n\nايضًا جا معاه مودل M3 الرهيب اللي مدرب على ترليون توكن عربي بالشراكة مع شركة @MiniMax_AI وجربته وكان خرررافي!\n\nالمنصة متاحة اليوم للجميع، افراد او شركات او مطورين... سجل حساب واطلب وصول مبكر.",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة النص التي يعالجها النموذج (كلمة أو جزء منها)"
+   },
+   {
+    "term": "API",
+    "ar": "واجهة برمجية تتيح للمطورين استدعاء خدمات النموذج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK",
+   "تطبيق"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "HUMAIN",
+   "MiniMax"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 138,
+   "replies": 8,
+   "reposts": 12,
+   "quotes": 3,
+   "bookmarks": 112,
+   "views": 35470
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1080",
+  "serial": 1080,
+  "serial_display": "#001080",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2095518541655036325",
+  "source_native_id": "2095518541655036325",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-03T14:25:27Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "قاعدة في تقييم الوكلاء: لا تستخدم نفس عائلة النموذج للوكيل والمُقيّم",
+  "arabic_summary": "ينصح Connor Heggie من Unify بعدم استخدام نفس عائلة النموذج (مثل GPT) لتشغيل الوكيل وتقييم مخرجاته. السبب: استخدام نفس العائلة يؤدي إلى انهيار الوضع (mode collapse) أو ما يشبه التفكير الجماعي بين الوكلاء.",
+  "detailed_explanation": "النصيحة من Connor Heggie بسيطة لكنها مهمة: إذا كان الوكيل يعمل بنموذج من عائلة GPT، فلا تجعل النموذج الذي يُقيّم مخرجاته من نفس العائلة. استخدم مثلًا Claude أو Gemini.\n\nالسبب وراء ذلك هو أن النماذج من نفس العائلة تشترك في أنماط تدريب ومعمارية متشابهة، ما يجعلها تميل إلى نفس الأخطاء أو التحيزات. عند تقييم مخرجات الوكيل بنموذج مختلف، تحصل على رأي «خارجي» أقرب للحياد، ويقلل من احتمال أن يوافق المُقيّم على مخرج خاطئ لمجرد أنه يشبه ما كان سينتجه هو.\n\nهذا المبدأ ينطبق على اختبار الوكلاء، وتقييم جودة الـ prompts، وحتى بناء أنظمة تحكيم (judge) لمخرجات الوكلاء. في بيئات الإنتاج، قد يعني ذلك تكلفة إضافية، لكنه يرفع من موثوقية التقييم.",
+  "why_it_matters": "تحسين جودة تقييم الوكلاء يعتمد على تنوّع النماذج، وهذه نصيحة عملية لمن يبني أنظمة تقييم أو اختبار لوكلاء الذكاء الاصطناعي.",
+  "original_text": ".@HeggieConnor's rule at @unifygtm: if the agent runs on GPT, the judge grading it needs to run on a different model family.\n\nChoose the same family and you get mode collapse, or what is essentially groupthink for agents. https://t.co/uFmTKU3JOk",
+  "glossary": [
+   {
+    "term": "Mode collapse",
+    "ar": "انهيار الوضع، حالة تفقد فيها النماذج التنوع وتميل لإنتاج مخرجات متشابهة"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Unify",
+   "Connor Heggie"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 19,
+   "replies": 5,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 6479
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1081",
+  "serial": 1081,
+  "serial_display": "#001081",
+  "source_type": "x",
+  "source_url": "https://x.com/trq212/status/2095653053282292013",
+  "source_native_id": "2095653053282292013",
+  "source_name": "Thariq is on vacation",
+  "source_site": "x.com",
+  "author": "trq212",
+  "published_at": "2026-09-03T23:19:57Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يختبر Function Hooks لتخصيص سلوك الأداة",
+  "arabic_summary": "فريق Claude Code يستكشف طريقة جديدة لتمكين المستخدمين من تخصيص وتوسيع الأداة عبر Function Hooks. الميزة لم تُطلق بعد، والفريق يطلب ملاحظات المستخدمين عبر GitHub issue. الفيديوهات المرفقة تشرح الإمكانيات المتوقعة.",
+  "detailed_explanation": "Claude Code يستكشف إضافة Function Hooks، وهي آلية تسمح للمطورين بتوسيع وتخصيص سلوك الأداة. الفكرة أن المطور يقدر يكتب دوال (functions) تتدخل في سير عمل الأداة أو تضيف سلوكيات جديدة.\n\nالميزة لم تُطلق بعد، والفريق يعرض فيديوهات توضيحية ويطلب ملاحظات المجتمع عبر GitHub issue. هذا يعني أن التصميم النهائي ما زال مفتوحًا للتعديل بناءً على احتياجات المستخدمين.\n\nالتوجه نحو جعل الأداة أكثر قابلية للتخصيص (hackable) يعكس استجابة Anthropic لطلبات المطورين الذين يريدون أدوات مرنة تتكيف مع سير عملهم الخاص بدلاً من فرض طريقة واحدة للعمل.",
+  "why_it_matters": "Function Hooks تفتح المجال لتخصيص سلوك Claude Code بحسب احتياجات كل مطور، وتحوّل الأداة من منتج مغلق إلى منصة قابلة للتوسيع. هذا يقرّبها من نموذج الأدوات القابلة للتعديل (hackable tools).",
+  "original_text": "We’re working on making Claude Code way more hackable, give us feedback!",
+  "glossary": [
+   {
+    "term": "Function Hooks",
+    "ar": "دوال خُطَّافية تسمح بتخصيص سلوك البرنامج عند نقاط معينة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic",
+   "GitHub"
+  ],
+  "change_types": [
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 285,
+   "replies": 107,
+   "reposts": 6,
+   "quotes": 6,
+   "bookmarks": 58,
+   "views": 56910
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We're exploring a new way to let you extend and customize Claude Code: Function Hooks.\n\nHere's a couple videos showing what you'd be able to do. It hasn't shipped yet, we'd love feedback on this on our GitHub issue. https://t.co/0F3kBO3kjl"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1082",
+  "serial": 1082,
+  "serial_display": "#001082",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2095375722244432329",
+  "source_native_id": "2095375722244432329",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-03T04:57:57Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Anthropic تطلق أداة رسمية للكشف عن العلامات المائية في محتوى Claude",
+  "arabic_summary": "أطلقت Anthropic أداة رسمية للكشف عن العلامات المائية (watermark) في الملفات المنتجة بالذكاء الاصطناعي Claude. الأداة متاحة عبر الرابط claude.com/check-files وتعمل مع الصور والفيديو، لكنها لا تشمل ملفات PDF أو Word.",
+  "detailed_explanation": "Anthropic أطلقت أداة رسمية للكشف عن العلامات المائية في المحتوى المنتج بنماذج Claude. الأداة متاحة مباشرة عبر الرابط claude.com/check-files.\n\nالأداة تعمل مع نوعين من الملفات: الصور والفيديو. لكنها لا تدعم حالياً ملفات PDF ولا مستندات Word، وهو ما أثار تساؤل المغرّد.\n\nهذه الأداة جزء من جهود Anthropic في الشفافية والمسؤولية، حيث تساعد المستخدمين والمنظمات على التحقق مما إذا كان محتوى معين منتجاً بواسطة نماذجها.\n\nالعلامات المائية (watermarking) تقنية تُضمَّن في المحتوى المنتج لتتبع مصدره دون أن تكون مرئية بالضرورة.",
+  "why_it_matters": "توفر وسيلة رسمية للتحقق من مصدر المحتوى المرئي المنتج بواسطة Claude، وهو مهم للشفافية والحد من إساءة الاستخدام.",
+  "original_text": "وصل....\n\nورسمي من Anthropic ... كاشف العلامات المائية في الملفات المنتجة بالذكاء الاصطناعي Claude\n\nhttps://t.co/74DptoBziu\n\nولكن لا يشمل PDF ولا word🤔 ... تعمل مع الصور والفيديو https://t.co/IBT7GiREQx",
+  "glossary": [
+   {
+    "term": "Watermark",
+    "ar": "علامة مائية — بيانات مضمّنة في محتوى رقمي لتتبع مصدره"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 119,
+   "replies": 3,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 115,
+   "views": 12283
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [
+   "https://claude.com/check-files"
+  ],
+  "quoted": null,
+  "cluster_id": "claude_watermark_checker",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1083",
+  "serial": 1083,
+  "serial_display": "#001083",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2095460192871698728",
+  "source_native_id": "2095460192871698728",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-09-03T10:33:36Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill باسم /show-me يُسهّل قراءة وصف Pull Requests بأدوات عرض للكود",
+  "arabic_summary": "أطلق dexhorthy@ سكيل /show-me يوفر مجموعة أدوات لعرض الكود بطرق مرئية واضحة. السكيل يُحسّن بشكل ملحوظ قراءة أوصاف Pull Requests ويجعلها أسهل فهمًا، وهو متاح على GitHub في مستودع humanlayer/skills.",
+  "detailed_explanation": "السكيل /show-me يعمل كـ «صندوق أدوات» يحتوي طرقًا متعددة لعرض الكود بشكل مرئي وواضح. بدلًا من قراءة diff نصي تقليدي في Pull Request، يوفر السكيل عروضًا بصرية تُسهّل فهم ما تغيّر ولماذا.\n\nالسكيل مفيد خاصة عند:\n- مراجعة Pull Requests كبيرة أو متعددة الملفات\n- شرح التغييرات للمراجعين غير المطلعين على السياق الكامل\n- توثيق القرارات التقنية بصريًا\n\nالملف متاح على GitHub تحت humanlayer/skills، ويمكن استخدامه مباشرة في سير العمل اليومي للمطورين.\n\nهذا مثال على Skills عملية تُحسّن workflow محدد بدلًا من إضافة قدرات عامة.",
+  "why_it_matters": "يُحسّن تجربة مراجعة الكود ويوفّر وقت المطورين في فهم التغييرات، خاصة في مشاريع كبيرة أو معقدة.",
+  "original_text": "/show-me is a phenomenal skill\n\nMakes PR descriptions extremely easy to read\n\nBasically a toolbox of \"nice ways to look at code\"\n\nNice work, @dexhorthy\n\nhttps://t.co/phB1dAPwgG",
+  "glossary": [
+   {
+    "term": "Pull Request",
+    "ar": "طلب دمج تغييرات في الكود"
+   },
+   {
+    "term": "diff",
+    "ar": "الفروقات بين نسختين من الكود"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 6017,
+   "replies": 65,
+   "reposts": 374,
+   "quotes": 16,
+   "bookmarks": 9284,
+   "views": 493093
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [
+   "https://github.com/humanlayer/skills/blob/main/plugins/show-me/skills/show-me/SKILL.md"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1084",
+  "serial": 1084,
+  "serial_display": "#001084",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2095530736723845330",
+  "source_native_id": "2095530736723845330",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "yousefrol",
+  "published_at": "2026-09-03T15:13:55Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "und",
+  "is_arabic_source": false,
+  "arabic_title": "عطل كبير يضرب ChatGPT وClaude وGrok، ومنصة Humain Node تعمل بشكل طبيعي",
+  "arabic_summary": "تعرّضت ChatGPT وClaude وGrok لعطل واسع، بينما بقيت منصة Humain Node السعودية تعمل دون مشاكل.",
+  "detailed_explanation": "في نفس الوقت، تعرّضت ثلاث منصات رئيسية لعطل كبير:\n- ChatGPT (OpenAI)\n- Claude (Anthropic)\n- Grok (X/xAI)\n\nبينما بقيت منصة Humain Node (السعودية) تعمل بشكل طبيعي.\n\nالدلالة:\n- يكشف العطل الواسع عن نقطة ضعف في الاعتماد على خدمات مركزية عالمية.\n- يُعزّز أهمية وجود بدائل محلية أو موزّعة، خاصة للشركات والمطورين الذين يعتمدون على النماذج في عملهم اليومي.\n- قد يدفع بعض المستخدمين لتنويع مصادر النماذج بدلًا من الاعتماد على مزود واحد.\n\nبالنسبة لعزيز: العطل يُذكّر بأهمية وجود خطة بديلة (Fallback) عند بناء تطبيقات تعتمد على نماذج خارجية، سواء بالتنويع بين مزودين أو بتوفير نموذج محلي احتياطي.",
+  "why_it_matters": "يُظهر هشاشة الاعتماد على خدمات مركزية، ويبرز أهمية وجود بدائل محلية أو موزّعة للحفاظ على استمرارية العمل.",
+  "original_text": "عطل كبير يجتاح الـAI\n\n🔴 ChatGPT\n🔴 Claude\n🔴 Grok\n🟩 Humain Node\n\nالسعودي يكسب 🤙",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "ChatGPT",
+   "Claude",
+   "Grok",
+   "HUMAIN"
+  ],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 142,
+   "replies": 25,
+   "reposts": 5,
+   "quotes": 5,
+   "bookmarks": 94,
+   "views": 54048
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1085",
+  "serial": 1085,
+  "serial_display": "#001085",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2095628499247915122",
+  "source_native_id": "2095628499247915122",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-09-03T21:42:23Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ChatGPT Site تتيح مشاركة المواقع بدعوات خاصة بدلًا من النشر العام",
+  "arabic_summary": "أطلقت OpenAI ميزة جديدة في ChatGPT Site تسمح بدعوة أشخاص محددين لمشاهدة الموقع بدلًا من مشاركته علنًا. الميزة تمنح المستخدم تحكمًا أفضل في من يصل إلى المواقع المولّدة.",
+  "detailed_explanation": "كانت ChatGPT Sites تتطلب سابقًا إما نشر الموقع بشكل علني أو إبقاءه خاصًا تمامًا. الميزة الجديدة تضيف خيارًا ثالثًا: الدعوة الانتقائية.\n\nهذا يعني أن المستخدم يمكنه توليد موقع باستخدام ChatGPT، ثم إرسال دعوات لأشخاص محددين (مثل أعضاء الفريق أو العملاء) لمشاهدة الموقع والتفاعل معه دون الحاجة لجعله متاحًا للبحث العام أو قابلًا للوصول من قِبل أي شخص يملك الرابط.\n\nالميزة مفيدة خاصة للمستخدمين الذين يبنون نماذج أولية (prototypes) أو مواقع داخلية أو عروضًا لعملاء محددين.",
+  "why_it_matters": "تحسّن خيارات الخصوصية للمستخدمين الذين يبنون مواقع بـ ChatGPT Sites ويريدون مشاركتها مع فريق أو عملاء دون نشرها للجميع.",
+  "original_text": "RT @simpsoka: You can now share your ChatGPT Site without sharing it with the world.\n\nInvite specific people to view your site while keepin…",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 39,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 6270
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1086",
+  "serial": 1086,
+  "serial_display": "#001086",
+  "source_type": "x",
+  "source_url": "https://x.com/SpaceXAI/status/2095597264043717014",
+  "source_native_id": "2095597264043717014",
+  "source_name": "SpaceXAI",
+  "source_site": "x.com",
+  "author": "SpaceXAI",
+  "published_at": "2026-09-03T19:38:16Z",
+  "fetched_at": "2026-09-04T04:34:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "SpaceX AI تعتذر عن انقطاع Grok بسبب عطل في مركز Memphis",
+  "arabic_summary": "أعلنت SpaceX AI عن اعتذارها لانقطاع خدمة Grok صباح اليوم بسبب عطل في مركز الحوسبة في Memphis. كما اعتذرت لشركاء الحوسبة المتأثرين. جميع الأنظمة عادت الآن وتعمل بشكل طبيعي.",
+  "detailed_explanation": "أصدرت SpaceX AI بياناً رسمياً تعتذر فيه عن مشكلات واجهها المستخدمون في خدمة Grok. السبب كان عطلاً (outage) في مركز الحوسبة الخاص بهم في Memphis حدث صباح يوم الإعلان.\n\nالبيان يشير إلى أن العطل أثّر أيضاً على شركاء حوسبة (compute partners)، ما يعني أن التأثير تجاوز المستخدمين النهائيين ليشمل جهات أخرى تعتمد على البنية التحتية نفسها.\n\nتم استعادة جميع الأنظمة وعادت للعمل بشكل طبيعي (nominally) وقت الإعلان.",
+  "why_it_matters": "يوثق حادثة انقطاع في خدمة Grok، وهي معلومة مهمة لمن يعتمد على استقرار الخدمة أو يقيّم موثوقيتها.",
+  "original_text": "We are sorry for the issues you may have experienced with Grok following an outage at our Memphis compute center this morning. We’d also like to apologize to our impacted compute partners.\n\nAll systems have now been restored and are functioning nominally.",
+  "glossary": [],
+  "audience_topic": "خارج الاهتمام",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [],
+  "entities": [
+   "SpaceX AI",
+   "Grok"
+  ],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 14227,
+   "replies": 635,
+   "reposts": 680,
+   "quotes": 209,
+   "bookmarks": 472,
+   "views": 3051397
+  },
+  "metrics_captured_at": "2026-09-04T04:34:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "grok_outage",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
