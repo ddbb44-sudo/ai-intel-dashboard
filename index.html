@@ -366,6 +366,14 @@ button.go.danger:hover{background:#8f1d17}
 .kvr span{flex:0 0 82px;color:var(--muted);font-size:11.5px;padding-top:2px}
 .kvr b{font-weight:500;line-height:1.75;min-width:0;overflow-wrap:anywhere}
 
+/* وسيط داخل المقالة: يأخذ عرض النص لا أكثر، ويسقط بلا أثر إن تعذّر تحميله
+   — الصورة المكسورة أسوأ من غيابها. */
+.artfig{margin:16px 0;text-align:center}
+.artfig img,.artfig video{max-width:100%;height:auto;border-radius:10px;
+  border:1px solid var(--line-2);background:var(--surface-2);display:block;margin:0 auto}
+.artfig figcaption{font-size:12px;color:var(--muted);margin-top:7px;line-height:1.6;
+  max-width:60ch;margin-inline:auto}
+.artfig.gone{display:none}
 .artul{margin:10px 0 18px;padding-inline-start:22px}
 .artul li{margin-bottom:8px;line-height:1.9}
 .artul li::marker{color:var(--accent)}
@@ -575,7 +583,7 @@ button.go.danger:hover{background:#8f1d17}
       window.__RAW = { items: items, authors: authors, stats: man.stats };
       var b = document.getElementById('boot'); if(b) b.remove();
       var s = document.createElement('script');
-      s.src = 'app.js?v=134b663a79';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
+      s.src = 'app.js?v=ee4f0f2e75';  /* بصمة محتوى app.js — تتغيّر مع كل تعديل عليه */
       s.onerror = function(){ fail('\u062a\u0639\u0630\u0651\u0631 \u062a\u062d\u0645\u064a\u0644 app.js'); };
       document.body.appendChild(s);
       console.log('[dash] ' + items.length + ' cards in ' + (Date.now() - T0) + 'ms');

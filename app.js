@@ -624,6 +624,20 @@ function artBlocks(t){
     if(lines.length && lines.every(function(l){ return /^[-*]\s+/.test(l); }))
       return '<ul class="artul">' + lines.map(function(l){
         return '<li>' + artInline(l.replace(/^[-*]\s+/,'')) + '</li>'; }).join('') + '</ul>';
+    /* صورة أو فيديو في فقرته: ![وصف](رابط) — يُعرض في موضعه من المقالة لا في
+       ذيلها، فالوسيط الذي وضعه الكاتب بين فقرتين جزءٌ من شرحه لا زينة.
+       https فقط، ولا نثق بامتداد الرابط: نستنتج النوع ثم نتحقق منه بالتحميل. */
+    var fig = b.match(/^!\[([^\]]*)\]\((https:\/\/[^)\s]+)\)$/);
+    if(fig){
+      var u = fig[2], cap = fig[1];
+      var vid = /\.(mp4|webm|mov)(\?|$)/i.test(u);
+      return '<figure class="artfig">' + (vid
+        ? '<video src="' + esc(u) + '" controls playsinline preload="metadata"></video>'
+        : '<img src="' + esc(u) + '" alt="' + esc(cap) + '" loading="lazy" decoding="async"' +
+          ' onerror="this.closest(\'.artfig\').classList.add(\'gone\')">')
+        + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>';
+    }
+
     /* فقرة ليست إلا رابطًا = زرّ، لا سطر أزرق تائه */
     var only = b.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
     if(only) return artBtn(only[1], only[2]);
