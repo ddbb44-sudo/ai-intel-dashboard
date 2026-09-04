@@ -1,0 +1,1172 @@
+[
+ {
+  "id": "c1087",
+  "serial": 1087,
+  "serial_display": "#001087",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2077773038943085044",
+  "source_native_id": "2077773038943085044",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-07-16T15:11:10Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء لعبة Quake 3 بنمط isometric باستخدام Claude Fable",
+  "arabic_summary": "استخدم الناشر Claude Fable لبناء لعبة مستوحاة من Quake 3 بنمط isometric، ونشر الـ prompt والكود على GitHub. اللعبة قابلة للعب عبر رابط مباشر، وتمثل مثالًا على إمكانيات Claude Fable في توليد ألعاب تفاعلية.",
+  "detailed_explanation": "المنشور يعرض تجربة عملية باستخدام Claude Fable—وهو قدرة من Claude لتوليد تطبيقات تفاعلية—لبناء لعبة ثلاثية الأبعاد بنمط isometric مستوحاة من Quake 3. الناشر قدّم prompt للنموذج وحصل على كود كامل يعمل عبر متصفح الويب.\n\nاللعبة منشورة على GitHub ويمكن تجربتها مباشرة، ما يجعلها مثالًا قابلًا للاستنساخ. الأهمية هنا في أن Claude Fable يستطيع توليد كود معقد يتضمن رسوميات وتفاعلات لعبة، لا مجرد واجهات بسيطة.\n\nهذا النوع من الاستخدام يوسّع نطاق ما يمكن لعزيز بناؤه بسرعة: نماذج تفاعلية، ألعاب تعليمية، أو تجارب مرئية دون الحاجة لكتابة كل السطر يدويًا. التجربة تُظهر أن Claude Fable ليس فقط لبناء واجهات ويب تقليدية.",
+  "why_it_matters": "يوضح كيف يمكن لنموذج Claude Fable إنتاج كود ألعاب معقدة تعتمد على محركات رسوميات، ما يفتح مجالًا لتطبيقات تفاعلية أوسع.",
+  "original_text": "I used Claude Fable to build an isometric Quake 3-inspired game\n\nPrompt &amp; GitHub repo - below\n\nLink to play: https://t.co/W9ZGjrxPMI https://t.co/oVvo3GKJhY",
+  "glossary": [
+   {
+    "term": "Claude Fable",
+    "ar": "قدرة في Claude لتوليد تطبيقات تفاعلية كاملة"
+   },
+   {
+    "term": "isometric",
+    "ar": "نمط رسومي ثلاثي الأبعاد يُعرض بزاوية ثابتة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Fable",
+   "Quake 3",
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 51,
+   "replies": 9,
+   "reposts": 1,
+   "quotes": 2,
+   "bookmarks": 32,
+   "views": 7053
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "http://amirmushichge.github.io/wasteland-arena/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1088",
+  "serial": 1088,
+  "serial_display": "#001088",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2078216094645420309",
+  "source_native_id": "2078216094645420309",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-07-17T20:31:43Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء بطاقة زيارة سياحية باستخدام GPT-5.6 Sol وCodex",
+  "arabic_summary": "استخدم الناشر GPT-5.5 و 5.6 لبناء بطاقة زيارة تصميمية لمدينة موستار، ونشر الـ prompt الخاص بـ Codex. المثال يوضح قدرة GPT-5.6 Sol على إنتاج تصاميم بصرية.",
+  "detailed_explanation": "المنشور يعرض تجربة باستخدام GPT-5.5 و GPT-5.6 Sol—وهو نموذج من OpenAI—لبناء تصميم بطاقة زيارة سياحية لمدينة موستار. الناشر يذكر أنه استخدم Codex (أداة من OpenAI) ونشر الـ prompt.\n\nالأهمية هنا في أن GPT-5.6 Sol أصبح قادرًا على إنتاج تصاميم بصرية متقدمة، لا مجرد كود أو نصوص. هذا يفتح مجالًا لعزيز في استخدام النموذج لإنتاج مواد تصميمية—بطاقات، ملصقات، واجهات—بسرعة.\n\nالتجربة توضح أن النماذج الحديثة تتجاوز التوليد النصي إلى التصميم المرئي، وأن Codex (رغم أنه معروف بتوليد الكود) يمكن أن يُستخدم في سياقات تصميمية أيضًا.",
+  "why_it_matters": "يُظهر تطور نموذج GPT-5.6 Sol في إنتاج تصاميم بصرية جذابة، ما يوسّع استخدامه من النصوص إلى التطبيقات التصميمية.",
+  "original_text": "GPT-5.6 Sol is good at design\nBuilt this touristic visit card for Mostar (my hometown) with 5.5 + 5.6\n\nPrompt for Codex 👇\nInspo credits: @viktoroddy https://t.co/BwIPoMDgSy",
+  "glossary": [
+   {
+    "term": "GPT-5.6 Sol",
+    "ar": "نموذج من OpenAI بقدرات تصميمية مرئية متقدمة"
+   },
+   {
+    "term": "Codex",
+    "ar": "نموذج من OpenAI لتوليد الكود البرمجي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GPT-5.6 Sol",
+   "GPT-5.5",
+   "Codex",
+   "Mostar"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1726,
+   "replies": 58,
+   "reposts": 106,
+   "quotes": 9,
+   "bookmarks": 2408,
+   "views": 224597
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1089",
+  "serial": 1089,
+  "serial_display": "#001089",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2079280097010299288",
+  "source_native_id": "2079280097010299288",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-07-20T18:59:40Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء بطاقة 3D تفاعلية بـ Claude Fable و GPT-5.6 مع Three.js",
+  "arabic_summary": "استخدم الناشر Claude Fable و GPT-5.6 لبناء بطاقة ثلاثية الأبعاد تفاعلية باستخدام Three.js و WebGL و Custom GLSL shaders. الكود منشور على GitHub.",
+  "detailed_explanation": "المنشور يعرض تجربة بناء بطاقة ثلاثية الأبعاد تفاعلية باستخدام Claude Fable (من Claude) و GPT-5.6. التطبيق يعتمد على مكتبة Three.js (مكتبة JavaScript لرسوميات 3D) و WebGL و Custom GLSL shaders (لغة برمجة للرسوميات).\n\nالناشر نشر الكود على GitHub، ما يجعله قابلًا للاستنساخ. الأهمية هنا في أن النماذج استطاعت توليد كود معقد يتعامل مع رسوميات متقدمة وتفاعلات WebGL، لا مجرد واجهات بسيطة.\n\nهذا يفتح مجالًا لعزيز في بناء تجارب مرئية تفاعلية—معارض 3D، بطاقات تفاعلية، نماذج منتجات—دون الحاجة لكتابة كل السطر يدويًا. التجربة تُظهر أن Claude Fable و GPT-5.6 يمكنهما العمل معًا في مشاريع رسوميات متقدمة.",
+  "why_it_matters": "يوضح قدرة Claude Fable و GPT-5.6 على توليد كود معقد لرسوميات ثلاثية الأبعاد وتفاعلات WebGL، ما يوسّع نطاق التطبيقات المرئية التي يمكن بناؤها بسرعة.",
+  "original_text": "Interactive 3D built with Claude Fable + GPT-5.6\nThree.js + WebGL + Custom GLSL shaders\n\nGitHub: https://t.co/45zZUfDXxe https://t.co/KHj3YLDBZJ",
+  "glossary": [
+   {
+    "term": "Three.js",
+    "ar": "مكتبة JavaScript لإنشاء رسوميات ثلاثية الأبعاد في المتصفح"
+   },
+   {
+    "term": "WebGL",
+    "ar": "تقنية لعرض رسوميات ثلاثية الأبعاد في المتصفح دون plugins"
+   },
+   {
+    "term": "GLSL",
+    "ar": "لغة برمجة shaders للتحكم في الرسوميات على GPU"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude Fable",
+   "GPT-5.6",
+   "Three.js",
+   "WebGL",
+   "GLSL",
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 460,
+   "replies": 12,
+   "reposts": 27,
+   "quotes": 2,
+   "bookmarks": 432,
+   "views": 26097
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "https://github.com/amirmushichge/claude-black-3d-card"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1090",
+  "serial": 1090,
+  "serial_display": "#001090",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2080390337495760960",
+  "source_native_id": "2080390337495760960",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-07-23T20:31:22Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة بناء موقع تفاعلي باستخدام GPT-5.6 وCodex مع Figma وVercel",
+  "arabic_summary": "المنشور يوثق تجربة عملية لبناء موقع ويب كامل باستخدام سلسلة أدوات: GPT-5.6 لتصميم واجهة في Figma، Unicorn Studio لتأثيرات الخلفية، وCodex للتجميع والنشر عبر Vercel. التجربة تظهر تكامل أدوات التصميم والتطوير عبر وكلاء ذكاء اصطناعي.",
+  "detailed_explanation": "التجربة تبدأ بتوصيل Codex إلى Figma لتصميم التخطيط (layout)، ثم إنشاء تأثيرات الخلفية في Unicorn Studio، وأخيرًا التجميع والنشر عبر Vercel — كلها بإشراف Codex.\n\nهذا النموذج يمثل سير عمل Agent-driven حيث يدير الوكيل مراحل متعددة: من التصميم إلى الاستضافة. الأدوات المذكورة (Codex وVercel) موجودة في قائمة أدوات عزيز، مما يجعل هذه التجربة قابلة للتكرار مباشرة.\n\nالقيمة هنا ليست في الكود الناتج بل في إثبات إمكانية أتمتة سلسلة كاملة من مهام التصميم والنشر بوكيل واحد، وهو ما يمس عمل عزيز في بناء تطبيقات ونشرها.",
+  "why_it_matters": "يعرض سير عمل متكامل لبناء مواقع باستخدام أدوات عزيز (Codex وVercel)، ويوضح كيف يمكن ربط مراحل التصميم والنشر بشكل آلي.",
+  "original_text": "GPT-5.6 is good at design\n&gt; plugged Codex to Figma\n&gt; designed the layout\n&gt; created the background effects in Unicorn Studio\n&gt; deployed via Vercel\n&gt; assembly, deploy etc - OpenAI Codex\n\nLink: https://t.co/EUdJyXrKYg https://t.co/Q27MLtoRyz",
+  "glossary": [
+   {
+    "term": "Codex",
+    "ar": "نموذج OpenAI للبرمجة، يحول اللغة الطبيعية إلى كود"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GPT-5.6",
+   "Codex",
+   "Figma",
+   "Unicorn Studio",
+   "Vercel"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 44,
+   "replies": 6,
+   "reposts": 3,
+   "quotes": 2,
+   "bookmarks": 28,
+   "views": 7840
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "https://theamlabs.com/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1091",
+  "serial": 1091,
+  "serial_display": "#001091",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2080753481418264612",
+  "source_native_id": "2080753481418264612",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-07-24T20:34:23Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء رسوم متحركة بـ Claude Opus 5 وخادم Moda MCP في 5 دقائق",
+  "arabic_summary": "المنشور يعرض تجربة عملية لإنشاء motion design كامل (طبقات وkeyframes قابلة للتعديل) باستخدام Claude Opus 5 مع خادم Moda MCP، عبر prompt واحد. التجربة تظهر إمكانية Claude في التعامل مع أدوات motion design المتخصصة عبر بروتوكول MCP.",
+  "detailed_explanation": "Moda MCP هو خادم MCP متخصص في تصميم الحركة (motion design)، ويتيح لـ Claude Opus 5 إنتاج ملفات رسوم متحركة بطبقات (layers) وإطارات مفتاحية (keyframes) — عناصر تقنية تحتاج عادة لبرامج مثل After Effects.\n\nالمنشور يذكر أن العملية استغرقت 5 دقائق فقط بـ prompt واحد، وأن النتيجة كانت قابلة للتعديل، مما يعني أن الخادم لم يُخرج مجرد فيديو مُرندر بل ملف عمل.\n\nالقيمة المزدوجة هنا: Claude (من أدوات عزيز) + MCP (بنية وكلاء). الدرجة الأعلى هي \"أداة يستعملها\" لأن Claude مذكور صراحة، لكن البنية (MCP) جزء أساسي من السياق.",
+  "why_it_matters": "يدمج بين أداة عزيز (Claude) وبنية MCP، ويثبت قدرة النموذج على إنتاج ملفات تصميم متحرك احترافية — وهو تطبيق مباشر لقدرات Agents في الإنتاج الإبداعي.",
+  "original_text": "Claude Opus 5 + Moda MCP = motion design unlock\n\nBuilt this animation with 1 prompt \n5 mins &gt; editable layers, keyframes, details\n\nSteal here: https://t.co/TY9CmaRmRd https://t.co/ILc7GvcstV",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "Model Context Protocol — بروتوكول يتيح للنماذج التواصل مع أدوات خارجية"
+   },
+   {
+    "term": "Motion design",
+    "ar": "تصميم الحركة — رسوم متحركة احترافية بطبقات وإطارات مفتاحية"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude",
+   "Claude Opus 5",
+   "Moda MCP",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 57,
+   "replies": 6,
+   "reposts": 3,
+   "quotes": 2,
+   "bookmarks": 52,
+   "views": 10692
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "http://amirmushich.link/opus-motion"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1092",
+  "serial": 1092,
+  "serial_display": "#001092",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2083647195920634201",
+  "source_native_id": "2083647195920634201",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-01T20:12:58Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt ثنائي المتغير لتحويل الشعارات إلى أجسام واقعية باستخدام GPT Image 2",
+  "arabic_summary": "المنشور يقدم نظام prompt مُصمَّم (art-directed) بمتغيرين لتحويل أي شعار إلى كائن ثلاثي الأبعاد واقعي بمادة holo-vinyl، دون إعادة بناء الإضاءة أو التركيب. النظام يعمل على GPT Image 2 (نموذج صور ChatGPT)، ويتيح للمستخدم إضافة صورة مرجعية للشعار.",
+  "detailed_explanation": "النظام يعتمد على prompt بمتغيرين فقط — أي أن المستخدم يغيّر قيمتين (غالبًا: الشعار + لون أو نص) والباقي ثابت (المادة، الإضاءة، التركيب، الزاوية). هذا يضمن تناسقًا بصريًا عبر إصدارات متعددة.\n\nالمادة المستهدفة هي holo-vinyl — سطح لامع بتأثير هولوغرافي، صعب التنفيذ يدويًا. المنشور يشير إلى أن النظام لا يُعيد بناء المادة أو الإضاءة في كل مرة، بل يثبتها عبر الـ prompt، مما يوفّر وقت التوليد ويحافظ على الجودة.\n\nالتطبيق العملي: إنتاج سريع لأصول تسويقية أو عرض منتجات بأسلوب موحد. النظام يعمل على GPT Image 2، وهو جزء من ChatGPT (أداة عزيز)، مما يجعله قابلًا للاستخدام المباشر.",
+  "why_it_matters": "يوفر طريقة قابلة لإعادة الاستخدام لإنتاج أصول بصرية موجهة (branded assets) بجودة احترافية على أداة عزيز (ChatGPT)، ويُظهر كيف يمكن هندسة prompts لتثبيت أسلوب بصري معقد.",
+  "original_text": "Art-directed prompt system / GPT Image 2\n\nI built a 2-variable prompt system for turning any brand logo into a realistic holo-vinyl object - without rebuilding the material, lighting &amp; composition\n\nTip:\nTo generate your own logo - add it as a ref image\n\nPrompt 🔽 https://t.co/k07NEUwRdA",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "التعليمة النصية الموجهة لنموذج ذكاء اصطناعي"
+   },
+   {
+    "term": "Art-directed",
+    "ar": "موجَّه فنيًا — مُصمَّم مسبقًا بمعايير بصرية ثابتة"
+   },
+   {
+    "term": "Holo-vinyl",
+    "ar": "مادة بصرية بتأثير هولوغرافي لامع"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "ChatGPT",
+   "GPT Image 2",
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3222,
+   "replies": 38,
+   "reposts": 207,
+   "quotes": 27,
+   "bookmarks": 5359,
+   "views": 423726
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1093",
+  "serial": 1093,
+  "serial_display": "#001093",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2084003622753354096",
+  "source_native_id": "2084003622753354096",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-02T19:49:17Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt ثلاثي المتغير لتحويل الشعارات إلى أجسام معدنية ثلاثية الأبعاد [النسخة الثانية]",
+  "arabic_summary": "المنشور يقدم نسخة محسّنة (v02) من نظام prompt لتوليد أجسام معدنية ثلاثية الأبعاد من الشعارات، باستخدام 3 متغيرات بدلاً من 2. النظام يعمل على GPT Image 2، ويحافظ على ثبات المواد والإضاءة والبنية عبر الإصدارات.",
+  "detailed_explanation": "النسخة الثانية تضيف متغيرًا ثالثًا (لم يُحدد بالضبط في المنشور، لكنه غالبًا: شكل، زاوية، أو تفصيل إضافي)، مما يمنح المستخدم تحكمًا أكبر دون الحاجة لإعادة كتابة الـ prompt.\n\nالمادة هنا معدنية واقعية (realistic metallic 3D object)، على عكس holo-vinyl في النسخة الأولى — مما يعني توسع المكتبة البصرية.\n\nالنظام يثبّت الإضاءة والبنية (structure) — وهذا يعني أن التوليد لن يُنتج زوايا أو إضاءات عشوائية، بل سيحافظ على أسلوب موحد. هذا مهم للعلامات التجارية التي تحتاج تناسقًا بصريًا.\n\nالتطبيق: توليد سريع لـ branded assets معدنية (مثل: شعارات ثلاثية الأبعاد لمواقع أو عروض تقديمية). النظام يعمل على GPT Image 2 (جزء من ChatGPT)، مما يجعله متاحًا مباشرة لعزيز.",
+  "why_it_matters": "يطوّر نظام الـ prompt السابق بإضافة متغير ثالث، مما يزيد المرونة دون فقدان التناسق. التحسين يُظهر تطور عملية هندسة الـ prompts لإنتاج أصول بصرية احترافية على أداة عزيز (ChatGPT).",
+  "original_text": "Art-directed prompt system [v02] / GPT Image 2\n\nI built a 3-variable prompt system for turning any brand logo or symbol into a realistic metallic 3D object - without rebuilding the material, lighting &amp; structure\n\nTip:\nTo generate your own logo - add it as a ref image\n\nPrompt 🔽 https://t.co/ghPgF11aDh",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "التعليمة النصية الموجهة لنموذج ذكاء اصطناعي"
+   },
+   {
+    "term": "Art-directed",
+    "ar": "موجَّه فنيًا — مُصمَّم مسبقًا بمعايير بصرية ثابتة"
+   },
+   {
+    "term": "3D object",
+    "ar": "كائن ثلاثي الأبعاد"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "ChatGPT",
+   "GPT Image 2",
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 688,
+   "replies": 10,
+   "reposts": 59,
+   "quotes": 6,
+   "bookmarks": 848,
+   "views": 41712
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1094",
+  "serial": 1094,
+  "serial_display": "#001094",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2084710846500917530",
+  "source_native_id": "2084710846500917530",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-04T18:39:32Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt متغير لتحويل الشعارات إلى نقش ثلاثي الأبعاد واقعي في GPT Image",
+  "arabic_summary": "نظام prompt يعتمد على ثلاثة متغيرات لتحويل أي شعار أو نص إلى نقش ثلاثي الأبعاد واقعي. يمكن تغيير العلامة التجارية ولون السطح واختيار عرض كامل أو مقرّب للشعار. النظام يعمل على GPT Image وNotebookLM.",
+  "detailed_explanation": "يقدّم المنشور نظام prompt مُوجّه فنيًا (art-directed) الإصدار الرابع، مصمم للعمل على GPT Image وNotebookLM. النظام يحوّل أي شعار أو نص إلى تصميم نقش ثلاثي الأبعاد واقعي (realistic embossing).\n\nالنظام يعتمد على ثلاثة متغيرات قابلة للتعديل: اسم العلامة التجارية، لون السطح، ونوع العرض (إما عرض كامل للشعار أو لقطة مقربة موجّهة). هذا التصميم المتغيّر يجعل النظام قابلاً لإعادة الاستخدام بسهولة لأي علامة تجارية دون الحاجة لإعادة كتابة الـ prompt بالكامل.\n\nالمنشور يشير إلى إمكانية تحريك النتائج عبر رابط منفصل، مما يوسّع استخدامات النظام من الصور الثابتة إلى الرسوم المتحركة.",
+  "why_it_matters": "طريقة عملية لإنشاء أصول بصرية احترافية للعلامات التجارية باستخدام نظام متغيرات يمكن إعادة استخدامه، مما يوفر الوقت ويحافظ على الاتساق البصري.",
+  "original_text": "Art-directed prompt system [v_04] / GPT Image/NBP\n\n3-variable prompt system, turns any brand logo/text into a realistic embossing\nYou change the brand, surface color & choose if you want a full logo view or a directed close-up\n\nPrompt🔽\n(animate here: https://t.co/89pv2BHD0S)",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   },
+   {
+    "term": "Art-directed",
+    "ar": "موجّه فنيًا"
+   },
+   {
+    "term": "Embossing",
+    "ar": "نقش بارز"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "GPT Image",
+   "NotebookLM"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 478,
+   "replies": 12,
+   "reposts": 39,
+   "quotes": 2,
+   "bookmarks": 486,
+   "views": 22022
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "http://amirmushich.link/director"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1095",
+  "serial": 1095,
+  "serial_display": "#001095",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2085413698990936476",
+  "source_native_id": "2085413698990936476",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-06T17:12:25Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt لتحويل الشعارات إلى أيقونات زجاجية ثلاثية الأبعاد في GPT Image",
+  "arabic_summary": "نظام prompt بثلاثة متغيرات يحوّل أي شعار أو أيقونة إلى حاوية زجاجية صلبة ثلاثية الأبعاد بشكل مربع دائري. المتغيرات تشمل اسم العلامة، لون الخلفية، ولون النموذج.",
+  "detailed_explanation": "يقدّم المنشور نظام prompt موجّه فنيًا (الإصدار الخامس) مخصص لإنشاء أيقونات زجاجية ثلاثية الأبعاد على GPT Image. النظام يأخذ أي شعار أو أيقونة علامة تجارية ويحوّلها إلى حاوية زجاجية صلبة بشكل مربع ذو حواف دائرية (rounded-square).\n\nالنظام يعتمد على ثلاثة متغيرات: اسم العلامة التجارية [BRAND NAME]، لون الخلفية [BG COLOR]، ولون النموذج [MODEL COLOR]. هذا التصميم المتغيّر يسمح بإنشاء أيقونات متسقة بصريًا لعلامات تجارية مختلفة بمجرد تغيير المتغيرات.\n\nالمنشور يشير أيضًا إلى إمكانية تحريك النتائج عبر رابط منفصل، مما يضيف بُعدًا إضافيًا لاستخدامات هذه الأيقونات في السياقات التفاعلية.",
+  "why_it_matters": "يوفر طريقة سريعة لإنشاء أيقونات احترافية بمظهر زجاجي ثلاثي الأبعاد، مناسبة للتطبيقات والمواقع والعروض التقديمية، باستخدام نظام متغيرات بسيط.",
+  "original_text": "3D glass icons / GPT Image dir. [v05]\n\n3-variable prompt system, turns any brand logo/icon into a 3D rounded-square, solid-glass container\nVariables:\n[BRAND NAME], [BG COLOR], [MODEL COLOR]\n\nPrompt 🔽\n(animate here: https://t.co/89pv2BHD0S)",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "GPT Image"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 325,
+   "replies": 9,
+   "reposts": 25,
+   "quotes": 4,
+   "bookmarks": 373,
+   "views": 74405
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "http://amirmushich.link/director"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1096",
+  "serial": 1096,
+  "serial_display": "#001096",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2085797968225927253",
+  "source_native_id": "2085797968225927253",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-07T18:39:22Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt لإنشاء شارات إنجاز ثلاثية الأبعاد قابلة للتجميع في GPT Image",
+  "arabic_summary": "نظام prompt بثلاثة متغيرات يحوّل أي علامة تجارية إلى شارة إنجاز ثلاثية الأبعاد مزخرفة وقابلة للتجميع. النظام مصمم لإنشاء أصول بصرية فاخرة للعلامات التجارية.",
+  "detailed_explanation": "يقدّم المنشور نظام prompt موجّه فنيًا (الإصدار السابع) مخصص لإنشاء شارات إنجاز (achievement badges) ثلاثية الأبعاد ومزخرفة (ornate) وقابلة للتجميع على GPT Image.\n\nالنظام يعتمد على ثلاثة متغيرات قابلة للتخصيص، ويحوّل أي علامة تجارية إلى شارة ثلاثية الأبعاد بمظهر فاخر وقابل للتجميع. هذا النوع من الأصول البصرية شائع في تطبيقات الألعاب ونظم المكافآت وبرامج الولاء.\n\nالنظام يواصل نهج المتغيرات المتعددة الذي يسمح بإنشاء أصول متسقة لعلامات تجارية مختلفة دون الحاجة لإعادة كتابة الـ prompt بالكامل، مما يوفر الوقت ويضمن الاتساق البصري عبر مختلف التطبيقات.",
+  "why_it_matters": "يتيح إنشاء شارات إنجاز احترافية للتطبيقات والمواقع ونظم المكافآت باستخدام نظام prompt بسيط ومتسق، مناسب لمصممي تجربة المستخدم.",
+  "original_text": "3D collectible achievement badge / GPT Image [dir. v7]\n\n3-variable prompt system, turns any brand into an ornate collectible 3D badge\n\nPrompt 🔽\nGrow faster in AI: https://t.co/3SoykWUSTd",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   },
+   {
+    "term": "Achievement badge",
+    "ar": "شارة إنجاز"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "GPT Image"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 377,
+   "replies": 13,
+   "reposts": 29,
+   "quotes": 1,
+   "bookmarks": 518,
+   "views": 91557
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "http://amirmushich.link/products"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1097",
+  "serial": 1097,
+  "serial_display": "#001097",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2086142130930790518",
+  "source_native_id": "2086142130930790518",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-08T17:26:57Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt لإنشاء أيقونات زجاج شفاف مجمّد ثلاثية الأبعاد في GPT Image",
+  "arabic_summary": "نظام prompt بثلاثة متغيرات يحوّل أي شعار أو أيقونة إلى محاكاة ثلاثية الأبعاد بمظهر زجاج شفاف مجمّد. الإصدار الثامن من سلسلة شارات الإنجاز القابلة للتجميع.",
+  "detailed_explanation": "يقدّم المنشور نظام prompt موجّه فنيًا (الإصدار الثامن) مخصص لإنشاء أيقونات بمظهر زجاج شفاف مجمّد (translucent frozen glass) على GPT Image. هذا الإصدار يمثل تطورًا في سلسلة شارات الإنجاز القابلة للتجميع.\n\nالنظام يحوّل أي شعار أو أيقونة إلى محاكاة ثلاثية الأبعاد (3D simulation) بمظهر زجاجي شفاف، وهو أسلوب تصميم شائع في واجهات المستخدم الحديثة المعروفة بـ Glassmorphism.\n\nيعتمد النظام على ثلاثة متغيرات قابلة للتخصيص، مما يحافظ على نهج إعادة الاستخدام السهل الذي يميز سلسلة أنظمة الـ Prompt هذه.",
+  "why_it_matters": "يوفر طريقة لإنشاء أصول بصرية بمظهر زجاجي شفاف مجمّد، مناسب للتطبيقات الحديثة التي تستخدم تصميم Glassmorphism.",
+  "original_text": "3D collectible achievement badge / GPT Image [dir. v8] \n\n3-variable prompt system, turns any logo/icon into a translucent frozen glass 3D simulation\n\nPrompt 🔽\n\n-> Grow faster in AI: https://t.co/3SoykWVqIL",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   },
+   {
+    "term": "Glassmorphism",
+    "ar": "أسلوب التصميم الزجاجي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GPT Image"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 545,
+   "replies": 6,
+   "reposts": 40,
+   "quotes": 1,
+   "bookmarks": 642,
+   "views": 81519
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [
+   "http://amirmushich.link/products"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1098",
+  "serial": 1098,
+  "serial_display": "#001098",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2086523169922331090",
+  "source_native_id": "2086523169922331090",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-09T18:41:04Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt لتحويل الشعارات إلى لوحات دوائر مطبوعة واقعية في GPT Image",
+  "arabic_summary": "نظام prompt يستخدم طريقة Asset shifting لتحويل أي شعار أو أيقونة إلى تصميم لوحة دوائر مطبوعة (PCB) واقعية. يسمح بإنشاء أصول بصرية تقنية احترافية بسهولة.",
+  "detailed_explanation": "يقدّم المنشور نظام prompt (الإصدار الثامن) يستخدم منهجية Asset shifting - وهي طريقة تحويل الأصول البصرية من حالة إلى أخرى مع الحفاظ على هويتها.\n\nهذا النظام يحوّل الشعارات والأيقونات إلى تصميمات لوحات دوائر مطبوعة (PCB - Printed Circuit Board) واقعية. اللوحات المطبوعة هي القواعد الأساسية للإلكترونيات الحديثة، وتحويل الشعارات إلى هذا الشكل يخلق أصولًا بصرية تقنية فريدة.\n\nالنظام يعتمد على متغيرات قابلة للتخصيص، مما يسمح بتطبيقه على أي شعار أو أيقونة. هذا مفيد بشكل خاص للشركات التقنية وشركات الهاردوير التي تريد إنشاء مواد تسويقية أو عروض تقديمية بمظهر تقني احترافي.",
+  "why_it_matters": "يوفر طريقة مبتكرة لإنشاء تصميمات تقنية واقعية للعلامات التجارية، مفيد للشركات التقنية والهاردوير في التسويق والعروض التقديمية.",
+  "original_text": "Image-to-Conductive circuit board / GPT Image [dir. v8]\n\nLeverage my method of Asset shifting - a variable-based prompt system that turns any logo/icon into visual style you need\nThis time we turn logos into realistic PCBs\n\nPrompt 🔽",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   },
+   {
+    "term": "Asset shifting",
+    "ar": "تحويل الأصول البصرية"
+   },
+   {
+    "term": "PCB",
+    "ar": "لوحة دوائر مطبوعة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "GPT Image"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 119,
+   "replies": 12,
+   "reposts": 8,
+   "quotes": 1,
+   "bookmarks": 113,
+   "views": 24375
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1099",
+  "serial": 1099,
+  "serial_display": "#001099",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2086889852704801027",
+  "source_native_id": "2086889852704801027",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-10T18:58:08Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نظام Prompt لتحويل الشعارات إلى محاكاة ثلاثية الأبعاد فاخرة في GPT Image",
+  "arabic_summary": "نظام prompt (الإصدار التاسع) يستخدم منهجية Asset shifting لتحويل أي شعار إلى تصميم ثلاثي الأبعاد فاخر. يعتمد على متغيرات قابلة للتخصيص لإنشاء أصول بصرية راقية.",
+  "detailed_explanation": "يقدّم المنشور نظام prompt موجّه فنيًا (الإصدار التاسع) يستخدم منهجية Asset shifting لتحويل الشعارات إلى محاكاة ثلاثية الأبعاد بمظهر فاخر (luxury).\n\nالنظام يعتمد على متغيرات قابلة للتخصيص، مما يسمح بتطبيقه على أي شعار مع الحفاظ على هوية العلامة التجارية. المظهر الفاخر مناسب للعلامات التجارية الراقية والعروض التقديمية التي تتطلب أصولًا بصرية احترافية ومميزة.\n\nهذا الإصدار يمثل استمرارًا في سلسلة أنظمة الـ Prompt التي تستخدم منهجية Asset shifting - تحويل الأصول البصرية من حالة إلى أخرى مع الحفاظ على هويتها الأساسية.",
+  "why_it_matters": "يوفر طريقة لإنشاء تصميمات شعارات فاخرة ثلاثية الأبعاد، مناسب للعلامات التجارية الراقية والعروض التقديمية الاحترافية.",
+  "original_text": "3D-sim luxury logo / GPT Image [dir. v9]\n\nDesign better with my method of Asset shifting - a variable-based prompt system that turns any logo/icon into visual style you need \n\nPrompt 🔽 https://t.co/u1aVERx5IZ",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   },
+   {
+    "term": "Asset shifting",
+    "ar": "تحويل الأصول البصرية"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "GPT Image"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 125,
+   "replies": 7,
+   "reposts": 14,
+   "quotes": 1,
+   "bookmarks": 100,
+   "views": 10582
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1100",
+  "serial": 1100,
+  "serial_display": "#001100",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2087281514153206155",
+  "source_native_id": "2087281514153206155",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-11T20:54:27Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق LTX-2.5 نموذج عالم مفتوح المصدر بجودة إنتاجية وتحكم متعدد اللقطات",
+  "arabic_summary": "نموذج LTX-2.5 مفتوح المصدر للفيديو يوفر جودة إنتاجية ودقة 4K HDR أصلية، مع قدرات متعددة اللقطات وتحكم دقيق في المشاهد. يستخدم تقنية Diffusion Fidelity Rendering الجديدة لجودة أعلى مع استهلاك حسابي أقل. قابل للتحميل والتشغيل المحلي والتخصيص.",
+  "detailed_explanation": "يعلن المنشور عن إطلاق LTX-2.5، وهو نموذج عالم (world model) مفتوح المصدر يمثل ترقية كبيرة للنموذج الذي يُستخدم بالفعل في صناعة الأفلام والروبوتات وسير العمل في الوقت الفعلي.\n\nالميزات الرئيسية للنموذج تشمل:\n\n**الجودة والأداء:** يوفر فيديو بجودة إنتاجية (production-grade) مع عرض أكثر سلاسة وأخطاء أقل (fewer artifacts). يدعم دقة 4K HDR أصليًا، مما يجعله مناسبًا للاستخدامات الاحترافية.\n\n**التحكم المتقدم:** يوفر تحكمًا متعدد اللقطات (multishot control) ودقة في المشاهد (scene precision) تتعامل مع التفاصيل المعقدة والتوقيت. هذا يسمح بإنشاء مشاهد متماسكة عبر لقطات متعددة.\n\n**الكفاءة:** يستخدم موارد حسابية أقل (less compute) مع إنتاج أكبر (more output)، مما يجعله فعالاً من حيث التكلفة.\n\n**تقنية جديدة:** يستخدم تقنية Diffusion Fidelity Rendering، وهي طريقة عرض جديدة مصممة لجودة البكسل العالية.\n\n**المرونة:** كونه مفتوح المصدر، يمكن تحميله وتشغيله محليًا وامتلاكه بالكامل. بُني كأساس مُدرَّب مسبقًا (pretrained foundation) قابل للتخصيص (finetuned) عبر مجالات مختلفة.\n\n**التطبيقات:** يُستخدم في صناعة الأفلام، والروبوتات، وسير العمل في الوقت الفعلي، مما يجعله نموذجًا متعدد الاستخدامات.",
+  "why_it_matters": "نموذج عالم مفتوح المصدر يوفر جودة احترافية للفيديو مع إمكانية التحكم الكامل والتشغيل المحلي، مما يجعله بديلاً قويًا للنماذج المغلقة في الإنتاج والروبوتات.",
+  "original_text": "Open-sourced World model that give you full control:\n&gt; production-grade video\n&gt; smoother rendering, less artifacts\n&gt; multi-shot control\n&gt; scene precision (complex details &amp; timing)\n&gt; Native 4K HDR\n&gt; less compute, more output\nand more\nDownload, run, own - LTX-2.5 is yours 🔽 https://t.co/aC7ARsUx4W",
+  "glossary": [
+   {
+    "term": "World model",
+    "ar": "نموذج عالم"
+   },
+   {
+    "term": "Multishot",
+    "ar": "متعدد اللقطات"
+   },
+   {
+    "term": "4K HDR",
+    "ar": "دقة 4K بمدى ديناميكي عالٍ"
+   },
+   {
+    "term": "Diffusion Fidelity Rendering",
+    "ar": "عرض الإخلاص بالانتشار"
+   },
+   {
+    "term": "Pretrained foundation",
+    "ar": "أساس مُدرَّب مسبقًا"
+   },
+   {
+    "term": "Finetuned",
+    "ar": "مُخصَّص"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "LTX-2.5",
+   "Lightricks"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 49,
+   "replies": 9,
+   "reposts": 7,
+   "quotes": 2,
+   "bookmarks": 28,
+   "views": 8340
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing LTX-2.5, the world model the world builds on.\n\nOne of the biggest upgrades yet to the model already powering film, robotics, and real-time workflows. Higher pixel fidelity, multishot scenes that hold together across cuts, and a pretrained foundation built to be finetuned across domains.\n\nPlus: Diffusion Fidelity Rendering, a new rendering approach built for pixel quality that holds up "
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1101",
+  "serial": 1101,
+  "serial_display": "#001101",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2087299306047066618",
+  "source_native_id": "2087299306047066618",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-11T22:05:09Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخدام نماذج العالم المفتوحة في تدريب الروبوتات على الأحداث النادرة",
+  "arabic_summary": "رأي حول استخدام نماذج عالم مفتوحة المصدر مثل LTX لتدريب الروبوتات على التفاعل مع الأحداث النادرة وغير المتوقعة. يطرح تساؤلات حول كيفية توليد هذه المواقف بكميات كبيرة لتحسين تدريب الروبوتات.",
+  "detailed_explanation": "يطرح المنشور رأيًا حول استخدام نماذج العالم المفتوحة المصدر (مثل LTX) في معالجة تحدٍ مهم في مجال الروبوتات: تدريب الروبوتات على اكتشاف الأحداث النادرة (rare-event discovery) والتفاعل معها.\n\nالمشكلة المطروحة: كيف يمكن للروبوتات أن تتفاعل مع أحداث غير عادية؟ يقدم المنشور أمثلة مثل طائرة إطفاء بدون طيار تفشل في إخماد حريق، أو حالات استخدام الروبوتات الطبية. السؤال الأساسي هو: كيف يمكن إنتاج هذه المواقف بكميات كبيرة لتدريب الروبوتات على رؤيتها والتفاعل معها بأفضل طريقة؟\n\nالحل المقترح: يرى الكاتب أن نماذج العالم المفتوحة المصدر مثل LTX يمكن أن تصبح الحل لعملية التدريب هذه، وقد تكون العامل المميز لمستقبل الروبوتات.\n\nالإشارة إلى اختبار Markov Robotics: يشير المنشور المقتبس إلى أن شركة Markov Robotics اختبرت جميع النماذج على Hugging Face لمعالجة هذه المشكلة، ونجح LTX أولاً وبفارق كبير. السبب هو أن LTX يضغط الفيديو إلى tokens أقل من أي نموذج آخر، مما يجعله مناسبًا لتشغيل الذكاء الاصطناعي الفيزيائي بالسرعة التي تحتاجها الروبوتات.\n\nيختتم الكاتب بالإشارة إلى أنه ليس خبيرًا في الروبوتات والتعلم الآلي، لكن الموضوع يثير فضوله ويطلب آراء الآخرين.",
+  "why_it_matters": "يطرح منظورًا مهمًا حول دور نماذج العالم المفتوحة في حل مشكلة تدريب الروبوتات على الأحداث النادرة، وهي تحدٍ رئيسي في مجال الروبوتات الذكية.",
+  "original_text": "Rare-event discovery for robots training is what we’ve been working on lately\n\nHow would a robot react to an unusual event? What if a firefighter drone won’t be able to choke a fire (like on the video below)? Robo-doctors use cases? \n\nHow to mass-produce these situations to train robots to see & react the best way? \n\nI think that open-sourced, world models like LTX can become the solution for such training process.\nAnd they might become the differentiator for the future of robotics. \n\nOf course, I’m not an expert in robotics and ML, but this topic makes me curious - and I’m curious about your thoughts",
+  "glossary": [
+   {
+    "term": "World model",
+    "ar": "نموذج عالم"
+   },
+   {
+    "term": "Rare-event discovery",
+    "ar": "اكتشاف الأحداث النادرة"
+   },
+   {
+    "term": "Token",
+    "ar": "رمز"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "LTX",
+   "Markov Robotics",
+   "Hugging Face"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 36,
+   "replies": 6,
+   "reposts": 2,
+   "quotes": 2,
+   "bookmarks": 23,
+   "views": 41950
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Robots don't fail because they can't move. They fail because they don't understand what happens next.\n\nMarkov Robotics tested every model on Hugging Face against this problem. LTX passed first, by a wide margin.\n\nLTX compresses video into fewer tokens than any other model, built to run physical AI at the speed robots need.\n\nMarkov calls it the first real path to generalizable dexterity. Watch it h"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1102",
+  "serial": 1102,
+  "serial_display": "#001102",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2087971261297140078",
+  "source_native_id": "2087971261297140078",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-08-13T18:35:15Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Moda تُحوّل تسجيلات المكالمات إلى عروض تقديمية عبر MCP",
+  "arabic_summary": "أداة Moda أطلقت ميزة جديدة تتصل بأدوات تسجيل المكالمات (Fathom، Granola، Fireflies) عبر بروتوكول MCP. تقرأ النص الكامل للمحادثة وتصمم شرائح أو مستندات تلقائيًا، ويمكن جدولة العملية لتعمل دورياً.",
+  "detailed_explanation": "الخبر يُشير إلى إطلاق Moda لميزة تدمج تسجيلات المكالمات الصوتية من أدوات مثل Fathom وGranola وFireflies، عبر بروتوكول MCP (Model Context Protocol)، لتحويلها إلى عروض تقديمية أو مستندات بصرية جاهزة.\n\nالآلية تعتمد على قراءة النص الكامل المُستخرج من التسجيل، ثم تصميم شرائح متوافقة مع هوية العلامة التجارية تلقائيًا. الأداة تدعم الجدولة، ما يعني إمكانية تشغيلها بشكل دوري دون تدخل يدوي.\n\nهذا مثال على كيفية استخدام MCP لربط أدوات متباعدة في سير عمل واحد: من التقاط الصوت إلى النص إلى التصميم، ما يُقلّص الحاجة إلى التدخل البشري في المهام الروتينية ويُسرّع إنتاج المحتوى المؤسسي.",
+  "why_it_matters": "يوضّح تطبيقًا عمليًا لـ MCP في سير العمل المؤسسي، حيث يُربط بين أدوات التسجيل وإنتاج العروض التقديمية تلقائيًا، مما يختصر الوقت ويزيد الإنتاجية.",
+  "original_text": "In 204, I told my colleagues that this will be a new meta in corporate life\n\nNow this is happening",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج — معيار لربط الأدوات والنماذج"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "أعمال وإدارة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Moda",
+   "Fathom",
+   "Granola",
+   "Fireflies"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration",
+   "MCP Support"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 8,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 3539
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Launching today: Turn call recordings into polished slide decks.\n\nConnect Fathom, Granola, Fireflies etc to Moda via MCP.\n\nModa reads the entire transcript, and designs on-brand slides, one-pagers etc.\n\nIt can even do this on a schedule.\n\nhttps://t.co/rqjXMkq4gD https://t.co/vz4Ip392Hr"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1103",
+  "serial": 1103,
+  "serial_display": "#001103",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2095234192472756417",
+  "source_native_id": "2095234192472756417",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-09-02T19:35:33Z",
+  "fetched_at": "2026-09-04T05:04:59Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ملف BRAND_SKILL.md لبناء نظام هوية بصرية كامل من صورة مرجعية واحدة",
+  "arabic_summary": "الكاتب ينشر دليلاً متكاملاً لبناء نظام هوية بصرية (Brand System) كامل باستخدام Agent تصميم مدعوم بملف Skill واحد (BRAND_SKILL.md). المنهجية تبدأ بصورة مرجعية واحدة، تُحوّل إلى ملف Skill، ثم يُنفّذها Agent لإنتاج جميع الأصول البصرية للعلامة بجودة استوديو. الملف متاح على GitHub.",
+  "detailed_explanation": "الكاتب يشرح منهجية تصميم متكاملة تعتمد على مفهوم الـ Skill كـ«دماغ» للـ Agent التصميمي. المنهجية تتكون من أربع خطوات:\n\n1. **صورة مرجعية (REFERENCE)**: تبدأ بصورة واحدة تمثّل الاتجاه البصري المطلوب.\n2. **ملف Skill (BRAND_SKILL.md)**: يُترجم الصورة إلى قواعد تصميم محدّدة: الألوان، الطباعة، التكوين، الإضاءة، الأسلوب البصري.\n3. **Agent تصميم**: يُنفّذ القواعد الواردة في الـ Skill لإنتاج جميع الأصول البصرية (شعارات، مواد ترويجية، تصاميم رقمية).\n4. **المُخرَج (OUTPUT)**: مجموعة متسقة من الأصول البصرية بجودة استوديو.\n\nالملف متاح على GitHub، والمقال المرفق يشرح الخطوات بالتفصيل. هذا مثال عملي على كيفية استخدام Skills لتوجيه Agents في مهام إبداعية معقدة، وليس فقط في البرمجة أو المهام التقنية.",
+  "why_it_matters": "يُقدّم منهجية عملية لتصميم الهويات البصرية باستخدام Skills وAgents، ويُظهر كيف يمكن توحيد الإنتاج التصميمي من مدخل واحد، ما يُسرّع العمل ويحافظ على الاتساق البصري.",
+  "original_text": "This brand system is built from 1 ref image\n\n- article below is my complete guide to repeat it\n- BRAND_SKILL.md is my 'brain' for the design Agent\n- video below is the output from all the assets I created for this brand inside 1 agent\n- [REFERENCE] > [SKILL] > [AGENT] > [OUTPUT] - that's the scheme\n\nif you're serious about design, branding & AI, read the article till the end, grab my Skill on GitHub - and win:",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف يحتوي قواعد وتعليمات موجّهة لـ Agent لأداء مهمة محددة"
+   },
+   {
+    "term": "Agent",
+    "ar": "نظام ذكاء اصطناعي قادر على تنفيذ مهام معقدة بشكل مستقل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GitHub",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 469,
+   "replies": 20,
+   "reposts": 41,
+   "quotes": 3,
+   "bookmarks": 704,
+   "views": 36597
+  },
+  "metrics_captured_at": "2026-09-04T05:04:59Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/XWyWTMaVvP"
+  },
+  "cluster_id": "brand_skill",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ }
+]
