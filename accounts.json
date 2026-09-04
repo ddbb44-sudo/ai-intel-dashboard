@@ -13,7 +13,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-04",
+ "updated": "2026-09-04T05:18:14Z",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -522,7 +522,9 @@
   {
    "handle": "AmirMushich",
    "name": "AmirMušić",
-   "active": true
+   "active": true,
+   "account_type": "تقني",
+   "is_arab": false
   }
  ]
 }
