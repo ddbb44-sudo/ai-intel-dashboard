@@ -13,7 +13,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-05",
+ "updated": "2026-09-05T05:58:33Z",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -169,7 +169,7 @@
    "handle": "SultanAlFardan",
    "name": "سلطان الفردان",
    "active": true,
-   "account_type": "تقني",
+   "account_type": "أخرى",
    "is_arab": true
   },
   {
@@ -298,7 +298,7 @@
    "handle": "emollick",
    "name": "Ethan Mollick",
    "active": true,
-   "account_type": "تقني",
+   "account_type": "أخرى",
    "is_arab": false
   },
   {
@@ -529,7 +529,9 @@
   {
    "handle": "apify",
    "name": "Apify",
-   "active": true
+   "active": true,
+   "account_type": "شركة",
+   "is_arab": false
   }
  ]
 }

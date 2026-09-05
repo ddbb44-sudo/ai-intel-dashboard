@@ -166,13 +166,21 @@ for h in handles:
     info, err = probe(h)
     if not info:
         failed.append((h, err)); log("تعذّر التحقق من %s: %s" % (h, err)); continue
+    # لا يُصنَّف الحساب هنا عمدًا. جُرّب تصنيفٌ نصّي بالكلمات المفتاحية وقِيس
+    # على الحسابات الثلاثة والسبعين فأصاب ٦٣٪ فقط: وضع خمسة عشر حسابًا رسميًّا
+    # لشركات في «أخرى» لأن سِيَرها تصف المنتج لا الشركة («وكيل برمجة لبناء
+    # برمجيات طموحة» · «تشغيل النماذج المفتوحة محليًا»). وخطأ تصنيف الحساب
+    # يجرّ بطاقاته كلها معه، فالصمت خيرٌ من إجابة خاطئة.
+    # الحساب يدخل بلا نوع، وsync_account_types --check يكسر الفحص فورًا
+    # فيُصنَّف بقرارٍ لا بتخمين. (وقع اليوم مع @AmirMushich و@apify وعمل.)
     entry = collections.OrderedDict([("handle", info["handle"]),
                                      ("name", info["name"] or info["handle"]),
                                      ("active", True)])
     acc["accounts"].append(entry)
     existing.add(info["handle"].lower())
     added.append(info)
-    log("أُضيف: %s (%s · %s متابعًا)" % (info["handle"], info["name"], info["followers"]))
+    log("أُضيف: %s (%s · %s متابعًا) — بلا نوع بعد، يصنَّف بقرار"
+        % (info["handle"], info["name"], info["followers"]))
 
 if added:
     acc["updated"] = time.strftime("%Y-%m-%d")
@@ -200,6 +208,7 @@ if added:
                   "url": "https://x.com/" + a["handle"],
                   "sprite": -1, "linkedin": "",
                   "domains": [], "entities": [], "card_count": 0,
+                  "active": True,
                 })
             with open(ap, "w", encoding="utf-8") as f:
                 json.dump(authors, f, ensure_ascii=False, indent=1)
