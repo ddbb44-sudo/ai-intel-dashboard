@@ -13,7 +13,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-04T05:18:14Z",
+ "updated": "2026-09-05",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -525,6 +525,11 @@
    "active": true,
    "account_type": "تقني",
    "is_arab": false
+  },
+  {
+   "handle": "apify",
+   "name": "Apify",
+   "active": true
   }
  ]
 }
