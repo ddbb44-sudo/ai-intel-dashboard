@@ -1,0 +1,2213 @@
+[
+ {
+  "id": "c1127",
+  "serial": 1127,
+  "serial_display": "#001127",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2074418112162652599",
+  "source_native_id": "2074418112162652599",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-07T08:59:53Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تتيح تحويل أي Actor ينتج روابط إلى RSS بمعامل واحد",
+  "arabic_summary": "أصبح بإمكان أي Actor في Apify ينتج عناوين URL أن يتحوّل إلى خلاصة RSS بمجرد إضافة معامل استعلام واحد. الميزة تتطلب تحديد حقول العنوان والرابط فقط، وهي متاحة الآن لجميع المستخدمين.",
+  "detailed_explanation": "الميزة الجديدة تسمح لأي Actor يعيد روابط أن يصبح مصدر RSS فوريًا عبر إضافة معاملَيْ `fields=title,url` و`outputFields=title,link` إلى عنوان الطلب.\n\nهذا يعني أن أي عملية scraping أو جمع بيانات تنتج قوائم روابط—مثل نتائج بحث أو منشورات من منصة—يمكن الآن الاشتراك فيها عبر قارئ RSS دون كتابة كود تحويل.\n\nالفائدة المباشرة: دمج مخرجات Apify في سير عمل يعتمد على RSS (مثل أدوات التنبيهات أو التجميع الآلي)، ما يقلّل الحاجة إلى middleware أو scripts وسيطة.",
+  "why_it_matters": "تبسّط دمج مخرجات Apify مع أدوات تعتمد على RSS دون الحاجة إلى برمجة أو خطوات إضافية، ما يوسّع استخدامات Actors في سير عمل عزيز.",
+  "original_text": "Any Apify Actor that outputs URLs can now become an RSS feed with a single query parameter.\n\n&amp;𝚏𝚒𝚎𝚕𝚍𝚜=𝚝𝚒𝚝𝚕𝚎,𝚞𝚛𝚕&amp;𝚘𝚞𝚝𝚙𝚞𝚝𝙵𝚒𝚎𝚕𝚍𝚜=𝚝𝚒𝚝𝚕𝚎,𝚕𝚒𝚗𝚔 - that's it. Full walkthrough in the 🧵 https://t.co/Npu0z4F4tw",
+  "glossary": [
+   {
+    "term": "Actor",
+    "ar": "وحدة تنفيذية قابلة لإعادة الاستخدام في Apify"
+   },
+   {
+    "term": "RSS",
+    "ar": "خلاصة ويب تُستخدم لمتابعة المحتوى المحدّث"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 11,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 687
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1128",
+  "serial": 1128,
+  "serial_display": "#001128",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2074478577249120574",
+  "source_native_id": "2074478577249120574",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-07T13:00:09Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ربط Reddit Answers بـ Claude عبر Apify MCP لتوليد أفكار إعلانية",
+  "arabic_summary": "فريق Adside.ai ربط أداة Reddit Answers (وهي LLM مدمج في Reddit) بـ Claude عبر خادم Apify MCP. النتيجة: إدخال سؤال واحد وإخراج عشر أفكار إعلانية مباشرة. الفيديو يشرح التنفيذ كاملًا.",
+  "detailed_explanation": "Reddit Answers هو نموذج لغوي مدمج في Reddit لا يوفّر API مفتوحًا. الفريق في Adside.ai استخدم Apify MCP server كوسيط: Apify يتفاعل مع Reddit Answers ويُرجع النتائج، بينما Claude يستهلكها عبر MCP.\n\nالسير: Prompt واحد يُرسل إلى Claude → Claude يطلب البيانات من Apify MCP → Apify ينفّذ Actor يتفاعل مع Reddit Answers → النتائج تعود إلى Claude الذي يعالجها ويولّد عشر أفكار إعلانية.\n\nهذا مثال واضح على دور MCP في ربط أدوات مغلقة أو غير موثّقة بواجهات Agent قياسية، ويبرز دور Apify كبنية تحتية لتنفيذ مهام scraping أو تفاعل معقّدة خلف MCP.",
+  "why_it_matters": "مثال تطبيقي على استخدام MCP لربط أداة لا تملك API رسميًا بـ Claude، ما يوسّع نطاق ما يمكن لـ Agent فعله باستخدام بنية MCP وApify كجسر.",
+  "original_text": "Reddit has a built-in LLM. It's called Reddit Answers.\n\nNo API - so Robin and Tibo from @Adsideai\nconnected it to Claude via Apify MCP. One prompt, 10 ad ideas. Full build in the video 👇\nhttps://t.co/jsWYRqVYEV",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول يربط نماذج اللغة بأدوات خارجية"
+   },
+   {
+    "term": "Actor",
+    "ar": "وحدة تنفيذية في Apify تقوم بمهمة محددة"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Apify",
+   "Claude",
+   "Reddit",
+   "Adside.ai"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 36,
+  "metrics": {
+   "likes": 6,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 609
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [
+   "https://www.youtube.com/watch?v=0p3uozeIjjg&t=1s"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1129",
+  "serial": 1129,
+  "serial_display": "#001129",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2074901797655679085",
+  "source_native_id": "2074901797655679085",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-08T17:01:53Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تدعم الدفع بـ USDC على Base دون حساب أو بطاقة ائتمان",
+  "arabic_summary": "بروتوكول x402 يتيح لـ Agents الدفع مقابل تنفيذ Actors في Apify باستخدام محفظة USDC على شبكة Base، دون الحاجة لحساب أو بطاقة. الدفع يتم فقط عند نجاح التنفيذ. أكثر من 20,000 Actor متاحة عبر MCP.",
+  "detailed_explanation": "سابقًا، استخدام Apify يتطلّب إنشاء حساب وربط بطاقة ائتمان والحصول على API key. هذا عائق أمام Agents التي تعمل بشكل مستقل دون تدخّل بشري.\n\nبروتوكول x402 يقدّم نموذج دفع قائم على blockchain: Agent يمتلك محفظة USDC على شبكة Base، يتّصل بـ Apify MCP server، يطلب تنفيذ Actor، وتُخصم التكلفة تلقائيًا من المحفظة. إذا فشل التنفيذ أو كانت النتيجة فارغة، لا يُحاسب.\n\nهذا يفتح المجال لـ Agents تستخدم خدمات خارجية دون وساطة بشرية، وهو خطوة نحو autonomous agents في بيئات decentralized. بالنسبة لعزيز، يعني أن Agents يبنيها يمكنها استخدام Apify دون أن يدير هو الحسابات أو الاعتمادات يدويًا.",
+  "why_it_matters": "يزيل حاجز الدخول الأكبر أمام Agents المستقلة: التسجيل والدفع التقليدي. الآن يمكن لـ Agent استخدام Apify مباشرة باستخدام محفظة عملات مشفّرة، ما يمهّد لاقتصاد Agent-to-Agent.",
+  "original_text": "Before x402: your agent needed an API key, an account, a credit card.\n\nNow: a USDC wallet on @base. Connect to the Apify MCP server, run an Actor, pay per result. Empty run? No charge.\n\n20,000+ Actors. No account needed. https://t.co/3azoHKz0gf",
+  "glossary": [
+   {
+    "term": "USDC",
+    "ar": "عملة مستقرّة رقمية مربوطة بالدولار"
+   },
+   {
+    "term": "Base",
+    "ar": "شبكة blockchain من Coinbase"
+   },
+   {
+    "term": "MCP server",
+    "ar": "خادم يوفّر وظائف عبر بروتوكول MCP"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Base",
+   "x402"
+  ],
+  "change_types": [
+   "New Feature",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 93,
+   "replies": 17,
+   "reposts": 20,
+   "quotes": 0,
+   "bookmarks": 20,
+   "views": 86835
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1130",
+  "serial": 1130,
+  "serial_display": "#001130",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2075318162631835841",
+  "source_native_id": "2075318162631835841",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-09T20:36:22Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ربط Apify MCP بـ Google Antigravity لتوليد leads منظّمة عبر IDE",
+  "arabic_summary": "يمكن الآن ربط خادم Apify MCP بأداة Google Antigravity (أداة تطوير) لتشغيل عمليات lead generation مباشرة من بيئة التطوير. إدخال Prompt واحد يُخرج leads منظّمة جاهزة.",
+  "detailed_explanation": "Google Antigravity (أداة IDE تجريبية من Google) تدعم MCP، ما يعني أنها تستطيع استدعاء Apify Actors مباشرة.\n\nالسير: المطوّر يكتب Prompt في Antigravity مثل «ابحث لي عن 50 شركة SaaS في مجال الأمن السيبراني»، Antigravity يستدعي Apify عبر MCP، Apify ينفّذ Actor مخصّص (مثل scraper لـ LinkedIn أو Apollo)، ثم يُعيد البيانات منظّمة إلى IDE.\n\nالفائدة: المطوّر لا يغادر بيئته، ولا يحتاج لكتابة integration code أو إدارة API keys يدويًا—كل شيء يعمل عبر MCP كطبقة موحّدة.",
+  "why_it_matters": "يوفّر سير عمل متكامل لجمع leads داخل IDE دون الحاجة لمغادرته أو كتابة سكربتات وسيطة، ما يختصر الخطوات بين الفكرة والتنفيذ.",
+  "original_text": "Your IDE can run lead-gen pipelines on its own. Connect the Apify MCP server to Google @antigravity. One prompt in, structured leads out.\n\nRead the guide → 🧵 https://t.co/GSq3GolS3D",
+  "glossary": [
+   {
+    "term": "IDE",
+    "ar": "بيئة تطوير متكاملة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Apify",
+   "Google",
+   "Antigravity"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 8,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 811
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1131",
+  "serial": 1131,
+  "serial_display": "#001131",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2078049305684840909",
+  "source_native_id": "2078049305684840909",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-17T09:28:57Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "جمع وتحليل مراجعات Amazon عبر Prompt واحد بـ Claude وApify",
+  "arabic_summary": "بمجرد Prompt مثل «ابحث لي عن أعلى 20 مراجعة لـ AirPods Pro على Amazon وأخبرني بأكثر ما يشتكي منه الناس»، يتولّى Claude وApify بقية العمل: جمع المراجعات وتحليلها وإرجاع النتيجة.",
+  "detailed_explanation": "المستخدم يُدخل Prompt بلغة طبيعية في Claude، مثل طلب جمع مراجعات منتج على Amazon.\n\nClaude يتّصل بـ Apify عبر MCP، يطلب تنفيذ Actor مخصّص لـ Amazon Scraper، يُمرّر له المعاملات (مثل ASIN أو كلمة بحث)، Apify يجمع المراجعات، يُرجعها بصيغة منظّمة.\n\nبعدها Claude يحلّل النصوص ويستخرج الشكاوى الأكثر تكرارًا، ويُرجع نتيجة نهائية مقروءة.\n\nالفائدة: المستخدم لا يحتاج لمعرفة كيفية scraping Amazon ولا كيفية برمجة API—كل شيء يحدث عبر لغة طبيعية بفضل MCP.",
+  "why_it_matters": "يوضّح كيف تتكامل MCP مع Apify وClaude لإنجاز مهام scraping وتحليل معقّدة دون كتابة كود، ما يجعل البيانات متاحة بلغة طبيعية.",
+  "original_text": "\"Find me the top 20 AirPods Pro reviews on Amazon and tell me what people complain about most.\"\n\nOne prompt. Apify + @claudeai handles the rest.\nLink in 🧵 https://t.co/aGjSrOsQv2",
+  "glossary": [
+   {
+    "term": "Scraping",
+    "ar": "استخراج بيانات من صفحات الويب"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Claude",
+   "Amazon"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 55,
+  "metrics": {
+   "likes": 33,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 21,
+   "views": 254720
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1132",
+  "serial": 1132,
+  "serial_display": "#001132",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2079170706575896980",
+  "source_native_id": "2079170706575896980",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-20T11:45:00Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ربط Apify MCP مع Agent لاستخراج بيانات منظمة من الويب خلال دقائق",
+  "arabic_summary": "باحث يربط Apify MCP بـ Agent يعمل بنموذج Hermes ليبحث في موقع AutoTrader، فيعثر على خمس سيارات SUV بأسعار أقل بمقدار خمسة آلاف دولار في 15 دقيقة فقط. العملية كاملة: اختيار الـ Actor المناسب، تشغيله، واستخراج النتائج بشكل آلي دون تدخل يدوي.",
+  "detailed_explanation": "المنشور يروي تجربة فعلية قام بها Nick Spisak، حيث وصل Apify MCP بـ Agent مبني على نموذج Hermes (من NousResearch، مستضاف على Orgo). الهدف كان البحث عن أفضل عروض سيارات SUV على موقع AutoTrader.\n\nالخطوات:\n- وُصل Apify MCP بـ Agent عبر سطر الأوامر.\n- استخدم Agent نموذج Hermes لاختيار الـ Actor الأنسب من Apify Store.\n- شغّل الـ Actor على موقع AutoTrader مباشرة.\n- عاد بخمس توصيات، كل واحدة أرخص بـ 5,000 دولار وبمسافة أقل.\n- الوقت الإجمالي: أقل من 15 دقيقة.\n- النتائج حُفظت في قاعدة معرفة العائلة (second brain).\n\nهذه الحالة توضح قيمة MCP كبنية تسمح للـ Agent بالتفاعل مع أدوات خارجية قوية (Apify Actors) دون الحاجة لكتابة Scraper مخصص أو API integration يدوي. الناتج: بيانات منظمة، سريعة، قابلة للاستعمال مباشرة.",
+  "why_it_matters": "مثال حي على كيفية استعمال Apify MCP لتمكين Agent من استخراج بيانات معقدة من مواقع حقيقية بسرعة، مما يوفر الوقت ويخفض التكلفة.",
+  "original_text": "Point an agent at @AutoTrader and it finds the cheapest SUV before you finish scrolling. \n\n@NickSpisak_ wired Apify MCP into a Hermes agent (via @NousResearch, hosted on @orgo) and found five picks, each $5k cheaper, in 15 minutes. \n\nTry wiring Apify MCP into your own agent stack 🚀",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج، بنية تسمح لـ Agents بالاتصال بأدوات خارجية"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي يقوم بمهام متعددة الخطوات بشكل مستقل"
+   },
+   {
+    "term": "Actor",
+    "ar": "أداة جاهزة على منصة Apify لاستخراج بيانات من مواقع محددة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "AutoTrader",
+   "Hermes",
+   "NousResearch",
+   "Orgo"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 59,
+   "replies": 5,
+   "reposts": 3,
+   "quotes": 2,
+   "bookmarks": 93,
+   "views": 27715
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Found vehicles over $5k cheaper with agents today\n\nFired up a @NousResearch hermes agent hosted on  @orgo via CLI\n\nConnected the @apify mcp\n\nUsed hermes to find the best actor\n\nIt fired up autotrader\n\nI gave it a prompt\n\nFound top five recommendations for our next SUV\n\nAll $5,000 cheaper and less miles\n\nIn under 15 minutes \n\nSaved to my family’s second brain knowledge base \n\nWill have it run for t"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1133",
+  "serial": 1133,
+  "serial_display": "#001133",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2079189863748837805",
+  "source_native_id": "2079189863748837805",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-20T13:01:07Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "طريقة ربط Apify بـ Claude Desktop خلال دقائق",
+  "arabic_summary": "Apify تنشر شرحًا مصورًا لكيفية ربط أداتها بـ Claude Desktop: نسخ API key من لوحة Apify، لصقه في موصّل Claude، ثم تشغيل أول استعلام. الإعداد كله بضع خطوات فقط.",
+  "detailed_explanation": "المنشور يوثّق خطوات بسيطة لربط Apify بتطبيق Claude Desktop:\n\n1. العثور على API key من لوحة Apify Console.\n2. لصقه في موصّل Claude (Connector).\n3. تشغيل أول استعلام.\n\nالشرح مصور بفيديو أو صورة (حسب الإشارة \"looks like\")، مما يجعله قابلًا للتطبيق الفوري. الهدف: إزالة الحاجز التقني أمام مستخدمي Claude Desktop الذين يريدون استخراج بيانات من الويب دون كتابة كود.\n\nهذا يعني أن Claude يصبح Agent قادرًا على استدعاء Apify Actors مباشرة من داخل محادثة عادية، مما يفتح حالات استخدام كثيرة في البحث وتحليل البيانات.",
+  "why_it_matters": "يسهّل على مستخدمي Claude Desktop استعمال Apify Actors مباشرة من واجهة Claude دون الحاجة لتعلّم واجهات برمجية معقدة.",
+  "original_text": "Here's what connecting Apify to Claude Desktop looks like.\nFind your API key in Apify Console, paste it into Claude's connector, and run your first query. That's the whole setup 🙌 https://t.co/UrkHlR3M9U",
+  "glossary": [
+   {
+    "term": "API key",
+    "ar": "مفتاح برمجي يُستخدم للمصادقة والوصول إلى خدمات Apify"
+   },
+   {
+    "term": "Connector",
+    "ar": "أداة توصيل تربط Claude Desktop بخدمات خارجية عبر MCP"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Claude Desktop",
+   "Apify Console"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 45,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 1,
+   "bookmarks": 35,
+   "views": 807644
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1134",
+  "serial": 1134,
+  "serial_display": "#001134",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2079525679905812988",
+  "source_native_id": "2079525679905812988",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-21T11:15:32Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Macaly تدمج Apify لملء التطبيقات المولّدة ببيانات حقيقية لا نموذجية",
+  "arabic_summary": "Macaly، منصة لبناء التطبيقات بالطلب، دمجت Apify لحل مشكلة \"البيانات النموذجية\". الآن عند وصف التطبيق واختيار المصدر، يخرج التطبيق محملاً ببيانات حقيقية: مراجعات، قوائم، أسعار، لا Lorem Ipsum.",
+  "detailed_explanation": "Vibe Coding (البرمجة بالوصف السريع) غالبًا ما ينتج تطبيقات جميلة المظهر لكنها مليئة ببيانات نموذجية (Lorem Ipsum، أرقام عشوائية، أسماء وهمية). المشكلة: التطبيق لا يبدو حقيقيًا ولا يمكن تجربته بشكل واقعي.\n\nMacaly حلّت هذا بدمج Apify مباشرة في سير العمل:\n- المستخدم يصف التطبيق المطلوب.\n- يختار مصدر البيانات (مثلاً: مراجعات من موقع، قوائم منتجات، أسعار من متجر).\n- Apify تسحب البيانات الحقيقية.\n- التطبيق يُبنى محملاً ببيانات فعلية جاهزة.\n\nالنتيجة: تطبيق جاهز للعرض أو التجربة دون حاجة لملء البيانات يدويًا لاحقًا. هذا يوفر وقتًا ويجعل النموذج الأولي أقرب للمنتج النهائي.",
+  "why_it_matters": "يحوّل Vibe Coding من نماذج جميلة فارغة إلى تطبيقات قابلة للتجربة الفورية ببيانات حقيقية، مما يرفع جودة الناتج ويسرّع التجريب.",
+  "original_text": "Vibe coding had a data problem. Your app came out beautiful - and full of lorem ipsum.\n\nApify is now built into @macalycom. Describe your app, pick a source, and it ships with real reviews, listings, and prices already inside. Link in 🧵 https://t.co/L3qcwEXmHX",
+  "glossary": [
+   {
+    "term": "Vibe Coding",
+    "ar": "أسلوب بناء التطبيقات بالوصف السريع أو الطلب الطبيعي، غالبًا بمساعدة AI"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Macaly"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 18,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 14,
+   "views": 201453
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1135",
+  "serial": 1135,
+  "serial_display": "#001135",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2079562711482974487",
+  "source_native_id": "2079562711482974487",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-21T13:42:41Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify AI: اطلب البيانات بالنص العادي دون إعداد Agent Stack",
+  "arabic_summary": "ميزة جديدة في Apify Console تسمى Apify AI تسمح بطلب البيانات بلغة طبيعية: يختار النظام الـ Actor المناسب، يملأ الإعدادات، يشغّله، ويعيد البيانات. لا حاجة لبناء Agent Stack كامل.",
+  "detailed_explanation": "Apify AI ميزة مدمجة في Apify Console، تعمل كواجهة بلغة طبيعية لاستدعاء Actors:\n\n- المستخدم يصف ما يريده بنص عادي (مثلاً: \"أريد أسعار أفضل 10 فنادق في باريس\").\n- النظام يحلل الطلب، يختار الـ Actor الأنسب من Apify Store.\n- يملأ الحقول المطلوبة (مثل الموقع، الكلمات المفتاحية، العدد).\n- يشغّل الـ Actor.\n- يعيد البيانات منسّقة جاهزة.\n\nكل هذا يحدث داخل واجهة واحدة دون الحاجة لكتابة Prompt معقد أو بناء Agent Stack من الصفر. الهدف: جعل قوة Apify متاحة لغير المطورين، أو لمن يريد سرعة الحصول على البيانات دون إعداد.",
+  "why_it_matters": "تخفّض حاجز الدخول للمستخدمين غير التقنيين الذين يريدون استخراج بيانات دون كتابة كود أو إعداد بنية Agent معقدة.",
+  "original_text": "No agent stack needed. Describe what you want: Apify AI finds the right Actor, fills the form, runs it, returns the data. ➡️ Try it in Apify Console. Link in thread. https://t.co/hGCKYoKSpr",
+  "glossary": [
+   {
+    "term": "Agent Stack",
+    "ar": "مجموعة الأدوات والبنى التقنية اللازمة لبناء وكيل ذكاء اصطناعي يقوم بمهام معقدة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Apify Console",
+   "Apify AI"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 55,
+  "metrics": {
+   "likes": 44,
+   "replies": 5,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 902679
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1136",
+  "serial": 1136,
+  "serial_display": "#001136",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2079918265476755878",
+  "source_native_id": "2079918265476755878",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-22T13:15:32Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تتبع ظهور الموقع في نتائج AI Search باستخدام Apify MCP",
+  "arabic_summary": "مشكلة جديدة: ترتيب SEO التقليدي لا يخبرك إن كان موقعك يظهر في نتائج Google AI Mode أو ChatGPT أو Perplexity. Apify توفّر Google Search Results Scraper مع MCP لتتبع الظهور في AI Search بشكل آلي.",
+  "detailed_explanation": "مع انتشار محركات البحث القائمة على AI (Google AI Mode، ChatGPT Search، Perplexity)، ترتيب الموقع في نتائج Google التقليدية لم يعد كافيًا. المستخدمون يسألون أسئلة طبيعية، والنتائج تأتي من نماذج لغوية تستخرج المعلومات من مصادر متعددة.\n\nApify تطرح حلًا:\n- استخدام Google Search Results Scraper لسحب نتائج بحث حقيقية.\n- ربطه بـ MCP ليعمل آليًا مع Agent أو أدوات أخرى.\n- تحليل ظهور الموقع في نتائج AI Search، لا فقط في روابط SEO التقليدية.\n\nالمنشور يشير إلى دليل كامل (في thread لاحق) يشرح كيفية إعداد هذا التتبع. الفكرة: أداة مراقبة جديدة لمشكلة جديدة في عالم البحث.",
+  "why_it_matters": "ظهور المحتوى في محركات البحث بالذكاء الاصطناعي يختلف عن SEO التقليدي، والحاجة لأدوات خاصة لقياسه تتزايد مع تحوّل عادات البحث.",
+  "original_text": "Your SEO rank doesn't tell you if you appear in Google AI Mode, ChatGPT, or Perplexity answers. Different problem, different tool.\n\nGoogle Search Results Scraper + Apify MCP tracks AI search visibility automatically. Full tutorial in 🧵 https://t.co/cm9fNYZNzC",
+  "glossary": [
+   {
+    "term": "AI Search",
+    "ar": "محركات بحث تعتمد على نماذج لغوية لفهم الاستفسارات وتقديم إجابات مباشرة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Google AI Mode",
+   "ChatGPT",
+   "Perplexity",
+   "Google Search Results Scraper"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 7,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 720
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1137",
+  "serial": 1137,
+  "serial_display": "#001137",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2081682767192920268",
+  "source_native_id": "2081682767192920268",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-27T10:07:02Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يستخرج 100 Lead بـ 10 سنتات عبر Apify MCP",
+  "arabic_summary": "مستخدم يربط Claude Code بـ Apify MCP، فيقرأ Claude موقعه، يفهم الجمهور المستهدف (ICP)، يختار الـ Actor المناسب من Apify Store، ويستخرج 100 Lead مقابل 10 سنتات فقط، دون حاجة لشراء قوائم جاهزة.",
+  "detailed_explanation": "التجربة:\n- Alex Vacca وصل Claude Code بـ Apify MCP.\n- طلب من Claude قراءة موقعه.\n- Claude حلل الموقع، استنتج الجمهور المستهدف (ICP: Ideal Customer Profile).\n- اختار من Apify Store الـ Actor الأنسب لاستخراج Leads.\n- شغّل الـ Actor وأعاد 100 Lead.\n- التكلفة: 10 سنتات.\n\nالمقارنة: شراء قوائم Leads جاهزة يكلف أضعافًا، وغالبًا بجودة أقل. هنا، الـ Agent يفهم السياق، يختار الأداة، ويجلب البيانات مباشرة من المصدر.\n\nهذا مثال على Claude Code يعمل كـ Agent مستقل قادر على:\n- فهم نص طبيعي.\n- اتخاذ قرار تقني (أي Actor يستخدم).\n- تنفيذ المهمة.\n- تسليم ناتج منظم.\n\nكل هذا بتكلفة ضئيلة جدًا مقارنة بالحلول التقليدية.",
+  "why_it_matters": "يثبت أن Claude Code مع Apify MCP يمكنه فهم السياق واتخاذ قرارات تقنية (اختيار Actor، تشغيله، استخراج البيانات) بتكلفة منخفضة جدًا مقارنة بالطرق التقليدية.",
+  "original_text": "Leads this cheap usually sound like a typo. \n\n@claudeai read @itsalexvacca's site, worked out the ICP on its own, then picked and ran the right Actor on Apify Store. 100 leads for 10 cents. \n\nNo middleman, same data 🚀",
+  "glossary": [
+   {
+    "term": "Lead",
+    "ar": "جهة اتصال تجارية محتملة (عميل محتمل)"
+   },
+   {
+    "term": "ICP",
+    "ar": "Ideal Customer Profile، وصف الجمهور المثالي المستهدف"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Claude Code",
+   "Apify",
+   "Apify MCP",
+   "Alex Vacca"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 11,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 13,
+   "views": 2425
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "STOP BUYING LEAD LISTS\n\nplug apify into claude code and scrape unlimited leads for literally cents https://t.co/SPdFBotDyW"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1138",
+  "serial": 1138,
+  "serial_display": "#001138",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2082489501193031810",
+  "source_native_id": "2082489501193031810",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-29T15:32:42Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify AI الآن في Console: ترتيب Actors حسب جودة الوثائق والاستخدام",
+  "arabic_summary": "Apify AI أصبح متاحًا رسميًا في Apify Console، ويرتّب Actors بناءً على جودة README، وضوح Schemas، وحجم الاستخدام. المنشور يدعو مطوري Actors لقراءة دليل التحسين.",
+  "detailed_explanation": "المنشور يعلن أن Apify AI (الميزة التي تم ذكرها سابقًا في منشور 2079562711482974487) أصبحت متاحة رسميًا في Apify Console.\n\nالجديد هنا:\n- الكشف عن آلية الترتيب: Apify AI يعتمد على نفس المعايير التي يستخدمها بحث Apify Store:\n  - جودة ملف README.\n  - وضوح ووثائق Schemas (البنية المتوقعة للبيانات).\n  - حجم الاستخدام (Usage).\n\n- دعوة لمطوري Actors: المنشور يوجّههم لقراءة مقال على مدونة Apify يشرح كيفية تحسين Actors لتظهر بشكل أفضل في نتائج Apify AI.\n\nهذا يعني أن Apify AI ليست فقط واجهة طلب، بل نظام ترتيب ذكي يكافئ الجودة والوثائق الواضحة، مما يرفع مستوى Actors المتاحة.",
+  "why_it_matters": "يوضّح معايير الترتيب في Apify AI، مما يساعد المطورين على تحسين Actors لتصبح أكثر قابلية للاكتشاف.",
+  "original_text": "Apify AI is live in Console. It ranks Actors on the same signals as Store search - README quality, documented schemas, usage. If you publish Actors, the blog is worth 5 minutes ↓ https://t.co/4qaZ5FbxOx",
+  "glossary": [
+   {
+    "term": "Schema",
+    "ar": "بنية البيانات المتوقعة، تحدد الحقول ونوع كل حقل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Apify Console",
+   "Apify AI",
+   "Apify Store"
+  ],
+  "change_types": [
+   "General Availability"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 36,
+  "metrics": {
+   "likes": 7,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 646
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1139",
+  "serial": 1139,
+  "serial_display": "#001139",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2082781750627889465",
+  "source_native_id": "2082781750627889465",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-07-30T10:54:00Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify AI Code Sandbox: بيئة جاهزة بـ Claude Code وOpenCode مع أرصدة مجانية",
+  "arabic_summary": "Apify تطلق AI Code Sandbox، بيئة عمل سحابية جاهزة مثبت عليها Claude Code وOpenCode، مربوطة بـ Apify Actors، مع 5 دولارات أرصدة مجانية شهريًا. جاهزة للاستعمال في ثوانٍ دون إعداد.",
+  "detailed_explanation": "AI Code Sandbox من Apify هو بيئة تطوير سحابية جاهزة، موجّهة لمن يريد بناء Agents تستخدم بيانات حقيقية من الويب:\n\nما يتضمنه:\n- **Claude Code** وOpenCode مثبتان مسبقًا.\n- **Apify Actors** مربوطة ومتاحة للاستدعاء مباشرة.\n- **نماذج مجانية** يمكن استخدامها.\n- **5 دولارات أرصدة مجانية شهريًا** لتشغيل Actors.\n- لا حاجة لإعداد API keys أو تثبيت أدوات.\n\nالفائدة:\n- المطور يفتح الـ Sandbox ويبدأ العمل فورًا.\n- مثالي لتجربة Agents التي تحتاج بيانات ويب حقيقية (مثل البحث، التحليل، المقارنة).\n- يزيل الحاجة لإعداد بيئة محلية معقدة.\n\nMidudev (مطور إسباني معروف) جرّبه ونشر عنه، مما يعطي إشارة لجودته وسهولة استعماله.",
+  "why_it_matters": "تحذف حاجز الإعداد الأولي لمن يريد تجربة Agents تستخدم Claude Code مع Apify، وتوفر بيئة اختبار مجانية لبناء حلول تعتمد على استخراج البيانات من الويب.",
+  "original_text": "An agent that can pull real web data without a single API key pasted in. \n\n@midudev ran it this week on Apify's AI Code Sandbox: @opencode and Claude Code preinstalled, Apify Actors wired in, $5 free credits monthly. \n\nFor agents that need real web data to work with 👇",
+  "glossary": [
+   {
+    "term": "Sandbox",
+    "ar": "بيئة عمل معزولة آمنة للتجريب والاختبار"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Claude Code",
+   "OpenCode",
+   "AI Code Sandbox",
+   "Midudev"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 31,
+  "metrics": {
+   "likes": 5,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 728
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "¡No sabía que necesitaba esto!\n\nUn AI Code Sandbox, un servidor listo en segundos con OpenCode y Claude Code instalado.\n\nDentro puedes usar modelos gratuitos y los scrapers de Apify sin configurar nada.\n\nIncluye 5 $ gratis al mes:\n→ https://t.co/zpRNbNqZLR https://t.co/sFaI1NlVc2"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1140",
+  "serial": 1140,
+  "serial_display": "#001140",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2084268176829796407",
+  "source_native_id": "2084268176829796407",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-03T13:20:31Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تطلق 18 أداة جاهزة للاستخدام مع Strands Agents من AWS",
+  "arabic_summary": "أطلقت Apify تكاملًا جديدًا يوفر 18 أداة جاهزة للاستخدام مع Strands Agents التابعة لـ AWS. الأدوات تشمل Google Search وLinkedIn وYouTube ومنصات التجارة الإلكترونية ووسائل التواصل الاجتماعي، وتُثبَّت عبر أمر pip install واحد.",
+  "detailed_explanation": "التكامل يُدخل 18 أداة من Apify إلى بيئة Strands Agents، وهي بيئة لبناء الوكلاء مدعومة من AWS. الأدوات تغطي طيفًا واسعًا من مصادر البيانات: محركات البحث (Google Search)، الشبكات المهنية (LinkedIn)، محتوى الفيديو (YouTube)، التجارة الإلكترونية، ووسائل التواصل الاجتماعي.\n\nالقيمة الأساسية تكمن في تبسيط عملية ربط الوكلاء بالمصادر الخارجية. بدلًا من كتابة Scrapers مخصصة أو التعامل مع واجهات APIs متعددة، يمكن للمطوّر تثبيت حزمة واحدة عبر pip وإتاحة كل هذه الأدوات للـ Agent. هذا يسرّع بناء الحلول ويقلل من حمل الصيانة.\n\nالتكامل يستفيد من بنية Apify الموجودة (Actors) ويجعلها متاحة لبيئة AWS، مما يعني أن المطوّرين على AWS Cloud يمكنهم الآن الاستفادة من مكتبة Apify الواسعة دون مغادرة بيئتهم.",
+  "why_it_matters": "يوسّع قدرات الوكلاء على الوصول إلى مصادر بيانات متعددة بسهولة، ويفتح المجال لبناء تطبيقات Agent أكثر تعقيدًا تجمع بيانات من منصات مختلفة دون الحاجة لبناء موصلات منفصلة.",
+  "original_text": "New integration 🎉\nApify now has 18 ready-to-use tools for Strands Agents by @awscloud - Google Search, LinkedIn, YouTube, e-commerce, social media, and more.\n\nOne pip install. Links in thread. https://t.co/MH2VnHCJMn",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل برمجي — برنامج ذكي يؤدي مهام بشكل مستقل"
+   },
+   {
+    "term": "pip install",
+    "ar": "أمر تثبيت حزم في Python"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "AWS",
+   "Strands Agents"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 5,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 84947
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1141",
+  "serial": 1141,
+  "serial_display": "#001141",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2084610944710107488",
+  "source_native_id": "2084610944710107488",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-04T12:02:34Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة Perplexity Search Scraper لاستخراج نتائج البحث بالذكاء الاصطناعي",
+  "arabic_summary": "أطلقت Apify أداة Perplexity Search Scraper تستخرج الإجابات الكاملة التي يقدمها محرك Perplexity AI مع كل مصادر الاستشهاد. الأداة تتيح تتبع ذكر العلامات التجارية والاستشهادات وكيف تصف محركات البحث بالذكاء الاصطناعي علامتك، دون الحاجة لـ API key.",
+  "detailed_explanation": "Perplexity AI هو محرك بحث يستخدم نماذج اللغة لتقديم إجابات مباشرة بدلًا من قوائم روابط. Perplexity Search Scraper يستخرج هذه الإجابات بالكامل، مع كل المصادر التي استشهد بها النموذج في بناء الإجابة.\n\nالقيمة العملية: يمكن للعلامات التجارية والأفراد تتبع كيف يُجاب عن الاستعلامات المتعلقة بهم، وما هي المصادر التي يعتمد عليها Perplexity في بناء السرد حولهم. هذا يختلف عن SEO التقليدي لأن محركات البحث بالذكاء الاصطناعي لا تعرض روابط بالترتيب، بل تُركّب إجابة واحدة من مصادر متعددة.\n\nالأداة لا تحتاج إلى API key، مما يعني أنها تعمل كـ Scraper تقليدي يحاكي سلوك المستخدم العادي، وهذا يجعلها سهلة الاستخدام دون الحاجة لحساب مطوّر في Perplexity.",
+  "why_it_matters": "مع تزايد استخدام محركات البحث المدعومة بالذكاء الاصطناعي مثل Perplexity، أصبح فهم كيف تظهر العلامات التجارية في نتائجها مهمًا مثل SEO التقليدي. هذه الأداة تتيح مراقبة السمعة الرقمية في عصر البحث بالذكاء الاصطناعي.",
+  "original_text": "Most brands know where they rank on Google. Few know what @perplexity_ai says about them.\n\nPerplexity Search Scraper pulls full AI answers + every cited source for any query. Track brand mentions, citations, and how AI search describes you - no API key needed. Link in 🧵 https://t.co/gilcRjEmPS",
+  "glossary": [
+   {
+    "term": "API key",
+    "ar": "مفتاح الوصول لواجهة برمجية"
+   },
+   {
+    "term": "Scraper",
+    "ar": "أداة استخراج بيانات من مواقع الويب"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Perplexity AI"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 3,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 455
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1142",
+  "serial": 1142,
+  "serial_display": "#001142",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2085321418288304432",
+  "source_native_id": "2085321418288304432",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-06T11:05:44Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill رسمي من Apify لتحويل بيانات Booking إلى قوائم اتصال",
+  "arabic_summary": "أطلقت Apify ملف Skill رسميًا باسم Apify Booking leads skill يجمع بين Booking Scraper وإثراء البيانات ليحوّل بيانات الفنادق في سوق معيّنة إلى قائمة جهات اتصال كاملة (بيانات العقار + إيميلات وهواتف مُثرَاة)، ويُصدّرها في ملف واحد. المصدر متاح على GitHub.",
+  "detailed_explanation": "الـ Skill يربط بين Booking Scraper (أداة Apify الموجودة لاستخراج بيانات الفنادق من Booking.com) وخدمة إثراء بيانات الاتصال. المستخدم يُدخل سوقًا جغرافيًا (مثل مدينة)، والـ Skill يستخرج الفنادق ثم يُثري كل عقار ببيانات الاتصال (إيميلات وهواتف)، ويُخرج قائمة نظيفة جاهزة للاستخدام في التواصل.\n\nالقيمة التطبيقية: شركات السفر أو الخدمات الموجهة للفنادق (مثل موردي المستلزمات أو منصات الحجز البديلة) تحتاج إلى قوائم جهات اتصال محدّثة. بدلًا من استخراج البيانات ثم إثرائها يدويًا في أداة منفصلة، الـ Skill يُنفّذ الخطوتين تلقائيًا.\n\nكون الـ Skill رسمي من Apify ومتاح على GitHub يعني أنه:\n- مدعوم ومُحدّث\n- يمكن فحص كوده والتعلم منه لبناء Skills مشابهة\n- قابل للتخصيص حسب الحاجة\n\nهذا مثال على كيفية تحويل أدوات Apify الموجودة إلى Skills جاهزة تُستخدم في سيناريوهات محدّدة.",
+  "why_it_matters": "يُسهّل بناء قوائم leads للتوسع الجغرافي في قطاع الضيافة، ويوفر الوقت بدمج استخراج البيانات والإثراء في خطوة واحدة، ويقدم نموذجًا عمليًا لبناء Skills تجمع بين أكثر من Actor.",
+  "original_text": "Expanding into a new destination?\nBooking Scraper plus the official Apify Booking leads skill turns a market into a contactable host list - property data, enriched emails and phones, one clean export.\n\nGrab the skill on GitHub → https://t.co/70wkY5bMU4 https://t.co/IomVNYw6F0",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف يصف قدرة قابلة للاستدعاء من LLM"
+   },
+   {
+    "term": "Actor",
+    "ar": "وحدة عمل في Apify تنفذ مهمة محددة"
+   },
+   {
+    "term": "Scraper",
+    "ar": "أداة استخراج بيانات من مواقع الويب"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Booking.com",
+   "GitHub"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 29,
+  "metrics": {
+   "likes": 2,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 55243
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [
+   "https://apify.it/4xtMWpT"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1143",
+  "serial": 1143,
+  "serial_display": "#001143",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2087166127671558602",
+  "source_native_id": "2087166127671558602",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-11T13:15:57Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحديثات Apify CLI تجعل الوكلاء مواطنين من الدرجة الأولى في النظام",
+  "arabic_summary": "أصدرت Apify تحديثات لـ CLI تدعم الوكلاء بشكل أصلي. يمكن الآن ربط Apify MCP بأمر واحد، والوكلاء تكتشف مدخلات Actor تلقائيًا، وتتابع حالة التشغيل، وتعمل دون الحاجة لمشاركة API token مع الوكيل.",
+  "detailed_explanation": "التحديثات تستهدف تحسين تجربة المطوّرين الذين يبنون Agents تتفاعل مع Apify. التحسينات الرئيسية:\n\n**1. ربط MCP بأمر واحد:** بدلًا من إعداد يدوي معقد، أصبح ربط Apify MCP (Model Context Protocol) يتم بأمر CLI بسيط. هذا يُسرّع إعداد البيئة ويُقلّل احتمالية الأخطاء.\n\n**2. اكتشاف تلقائي لمدخلات Actor:** الوكيل يمكنه الآن قراءة ما يحتاجه Actor من مدخلات (Schema) تلقائيًا، ويُحضّر الطلب بشكل صحيح دون تدخل يدوي. هذا يعني أن Agent يمكنه استكشاف واستخدام Actors جديدة دون أن يُبرمَج مسبقًا لها.\n\n**3. متابعة حالة التشغيل:** الوكيل يستطيع تتبع حالة الـ Actor Run (هل انتهى، هل فشل، هل ما زال يعمل) والتصرف بناءً على ذلك، مما يجعل سلوكه أكثر ذكاءً واستقلالية.\n\n**4. عدم مشاركة API token:** الوكيل لا يحتاج إلى الوصول المباشر لـ API token، مما يُحسّن الأمان. هذا يعني أن Agent يمكنه استدعاء Actors عبر واجهة آمنة دون أن يملك مفاتيح الوصول الكاملة للحساب.\n\nهذه التحديثات تُحوّل Apify من منصة أدوات يستدعيها المطور يدويًا إلى بيئة صديقة للـ Agents، حيث يمكن للوكلاء اكتشاف واستخدام الأدوات بشكل مستقل وآمن.",
+  "why_it_matters": "يُزيل الحواجز التقنية والأمنية أمام استخدام الوكلاء لأدوات Apify، ويجعل بناء Agents التي تستدعي Actors أسهل وأكثر أمانًا، مما يوسّع نطاق التطبيقات الممكنة.",
+  "original_text": "Latest Apify CLI releases make AI agents first-class citizens 🦾\n\nConnect Apify MCP in one command. Agents discover Actor inputs on their own, trust the status a run reports back, and never touch your API token.\n\nWatch our Devrel @michaeldaigler_ run through the demo ↓ https://t.co/fIBzlZn18d",
+  "glossary": [
+   {
+    "term": "CLI",
+    "ar": "واجهة سطر الأوامر"
+   },
+   {
+    "term": "MCP",
+    "ar": "Model Context Protocol — بروتوكول سياق النموذج"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل برمجي — برنامج ذكي يؤدي مهام بشكل مستقل"
+   },
+   {
+    "term": "Actor",
+    "ar": "وحدة عمل في Apify تنفذ مهمة محددة"
+   },
+   {
+    "term": "API token",
+    "ar": "مفتاح وصول لواجهة برمجية"
+   },
+   {
+    "term": "Schema",
+    "ar": "بنية البيانات المطلوبة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify"
+  ],
+  "change_types": [
+   "Update",
+   "New Feature",
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 27,
+   "replies": 11,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 10,
+   "views": 86864
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1144",
+  "serial": 1144,
+  "serial_display": "#001144",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2088269104876564895",
+  "source_native_id": "2088269104876564895",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-14T14:18:47Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحويل مجموعة WhatsApp إلى نشرة بريدية آلية باستخدام Apify",
+  "arabic_summary": "مات بيرمان بنى خط أنابيب يستخرج محتوى من مجموعات WhatsApp باستخدام Apify، ثم يصنّفه ويعيد كتابته ليصبح نشرة بريدية محلية آلية. التكلفة الشهرية 84 دولارًا، والعملية تشمل استخراج النصوص والإعلانات، تصنيفها حسب الملاءمة، إثراء البيانات الناقصة، واستخدام Sonnet لإعادة الكتابة.",
+  "detailed_explanation": "بنى مات بيرمان نظامًا آليًا لإدارة علامة إعلامية محلية بتكلفة 84 دولارًا شهريًا، يعتمد على Apify كأداة استخراج رئيسية.\n\nيبدأ الخط بـ Apify التي تستخرج النصوص والإعلانات والروابط مباشرة من مجموعات WhatsApp، ثم يستخدم Luna لاستخلاص التفاصيل. بعد ذلك، يمرّ المحتوى عبر prompt للتصنيف حسب الملاءمة للجمهور، ويُنظَّم إلى ثلاث فئات: إرسال أو حفظ أو تجاهل.\n\nفي الخطوة التالية، يستخدم Brave وFirecrawl للحصول على العناوين الناقصة وروابط الخرائط والتذاكر. ثم يستعين بـ ScrapeCreators لجلب حسابات المنظّمين على Instagram وTikTok. أخيرًا، يستخدم Sonnet لإعادة كتابة المحتوى بشكل احترافي.\n\nالعملية بأكملها تعمل بشكل آلي، وتحوّل مصدر بيانات غير منظّم (مجموعة WhatsApp) إلى نشرة بريدية جاهزة للنشر، بما يوضح قدرة Apify على العمل كجزء من سلاسل عمل معقدة.",
+  "why_it_matters": "يوضح كيف يمكن لـ Apify استخراج البيانات من مصادر غير تقليدية (WhatsApp) ودمجها في سلسلة عمل آلية كاملة بتكلفة منخفضة.",
+  "original_text": "A @WhatsApp group full of unsorted flyers and links doesn't look like a data source. \n\n@TheMattBerman built a pipeline around it anyway: Apify pulls the raw content out first, then scoring and rewriting turn it into a newsletter, all for $84 a month. \n\nCheck it out 👇",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Brave",
+   "Firecrawl",
+   "ScrapeCreators",
+   "Sonnet"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 4,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1029
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "how to run an automated local media brand on $84/mo:\n\n1/ @apify scrapes text, flyers, and links straight from WhatsApp groups. luna extracts the details\n\n2/ scoring prompt runs for audience fit and organizes into SEND, SAVE, or SKIP \n\n3/ @Brave + @firecrawl get any missing addresses, map links and ticket links\n\n4/ @ScrapeCreators grabs the organizers socials from Insta + TikTok\n\n5/ Sonnet rewrites"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1145",
+  "serial": 1145,
+  "serial_display": "#001145",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2089366645768643034",
+  "source_native_id": "2089366645768643034",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-17T15:00:01Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "توليد عملاء محتملين من LinkedIn بتكلفة 2 دولار لكل 1000 باستخدام Apify",
+  "arabic_summary": "كيرني بنى نظامًا يستخرج التفاعلات والتعليقات من منشورات LinkedIn باستخدام Apify، ثم يُثري البيانات عبر Apollo ويصفّيها حسب الاهتمام. النتيجة: 1000 عميل محتمل دافئ بتكلفة 2 دولار لكل ألف. الطريقة تستهدف المعلّقين على إطلاقات تقنية كبرى مثل Gemini 3.7 Flash.",
+  "detailed_explanation": "كيرني من GoodEnoughAI بنى نظام توليد عملاء محتملين يعتمد على Apify كأداة استخراج أساسية، بتكلفة إجمالية حوالي 5 دولارات شهريًا.\n\nالفكرة تعتمد على استهداف المهندسين المهتمين بالنماذج المفتوحة المصدر والأرخص. عندما أطلقت Google نموذج Gemini 3.7 Flash، كانت التعليقات مليئة بالمهندسين الذين يتحدثون عن \"أفضل وأرخص\" — وهم بالضبط الجمهور المستهدف لـ GoodEnoughAI.\n\nيستخدم Apify لاستخراج كل التفاعلات (reactions) والتعليقات من أي منشور على LinkedIn. ثم تُرسل البيانات إلى Apollo لإثراء كل ملف شخصي بالمعلومات الكاملة (البريد الإلكتروني، المنصب، الشركة). بعد ذلك، يُطبَّق نظام تصنيف لتصفية الأشخاص الذين يُظهرون اهتمامًا حقيقيًا بما تبيعه الشركة.\n\nالنتيجة: قائمة من 1000 عميل محتمل \"دافئ\" (أبدوا اهتمامًا فعليًا) بتكلفة 2 دولار لكل ألف، وهو رقم أقل بكثير من تكاليف الإعلانات التقليدية أو شراء القوائم الباردة.",
+  "why_it_matters": "يُظهر كيف يمكن استخدام Apify لتحويل بيانات التفاعل الاجتماعي إلى قوائم عملاء محتملين مستهدفة بدقة وبتكلفة منخفضة جدًا.",
+  "original_text": "$2 for 1,000 warm leads sounds too good to be true, until you see the stack behind it. \n\n@kearneyy's stack: Apify pulls reactions and comments off any @LinkedIn post, @useapolloio enriches each profile, then scoring filters for people who already want what you sell. \n\nFull stack below 👇",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Apollo",
+   "LinkedIn",
+   "GoodEnoughAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 12,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 13,
+   "views": 1914
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "I built a LinkedIn scraper this afternoon that finds our next 1,000 waitlist signups. Total cost: about $5/month.\n\nHere's the playbook we're running at @GoodEnoughAi.\n\nWhen Google shipped Gemini 3.7 Flash yesterday, the entire comment section under the launch posts was engineers talking about one thing: better AND cheaper. Those people are our exact customers. We sell managed open-source models at"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1146",
+  "serial": 1146,
+  "serial_display": "#001146",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2089632335176090101",
+  "source_native_id": "2089632335176090101",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-18T08:35:46Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخراج عملاء محتملين من تعليقات LinkedIn عبر Claude وApify MCP",
+  "arabic_summary": "Termsheetinator يوضح كيف تُستخدم Apify من خلال MCP الخاص بـ Claude لاستخراج أسماء المشاركين في المسابقات (giveaways) من تعليقات LinkedIn، ثم إثراء البيانات والتحقق من صحة البريد الإلكتروني. الطريقة تحوّل قسم التعليقات إلى قائمة عملاء جاهزة للتواصل.",
+  "detailed_explanation": "Termsheetinator يقدّم طريقة لتحويل قسم التعليقات تحت منشورات صنّاع المحتوى على LinkedIn إلى قوائم عملاء محتملين جاهزة للتواصل، وذلك باستخدام Apify من خلال MCP الخاص بـ Claude.\n\nتبدأ العملية بإنشاء حساب على Apify وربط MCP الخاص بها مع Claude. بعد ذلك، يتتبّع المستخدم صنّاع المحتوى الذين يقومون بمسابقات (giveaways) موجّهة للجمهور المستهدف (ICP).\n\nيستخدم Apify لاستخراج التعليقات التي تحتوي على اشتراكات (opt-ins) من المسابقات. ثم تُثرى البيانات باستخدام أدوات مثل GetLeads أو QuickEnrich للحصول على معلومات الاتصال الكاملة. بعد ذلك، يتم التحقق من صحة عناوين البريد الإلكتروني باستخدام Reoon أو MilliVerifier.\n\nالنتيجة قائمة نظيفة من العملاء المحتملين الذين أبدوا اهتمامًا واضحًا بموضوع ذي صلة، جاهزة للاستخدام في حملات التواصل (outbound).\n\nالأهمية هنا تكمن في استخدام MCP كوسيط بين Claude وApify، ما يسمح بأتمتة العملية بالكامل داخل بيئة Claude.",
+  "why_it_matters": "يوضح تكامل Apify مع Claude عبر MCP لأتمتة عملية توليد العملاء المحتملين من مصادر غير تقليدية على LinkedIn.",
+  "original_text": "A comment section doesn't look like a lead source. \n\n@termsheetinator  lays out how to turn one into an outbound list anyway. Apify, through @claudeai's MCP, tracks the giveaways and pulls the opt-ins, then enrichment and verification take it from there. \n\nFull stack below 👇",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج، يسمح لـ Claude بالتواصل مع أدوات خارجية مثل Apify"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Claude",
+   "GetLeads",
+   "QuickEnrich",
+   "Reoon",
+   "MilliVerifier",
+   "LinkedIn"
+  ],
+  "change_types": [
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 0,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 768
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "If you sell B2B, your next outbound list is sitting in a LinkedIn Creator’s comment section.\n\nHere’s how to turn it into booked meetings:\n\n1. Create an Apify account.\n2. Connect its MCP to Claude\n3. Track creators who do giveaways to your ICP\n3. Scrape comment opt-in's under the creators giveaways\n4. Enrich them with GetLeads or QuickEnrich\n5. Verify the emails with Reoon or MilliVerifier\n6. Get 4"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1147",
+  "serial": 1147,
+  "serial_display": "#001147",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2090084776988262560",
+  "source_native_id": "2090084776988262560",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-19T14:33:37Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء محلّل إعلانات فيسبوك في Claude Code باستخدام Apify وGemini",
+  "arabic_summary": "مايك فوتيا بنى أداة داخل Claude Code تستخرج إعلانات المنافسين من مكتبة إعلانات Meta باستخدام Apify، ثم تحلّل الفيديوهات عبر Gemini وتولّد ملف توجيهي إبداعي مع 10 أفكار إعلانية. العملية تستغرق 15 دقيقة وتكلّف حوالي 3 دولارات، بدلًا من يوم كامل من البحث اليدوي.",
+  "detailed_explanation": "مايك فوتيا بنى أداة داخل Claude Code تعمل كمستشار استراتيجي إبداعي، تحلّل إعلانات المنافسين وتولّد أفكارًا إعلانية جديدة بشكل آلي.\n\nتبدأ العملية بإدخال روابط صفحات فيسبوك للمنافسين. تستخدم Apify لاستخراج الإعلانات النشطة من مكتبة إعلانات Meta (Facebook Ad Library). بعد ذلك، يُستخدم Gemini لمشاهدة وتحليل كل فيديو إعلاني واستخلاص الأنماط المتكررة.\n\nثم يستخدم Claude لتوليد ملف توجيهي إبداعي (creative brief) مبني على البيانات، يتضمن 10 أفكار إعلانية مكتوبة بصوت العلامة التجارية للعميل.\n\nما كان يتطلّب يومًا كاملًا من البحث اليدوي — فتح عشرات النوافذ وجمع لقطات الشاشة وتنظيم الملاحظات في Google Doc — أصبح يستغرق 15 دقيقة بتكلفة حوالي 3 دولارات.\n\nالأداة مفيدة بشكل خاص للعلامات التجارية التي تبيع مباشرة للمستهلك (DTC) والوكالات التي لا تزال تعتمد على طرق البحث اليدوية التقليدية.",
+  "why_it_matters": "يُظهر كيف يمكن دمج Apify مع Claude Code وGemini لأتمتة بحث الإعلانات وتحليلها وتوليد أفكار جديدة، بما يوفّر وقتًا كبيرًا للعلامات التجارية والوكالات.",
+  "original_text": "Ad research means a full day of tabs and screenshots, until @mikefutia cut it to 15 minutes in Claude Code for about $3.\n\nApify pulls active ads from @Meta's Ad Library, @Gemini maps what repeats, @claudeai drafts the concepts.\n\nWhat are you pulling with Apify? 🤖",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Apify",
+   "Claude Code",
+   "Claude",
+   "Gemini",
+   "Meta",
+   "Facebook"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 6,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 557
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "I just built a $10K/month creative strategist inside Claude Code 🤯\n\nGive it your competitor Facebook page URLs → it scrapes their ads, watches every video with AI, and delivers a data-backed creative brief with 10 ad concepts in your brand voice.\n\nAll inside Claude Code.\n\nPerfect for DTC brands and agencies whose \"creative research\" is still a media buyer with 40 tabs open and a Google Doc full of"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1148",
+  "serial": 1148,
+  "serial_display": "#001148",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2090414804351459775",
+  "source_native_id": "2090414804351459775",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-20T12:25:02Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخراج أفضل أفكار المحتوى من تاريخ منشورات X وLinkedIn عبر Apify",
+  "arabic_summary": "Hat Tip تستخدم Apify لاستخراج كل منشورات العميل من X وLinkedIn، ثم Claude Code لتصنيفها حسب الأداء والموضوع والشكل. يُستخدم التحليل للعثور على أنماط النجاح ومطابقة الأفكار الجديدة مع المنشورات الأفضل أداءً سابقًا، بما يزيد نسبة المنشورات الناجحة.",
+  "detailed_explanation": "Hat Tip — وهي وكالة تكتب محتوى التواصل الاجتماعي لمؤسسي الشركات B2B — طوّرت سير عمل آلي باستخدام Apify وClaude Code لزيادة نسبة المنشورات الناجحة.\n\nتبدأ العملية بـ Apify التي تستخرج كل محتوى العميل من X وLinkedIn. تُبنى بعد ذلك قاعدة بيانات CSV مرتّبة حسب الأداء (التفاعل، المشاهدات، إلخ). ثم يُستخدم Claude Code لتصنيف كل منشور حسب الموضوع والشكل والطول ونوع الوسائط المستخدمة.\n\nبعد ذلك، يُستعلَم عن قاعدة البيانات لمطابقة أفكار أو قصص العميل الجديدة مع المنشورات الأفضل أداءً سابقًا، من حيث الشكل والمعالجة. هذا يسمح بالتنبؤ بما سيعمل بشكل أفضل قبل النشر.\n\nبدلًا من الاعتماد على الحدس أو التجربة والخطأ، يعتمد النهج على بيانات حقيقية من تاريخ العميل نفسه، بما يجعل عملية إنشاء المحتوى أكثر دقة واستنادًا إلى الأدلة.\n\nالإنسان لا يزال يكتب المحتوى النهائي، لكن القرارات حول الشكل والمعالجة تُتخذ بناءً على بيانات مستخرجة ومحللة آليًا.",
+  "why_it_matters": "يوضح كيف يمكن لـ Apify استخراج البيانات التاريخية من منصات التواصل الاجتماعي لتحليل الأداء وتحسين استراتيجية المحتوى.",
+  "original_text": "Your own @X and @LinkedIn history already has your next post idea in it. \n\n@dibratto built a workflow at Hat Tip to find it: Apify pulls the history, Claude Code sorts it, a human still writes it. Full workflow 👇",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Claude Code",
+   "X",
+   "LinkedIn",
+   "Hat Tip"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 31,
+  "metrics": {
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 1,
+   "views": 747
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "The easiest AI workflow we use to increase ratio of posts:bangers for clients:\n\n(For context, we write social content for B2B founders).\n\n1. Apify scrape of all of their X and LinkedIn content.\n\n2. Builds CSV sorted by performance.\n\n3. Tags each post by topic, format, length, and media.\n\n4. We query the dataset to pattern match a client’s take or story with the closest-fit high-performing post fro"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1149",
+  "serial": 1149,
+  "serial_display": "#001149",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2090703737035575558",
+  "source_native_id": "2090703737035575558",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-21T07:33:08Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تدعم مواصفة MCP الجديدة بدون جلسات (Stateless) منذ إطلاقها",
+  "arabic_summary": "مواصفة MCP الجديدة (2026-07-28) ألغت الجلسات (sessions) وأصبحت بلا حالة (stateless) بالكامل. Apify تدعمها منذ الأسبوع الأول لإطلاقها. بعد ثلاثة أسابيع، 1 من كل 8 عملاء يستخدم المسار الجديد (بدون جلسات)، مقارنة بـ 1% قبل أسبوع.",
+  "detailed_explanation": "في 28 يوليو 2026، أُطلقت مواصفة جديدة لـ MCP تزيل مفهوم الجلسات (sessions) وتجعل البروتوكول بلا حالة (stateless) بالكامل. هذا تغيير معماري كبير في طريقة عمل MCP.\n\nApify دعمت المواصفة الجديدة منذ الأسبوع الأول لإطلاقها. بعد ثلاثة أسابيع من الإطلاق، 1 من كل 8 عملاء (12.5%) يستخدم المسار الجديد بدون جلسات، وهو ارتفاع كبير من 1% قبل أسبوع واحد.\n\nالفيديو المرفق (من مايكل دايجلر) يشرح التحديثات الرئيسية في البروتوكول الأساسي.\n\nإزالة الجلسات تعني أن كل طلب أصبح مستقلًا، ولا يعتمد على سياق محفوظ من طلبات سابقة. هذا يبسّط البنية ويجعلها أكثر قابلية للتوسع، لكنه يتطلّب تعديلات في كيفية بناء الأدوات والوكلاء.\n\nبالنسبة لعزيز، هذا يعني أن أي MCP Servers يبنيها أو يستخدمها يجب أن تدعم المواصفة الجديدة، وأن Apify جاهزة بالفعل للتعامل معها. معدل التبني السريع (من 1% إلى 12.5% في أسبوع) يشير إلى أن المجتمع يتحرّك بسرعة نحو المعيار الجديد.",
+  "why_it_matters": "تغيير جوهري في بنية MCP يؤثر على كيفية تواصل Claude والأدوات الأخرى مع خوادم MCP. Apify كانت من أوائل المنصات التي دعمت المواصفة الجديدة، بما يضمن التوافق المستقبلي.",
+  "original_text": "Sessions are gone 🚨 New MCP spec 2026-07-28 goes fully stateless, and Apify has supported it since the week it shipped.\n\nThree weeks in, 1 client in 8 takes the stateless path, up from 1% a week ago.\n\nWatch @michaeldaigler_ walk through the major core protocol updates. https://t.co/pXu00WH2At",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج، يسمح للنماذج بالتواصل مع أدوات خارجية"
+   },
+   {
+    "term": "Stateless",
+    "ar": "بلا حالة، كل طلب مستقل ولا يعتمد على طلبات سابقة"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "MCP"
+  ],
+  "change_types": [
+   "Update",
+   "API Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 10,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 43370
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1150",
+  "serial": 1150,
+  "serial_display": "#001150",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2090814564183023719",
+  "source_native_id": "2090814564183023719",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-21T14:53:32Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخراج 14 ألف تغريدة عبر Apify وبناء قاعدة معرفية بـ Claude Code",
+  "arabic_summary": "EPTwts استخدم Apify لاستخراج 14,000 تغريدة من أرشيفه على X فورًا (بدلًا من الانتظار 24 ساعة للحصول على الأرشيف من X)، ثم غذّى البيانات لـ Claude Code الذي حوّلها إلى قاعدة معرفية قابلة للتصفح تحتوي على دروس في النمو والتسويق.",
+  "detailed_explanation": "EPTwts أراد تحويل تاريخه من التغريدات إلى قاعدة معرفية قابلة للاستخدام. المشكلة أن X (Twitter سابقًا) يجبرك على الانتظار حتى 24 ساعة للحصول على أرشيف تغريداتك.\n\nاستخدم Apify لاستخراج جميع تغريداته (14,000 تغريدة) فورًا، دون الحاجة للانتظار. بعد ذلك، غذّى البيانات الكاملة إلى Claude Code.\n\nاستخدم Claude Code لتحليل التغريدات واستخلاص الدروس والأفكار المتعلقة بالنمو (growth) والتسويق (marketing)، ثم بنى قاعدة معرفية قابلة للتصفح يمكن للقراء الوصول إليها والاستفادة منها.\n\nالنتيجة مورد منظّم من المعرفة المستخلصة من سنوات من التغريدات، تم إنشاؤه بشكل آلي.\n\nبالنسبة لعزيز، هذا يُظهر قدرة Apify على استخراج البيانات الشخصية من منصات التواصل الاجتماعي بسرعة، وكيف يمكن دمجها مع Claude Code لتحويل البيانات الخام إلى موارد معرفية منظّمة ومفيدة.",
+  "why_it_matters": "يوضح كيف يمكن لـ Apify استخراج البيانات الشخصية من X بشكل فوري وكيف يمكن تحويلها إلى موارد معرفية منظّمة باستخدام Claude Code.",
+  "original_text": "@X makes you wait up to 24 hours for your own tweet archive. Apify pulls it on demand instead. \n\n@eptwts fed 14,000 tweets to Claude Code and got a browsable knowledge base of growth and marketing lessons👇",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Claude Code",
+   "X",
+   "Twitter"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 16,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 10,
+   "views": 2545
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "i extracted all the lessons from my 14,000 tweets &amp; turned them into a browsable knowledge-base...\n\nyou can read them here: https://t.co/HP2CwGilFN https://t.co/EGXOvU2YRy"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1151",
+  "serial": 1151,
+  "serial_display": "#001151",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2091848890920104045",
+  "source_native_id": "2091848890920104045",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-24T11:23:34Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تطلق Gemini Search Scraper لاستخراج إجابات Gemini مع مصادرها",
+  "arabic_summary": "أداة جديدة من Apify تستخرج النصوص الكاملة لإجابات محرك البحث Gemini مع المصادر المستشهد بها، تُرجع البيانات بصيغة JSON منظمة ولا تحتاج إلى API key. يمكن استخدامها لرصد كيفية ذكر العلامات التجارية في نتائج Gemini.",
+  "detailed_explanation": "يواصل Apify توسيع مكتبة أدوات الاستخراج ليشمل محركات البحث المدعومة بـ LLM. Gemini Search Scraper أداة جديدة تستهدف محرك Gemini من Google، تستخرج النص الكامل للإجابات التي يولدها المحرك مع قائمة المصادر المستشهد بها لكل استعلام.\n\nالأداة لا تحتاج إلى API key وتُرجع البيانات بصيغة JSON منظمة، ما يجعلها سهلة الدمج في سير عمل آلي. حالة الاستخدام الأساسية المذكورة هي رصد السمعة: كيف يُذكر اسم علامتك التجارية في إجابات Gemini، وما المصادر التي يعتمد عليها المحرك في ذلك.\n\nمع تحوّل جزء متزايد من البحث نحو الإجابات المباشرة المولدة بالذكاء الاصطناعي (مثل AI Overviews وGemini وPerplexity)، تصبح أدوات كهذه ضرورية لفهم ظهور علامتك وسمعتها في هذه القنوات الجديدة، وليس فقط في نتائج البحث التقليدية.",
+  "why_it_matters": "تفتح طريقة جديدة لرصد كيف تظهر علامتك التجارية في إجابات محركات البحث المدعومة بالذكاء الاصطناعي، بديلًا عملياً لمراقبة السمعة والـ SEO في عصر الإجابات المباشرة.",
+  "original_text": "How does @GeminiApp mention your brand? Gemini Search Scraper gives the web-grounded search answers - full text and cited sources for any query, structured JSON. No API key needed.\nLink in 🧵 https://t.co/Lb9psIe9mn",
+  "glossary": [
+   {
+    "term": "Scraper",
+    "ar": "أداة استخراج البيانات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Gemini",
+   "Google"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 8,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 4,
+   "views": 858
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1152",
+  "serial": 1152,
+  "serial_display": "#001152",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2092184477690675270",
+  "source_native_id": "2092184477690675270",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-25T09:37:05Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخراج بيانات TikTok Shop ودمجها مع Claude عبر MCP من Apify",
+  "arabic_summary": "Apify توفر TikTok Shop Scraper يعمل مع Claude عبر MCP لاستخراج بيانات المنتجات (مبيعات، أسعار، مخزون، بائعين) من TikTok Shop. يتيح تحليل المنافسين والأسعار دون الحاجة لأدوات تحليلات مدفوعة بـ 200 دولار شهرياً.",
+  "detailed_explanation": "يوضح المنشور حالة استخدام واقعية لربط Apify مع Claude عبر بروتوكول MCP. الأداة المستخدمة هنا هي TikTok Shop Scraper، التي تستخرج بيانات المنتجات من متجر TikTok بما في ذلك عدد الوحدات المباعة والأسعار والمخزون وأسماء البائعين.\n\nبدلاً من الاشتراك في أداة تحليلات مغلقة بمئات الدولارات شهرياً (يُذكر سعر يصل إلى 200 دولار) ولا تسمح بتصدير البيانات، يمكن ربط الـ Scraper بـ Claude مباشرة عبر MCP. هذا يتيح طرح أسئلة بلغة طبيعية مثل \"من يسيطر على سوق الكلمة المفتاحية X؟\" أو \"كيف يقارن سعري بالسوق؟\" والحصول على تحليل فوري.\n\nهذا مثال جيد على كيف تُحوّل MCP الـ LLM من مساعد نصي إلى أداة تحليلية متصلة بمصادر بيانات حية. بالنسبة لعزيز، يُظهر هذا قيمة ربط Claude وApify معاً في سياق تحليل أسواق وتجارة إلكترونية.",
+  "why_it_matters": "نموذج عملي لربط أدوات استخراج البيانات مع LLM عبر MCP، يُحوّل Claude إلى محلل تجاري قادر على الاستعلام عن السوق وتحليل المنافسة بتكلفة أقل بكثير من أدوات التحليلات المغلقة.",
+  "original_text": "TikTok Shop analytics tools cost up to $200/mo for a dashboard you can't export from.\n\nTikTok Shop Scraper + Apify MCP in @claudeai: any keyword, and you get units sold, pricing, stock, and sellers. Who dominates, who's discounting, how your price compares ↓ https://t.co/t4pdyMirP9",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج — معيار لربط LLM بأدوات خارجية"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "أعمال وإدارة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Claude",
+   "TikTok"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 7,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 19333
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1153",
+  "serial": 1153,
+  "serial_display": "#001153",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2093015876740001912",
+  "source_native_id": "2093015876740001912",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-27T16:40:46Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تطلق Plugin رسمي لـ Cursor لدمج آلاف أدوات استخراج البيانات",
+  "arabic_summary": "أطلقت Apify إضافة رسمية لمحرر Cursor تُتيح للمطور الوصول إلى آلاف الـ Actors (أدوات استخراج وإثراء بيانات) مباشرة من داخل المحرر. يمكن للـ Agent في Cursor اكتشاف الأداة المناسبة تلقائياً بناءً على وصف المهمة.",
+  "detailed_explanation": "Apify أطلقت Plugin رسمي لمحرر الأكواد Cursor، يُضاف بأمر واحد: `/add-plugin apify`. بمجرد التثبيت، يصبح لدى الـ Agent في Cursor إمكانية الوصول إلى آلاف الـ Actors الموجودة في Apify Store.\n\nالـ Actors هي وحدات قابلة للتشغيل تؤدي مهام محددة مثل استخراج بيانات من LinkedIn أو Twitter، إثراء قوائم العملاء المحتملين، تحليل SERPs، بيانات التجارة الإلكترونية، وغيرها. الميزة الأساسية هنا أن Agent في Cursor يمكنه اكتشاف الأداة المناسبة تلقائياً بناءً على وصف المهمة من المطور.\n\nبالنسبة لعزيز الذي يستخدم Cursor، هذا يعني أن بيئة البرمجة لديه أصبحت متصلة مباشرة بمكتبة ضخمة من أدوات البيانات. بدلاً من البحث في Apify Store يدوياً، يمكن للـ Agent أن يختار الأداة الصحيحة ويدمجها في الكود تلقائياً.\n\nهذا نموذج جيد على كيف تتحول IDE من محرر نصوص إلى بيئة متصلة بخدمات خارجية عبر Plugins، وكيف يصبح الـ Agent قادراً على اتخاذ قرارات بشأن الأدوات المناسبة لا مجرد كتابة كود.",
+  "why_it_matters": "يدمج مكتبة Apify الضخمة (Lead gen، تحليل وسائل التواصل، بيانات تجارية) داخل بيئة Cursor التي يستخدمها عزيز، ما يتيح للـ Agent بناء سير عمل بيانات كامل دون مغادرة المحرر.",
+  "original_text": "One plugin puts the largest marketplace of web data tools inside @cursor_ai 🎉\n\n/𝚊𝚍𝚍-𝚙𝚕𝚞𝚐𝚒𝚗 𝚊𝚙𝚒𝚏𝚢\n\nThousands of Apify Actors for lead gen &amp; enrichment, social media analytics, SERPs, e-commerce, and more. Let the Cursor agent find the right one for your use case ↓ https://t.co/9O4igPHclO",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة داخل برنامج لتوسيع قدراته"
+   },
+   {
+    "term": "Actor",
+    "ar": "وحدة قابلة للتشغيل في Apify تؤدي مهمة محددة مثل استخراج البيانات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Cursor"
+  ],
+  "change_types": [
+   "New Release",
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 17,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 66952
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1154",
+  "serial": 1154,
+  "serial_display": "#001154",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2093112070304628840",
+  "source_native_id": "2093112070304628840",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-27T23:03:00Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطور يستخدم Plugin Apify في Cursor لبناء سير عمل كامل لإثراء العملاء المحتملين",
+  "arabic_summary": "مطور استخدم Plugin Apify داخل Cursor لطلب أدوات Lead gen. الـ Agent قارن عدة Actors، بنى سير عمل إثراء بيانات كامل، نشره كـ Actor جديد على Apify، وأرسل النتائج إلى HubSpot — كل ذلك من داخل المحرر.",
+  "detailed_explanation": "هذا المنشور يوثّق تجربة مستخدم فعلية لـ Plugin Apify في Cursor. المطور (Sameh) طلب من Agent في Cursor أدوات لتوليد وإثراء قوائم العملاء المحتملين (Lead generation).\n\nما حدث بعد ذلك يوضح قدرة الـ Agent على اتخاذ قرارات متعددة المستويات:\n\n1. **البحث والمقارنة**: Agent بحث في Apify Store عن Actors مناسبة وقارن بينها بناءً على المهمة.\n\n2. **بناء سير العمل**: Agent بنى Pipeline كامل لإثراء البيانات (Enrichment pipeline) — على الأرجح سلسلة من الخطوات تجمع بيانات من مصادر متعددة وتنظفها.\n\n3. **النشر**: Agent رفع هذا السير كـ Actor جديد على منصة Apify نفسها — أي حوّله إلى أداة قابلة لإعادة الاستخدام.\n\n4. **الدمج**: Agent أرسل النتائج النهائية (قائمة العملاء المحتملين المُثراة) إلى HubSpot.\n\nهذا يتجاوز مجرد \"كتابة كود\" إلى مستوى Agent قادر على تصميم نظام، اختبار مكوناته، نشره، ودمجه مع أدوات خارجية — كل ذلك من داخل بيئة المحرر.\n\nبالنسبة لعزيز، هذا يعني أن Cursor المتصل بـ Apify يمكن أن يصبح بيئة لبناء Agents قادرة على تنفيذ مهام بيانات معقدة بأقل قدر من التوجيه.",
+  "why_it_matters": "مثال حي على كيف يمكن لـ Agent في Cursor، المتصل بـ Apify عبر Plugin، أن يبني ويختبر وينشر سير عمل بيانات كامل دون تدخل يدوي، من الاكتشاف إلى الدمج مع CRM.",
+  "original_text": "Sameh asked the Apify plugin for lead-gen tooling within @cursor_ai. \n\nIt benchmarked several Actors, built the full enrichment pipeline, pushed it to Apify as its own Actor, and sent the leads to HubSpot.\n\n/𝚊𝚍𝚍-𝚙𝚕𝚞𝚐𝚒𝚗 𝚊𝚙𝚒𝚏𝚢 in Cursor to get started ↓ https://t.co/C1KgjI5zaH",
+  "glossary": [
+   {
+    "term": "Lead generation",
+    "ar": "توليد قوائم بالعملاء المحتملين"
+   },
+   {
+    "term": "Enrichment",
+    "ar": "إثراء البيانات بإضافة معلومات إضافية من مصادر متعددة"
+   },
+   {
+    "term": "Pipeline",
+    "ar": "سير عمل متسلسل لمعالجة البيانات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Cursor",
+   "HubSpot"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 3,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 26399
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1155",
+  "serial": 1155,
+  "serial_display": "#001155",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2094355972969865528",
+  "source_native_id": "2094355972969865528",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-31T09:25:49Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تطلق Web Fetch لتجاوز الحجب وCAPTCHA وتوفير HTML نظيف للـ Agents",
+  "arabic_summary": "Apify أطلقت Web Fetch، أداة مصممة لتزويد AI Agents بإمكانية الوصول إلى أي موقع رغم الحجب وCAPTCHA. تُعيد HTML أو Markdown نظيف جاهز للاستخدام في MCP أو Agents، مع معدل نجاح 91% على المواقع المحمية بشدة.",
+  "detailed_explanation": "Web Fetch أداة جديدة من Apify موجهة خصيصاً لـ AI Agents. المشكلة التي تحلها هي أن المواقع غالباً تحجب الطلبات الآلية بـ IP blocking أو CAPTCHA، ما يعيق Agents عن الوصول إلى البيانات.\n\nWeb Fetch تتعامل مع هذه الحماية تلقائياً:\n- تجاوز حجب IP\n- حل CAPTCHA\n- إرجاع محتوى نظيف بصيغة HTML أو Markdown\n\nالمخرَج مُهيأ خصيصاً لاستخدام MCP أو Agents، بمعنى أنه منسّق بطريقة تسهّل على LLM معالجته مباشرة. Apify تدّعي معدل نجاح 91% على المواقع المحمية بشدة بناءً على Benchmark داخلي.\n\nالفائدة العملية: Agent يريد قراءة محتوى موقع محمي؟ بدلاً من الفشل أو كتابة كود معقد للتعامل مع الحماية، يمكن استدعاء Web Fetch كأداة وتلقي النص النظيف مباشرة.\n\nهذا يُكمل سلسلة دعم Apify للـ Agents (MCP، Plugin في Cursor، الآن Web Fetch)، ويُحوّل الوصول إلى الويب من عقبة إلى عملية شفافة للـ Agent.",
+  "why_it_matters": "تحل مشكلة أساسية تواجه AI Agents: الوصول الموثوق إلى محتوى الويب رغم الحماية. بدلاً من فشل الـ Agent عند مواجهة CAPTCHA، يمكنه الآن الوصول إلى البيانات بمعدل نجاح عالٍ وإرجاع نص نظيف جاهز للمعالجة.",
+  "original_text": "Give your AI agent access to any website. Apify Web Fetch handles IP blocks and CAPTCHAs, and returns clean HTML or Markdown ready for MCP or agent use - 91% success rate on heavily protected pages in our benchmark. Link in thread ↓ https://t.co/MWSC23JzHG",
+  "glossary": [
+   {
+    "term": "CAPTCHA",
+    "ar": "اختبار تحقق بشري لمنع الطلبات الآلية"
+   },
+   {
+    "term": "IP blocking",
+    "ar": "حجب الطلبات بناءً على عنوان IP"
+   },
+   {
+    "term": "Markdown",
+    "ar": "صيغة نصية خفيفة لتنسيق المحتوى"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 14,
+   "replies": 3,
+   "reposts": 4,
+   "quotes": 1,
+   "bookmarks": 3,
+   "views": 47180
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1156",
+  "serial": 1156,
+  "serial_display": "#001156",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2094384096851984870",
+  "source_native_id": "2094384096851984870",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-08-31T11:17:35Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تطلق Google AI Overviews Scraper لاستخراج الإجابات والمصادر من نتائج البحث",
+  "arabic_summary": "أداة جديدة من Apify تستخرج النص الكامل لـ AI Overviews (الإجابات المولدة بالذكاء الاصطناعي في Google) مع كل المصادر المستشهد بها، لأي استعلام. تُرجع البيانات جاهزة للاستخدام في AI Agents.",
+  "detailed_explanation": "Google AI Overviews هي الإجابات المولدة بالذكاء الاصطناعي التي تظهر فوق النتائج العضوية في محرك بحث Google لعدد متزايد من الاستعلامات. هذه الإجابات تُلخص المعلومات من عدة مصادر وتعرضها مباشرة للمستخدم.\n\nApify أطلقت Google AI Overviews Scraper، أداة تستخرج:\n- النص الكامل للإجابة المولدة\n- قائمة كاملة بالمصادر المستشهد بها\n- كل ذلك لأي استعلام تحدده\n\nالبيانات تُرجع جاهزة للاستخدام في AI Agents، ما يعني أنها منسقة بطريقة يمكن لـ LLM معالجتها مباشرة.\n\nحالة الاستخدام الأساسية هي رصد السمعة والـ SEO في عصر الإجابات المباشرة: كيف يُجيب Google على الأسئلة المتعلقة بمجالك؟ هل يُذكر منتجك أو خدمتك؟ ما المصادر التي يعتمد عليها؟ هل أنت من بينها؟\n\nهذا النوع من البيانات لم يكن متاحاً بسهولة من قبل، لأن AI Overviews ليست جزءاً من نتائج البحث التقليدية التي يمكن استخراجها بطرق عادية. الأداة تُمكّن من تحويل هذا المحتوى المولد إلى بيانات منظمة قابلة للتحليل.\n\nمشابهة لأداة Gemini Search Scraper المذكورة سابقاً، لكن هذه تستهدف محرك Google الرئيسي — الذي له حصة سوقية أكبر بكثير.",
+  "why_it_matters": "مع تزايد ظهور AI Overviews في نتائج Google، تصبح هذه الأداة ضرورية لرصد كيف يُجيب محرك البحث على الأسئلة المتعلقة بعلامتك، وما المصادر التي يعتمد عليها — بيانات لم تكن متاحة بسهولة من قبل.",
+  "original_text": "AI Overviews sit above organic results for a growing share of Google queries. Google AI Overviews Scraper pulls the full answer and every cited source for any query. Simply plug it into your AI. Link in 🧵 https://t.co/i8bvJfTmiu",
+  "glossary": [
+   {
+    "term": "AI Overviews",
+    "ar": "إجابات ملخصة مولدة بالذكاء الاصطناعي تظهر في نتائج بحث Google"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Google"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 27,
+  "metrics": {
+   "likes": 3,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 553
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1157",
+  "serial": 1157,
+  "serial_display": "#001157",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2094767864150405471",
+  "source_native_id": "2094767864150405471",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-01T12:42:32Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء وكيل بحث يتكامل مع Slack باستخدام Apify MCP Server وn8n",
+  "arabic_summary": "شرح لبناء وكيل يُستدعى من داخل Slack، يختار الـ Actor المناسب من Apify، يجلب البيانات، ويردّ مع المصادر في نفس المحادثة. يستخدم n8n للأتمتة وخادم Apify MCP للربط.",
+  "detailed_explanation": "المنشور دليل عملي لربط وكيل بحث بـ Slack: تُوسِم بوتًا في محادثة، يستدعي خادم Apify MCP، ينتقي الأداة (Actor) الصحيحة تلقائيًا، يُجري البحث على الويب، ثم يعيد النتائج مع المراجع في نفس الخيط.\n\nالتكامل يعتمد على n8n كمنصة أتمتة تربط Slack بـ Apify، والخادم MCP هو ما يمكّن الوكيل من اختيار الأداة وتنفيذها.\n\nالقيمة هنا ليست في الأداة نفسها بل في النمط: كيف تجعل بحث البيانات الحيّة جزءًا من workflow التواصل الداخلي للفريق، دون الحاجة لمغادرة التطبيق أو كتابة تعليمات يدويًا.",
+  "why_it_matters": "يوضّح كيفية بناء workflow عملي يربط MCP بأداة تواصل يومية، ممّا يجعل الوصول للبيانات الحيّة جزءًا من المحادثة مباشرةً دون مغادرة Slack.",
+  "original_text": "Tag a bot in @SlackHQ, get live web research back in the same thread.\n\nTutorial: build an AI research agent with @n8n_io and the Apify MCP server - it picks the right Actor, pulls the data, replies with sources. Full tutorial in 🧵 https://t.co/FWCIsilmwx",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج — معيار يسمح للنماذج باستدعاء أدوات خارجية"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل — برنامج يتخذ قرارات تلقائيًا لتنفيذ مهمة"
+   },
+   {
+    "term": "Actor",
+    "ar": "وحدة برمجية قابلة للتشغيل على منصة Apify"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "n8n",
+   "Slack"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 5,
+   "replies": 3,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 584
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1158",
+  "serial": 1158,
+  "serial_display": "#001158",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2095394106650570808",
+  "source_native_id": "2095394106650570808",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-03T06:11:00Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مقارنة تكلفة: Claude مع البحث المدمج مقابل Apify MCP لجمع البيانات",
+  "arabic_summary": "جمع 130+ عميل محتمل من الويب كلّف 43 دولارًا بخاصية البحث المدمجة في Claude Fable 5، لكن نفس المهمة عبر Apify MCP كلّفت 10.28 دولار. السبب: النموذج يستدعي الأداة وينتظر، فلا تُحرق Tokens أثناء تشغيلها.",
+  "detailed_explanation": "التجربة بسيطة: جمع قائمة عملاء محتملين من الويب. في الحالة الأولى، استُخدم Claude Fable 5 مع خاصية البحث الأصلية (native web search)، فكلّف 43 دولارًا. في الثانية، نفس النموذج ونفس المُدخَل، لكن عبر خادم Apify MCP، فكلّف 10.28 دولار.\n\nالسبب الذي يذكره المنشور: حين يُستدعى Actor عبر MCP، النموذج يُرسل الطلب وينتظر النتيجة، ولا تُستهلك Tokens أثناء تشغيل الأداة في الخلفية. بينما في البحث المدمج، النموذج نفسه يُعالج كل خطوة ويحرق Tokens.\n\nهذه مقارنة عملية تُظهر كيف يمكن لـ MCP أن يخفّض التكلفة بشكل ملموس في مهام جمع البيانات التي تستغرق وقتًا، وهي مسألة مباشرة لمن يبني Agents أو يستخدمها لأغراض تجارية.",
+  "why_it_matters": "يكشف فرقًا كبيرًا في التكلفة حين يُنفّذ جمع البيانات خارج سياق النموذج عبر MCP، بدلًا من إبقاء النموذج نشطًا طوال البحث.",
+  "original_text": "Claude Fable 5, native web search: $43 for 130+ leads.\nSame prompt, same model, Apify MCP: $10.28.\nThe model fires off an Actor and waits. No tokens burn while it runs.\n\n🔗 Apify MCP Server for @claudeai ↓\nhttps://t.co/HvtJxl45hg https://t.co/VnW4Nlp23K",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة نصّية يُحاسَب عليها في استخدام النموذج"
+   },
+   {
+    "term": "Actor",
+    "ar": "وحدة برمجية قابلة للتشغيل على منصة Apify"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Apify",
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 14,
+   "replies": 3,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 34105
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [
+   "https://apify.it/4qCdyCI"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1159",
+  "serial": 1159,
+  "serial_display": "#001159",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2095479050911309827",
+  "source_native_id": "2095479050911309827",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-03T11:48:32Z",
+  "fetched_at": "2026-09-05T05:50:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify أصبحت متاحة داخل Hermes Agent من Nous Research كـ Plugin",
+  "arabic_summary": "أُطلق Plugin رسمي يُمكّن Hermes Agent (وكيل مفتوح المصدر من Nous Research) من الوصول لكامل متجر أدوات Apify. يُثبّت عبر pip ويُفعّل بأمر واحد.",
+  "detailed_explanation": "الإعلان يقول إن Apify — التي تُشغّل متجرًا كبيرًا من الأدوات (Actors) لجمع البيانات والأتمتة — أصبحت متاحة الآن داخل Hermes Agent، وهو وكيل مفتوح المصدر من Nous Research.\n\nالتثبيت يتمّ عبر مكتبة Python باسم `apify-hermes-agent-plugin`، ثم تُفعّل الأداة بأمر `hermes plugins enable apify`. بعدها يصبح الوكيل قادرًا على استدعاء أي أداة من متجر Apify.\n\nهذا يُعدّ تكاملًا مهمًّا لمن يعمل على بناء Agents خارج البيئات المغلقة: بدلًا من الاعتماد على APIs خاصة، يمكن للوكيل الآن الوصول لمئات الأدوات الجاهزة لجمع البيانات، البحث، التحليل، وغيرها — من داخل بيئة مفتوحة المصدر.",
+  "why_it_matters": "يوسّع نطاق الأدوات المتاحة للوكلاء المفتوحة: أكبر متجر أدوات لـ AI يصبح قابلًا للاستدعاء مباشرةً من وكيل يعمل محليًا أو في بيئة خاصة.",
+  "original_text": "Apify is now available in Hermes Agent by @NousResearch 🎉\n\n𝚙𝚒𝚙 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚊𝚙𝚒𝚏𝚢-𝚑𝚎𝚛𝚖𝚎𝚜-𝚊𝚐𝚎𝚗𝚝-𝚙𝚕𝚞𝚐𝚒𝚗\n𝚑𝚎𝚛𝚖𝚎𝚜 𝚙𝚕𝚞𝚐𝚒𝚗𝚜 𝚎𝚗𝚊𝚋𝚕𝚎 𝚊𝚙𝚒𝚏𝚢\n\nThe largest marketplace of tools for AI, now inside your AI assistant.\nLinks in thread ↓ https://t.co/EsT1pXO32E",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل — برنامج يتخذ قرارات تلقائيًا لتنفيذ مهمة"
+   },
+   {
+    "term": "Plugin",
+    "ar": "إضافة برمجية توسّع قدرات تطبيق قائم"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Nous Research",
+   "Hermes Agent"
+  ],
+  "change_types": [
+   "New Integration",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 310,
+   "replies": 8,
+   "reposts": 28,
+   "quotes": 2,
+   "bookmarks": 282,
+   "views": 16568
+  },
+  "metrics_captured_at": "2026-09-05T05:50:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ }
+]
