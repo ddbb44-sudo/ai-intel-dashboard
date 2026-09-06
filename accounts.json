@@ -13,7 +13,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-05T05:58:33Z",
+ "updated": "2026-09-06",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -532,6 +532,11 @@
    "active": true,
    "account_type": "شركة",
    "is_arab": false
+  },
+  {
+   "handle": "DilumSanjaya",
+   "name": "Dilum Sanjaya",
+   "active": true
   }
  ]
 }
