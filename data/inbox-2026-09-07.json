@@ -133,5 +133,88 @@
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": "issue"
+ },
+ {
+  "id": "c1198",
+  "serial": 1198,
+  "serial_display": "#001198",
+  "source_type": "web",
+  "source_url": "https://motion.dev/",
+  "source_native_id": null,
+  "source_name": "Motion (prev Framer Motion): JavaScript & React animation li",
+  "source_site": "motion.dev",
+  "author": "motion.dev",
+  "published_at": "2026-09-07T14:07:12Z",
+  "fetched_at": "2026-09-07T14:07:12Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Motion 13.2: مكتبة JavaScript مفتوحة المصدر للحركة والتفاعل في React وVue",
+  "arabic_summary": "Motion (سابقًا Framer Motion) مكتبة MIT مجانية لإنشاء حركات عالية الأداء في الويب، تدعم React وJavaScript وVue. توفر API أصغر بـ90% من GSAP، مع محرك مختلط يجمع JavaScript وتسريع العتاد. الإصدار 13.2 يضيف animate.addEffect() لدعم Three.js وغيرها من العناصر خارج DOM، مع توثيق مُحسّن للعمل مع AI Agents.",
+  "detailed_explanation": "Motion هي مكتبة JavaScript مفتوحة المصدر (رخصة MIT) متخصصة في إنشاء حركات وتفاعلات واجهات الويب. كانت تُعرف سابقًا باسم Framer Motion، وتدعم الآن ثلاثة أُطر عمل: React وJavaScript وVue. المكتبة تُستخدم في مئات الآلاف من المواقع، بما فيها منتجات Framer وFigma.\n\nتتميز المكتبة بمحرك مختلط (Hybrid engine) يجمع بين JavaScript وواجهات المتصفح المُسرّعة عتاديًا في مكتبة واحدة، مع API أصغر بنسبة تصل إلى 90% مقارنةً بـGSAP. تشمل الميزات الرئيسية: Independent transforms (تحريك x وy وrotate وscale على نفس العنصر دون wrappers)، Scroll animation المُسرّعة عتاديًا عبر ScrollTimeline، native gestures (hover وpress وdrag)، Layout animation بين أي تخطيطين، Spring physics حقيقية، Exit animation عبر AnimatePresence، وTimeline sequences لتنسيق الحركات المعقدة.\n\nالإصدار 13.2.0 يضيف animate.addEffect() وهو API جديد يسمح بتسجيل Effects تُمكّن animate من التحكم بعناصر خارج DOM مثل Three.js objects وmaterials وshader uniforms. يشمل ذلك threeEffect (motion/three) وvgpuEffect (motion/vgpu) لدعم shared uniforms وEffect/Draw/Compute bindings وscene nodes وcameras. كما حُسّن أداء وحجم ملف spring.\n\nما يميز Motion بشكل خاص هو تصميمها للعمل مع الذكاء الاصطناعي: توفر Agent-compatible documentation وSkills وAPI جاهزة. تتضمن AI Kit توثيقًا متخصصًا و440+ مثال مصدري وperformance audits وCSS springs جاهزة للإرسال مباشرةً إلى Agent. وتوفر Motion UI أقسامًا متحركة جاهزة للإنتاج مع تقييم أداء ودعم shadcn tokens.\n\nتوفر Motion أدوات إنتاجية كاملة تشمل: MotionScore (فحص أداء مجاني لأي موقع مع تقييم S-F وإصلاحات جاهزة للـAgent)، CSS Studio (تحرير مرئي للـCSS)، وMotion+ (اشتراك مدفوع يجمع AI Kit وMotion UI مع APIs إضافية). المكتبة متكاملة مع Cursor لفتح الأمثلة مباشرة في الـAI.\n\nالتحديثات الأخيرة تشمل: 13.1.1 (حماية وصول animation window في non-browser runtimes وتحسين توافق React 19)، 13.1.0 (إضافة Multidimensional reorder وAutomatic axis detection وRTL support)، و13.0.0 (إزالة اعتماد @emotion/is-prop-valid الاختياري لصالح <MotionConfig> صريح).",
+  "why_it_matters": "توفر بديلًا مجانيًا ومفتوح المصدر لمكتبات الحركة التجارية مع أداء عالٍ وحجم ملف أصغر، ومصممة خصيصًا لتكون Agent-compatible مع Skills وAPI جاهزة للاستخدام مع أدوات الذكاء الاصطناعي، مما يسهّل بناء واجهات متحركة احترافية.",
+  "original_text": "",
+  "glossary": [
+   {
+    "term": "Agent-compatible",
+    "ar": "مُصمّم ليتكامل مع AI Agents بتوثيق وSkills وAPIs جاهزة للاستخدام المباشر"
+   },
+   {
+    "term": "ScrollTimeline",
+    "ar": "API متصفح يربط الحركة بتمرير الصفحة بشكل مُسرّع عتاديًا دون JavaScript"
+   },
+   {
+    "term": "AnimatePresence",
+    "ar": "مكوّن يُبقي العناصر حية في DOM لتتمكن من الحركة أثناء إزالتها"
+   },
+   {
+    "term": "Spring physics",
+    "ar": "محاكاة رياضية لحركة الزنبرك تجعل الحركات تتفاعل طبيعيًا مع مدخلات المستخدم"
+   },
+   {
+    "term": "Layout animation",
+    "ar": "حركة تلقائية بين أي تخطيطين مختلفين لنفس العنصر"
+   },
+   {
+    "term": "Independent transforms",
+    "ar": "القدرة على تحريك خصائص متعددة (x وy وrotate وscale) على نفس العنصر دون عناصر wrapper إضافية"
+   }
+  ],
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Motion",
+   "Framer Motion",
+   "Framer",
+   "Figma",
+   "GSAP",
+   "Three.js",
+   "Cursor",
+   "shadcn"
+  ],
+  "change_types": [
+   "New Release",
+   "New Feature",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 0,
+  "metrics": {},
+  "metrics_captured_at": "2026-09-07T14:07:12Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
  }
 ]
