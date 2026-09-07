@@ -80,6 +80,8 @@ TAX = {
    'بيانات وتحليلات','بحث وتعليم','إنتاجية شخصية','فيديو وصوت','أمن سيبراني',
    'روبوتات وعتاد','صحة','إسلامي'],
  "audience_topics": ['سكيل','أداة يستعملها','بنية الوكلاء','نموذج','عالم AI عام','خارج الاهتمام'],
+ "build_targets": ['موقع وصفحة هبوط','تطبيق','واجهة ونظام تصميم','جرافيك وصور',
+   'فيديو ومونتاج','صوت','محتوى وكتابة','غير محدّد'],
  "user_tools": ['ChatGPT','OpenAI','Codex','Sora','Claude','Claude Code','Cowork','Anthropic',
    'Gemini','Google AI Studio','AI Studio','NotebookLM','GitHub','Cursor','Vercel','Ollama',
    'Netlify','Apify','Chrome','Google Docs','Google Drive','Gmail','Trello','WordPress',
@@ -292,6 +294,7 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
  "why_it_matters":"جملة أو جملتان عن الأثر الحقيقي",
  "detailed_explanation":"شرح موسّع بفقرات مفصولة بسطرين — إلزامي إن كان التصنيف important",
  "audience_topic":"واحد فقط — انظر المحور الحاكم أدناه",
+ "build_target":"واحد فقط — ماذا يبني به القارئ",
  "content_type":"واحد فقط","tool_types":[],"domains":[],"entities":[],"change_types":[],
  "importance_tier":"important|useful","glossary":[{"term":"","ar":""}]}
 حين keep=false اكتف بـ id و keep و reason (و duplicate_of/cluster_id إن كان تكرارًا).
@@ -324,6 +327,17 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
 **الفرق بين ١ و٢ حين يجتمعان:** «Skill جديد لـ Claude» = سكيل (الأعلى يفوز).
 **والشكل لا يقرّر الدرجة:** الدرجة موضوعٌ لا صيغة.
 
+**`build_target`: قيمة واحدة — ماذا يبني به القارئ؟**
+سؤالٌ مختلف عن «مَن يخصّه» (المجال). الفلتر هنا لمن يجلس ليصنع شيئًا:
+
+`موقع وصفحة هبوط` · `تطبيق` · `واجهة ونظام تصميم` · `جرافيك وصور` ·
+`فيديو ومونتاج` · `صوت` · `محتوى وكتابة` · `غير محدّد`
+
+**«غير محدّد» ليست عيبًا** — بل الجواب الصحيح لكل خبر أو رأي أو بحث لا
+يُبنى به شيء بعينه. ولا تُقحَم بطاقة في درجة لمجرّد أنها تذكر الكلمة:
+خبرُ إطلاق نموذج يولّد صورًا = «غير محدّد» ما لم يشرح كيف تستعملها.
+و«فيديو» و«صوت» درجتان منفصلتان: أداة تفريغ صوتي ليست أداة مونتاج.
+
 ## بقية المحاور — والإفراط في الوسم خطأ
 **نوع المحتوى: واحد فقط.** إن أعلن المنشور شيئًا جديدًا فهو «إصدار» لا «خبر».
 إن كان جوهره تعليم القارئ كيف يفعل شيئًا فهو «شرح» لا «أداة». «خبر» للسوق:
@@ -341,6 +355,7 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
 
 ## القوائم المعتمدة (لا تخرج عنها إطلاقًا)
 """ + ("audience_topic (واحد): " + json.dumps(TAX['audience_topics'], ensure_ascii=False) + "\n"
+     + "build_target (واحد): " + json.dumps(TAX['build_targets'], ensure_ascii=False) + "\n"
      + "أدوات عزيز (لدرجة «أداة يستعملها»): " + json.dumps(TAX['user_tools'], ensure_ascii=False) + "\n"
      + "content_type (واحد): " + json.dumps(TAX['content_types'], ensure_ascii=False) + "\n"
      + "tool_types (0-2): "     + json.dumps(TAX['tool_types'],    ensure_ascii=False) + "\n"
@@ -456,6 +471,10 @@ for c in kept:
         if _top: log("تنبيه: audience_topic غير معتمد (%s) في %s — رُدّ إلى «عالم AI عام»" % (_top, c["id"]))
         else:    topic_missing.append(c["id"])
         _top = "عالم AI عام"
+    _bt = (d.get("build_target") or "").strip()
+    if _bt not in TAX["build_targets"]:
+        if _bt: log("تنبيه: build_target غير معتمد (%s) في %s — رُدّ إلى «غير محدّد»" % (_bt, c["id"]))
+        _bt = "غير محدّد"
     if not dom:
         log("تنبيه: بطاقة بلا مجال معتمد (%s) — تُترك بلا مجال بدل التخمين" % c["id"])
     tier = d.get("importance_tier") if d.get("importance_tier") in ("important","useful") else "useful"
@@ -479,7 +498,7 @@ for c in kept:
       "why_it_matters": d.get("why_it_matters") or "",
       "original_text": c["text"][:1200],
       "glossary": [g for g in (d.get("glossary") or []) if isinstance(g, dict) and g.get("term")],
-      "audience_topic": _top,
+      "audience_topic": _top, "build_target": _bt,
       "content_types": ct, "tool_types": tl, "domains": dom, "entities": d.get("entities") or [], "change_types": chg,
       "importance_tier": tier, "importance_score": 88 if tier == "important" else 62,
       "engagement_score": eng(c["m"]), "metrics": c["m"],

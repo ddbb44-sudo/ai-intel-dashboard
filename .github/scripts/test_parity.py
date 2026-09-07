@@ -39,7 +39,7 @@ def tax_list(src, key):
 
 # ── قوائم التصنيف ────────────────────────────────────────────────────────
 for key in ("content_types", "tool_types", "domains", "change_types",
-            "audience_topics", "user_tools"):
+            "audience_topics", "user_tools", "build_targets"):
     a, b = tax_list(D, key), tax_list(B, key)
     check("TAX['%s'] متطابقة" % key, a is not None and a == b,
           "daily=%s · backfill=%s" % (
@@ -84,6 +84,9 @@ for name, src in (("daily_pull", D), ("backfill_account", B)):
           '"audience_topic": _top' in src)
     check("%s يردّ القيمة الشاذّة إلى «عالم AI عام»" % name,
           '_top = "عالم AI عام"' in src)
+    check("%s يكتب build_target في البطاقة" % name, '"build_target": _bt' in src)
+    check("%s يردّ build_target الشاذّ إلى «غير محدّد»" % name,
+          '_bt = "غير محدّد"' in src)
 
 
 print("\nنجح %d · فشل %d" % (ok, fail))
