@@ -611,7 +611,15 @@ function artTable(lines){
 }
 function artBlocks(t){
   if(!t) return '';
-  return String(t).split(/\n{2,}/).map(function(b){
+  /* الكتل المسوّرة بثلاث علامات اقتباس عكسية تُنتزع قبل التقسيم على السطر
+     الفارغ — فالرسم قد يحوي سطورًا فارغة فينشطر إلى فقرات ويضيع. وتُعرض
+     LTR بخط ثابت: رسمٌ فيه ├── و└── يتهاوى داخل اتجاه RTL. */
+  var pre = [];
+  t = String(t).replace(/```[a-zA-Z]*\n([\s\S]*?)```/g, function(_, code){
+    pre.push(code.replace(/\n+$/, ''));
+    return '\n\n\u0000PRE' + (pre.length - 1) + '\u0000\n\n';
+  });
+  return t.split(/\n{2,}/).map(function(b){
     b = b.trim();
     if(!b) return '';
     var lines = b.split('\n').map(function(l){ return l.trim(); }).filter(Boolean);
@@ -637,6 +645,9 @@ function artBlocks(t){
           ' onerror="this.closest(\'.artfig\').classList.add(\'gone\')">')
         + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>';
     }
+
+    var ph = b.match(/^\u0000PRE(\d+)\u0000$/);
+    if(ph) return '<pre class="artpre" dir="ltr">' + esc(pre[+ph[1]]) + '</pre>';
 
     /* فقرة ليست إلا رابطًا = زرّ، لا سطر أزرق تائه */
     var only = b.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);

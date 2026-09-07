@@ -1,0 +1,78 @@
+[
+ {
+  "id": "c1196",
+  "serial": 1196,
+  "serial_display": "#001196",
+  "source_type": "article",
+  "source_url": "",
+  "source_native_id": "",
+  "source_name": "مقالة ملصوقة",
+  "source_site": "",
+  "author": "—",
+  "published_at": "2026-09-07T08:00:20Z",
+  "fetched_at": "2026-09-07T08:00:20Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "كيف تفهم بنية تطبيقات الويب من الصفر؟ مسار مبسّط لغير المتخصّصين",
+  "arabic_summary": "مسار تعلّم مرتَّب عبر فيديوهات ByteByteGo، موجّه لمالك مشروع أو مدير يريد أن يفهم كيف يعمل تطبيق الويب دون أن يتحوّل إلى مبرمج. عشر محطّات من الدومين وDNS وHTTPS إلى الـAPI وقواعد البيانات وتسجيل الدخول وCDN وCI/CD، ثم مرحلة ثانية لـDocker وموزّع الأحمال. وينتهي بمسار مختصر من ستة فيديوهات لمن لا يريد المشاهدة كلها.",
+  "why_it_matters": "يسدّ الفجوة التي تظهر حين تدير مشروعًا تقنيًّا أو تعمل مع وكلاء برمجة مثل Claude Code وCodex: تفهم ماذا يعني أن يدفع الوكيل إلى GitHub فيُبنى وينشر على Vercel، وأين تعيش البيانات، ولماذا يهمّ DNS. معرفةٌ تجعلك تحكم على المخرَج بدل أن تقبله كما هو.",
+  "detailed_explanation": "مسار مبسّط عبر فيديوهات ByteByteGo، موجّه لمالك مشروع أو مدير يريد أن يفهم التقنية **دون أن يتحوّل إلى مبرمج**.\n\nحين ترى تطبيقًا يعمل على الإنترنت — نظام موظفين أو CRM أو منصة حجوزات أو لوحة تحكّم — يبدو لك شيئًا واحدًا. وهو في الحقيقة أجزاء تعمل معًا: دومين وسيرفر وواجهة وBackend وAPI وقاعدة بيانات وتسجيل دخول وتخزين ملفات وحماية ونظام لنشر التحديثات.\n\n**الهدف ليس تعليم البرمجة**، بل أن تعرف وظيفة كل جزء، وأين يوجد، وكيف يرتبط بالبقية.\n\n## الصورة الكبيرة\n\n```\nالمستخدم\n   ↓\nDomain\n   ↓\nDNS\n   ↓\nHTTPS\n   ↓\nCloud / Hosting\n   ↓\nWeb Application\n   ├── Frontend\n   └── Backend\n          ↓\n         API\n          ↓\n   ┌──────┼────────┐\nDatabase  Storage  خدمات أخرى\n```\n\nوفي جانب تطوير التطبيق:\n\n```\nالمبرمج / Claude / Codex\n          ↓\n         Git\n          ↓\n       GitHub\n          ↓\n        CI/CD\n          ↓\n      التطبيق الحي\n```\n\n## ١ · الصورة الكاملة لتطبيق الويب\n\n**Everything You NEED to KNOW About Web Applications**\n\nأفضل فيديو للبداية. يعطيك خريطة عامة عن السيرفرات وقواعد البيانات وAPIs وDNS وCDN وLoad Balancer.\n\n[كل ما تحتاج معرفته عن تطبيقات الويب](https://www.youtube.com/watch?v=_higfXfhjdo)\n\n**لا تحاول حفظ المصطلحات.** المطلوب هنا أن ترى «المبنى كاملًا».\n\n## ٢ · ماذا يحدث حين تكتب عنوان موقع؟\n\n**What Happens When You Type a URL Into Your Browser?**\n\nبعد الصورة العامة، هذا يأخذك رحلةً عملية من لحظة كتابة العنوان حتى عودة الصفحة إليك.\n\n[ماذا يحدث حين تكتب عنوان موقع في المتصفح؟](https://www.youtube.com/watch?v=AlkDbnbv7dk)\n\nيربط لك المتصفح والإنترنت وDNS والسيرفر معًا.\n\n## ٣ · نظام أسماء النطاقات DNS\n\n**Everything You Need to Know About DNS**\n\nالدومين مثل `drive7.com` اسمٌ نفهمه نحن، والإنترنت يحتاج عنوان المكان الذي توجد فيه الخدمة. وDNS أشبه بدليل العناوين.\n\n[كل ما تحتاج معرفته عن DNS](https://www.youtube.com/watch?v=27r4Bzuj5NQ)\n\nبعده تفهم السلسلة:\n\n```\nDomain  →  DNS  →  Server / Hosting\n```\n\n## ٤ · كيف يصير الاتصال آمنًا؟\n\n**SSL, TLS, HTTPS Explained**\n\nكيف يُؤمَّن الاتصال بين جهازك والسيرفر — حين تُرسل كلمة مرور أو بيانات عميل أو معلومات دفع، لا تريدها أن تنتقل مكشوفة.\n\n[شرح SSL وTLS وHTTPS](https://www.youtube.com/watch?v=j9QmMEWmcfo)\n\n## ٥ · ما هو API؟\n\n**APIs Explained in 6 Minutes**\n\nمن أهمّ الأفكار. تخيّل زرًّا اسمه «إضافة عميل»: الواجهة تقول للـBackend شيئًا قريبًا من «أضف هذا العميل واحفظ بياناته». والـAPI هو **الوسيلة المنظَّمة** التي تسمح لأجزاء النظام بالتحدّث.\n\n[شرح واجهات API في ٦ دقائق](https://www.youtube.com/watch?v=hltLrjabkiY)\n\nويليه:\n\n[ما هو REST API؟ أمثلة وكيف يُستخدم](https://www.youtube.com/watch?v=-mN3VyJuCjM)\n\n## ٦ · قواعد البيانات\n\n**How To Choose The Right Database?**\n\nلو كان لديك نظام توظيف، فقد تحفظ: الاسم · الجوال · الوظيفة · تاريخ التقديم · الحالة · الملاحظات. هذه تعيش في Database.\n\n[كيف تختار قاعدة البيانات المناسبة؟](https://www.youtube.com/watch?v=kkeFE6iRfMM)\n\nبعده تبدأ تفهم أن `PostgreSQL` و`MySQL` و`Supabase` و`Neon` و`AWS RDS` ليست الشيء نفسه.\n\n## ٧ · الهوية وتسجيل الدخول\n\n**What Is Single Sign-On (SSO)? How It Works**\n\nالتطبيق يحتاج أن يعرف: من دخل؟ أهو المدير أم موظف؟ وما صلاحياته؟\n\n[ما هو تسجيل الدخول الموحّد SSO؟](https://www.youtube.com/watch?v=O1cRJWYF-g4)\n\n[شرح OAuth 2 بطريقة مبسّطة](https://www.youtube.com/watch?v=ZV5yTm4pT8g)\n\n**وتذكّر الفرق:**\n\n```\nAuthentication  →  من أنت؟\nAuthorization   →  ما المسموح لك أن تفعله؟\n```\n\n## ٨ · ما الذي يقف أمام السيرفر؟\n\n**Proxy vs Reverse Proxy**\n\nفي كثير من الأنظمة لا يصل المستخدم مباشرةً إلى السيرفر الداخلي — بل توجد طبقة تستقبل الطلبات وتوجّهها.\n\n[الفرق بين Proxy وReverse Proxy](https://www.youtube.com/watch?v=4NB0NDtOwIQ)\n\nيساعدك لاحقًا على فهم `Cloudflare` و`Nginx` و`Load Balancer`. **لكن الـReverse Proxy ليس Firewall.**\n\n## ٩ · كيف تصل الصور والملفات بسرعة؟\n\n**What Is a CDN? How Does It Work?**\n\nلو كان السيرفر بعيدًا، ليس ضروريًّا أن تأتي كل صورة منه في كل مرة. الـCDN يحتفظ بنسخ موزّعة حول العالم لتقريب المحتوى من المستخدم.\n\n[ما هي شبكة CDN وكيف تعمل؟](https://www.youtube.com/watch?v=RI9np1LWzqw)\n\n## ١٠ · كيف ينتقل تعديل الكود إلى الموقع؟\n\n**CI/CD In 5 Minutes**\n\nمهمّ جدًّا إن كنت تفكّر في هذا السيناريو:\n\n```\nClaude / Codex\n      ↓\n  يعدّل الكود\n      ↓\n   GitHub\n      ↓\nBuild / Tests\n      ↓\n   Vercel\n      ↓\n الموقع الجديد\n```\n\nبدل أن يرفع أحدٌ الملفات يدويًّا كل مرة، تُؤتمَت عملية الاختبار والبناء والنشر.\n\n[شرح CI/CD في ٥ دقائق](https://www.youtube.com/watch?v=42UP1fxi2SY)\n\n## المرحلة الثانية — بعد فهم الأساس\n\n**Docker** — لا تحتاجه في البداية، لكن شاهده بعد أن تفهم الفرق بين الكود والسيرفر والاستضافة.\n\n[لماذا Docker مهم في تصميم الأنظمة؟](https://www.youtube.com/watch?v=QEzbZKtLi-g)\n\n**Load Balancer** — يصير مهمًّا حين لا يبقى لديك سيرفر واحد، بل عدّة خوادم توزَّع بينها.\n\n[ما هو موزّع الأحمال Load Balancer؟](https://www.youtube.com/watch?v=LQuuoHTyYz8)\n\n## ماذا ستفهم في النهاية؟\n\nستصير قادرًا على النظر إلى بنيةٍ مثل هذه وفهمها:\n\n```\nGitHub\n   │  الكود + CI/CD\n   ↓\nVercel\n├── Frontend\n└── Backend\n       │  API\n       ↓\nSupabase\n├── Database\n├── Authentication\n└── Storage\n\nCloudflare\n├── Domain / DNS\n├── CDN\n└── Security\n```\n\n| الجزء | وظيفته |\n|---|---|\n| GitHub | حفظ الكود وإدارته |\n| Vercel | تشغيل التطبيق ونشره |\n| Frontend | ما يشاهده المستخدم |\n| Backend | المنطق خلف التطبيق |\n| API | التواصل بين أجزاء النظام |\n| Database | حفظ البيانات المنظَّمة |\n| Storage | حفظ الصور وPDF والملفات |\n| Authentication | معرفة هوية المستخدم |\n| DNS | ربط اسم الموقع بالخدمة المستضيفة |\n| HTTPS | حماية الاتصال |\n| CDN | تسريع وصول المحتوى |\n| CI/CD | نقل التغييرات إلى التطبيق المنشور |\n\n## المسار المختصر جدًّا\n\nإن لم ترد مشاهدة كل شيء، فهذه الستة بالترتيب تكفي:\n\n[١ · كل ما تحتاج معرفته عن تطبيقات الويب](https://www.youtube.com/watch?v=_higfXfhjdo)\n\n[٢ · ماذا يحدث حين تكتب عنوان موقع؟](https://www.youtube.com/watch?v=AlkDbnbv7dk)\n\n[٣ · كل ما تحتاج معرفته عن DNS](https://www.youtube.com/watch?v=27r4Bzuj5NQ)\n\n[٤ · شرح API في ٦ دقائق](https://www.youtube.com/watch?v=hltLrjabkiY)\n\n[٥ · كيف تختار قاعدة البيانات المناسبة؟](https://www.youtube.com/watch?v=kkeFE6iRfMM)\n\n[٦ · شرح CI/CD في ٥ دقائق](https://www.youtube.com/watch?v=42UP1fxi2SY)\n",
+  "original_text": "",
+  "glossary": [
+   {
+    "term": "DNS",
+    "ar": "نظام أسماء النطاقات — دليل العناوين الذي يحوّل اسم الموقع إلى عنوان الخادم"
+   },
+   {
+    "term": "API",
+    "ar": "الوسيلة المنظَّمة التي تتحدّث بها أجزاء النظام بعضها إلى بعض"
+   },
+   {
+    "term": "CI/CD",
+    "ar": "أتمتة الاختبار والبناء والنشر — من تعديل الكود إلى الموقع الحيّ"
+   },
+   {
+    "term": "CDN",
+    "ar": "شبكة توزيع محتوى — نسخ موزّعة حول العالم تقرّب الملفات من المستخدم"
+   },
+   {
+    "term": "Reverse Proxy",
+    "ar": "طبقة أمام الخادم تستقبل الطلبات وتوجّهها — وليست جدار حماية"
+   },
+   {
+    "term": "Authentication / Authorization",
+    "ar": "«من أنت؟» مقابل «ما المسموح لك أن تفعله؟»"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "ByteByteGo",
+   "GitHub",
+   "Vercel",
+   "Supabase",
+   "Cloudflare",
+   "Docker"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 0,
+  "metrics": {},
+  "metrics_captured_at": "2026-09-07T08:00:20Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ }
+]

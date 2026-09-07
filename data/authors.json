@@ -162,7 +162,7 @@
   "card_count": 24,
   "account_type": "تقني",
   "is_arab": true,
-  "active": true
+  "active": false
  },
  {
   "handle": "itsPaulAi",
@@ -1320,7 +1320,7 @@
   "card_count": 19,
   "account_type": "أخرى",
   "is_arab": true,
-  "active": true
+  "active": false
  },
  {
   "handle": "mznmel",
@@ -2970,6 +2970,8 @@
   "domains": [],
   "entities": [],
   "card_count": 0,
-  "active": true
+  "active": true,
+  "account_type": "تقني",
+  "is_arab": false
  }
 ]
