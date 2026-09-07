@@ -61,5 +61,77 @@
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": "issue"
+ },
+ {
+  "id": "c1197",
+  "serial": 1197,
+  "serial_display": "#001197",
+  "source_type": "web",
+  "source_url": "https://mobbin.com/",
+  "source_native_id": null,
+  "source_name": "UI & UX design inspiration for mobile & web apps",
+  "source_site": "mobbin.com",
+  "author": "mobbin.com",
+  "published_at": "2026-09-07T14:03:53Z",
+  "fetched_at": "2026-09-07T14:03:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Mobbin: مكتبة مرجعية ضخمة لواجهات التطبيقات والمواقع الحقيقية",
+  "arabic_summary": "Mobbin منصة تجمع أكثر من 1,428 تطبيق و621,500 شاشة و323,900 Flow لتصميمات واجهات حقيقية من تطبيقات ومواقع عالمية. توفر بحثًا سريعًا عن patterns التصميم وتتكامل مع Figma لنسخ التصميمات مباشرة. تستخدمها فرق التصميم في شركات مثل Figma وVisa وPlaid كمرجع يومي.",
+  "detailed_explanation": "Mobbin مكتبة ضخمة للإلهام التصميمي تركز على واجهات المستخدم الحقيقية من تطبيقات iOS وويب ومواقع فعلية. المنصة تجمع حالياً 1,428 تطبيق تحتوي على 621,500 شاشة و323,900 Flow كاملة.\n\nالمنصة توفر عدة طرق للبحث: حسب الشاشات المفردة، أو حسب UI Elements محددة، أو حسب Flows كاملة (مثل Onboarding، Checkout، Login)، وحتى البحث داخل النصوص الموجودة في Screenshots. الـFlows تُعرض كفيديو يحتوي على الـanimations والـmicro-interactions الأصلية، أو كـprototype تفاعلي يسمح بالتنقل شاشة بشاشة.\n\nالتكامل مع Figma أبرز ميزة عملية: المستخدم يمكنه تحميل التصميمات أو نسخها مباشرة إلى Figma عبر Plugin رسمي. كما توفر المنصة نظام Collections لتنظيم التصميمات المفضلة ورفع Screenshots خاصة، مع إمكانية إضافة تعليقات وملاحظات لكل تصميم.\n\nالمنصة تستخدمها فرق تصميم في شركات مثل Figma وVisa وPlaid وCoinbase. شهادات المستخدمين تؤكد أنها بديل عملي لمجلدات Screenshots العشوائية، وأنها توفر وقت البحث عن best practices لـpatterns التصميم المختلفة. المنصة تضيف محتوى جديد أسبوعياً وتوفر خطة مجانية محدودة وخطط مدفوعة.",
+  "why_it_matters": "توفر المنصة وقت البحث عن أفضل الممارسات في تصميم الواجهات بدلاً من جمع Screenshots عشوائية، وتتيح للمصممين دراسة رحلات المستخدم الكاملة بالـanimations والـinteractions من منتجات ناجحة فعلياً، مما يرفع جودة القرارات التصميمية.",
+  "original_text": "",
+  "glossary": [
+   {
+    "term": "Flow",
+    "ar": "رحلة تصميمية كاملة من شاشة لأخرى توضح كيف ينتقل المستخدم خلال مهمة معينة في التطبيق"
+   },
+   {
+    "term": "Pattern",
+    "ar": "حل تصميمي متكرر لمشكلة واجهات مستخدم شائعة، مثل طريقة عرض Login أو Checkout"
+   },
+   {
+    "term": "UI Element",
+    "ar": "مكون واجهة مستخدم محدد مثل Button أو Dialog أو Bottom Sheet"
+   }
+  ],
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Mobbin",
+   "Figma",
+   "Visa",
+   "Plaid",
+   "Coinbase",
+   "Airbnb",
+   "Uber",
+   "Nike",
+   "Pinterest",
+   "ChatGPT",
+   "Shopify",
+   "Spotify",
+   "Notion",
+   "Dropbox"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 0,
+  "metrics": {},
+  "metrics_captured_at": "2026-09-07T14:03:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
  }
 ]
