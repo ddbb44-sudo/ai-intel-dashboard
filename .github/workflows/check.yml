@@ -62,6 +62,9 @@ jobs:
       - name: تطابق accounts.json و authors.json
         run: python .github/scripts/sync_account_types.py --check
 
+      - name: مخالفات وسم المحاور
+        run: python .github/scripts/audit_tagging.py
+
       - name: قواعد التصميم
         run: python .github/scripts/lint_design.py
 
