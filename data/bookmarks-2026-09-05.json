@@ -1,0 +1,557 @@
+[
+ {
+  "id": "c1201",
+  "serial": 1201,
+  "serial_display": "#001201",
+  "source_type": "x",
+  "source_url": "https://x.com/mikenevermiss/status/2066769708641042571",
+  "source_native_id": "2066769708641042571",
+  "source_name": "MIKE",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-06-16T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مهندس Anthropic: لا تُلقّن Claude — ابنِ نظامًا يُلقّن نفسه",
+  "arabic_summary": "بوريس تشيرني، الذي يقود Claude Code في Anthropic، يشرح الفرق بين الأمر والحلقة: الأمر يعطيك ردًّا واحدًا، والحلقة تعطيك نظامًا يواصل العمل بعد أن تغلق الحاسوب. والفيديو يفكّك أخطاء بناء الحلقات: الذاكرة، وشرط التوقّف، وتمرير السياق بين الدورات.",
+  "why_it_matters": "يغيّر طريقة استعمال Claude Code من «اسأل فأجاب» إلى «صمّم نظامًا يعمل وحده» — وهو الفرق بين أداة ووكيل. ومصدره من يبني الأداة نفسها لا من يجرّبها.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 6000,
+   "replies": 129,
+   "reposts": 669,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1300000
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1202",
+  "serial": 1202,
+  "serial_display": "#001202",
+  "source_type": "x",
+  "source_url": "https://x.com/f_aswadi/status/2041228305400291718",
+  "source_native_id": "2041228305400291718",
+  "source_name": "فهد الأسودي",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-04-06T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "هندسة التوكنز: كيف تتوقّف عن استنفاد حدود الاستخدام في Claude",
+  "arabic_summary": "النظام لا يحسب عدد الرسائل بل الرموز (Tokens) المستهلكة. والمقالة الأصلية تعدّد عشرة تغييرات عملية في طريقة العمل تخفّض الاستهلاك دون تقليل الإنتاج — من إدارة السياق إلى متى تبدأ محادثة جديدة.",
+  "why_it_matters": "يمسّ فاتورة عزيز وحدّه الأسبوعي مباشرةً — وهو من أولوياته المعلنة. والفكرة الجوهرية أن الحدّ ليس عقوبة عشوائية بل نتيجة سلوك قابل للتعديل.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 185,
+   "replies": 4,
+   "reposts": 27,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 22000
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1203",
+  "serial": 1203,
+  "serial_display": "#001203",
+  "source_type": "x",
+  "source_url": "https://x.com/AbuJojo/status/2070458961170497871",
+  "source_native_id": "2070458961170497871",
+  "source_name": "أبو جوجو",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-06-26T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "skills.sh — دليل مفتوح لمهارات الوكلاء",
+  "arabic_summary": "دليل يجمع مهارات Skills الجاهزة للوكلاء في مكان واحد، قابلة للتصفّح والتركيب.",
+  "why_it_matters": "أولوية عزيز الأولى هي السكيلز، وهذا فهرس لها بدل البحث المتفرّق في المستودعات.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "skills.sh"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 660,
+   "replies": 10,
+   "reposts": 37,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 46000
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1204",
+  "serial": 1204,
+  "serial_display": "#001204",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2036955589280952549",
+  "source_native_id": "2036955589280952549",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-03-26T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أكثر من ٤٥ ملف Skills وتصاميم جاهزة تضبط شكل الواجهة في Claude وCursor وCodex",
+  "arabic_summary": "موقع يجمع ملفات مهارات وأنماط تصميم جاهزة، تُستعمل مع أدوات البرمجة بالوكلاء. الغرض أن يلتزم النموذج بالنمط التصميمي الذي تحدّده بدل أن يُخرج تخطيطًا عشوائيًّا في كل مرة.",
+  "why_it_matters": "يعالج أشيع شكوى في البناء بالوكلاء: عدم اتساق المخرَج البصري بين الجلسات. والحلّ ملفٌّ يُقرأ لا تعليمة تُعاد.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Cursor",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 502,
+   "replies": 2,
+   "reposts": 52,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 36000
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1205",
+  "serial": 1205,
+  "serial_display": "#001205",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2069742622252445866",
+  "source_native_id": "2069742622252445866",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-06-24T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مستودع Skills لمهندسي التصميم — و«إمكانات غير مستغلّة» بعد",
+  "arabic_summary": "إميل كوفالسكي يوسّع مستودع مهاراته، ويذكر أن مهارة emil-design-eng وحدها تجاوزت ١٠٠ ألف تثبيت. ويرى أن مجال مهارات هندسة التصميم ما زال في أوله.",
+  "why_it_matters": "رقم التثبيتات (١٠٠ ألف) دليلٌ مقاس على أن السكيلز صارت طريقة توزيع معرفة لا مجرد ملفات إعداد. ومصدره حساب يتابعه عزيز.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 0,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1206",
+  "serial": 1206,
+  "serial_display": "#001206",
+  "source_type": "x",
+  "source_url": "https://x.com/Oluwaphilemon1/status/2067929858961818048",
+  "source_native_id": "2067929858961818048",
+  "source_name": "FHILY",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Hallmark: سكيل تصميم مفتوح المصدر يُخرج واجهات جميلة افتراضيًّا",
+  "arabic_summary": "سكيل يُركَّب بأمر واحد (npx skills add nutlope/hallmark) ويعمل في Claude Code وCursor وCodex. غرضه أن تكون الواجهة وصفحة الهبوط جميلة بلا توجيه إضافي في كل مرة.",
+  "why_it_matters": "مثال عملي على السكيل بوصفه بديلًا عن تكرار التعليمات — يُركَّب مرة ويعمل في ثلاث أدوات.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Cursor",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 75,
+   "replies": 7,
+   "reposts": 11,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 52000
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1207",
+  "serial": 1207,
+  "serial_display": "#001207",
+  "source_type": "x",
+  "source_url": "https://x.com/yousefrol/status/2072417267925627314",
+  "source_native_id": "2072417267925627314",
+  "source_name": "Yousef Rol",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-07-01T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مهارة تحفظ باقتك مع Fable: خطّط بالنموذج الأقوى ونفّذ بالأرخص",
+  "arabic_summary": "الطريقة: التخطيط مع Fable ثم التنفيذ بنموذج أقل تكلفة. ومرفقة باقتباس من shadcn يشرح لماذا يجب التعامل مع «الذكاء» كسلعة قابلة للاستبدال: نموذج رائد سُحب من الخدمة، وقد يتكرر.",
+  "why_it_matters": "يجمع بين توفير التكلفة ومبدأ أعمق: ألّا يُبنى سير عملك على نموذج بعينه.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "shadcn"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 0,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1208",
+  "serial": 1208,
+  "serial_display": "#001208",
+  "source_type": "x",
+  "source_url": "https://x.com/qunaieer/status/2070189112305254552",
+  "source_native_id": "2070189112305254552",
+  "source_name": "فارس القنيعير",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-06-25T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Tafsir MCP: ربط النماذج بقاعدة قرآنية موثّقة لمنع الهلوسة في المسائل الشرعية",
+  "arabic_summary": "مركز تفسير للدراسات القرآنية طوّر Tafsir MCP، وهو مشروع مفتوح المصدر يربط نماذج الذكاء الاصطناعي مباشرةً بقاعدة بيانات قرآنية وتفسيرية موثّقة عبر بروتوكول MCP — بدل أن يستدعي النموذج النصّ من ذاكرته فيخطئ في الآية أو ينسب قولًا لغير قائله.",
+  "why_it_matters": "يمسّ اهتمام عزيز من وجهين: MCP وهو من أولوياته، والمجال الإسلامي وهو أحد مجالات لوحته. والمبدأ نفسه ينطبق على المكتبة الشاملة التي يستعملها.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "بنية الوكلاء",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "إسلامي",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Tafsir MCP",
+   "MCP"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 92,
+  "metrics": {
+   "likes": 1300,
+   "replies": 51,
+   "reposts": 368,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 101000
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1209",
+  "serial": 1209,
+  "serial_display": "#001209",
+  "source_type": "x",
+  "source_url": "https://x.com/polydao/status/2068256037044719752",
+  "source_native_id": "2068256037044719752",
+  "source_name": "Mr. Buzzoni",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Obsidian + Claude Code: خزانة ملاحظات محلية تصير نظام تشغيل شخصيًّا",
+  "arabic_summary": "ربط خزانة Markdown محلية بـClaude Code عبر Obsidian CLI. الفكرة أن أمر /context يحمّل النموذج الكامل لمشاريعك وجدولك واهتماماتك، فيُعالَج عنق الزجاجة الحقيقي: السياق لا القدرة.",
+  "why_it_matters": "يعالج المشكلة التي تظهر بعد إتقان الأدوات: أن الوكيل لا يعرف سياقك فتعيد شرحه كل جلسة. والحلّ ملفات تملكها أنت لا ذاكرة تملكها الشركة.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Obsidian"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 0,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1210",
+  "serial": 1210,
+  "serial_display": "#001210",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2030970660625817921",
+  "source_native_id": "2030970660625817921",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-03-09T00:00:00Z",
+  "fetched_at": "2026-09-07T14:37:08Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Prompts.chat: أكبر مكتبة أوامر مفتوحة المصدر",
+  "arabic_summary": "موقع يجمع آلاف الأوامر الجاهزة للاستعمال، ويعمل مع أشهر النماذج مثل ChatGPT وClaude.",
+  "why_it_matters": "الأوامر الجاهزة أضعف من السكيلز لأنها لا تُركَّب في سير العمل، لكنها نقطة بدء سريعة حين تواجه مهمة جديدة.",
+  "detailed_explanation": "",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Prompts.chat",
+   "ChatGPT",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 0,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-07T14:37:08Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ }
+]

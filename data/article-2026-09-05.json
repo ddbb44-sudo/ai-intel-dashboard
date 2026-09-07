@@ -74,5 +74,129 @@
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": "issue"
+ },
+ {
+  "id": "c1199",
+  "serial": 1199,
+  "serial_display": "#001199",
+  "source_type": "x",
+  "source_url": "https://x.com/dhruvtwt_/status/2077068765150453905",
+  "source_native_id": "2077068765150453905",
+  "source_name": "Dhruv",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-07-14T00:00:00Z",
+  "fetched_at": "2026-09-07T14:23:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "عشر مهارات Skills مجرَّبة لمهندسي التصميم من دليل ui-skills",
+  "arabic_summary": "مصمّم جرّب مهارات دليل ui-skills أسابيع واختار عشرًا ثبت له نفعها: من فلسفة صقل الواجهات وحركتها، إلى إصلاح إتاحة الوصول، إلى ممارسات React وVercel وأدوات الاختبار وإدارة الحزم. وثلاثٌ منها من حسابات يتابعها عزيز أصلًا.",
+  "why_it_matters": "تحويل المعرفة التصميمية إلى ملفات Skills يقرؤها الوكيل — بدل مقالة يقرؤها الإنسان وينساها. وهذا أقرب نموذج عملي لما يبنيه عزيز في سكيلزه.",
+  "detailed_explanation": "عشر مهارات جرّبها **Dhruv** من دليل [ui-skills.com](http://ui-skills.com) — دليل Skills موجّه لمهندسي التصميم — واختار منها ما ثبت له نفعه بعد أسابيع من الاستعمال.\n\n**ما يميّز القائمة:** ليست جردًا لكل ما في الدليل، بل انتقاءً بعد تجربة. وثلاثٌ منها تخصّ أدوات في مسار عمل عزيز مباشرةً.\n\n## القائمة\n\n| # | المهارة | ما تفعله |\n|---|---|---|\n| ١ | `emil-design-eng` | فلسفة Emil Kowalski في صقل الواجهات وقرارات الحركة |\n| ٢ | `make-interfaces-feel-better` | تحسين الإحساس بالواجهة لا شكلها |\n| ٣ | `12-principles-of-animation` | مبادئ الحركة الاثنا عشر مطبَّقة على الويب |\n| ٤ | `fixing-accessibility` | إصلاح مشكلات إتاحة الوصول |\n| ٥ | `shadcn` | نظام shadcn/ui |\n| ٦ | `vercel-react-best-practices` | ممارسات Vercel في React |\n| ٧ | `react-doctor` | تشخيص مشكلات React |\n| ٨ | `vitest` | الاختبار بـVitest |\n| ٩ | `pnpm` | إدارة الحزم بـpnpm |\n| ١٠ | `playwright-cli` | أتمتة المتصفح بـPlaywright |\n\n## لماذا تستحق النظر\n\n**الأولى والخامسة والسادسة** تخصّ حسابات يتابعها عزيز أصلًا: `@emilkowalski` و`@shadcn` و`@vercel`. أي أن الدليل يجمع في ملفات Skills ما ينشره هؤلاء متفرّقًا.\n\n**والفكرة الأعمق:** أن تصير المعرفة التصميمية **ملفًّا يقرؤه الوكيل** بدل مقالة يقرؤها الإنسان ثم ينساها.\n\n[دليل ui-skills.com](http://ui-skills.com)\n",
+  "original_text": "",
+  "glossary": [
+   {
+    "term": "UI Skills",
+    "ar": "دليل مهارات موجّه لمهندسي التصميم — كل مهارة ملفٌّ يوجّه الوكيل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "shadcn",
+   "Vercel",
+   "React",
+   "Playwright"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 2600,
+   "replies": 42,
+   "reposts": 224,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 360000
+  },
+  "metrics_captured_at": "2026-09-07T14:23:05Z",
+  "external_links": [
+   "http://ui-skills.com"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
+ },
+ {
+  "id": "c1200",
+  "serial": 1200,
+  "serial_display": "#001200",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2083799701623623841",
+  "source_native_id": "2083799701623623841",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "—",
+  "published_at": "2026-08-02T00:00:00Z",
+  "fetched_at": "2026-09-07T14:23:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "scroll-world: موقع بحركة كاميرا تشبه صفحات آبل من وصف نصّي واحد",
+  "arabic_summary": "أداة مفتوحة المصدر تبني موقعًا بحركة كاميرا متصلة مع التمرير من وصف نصّي واحد. تنشئ المشاهد وتحرّك الكاميرا بينها وتربطها بالتمرير، وتُخرج للاستعمال في HTML أو Next.js أو Vue مع نسخة للجوال. مجانية، والتوليد يكلّف نحو ٢٧ دولارًا لستة مشاهد.",
+  "why_it_matters": "يختصر نوعًا من المواقع كان يحتاج فريقًا وأشهرًا وعشرات الآلاف. والتسعير المعلن يجعل التجربة قابلة للحساب قبل البدء.",
+  "detailed_explanation": "أداة مفتوحة المصدر اسمها **scroll-world** تبني موقعًا بحركة كاميرا متصلة مع التمرير — من النوع الذي تراه في صفحات منتجات آبل — **من وصف نصّي واحد**.\n\n## كيف تعمل\n\nتكتب فكرة الموقع نصًّا، مثل:\n\n```\nابدأ من مزرعة القهوة\nثم ادخل مصنع التحميص\nوبعدها انتقل إلى التغليف\nوانتهِ داخل المقهى\n```\n\nفتنشئ الأداة المشاهد، وتحرّك الكاميرا بينها، وتربطها بالتمرير بلا تقطيع. والنتيجة تُستعمل داخل HTML أو Next.js أو Vue، ومعها نسخة مخصّصة للجوال.\n\n## التكلفة — وهذا ما يجعلها عملية\n\n**الأداة مجانية**، ويُدفع فقط مقابل توليد الصور والفيديو: مشروع من ستة مشاهد يكلّف **نحو ٢٧ دولارًا**.\n\nوهذا النوع من المواقع كان يحتاج فريق مصمّمين ومطوّرين، ويكلّف آلافًا إلى عشرات الآلاف، ويستغرق أشهرًا.\n\n## القيد الذي يجب أن تراه\n\nالرقم المذكور (٢٧ دولارًا) **لستة مشاهد** — والمشاريع الحقيقية أكبر. والأداة تولّد المشاهد ولا تصمّم لك الهوية ولا تكتب المحتوى، فهي تختصر التنفيذ لا القرار.\n",
+  "original_text": "",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "scroll-world",
+   "Next.js",
+   "Vue"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 30,
+  "metrics": {
+   "likes": 67,
+   "replies": 1,
+   "reposts": 11,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 6900
+  },
+  "metrics_captured_at": "2026-09-07T14:23:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "issue"
  }
 ]
