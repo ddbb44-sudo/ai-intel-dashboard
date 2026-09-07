@@ -1,0 +1,644 @@
+[
+ {
+  "id": "c1185",
+  "serial": 1185,
+  "serial_display": "#001185",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2096685838801236287",
+  "source_native_id": "2096685838801236287",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-06T19:43:53Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "DeepSeek تطلب 160 ألف شريحة Huawei Ascend 950DT لمركز بيانات ضخم في منغوليا الداخلية",
+  "arabic_summary": "DeepSeek تخطط لاستخدام 160 ألف من مسرّعات Ascend 950DT من Huawei في مركز بيانات ضخم، لتشكّل واحدة من أكبر تجمعات Huawei Ascend عالميًا. الشرائح ستُستخدم للاستدلال Inference وتشغيل النماذج، بينما التدريب يبقى على NVIDIA. لكن 160 ألف شريحة لا تكفي احتياجات DeepSeek، والمشكلة أن Huawei نفسها لا تملك طاقة إنتاجية كافية، وقد يستغرق التنفيذ أكثر من سنة.",
+  "detailed_explanation": "المنشور يوثّق خطوة استراتيجية من DeepSeek: شراء 160 ألف شريحة من نوع Huawei Ascend 950DT — مسرّعات صينية الصنع — لتُستخدم في مركز بيانات ضخم قيد الإنشاء في منغوليا الداخلية.\n\n**التقسيم الوظيفي**:\n- **الاستدلال Inference** (تشغيل النماذج الجاهزة): سيعتمد على Huawei Ascend\n- **التدريب Training** (بناء النماذج): يبقى على NVIDIA\n\nهذا يعني أن DeepSeek تحاول تقليل الاعتماد على NVIDIA في جزء من البنية التحتية، لكن ليس بالكامل.\n\n**المشكلة الحقيقية**: 160 ألف شريحة **غير كافية** لاحتياجات DeepSeek. الشركة تحتاج أكثر، لكن Huawei نفسها لا تملك طاقة إنتاجية تكفي، وتنفيذ الطلب كاملًا قد يستغرق أكثر من سنة.\n\n**الخلاصة**: عنق الزجاجة لم يعد في النماذج أو الخوارزميات — صار في **المصانع نفسها**. أزمة العتاد تتعمّق عالميًا، والطلب يتجاوز قدرة الإنتاج حتى لدى الشركات الكبرى.",
+  "why_it_matters": "يكشف عن تحوّل DeepSeek نحو عتاد صيني بديل عن NVIDIA في الاستدلال، ويظهر أن عنق الزجاجة انتقل من توفّر النماذج إلى طاقة المصانع نفسها، ما يعكس أزمة عتاد عالمية متصاعدة.",
+  "original_text": "شركة DeepSeek طلبت 160 ألف شريحة من Huawei   \n\nالشركة تخطط تستخدم مسرعات Ascend 950DT داخل مركز بيانات ضخم في منغوليا الداخلية، والنتيجة ممكن تكون واحدة من أكبر تجمعات Huawei Ascend في العالم.\n\nالشرائح بتستخدم للاستدلال وتشغيل النماذج، بينما التدريب نفسه بيستمر حاليًا على NVIDIA.\n\nطبعا 160 ألف شريحة أصلًا مش كفاية بالنسبة لـ DeepSeek.\n\nالشركة تحتاج كمية أكبر.\n\nلكن المشكلة هذي المرة عند Huawei نفسها: الطاقة الإنتاجية ما تكفي، وتنفيذ الطلب كامل ممكن ياخذ أكثر من سنة.\n\nيعني عنق الزجاجة الآن مو الموديلات \n\nصارت المصانع نفسها",
+  "glossary": [
+   {
+    "term": "Inference",
+    "ar": "الاستدلال: تشغيل نموذج جاهز لإنتاج نتائج"
+   },
+   {
+    "term": "Training",
+    "ar": "التدريب: بناء نموذج من البيانات"
+   },
+   {
+    "term": "Ascend 950DT",
+    "ar": "مسرّع AI من Huawei"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "DeepSeek",
+   "Huawei",
+   "NVIDIA"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 12,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 1078
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1186",
+  "serial": 1186,
+  "serial_display": "#001186",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2096648144712782188",
+  "source_native_id": "2096648144712782188",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-09-06T17:14:06Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill لتحليل الفيديو: دمج قدرة Gemini في تحليل الفيديو مع Codex عبر Gemini API",
+  "arabic_summary": "Gemini يتميّز بقدرة فريدة على تحليل فيديو كامل (حتى 30 دقيقة) بسرعة ودقة، لكنه أضعف في المهام الأخرى. فريق Agent Native حوّل هذه القدرة إلى Skill يُضاف لـ Codex عبر Gemini API، ما يمنح Codex قدرة تحليل الفيديو ويجعل سير عمل التحرير أسرع بـ 2x. الـ Skill يعمل أيضًا مع Claude وGrokBot.",
+  "detailed_explanation": "المنشور يعرض حالة استخدام واقعية لمفهوم Skills في بناء Agent قابل للتوسّع:\n\n**المشكلة**: Gemini يمتلك قدرة استثنائية على تحليل الفيديو — يمكنه \"مشاهدة\" فيديو كامل يصل إلى 30 دقيقة وتحليله بدقة في ثوانٍ — لكنه ليس الأفضل في المهام الأخرى (كتابة، برمجة، إلخ).\n\n**الحل**: بدلًا من إجبار المستخدم على التنقّل بين أدوات، فريق Agent Native بنى Skill يستدعي Gemini API فقط لتحليل الفيديو، ثم يُدمج النتيجة في Codex (أو Claude أو GrokBot). هذا يُبقي Codex كواجهة التفاعل الرئيسية مع إضافة قدرة تحليل الفيديو.\n\n**الأثر المُقاس**: المحررون في Agent Native يستخدمون الـ Skill قبل بدء التحرير، وحقّقوا تسريعًا بنسبة 2x.\n\n**ما يحتاجه المستخدم**: فقط Gemini API Key.\n\nالمنشور يُشير إلى أن الـ Skill كامل منشور في تغريدة مقتبسة (غير متوفرة هنا)، لكن الفكرة واضحة: Skills كطبقة تكامل بين قدرات نماذج متعددة.",
+  "why_it_matters": "يُظهر كيف يمكن دمج قدرات نماذج مختلفة (Gemini API) في أداة واحدة (Codex) عبر Skills، ويحلّ مشكلة واقعية في سير عمل إنتاج المحتوى، ويقدّم نموذجًا قابلًا للتطبيق فورًا.",
+  "original_text": "Gemini is the only AI that can analyze videos quickly and accurately.\n\nGemini can watch full 30-minute videos, pay close attention, and analyze them in seconds. It can WATCH the video.\n\nThis is very useful for content workflows. The problem is that Gemini (right now) is not great at everything else. So at @agentnative_ we bundled that capability into a skill and gave it to Codex.\n\nOur editors use this before they start editing, and it makes the process about 2x faster. Which is insane.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف أو أداة تضيف قدرة محددة لـ Agent"
+   },
+   {
+    "term": "Gemini API",
+    "ar": "واجهة برمجية للوصول لنموذج Gemini"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill",
+   "API/SDK"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Codex",
+   "Gemini",
+   "Claude",
+   "Grok"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 990,
+   "replies": 47,
+   "reposts": 47,
+   "quotes": 5,
+   "bookmarks": 1151,
+   "views": 87551
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "This skill allows Codex w/ GPT 6 Astra to fully analyze videos.\n\nThis is Gemini's best feature, and you can turn it into a skill that any agent can use.\n\n(This works with Claude and GrokBot as well)\n\nAll you need is a Gemini API Key.\n\nFull Skill below: https://t.co/bfWiSAMXAj"
+  },
+  "cluster_id": "video_analysis_skill",
+  "also_reported": [
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2096645035345248530"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1187",
+  "serial": 1187,
+  "serial_display": "#001187",
+  "source_type": "x",
+  "source_url": "https://x.com/Wa7d_ai/status/2096653356072853999",
+  "source_native_id": "2096653356072853999",
+  "source_name": "مجتمع واحد",
+  "source_site": "x.com",
+  "author": "Wa7d_ai",
+  "published_at": "2026-09-06T17:34:48Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "من الوكيل الواحد إلى فِرَق الوكلاء: تحوّل معماري في بناء تطبيقات AI",
+  "arabic_summary": "الاتجاه السائد تغيّر من الاعتماد على وكيل واحد يؤدّي كل المهام، إلى نموذج Agent Teams: فريق من الوكلاء المتخصصين، كل واحد له دور محدد (واجهة، خلفية، اختبار، توثيق). Claude Code يُستخدَم كمثال يعتمد على وكيل قائد يوزّع المهام، بينما الوكلاء يتراسلون ويتشاركون قائمة المهام. المنشور يذكر أشكالًا أخرى: نمط Supervisor، أو Pipeline، أو فرق متوازية.",
+  "detailed_explanation": "المنشور يقدّم تحليلًا لتحوّل معماري بدأ يظهر في بناء تطبيقات Agents: الانتقال من وكيل واحد يحاول إنجاز كل شيء، إلى فريق من الوكلاء المتخصصين يتعاونون.\n\nالمثال المحوري هو Claude Code وميزته Agent Teams: وكيل قائد يوزّع المهمة على فريق متعدد — وكيل للواجهة، آخر للباك إند، ثالث للاختبارات، رابع للتوثيق. كل وكيل له سياق Context Window خاص، لكنهم يتشاركون قائمة مهام ويتراسلون بشكل مباشر.\n\nالمنشور يذكر أنماطًا معمارية أخرى:\n- **Supervisor**: وكيل مشرف يوزع المهام على وكلاء فرعيين\n- **Pipeline**: سلسلة متتابعة، كل وكيل يبني على مخرجات السابق\n- **Parallel**: مجموعة من الوكلاء تعمل بالتوازي على مهام مستقلة\n\nالسؤال الختامي يوجّه القارئ نحو التفكير في تجربة الفكرة عمليًا.",
+  "why_it_matters": "يُوضّح تحوّلًا معماريًا في بناء تطبيقات Agent، من نموذج Monolithic إلى نموذج موزّع، ويشرح كيف يُستخدَم Claude Code فعليًا مع Agent Teams، وهو نمط سيظهر في أدوات أخرى قريبًا.",
+  "original_text": "لين وقت قريب، كنت تفتح أداة AI وحدة وتطلب منها كل شي.. تكتب الكود، تراجعه، وتصلح الأخطاء. \nوكيل واحد يسوي كل الأدوار.\n\nالحين الاتجاه تغيّر:\nبدل وكيل واحد يتوه بين المهام، صار فيه فريق وكلاء كل واحد له دور محدد، ويتواصلون مع بعض.\n\nمثال واقعي: \nClaude Code فيه ميزة اسمها Agent Teams وكيل قائد يوزع المهمة على فريق: وكيل يشتغل على الواجهة، ثاني على الباك إند، ثالث يكتب الاختبارات، ورابع يوثّق الشغل. كل واحد له سياقه الخاص، لكنهم يتشاركون قائمة مهام ويتراسلون فيما بينهم أول بأول.\n\nالفكرة نفسها موجودة بأشكال ثانية: \nوكيل مشرف يوزع المهام (Supervisor)، أو سلسلة وكلاء كل وحد يبني على شغل اللي قبله (Pipeline)، أو مجموعة كبيرة تشتغل بالتوازي على مهام مستقلة.\n\nجربت تشغّل أكثر من وكيل AI بالتوازي على مشروع؟ وش كانت النتيجة؟ 🤩",
+  "glossary": [
+   {
+    "term": "Agent Teams",
+    "ar": "فِرَق الوكلاء"
+   },
+   {
+    "term": "Supervisor",
+    "ar": "وكيل مشرف يوزع المهام"
+   },
+   {
+    "term": "Pipeline",
+    "ar": "خط أنابيب: سلسلة متتابعة من الوكلاء"
+   },
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Agent Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 788
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1188",
+  "serial": 1188,
+  "serial_display": "#001188",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2096652158603071887",
+  "source_native_id": "2096652158603071887",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-06T17:30:03Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub تشرح كيف تعمل Canvases لتحسين ظهور وتحكم وكفاءة تكلفة سير عمل Agents",
+  "arabic_summary": "نشرت GitHub مقالة تشرح آلية عمل Canvases، وهي واجهة مشتركة ودائمة تساعد في تتبع ما نفّذه Agent وما تغيّر وما يحتاج مراجعة. الهدف هو تجاوز صعوبة التنقّل في محادثات Agents الطويلة. Canvases توفر سطحًا مرئيًا يُسهّل المراجعة والتوجيه ويقلّل التكلفة.",
+  "detailed_explanation": "Agents في تطبيقات البرمجة تنفّذ مهام متعددة ومعقّدة، وغالبًا ما تكون المحادثة النصية التقليدية غير كافية لفهم تسلسل الإجراءات أو مراجعتها. GitHub قدّمت Canvases كحل: سطح عمل مرئي يعرض بوضوح كل خطوة نفّذها Agent، التغييرات التي أجراها، والعناصر التي تحتاج تدخّل المستخدم.\n\nالفائدة الأساسية أن Canvases تجعل سير العمل Agentic أكثر قابلية للرؤية (visible) والتحكّم (steerable)، حيث يمكن للمستخدم أن يرى الخطوات بوضوح ويتدخّل عند الحاجة بدلًا من الاعتماد على نصوص طويلة. كما تحسّن كفاءة التكلفة (cost-efficient) بتقليل الحاجة لإعادة توليد أو تصحيح نتائج غير واضحة.\n\nهذا التوجّه يعكس نضج أدوات Agents من مجرد نماذج تحادثية إلى واجهات عمل متكاملة تدعم سير عمل احترافي.",
+  "why_it_matters": "يوفّر حلًّا عمليًّا لأحد تحديات استعمال Agents في البيئات الحقيقية: صعوبة تتبّع ومراجعة الإجراءات المتعددة في محادثة واحدة، مما يحسّن تجربة المطوّر والشفافية.",
+  "original_text": "Stop scrolling... \n\n...through those agent chats.\n\nCanvases give your workflow a durable, shared surface to track what ran, changed, and needs review.\n\nHow it works 👇\nhttps://t.co/pMwe9YhsuS",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكي ينفّذ مهام متعددة بشكل مستقل"
+   },
+   {
+    "term": "Canvas",
+    "ar": "سطح عمل مرئي لتتبّع إجراءات Agent"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 160,
+   "replies": 16,
+   "reposts": 9,
+   "quotes": 3,
+   "bookmarks": 101,
+   "views": 55090
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [
+   "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/?utm_source=x-canvases-agentic-workflows&utm_medium=social&utm_campaign=github-app-cli-Q1-push"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1189",
+  "serial": 1189,
+  "serial_display": "#001189",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2096634030913441795",
+  "source_native_id": "2096634030913441795",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-06T16:18:01Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI: الذكاء الاصطناعي وصل لمستوى باحث متدرب مع هدف 2028",
+  "arabic_summary": "OpenAI تعلن أن أنظمتها الحالية قادرة على تنفيذ مهام بحثية تحت إشراف إنساني بمستوى باحث متدرب. المنشور يوضح أن الهدف الأكبر هو الوصول بحلول 2028 إلى ذكاء اصطناعي ينفذ أبحاثًا متقدمة بشكل آلي أكثر ويساعد في تطوير نماذج الذكاء الاصطناعي نفسها.",
+  "detailed_explanation": "المنشور يكشف عن مرحلة جديدة في تطور قدرات OpenAI، حيث تصف الشركة أن أنظمتها الحالية وصلت لمستوى \"باحث متدرب\" — أي قادرة على تنفيذ مهام بحثية محددة تأخذ عادة أيامًا من عمل باحث بشري، لكن تحت إشراف إنساني.\n\nالأهم من الوضع الحالي هو الهدف المعلن: بحلول 2028، تطمح OpenAI للوصول إلى ذكاء اصطناعي ينفذ أبحاثًا متقدمة بشكل آلي أكثر، ويساهم في تطوير نماذج الذكاء الاصطناعي نفسها — وهو ما يُعرف بـ recursive self-improvement.\n\nهذا التوجه يعني أن النماذج المستقبلية ستصبح أكثر استقلالية في تنفيذ مهام معقدة، وستساهم في تسريع دورة التطوير نفسها، مما يفتح المجال لقفزات أسرع في القدرات.",
+  "why_it_matters": "يشير إلى خارطة طريق OpenAI نحو recursive self-improvement وقدرات بحثية ذاتية، وهو تحول جوهري في تطور النماذج والأنظمة التي قد يستخدمها عزيز مستقبلًا.",
+  "original_text": "OpenAI تقول إنها وصلت لمرحلة صار فيها الذكاء الاصطناعي يقدر يشتغل كأنه باحث متدرب.\n\nيعني بدل ما الباحث يقضي كم يوم على مهمة بحثية محددة، يقدر يعطيها للنظام، والذكاء الاصطناعي ينفذ جزء كبير منها تحت إشراف الإنسان.\n\nلكن الأهم: هذا مو باحث مستقل بالكامل إلى الآن.\n\nالهدف الأكبر عند OpenAI هو الوصول بحلول 2028 إلى ذكاء اصطناعي يقدر ينفذ أبحاث متقدمة بشكل آلي أكثر، ويساعد حتى في تطوير نماذج الذكاء الاصطناعي نفسها.",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 13,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 2422
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1190",
+  "serial": 1190,
+  "serial_display": "#001190",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2096640625902764073",
+  "source_native_id": "2096640625902764073",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-06T16:44:13Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Fable 5.1 ينتج ٨ ألعاب متميزة عن إدغار ألن بو بأمر واحد",
+  "arabic_summary": "أنتج النموذج Fable 5.1 بأمر واحد (one-shot) ٨ ألعاب مختلفة مبنية على أعمال إدغار ألن بو. الألعاب متنوعة وممتعة وبعضها مخيف بالفعل، وتعكس تحسنًا في قدرة النموذج على إنتاج محتوى إبداعي متنوع.",
+  "detailed_explanation": "المنشور يعرض تجربة عملية لنموذج Fable 5.1 من Anthropic حيث طُلب منه بناء ٨ ألعاب على الأقل مبنية على أعمال الكاتب إدغار ألن بو، بشرط أن تكون جميعها رائعة ومتميزة عن بعضها.\n\nالنتيجة كانت مفاجئة: الألعاب كانت متنوعة بشكل واضح، وممتعة في اللعب، وبعضها حقق جوًا مخيفًا فعليًا — وهو ما يعكس قدرة النموذج على فهم الطلب الإبداعي وتنفيذه بتنوع حقيقي.\n\nهذا النوع من التجارب يبرز قدرة النماذج الحديثة على الإنتاج الإبداعي المتنوع بأقل قدر من التوجيه، وهو مفيد في تطبيقات مثل توليد المحتوى التفاعلي أو الألعاب التعليمية.",
+  "why_it_matters": "يظهر قدرة نموذج Fable 5.1 على التنفيذ الإبداعي السريع بتعليمة واحدة، مع تنوع ملحوظ في الناتج — مهم لمن يبني تطبيقات تفاعلية أو ألعاب.",
+  "original_text": "Here is an impressive one-shot result from Fable 5.1: \"build out at least 8 games based on Edgar Allen Poe. they should all be great and very distinctive\"\n\nThe games are surprisingly different, fun to play and evocative, and some are actually a bit creepy https://t.co/W0fx4ZM7mM https://t.co/bTQXl9qx9L",
+  "glossary": [
+   {
+    "term": "one-shot",
+    "ar": "تنفيذ بأمر واحد دون تكرار أو تعديل"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Anthropic",
+   "Fable 5.1"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 149,
+   "replies": 19,
+   "reposts": 11,
+   "quotes": 2,
+   "bookmarks": 58,
+   "views": 22909
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [
+   "https://poe-arcade.netlify.app/index.html"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1191",
+  "serial": 1191,
+  "serial_display": "#001191",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2096645299309625474",
+  "source_native_id": "2096645299309625474",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-06T17:02:47Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "الذكاء الاصطناعي يراجع الأوراق البحثية المنشورة ويحكم عليها علنًا",
+  "arabic_summary": "تجربة تستخدم AI لمراجعة الأبحاث المنشورة بأثر رجعي، واكتشاف فرص وإشكاليات فيها، ثم نشر هذه الأحكام علنًا. يراها Ethan Mollick إشارة إلى «تسونامي قادم للأكاديميا».",
+  "detailed_explanation": "المنشور يشير إلى تجربة تستخدم الذكاء الاصطناعي لقراءة الأوراق البحثية المنشورة بأثر رجعي، واكتشاف الفرص البحثية أو المشكلات فيها، ثم نشر هذه الأحكام بشكل علني.\n\nيصف Ethan Mollick هذا بأنه «تجربة مثيرة وإشارة إلى تسونامي قادم للأكاديميا». الفكرة هي أن AI يمكنه الآن أن يلعب دور المراجع الجماعي الآلي، الذي يقرأ كميات هائلة من الأبحاث ويحكم عليها بناءً على معايير معينة.\n\nهذا يطرح فرصًا كبيرة — مثل كشف الأخطاء المنهجية أو الفرص البحثية المهدرة — لكنه يطرح أيضًا أسئلة حول من يضع المعايير، وكيف يُحكم على جودة الأبحاث، وما الأثر على سمعة الباحثين حين يُنشر الحكم علنًا دون مراجعة بشرية.",
+  "why_it_matters": "يفتح هذا بابًا لمراجعة جماعية آلية للأبحاث المنشورة، مع إمكانية كشف العيوب أو الفرص الضائعة — لكنه يطرح أسئلة حول معايير الحكم والمسؤولية.",
+  "original_text": "This is both an interesting experiment and a sign of a tsunami coming for academia. AIs retroactively reading the research and finding both opportunities and issues with published papers, then sharing those judgements publicly. https://t.co/cuspyyIz9z https://t.co/MxRYlaqGiS",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 92,
+  "metrics": {
+   "likes": 829,
+   "replies": 39,
+   "reposts": 145,
+   "quotes": 17,
+   "bookmarks": 502,
+   "views": 72308
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [
+   "https://d3jhl7jsny6f2h.cloudfront.net/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1192",
+  "serial": 1192,
+  "serial_display": "#001192",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2096474076743151764",
+  "source_native_id": "2096474076743151764",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-06T05:42:25Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة مفتوحة المصدر لتحويل مشاريع الويب إلى Android APK من الهاتف",
+  "arabic_summary": "أداة مفتوحة المصدر تتيح تحويل مشاريع الويب إلى ملفات Android APK مباشرة من الهاتف، بدون الحاجة لكمبيوتر. المستخدم يمكنه بناء ملف APK وتثبيته على جهاز أندرويد مباشرة لتجربة المشروع كتطبيق.",
+  "detailed_explanation": "الأداة موجهة للمطورين الذين يبنون مشاريع ويب (HTML, CSS, JavaScript) ويريدون تحويلها إلى تطبيقات أندرويد قابلة للتثبيت، دون الحاجة لاستخدام بيئة تطوير كاملة على كمبيوتر.\n\nالميزة الأساسية هي إمكانية بناء ملف APK مباشرة من الهاتف نفسه، مما يسهل التجربة السريعة والنشر الأولي.\n\nهذا النوع من الأدوات مفيد في سيناريوهات التطوير السريع أو عند العمل في بيئات محدودة الموارد، ويمكن أن يكون مفيدًا لمن يبني نماذج أولية لتطبيقات ويب تحتاج لتجربة على أندرويد.",
+  "why_it_matters": "تبسط عملية النشر والتجربة للمطورين الذين يعملون على مشاريع ويب ويريدون تحويلها لتطبيقات أندرويد بسرعة، خصوصًا في بيئات العمل الخفيفة أو التجريب السريع.",
+  "original_text": "حوّل مشروع الويب إلى تطبيق أندرويد من جوالك! 📱\n\nأداة مفتوحة المصدر تتيح لك تحويل مشاريع الويب إلى ملفات Android APK مباشرة من الهاتف، بدون الحاجة لاستخدام كمبيوتر.\n\nيعني عندك مشروع ويب وتبي تجربه كتطبيق أندرويد؟ تقدر تبني ملف APK وتثبته على جهازك مباشرة. https://t.co/uozZ3JjWnx",
+  "glossary": [
+   {
+    "term": "APK",
+    "ar": "صيغة ملف تطبيقات أندرويد"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 47,
+   "replies": 2,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 35,
+   "views": 3759
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1193",
+  "serial": 1193,
+  "serial_display": "#001193",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2096670194340901328",
+  "source_native_id": "2096670194340901328",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-06T18:41:43Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Prompt لإصلاح ملفات Skills في GPT-6 عبر Codex",
+  "arabic_summary": "منشور يشير إلى Prompt يُنسخ إلى GPT-6 في بيئة Codex لإصلاح جميع ملفات Skills التي لا تزال تعمل. المنشور لا يشرح الطريقة بالتفصيل لكن يدل على وجود حل سريع.",
+  "detailed_explanation": "المنشور يقترح Prompt محدد يُنسخ إلى نموذج GPT-6 داخل بيئة Codex، بهدف إصلاح جميع ملفات Skills التي لا تزال قيد التشغيل.\n\nلا يوضح المنشور تفاصيل المشكلة التي يحلها الـ Prompt، ولا يُظهر نص الـ Prompt نفسه بشكل واضح، لكنه يشير إلى وجود حل سريع وفعال لمشكلة شائعة في Skills.\n\nبما أن Skills هي أولوية عزيز الأولى، فأي أداة أو Prompt يساعد في إصلاحها يستحق المتابعة — لكن المنشور يحتاج إلى مزيد من التفاصيل ليكون قابلًا للتطبيق الفوري.",
+  "why_it_matters": "يقدم حلًا عمليًا لإصلاح ملفات Skills — وهي أولوية عزيز الأولى — لكن المنشور يفتقر إلى التفاصيل الكافية للتطبيق المباشر.",
+  "original_text": "Paste this to GPT-6 in Codex to fix every skill you still run: https://t.co/4X65ornac6",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "GPT-6"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 92,
+  "metrics": {
+   "likes": 524,
+   "replies": 23,
+   "reposts": 54,
+   "quotes": 1,
+   "bookmarks": 900,
+   "views": 37083
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "skill_fix",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2096717875650199600"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1194",
+  "serial": 1194,
+  "serial_display": "#001194",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2096679804841889954",
+  "source_native_id": "2096679804841889954",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-09-06T19:19:54Z",
+  "fetched_at": "2026-09-07T04:20:44Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تطبيق عملي: GPT-6 Astra أعاد بناء موقع ويب بـ Prompt واحد",
+  "arabic_summary": "عرض @AmirMushich نتيجة استخدام GPT-6 Astra في تصميم وبناء موقع ويب كامل من Prompt واحد. الكود منشور على GitHub. يشير إلى قدرة النموذج في تصميم الويب وتنفيذه من وصف موجز.",
+  "detailed_explanation": "",
+  "why_it_matters": "يظهر قدرة GPT-6 Astra في توليد مواقع ويب متكاملة من وصف بسيط، مما يسرّع دورة التصميم والتطوير للمطوّرين والمصممين.",
+  "original_text": "GPT-6 Astra is good at web design\n\nRebuild this website in 1 prompt:\nhttps://t.co/tGHrWNKMVH",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "أمر نصي يُعطى للنموذج لتنفيذ مهمة"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GPT-6 Astra"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 240,
+   "replies": 5,
+   "reposts": 19,
+   "quotes": 2,
+   "bookmarks": 314,
+   "views": 23052
+  },
+  "metrics_captured_at": "2026-09-07T04:20:44Z",
+  "external_links": [
+   "https://github.com/amirmushichge/video-states-website"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "GPT-6 Astra + LTX-2.5 = web video interface\n\nYour website is an immersive experience now\n\nEvery click changes one property of the world: scene, lighting, clothing, or cast\nThe world-video model becomes the transition surface\n\nFull GitHub build 🧵👇 https://t.co/zmlDIRoGBs"
+  },
+  "cluster_id": "gpt6_web_design",
+  "also_reported": [
+   {
+    "author": "AmirMushich",
+    "url": "https://x.com/AmirMushich/status/2096577389081887037"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
