@@ -47,9 +47,10 @@ def run_batch(cards, ix):
                          "text": (c.get("original_text") or "").replace("\n", " ")[:380]},
                         ensure_ascii=False) for c in cards]
     data = retag.call_api({"model": retag.MODEL, "max_tokens": 3000, "system": SYSTEM,
+                           "thinking": {"type": "disabled"},
                            "messages": [{"role": "user",
                                          "content": "أكمل تصنيف هذه البطاقات:\n" + "\n".join(lines)}]})
-    body = data["content"][0]["text"].strip()
+    body = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
     if body.startswith("```"):
         body = body.split("```")[1]
         if body.startswith("json"): body = body[4:]

@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from taxonomy import CONTENT_TYPES, TOOL_TYPES, DOMAINS, LEGACY_DOMAIN
 
 API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-MODEL   = os.environ.get("RETAG_MODEL", "claude-sonnet-4-5-20250929")
+MODEL   = os.environ.get("RETAG_MODEL", "claude-sonnet-5")
 BATCH   = int(os.environ.get("RETAG_BATCH", "20"))
 WORKERS = int(os.environ.get("RETAG_WORKERS", "4"))
 DATA    = os.environ.get("DATA_DIR", "data")
@@ -123,10 +123,11 @@ def run_batch(cards, ix):
             "title": c.get("arabic_title"), "summary": (c.get("arabic_summary") or "")[:300],
             "text": txt}, ensure_ascii=False))
     payload = {"model": MODEL, "max_tokens": 4000, "system": SYSTEM,
+               "thinking": {"type": "disabled"},
                "messages": [{"role": "user", "content":
                              "صنّف هذه البطاقات:\n" + "\n".join(lines)}]}
     data = call_api(payload)
-    body = data["content"][0]["text"].strip()
+    body = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
     if body.startswith("```"):
         body = body.split("```")[1]
         if body.startswith("json"): body = body[4:]

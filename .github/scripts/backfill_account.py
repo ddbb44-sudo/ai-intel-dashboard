@@ -29,7 +29,7 @@ def envi(name, default):
 
 AKEY   = envs("ANTHROPIC_API_KEY", "")
 APIFY  = envs("APIFY_TOKEN", "")
-MODEL  = envs("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
+MODEL  = envs("CLAUDE_MODEL", "claude-sonnet-5")
 ABASE  = envs("ANTHROPIC_BASE", "https://api.anthropic.com")
 DATA   = "data"
 
@@ -304,6 +304,7 @@ HEAD = """أنت محرّر «مركز المعرفة — الذكاء الاص�
 def claude(prompt, max_tokens=8000):
     req = urllib.request.Request(ABASE + "/v1/messages",
         data=json.dumps({"model": MODEL, "max_tokens": max_tokens,
+                         "thinking": {"type": "disabled"},
                          "messages": [{"role": "user", "content": prompt}]}).encode(),
         headers={"x-api-key": AKEY, "anthropic-version": "2023-06-01",
                  "content-type": "application/json"}, method="POST")

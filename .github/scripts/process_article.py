@@ -28,7 +28,7 @@ def _envs(n, d):
 
 AKEY   = _envs("ANTHROPIC_API_KEY", "")
 APIFY  = _envs("APIFY_TOKEN", "")
-MODEL  = _envs("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
+MODEL  = _envs("CLAUDE_MODEL", "claude-sonnet-5")
 ABASE  = _envs("ANTHROPIC_BASE", "https://api.anthropic.com")
 APBASE = _envs("APIFY_BASE", "https://api.apify.com")
 DATA   = "data"
@@ -469,6 +469,7 @@ def tidy(text):
 def claude(prompt, max_tokens):
     req = urllib.request.Request(ABASE + "/v1/messages",
         data=json.dumps({"model": MODEL, "max_tokens": max_tokens,
+                         "thinking": {"type": "disabled"},
                          "messages": [{"role": "user", "content": prompt}]}).encode(),
         headers={"x-api-key": AKEY, "anthropic-version": "2023-06-01",
                  "content-type": "application/json"}, method="POST")

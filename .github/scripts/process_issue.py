@@ -20,7 +20,7 @@ def _envs(name, default):
 
 AKEY    = _envs("ANTHROPIC_API_KEY", "")
 APIFY   = _envs("APIFY_TOKEN", "")
-MODEL   = _envs("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
+MODEL   = _envs("CLAUDE_MODEL", "claude-sonnet-5")
 DATA    = "data"
 
 def log(m): print(m, flush=True)
@@ -301,6 +301,7 @@ change_types: {json.dumps(TAXONOMY['change_types'], ensure_ascii=False)}
 ABASE = _envs("ANTHROPIC_BASE", "https://api.anthropic.com")
 req = urllib.request.Request(ABASE + "/v1/messages",
     data=json.dumps({"model": MODEL, "max_tokens": 3000,
+                     "thinking": {"type": "disabled"},
                      "messages": [{"role": "user", "content": PROMPT}]}).encode(),
     headers={"x-api-key": AKEY, "anthropic-version": "2023-06-01",
              "content-type": "application/json"}, method="POST")
