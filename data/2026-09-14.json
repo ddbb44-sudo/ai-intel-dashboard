@@ -1,0 +1,966 @@
+[
+ {
+  "id": "c1415",
+  "serial": 1415,
+  "serial_display": "#001415",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2099235643792462040",
+  "source_native_id": "2099235643792462040",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-13T20:35:54Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: نماذج جيل جديد قادرة على إنجاز أسابيع من عمل بشري",
+  "arabic_summary": "يرى الكاتب أن نماذج مثل GPT-6 Astra وFable 5.1 قوية بما يكفي لإحداث تأثير تحويلي في قطاعات واسعة من الاقتصاد، فهي قادرة على إنجاز أسابيع من العمل البشري إذا استُخدمت بشكل صحيح. يشدد على أن التغيير قادم لا محالة، لكن شكله وتوزيعه ليسا محتومين، وأن الشركات وصناع السياسات يجب أن يعملوا على نماذج عمل تعزز البشر لا تستبدلهم فقط.",
+  "detailed_explanation": "يتحدث الكاتب، وهو أستاذ جامعي معروف بمتابعته الدقيقة لتطورات النماذج الكبيرة، عن نموذجين مفترضين (GPT-6 Astra وFable 5.1) بوصفهما مثالًا على مستوى القدرة الذي وصلت إليه النماذج الحديثة، والقادرة -بحسب رأيه- على إنجاز كمّ من العمل يعادل أسابيع من الجهد البشري إن استُخدمت بإشراف جيد.\n\nنقطة الرأي المركزية ليست الإعجاب بالقدرات بحد ذاتها، بل التحذير من أن التأثير الاقتصادي لهذه القدرات لن يكون موحدًا أو متزامنًا، لكنه حتمي الحدوث. ويدعو إلى تطوير نماذج عمل تجمع بين الإنسان والذكاء الاصطناعي بدل الاكتفاء باستبدال العمالة، مؤكدًا أن هذا الجهد يستحق التركيز بمعزل عن نقاشات المخاطر الوجودية.",
+  "why_it_matters": "رأي من باحث مؤثر في مجال الذكاء الاصطناعي يحذر من أن التغيير الاقتصادي الناتج عن النماذج المتقدمة بات وشيكًا، وهذا يستدعي تفكيرًا استباقيًا في كيفية دمج الذكاء الاصطناعي بالعمل البشري بدل استبداله بالكامل.",
+  "original_text": "I cannot emphasize enough how much GPT-6 Astra and Fable 5.1 are already enough for transformative impact in large sections of the economy. They can reliably do weeks worth of human work when properly guided & harnessed.\n\nThose effects will not be all at once and be uneven, but the fact that change will occur is inevitable no matter how the frontier is paced. But inevitable change does not mean the type of change is inevitable. It is increasingly important that we develop & share models of AI-human work that enhance, rather than only replace, human labor. The labs have a role to play in doing this, but so do companies and industries experimenting with AI adoption, as well as policy makers who can incentivize this sort of inplemenation.\n\nThis work is important regardless of existential risk, and needs a lot more focus.",
+  "glossary": [
+   {
+    "term": "Frontier",
+    "ar": "الطليعة (النماذج الأكثر تقدمًا)"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "GPT-6 Astra",
+   "Fable 5.1"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 1186,
+   "replies": 61,
+   "reposts": 103,
+   "quotes": 18,
+   "bookmarks": 254,
+   "views": 63058
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1416",
+  "serial": 1416,
+  "serial_display": "#001416",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2099117750824165457",
+  "source_native_id": "2099117750824165457",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-09-13T12:47:26Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل خطوات ربط Davinci Resolve بـ MCP وChatGPT للمونتاج",
+  "arabic_summary": "يشرح المنشور خطوات عملية لإعداد اتصال MCP بين برنامج المونتاج Davinci Resolve وChatGPT عبر Codex، بحيث يقوم الذكاء الاصطناعي بتنزيل الأصول، اختيار لقطات B-roll، وقص وتوليف الفيديو تلقائيًا حسب التنسيق المطلوب.",
+  "detailed_explanation": "يقدّم المنشور دليلًا خطوة بخطوة يوضح كيف يمكن استخدام Codex مع خادم MCP مخصص لبرنامج Davinci Resolve لتنفيذ عملية مونتاج فيديو كاملة تقريبًا: من تحميل البرنامج، إلى إضافة B-roll مناسب بناءً على مرجعيات أسلوبية، وصولًا إلى قص فترات الصمت ومطابقة اللقطات مع اختيار تنسيق العرض النهائي.\n\nالقيمة هنا عملية بحتة: الخطوات مرقّمة وقابلة للتطبيق المباشر من أي شخص يريد أتمتة جزء كبير من عملية المونتاج بدل القيام بها يدويًا، مستفيدًا من قدرة Codex على التفاعل مع أدوات خارجية عبر بروتوكول MCP.\n\nهذا يمثل مثالًا واضحًا على استخدام بنية الوكلاء (MCP + Agent) في سياق إنتاجي حقيقي بعيدًا عن البرمجة التقليدية، وهو ما يوسّع دائرة من يستفيد من هذه الأدوات لتشمل صنّاع المحتوى ومحرري الفيديو.",
+  "why_it_matters": "طريقة عملية تتيح أتمتة مهام المونتاج المتكررة عبر Codex وMCP، وهو استخدام ملموس يوفر وقتًا حقيقيًا لصنّاع المحتوى.",
+  "original_text": "how to setup davinci resolve MCP + Chatgpt so AI can edit your video \n\n1. tell codex to download resolve\n2. install it (no shit,lol)\n3. tell codex to add the mcp (you might need to copy something into terminal)\n4. give codex the folder with your footage\n5. use Codex to look for b-roll online (give it style references to be on brand)\n6. give codex the local folder with your clips + broll\n7. tell codex to cut all pauses, match videos with broll\n8. say what video format you like (greenscreen, splitscreen etc) or just say it should chose itself how it sees fit\n\nit's literary that easy\n\nthere are 0 excuses anymore to not post videos lol",
+  "glossary": [
+   {
+    "term": "B-roll",
+    "ar": "لقطات إضافية مكمّلة"
+   },
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Davinci Resolve",
+   "ChatGPT",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 307,
+   "replies": 35,
+   "reposts": 21,
+   "quotes": 1,
+   "bookmarks": 541,
+   "views": 18533
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1417",
+  "serial": 1417,
+  "serial_display": "#001417",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2099210491059122471",
+  "source_native_id": "2099210491059122471",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-13T18:55:57Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصيحة لتوفير استهلاك Fable عبر ضبط نموذج الوكلاء الفرعيين",
+  "arabic_summary": "يشير المنشور إلى نصيحة بضبط نموذج subagents في Fable 5.1 على Opus بدل النموذج الافتراضي، لأن الوكلاء الفرعيين لا يحتاجون غالبًا لمستوى استدلال Fable الكامل، مما يوفر استهلاك الحصة المخصصة.",
+  "detailed_explanation": "النصيحة المذكورة تتعلق بإعداد متغير بيئة (CLAUDE_CODE_SUBAGENT_MODEL=opus) لتحديد النموذج الذي يستخدمه الوكلاء الفرعيون (subagents) داخل Fable 5.1، بدل الاعتماد على النموذج الافتراضي الأثقل.\n\nالمنطق وراء هذا هو أن Fable يميل لاستدعاء وكلاء فرعيين كثيرًا لتنفيذ مهام جزئية، لكن هذه المهام غالبًا لا تحتاج لمستوى الاستدلال العميق الذي يوفره النموذج الرئيسي، فاستخدام نموذج أخف (Opus) لهذه الوكلاء الفرعية يقلل استهلاك حصة الاستخدام المخصصة للمستخدم دون التأثير على جودة النتائج بشكل ملحوظ.\n\nهذا النوع من الضبط الدقيق (fine-grained configuration) مفيد لكل من يستخدم Fable بكثافة ويواجه قيود استهلاك، ويوضح كيف يمكن التحكم في توزيع العبء الحسابي بين النماذج المختلفة داخل نفس سير العمل.",
+  "why_it_matters": "تعديل بسيط في الإعداد يقلل استهلاك حصة الاستخدام المحدودة في أداة مستخدمة فعليًا للبرمجة بمساعدة الذكاء الاصطناعي.",
+  "original_text": "Get more out of your Fable usage by using Opus for subagents. Great tip! https://t.co/5Kc6IhW2dN",
+  "glossary": [
+   {
+    "term": "Subagent",
+    "ar": "وكيل فرعي"
+   },
+   {
+    "term": "Opus",
+    "ar": "نموذج Opus"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Fable"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 417,
+   "replies": 35,
+   "reposts": 13,
+   "quotes": 4,
+   "bookmarks": 420,
+   "views": 52374
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Setting my subagent model to Opus has helped me save so much usage on Fable 5.1. It really likes to spawn subagents but mine rarely need Fable-level reasoning\n\n`CLAUDE_CODE_SUBAGENT_MODEL=opus`"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1418",
+  "serial": 1418,
+  "serial_display": "#001418",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2099259329966674321",
+  "source_native_id": "2099259329966674321",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-13T22:10:01Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub تتيح استخدام خدمات خارجية كوكلاء داخل المنصة",
+  "arabic_summary": "أعلنت GitHub أن agent apps تتيح جلب سياق وخدمات من أدوات خارجية مثل Amplitude وEndor Labs وLaunchDarkly وPagerDuty دون مغادرة المنصة، بهدف تقليل الحاجة لفتح تبويبات متعددة أثناء العمل على طلبات السحب.",
+  "detailed_explanation": "الميزة المعلنة هي agent apps داخل GitHub، والتي تتيح للمطورين استدعاء خدمات خارجية مثل Amplitude (تحليلات)، وEndor Labs (أمن التبعيات)، وLaunchDarkly (feature flags)، وPagerDuty (إدارة الحوادث) مباشرة من داخل واجهة GitHub دون التنقل بين تبويبات متعددة.\n\nهذا يمثل امتدادًا لبنية الوكلاء (agent architecture) داخل منصة يستخدمها عزيز فعليًا، حيث تصبح GitHub نقطة مركزية تجمع السياق من أدوات متعددة بدل أن يبحث المطور عنها يدويًا في كل مرة.\n\nالقيمة العملية هنا هي تقليل تشتت الانتباه (context switching) أثناء مراجعة طلبات السحب (pull requests)، وهي مشكلة يومية حقيقية لأي مطور يعمل ضمن فريق يعتمد على أدوات متعددة متكاملة.",
+  "why_it_matters": "يوسّع نطاق عمل الوكلاء داخل GitHub ليشمل خدمات خارجية شائعة، مما يقلل تنقل المطورين بين الأدوات أثناء المراجعة.",
+  "original_text": "Be honest. How many tabs do you have open alongside your pull request? 👀\n\nSometimes you need context or answers to questions outside the platform, but GitHub agent apps can bring that context where you already are.\n\nYou can use services you depend on, like Amplitude, Endor Labs, LaunchDarkly, and PagerDuty, without ever leaving GitHub. 👇\nhttps://t.co/Vcq4BMxkV9",
+  "glossary": [
+   {
+    "term": "Agent Apps",
+    "ar": "تطبيقات وكيلة"
+   },
+   {
+    "term": "Pull Request",
+    "ar": "طلب سحب"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "Amplitude",
+   "Endor Labs",
+   "LaunchDarkly",
+   "PagerDuty"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 55,
+  "metrics": {
+   "likes": 42,
+   "replies": 14,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 13656
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1419",
+  "serial": 1419,
+  "serial_display": "#001419",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2099034401208184944",
+  "source_native_id": "2099034401208184944",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-13T07:16:14Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق تقييمات الإضافات للتحقق من عمل الـSkills مع إصدارات النماذج الجديدة",
+  "arabic_summary": "يعلن المنشور عن ميزة جديدة تسمى plugin evals تحل مشكلة صعوبة معرفة ما إذا كانت ملفات Skills لا تزال تعمل بشكل صحيح بعد صدور نماذج جديدة. تهدف الميزة لتوفير طريقة تحقق منهجية بدل الاختبار اليدوي.",
+  "detailed_explanation": "المشكلة التي يعالجها هذا الإعلان مألوفة لكل من يطور ملفات Skills: كيف تتأكد أن الـ Skill الذي بنيته لا يزال يعمل بشكل صحيح بعد أن تصدر الشركة نموذجًا جديدًا؟ حتى الآن كان هذا يعتمد على اختبار يدوي واستنتاج غير موثوق.\n\nالحل المطروح هو «plugin evals» — نظام تقييم مخصص للإضافات (plugins) يسمح للمطورين بالتحقق آليًا من سلامة عمل الـ Skills أو الإضافات مع كل إصدار نموذج جديد، بدل الانتظار حتى يكتشفوا العطل بالصدفة في الإنتاج.\n\nهذا يمس مباشرة أولوية «سكيل» في اهتمامات عزيز، إذ يقدم أداة تحقق (evals) تحل مشكلة استقرار وموثوقية الـ Skills عبر الزمن، وهي نقطة ضعف معروفة في هذا المجال بحسب دراسات سابقة أشارت لنسب عيوب مرتفعة في ملفات Skills.",
+  "why_it_matters": "يعالج مشكلة حقيقية يواجهها كل من يبني Skills: التأكد من استمرار عملها الصحيح مع كل تحديث للنموذج الأساسي.",
+  "original_text": "RT @trq212: we heard feedback that it's hard to know if your skills are still working with new model releases\n\nplugin evals are here to hel…",
+  "glossary": [
+   {
+    "term": "Plugin Evals",
+    "ar": "تقييمات الإضافات"
+   },
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill",
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Feature",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 131,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1647
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1420",
+  "serial": 1420,
+  "serial_display": "#001420",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2099233876631605438",
+  "source_native_id": "2099233876631605438",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-13T20:28:52Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق LTX-2.5 نموذج فيديو مفتوح الأوزان",
+  "arabic_summary": "أطلق نموذج LTX-2.5 لتوليد الفيديو بأوزان مفتوحة قابلة للتشغيل على أي عتاد GPU خاص بالمستخدم. يدعم النموذج التوليد بزمن استجابة منخفض للبث المباشر، ودقة 4K أصلية وHDR، مع ثبات في الحركة وتحديد تلقائي لمدة الفيديو.",
+  "detailed_explanation": "يمثّل LTX-2.5 نقلة في مجال نماذج توليد الفيديو المفتوحة، إذ يتيح للمطورين والمصممين تشغيل نموذج بجودة عالية على عتادهم الخاص بدل الاعتماد على واجهات API مغلقة من شركات كبرى.\n\nالميزات المذكورة — الدقة 4K، دعم HDR، زمن الاستجابة المنخفض للبث المباشر — تفتح استخدامات مثل الإنتاج المباشر والتطبيقات التفاعلية التي تحتاج توليد فيديو فوري، وهو ما يصعب تحقيقه مع النماذج السحابية بسبب التأخير والتكلفة.\n\nكون الأوزان مفتوحة يعني أيضًا إمكانية التخصيص والـ Fine-tuning على بيانات خاصة، وهي ميزة تهم فرق التصميم والإنتاج التي تبحث عن استقلالية تقنية.",
+  "why_it_matters": "كونه مفتوح الأوزان ويعمل محليًا يعني تحكمًا كاملًا بالملكية الفكرية والبيانات دون الاعتماد على خدمة سحابية مغلقة.",
+  "original_text": "LTX-2.5 is out. Open weights, your hardware, your IP.\n\nIt runs on any GPU and comes with low latency generation for live pipelines, native 4K and HDR, stable motion and auto duration set.\n\nIt’s truly crazy what this model can do and that we can just run it on our own hardware. https://t.co/6oEEbDP8Xz",
+  "glossary": [
+   {
+    "term": "Open Weights",
+    "ar": "أوزان مفتوحة"
+   },
+   {
+    "term": "HDR",
+    "ar": "نطاق ديناميكي عالٍ"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "LTX-2.5"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 26,
+   "replies": 4,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 21,
+   "views": 3729
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "ltx-2-5",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2099261017679175721"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1421",
+  "serial": 1421,
+  "serial_display": "#001421",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2099172859599880503",
+  "source_native_id": "2099172859599880503",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-09-13T16:26:25Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تقنية contact sheets لتقليل استهلاك السياق مع الوكلاء",
+  "arabic_summary": "يشرح المنشور فكرة تجميع عدة لقطات شاشة في صورة واحدة (contact sheet) بدل إرسالها منفصلة للوكيل، مما يقلل عدد استدعاءات قراءة الصور ويوفر استهلاك الـ Context Window. الطريقة تتيح للوكيل رؤية تغيّر الحالة عبر الزمن في صورة واحدة مركّبة.",
+  "detailed_explanation": "الفكرة المطروحة هي حيلة تحسين عملية (workflow) عند استخدام Agent لمراجعة واجهة تطبيق عبر لقطات شاشة متعددة، حيث يقترح تجميع عدة لقطات في صورة واحدة (contact sheet) بدل إرسال كل صورة على حدة.\n\nالفائدة المباشرة هي تقليل عدد استدعاءات قراءة الصور (image read calls) التي يقوم بها الوكيل، وبالتالي توفير مساحة كبيرة من الـ Context Window المتاح، وهو مورد محدود ومكلف عند التعامل مع نماذج تعمل كوكلاء برمجية.\n\nهذا النوع من التقنيات يفيد كل من يبني أو يستخدم Agent لمراجعة تطبيقات أو واجهات بصريًا بشكل متكرر، إذ يحسّن الكفاءة دون التضحية بجودة الملاحظة البصرية.",
+  "why_it_matters": "تقنية عملية تقلل تكلفة استهلاك الـ Token عند استخدام الوكلاء لمراجعة تغييرات بصرية متتالية في التطبيقات.",
+  "original_text": "Contact sheets are a super useful tool for packing more bang for your buck per image\n\nI.e. squeeze in 12 screenshots instead of one to let the agent see something changing over time",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   },
+   {
+    "term": "Contact Sheet",
+    "ar": "لوحة لقطات مجمّعة"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 404,
+   "replies": 29,
+   "reposts": 11,
+   "quotes": 1,
+   "bookmarks": 367,
+   "views": 48291
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "When you want Astra to review snapshots of your app, ask it to collage them into a contact sheet to minimize the number of image read calls it needs to do. You’ll save a ton of context usage \n\nThis works for fable too!"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1422",
+  "serial": 1422,
+  "serial_display": "#001422",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2099032853002559677",
+  "source_native_id": "2099032853002559677",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-13T07:10:04Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "بناء Workflow لتوليد فيديو من Terminal بدمج OpenCode وDeepSeek وHyperFrames",
+  "arabic_summary": "صاحب المنشور صنع فيديوهات دون استخدام برامج المونتاج المعتادة، بل بنى نظامًا كاملًا يجمع بين أدوات برمجية ونموذج DeepSeek لإنتاج الفيديو مباشرة من سطر الأوامر. يؤكد أن الأهم لم يكن صياغة البرومبت، بل تصميم النظام المحيط بالنموذج.",
+  "detailed_explanation": "بدل الاعتماد على واجهات المونتاج التقليدية مثل Premiere أو After Effects، بُني نظام كامل يدمج أداة OpenCode مع نموذج DeepSeek وأداة HyperFrames لإنتاج فيديوهات مباشرة من الطرفية (Terminal)، وهذا يعكس نمطًا متزايدًا من دمج النماذج داخل بيئات برمجية مخصصة بدل الاعتماد على تطبيقات جاهزة.\n\nالرسالة الأساسية أن الفارق لم يكن في صياغة الأوامر النصية بقدر ما كان في تصميم النظام (Workflow) الذي يربط هذه الأدوات ببعضها، وهي فكرة مهمة لمن يريد الانتقال من استخدام أدوات جاهزة إلى بناء أنظمة مخصصة فوق النماذج.",
+  "why_it_matters": "يبرز فكرة مهمة لصنّاع المحتوى التقنيين: القيمة الحقيقية تكمن في هندسة سير العمل حول النموذج لا في النموذج وحده أو البرومبت.",
+  "original_text": "هذه الفيديوهات لم أصنعها في Premiere أو After Effects.\n\nبنيت Workflow باستخدام OpenCode + DeepSeek + HyperFrames ينتجها من Terminal.\n\nوالمهم لم يكن البرومبت.\nالمهم كان النظام الذي بنيته حول النموذج.\nشرحت التجربة كاملة في 60 ثانية: https://t.co/mEZvYToEnG",
+  "glossary": [
+   {
+    "term": "Workflow",
+    "ar": "سير العمل"
+   },
+   {
+    "term": "Terminal",
+    "ar": "الطرفية"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenCode",
+   "DeepSeek",
+   "HyperFrames"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 101,
+   "replies": 4,
+   "reposts": 15,
+   "quotes": 0,
+   "bookmarks": 79,
+   "views": 6988
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1423",
+  "serial": 1423,
+  "serial_display": "#001423",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2099141549758279771",
+  "source_native_id": "2099141549758279771",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-13T14:22:00Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ChatGPT يتكامل مع After Effects عبر Higgsfield لتوليد حركات قابلة للتعديل",
+  "arabic_summary": "أصبح بالإمكان وصف حركة الرسوم داخل ChatGPT، ليقوم Higgsfield بترجمتها إلى مشروع After Effects قابل للتعديل: النصوص، الألوان، الطبقات، والتوقيت. الفكرة أن النموذج يولّد الأساس والمصمم يواصل الضبط داخل برنامجه المعتاد.",
+  "detailed_explanation": "الفكرة هنا ليست توليد فيديو جاهز، بل توليد عناصر حركة داخل After Effects نفسه كطبقات وتوقيتات قابلة للتعديل اليدوي لاحقًا، وهذا فرق جوهري عن أدوات الفيديو التوليدي التقليدية التي تنتج ملفًا نهائيًا مغلقًا.\n\nHiggsfield يعمل كجسر بين وصف اللغة الطبيعية في ChatGPT وبين ملف مشروع After Effects، ما يعني أن المصمم يحتفظ بالتحكم الكامل في العمل بعد التوليد الأولي، وهذا يحل مشكلة شائعة في أدوات التوليد وهي صعوبة التعديل الدقيق بعد الإنتاج.",
+  "why_it_matters": "يقرّب الذكاء الاصطناعي التوليدي من سير عمل المصمم الفعلي بدل أن يبقى مجرد أداة منفصلة تنتج فيديو نهائيًا غير قابل للتحرير.",
+  "original_text": "الان ChatGPT صار يشتغل داخل After Effects.\n\nلكن عبر Higgsfield.\n\nتصف الحركة في ChatGPT، والنتيجة تبقى قابلة للتعديل داخل المشروع: النصوص، الألوان، الطبقات والتوقيت.\n\nشرحت الفكرة في 34 ثانية: https://t.co/yAz0VSSoNs",
+  "glossary": [
+   {
+    "term": "Workflow",
+    "ar": "سير العمل"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "ChatGPT",
+   "After Effects",
+   "Higgsfield"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 60,
+   "replies": 0,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 36,
+   "views": 2431
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1424",
+  "serial": 1424,
+  "serial_display": "#001424",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2099089245126427133",
+  "source_native_id": "2099089245126427133",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-13T10:54:09Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "اختصارات نصية في ChatGPT لتعديل إضاءة الصور تلقائيًا",
+  "arabic_summary": "يشرح المنشور طريقة استخدام اختصارات نصية محددة (مثل /rainbow أو /neonlight) بعد رفع صورة إلى ChatGPT، حيث يطبق كل اختصار تأثير إضاءة معينًا على الصورة كالإضاءة الذهبية أو أشعة الشمس أو النيون.",
+  "detailed_explanation": "المنشور يقدم قائمة اختصارات نصية جاهزة (shortcuts) يمكن كتابتها بعد رفع صورة إلى ChatGPT، بحيث يفهم النموذج كل اختصار كأمر معياري يطبّق تأثير إضاءة محدد — مثل /luxurylighting لإضاءة ذهبية دافئة أو /moonlight لإضاءة ليلية زرقاء باردة.\n\nهذه الطريقة تبسّط عملية تحرير الصور بالذكاء الاصطناعي لمن لا يريد كتابة وصف تفصيلي طويل في كل مرة، وتحوّل عملية التعديل إلى أوامر قصيرة قابلة للتكرار والحفظ، وهو أسلوب عملي مفيد لصنّاع المحتوى البصري والمصممين الذين يستخدمون ChatGPT لتحرير الصور.",
+  "why_it_matters": "طريقة استخدام عملية وسريعة تسهّل التحكم في تأثيرات إضاءة الصور داخل ChatGPT دون الحاجة لأوامر نصية طويلة ومتكررة.",
+  "original_text": "1. Open Chatgpt\n\n2. Upload your image\n\n3. Use these ChatGPT Shortcuts:\n\n→ /luxurylighting - warm golden studio glow\n→ /rainbow - soft rainbow light beams\n→ /sunrays - natural sunlight streaming in\n→ /neonlight - pink and blue neon glow\n→ /rimlight - subtle backlit edge lighting\n→ /crosslight - dramatic crossed light beams\n→ /flashlight - crisp flash photography look\n→ /moonlight - cool blue night lighting\n→ /greenlight - bold green ambient tone",
+  "glossary": [
+   {
+    "term": "Prompt Shortcut",
+    "ar": "اختصار أمر نصي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 18,
+   "replies": 4,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 16,
+   "views": 4708
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1425",
+  "serial": 1425,
+  "serial_display": "#001425",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2099019852421726719",
+  "source_native_id": "2099019852421726719",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-13T06:18:25Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI: راجع Skills وملف AGENTS.md قبل لوم نموذج GPT-6 Astra",
+  "arabic_summary": "توضيح من OpenAI بأن مشاكل الأداء مع GPT-6 Astra قد تعود إلى إعدادات Skills أو ملف AGENTS.md المرفق بالمشروع، وليس بالضرورة إلى قصور في النموذج نفسه.",
+  "detailed_explanation": "الرسالة من OpenAI تشير إلى نقطة تقنية مهمة: كثير من المشاكل التي يواجهها المستخدمون مع النماذج المتقدمة مثل GPT-6 Astra قد لا تكون خللًا في النموذج نفسه، بل ناتجة عن إعداد غير دقيق لملفات Skills أو ملف AGENTS.md الذي يحدد سلوك الوكيل وصلاحياته.\n\nهذا يضع مسؤولية إضافية على المطورين لمراجعة كيفية تعريفهم لمهارات النموذج وسياقه قبل افتراض أن ضعف النتائج سببه قصور في النموذج، وهي نقطة عملية مباشرة لكل من يبني على هذه المنظومة.",
+  "why_it_matters": "ينبه المطورين إلى أن جودة تجربة الوكيل تعتمد بشكل كبير على كيفية تهيئة ملفات Skills وAGENTS.md، لا على النموذج فقط.",
+  "original_text": "RT @SamiBizConsult: تستخدم GPT-6 Astra؟\nراجع Skills وAGENTS.md قبل أن تلوم النموذج.أهم ما ذكرته OpenAI في 30 ثانية: https://t.co/YyQZNIjXmo",
+  "glossary": [
+   {
+    "term": "AGENTS.md",
+    "ar": "ملف تهيئة سلوك الوكيل"
+   },
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-6 Astra"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 23,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1426",
+  "serial": 1426,
+  "serial_display": "#001426",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099006674392457648",
+  "source_native_id": "2099006674392457648",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-13T05:26:03Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة Understand Anything تحوّل الأكواد إلى خرائط معرفية تفاعلية",
+  "arabic_summary": "تعرّف أداة Understand Anything بأنها تحلل أي مشروع برمجي باستخدام وكلاء ذكاء اصطناعي، وتحوّله إلى خريطة معرفة تفاعلية تظهر الملفات والدوال والكلاسات والاعتماديات وعلاقاتها ببعضها. يمكن للمستخدم بعدها البحث داخل المشروع وطرح أسئلة عنه بلغة طبيعية.",
+  "detailed_explanation": "",
+  "why_it_matters": "أداة تسهّل فهم المشاريع البرمجية الضخمة بسرعة، وهي مفيدة خصوصًا لمن يستلم كودًا لم يكتبه ويحتاج نقطة انطلاق سريعة.",
+  "original_text": "أداة تخليك تفهم أي مشروع برمجي خلال دقائق:\n\nUnderstand Anything تحلل المشروع بالكامل باستخدام وكلاء ذكاء اصطناعي، وتحوله إلى خريطة معرفة تفاعلية توضح لك:\n\n• الملفات\n• الدوال\n• الكلاسات\n• الاعتماديات\n• وكيف كل جزء مرتبط بالثاني\n\nوتقدر بعدها تبحث داخل المشروع وتسأل عن أي جزء من الكود بلغة طبيعية.\n\nمفيدة جدًا إذا استلمت مشروع ضخم وما تعرف من وين تبدأ.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "تطبيق",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Understand Anything"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 441,
+   "replies": 6,
+   "reposts": 59,
+   "quotes": 0,
+   "bookmarks": 529,
+   "views": 20023
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1427",
+  "serial": 1427,
+  "serial_display": "#001427",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2099011701949583614",
+  "source_native_id": "2099011701949583614",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-13T05:46:02Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: صعوبة تقييم قدرات النماذج المتقدمة تزداد مع تحسنها",
+  "arabic_summary": "يشير الكاتب إلى أن تحسن النماذج مثل Astra وFable يجعل من الصعب إظهار نقاط قوتها وضعفها بوضوح؛ فهي قادرة على كتابة أبحاث أكاديمية جيدة، لكن لا تزال دون مستوى الإنسان الخبير - وهذا فرق لا يلاحظه إلا المتخصص في المجال.",
+  "detailed_explanation": "",
+  "why_it_matters": "يطرح إشكالية مهمة في تقييم النماذج الحديثة: كلما تحسنت، صار قياس عيوبها الدقيقة يتطلب خبرة عميقة في المجال المعني، لا مجرد ملاحظة سطحية.",
+  "original_text": "One of the downsides in AI getting so good is that it is getting harder to demonstrate its strengths and weaknesses. Yes, Astra and Fable can research and write good papers in an academic field. No, they are not as good as human (yet?), but you have to know the field to know why.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Astra",
+   "Fable"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 512,
+   "replies": 67,
+   "reposts": 21,
+   "quotes": 9,
+   "bookmarks": 63,
+   "views": 33747
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1428",
+  "serial": 1428,
+  "serial_display": "#001428",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2099199806543421772",
+  "source_native_id": "2099199806543421772",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-13T18:13:29Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: مساعدات الهاتف الذكية ستفقد قيمتها أمام وكلاء موحدين",
+  "arabic_summary": "يرى الكاتب أنه مع تسهيل الاتصال عن بُعد بمساعدات ذكاء اصطناعي شخصية مثل Claude، ستفقد المساعدات المحدودة على الهاتف مثل Siri قيمتها. فالمستخدم يفضّل مساعدًا واحدًا ذكيًا يرى كل أنظمته وتفضيلاته بدل مساعد محدود.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعكس اتجاهًا محتملًا في مستقبل المساعدات الشخصية، حيث يتحول التنافس من مساعد محلي على كل جهاز إلى وكيل ذكاء اصطناعي واحد موحّد يدير كل شيء.",
+  "original_text": "I think once remote connections to “your” Claude or Astra or Claw or whatever become easier and more common, on-phone assistants like Siri will lose a lot of value. You want one smart AI managing everything with visibility into many systems &amp; preferences, not a limited assistant.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Claude",
+   "Siri"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 304,
+   "replies": 49,
+   "reposts": 5,
+   "quotes": 4,
+   "bookmarks": 24,
+   "views": 21274
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1429",
+  "serial": 1429,
+  "serial_display": "#001429",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2099092786440245684",
+  "source_native_id": "2099092786440245684",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-13T11:08:14Z",
+  "fetched_at": "2026-09-14T00:05:07Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "جامعة ستانفورد تطلق دورة مجانية عن أساسيات التعلم العميق",
+  "arabic_summary": "أعلن الحساب عن دورة مجانية بعنوان \"Deep Learning Alchemy\" تنظمها جامعة ستانفورد، تبدأ بعد عشرة أيام. جميع التسجيلات والمواد التعليمية ستكون متاحة للعموم.",
+  "detailed_explanation": "",
+  "why_it_matters": "مصدر تعليمي مجاني وموثوق لفهم أساسيات التعلم العميق قد يفيد من يريد بناء فهم تقني أعمق في المجال.",
+  "original_text": "Free Stanford Course: \"Deep Learning Alchemy\"\n\nstarts in 10 days\n\nAll recordings and class materials will be made public\n\nlink in reply below: https://t.co/CVe2htBlT7",
+  "glossary": [
+   {
+    "term": "Deep Learning",
+    "ar": "التعلم العميق"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Stanford"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 5,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 682
+  },
+  "metrics_captured_at": "2026-09-14T00:05:07Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "stanford-course",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2099274998527766985"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
