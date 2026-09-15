@@ -1,0 +1,2346 @@
+[
+ {
+  "id": "c1430",
+  "serial": 1430,
+  "serial_display": "#001430",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099536105368412168",
+  "source_native_id": "2099536105368412168",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-14T16:29:49Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Bolt تطلق Forge وكيل برمجي يعتمد على نماذج مفتوحة الأوزان",
+  "arabic_summary": "أطلقت منصة Bolt لبناء التطبيقات من المتصفح ميزة جديدة باسم Forge، وهي وكيل برمجي يعتمد بالكامل على نماذج مفتوحة الأوزان مثل GLM 5.3 وKimi K3 وDeepSeek V4 Pro بدلًا من النماذج المغلقة. الاستخدام محسوب ضمن رصيد شهري واحد بدون حدود يومية، وحقق Forge في معيار Bolt الخاص 92.2 نقطة مقابل 101 لنموذج Claude Opus 5.",
+  "detailed_explanation": "أطلقت منصة Bolt، وهي أداة لبناء التطبيقات مباشرة من المتصفح، ميزة جديدة اسمها Forge وهي وكيل برمجي (Coding Agent) يعتمد بالكامل على نماذج مفتوحة الأوزان بدلًا من الاعتماد الحصري على نماذج مغلقة مثل Claude.\n\nالنماذج المتاحة حاليًا ضمن Forge تشمل GLM 5.3 وGLM 5.3 Flash كخيارين أساسيين، إضافة إلى Kimi K3 وDeepSeek V4 Pro كخيارات تجريبية. وميزة هذا النهج أن الاستخدام كله يُحسب ضمن رصيد شهري واحد دون حدود يومية، وهو ما يمنح مرونة أكبر مقارنة بالنماذج المغلقة.\n\nمن ناحية القياس، اختبرت Bolt أداء Forge على معيارها الخاص Bolt Build Index الذي يقيس القدرة على إكمال مشاريع برمجية فعلية. النتيجة كانت 92.2 نقطة لـForge مقابل 101 نقطة لنموذج Claude Opus 5، أي أن الفارق تقلّص بشكل ملحوظ ووصلت النماذج المفتوحة إلى نحو 91% من أداء أقوى نموذج مغلق في هذا المجال.\n\nهذا التطور يشير إلى اتجاه أوسع في السوق: كلما تقلّص الفارق بين النماذج المفتوحة والمغلقة في مهام البرمجة، زادت الضغوط التنافسية على مزوّدي النماذج المغلقة من ناحية التسعير والمزايا.",
+  "why_it_matters": "يظهر أن الفجوة في الأداء البرمجي بين النماذج المفتوحة والمغلقة تضيق بسرعة، وهذا يوفر بديلًا أرخص لمن يستخدم أدوات بناء تطبيقات مشابهة.",
+  "original_text": "🔥 Bolt تطلق Forge… وكيل برمجي يعتمد بالكامل على نماذج مفتوحة الأوزان.\n\nالميزة الجديدة موجودة داخل منصة Bolt لبناء التطبيقات من المتصفح، والفكرة إنها تعطيك بديل أرخص وأكثر انفتاحًا من الاعتماد على نماذج مغلقة مثل Claude.\n\nالنماذج المتاحة حاليًا تشمل:\n\n• GLM 5.3 وGLM 5.3 Flash بشكل أساسي\n• Kimi K3 وDeepSeek V4 Pro كخيارات تجريبية\n\nوالميزة المهمة أن الاستخدام كله محسوب ضمن رصيد شهري واحد بدون حدود يومية.\n\nأما من ناحية الأداء، Bolt اختبرت هذه النماذج على معيارها الخاص Bolt Build Index لقياس قدرتها على إكمال مشاريع برمجية فعلية.\n\nالنتيجة:\n\nForge: 92.2 نقطة\nClaude Opus 5: 101 نقطة\n\nيعني النماذج المفتوحة وصلت تقريبًا إلى 91% من أداء Claude Opus 5 داخل بيئة Bolt.\n\nوهنا النقطة المهمة:\n\nإذا استمرت النماذج المفتوحة بهذا التطور، الفارق بينها وبين أقوى النماذج المغلقة في البرمجة قاعد يصغر بشكل واضح.",
+  "glossary": [
+   {
+    "term": "Coding Agent",
+    "ar": "وكيل برمجي ينفّذ مهام كتابة الكود تلقائيًا"
+   },
+   {
+    "term": "Open-weight model",
+    "ar": "نموذج مفتوح الأوزان يمكن تحميله وتشغيله محليًا"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Bolt",
+   "GLM",
+   "Kimi",
+   "DeepSeek",
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 10,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 1929
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1431",
+  "serial": 1431,
+  "serial_display": "#001431",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2099577600159158765",
+  "source_native_id": "2099577600159158765",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-14T19:14:42Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تشرح كيف تعاملت مع انفجار حجم اختبارات CI",
+  "arabic_summary": "تكشف Anthropic أن Claude بات يكتب 80% من أكوادها الداخلية، ما رفع إنتاجية المهندسين 8 أضعاف لكل ربع سنة، لكن هذا تسبب في تضخم عدد الاختبارات 10 أضعاف ومهام الـ CI بمقدار 25 ضعفًا خلال 6 أشهر. المنشور يحيل لمقال يشرح كيف طوّرت الشركة تحليل تأثير الاختبارات (Test Impact Analysis) للتعامل مع هذا النمو.",
+  "detailed_explanation": "تشير Anthropic في منشور مدونتها إلى أن اعتماد Claude في كتابة الكود الداخلي وصل إلى نسبة كبيرة جدًا (80%)، وأن هذا رفع من سرعة شحن الكود من المهندسين بمعدل 8 أضعاف كل ربع سنة. لكن النتيجة الجانبية لهذا التسارع كانت انفجارًا في حجم الاختبارات البرمجية بمعدل 10 أضعاف، وارتفاع عدد مهام التكامل المستمر (CI) بمقدار 25 ضعفًا خلال ستة أشهر فقط.\n\nالمقال المرتبط يشرح كيف طوّرت فرق الهندسة في الشركة أساليب لتحليل تأثير الاختبارات (Test Impact Analysis) لتقليل الوقت والموارد المستهلكة في تشغيل مجموعات الاختبار الضخمة الناتجة عن الكود المولّد آليًا، وهي مشكلة ستواجهها أي فرق هندسية تعتمد بشكل مكثف على الوكلاء البرمجية.\n\nيهم هذا الخبر عزيز لأنه يوثّق تحديًا هندسيًا واقعيًا ناتجًا مباشرة عن الاعتماد الكثيف على أدوات الترميز بالذكاء الاصطناعي، وهو سيناريو متوقع الحدوث لدى أي فريق يستخدم Claude Code أو أدوات مشابهة بكثافة.",
+  "why_it_matters": "يوثّق أثرًا عمليًا حقيقيًا لاستخدام الذكاء الاصطناعي في البرمجة على نطاق شركة كبرى، ويكشف تحديًا هندسيًا جديدًا (انفجار البنية التحتية للاختبارات) لم يكن متوقعًا بهذا الحجم.",
+  "original_text": "At Anthropic, Claude now writes 80% of our code. Engineers ship 8x more code per quarter. \n\nSide effect: Tests grew 10x. CI jobs up 25x in 6 months. Here's what helped us scale:\n\nhttps://t.co/WOL2r60vAE https://t.co/7vf60noTQt",
+  "glossary": [
+   {
+    "term": "CI",
+    "ar": "التكامل المستمر"
+   },
+   {
+    "term": "Test Impact Analysis",
+    "ar": "تحليل تأثير الاختبارات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2124,
+   "replies": 125,
+   "reposts": 130,
+   "quotes": 37,
+   "bookmarks": 1892,
+   "views": 205508
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [
+   "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1432",
+  "serial": 1432,
+  "serial_display": "#001432",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2099536246859010412",
+  "source_native_id": "2099536246859010412",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-09-14T16:30:23Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل شامل للمبتدئين على Codex مع GPT-6 Astra",
+  "arabic_summary": "فيديو تعليمي مطوّل يشرح 28 أمرًا يحتاج معرفتها من يبدأ استخدام Codex مع نموذج GPT-6 Astra، من بناء التطبيقات واستضافة المواقع إلى الـ Skills والـ Sub-Agents والتحكم عن بعد. يغطي الفيديو الواجهة، المهام المجدولة، ربط التطبيقات الخارجية عبر Plugins، وتوليد الصور والمستندات داخل نفس البيئة.",
+  "detailed_explanation": "يتناول الفيديو رحلة تعريفية كاملة بمنصة Codex التابعة لـ OpenAI، موضحًا الفرق بين Codex كتطبيق وGPT-6 Astra كنموذج يعمل خلفه. يغطي المحتوى مواضيع متنوعة تشمل بناء التطبيقات بأنواعها (سطح مكتب، iOS)، استضافة المواقع، المتصفح المدمج، إنشاء المستندات، وضع التعليق التوضيحي (Annotation Mode)، والتطبيقات الجاهزة للإنتاج.\n\nكما يشرح ميزات متقدمة مثل الأقسام (Sections)، ربط التطبيقات الخارجية عبر Plugins، طلب المهام من Codex نفسه، دمج Blender وأصول الأبعاد الثلاثية، الألعاب، المواقع التعليمية التفاعلية، والمهام المجدولة. يخصص جزءًا للـ Skills بما فيها Skill خاص بفهم الفيديو، واستخدام APIs خارجية داخل الـ Skills، إضافة إلى ميزة التحكم بـ Codex من الهاتف، وتوليد وتحرير الصور، والـ Sub-Agents، واستخدام الحاسوب (Computer Use).\n\nيقدَّم المحتوى كدليل واحد شامل يمكن إرساله لأي فريق عمل ليبدأ استخدام الذكاء الاصطناعي في أعماله، ما يجعله مرجعًا عمليًا لا مجرد استعراض ميزات.",
+  "why_it_matters": "دليل عملي مفصّل يساعد أي فريق على تبني Codex بسرعة، ويوضح مدى اتساع قدراته الحالية كمنصة عمل متكاملة لا مجرد أداة برمجة.",
+  "original_text": "GPT-6 Astra is by far the best inside Codex. \n& this is THE Complete Beginners Guide to Codex.\n\nThe 28 things you need to know about Codex and GPT-6 to start using it for knowledge work and coding work. \n\nMy goal with this video: give you one guide you can send to anyone on your team so they can get comfortable with Codex, understand what’s possible, and start finding ways to use AI in your business.\n\n00:00 Intro\n01:15 The Codex Platform\n02:02 Downloading Codex (ChatGPT Desktop)\n03:25 1. Codex Is the App, GPT-6 Is the Model\n06:10 2. Build Any App\n10:32 3. Host Sites with GPT Sites\n18:12 4A. Building Desktop App\n21:33 4B. Building an iOS app\n24:09 5. Built-In Web Browser\n32:27 6. Create Any Document\n35:00 7. Annotation Mode\n38:41 8. Production-Ready Apps\n44:29 9. Chats & Projects\n48:54 10. Multitasking\n50:09 10B Side Chat\n51:13 11. Sections\n54:27 12. Connect Every App (Plugins)\n01:03:17 13. Ask Codex What to Work On\n01:05:39 14. Blender & 3D Assets\n01:08:25 15. Video Games\n01:09:24 16. Interactive Learning Websites\n01:13:12 17. Scheduled Tasks\n01:16:19 18. Email & iMessage\n01:18:56 19. Skills\n01:22:54 20. Record and Replay\n01:26:45 21. External APIs in Skills\n01:30:00 22. Video Unde",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "سكيل"
+   },
+   {
+    "term": "Sub-Agent",
+    "ar": "وكيل فرعي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Codex",
+   "GPT-6 Astra",
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 444,
+   "replies": 22,
+   "reposts": 32,
+   "quotes": 2,
+   "bookmarks": 697,
+   "views": 30841
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "codex-guide",
+  "also_reported": [
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2099580355544076394"
+   },
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2099552266919305266"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1433",
+  "serial": 1433,
+  "serial_display": "#001433",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2099405893615989091",
+  "source_native_id": "2099405893615989091",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-14T07:52:24Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ZAI تخطط لصرف 30 مليار دولار على التحسين الذاتي المتكرر لنماذج GLM",
+  "arabic_summary": "قدّمت شركة ZAI الصينية وثيقة رسمية لبورصة هونغ كونغ تكشف خطتها لجمع 50 مليار دولار، حوالي 60% منها سيوجَّه لتدريب الجيل القادم من نماذج GLM وتطوير ما تسميه «التدريب الذاتي الكامل». الفكرة أن الجيل الجديد من GLM يتدرب داخل بيئة أنشأها الجيل السابق، فتتكون حلقة تحسين ذاتي متكررة تشمل توليد بيانات التدريب والمهام وخوارزميات التقييم وتحسين البنية التحتية.",
+  "detailed_explanation": "المنشور يستند إلى وثيقة رسمية قدّمتها شركة ZAI (المطورة لنماذج GLM) لبورصة هونغ كونغ في إطار خطتها لجمع 50 مليار دولار من التمويل.\n\nبحسب الوثيقة، سيُخصَّص نحو 60% من هذا المبلغ لتدريب الجيل القادم من نماذج GLM، وتحديدًا لتطوير ما تسميه الشركة «التدريب الذاتي الكامل»، وهي آلية يقوم فيها الجيل السابق من النموذج بإنشاء بيئة تدريب كاملة للجيل التالي.\n\nهذه البيئة تشمل توليد بيانات التدريب ذاتيًا، وابتكار المهام والبيئات التي يتدرب عليها النموذج الجديد، بل وحتى تصميم خوارزميات التقييم نفسها وتحسين البنية التحتية اللازمة لذلك.\n\nالرؤية طويلة المدى للشركة، كما ورد في الوثيقة، هي أن يعمل النظام بشكل مستقل بالكامل، يقيّم نتائجه ويتخذ قراراته دون تدخل بشري إلى حد كبير — وهو ما يُعرف بمفهوم التحسين الذاتي المتكرر (Recursive Self-Improvement).",
+  "why_it_matters": "يكشف اتجاهًا استراتيجيًا لدى شركات صينية بضخ استثمارات ضخمة في أنظمة تحسّن نفسها بنفسها، بينما يدعو بعض الأصوات في الغرب لإبطاء هذا النوع من التطوير لخطورته.",
+  "original_text": "الشركات الناشئة الأمريكية: التحسين الذاتي المتكرر (RSI) خطير جدًا، خلونا نبطّئ تطوير الذكاء الاصطناعي.\n\nالشركات الناشئة الصينية: الـRSI رهيب، خلونا نصرف عليه 30 مليار دولار!\n\nشركة ZAI قدّمت وثيقة رسمية لبورصة هونغ كونغ، تقول فيها إنها تخطط لجمع 50 مليار دولار. وطبعا وضحوا وين بتروح الفلوس.\n\nحوالي 60% من المبلغ بيصرفوه على تدريب الجيل القادم من GLM، وعلى شيء يسمونه في الوثيقة «التدريب الذاتي الكامل».\n\nالفكرة أنهم يريدوا الجيل القادم من GLM يتدرب داخل بيئة أنشأها الجيل السابق من GLM، وبكذا تتكون حلقة مغلقة من التحسين الذاتي المتكرر.\n\nوهذا يشمل أن النظام يولد بيانات التدريب بنفسه، ويولد المهام والبيئات وحتى خوارزميات التقييم، وأيضًا يحسن البنية التحتية.\n\nوعلى المدى البعيد، رؤيتهم أن النظام يشتغل بشكل مستقل تمامًا، يقيّم النتائج ويتخذ القرارات في الغالب بدون تدخل بشري",
+  "glossary": [
+   {
+    "term": "RSI (Recursive Self-Improvement)",
+    "ar": "التحسين الذاتي المتكرر"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "ZAI",
+   "GLM"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 26,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 2535
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1434",
+  "serial": 1434,
+  "serial_display": "#001434",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099527567346704759",
+  "source_native_id": "2099527567346704759",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-14T15:55:54Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مايكروسوفت تنشر مسودة قواعد لذكاء اصطناعي فائق متمحور حول الإنسان",
+  "arabic_summary": "نشرت مايكروسوفت مسودة جديدة لقواعد سلوك الذكاء الاصطناعي تحت مفهوم Humanist Superintelligence، تنص على أن الإنسان يبقى صاحب القرار النهائي وأن الذكاء الاصطناعي لا يمتلك أهدافًا مستقلة ولا يتجاوز الصلاحيات الممنوحة له، مع بنود تلزمه بالاعتراف بأخطائه وعدم التلاعب بالمستخدم عاطفيًا.",
+  "detailed_explanation": "نشرت مايكروسوفت مسودة جديدة لقواعد سلوك تحكم تطوير الذكاء الاصطناعي، مرتكزة على مفهوم أطلقت عليه Humanist Superintelligence (HSI) أي «الذكاء الفائق المتمحور حول الإنسان».\n\nالفكرة الأساسية أن الشركة لا تعارض بناء ذكاء اصطناعي فائق القدرات، لكنها تصرّ على أن يظل هذا الذكاء أداة تحت سيطرة الإنسان، لا كيانًا يتصرف بشكل مستقل.\n\nأبرز البنود الواردة في المسودة: الإنسان أهمّ من الذكاء الاصطناعي، والقرار النهائي يبقى بيد المستخدم، والسلامة أهمّ من إنجاز المهمة، وألا يمتلك النظام أهدافًا مستقلة أو يتجاوز الصلاحيات الممنوحة له. كما تشترط أن يعترف النظام إن لم يكن متأكدًا أو أخطأ، وألا يتلاعب بالمستخدم عاطفيًا، بل يساعد على تعزيز العلاقات البشرية بدل استبدالها.\n\nهذا الموقف يضع مايكروسوفت في موقع مختلف عن نقاش الـAGI المفتوح الصلاحيات، إذ تسعى لتحديد حدود واضحة وقابلة للإيقاف والتراجع في أي وقت لاستخدام الأدوات والصلاحيات الممنوحة للأنظمة الذكية.",
+  "why_it_matters": "يمثل موقفًا معلَنًا من إحدى كبرى شركات الذكاء الاصطناعي حول كيفية تقييد استقلالية الأنظمة الفائقة القدرة، وهو ما يؤثر على تصميم منتجاتها المستقبلية.",
+  "original_text": "🔥 مايكروسوفت تحدد من الآن شكل الذكاء الاصطناعي اللي تبغاه بالمستقبل.\n\nالشركة نشرت مسودة جديدة لقواعد سلوك الذكاء الاصطناعي، وتركز فيها على مفهوم:\n\nHumanist Superintelligence – HSI\nأو «الذكاء الفائق المتمحور حول الإنسان».\n\nالفكرة باختصار:\n\nمايكروسوفت تبغى ذكاء اصطناعي خارق بالقدرات… لكن يظل أداة بيد الإنسان، وليس كيانًا يتصرف من نفسه.\n\nأهم القواعد:\n\n• الإنسان أهم من الذكاء الاصطناعي.\n• القرار النهائي يبقى بيد المستخدم.\n• السلامة أهم من إكمال المهمة.\n• الذكاء الاصطناعي ما يكون له أهداف مستقلة.\n• ما يتجاوز الصلاحيات اللي أعطيتها له.\n• يعترف إذا ما كان متأكد أو أخطأ.\n• ما يتلاعب بالمستخدم أو يستغله عاطفيًا.\n• يساعد العلاقات البشرية بدل ما يحاول يستبدلها.\n• استخدام الأدوات والصلاحيات يكون محدودًا ويمكن إيقافه أو التراجع عنه.\n\nيعني مايكروسوفت ما تقول: نوقف تطوير الذكاء الفائق.\n\nهي تقول:\nنبنيه… لكن نخليه تحت سيطرة الإنسان من البداية.\n\nوهذا فعليًا يوضح الفرق بين HSI وفكرة الـAGI المفتوح بالكامل: مايكروسوفت تبغى قدرات هائلة، لكن بحدود وصلاحيات واضحة.",
+  "glossary": [
+   {
+    "term": "Humanist Superintelligence (HSI)",
+    "ar": "الذكاء الفائق المتمحور حول الإنسان"
+   },
+   {
+    "term": "AGI",
+    "ar": "الذكاء الاصطناعي العام"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Microsoft"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 10,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 8,
+   "views": 2050
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1435",
+  "serial": 1435,
+  "serial_display": "#001435",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2099512298272338010",
+  "source_native_id": "2099512298272338010",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-14T14:55:13Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخدام Apify وGemini لتحسين حملات إعلانات فيسبوك تلقائيًا",
+  "arabic_summary": "يشرح المنشور تجربة استخدمت Apify لسحب كل إعلانات فيسبوك في فئة معيّنة، ثم استخدام Gemini متعدد الوسائط لتحليل الإعلانات وبناء قاعدة بيانات يستعلم منها عامل برمجي، مع تشغيل دفعات اختبار كل 3 أيام. النتيجة المذكورة: خفض تكلفة كل عميل محتمل من 70 إلى 16 دولارًا عبر أكثر من 200 موقع.",
+  "detailed_explanation": "المنشور يصف مسار عمل متكامل: يبدأ بسحب جميع إعلانات فيسبوك النشطة في فئة عمل معيّنة باستخدام Apify، ثم تحليل محتوى هذه الإعلانات عبر Gemini الذي يقرأ العناصر الإبداعية ويبني منها قاعدة معرفة منظّمة يمكن للعامل البرمجي الاستعلام عنها.\n\nبعد ذلك يجري إطلاق دفعات (cohorts) من الإعلانات كل ثلاثة أيام بحجم خمسة إعلانات لكل دفعة، وتكرار العملية حتى تصبح شبه ذاتية التشغيل. يذكر المنشور نتيجة رقمية وهي خفض تكلفة العميل المحتمل من 70 دولارًا إلى 16 دولارًا عبر أكثر من 200 موقع لعميل من نوع الامتياز التجاري.\n\nما يجعل هذا مهمًا لمستخدمي Apify هو أنه يبيّن استخدامًا عمليًا حقيقيًا للأداة ضمن حلقة تحسين مستمرة تجمع بين الزحف وتحليل النماذج وبناء قاعدة بيانات قابلة للاستعلام من قبل عامل برمجي.",
+  "why_it_matters": "يوضح نمط عمل عملي يجمع Scraping وتحليل النماذج متعددة الوسائط لبناء حلقة تحسين تسويقي شبه ذاتية، وهو مثال ملموس على استخدام Apify في سياق تسويقي حقيقي.",
+  "original_text": "Pulling every @facebook ad in the category is just the input, the loop is what drops cost per lead.\n\nApify pulls the ads, Gemini reads the creative, and @codyschneider cycles cohorts of 5 every 3 days until it runs on its own. $70 to $16 per lead, across 200+ locations 👇",
+  "glossary": [
+   {
+    "term": "Scraping",
+    "ar": "استخلاص البيانات من الويب"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "Gemini"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 19,
+  "metrics": {
+   "likes": 2,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 437
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "we're working with a franchise that has 200+ locations\n\nwe've taken their facebook ads cost per lead form $70 to $16 in 4 weeks \n\nhere is how\n\nused apify to scrape all facebook ads in the US we could find for this business category\n\nhad google Gemini multimodal analyze the ads and built a repo of this information in postgres database that the coding agent can query\n\nthen we launched cohorts of 5 a"
+  },
+  "cluster_id": "2099512298272338010",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1436",
+  "serial": 1436,
+  "serial_display": "#001436",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2099474340831998064",
+  "source_native_id": "2099474340831998064",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-14T12:24:23Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "نسخة غير مقيَّدة من DeepSeek V4.1 Flash على Hugging Face",
+  "arabic_summary": "ظهرت على Hugging Face نسخة من نموذج DeepSeek V4.1 Flash بعد إزالة القيود الأمنية المدمجة فيه. في اختبار HarmBench استجاب النموذج الأصلي لـ1.6% فقط من الطلبات الضارة، بينما استجابت النسخة المفكوكة لـ100% منها. مقابل ذلك انخفض أداؤه في اختبار MMLU من 87% إلى 83%.",
+  "detailed_explanation": "الخبر يتحدث عن نسخة معدَّلة (uncensored) من نموذج DeepSeek V4.1 Flash نُشرت على منصة Hugging Face، حيث أزيلت منها آليات الرفض والحماية المدمجة في النموذج الأصلي.\n\nالفرق في الأداء الأمني كان حادًا: النموذج الأصلي، حتى مع أعلى مستوى تفكير، رفض الاستجابة لـ98.4% من الطلبات الضارة في اختبار HarmBench، بينما النسخة المفكوكة استجابت لكل الطلبات الضارة تقريبًا (100%).\n\nفي المقابل، فقد النموذج المعدَّل بعض قدراته العامة، إذ انخفضت نتيجته في اختبار MMLU (وهو مقياس معرفي عام) من 87% إلى 83%، وهو انخفاض طفيف لكنه ملحوظ.\n\nهذا النوع من النماذج المفكوكة القيود يثير نقاشًا مستمرًا حول التوازن بين الحرية في الاستخدام والمخاطر الأمنية المرتبطة بإساءة الاستخدام.",
+  "why_it_matters": "يوضح المفاضلة الحقيقية بين إزالة القيود الأمنية وفقدان بعض القدرات، وهو أمر يهم كل من يفكر في استخدام نماذج مفتوحة معدَّلة.",
+  "original_text": "فكّوا القيود عن DeepSeek V4.1 Flash: \nنزلت على Hugging Face نسخة من النموذج بدون الرقابة المدمجة فيه \n\nفي اختبار HarmBench الفرق كان واضح جدًا: النموذج الأصلي، مع ضبط التفكير على أعلى مستوى، استجاب لـ1.6% فقط من الطلبات الضارة، بينما النسخة هذي وصلت لـ100%.\n\nلكن إزالة القيود اثرت شوي على قدراته العامة. مثلًا، نتيجته في اختبار MMLU نزلت من 87% إلى 83%. غير كذا، هو نفسه DeepSeek V4.1 Flash.\n\nhttps://t.co/6BevWxitvT",
+  "glossary": [
+   {
+    "term": "HarmBench",
+    "ar": "معيار قياس مدى استجابة النماذج للطلبات الضارة"
+   },
+   {
+    "term": "MMLU",
+    "ar": "اختبار معياري لقياس المعرفة العامة للنموذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "DeepSeek",
+   "Hugging Face"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 150,
+   "replies": 5,
+   "reposts": 10,
+   "quotes": 0,
+   "bookmarks": 194,
+   "views": 10245
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1437",
+  "serial": 1437,
+  "serial_display": "#001437",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099527214265938173",
+  "source_native_id": "2099527214265938173",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-14T15:54:29Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "شركات الذكاء الاصطناعي تشتري كروت RTX 5090 المخصصة للألعاب بكميات ضخمة",
+  "arabic_summary": "تلجأ شركات الذكاء الاصطناعي لشراء كروت RTX 5090 المخصصة أصلًا للألعاب بدل كروت إنفيديا الاحترافية الأغلى ثمنًا، بسبب ذاكرتها الكبيرة (32GB) وأدائها القوي في تشغيل نماذج الذكاء الاصطناعي مقارنة بسعرها الأقل من نظيرتها الاحترافية.",
+  "detailed_explanation": "يشير المنشور إلى ظاهرة اقتصادية-تقنية: كرت RTX 5090 المصمم أصلًا للألعاب أصبح مطلوبًا بشدة من شركات الذكاء الاصطناعي، وذلك بفضل امتلاكه ذاكرة كبيرة تصل إلى 32GB وأداء قويًا في تشغيل النماذج، رغم أنه ليس المنتج الاحترافي المخصص لهذا الغرض.\n\nالبديل الاحترافي، وهو RTX PRO 6000، أغلى بكثير حيث يصل سعره إلى نحو 16 ألف دولار، بينما سعر RTX 5090 يتجاوز 5 آلاف دولار فقط. هذا الفارق يجعل شراء عدة كروت من RTX 5090 خيارًا أوفر ماليًا لبعض الشركات مقارنة بشراء كرت احترافي واحد.\n\nالأثر الجانبي لهذا التوجه هو أن المستهلك العادي الباحث عن كرت ألعاب لم يعد ينافس لاعبين آخرين فقط، بل بات ينافس شركات تشتري عشرات أو مئات الكروت دفعة واحدة، ما قد يؤدي إلى تفاقم نقص المعروض وارتفاع الأسعار في السوق العامة.",
+  "why_it_matters": "هذا الطلب المتزايد من شركات الذكاء الاصطناعي على كروت الألعاب قد يزيد من نقص الكروت ويرفع أسعارها على المستخدمين العاديين.",
+  "original_text": "🔥 RTX 5090 المفروض كرت ألعاب… لكن شركات الذكاء الاصطناعي قاعدة تشتريه بكميات ضخمة!\n\nالسبب بسيط:\n\nكرت RTX 5090 فيه 32GB من الذاكرة وأداؤه قوي جدًا في تشغيل تطبيقات ونماذج الذكاء الاصطناعي.\n\nوفي المقابل، كرت إنفيديا الاحترافي RTX PRO 6000 أغلى بكثير، ويوصل سعره لحوالي 16 ألف دولار.\n\nلذلك بعض شركات الذكاء الاصطناعي تشوف أن شراء عدة كروت RTX 5090 أوفر لها، حتى لو وصل سعر الواحد إلى أكثر من 5 آلاف دولار.\n\nالمشكلة هنا أن اللاعب العادي صار ما ينافس لاعبين فقط على الكرت…\n\nصار ينافس شركات تشتري عشرات ومئات الكروت دفعة وحدة.\n\nوهذا ممكن يزيد نقص الكروت ويرفع أسعارها أكثر.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "NVIDIA",
+   "RTX 5090",
+   "RTX PRO 6000"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 59,
+   "replies": 5,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 23,
+   "views": 20102
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1438",
+  "serial": 1438,
+  "serial_display": "#001438",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099528002925138344",
+  "source_native_id": "2099528002925138344",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-14T15:57:37Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Gemini يضيف تقارير تفاعلية بخرائط ذهنية واختبارات في NotebookLM",
+  "arabic_summary": "أطلقت جوجل ميزة تجريبية باسم Interactive Reports في Gemini Notebook تحوّل التقارير النصية إلى مساحات تفاعلية تحتوي خرائط ذهنية وعروض تقديمية وبطاقات مذاكرة واختبارات. يُنشئ Gemini التقرير أولًا ويحدد أماكن للمحتوى التفاعلي، ثم يختار المستخدم ما يريد توليده في كل جزء.",
+  "detailed_explanation": "أعلنت جوجل عن ميزة جديدة قيد التجربة باسم Interactive Reports داخل Gemini Notebook (المعروف أيضًا بـNotebookLM)، تتيح تحويل التقارير النصية العادية إلى مساحات تفاعلية غنية بالمحتوى.\n\nالميزة تسمح بإضافة عناصر مثل الخرائط الذهنية (Mind Maps)، والعروض التقديمية (Slide Decks)، وبطاقات المذاكرة (Flash Cards)، والاختبارات (Quizzes) مباشرة داخل التقرير نفسه.\n\nآلية العمل: يقوم Gemini أولًا بإنشاء هيكل التقرير الأساسي، ويحدد داخله أماكن مخصصة للمحتوى التفاعلي، وبعدها يختار المستخدم بنفسه ما يريد توليده في كل جزء من هذه الأماكن.\n\nالنتيجة العملية أن المستخدم لا يقرأ فقط صفحات نصية طويلة، بل يمكنه فهم الموضوع عبر خريطة ذهنية، ثم مراجعة عرض تقديمي، ثم اختبار فهمه بأسئلة — كل ذلك ضمن نفس مساحة العمل، وهو ما يجعل الأداة أقرب لبيئة تعلّم متكاملة بدل أداة تلخيص فقط.",
+  "why_it_matters": "تحوّل هذه الميزة NotebookLM من أداة تلخيص نصي إلى أداة تعلّم تفاعلية متكاملة، وهي أداة يستخدمها كثيرون لإدارة المحتوى والدراسة.",
+  "original_text": "🔥 قوقل تحوّل تقارير Gemini Notebook من مجرد نص… إلى مساحة تفاعلية كاملة.\n\nميزة جديدة باسم Interactive Reports قيد التجربة، وتسمح لك تضيف داخل التقرير نفسه:\n\n• خرائط ذهنية Mind Maps\n• عروض تقديمية Slide Decks\n• بطاقات مذاكرة Flash Cards\n• اختبارات Quizzes\n\nالفكرة إن Gemini ينشئ التقرير أولًا، ويحط داخله أماكن مخصصة للمحتوى التفاعلي، وبعدها أنت تختار وش تبغى تولّد في كل جزء.\n\nيعني بدل ما يكون التقرير صفحات طويلة تقرأها فقط، تقدر مثلًا تقرأ موضوع، تفتح خريطة ذهنية لفهمه، تشوف عرض تقديمي، وبعدها تختبر نفسك وكل هذا داخل نفس التقرير.",
+  "glossary": [
+   {
+    "term": "Mind Maps",
+    "ar": "خرائط ذهنية لتنظيم الأفكار بصريًا"
+   },
+   {
+    "term": "Flash Cards",
+    "ar": "بطاقات مذاكرة سريعة للمراجعة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "NotebookLM",
+   "Gemini",
+   "Google"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 27,
+   "replies": 0,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 23,
+   "views": 2849
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1439",
+  "serial": 1439,
+  "serial_display": "#001439",
+  "source_type": "x",
+  "source_url": "https://x.com/perplexity_ai/status/2099514386193027201",
+  "source_native_id": "2099514386193027201",
+  "source_name": "Perplexity",
+  "source_site": "x.com",
+  "author": "perplexity_ai",
+  "published_at": "2026-09-14T15:03:31Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity تطلق Portable Computer لأجهزة Windows بمعالجات NVIDIA RTX",
+  "arabic_summary": "أعلنت Perplexity عن توفر منتجها Portable Computer على أجهزة Windows المزودة بمعالجات NVIDIA RTX، ما يتيح تشغيل الوكلاء والنماذج محليًا على الجهاز والعمل مع الملفات دون إرسال البيانات إلى السحابة، مع إمكانية استخدام نماذج سحابية عند الحاجة.",
+  "detailed_explanation": "المنتج الجديد من Perplexity، المسمى Portable Computer، أصبح متاحًا على أجهزة Windows الشخصية التي تحمل معالجات NVIDIA RTX، ويتيح تشغيل ما يسمى بـ'harness' الخاص بالوكلاء والنماذج محليًا على الجهاز نفسه بدل الاعتماد الكامل على السحابة.\n\nهذا يعني أن المستخدم يمكنه العمل مع ملفاته وتطبيقاته المتصلة دون إرسال المهام إلى خوادم خارجية، مع إمكانية اللجوء إلى نماذج سحابية 'frontier' عند الحاجة إلى قدرات أكبر. هذا النمط الهجين (محلي + سحابي) يهم مستخدمي أدوات الذكاء الاصطناعي المهتمين بالخصوصية وسرعة الاستجابة، خصوصًا مع انتشار معالجات RTX في أجهزة الحوسبة الشخصية.\n\nPerplexity ليست ضمن قائمة أدوات عزيز المعتمدة، لذا يُصنَّف هذا كخبر عام في عالم الذكاء الاصطناعي رغم أهميته التقنية.",
+  "why_it_matters": "التشغيل المحلي للوكلاء والنماذج يعالج مخاوف الخصوصية وسرعة الاستجابة، وهو تحول مهم في كيفية تقديم أدوات الذكاء الاصطناعي على أجهزة المستخدمين الشخصية.",
+  "original_text": "Portable Computer is now available on Windows PCs with @NVIDIA RTX GPUs.\n\nRun the harness, agents, and models locally on your PC.\n\nWork with local files and connected apps without sending tasks to the cloud. Use frontier cloud models when needed. https://t.co/Htu1WAYwVT",
+  "glossary": [
+   {
+    "term": "Harness",
+    "ar": "إطار تشغيل الوكيل"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Perplexity",
+   "NVIDIA RTX"
+  ],
+  "change_types": [
+   "New Release",
+   "General Availability"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 735,
+   "replies": 57,
+   "reposts": 88,
+   "quotes": 83,
+   "bookmarks": 255,
+   "views": 346628
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1440",
+  "serial": 1440,
+  "serial_display": "#001440",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2099361837775261883",
+  "source_native_id": "2099361837775261883",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-14T04:57:21Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تقرير McKinsey: 80% من الشركات لم تر أثرًا ماليًا من AI",
+  "arabic_summary": "يكشف تقرير حديث من McKinsey أن أكثر من 80% من الشركات لم تلحظ أثرًا على أرباحها من استثماراتها في الذكاء الاصطناعي، والسبب أنها تضيف AI فوق طريقة عملها القديمة بدل إعادة تصميمها حوله. يقترح التقرير الانتقال إلى «Agentic Organization» حيث تعاد هيكلة الـWorkflow والفرق والأدوار حول AI Agents.",
+  "detailed_explanation": "يشير التقرير إلى أن المشكلة ليست في التقنية نفسها بل في طريقة تبنيها؛ فمعظم الشركات تحاول إلصاق AI بعملياتها الحالية بدل إعادة تصميم هذه العمليات من الصفر حول قدرات الـAgents.\n\nيطرح التقرير سبعة تحولات مطلوبة أبرزها: إعادة التفكير في نموذج العمل بالكامل، وإعادة تصميم الـWorkflow لا مجرد أتمتة مهمة واحدة، وتحول الفرق إلى مزيج من بشر وAgents، وانتقال دور الإنسان من «داخل الحلقة» إلى «فوق الحلقة» أي الإشراف والتحقق بدل التنفيذ المباشر.\n\nكما يذكر التقرير أن 75% من الأدوار الوظيفية تحتاج إعادة تشكيل جوهرية، وأن المهارات البشرية المطلوبة ستتحول نحو التفكير الاستراتيجي وحل المشكلات والحكم البشري بدل التنفيذ التحليلي الذي يمكن للـAI القيام به.",
+  "why_it_matters": "يوضح لماذا تفشل أغلب مبادرات تبني AI في الشركات رغم توفر التقنية، وهو درس مباشر لأي جهة تخطط لدمج Agents في عملها.",
+  "original_text": "أين قيمة الذكاء الاصطناعي الحقيقية ؟\n\nتقرير حديث من McKinsey يكشف مفارقة واضحة:\n\nأكثر من 80% من الشركات تقول إنها لم ترى أثر على صافي النتائج المالية من استثماراتها في AI حتى الآن.\n\nالسبب؟\nالمشكلة ليست في توفر التقنية، إنما في أن الشركات تحاول غالبًا إضافة AI إلى طريقة العمل الحالية بدل إعادة تصميم طريقة العمل حوله.\n\nوالانتقال إلى Agentic Organization يحتاج تغييرات رئيسية:\n\n1. إعادة التفكير في نموذج العمل\nAI Agents قد لا تجعل الخدمات أسرع وأرخص فقط، بل قد تسمح بخدمات ونماذج أعمال لم تكن ممكنة سابقًا، مع تخصيص أكبر لكل عميل\n\n2. إعادة تصميم العمليات كاملة، وليس أتمتة المهام\nبدل استخدام AI لتحسين مهمة واحدة، أعد تصميم الـWorkflow من البداية للنهاية: ماذا ينفذ الـAgent؟ ماذا يبقى للإنسان؟ وأين نحتاج الإشراف والموافقة البشرية؟\n\n3. فرق العمل ستصبح Humans + AI Agents\nسيعمل الموظفون مع Agents تنفذ أجزاء فعلية من العمل. وهذا سيغير طريقة إدارة الفرق، توزيع المسؤوليات، الحوكمة وحتى بعض طبقات الهيكل التنظيمي.\n\n4. الوظائف ستتغير أكثر مما ستختفي\nيشير التقرير إلى أن 75% من الأدوار تحتاج إلى إعادة تشكيل جوهرية الآن. وهذا يشمل الموظفين والمديرين.\n\n5. الإنسان ينتقل من In the Loop إلى Above the Loop\nمع قدرة فرق من Agents على تنفيذ معظم العملية، ينتقل دور الإنسان أكثر نحو الإشراف، الحكم، التحقق واتخاذ",
+  "glossary": [
+   {
+    "term": "Agentic Organization",
+    "ar": "منظمة قائمة على الوكلاء"
+   },
+   {
+    "term": "Workflow",
+    "ar": "سير العمل"
+   },
+   {
+    "term": "Above the Loop",
+    "ar": "فوق حلقة التنفيذ (إشراف لا تنفيذ)"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "McKinsey"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 69,
+  "metrics": {
+   "likes": 94,
+   "replies": 7,
+   "reposts": 19,
+   "quotes": 1,
+   "bookmarks": 66,
+   "views": 7736
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1441",
+  "serial": 1441,
+  "serial_display": "#001441",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleAI/status/2099489445846126676",
+  "source_native_id": "2099489445846126676",
+  "source_name": "Google AI",
+  "source_site": "x.com",
+  "author": "GoogleAI",
+  "published_at": "2026-09-14T13:24:25Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تطلق Dreambeans لربط بياناتك الشخصية بقصص مخصصة",
+  "arabic_summary": "أعلنت Google عن تجربة جديدة من Google Labs تُدعى Dreambeans، تجمع بيانات من Gmail وCalendar وGoogle Photos وGemini لتوليد قصص مصورة مخصصة وإشعارات يومية بدل التمرير المستمر في الخلاصات. التجربة اختيارية وتتضمن ضوابط خصوصية وإمكانية تقييم الاقتراحات.",
+  "detailed_explanation": "Dreambeans منتج تجريبي من Google Labs يهدف إلى ربط مصادر بيانات متعددة يستخدمها الشخص يوميًا — البريد، التقويم، البحث، Gemini، والصور — لبناء 'قصص' مخصصة، مثل تذكيره بعيد ميلاد صديق مع اقتراح هدية أو رابط مباشر لمشاهدة فيلم متعلق بالمناسبة.\n\nالفكرة تقوم على الانتقال من نموذج التمرير السلبي في الخلاصات إلى إشعارات استباقية مبنية على فهم أعمق لسياق حياة المستخدم، مع تأكيد الشركة على أن التجربة اختيارية (opt-in) ومحمية بفلاتر خصوصية صارمة، وأن المستخدم يمكنه تصحيح مسار النظام عبر تقييم الاقتراحات.\n\nهذا يهم لأنه يكشف اتجاه Google نحو دمج الوكلاء الشخصيين مع بيانات الحياة الرقمية بشكل أعمق من مجرد مساعد محادثة، وهو نمط قد ينتشر في منتجات أخرى.",
+  "why_it_matters": "يمثّل محاولة جديدة لدمج بيانات المستخدم الشخصية عبر خدمات Google المختلفة في تجربة ذكاء اصطناعي استباقية بدل التفاعلية.",
+  "original_text": "How do you build personalized AI tech that truly understands what matters to you?\n\nWith Dreambeans from @GoogleLabs, we're safely connecting the dots across your digital life. Instead of siloing pieces of data one app at a time, Dreambeans gathers details from connected sources like @Gmail, Calendar, Search, @GeminiApp, and through face grouping in your @googlephotos. It might notice your friend Beth's birthday is coming up, generate a one-of-a-kind illustrated story of the two of you, and surface the perfect gift ideas.\n\nRather than doomscrolling an endless feed, you’ll get a daily in-app notification from Dreambeans when your customized “stories” are ready. And when a story clicks with you, you can tap the illustrated tile to find additional info and direct links to the next step, whether that’s watching a movie trailer or buying a suggested gift.\n\nThis experience is opt-in, transparent, and protected by strict privacy filters. And because you are always in control, you can simply tap the \"thumbs down\" button on any story if a suggestion misses the mark, helping the system learn what is actually useful to you.\n\nGet started: https://t.co/XWeE7gbKvS",
+  "glossary": [
+   {
+    "term": "opt-in",
+    "ar": "اشتراك اختياري"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Google Labs",
+   "Dreambeans",
+   "Gmail",
+   "Google Photos",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Release",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 191,
+   "replies": 31,
+   "reposts": 22,
+   "quotes": 11,
+   "bookmarks": 64,
+   "views": 48666
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1442",
+  "serial": 1442,
+  "serial_display": "#001442",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099526400969519600",
+  "source_native_id": "2099526400969519600",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-14T15:51:15Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أنثروبيك تجهّز ميزة Claude Money لإدارة الأموال الشخصية",
+  "arabic_summary": "تعمل أنثروبيك على ميزة تجريبية غير معلنة رسميًا باسم Claude Money داخل تطبيق Claude على iPhone، تتيح ربط الحسابات البنكية مباشرة مع Claude للسؤال عن المصروفات والخطط المالية، دون موعد إطلاق مؤكد حتى الآن.",
+  "detailed_explanation": "بحسب المصدر، تعمل أنثروبيك على ميزة جديدة داخل تطبيق Claude على iPhone باسم Claude Money، تسمح للمستخدم بربط حساباته البنكية مباشرة مع Claude، ومن ثمّ سؤاله عن مصروفاته وخططه المالية وتوجهات إنفاقه.\n\nبدلًا من إدخال الأرقام يدويًا، سيتمكن Claude من الاعتماد على بيانات الحسابات المرتبطة تلقائيًا لتقديم صورة أوضح عن الإنفاق والمساعدة في التخطيط المالي.\n\nالميزة لا تزال في مرحلة تجريبية وغير معلنة رسميًا من الشركة، وليس لها موعد إطلاق مؤكد، مع إشارة إلى أنها قد تقتصر بداية على السوق الأمريكي فقط.\n\nهذا التوسع يضع Claude في منافسة مباشرة مع تطبيقات إدارة الأموال الشخصية القائمة، ويعكس اتجاهًا عامًا لدى شركات الذكاء الاصطناعي لدمج مساعداتها في جوانب أكثر حساسية من حياة المستخدمين مثل البيانات المالية.",
+  "why_it_matters": "دخول Claude مجال إدارة الأموال الشخصية يوسّع استخداماته اليومية لمن يعتمد عليه، لكنه يثير أيضًا أسئلة عن خصوصية البيانات المالية المرتبطة به.",
+  "original_text": "🔥 أنثروبيك تستعد تدخل عالم إدارة الأموال الشخصية مع Claude Money!\n\nميزة جديدة قيد التجهيز داخل تطبيق Claude على iPhone، تسمح لك بربط حساباتك البنكية مباشرة مع Claude، وبعدها تقدر تسأله عن مصروفاتك، خططك المالية، وأين تروح فلوسك.\n\nتقول لك أنثروبيك: «افهم أموالك مع Claude» 💰\n\nيعني بدل ما تعطيه أرقام بشكل يدوي، Claude يقدر يعتمد على بيانات حساباتك المرتبطة ويعطيك صورة أوضح عن إنفاقك ويساعدك بالتخطيط المالي.\n\nالميزة ظهرت حاليًا كتجربة غير معلنة رسميًا باسم Claude Money، وما فيه حتى الآن موعد إطلاق مؤكد. وتشير المعلومات الحالية إلى أنها قد تبدأ في السوق الأمريكي فقط. (TestingCatalog AI News⁠)\n\nوالاسم فيه لعبة لطيفة 👀\nClaude Money… Claude Monet 🎨",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "Beta / Preview",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 25,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 2,
+   "bookmarks": 19,
+   "views": 22384
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1443",
+  "serial": 1443,
+  "serial_display": "#001443",
+  "source_type": "x",
+  "source_url": "https://x.com/ElevenLabs/status/2099547227223908568",
+  "source_native_id": "2099547227223908568",
+  "source_name": "ElevenLabs",
+  "source_site": "x.com",
+  "author": "ElevenLabs",
+  "published_at": "2026-09-14T17:14:01Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ElevenLabs تضيف توليد الصوت والصورة والفيديو إلى MCP",
+  "arabic_summary": "أعلنت ElevenLabs عن دعم توليد الصوت والموسيقى والصورة والفيديو مباشرة عبر خادم ElevenLabs MCP الخاص بها. يمكن الآن للمستخدم توليد كلام منطوق ونصوص محادثة ودبلجة ومؤثرات صوتية وموسيقى وصور وفيديو من داخل نفس المساعد الذي يعمل عليه، دون الانتقال لأداة أخرى.",
+  "detailed_explanation": "الفكرة الأساسية في المنشور أن ElevenLabs MCP لم يعد مقتصرًا على توليد الصوت وحده، بل صار بوابة موحّدة لعدة أنواع من الوسائط: كلام، موسيقى، مؤثرات صوتية، صور، وفيديو، كلها تُستدعى من نفس الواجهة التي يعمل عليها المستخدم بالفعل.\n\nهذا يعني أن أي مساعد أو Agent متصل بخادم MCP الخاص بـ ElevenLabs يمكنه الآن تنفيذ مهام إنتاج وسائط متعددة دون الحاجة لربط أدوات منفصلة لكل نوع محتوى، وهو ما يبسّط بناء تدفقات العمل التي تحتاج مخرجات صوتية وبصرية معًا.\n\nبالنسبة لمن يبني Agents أو أدوات تعتمد على MCP، هذا التوسّع يرفع من قيمة الاتصال بـ ElevenLabs كنقطة واحدة لتلبية احتياجات إنتاج المحتوى المتعدد الوسائط.",
+  "why_it_matters": "توسيع MCP ليشمل وسائط متعددة يجعل ElevenLabs طبقة إنتاج شاملة يمكن استدعاؤها من أي Agent يدعم البروتوكول، وهذا يقلّل الحاجة لدمج أدوات منفصلة لكل وسيط.",
+  "original_text": "Introducing voice, music, image, and video generation in the ElevenLabs MCP.\n\nGenerate speech, transcripts, dubs, music, sound effects, images, and video from the assistant you already work in. https://t.co/4nLWCl0f3J",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط الأدوات بالنماذج"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "ElevenLabs"
+  ],
+  "change_types": [
+   "New Feature",
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1875,
+   "replies": 64,
+   "reposts": 4962,
+   "quotes": 136,
+   "bookmarks": 377,
+   "views": 853747
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "2099547227223908568",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2099646451039015030"
+   },
+   {
+    "author": "itsolelehmann",
+    "url": "https://x.com/itsolelehmann/status/2099555686610817352"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1444",
+  "serial": 1444,
+  "serial_display": "#001444",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2099587613464359159",
+  "source_native_id": "2099587613464359159",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-14T19:54:30Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "زرعة دماغية تعيد الكلام لامرأة مشلولة عبر توليد صوت فوري",
+  "arabic_summary": "استخدمت امرأة مشلولة زرعة دماغية بأكثر من 400 قطب إلكتروني تقرأ إشارات تفكيرها بالكلام وتحوّلها إلى صوت مولَّد في الوقت الفعلي، ما مكّنها من التحدث مع أحفادها عبر جهاز لاسلكي دون استخدام لسان أو حبال صوتية.",
+  "detailed_explanation": "يتحدث المنشور عن حالة طبية استُخدمت فيها زرعة دماغية (Brain-Computer Interface) لمساعدة امرأة مشلولة على استعادة القدرة على الكلام.\n\nآلية العمل: عندما تفكر المرأة في الكلام، تقرأ الزرعة إشارات الدماغ المرتبطة بهذا التفكير، ثم يُولَّد صوت في الوقت الفعلي يعبّر عمّا تريد قوله، دون الحاجة لاستخدام اللسان أو الحبال الصوتية.\n\nالزرعة تحتوي على أكثر من 400 قطب إلكتروني (Electrode) لالتقاط الإشارات الدماغية بدقة، والجهاز نفسه لاسلكي، ما يمنح المستخدمة حرية حركة أكبر.\n\nهذه القدرة مكّنت المرأة من إجراء مكالمة مع أحفادها والتحدث معهم مباشرة رغم إعاقتها، وهو ما يفتح تساؤلات أوسع حول مستقبل واجهات الدماغ والتواصل المباشر بين الأدمغة دون وسيط لغوي تقليدي.",
+  "why_it_matters": "يمثل تطبيقًا طبيًا ملموسًا يدمج الذكاء الاصطناعي بواجهات الدماغ لاستعادة قدرات إنسانية أساسية، وهو مثال على أثر هذه التقنية خارج نطاق البرمجيات المعتادة.",
+  "original_text": "الذكاء الاصطناعي أعاد النطق لامرأة مشلولة\n\nتفكّر في الكلام ← الزرعة تقرأ الإشارة ← صوت يُولَّد في الوقت الفعلي\n\nمكالمة مع أحفادها… وتحدثت معهم من غير لسان ولا حبال صوتية ولكن بأكثر من 400 قطب. والجهاز لاسلكي\n\nهل وصلنا فعلاً لمرحلة (الكلام من الفكرة) ومرحلة التخاطب من دماغ لدماغ؟",
+  "glossary": [
+   {
+    "term": "Brain-Computer Interface",
+    "ar": "واجهة تربط الدماغ مباشرة بجهاز إلكتروني"
+   },
+   {
+    "term": "Electrode",
+    "ar": "قطب إلكتروني لالتقاط الإشارات العصبية"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 15,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 1983
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1445",
+  "serial": 1445,
+  "serial_display": "#001445",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2099310692532699608",
+  "source_native_id": "2099310692532699608",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-14T01:34:07Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: صعوبة منافسة النماذج المصغّرة المُخصّصة للنماذج الكبيرة العامة",
+  "arabic_summary": "يرى إيثان مولك أن حركة سيادة البيانات في الشركات (استخدام نماذج صغيرة مُدرّبة خصيصًا لها) ستصطدم بتحدٍّ اقتصادي: تكلفة الحفاظ على نموذج مُخصّص (Fine-tuned) يتفوق باستمرار على النماذج العامة الكبيرة، طالما استمر النمو الأسّي في قدرات الذكاء الاصطناعي.",
+  "detailed_explanation": "يشير مولك إلى مفارقة يواجهها من يسعون لتحقيق «سيادة البيانات» عبر بناء نماذج صغيرة مخصصة لشركاتهم: كلفة الحفاظ على هذه النماذج محدّثة ومتفوقة أداءً على النماذج العامة الكبيرة مرتفعة وصعبة، خصوصًا مع استمرار تحسّن النماذج العامة بمعدل أسّي.\n\nالمنشور المقتبس يوضح المفارقة بمثال: بينما يستخدم البعض GPT-6 Astra لتنفيذ مشاريع بحثية معقدة بسهولة، تنفق شركات أخرى مبالغ كبيرة على معالجات GPU فقط لضبط نموذج مفتوح المصدر مثل NVIDIA Nemotron 3 دقيقًا (Fine-tuning).\n\nهذا النقاش يهم أي جهة تفكر في الاستثمار بنماذج خاصة بدل الاعتماد على واجهات النماذج التجارية الكبيرة، إذ يشكك في جدوى هذا الاستثمار على المدى الطويل.",
+  "why_it_matters": "يطرح سؤالًا استراتيجيًا للشركات التي تفكر في بناء نماذج خاصة بدل الاعتماد على نماذج عامة كبيرة.",
+  "original_text": "I feel like the data sovereignty movement for firms is going to run headlong into the challenge that maintaining fine-tuned small models in a way that continually beats larger general-purpose models is expensive and difficult as long as the AI exponential ability growth continues",
+  "glossary": [
+   {
+    "term": "Fine-tuning",
+    "ar": "ضبط دقيق للنموذج على بيانات مخصّصة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "NVIDIA Nemotron 3",
+   "GPT-6 Astra"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 567,
+   "replies": 74,
+   "reposts": 38,
+   "quotes": 6,
+   "bookmarks": 133,
+   "views": 64961
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "September 2026:\n\n- I use GPT-6 Astra to run multi-state research projects that would have otherwise required dozens of hours of human labor\n\n- Latham spends $[redacted] on GPUs to *checks notes* fine-tune NVIDIA Nemotron 3 https://t.co/39W4l5mK02"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1446",
+  "serial": 1446,
+  "serial_display": "#001446",
+  "source_type": "x",
+  "source_url": "https://x.com/trq212/status/2099551141621329994",
+  "source_native_id": "2099551141621329994",
+  "source_name": "Thariq",
+  "source_site": "x.com",
+  "author": "trq212",
+  "published_at": "2026-09-14T17:29:34Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "حوار مطوّل عن تطوّر Claude Code منذ إطلاقه",
+  "arabic_summary": "مقابلة فيديو مع اثنين من مطوّري Claude Code يتحدثان عن مدى سرعة تغيّر قدرات النموذج وصعوبة مواكبة الأداة لهذا التطوّر، إضافة إلى ما يفتقدانه من طريقة هندسة البرمجيات قبل عصر الذكاء الاصطناعي.",
+  "detailed_explanation": "يشارك صاحب المنشور حوارًا مصورًا مع اثنين من الأشخاص المسؤولين عن بناء Claude Code، يناقشان فيه مدى التغيّر الكبير الذي مر به المنتج منذ انطلاقه، والصعوبة المستمرة في مواكبة قدرات النماذج المتسارعة أثناء بناء الأداة حولها.\n\nكما يتطرق الحوار إلى الجانب الإنساني من هذا التحول: ما الذي يفتقده المطوّران من طريقة ممارسة هندسة البرمجيات التقليدية قبل دخول عصر الوكلاء البرمجية، وهو تأمل مفيد لكل من يعيد التفكير في سير عمله البرمجي بعد اعتماد أدوات مثل Claude Code.\n\nيهم هذا المحتوى مستخدمي Claude Code تحديدًا لأنه يقدّم سياقًا من صنّاع الأداة أنفسهم حول تطورها وتحدياتها، لا مجرد إعلان ميزة جديدة.",
+  "why_it_matters": "نظرة من الداخل على كيفية بناء أداة برمجية بالذكاء الاصطناعي وتحديات مواكبة تطور النماذج، تفيد من يستخدم Claude Code أو يبني أدوات مشابهة.",
+  "original_text": "I talked to Sid &amp; Robert about building Claude Code: how much things have changed, how hard it's been to keep up with model capabilities and also what we miss about software engineering before AI.\n\nhttps://t.co/vLDFRaXawS",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 305,
+   "replies": 40,
+   "reposts": 31,
+   "quotes": 2,
+   "bookmarks": 203,
+   "views": 40765
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [
+   "https://www.youtube.com/watch?v=S-sYlFiGFv8"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1447",
+  "serial": 1447,
+  "serial_display": "#001447",
+  "source_type": "x",
+  "source_url": "https://x.com/nvidia/status/2099515451801776283",
+  "source_native_id": "2099515451801776283",
+  "source_name": "NVIDIA",
+  "source_site": "x.com",
+  "author": "nvidia",
+  "published_at": "2026-09-14T15:07:45Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "NVIDIA وPerplexity يتيحان تشغيل وكلاء ذكاء محليًا على PC",
+  "arabic_summary": "أعلنت NVIDIA بالتعاون مع Perplexity إتاحة تشغيل وكلاء ذكاء اصطناعي (Agent) محليًا على أجهزة Windows المزوّدة بمعالجات RTX، مع إمكانية العمل على الملفات المحلية والتطبيقات المتصلة دون إرسال المهام إلى السحابة، والانتقال إلى نماذج سحابية متقدمة عند الحاجة.",
+  "detailed_explanation": "أطلقت NVIDIA بالشراكة مع Perplexity منتجًا يُدعى Portable Computer متاحًا الآن على أجهزة Windows بمعالجات RTX، يتيح تشغيل الوكلاء والنماذج محليًا على الجهاز مباشرة.\n\nالميزة الأساسية هي القدرة على العمل مع الملفات المحلية والتطبيقات المتصلة دون إرسال البيانات إلى الخوادم السحابية، مع خيار التبديل إلى نماذج سحابية متقدمة (frontier) عند الحاجة إلى قدرات أكبر.\n\nهذا التوجه يخدم فئة المستخدمين والمؤسسات المهتمة بخصوصية البيانات وتقليل الاعتماد على السحابة، ويمثل خطوة في اتجاه جعل الوكلاء المحليين أكثر انتشارًا على أجهزة المستهلكين العادية.",
+  "why_it_matters": "يوفر خيارًا للخصوصية والأداء المحلي في تشغيل وكلاء الذكاء الاصطناعي بدل الاعتماد الكامل على السحابة.",
+  "original_text": "Powerful AI agents are becoming easier to run right on your PC. ⚡\n\nTogether with @Perplexity_AI, we’re making local AI more private, accessible and useful on @Windows NVIDIA RTX PCs.\n\n👇",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي ينفّذ مهامًا بشكل شبه مستقل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "NVIDIA",
+   "Perplexity",
+   "RTX"
+  ],
+  "change_types": [
+   "New Release",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 603,
+   "replies": 74,
+   "reposts": 71,
+   "quotes": 10,
+   "bookmarks": 109,
+   "views": 85159
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Portable Computer is now available on Windows PCs with @NVIDIA RTX GPUs.\n\nRun the harness, agents, and models locally on your PC.\n\nWork with local files and connected apps without sending tasks to the cloud. Use frontier cloud models when needed. https://t.co/Htu1WAYwVT"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1448",
+  "serial": 1448,
+  "serial_display": "#001448",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2099550668893683815",
+  "source_native_id": "2099550668893683815",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-14T17:27:41Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "موظفة بلا خلفية تقنية تبني منصة بـGitHub Copilot CLI",
+  "arabic_summary": "تروي GitHub قصة موظفة في فريق الشؤون القانونية بلا خلفية هندسية، استخدمت Copilot CLI لبناء منصة داخلية لإدارة الأدوات التشغيلية بنفسها بدل الاستعانة بفريق هندسة. المنشور يعرض هذا كمثال على قدرة أدوات الترميز بالذكاء الاصطناعي على تمكين غير المبرمجين.",
+  "detailed_explanation": "القصة المذكورة تسلّط الضوء على استخدام عملي لأداة GitHub Copilot CLI من قبل شخص غير تقني، حيث بنت مديرة عمليات في فريق الشؤون القانونية بـGitHub منصة أطلقت عليها Innovation Marketplace لتجميع الأدوات التشغيلية في مكان واحد.\n\nالنقطة المهمة هنا ليست الأداة نفسها بقدر ما هي النموذج: موظف غير مبرمج يستخدم واجهة سطر الأوامر بالذكاء الاصطناعي لإنجاز مهمة كانت تتطلب سابقًا موارد هندسية متخصصة، وهذا يعكس تحولًا في من يمكنه بناء البرمجيات الداخلية للشركات.",
+  "why_it_matters": "يوضّح كيف يمكن لأداة ترميز بالذكاء الاصطناعي أن تُغني عن فريق هندسي كامل في بناء أدوات داخلية بسيطة، وهذا يمسّ نمط استخدام Copilot CLI مباشرة.",
+  "original_text": "No tech background? You can still use GitHub Copilot CLI to help build the tools you need.\n\nVictoria, an operations manager on the GitHub legal team, needed a centralized platform for operational tools. Instead of using engineering resources, she used Copilot CLI to build the Innovation Marketplace herself. ✨ Here's how. ▶️",
+  "glossary": [
+   {
+    "term": "CLI",
+    "ar": "واجهة سطر الأوامر"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "GitHub Copilot CLI",
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 105,
+   "replies": 14,
+   "reposts": 11,
+   "quotes": 1,
+   "bookmarks": 29,
+   "views": 34190
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1449",
+  "serial": 1449,
+  "serial_display": "#001449",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2099621297638814113",
+  "source_native_id": "2099621297638814113",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-14T22:08:21Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain تحسّن طريقة قراءة الملفات في deepagents",
+  "arabic_summary": "غيّر فريق LangChain طريقة قراءة الملفات في deepagents، حيث تُظهر التقييمات أن التنسيق الجديد يقلل أخطاء تعديل الملفات بنسبة 15% ويخفض استهلاك التوكنات الإجمالي بنسبة 10%. المنشور يبرز أهمية التحسينات الصغيرة في بنية الوكلاء.",
+  "detailed_explanation": "التعديل يخص طريقة قراءة الملفات داخل إطار deepagents التابع لـLangChain، وهو تحسين هندسي صغير الحجم لكنه ذو أثر ملموس بحسب القياسات المذكورة: تقليل أخطاء تعديل الملفات بنسبة 15% وخفض استهلاك التوكنات بنسبة 10%.\n\nمثل هذه التحسينات التراكمية في بنية معالجة السياق تهم مطوري الوكلاء لأنها تقلل التكلفة وتزيد الموثوقية دون تغيير جوهري في تصميم النظام، وتعكس اتجاهًا عامًا في تحسين 'harness' الوكلاء بدل الاعتماد فقط على تحسين النماذج نفسها.",
+  "why_it_matters": "تحسين تقني دقيق في كيفية تعامل الوكلاء مع الملفات يقلل الأخطاء ويوفر تكلفة التوكنات، وهو مفيد لمن يبني وكلاء برمجية باستخدام أطر مثل LangChain.",
+  "original_text": "The OSS team is cooking on small but mighty harness optimizations 💪",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "توكن"
+   },
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "deepagents"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 26,
+   "replies": 6,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 3976
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "we just changed how deepagents read files!\n\nour evals show that this new format reduces edit_file errors by 15% AND total input token usage by 10%\n\nthe little things really add up w/ agents; we're hard at work on these small but mighty optimizations at @LangChain https://t.co/PfwWDMDzlM"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1450",
+  "serial": 1450,
+  "serial_display": "#001450",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2099485482287559147",
+  "source_native_id": "2099485482287559147",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-14T13:08:40Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل عن بناء وكلاء ذكاء اصطناعي إنتاجية في الرعاية الصحية",
+  "arabic_summary": "ينشر LangChain دليلًا يستعرض كيف تبني شركات في مجال الرعاية الصحية وعلوم الحياة أنظمة وكلاء إنتاجية لتسريع البحث وتقليل عبء التوثيق السريري، مع تركيز على بنية تحتية أقوى للتقييم والمراقبة والحوكمة.",
+  "detailed_explanation": "الدليل المذكور يستعرض تجارب فرق في قطاع الرعاية الصحية وعلوم الحياة تبني أنظمة وكلاء تساعد في تسريع الأبحاث وتقليل عبء التوثيق السريري، مع التركيز على أربعة عناصر بنيوية: التقييم (evaluation)، المراقبة (observability)، التنسيق (orchestration)، والحوكمة (governance) والنشر.\n\nأهمية هذا الدليل تكمن في كونه مثالًا عمليًا لما تتطلبه أنظمة الوكلاء عند الانتقال من مرحلة التجربة إلى الإنتاج الفعلي في قطاع حساس كالصحة، وهذا يفيد أي بانٍ لأنظمة وكلاء يريد فهم البنية التحتية اللازمة بغض النظر عن المجال.",
+  "why_it_matters": "يوضح كيف تُبنى أنظمة وكلاء إنتاجية حقيقية (لا تجريبية) في قطاع حساس مثل الصحة، بمكوناتها الأساسية من تقييم ومراقبة وحوكمة.",
+  "original_text": "Agents are already helping healthcare and life sciences teams accelerate research, reduce clinical documentation burden, and make complex healthcare data easier to access.\n\nOur latest guide looks at how @MadrigalPharma, @AbridgeHQ, and Vizient are building production agent systems with stronger infrastructure for evaluation, observability, orchestration, governance, and deployment. \n\nhttps://t.co/qjCKiaiWeb",
+  "glossary": [
+   {
+    "term": "Observability",
+    "ar": "قابلية المراقبة"
+   },
+   {
+    "term": "Orchestration",
+    "ar": "تنسيق العمليات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "صحة",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 21,
+   "replies": 3,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 5832
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1451",
+  "serial": 1451,
+  "serial_display": "#001451",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2099513342171730040",
+  "source_native_id": "2099513342171730040",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-14T14:59:22Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith LLM Gateway يتحكم في وصول المؤسسات للنماذج",
+  "arabic_summary": "أطلق LangChain ميزة LangSmith LLM Gateway التي تتيح للمؤسسات تقييد مفتاح API بنماذج معينة، بحيث تُحجب تلقائيًا أي محاولة استدعاء لنموذج غير مصرح به بنفس المفتاح.",
+  "detailed_explanation": "الميزة الجديدة تتيح ربط مفتاح API بنماذج محددة فقط عبر LangSmith LLM Gateway، بحيث إذا حاول أحد استخدام نفس المفتاح لاستدعاء نموذج غير مصرح به يتم حظر الطلب تلقائيًا. المثال المذكور: تقييد مفتاح على نموذج Opus 5 فقط ثم محاولة استدعاء Sonnet 5 بنفس المفتاح لتوضيح آلية الحجب.\n\nهذا النوع من الحوكمة (Governance) يهم الفرق الهندسية والمؤسسات التي تدير أكثر من نموذج وأكثر من فريق، لأنه يمنع الاستخدام غير المصرح به للنماذج الأغلى أو الأكثر حساسية، ويعطي طبقة تحكم مركزية على استهلاك الموارد.",
+  "why_it_matters": "أداة تحكم مركزية بوصول النماذج تهم فرق الهندسة التي تدير عدة نماذج ومفاتيح API عبر مؤسسات كبيرة، لضبط التكلفة والأمان.",
+  "original_text": "LangSmith LLM Gateway lets you govern model access across your org.\n\n🔒 Lock a key to permitted models, and every other model it tries to call gets blocked automatically.\n\nSee what happens when we allow one key to call Opus 5 only, then try Sonnet 5 with that same key. https://t.co/uV138gFtH7",
+  "glossary": [
+   {
+    "term": "Gateway",
+    "ar": "بوابة وصول"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "LangChain",
+   "LangSmith"
+  ],
+  "change_types": [
+   "New Feature",
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 24,
+   "replies": 10,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 11,
+   "views": 5292
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1452",
+  "serial": 1452,
+  "serial_display": "#001452",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2099571028649271462",
+  "source_native_id": "2099571028649271462",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-09-14T18:48:36Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل عملي لصنع مشاهد واقعية في Runway من الفكرة للمونتاج",
+  "arabic_summary": "ينشر Runway فيديو تعليميًا يشرح خطوات إنتاج مشاهد فائقة الواقعية باستخدام أدواته، بدءًا من كتابة القصة وتطوير الشخصية والملابس والمواقع، وصولًا إلى تقنية 'Burst' وصوت الشخصية والمونتاج النهائي.",
+  "detailed_explanation": "الفيديو التعليمي من Runway يقدم منهجية متكاملة لإنتاج مشاهد فيديو واقعية باستخدام أدوات الشركة، مقسّمة إلى مراحل واضحة: بناء القصة، تطوير الشخصية والملابس والموقع، ثم تقنية تسمى 'Burst method'، وصوت الشخصية، والمونتاج النهائي.\n\nما يميز هذا المحتوى أنه ليس مجرد عرض لقدرات الأداة بل شرح تطبيقي كامل لصانع المحتوى المرئي، مع الإشارة إلى توفر الـ prompts الكاملة والـ Skill المستخدم في الرابط المرفق، مما يجعله موردًا عمليًا لمن يريد تكرار نفس الأسلوب.",
+  "why_it_matters": "شرح عملي مفصل خطوة بخطوة لصنّاع الفيديو يوضح منهجية كاملة لاستخدام أداة توليد فيديو حقيقية، من القصة إلى المونتاج.",
+  "original_text": "Learn how to make ultra-realistic scenes in Runway. A full walkthrough, from initial story to final edit. Watch below.\n\n00:00 Intro\n00:26 Tell a good story\n01:42 Character development\n03:08 Wardrobe\n03:30 Location development\n03:48 The Burst method\n05:19 Character voice\n06:10 The battle\n07:12 Editing\n08:55 Outro\n\nFull prompts and skill available at the link below.",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "برومبت / توجيه نصي"
+   },
+   {
+    "term": "Skill",
+    "ar": "سكيل"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Runway"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 204,
+   "replies": 10,
+   "reposts": 17,
+   "quotes": 10,
+   "bookmarks": 328,
+   "views": 19327
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1453",
+  "serial": 1453,
+  "serial_display": "#001453",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2099583390882189823",
+  "source_native_id": "2099583390882189823",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-14T19:37:43Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شرح مصوّر لمفهوم Evals في تقييم أداء الوكلاء الذكية",
+  "arabic_summary": "يعرض LangChain فيديو تعليميًا مدته 38 دقيقة يشرح فيه أحد قادة الأبحاث في الشركة مفهوم Evals من الأساسيات وصولًا إلى التفاصيل المتقدمة، بما يشمل تعريف التقييم ومكوناته الأساسية.",
+  "detailed_explanation": "المحتوى عبارة عن جلسة تعليمية طويلة (38 دقيقة) يشرح فيها متخصص من فريق Labs في LangChain موضوع Evals بدءًا من السؤال الأساسي: هل أنجز الوكيل مهمته بشكل صحيح؟ وصولًا إلى مفاهيم أعمق حول بناء أنظمة تقييم.\n\nالمحتوى مهم لأن التقييم (Evaluation) يُعد من أكثر الجوانب إهمالًا عند بناء أنظمة وكلاء، وغيابه يجعل من الصعب معرفة ما إذا كانت التحسينات فعلًا تحسينات أم تراجعًا. مثل هذا الشرح موجه لمن يبني أنظمة agent إنتاجية ويحتاج منهجية واضحة لقياس الجودة.",
+  "why_it_matters": "فهم Evals أساسي لأي شخص يبني وكلاء ذكاء اصطناعي إنتاجية، لأنه المقياس الوحيد للتحقق من أن الوكيل يعمل فعلًا كما هو مطلوب.",
+  "original_text": "Watch @Vtrivedy10 take @businessbarista from easy mode to god mode on all things evals.",
+  "glossary": [
+   {
+    "term": "Evals",
+    "ar": "أنظمة تقييم الأداء"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 12,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 26,
+   "views": 6106
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "A few of my smartest friends in AI called me a \"idiot\" for not deeply understanding evals. \n\nSo...I found the smartest person I know on evals & made them teach me. \n\n@Vtrivedy10 (leads Labs at @LangChain) took me from easy mode to god mode for a 38-minute masterclass on all things evals. \n\nEasy Mode: what an eval actually is\n\nDefinition: did the AI agent do the job correctly?\n\nYou need two buildin"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1454",
+  "serial": 1454,
+  "serial_display": "#001454",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2099430845807317357",
+  "source_native_id": "2099430845807317357",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-14T09:31:33Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify تقارن أداة Web Fetch الخاصة بها بمنافسيها في فك الحجب",
+  "arabic_summary": "نشرت Apify مقارنة أداء لخدمة Apify Web Fetch مقابل أدوات فك حجب أخرى، باستخدام نفس المعايير والمواقع، وقياس التكلفة وزمن الاستجابة ونسبة النجاح.",
+  "detailed_explanation": "يعلن المنشور عن نشر مقارنة أداء (Benchmark) بين خدمة Apify Web Fetch وأدوات أخرى تقوم بنفس المهمة، وهي فك حجب المواقع أثناء عمليات الزحف الآلي.\n\nالمقارنة تعتمد على نفس مجموعة المواقع ونفس المعايير لضمان عدالة النتائج، وتقيس ثلاثة عناصر أساسية: التكلفة، وزمن الاستجابة (Latency)، ونسبة نجاح الطلبات.\n\nهذا النوع من المقارنات يهمّ مستخدمي Apify تحديدًا لأنه يوفر معلومة مقارنة مباشرة تساعد في اتخاذ قرار تقني بشأن أي أداة فك حجب تناسب مشروعهم، دون حاجة لإجراء الاختبار بأنفسهم.",
+  "why_it_matters": "يفيد من يستخدم Apify لمهام الزحف واستخلاص البيانات في تقييم أداء أداتها الخاصة بفك الحجب مقارنة بالبدائل قبل الاعتماد عليها.",
+  "original_text": "How does Apify Web Fetch stack up against other unblockers? Same benchmark, same sites - cost, latency, success rate.\n\nLink in thread ↓ https://t.co/Dh6Kh7NfnP",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار مقارن للأداء"
+   },
+   {
+    "term": "Latency",
+    "ar": "زمن الاستجابة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بيانات وتحليلات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 6,
+   "replies": 6,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 461
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "2099430845807317357",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1455",
+  "serial": 1455,
+  "serial_display": "#001455",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2099530026274189496",
+  "source_native_id": "2099530026274189496",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-14T16:05:40Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ربط Managed Deep Agent بسلاك لتشغيل الوكلاء من المحادثات",
+  "arabic_summary": "يمكن الآن ربط Managed Deep Agent من LangChain بـSlack، بحيث تشغّل الإشارات والرسائل المباشرة والردود في الخيوط تشغيلًا للوكيل، ويرد الوكيل مباشرة في نفس المحادثة.",
+  "detailed_explanation": "الميزة الجديدة تتيح لمستخدمي LangChain ربط الوكيل المُدار (Managed Deep Agent) مباشرة بمساحة عمل Slack، بحيث يمكن استدعاء الوكيل عبر الإشارة إليه (mention) أو الرسائل المباشرة أو الرد داخل خيط محادثة، ويستجيب الوكيل في نفس السياق المحادثي.\n\nهذا النمط من الدمج (New Integration) يعكس توجهًا عامًا في صناعة الوكلاء نحو جعلها جزءًا من أدوات العمل اليومية بدل واجهات مستقلة، مما يقلل الاحتكاك ويزيد من تبني الفرق لهذه الأنظمة في العمل الفعلي.",
+  "why_it_matters": "دمج الوكلاء داخل أدوات التواصل اليومية مثل Slack يقرّب الذكاء الاصطناعي من سير العمل الفعلي للفرق بدل حصره في واجهة منفصلة.",
+  "original_text": "PSA: You can connect a Managed Deep Agent to Slack.\n\nMentions, DMs, and thread replies all start a run. Your agent posts its response back in the same conversation.\n\nHere’s how to get started ⤵️ https://t.co/zurOLX8fTx",
+  "glossary": [
+   {
+    "term": "Managed Deep Agent",
+    "ar": "وكيل عميق مُدار"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "LangChain",
+   "Slack"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 21,
+   "replies": 10,
+   "reposts": 3,
+   "quotes": 2,
+   "bookmarks": 10,
+   "views": 13219
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "slack-deepagents",
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2099544287192953282"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1456",
+  "serial": 1456,
+  "serial_display": "#001456",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2099541479865938068",
+  "source_native_id": "2099541479865938068",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-09-14T16:51:11Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تعلن ندوة مباشرة لعرض ميزات Gemini Live الجديدة",
+  "arabic_summary": "دعت Google مستخدميها لحضور ندوة على Discord لعرض ميزات إنتاجية جديدة في Gemini Live مثل Daily Brief وGemini Spark وإدارة البريد الوارد بدون استخدام اليدين.",
+  "detailed_explanation": "أعلنت Google عن ندوة تفاعلية عبر Discord لعرض مجموعة ميزات إنتاجية جديدة أُضيفت مؤخرًا إلى Gemini Live، من بينها Daily Brief الذي يقدّم ملخصًا يوميًا، وGemini Spark، وميزة إدارة البريد الإلكتروني بدون استخدام اليدين عبر الأوامر الصوتية.\n\nهذه الميزات تندرج ضمن توجه Google لجعل Gemini مساعدًا صوتيًا شاملًا للمهام اليومية، وهو ما يهم مستخدمي Gemini الباحثين عن استغلال أقصى إمكانات الأداة في الإنتاجية الشخصية.",
+  "why_it_matters": "يكشف عن ميزات جديدة قيد الطرح في Gemini Live تهم مستخدمي الأداة الباحثين عن استخدامات إنتاجية عملية.",
+  "original_text": "Join our next Discord demo and Q&A to learn how to get more done with Gemini Live. \n\nYou’ll see demos of recent productivity upgrades like Daily Brief, Gemini Spark, hands-free inbox management, and more, so you can talk and let Gemini handle the rest.\n\n👉 Join the Discord to watch live: https://t.co/IAYiy1ZOzh\n📅 Tuesday, September 15 at 11:30am PT",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Gemini Live",
+   "Gemini Spark",
+   "Daily Brief"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 229,
+   "replies": 21,
+   "reposts": 20,
+   "quotes": 3,
+   "bookmarks": 24,
+   "views": 29225
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1457",
+  "serial": 1457,
+  "serial_display": "#001457",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2099533678783410572",
+  "source_native_id": "2099533678783410572",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-14T16:20:11Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Bolt Forge يطلق دعمًا لنماذج مفتوحة بلا حدود يومية",
+  "arabic_summary": "أطلقت Bolt ميزة Bolt Forge التي تدعم نماذج مفتوحة مثل GLM 5.3 Flash وKimi K3 وDeepSeek v4 Pro، مع زيادة الاستخدام حتى 50 ضعفًا وإزالة الحدود اليومية، مقابل سقف شهري واحد فقط. الخدمة متاحة مجانًا حتى منتصف أكتوبر.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعكس توجه أدوات البناء بالذكاء الاصطناعي نحو دعم النماذج المفتوحة بدل الاعتماد الحصري على نماذج مغلقة مثل OpenAI، مما يمنح المطورين خيارات أرخص وأكثر مرونة.",
+  "original_text": "Bolt just picked a side in the open vs closed model war. And it's not OpenAI's side.\n\nBolt Forge is live 👇\n\n→ GLM 5.3 Flash, Kimi K3, DeepSeek v4 Pro\n→ 50x more usage, zero daily limits\n→ No daily limits, just one monthly bar",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Bolt",
+   "Bolt Forge",
+   "GLM",
+   "Kimi K3",
+   "DeepSeek"
+  ],
+  "change_types": [
+   "New Feature",
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 17,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 3733
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Bolt Forge. Free until Oct 14th:\n\n- Up to 50x more usage\n- The new frontier: GLM, DeepSeek, Kimi\n- Zero usage charges\n \nLive now in your model picker on https://t.co/UH6gFfHvbp\n\nAnd one more thing... 👇 https://t.co/GnrbkRdzsg"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1458",
+  "serial": 1458,
+  "serial_display": "#001458",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2099413649492226376",
+  "source_native_id": "2099413649492226376",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-14T08:23:13Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "اختراق هندسة اجتماعية يستهدف Revolut عبر انتحال جهة حكومية",
+  "arabic_summary": "تعرضت شركة Revolut المالية لهجوم هندسة اجتماعية حيث استخدم المهاجم بريدًا إلكترونيًا ينتحل نطاقًا حكوميًا حقيقيًا لتجاوز إجراءات التحقق، ما أدى لتسريب بيانات حساسة لعملاء تشمل الأسماء وجوازات السفر وكشوفات الحسابات. المهاجمون بدؤوا بنشر جزء من البيانات ويهددون بالمزيد ما لم تدفع الشركة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح الحادث كيف أن الهندسة الاجتماعية عبر انتحال جهات رسمية لا تزال ثغرة فعالة رغم الإجراءات الأمنية التقنية، وهو درس عام في أمن البيانات لا يخص أداة AI بعينها.",
+  "original_text": "🚨 Revolut انخدع بطلب حكومي مزيف وسلّم بيانات حساسة لعملائه!\n\nبحسب التقارير، المهاجم استخدم بريد إلكتروني تابع لنطاق جهة حكومية حقيقية، وهذا كان كافيًا حتى يتجاوز إجراءات التحقق لدى Revolut.\n\nالبيانات اللي حصل عليها تشمل:\n\n• الأسماء وتواريخ الميلاد\n• أرقام التواصل\n• جوازات السفر\n• صور التحقق الشخصية\n• كشوفات الحساب\n• سجل المعاملات بالكامل، بما فيها معاملات Bitcoin\n\nوالأسوأ أن المهاجمين بدأوا بنشر جزء من البيانات على الإنترنت، ويهددون بنشر المزيد يوميًا إذا ما دفعت لهم Revolut.\n\nالشركة تقول إن عدد المتضررين محدود، وإن أنظمتها نفسها ما تم اختراقها، وأموال العملاء ما زالت آمنة.\n\nيعني الاختراق هنا ما كان تقنيًا بقدر ما كان هندسة اجتماعية: انتحال صفة جهة رسمية وإقناع الموظفين بتسليم البيانات.\n\nللي ما يعرف Revolut: \n\nهي شركة تقنية مالية بريطانية تقدم حسابات بنكية رقمية، بطاقات دفع، تحويل عملات، استثمار وتداول عملات رقمية من خلال تطبيق واحد. عليها ضجة لأنها من أشهر شركات الـFintech في أوروبا ويستخدمها ملايين العملاء حول العالم.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Revolut"
+  ],
+  "change_types": [
+   "Security",
+   "Outage / Incident"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 16,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 4053
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1459",
+  "serial": 1459,
+  "serial_display": "#001459",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2099626476433809819",
+  "source_native_id": "2099626476433809819",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-14T22:28:55Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "باحثون يستخدمون نماذج ذكاء اصطناعي لمحاولة فك لغة Linear A",
+  "arabic_summary": "نشر إيثان مولك تجربة يجعل فيها نموذجي Fable 5.1 Max وGPT-6 Astra Pro يتناقشان حول ترجمات مقترحة للغة الكريتية القديمة Linear A التي لم تُفكّ رموزها بعد. لم ينجح أي من النموذجين في حل اللغز، لكن العمل موثّق بالكامل على GitHub.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعرض استخدامًا بحثيًا غير تقليدي للنماذج اللغوية في فك الألغاز التاريخية، رغم عدم التوصل لنتيجة حاسمة.",
+  "original_text": "Having Fable 5.1 Max and GPT-6 Astra Pro argue with each other over proposed translations of the famously untranslated Minoan language Linear A. \n\n(Neither of them appear to have cracked it, for what its worth).\n\nAll the work so far at this Github:  https://t.co/CWEohvY3fc https://t.co/u9SfOkGbej",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Fable",
+   "GPT-6"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 136,
+   "replies": 12,
+   "reposts": 2,
+   "quotes": 2,
+   "bookmarks": 20,
+   "views": 12550
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [
+   "https://github.com/emollick/linear-A"
+  ],
+  "quoted": null,
+  "cluster_id": "linear-a-decode",
+  "also_reported": [
+   {
+    "author": "emollick",
+    "url": "https://x.com/emollick/status/2099333274648838155"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1460",
+  "serial": 1460,
+  "serial_display": "#001460",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2099543982980370446",
+  "source_native_id": "2099543982980370446",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-14T17:01:07Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخدام GPT-6 Astra مع Cline Desktop لبناء موقع 3D بأمر واحد",
+  "arabic_summary": "يعرض المنشور تجربة استخدام GPT-6 Astra مع تطبيق Cline Desktop مفتوح المصدر لبناء موقع ثلاثي الأبعاد يشرح الجهاز الهضمي البشري بمجرد prompt واحد. Cline Desktop واجهة أصلية للعمل مع نماذج مفتوحة الأوزان مثل DeepSeek وMusespark.",
+  "detailed_explanation": "",
+  "why_it_matters": "يظهر كيف يمكن دمج نماذج قوية مثل GPT-6 Astra مع أدوات مفتوحة المصدر لإنتاج محتوى تعليمي تفاعلي بسرعة كبيرة.",
+  "original_text": "GPT-6 Astra + Cline Desktop is absolutely crazy\n\nCreated a 3D website of Human Digestive System with just 1 prompt.\n\nThis will change learning forever...\n\nPS: Cline Desktop is the open source app for open weight models. https://t.co/1qlVCnzbaC",
+  "glossary": [
+   {
+    "term": "Open Weight Models",
+    "ar": "نماذج مفتوحة الأوزان"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "موقع وصفحة هبوط",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج",
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "GPT-6 Astra",
+   "Cline Desktop",
+   "DeepSeek"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 12,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 3263
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Cline Desktop - a native interface for working with open weights models.\n\nUse with ClinePass and all our free models like DeepSeek-V4.1-Flash, Musespark-1.3, or BYOK with any provider! https://t.co/7AZdHlVIa9"
+  },
+  "cluster_id": "gpt6-astra-cline",
+  "also_reported": [
+   {
+    "author": "CodeByPoonam",
+    "url": "https://x.com/CodeByPoonam/status/2099556935150485616"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1461",
+  "serial": 1461,
+  "serial_display": "#001461",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2099543890286284815",
+  "source_native_id": "2099543890286284815",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-09-14T17:00:45Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity تستخدم GPT-6 Astra في Codex لاختبار الكود",
+  "arabic_summary": "أعلنت OpenAI أن فريق Perplexity يستخدم GPT-6 Astra ضمن Codex لاختبار الكود من البداية للنهاية، حيث يبني أحد مهندسيها test harnesses ويحاكي استجابات APIs خارجية للتحقق من تكامل الأجزاء المختلفة.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي على استخدام Codex في اختبار البرمجيات الحقيقية، وهي أداة يستعملها كثير من المطورين مباشرة في عملهم اليومي.",
+  "original_text": "GPT-6 Astra in Codex is helping test code end to end at @perplexity_ai.\n\n@randomjohnnyh uses it to build test harnesses and mock third-party API responses, so he can check how the pieces work together. https://t.co/a0Iy4jDQys",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "GPT-6 Astra",
+   "Perplexity"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 85,
+  "metrics": {
+   "likes": 794,
+   "replies": 89,
+   "reposts": 50,
+   "quotes": 19,
+   "bookmarks": 132,
+   "views": 60763
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1462",
+  "serial": 1462,
+  "serial_display": "#001462",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleDeepMind/status/2099575049929802053",
+  "source_native_id": "2099575049929802053",
+  "source_name": "Google DeepMind",
+  "source_site": "x.com",
+  "author": "GoogleDeepMind",
+  "published_at": "2026-09-14T19:04:34Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "DeepMind يطلق WeatherNext 3 للتنبؤ بالطاقة المتجددة",
+  "arabic_summary": "أطلقت Google DeepMind نموذج WeatherNext 3 الذي يقدّم توقعات دقيقة لسرعة الرياح عند ارتفاع التوربينات وشدة الإشعاع الشمسي، ما يساعد مشغّلي الشبكات ومنتجي طاقة الرياح والشمس على تخطيط أفضل.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمثل تطبيقًا عمليًا لنماذج الذكاء الاصطناعي في تحسين التخطيط لمصادر الطاقة المتجددة، وهو مجال بعيد عن أدوات عزيز لكنه ذو أثر مجتمعي واضح.",
+  "original_text": "Weather forecasts play a critical role in the transition to renewables.\n\nWeatherNext 3 provides grid operators as well as wind and solar power producers with predictions for turbine-height wind speeds and solar radiation, enabling smarter, cleaner energy planning. 🧵",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "WeatherNext 3",
+   "Google DeepMind"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 294,
+   "replies": 44,
+   "reposts": 43,
+   "quotes": 4,
+   "bookmarks": 40,
+   "views": 29357
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1463",
+  "serial": 1463,
+  "serial_display": "#001463",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2099484647453491431",
+  "source_native_id": "2099484647453491431",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-14T13:05:21Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مجموعة Prompts لاستخدام Claude كمدرّب مهني لتحسين السيرة الذاتية",
+  "arabic_summary": "يقدّم المنشور سلسلة من الـPrompts الجاهزة لاستخدام Claude في تدقيق السيرة الذاتية وكتابة ملخص مهني وتحسين صياغة النقاط وتحويل المهام الوصفية إلى إنجازات مقيسة بالأرقام.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعطي طريقة عملية جاهزة لاستخدام Claude في مهمة يومية شائعة (تحسين السير الذاتية) دون الحاجة لخبرة مسبقة في كتابة الـPrompts.",
+  "original_text": "CLAUDE CAN NOW TURN A MESSY RESUME INTO A RECRUITER MAGNET IN UNDER 5 MINUTES.\n\nSave these prompts to use Claude as your career coach👇\n\n1. The Brutal Audit\nstart by finding out why you're getting rejected.\n\nPrompt: 'Act as a senior [INDUSTRY] recruiter who screens 200+ resumes a day for [JOB TITLE] roles.\nReview my resume and tell me exactly why you'd reject it in the first 7 seconds. Be brutally honest. List the top 5 problems, ranked by how much they hurt my chances. [PASTE RESUME]'\n-----------------------\n2. The Summary Generator\nthe top 3 lines decide if they keep reading. nail them.\n\nPrompt: 'Write 3 versions of a professional summary for a [JOB TITLE] role.\nOne confident, one results-focused, one story-driven. Each under 3 sentences. Make a hiring manager want to keep reading.\nExperience: [X YEARS] in [FIELD]\nStrengths: [STRENGTH 1], [STRENGTH 2], [STRENGTH 3]'\n-----------------------\n3 The Weak Verb Killer\nkill the boring language that makes recruiters scroll past.\n\nPrompt: 'Rewrite every bullet point using this formula: strong action verb + what I did + measurable result.\nWherever a number is missing, mark it [ADD METRIC] and tell me what would strengthen it.\nMy role: [JOB ",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 31,
+   "replies": 10,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 39,
+   "views": 4269
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1464",
+  "serial": 1464,
+  "serial_display": "#001464",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2099647631870001323",
+  "source_native_id": "2099647631870001323",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-09-14T23:52:59Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تخفض أسعار الصوت في Codex والتطبيق المكتبي 60%",
+  "arabic_summary": "أعلنت OpenAI عن زيادة استخدام ChatGPT Voice في تطبيق سطح المكتب بمقدار 2.4 ضعف، مع خفض أسعار الصوت في Codex والتطبيق المكتبي بنحو 60%.",
+  "detailed_explanation": "",
+  "why_it_matters": "تخفيض الأسعار يجعل استخدام الصوت في Codex أرخص وأكثر جدوى للمطورين الذين يستعملون هذه الأداة يوميًا في عملهم.",
+  "original_text": "RT @athyuttamre: ⚡️ 2.4x more ChatGPT Voice in Desktop\n\nWe've dropped prices by ~60% for voice in Codex and Work in the desktop app, giving…",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "صوت",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 31,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 3353
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1465",
+  "serial": 1465,
+  "serial_display": "#001465",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2099603019012755469",
+  "source_native_id": "2099603019012755469",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-14T20:55:43Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub يحدّث صفحة طلبات السحب بفلترة وشريط جانبي قابل للطي",
+  "arabic_summary": "أعلن GitHub عن تحديثات على صفحة pull requests في المستودعات، تشمل فلترة محسّنة وشريطًا جانبيًا قابلًا للطي ووضع عرض مضغوط للمزيد من التفاصيل في مساحة أصغر.",
+  "detailed_explanation": "",
+  "why_it_matters": "تحسينات مباشرة في تجربة استخدام GitHub اليومية للمطوّرين الذين يديرون طلبات السحب.",
+  "original_text": "Check out the latest updates to the repository pull requests page. ✨\n\n@madebygps shows the improved filtering, collapsible sidebar, compact presentation mode, and more. https://t.co/Xj4nbN43vw",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Feature",
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 56,
+   "replies": 13,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 21431
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1466",
+  "serial": 1466,
+  "serial_display": "#001466",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2099633231310283260",
+  "source_native_id": "2099633231310283260",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-09-14T22:55:46Z",
+  "fetched_at": "2026-09-15T00:28:05Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Gemini Live يدمج ميزة Deep Research للبحث الصوتي المعمّق",
+  "arabic_summary": "أعلنت Google دمج ميزة Deep Research مع Gemini Live، مما يتيح للمستخدم استكشاف موضوع معيّن بعمق باستخدام صوته فقط أثناء المحادثة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوسّع قدرات البحث الصوتي في Gemini بحيث يمكن إجراء أبحاث معمّقة بالتحدث فقط دون كتابة.",
+  "original_text": "RT @Google: Deep Research 🤝  Gemini Live.\n\nUse your voice to explore a topic — in depth — with Gemini Live's Deep Research integration.\n\n1.…",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Gemini Live",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 32,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 4066
+  },
+  "metrics_captured_at": "2026-09-15T00:28:05Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini-live-deep-research",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
