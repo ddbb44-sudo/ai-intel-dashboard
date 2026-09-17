@@ -1,0 +1,2009 @@
+[
+ {
+  "id": "c1519",
+  "serial": 1519,
+  "serial_display": "#001519",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAI/status/2100344867507327087",
+  "source_native_id": "2100344867507327087",
+  "source_name": "OpenAI",
+  "source_site": "x.com",
+  "author": "OpenAI",
+  "published_at": "2026-09-16T22:03:33Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تنشر إطار عمل جديد للإفصاح عن سلوكيات النماذج المنحرفة",
+  "arabic_summary": "أعلنت OpenAI عن إطار عمل جديد لتتبع وتحقيق والإفصاح علنًا عن حالات الانحراف السلوكي (misalignment) في نماذجها، مع معايير وجداول زمنية للإفصاح حتى قبل حلّ المشكلة بالكامل. نشرت الشركة أيضًا ستة تقارير عن سلوكيات منحرفة رُصدت خلال الأشهر الستة الماضية أثناء التدريب أو التقييم.",
+  "detailed_explanation": "تعلن OpenAI عن إطار عمل رسمي لتتبع حالات «الانحراف» (misalignment) في سلوك نماذجها، والتحقيق فيها، والإفصاح عنها علنًا، مع تحديد معايير وجداول زمنية للإفصاح حتى في الحالات التي لم تُفسَّر أو تُعالَج بالكامل بعد. تشير الشركة إلى أن بعض الحالات المعقدة قد تتطلب تحقيقًا أطول أو تنسيقًا مع أطراف خارجية.\n\nستُعطى الأولوية في النشر للحالات التي تكشف عن آليات انحراف جديدة، أو تغيّرات مهمة في سلوكيات معروفة، أو نتائج تتحدى افتراضات سابقة حول السلامة أو طرق التخفيف من المخاطر. ونشرت الشركة إلى جانب الإطار ستة تقارير عن حالات انحراف سلوكي لاحظتها خلال تدريب أو تقييم نماذجها في الأشهر الستة الأخيرة، معتبرة أن هذه بداية لعملية ستتطور مع الوقت وردود الفعل العامة.",
+  "why_it_matters": "خطوة شفافية غير معتادة من شركة نماذج كبرى تكشف عن مشكلات أمان النماذج بدل إخفائها، ما يفيد كل من يبني على هذه النماذج في فهم حدودها.",
+  "original_text": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI.\n\nThe framework sets criteria and timelines for public disclosure, including when we haven’t yet fully explained or mitigated the behavior. More complex cases may require longer investigation or coordination with third parties.\n\nWe’ll prioritize examples that reveal new misalignment mechanisms, meaningful changes in known behavior, or findings that challenge assumptions about safety or mitigation.\n\nAlongside the framework, we’re publishing six reports on instances of misaligned behavior we’ve observed during the training or evaluation of our models in the last six months.\n\nThis is a starting point. We’ll refine the process through experience and public feedback, and share more reports on an ongoing basis.\n\nhttps://t.co/ismCCkeE0L",
+  "glossary": [
+   {
+    "term": "Misalignment",
+    "ar": "الانحراف عن الهدف المقصود"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 99,
+  "metrics": {
+   "likes": 2162,
+   "replies": 209,
+   "reposts": 212,
+   "quotes": 116,
+   "bookmarks": 724,
+   "views": 555601
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1520",
+  "serial": 1520,
+  "serial_display": "#001520",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2100269017977987341",
+  "source_native_id": "2100269017977987341",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-16T17:02:09Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude يدمج Cowork والمحادثة العادية في واجهة واحدة",
+  "arabic_summary": "أعلنت Anthropic دمج Claude Cowork مع واجهة المحادثة العادية في تجربة موحّدة. يمكن طرح سؤال سريع أو تسليم مهمة كاملة، ويتابعها Claude حتى بعد إغلاق الجهاز، مع سؤال المستخدم عند الغموض. يبدأ الطرح تدريجيًا لمشتركي Pro وMax خلال الأسابيع القادمة.",
+  "detailed_explanation": "حتى الآن كان المستخدمون يتنقلون بين تبويب محادثة عادية وتبويب Cowork المخصص للمهام الأطول والمستقلة. الدمج الجديد يلغي هذا الفصل، بحيث تصبح واجهة واحدة تتعامل مع الاستفسارات السريعة والمهام الممتدة على حد سواء.\n\nالميزة الأهم هي استمرار Claude في تنفيذ المهمة حتى بعد إغلاق المستخدم للجهاز، مع قدرته على طرح أسئلة توضيحية عند الحاجة، بينما يحتفظ المستخدم بالقرار النهائي. هذا يقرّب Claude من نموذج الوكيل المستقل (autonomous agent) أكثر من كونه مجرد محادثة تفاعلية.\n\nالطرح تدريجي لمشتركي الخطط المدفوعة (Pro وMax) على مدى الأسابيع المقبلة، وهذا يعني أن عزيز، إن كان مشتركًا في إحدى هاتين الخطتين، سيرى هذا التغيير مباشرة في طريقة استخدامه اليومي لـ Claude.",
+  "why_it_matters": "إنهاء الفصل بين وضعي الدردشة والعمل المستقل يبسّط استخدام Claude كوكيل ينفّذ مهامًا طويلة دون إشراف مستمر، وهذا يمسّ طريقة عمل من يعتمد على Claude فعليًا.",
+  "original_text": "THEY DID IT\n\nTHE END OF THE TABS ERA IS UPON US",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic",
+   "Claude Cowork"
+  ],
+  "change_types": [
+   "New Feature",
+   "Upgrade"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 1345,
+   "replies": 28,
+   "reposts": 28,
+   "quotes": 0,
+   "bookmarks": 285,
+   "views": 292936
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Claude Cowork and chat are merging into one Claude.\n\nAsk a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. If something's unclear, Claude asks—you keep the final say.\n\nRolling out to Pro and Max over the next few weeks. https://t.co/87HC2lUjxG"
+  },
+  "cluster_id": "claude-cowork-merge",
+  "also_reported": [
+   {
+    "author": "claudeai",
+    "url": "https://x.com/claudeai/status/2100258490740539730"
+   },
+   {
+    "author": "smalkalbani",
+    "url": "https://x.com/smalkalbani/status/2100273336572129706"
+   },
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2100261997463879775"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1521",
+  "serial": 1521,
+  "serial_display": "#001521",
+  "source_type": "x",
+  "source_url": "https://x.com/trq212/status/2100315535758217422",
+  "source_native_id": "2100315535758217422",
+  "source_name": "Thariq",
+  "source_site": "x.com",
+  "author": "trq212",
+  "published_at": "2026-09-16T20:07:00Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: صناديق العزل وحدها لم تعد كافية لاستدعاء الأدوات",
+  "arabic_summary": "يعلّق أحد المتخصصين قائلًا إن bash لم تعد الحل الكافي وحدها إن كان الهدف مجرد استدعاء أدوات (Tool Calling) بشكل موثوق، لكنها تبقى مفيدة مع صناديق العزل (Sandboxes) للمهام التي تشمل توليد الكود وتنفيذه. يأتي هذا ردًا على رأي يفضّل MCP على CLI لمعظم عمليات الدمج.",
+  "detailed_explanation": "الخيط يناقش سؤالًا معماريًا مهمًا لمن يبني أنظمة وكلاء (Agents): هل الأفضل استدعاء الأدوات عبر سطر أوامر (CLI) وbash، أم عبر بروتوكول MCP المخصص لهذا الغرض؟ الرأي المقتبس يذهب إلى أن MCP أصبح أفضل لمعظم عمليات الدمج لأن النماذج تحسّنت في استدعاء الأدوات (Tool Calling)، وأن MCP أصبح بلا حالة (Stateless) الآن.\n\nالتعليق يضيف تمييزًا: bash وصناديق العزل (Sandboxes) تبقى ضرورية حين يكون العمل نفسه يتضمن توليد كود وتنفيذه فعليًا، لا مجرد استدعاء أداة جاهزة. أي أن الاختيار بين الطريقتين يعتمد على طبيعة المهمة: استدعاء أدوات محددة مقابل تنفيذ كود حر.\n\nهذا النقاش يهم مباشرة كل من يصمم بنية وكلاء أو يقرر كيف تتواصل نماذجه مع الأنظمة الخارجية، لأنه يمسّ قرارًا معماريًا أساسيًا في هذا المجال.",
+  "why_it_matters": "يعكس نقاشًا فنيًا متطورًا حول أفضل بنية لربط النماذج بالأدوات الخارجية، وهو قرار معماري يؤثر في تصميم أي وكيل ذكاء اصطناعي.",
+  "original_text": "related to this- I think bash is no longer all you need, if your goal is just reliably tool calling\n\nbut sandboxes + bash are still good for work that involves code generation &amp; execution",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات"
+   },
+   {
+    "term": "Tool Calling",
+    "ar": "استدعاء الأدوات"
+   },
+   {
+    "term": "Sandbox",
+    "ar": "بيئة معزولة للتنفيذ الآمن"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "MCP",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "MCP"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 252,
+   "replies": 35,
+   "reposts": 8,
+   "quotes": 2,
+   "bookmarks": 108,
+   "views": 43424
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations. \n\nThe models have gotten much better at tool calling, we can defer tools &amp; MCP is now stateless.\n\nIf you need to compose/filter data, add params like query to your MCP tools."
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1522",
+  "serial": 1522,
+  "serial_display": "#001522",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2100246695766307171",
+  "source_native_id": "2100246695766307171",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-16T15:33:27Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مدراء يرصدون تداخل الأدوار الوظيفية بسبب انتشار الذكاء الاصطناعي",
+  "arabic_summary": "يشير الباحث إيثان مولك إلى أنه يسمع من كبار المدراء عن تلاشي الحدود بين الوظائف داخل الشركات؛ فالبرمجة والتصميم وإدارة المنتج تتداخل وتتراكب مع استخدام الجميع للذكاء الاصطناعي. يستند إلى نفس النمط الذي لاحظته دراسة P&G سابقًا.",
+  "detailed_explanation": "الملاحظة مبنية على محادثات مباشرة مع كبار المدراء التنفيذيين، حيث يصف مولك ظاهرة تكرر ملاحظتها: الفصل التقليدي بين وظائف البرمجة والتصميم وإدارة المنتج بدأ يتلاشى، لأن كل موظف بات قادرًا على القيام بأجزاء من مهام الآخرين بمساعدة الذكاء الاصطناعي.\n\nيربط هذا بدراسة سابقة أجرتها شركة P&G توصلت لنتيجة مشابهة، مما يعطي الملاحظة ثقلًا أكبر من كونها انطباعًا فرديًا. الخلاصة التي يطرحها أن نماذج تنظيم العمل التقليدية (الفرق المنفصلة، الأدوار الواضحة) لم تعد تناسب هذا الواقع، وأن الشركات بحاجة لابتكار طرق جديدة لتنظيم العمل بسرعة تواكب التغيير.\n\nهذا يهم كل من يدير فرقًا أو يفكر في هيكلة مشاريع تعتمد على أدوات الذكاء الاصطناعي، لأنه يفتح سؤالًا عمليًا حول من يقوم بماذا حين تتقارب المهارات.",
+  "why_it_matters": "يشير إلى حاجة الشركات لإعادة تصميم هيكلة العمل والأدوار الوظيفية بسرعة مع تعمّم استخدام أدوات الذكاء الاصطناعي.",
+  "original_text": "When I talk to senior managers, increasingly hearing stories of the blurring of jobs inside organizations (we found this at our P&amp;G study as well): coding, design, product management, all collapsing &amp; overlapping as everyone uses AI\n\nWe need new models for organizing work, fast. https://t.co/SGDOkRWU8J",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "P&G"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 543,
+   "replies": 48,
+   "reposts": 62,
+   "quotes": 7,
+   "bookmarks": 348,
+   "views": 45731
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1523",
+  "serial": 1523,
+  "serial_display": "#001523",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2100297377537982751",
+  "source_native_id": "2100297377537982751",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-16T18:54:51Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Rene: وكيل استباقي عبر iMessage يشبه صديقًا",
+  "arabic_summary": "أُطلق Rene، وكيل ذكاء اصطناعي يعمل عبر iMessage بلا تطبيق أو تسجيل، يقرأ التقويم والبريد ويبادر بالحديث حين يستحق الأمر بدل انتظار الطلب. يمكنه تصفح الإنترنت وكتابة الكود والتسوق وإنشاء المواقع والشرائح والصور.",
+  "detailed_explanation": "يقدّم Rene نفسه كوكيل عبر منصة iMessage المألوفة، بلا حاجة لتحميل تطبيق أو التسجيل، ويعمل وكأنه شخص حقيقي في قائمة جهات الاتصال. الميزة الأساسية أنه يقرأ التقويم وصندوق البريد باستمرار ويقرر بنفسه متى يستحق التدخل، بدل أن ينتظر المستخدم يسأله.\n\nمن الأمثلة الواردة في المنشور: تنبيه المستخدم صباحًا لأن مسودة نشرته الإخبارية ما زالت تحتوي على نص عنصر نائب قبل موعد إرسالها لآلاف المشتركين. هذا يوضح فكرة الوكيل الذي يراقب سياق العمل الفعلي لا مجرد الرد على أسئلة.\n\nالخبر لا يمس أداة من أدوات عزيز المباشرة، لكنه يمثل اتجاهًا عامًا مهمًا في عالم الوكلاء، وهو الانتقال من الدردشة التفاعلية إلى المراقبة الاستباقية للسياق.",
+  "why_it_matters": "يمثل نمطًا جديدًا من الوكلاء الاستباقيين (proactive agents) الذين يبادرون بالتنبيه بدل انتظار أوامر المستخدم، وهو اتجاه مهم في تطور مساعدات الذكاء الاصطناعي.",
+  "original_text": "This is how AI assistants should have worked from the beginning\n\nInstead of waiting for me to open it and ask, it reads my calendar and inbox and only speaks up when it's worth it\n\nRene texted me first this morning: my newsletter draft still said \"INSERT TOOL HERE,\" and it ships tomorrow to 40k people",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Rene"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 18,
+   "replies": 7,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 3163
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Today we're launching Rene.\n\nA multiplayer-first iMessage agent you text like a friend.\n\nIt has a browser, writes code, goes shopping, ships sites, makes slides and images. Not much it can’t do.\n\nIt's been in my texts for four months. It found me a new office, preps me for every meeting, and polls the team for dinner options.\n\nNo app or signup. Link below👇"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1524",
+  "serial": 1524,
+  "serial_display": "#001524",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2100233342494925257",
+  "source_native_id": "2100233342494925257",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-16T14:40:23Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دراسة: معايير قياس الذكاء الاصطناعي العامة ممتلئة بأخطاء",
+  "arabic_summary": "يقول إيثان مولك إن حالة الاختبارات المعيارية (Benchmarks) العامة سيئة، إذ وصلت أشهر المقاييس لحد التشبع، بينما المقاييس غير المشبعة مليئة بأخطاء كثيرة، وفق دراسة يشير إليها. هذا يجعل قدرات الذكاء الاصطناعي الحقيقية مقلَّلة التقدير بشكل كبير.",
+  "detailed_explanation": "النقطة المحورية أن أدوات القياس التقليدية (Benchmarks) التي يُعتمد عليها لمقارنة أداء النماذج أصبحت غير موثوقة بطريقتين: الأولى أن المعايير الشهيرة وصلت لحد التشبّع، أي أن النماذج الحديثة تحقق فيها درجات قريبة من الكمال ولم تعد تميّز بينها. الثانية، وهي الأخطر بحسب الدراسة المشار إليها، أن المعايير الأقل شهرة وغير المشبعة تحتوي أخطاء كثيرة في تصميمها أو بياناتها، ما يجعلها تقلل تقدير القدرة الفعلية للنماذج.\n\nالنتيجة العملية أن أي حكم يُبنى فقط على أرقام Benchmarks عامة قد يكون مضللًا، سواء بالمبالغة (تشبع) أو بالتقليل (أخطاء). هذا مهم لكل من يتابع سباق النماذج أو يتخذ قرارات شراء وتبني بناءً على نتائج هذه الاختبارات.",
+  "why_it_matters": "يهدد موثوقية الطريقة التي تُقارن بها قدرات النماذج، مما يعني أن الأرقام المعلنة قد لا تعكس القدرة الفعلية.",
+  "original_text": "The state of public AI benchmarking is dire and is undermining our ability to understand how good AI is now.\n\nMost famous measures are maxed out, and, as this paper shows, the non-saturated benchmarks are riddled with so many errors that they vastly underestimate AI abilities. https://t.co/QvJ0Nxt13O",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار معياري"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 250,
+   "replies": 31,
+   "reposts": 21,
+   "quotes": 4,
+   "bookmarks": 56,
+   "views": 16157
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1525",
+  "serial": 1525,
+  "serial_display": "#001525",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2100213726070669691",
+  "source_native_id": "2100213726070669691",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-09-16T13:22:27Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "الصين تكشف عن طائرة تجسس تحت الماء بشكل سمكة",
+  "arabic_summary": "كشفت الصين عن مسيّرة مراقبة تحت الماء تحاكي شكل وحركة سمكة الأروانا باستخدام ذيل مرن بدل المروحة لتفادي الكشف الصوتي. تعمل ذاتيًا لخمس ساعات وتستخدم السونار للتنقل على عمق يصل إلى خمسة أمتار، وهو العمق الذي توجد فيه الموانئ والكابلات والسدود.",
+  "detailed_explanation": "يصف المنشور مسيّرة (drone) صينية جديدة مصممة للمراقبة تحت الماء، تعتمد على تصميم مستوحى من الأسماك بدل المراوح التقليدية، حيث يتكوّن نظام الدفع من ذيل مرن بثلاثة مفاصل، وهو خيار هندسي متعمّد لتقليل الضجيج الذي تسببه المراوح والذي يسهّل كشف المسيّرات التقليدية.\n\nتعمل المسيّرة ذاتيًا لنحو خمس ساعات وتعتمد على السونار للملاحة، وتقتصر على عمق خمسة أمتار فقط، وهو ما يبدو قيدًا لكنه في الواقع يغطي بالضبط العمق الذي توجد فيه البنية التحتية الحساسة كالموانئ والكابلات والسدود. كما يمكن نشر مجموعات منها (سرب) في الموانئ لتوزيع المهام في ما بينها، وقد صُممت لتشبه سمكة الأروانا التي تعد رمز ثروة في الصين، ما يمنحها تمويهًا إضافيًا.",
+  "why_it_matters": "مثال على استخدام التصميم الحيوي في الروبوتات العسكرية للتخفي، ويعكس تطورًا في تقنيات المراقبة تحت الماء.",
+  "original_text": "China just revealed a surveillance drone that looks and moves like a real fish\n\nInstead of a propeller, it's basically a bendy tail with three joints\n\nthat's an important design choice, because underwater drones often get detected by the sound of their propellers\n\nIt runs autonomously for about five hours and uses sonar to navigate\n\nIt only goes five meters deep which sounds like a limitation, until you realize that's exactly where the valuable ports, cables and dams are.\n\nAnd you can drop a whole swarm into a harbor, and they split it up between themselves, like a robot spy gang lmao\n\nthey made it look like an arowana fish which is basically the fish rich people in China keep as a status symbol\n\nso the spy is disguised as a rich guy's pet ol\n\nhonestly can't tell if this is the coolest or the creepiest thing I've seen this month.",
+  "glossary": [
+   {
+    "term": "Drone",
+    "ar": "مسيّرة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 82,
+   "replies": 7,
+   "reposts": 11,
+   "quotes": 0,
+   "bookmarks": 32,
+   "views": 12669
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "JUST IN: 🇨🇳 China unveils autonomous robotic fish for underwater surveillance. https://t.co/Gk3Zl4l5ZG"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1526",
+  "serial": 1526,
+  "serial_display": "#001526",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2100262458145255599",
+  "source_native_id": "2100262458145255599",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-09-16T16:36:05Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: منصات الوكلاء العامة تتنافس على السيطرة على حاسوبك",
+  "arabic_summary": "الكاتب يستعرض ظهور «منصات وكلاء عامة» تتيح للـ Agent التحكم بالحاسوب وربط التطبيقات وتشغيل مهام تلقائية، بعضها ضمن اشتراكات موجودة مثل Codex وClaude، وبعضها يمنح الوصول لكل النماذج أو يفرض نموذجًا واحدًا. يشير إلى أن الانتقال بين هذه المنصات يصبح مكلفًا بعد التبنّي.",
+  "detailed_explanation": "المنشور يقدّم قراءة شخصية لمسار تطوّر «منصات الوكلاء العامة» General Agent Platforms خلال العام، بدءًا من منتج أول أعطى الوكيل سيطرة كاملة على الحاسوب، وصولًا إلى تعدّد المنصات التي تختلف في طريقة عملها: بعضها يعمل داخل السحابة وبعضها على جهاز المستخدم، وبعضها مدمج ضمن اشتراكات موجودة كـ Codex وClaude بينما تمنح أخرى حرية اختيار النموذج أو تفرض نموذجًا واحدًا فقط.\n\nالنقطة الجوهرية هي ملاحظة الكاتب عن ارتفاع تكلفة التبديل (switching cost) بعد اعتماد منصة معينة كنقطة انطلاق رئيسية، خصوصًا في سياقات الأعمال، وهو ما يجعله حذرًا تجاه تبني أي منصة جديدة رغم اعترافه بأهمية التجربة العملية لفهم اتجاه هذا المجال.",
+  "why_it_matters": "يرصد اتجاهًا يتشكّل في بنية الوكلاء العامة، وتحذيرًا من تكلفة التبديل بينها قبل أن تنضج السوق.",
+  "original_text": "2026 has been an insane year so far...\n\nOpenClaw really was the product of the year, even though most people have since migrated away from it.\n\nOpenClaw was the first viral product that gave an agent free rein over a computer.\n\nSince then, we've seen all types of \"general agent platforms\" launch, each operating slightly differently.\n\nEach lets you interact with an agent that can access your apps (plugins), run tasks automatically (routines/crons), and most importantly, use a computer.\n\nThat computer is either in the cloud or it's your own...\n\nAnd some of these platforms let you connect agents to apps you already use, like iMessage, Slack, Telegram, email, and more.\n\nSome are included in your subsidized subscription (Codex and Claude).\n\nSome give you access to all the models (Hermes and Viktor).\n\nAnd some give you no choice of model (Instinct).\n\nBut they all have one thing in common: once you make one your main setup, switching costs get high. Especially in business.\n\nFor this reason I have trust issues, when trying these new platforms. However, to develop instincts on the agent space as a whole, I think experimentation is essential. I've used all of these products, trying to figure",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   },
+   {
+    "term": "Switching cost",
+    "ar": "تكلفة التبديل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 60,
+   "replies": 20,
+   "reposts": 3,
+   "quotes": 1,
+   "bookmarks": 19,
+   "views": 7173
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1527",
+  "serial": 1527,
+  "serial_display": "#001527",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2100255843140698447",
+  "source_native_id": "2100255843140698447",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-16T16:09:48Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "BrowserSkill: أداة مفتوحة المصدر تربط Claude Code بمتصفحك الحقيقي",
+  "arabic_summary": "أطلقت Tencent أداة BrowserSkill مفتوحة المصدر برخصة MIT، تتيح لـ Claude Code أو Codex أو Cursor استخدام جلسة المتصفح الحالية للمستخدم بدل بدء جلسة منفصلة، مع إعادة التحكم للمستخدم عند ظهور CAPTCHA أو تأكيد يحتاج تدخلًا بشريًا. تعمل محليًا عبر CLI وإضافة متصفح.",
+  "detailed_explanation": "بدل أن يفتح الوكيل متصفحًا جديدًا يحتاج تسجيل دخول من الصفر، تستعير BrowserSkill تبويبًا من متصفح المستخدم الفعلي بإذنه، فتنفذ المهمة بالجلسة القائمة ثم تعيد التبويب.\n\nالأداة مصممة كأداة CLI لا كخادم MCP، ما يعني أن أي Agent قادر على تشغيل أوامر Shell يمكنه استخدامها، وهذا يوسّع توافقها مع أدوات مختلفة مثل Claude Code وCodex وCursor.\n\nكونها تمس Claude Code تحديدًا وهو أداة ضمن قائمة أدوات عزيز، فإن طريقة عملها وتوفرها مفتوحة المصدر تجعلها ذات فائدة تطبيقية مباشرة لمن يبني مهام أتمتة متصفح.",
+  "why_it_matters": "حل مشكلة عملية شائعة وهي أن أدوات الوكلاء تبدأ من متصفح فارغ بلا تسجيل دخول، وهذا يوفر وقتًا ويقلل الاحتكاك عند أتمتة مهام تتطلب حسابات مسجلة الدخول.",
+  "original_text": "الان  Claude Code يقدر الآن يستخدم متصفحك الحقيقي وهو مسجل دخولك.\nال Tencent أطلقت BrowserSkill مفتوح المصدر.\nالفكرة بسيطة ومفيدة\nClaude Code أو Codex أو Cursor يقدر يستخدم جلسة متصفحك الحالية بدل ما تبدأ من جلسة منفصلة كل مرة.\nيستعير Tab بإذنك  ينفذ المهمة  ثم يعيده لك.\n\nوإذا ظهر CAPTCHA أو تأكيد يحتاج تدخل بشري، يرجع التحكم لك ثم يكمل.\n\nالتثبيت داخل Claude Code مباشر، وكل شيء يعمل محليا عبر CLI + Extension.\n\nوالأداة مفتوحة المصدر برخصة MIT.\n\nالفيديو يشرح الفكرة وطريقة التركيب خلال 30 ثانية.",
+  "glossary": [
+   {
+    "term": "CLI",
+    "ar": "واجهة سطر الأوامر"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Tencent",
+   "Claude Code",
+   "Codex",
+   "Cursor",
+   "BrowserSkill"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 31,
+   "replies": 0,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 25,
+   "views": 3263
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We open sourced BrowserSkill, a bridge between your agent and your actual browser.\n\nmost tools give the agent a blank browser. We let it borrow a tab from yours, then hand it back.\n\n> login state is already there, it just works where you're signed in\n> captchas and confirmation dialogs come back to you, then it continues\n> it's a CLI, not an MCP server => any agent that can run a shell can use it,"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1528",
+  "serial": 1528,
+  "serial_display": "#001528",
+  "source_type": "x",
+  "source_url": "https://x.com/trq212/status/2100270818433643000",
+  "source_native_id": "2100270818433643000",
+  "source_name": "Thariq",
+  "source_site": "x.com",
+  "author": "trq212",
+  "published_at": "2026-09-16T17:09:18Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يولّد مستندات وعروضًا كملفات قابلة للمشاركة",
+  "arabic_summary": "أصبح بإمكان Claude Code إنشاء مستندات وعروض تقديمية كـ artifacts يمكن مشاركتها مع الفريق للتعاون عليها. مثال الاستخدام: طلب إعداد مواصفة كمستند، مشاركتها للحصول على ملاحظات، ثم تنفيذها فور جاهزيتها.",
+  "detailed_explanation": "الميزة الجديدة تدمج إنتاج المستندات والعروض التقديمية داخل بيئة Claude Code نفسها، بحيث تخرج هذه المخرجات كـ artifacts قابلة للمشاركة والتعاون، لا فقط كنصوص داخل المحادثة.\n\nسيناريو الاستخدام الموضّح عملي: يطلب المطور من Claude إعداد مواصفة تقنية (spec) كمستند، يشاركها مع زملائه لأخذ ملاحظاتهم، وبعد الاتفاق يطلب من Claude تنفيذها فعليًا في الكود. هذا يربط حلقة التخطيط والتوثيق والتنفيذ ضمن أداة واحدة بدل التنقّل بين برامج منفصلة.\n\nهذا يهم مباشرة مستخدمي Claude Code في فرق العمل التقنية، لأنه يوسّع دور الأداة من مساعد كتابة كود إلى وسيط في عملية تطوير جماعية تشمل التواصل والمراجعة.",
+  "why_it_matters": "يحوّل Claude Code من أداة برمجة فردية إلى جزء من دورة عمل جماعية تشمل التوثيق والتواصل مع الفريق، لا الكود فقط.",
+  "original_text": "Claude Code can now make docs and slides as artifacts, so you can share and collaborate with other people on your team.\n\nFor example, ask Claude to make a spec as a doc, share it to your teammates for feedback, and when it's ready ask Claude to implement.",
+  "glossary": [
+   {
+    "term": "artifact",
+    "ar": "مخرج قابل للمشاركة والتعديل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude Code",
+   "Claude Docs",
+   "Claude Slides"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 803,
+   "replies": 50,
+   "reposts": 33,
+   "quotes": 8,
+   "bookmarks": 288,
+   "views": 124688
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "You can also now make decks, docs, and designs in your conversation.\n\nDraft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. https://t.co/Y0JaJGT3G8"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1529",
+  "serial": 1529,
+  "serial_display": "#001529",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2100206634521796969",
+  "source_native_id": "2100206634521796969",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-09-16T12:54:16Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سير عمل بالذكاء الاصطناعي لبناء هوية علامة كاملة من صورة",
+  "arabic_summary": "منشور يعرض سير عمل مبنيًا على Claude وMCP خاص بـ Elevenlabs، يحوّل صورة مرجعية واحدة إلى هوية بصرية متكاملة تشمل الإرشادات والحملات والحضور على منصات التواصل. صاحب الحساب يشير إلى أن آخرين بدأوا يعيدون استخدام هذه الطريقة.",
+  "detailed_explanation": "يصف المنشور نمطًا من الاستخدام يجمع بين Claude كنموذج توليدي وMCP خاص بـ Elevenlabs للربط مع خدمات أخرى، بهدف إنتاج هوية علامة تجارية كاملة انطلاقًا من صورة مرجعية واحدة فقط. هذا يشمل توليد دليل استخدام الهوية (guidelines) وحملة تسويقية ومحتوى للحضور على منصات التواصل الاجتماعي.\n\nما يجعل هذا مهمًا هو أنه مثال عملي على بناء سير عمل (workflow) متعدد الخطوات باستخدام MCP كبنية ربط بين نموذج اللغة وأدوات خارجية، وهو نمط يتكرر في العديد من مشاريع الوكلاء الحالية. صاحب المنشور يقول إن آخرين بدأوا يعيدون بناء هذا النمط بأنفسهم، ما يشير إلى انتشار الفكرة كنمط عمل قابل لإعادة الاستخدام لا مجرد تجربة واحدة.",
+  "why_it_matters": "يوضح كيف يمكن استخدام Claude مع MCP لأتمتة عمل تصميمي متكامل بدل الاكتفاء بمخرج واحد.",
+  "original_text": "Someone just scaled my brand design workflow\nMore builders are getting the point - the knowledge I share is free &amp; re-usable in your own way\nJust take it and add your imagination:",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات الخارجية"
+   },
+   {
+    "term": "Workflow",
+    "ar": "سير عمل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Claude",
+   "Elevenlabs"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 32,
+   "replies": 3,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 55,
+   "views": 5519
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Turn one reference image  in a complete identity, guidelines, campaign, and social presence. Built with Claude + Elevenlabs MCP https://t.co/RSUSwHAAe5"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1530",
+  "serial": 1530,
+  "serial_display": "#001530",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2100235963339313648",
+  "source_native_id": "2100235963339313648",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-16T14:50:48Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "هندسة السياق أكبر تحدٍ في بناء أطر الوكلاء وفق LangChain",
+  "arabic_summary": "تشرح LangChain أن أكبر تحدٍ في بناء 'agent harness' هو هندسة السياق، أي تحديد أي معلومة يحصل عليها الوكيل ومتى، وأن هذا يصعب مع طول المهمة. توضح أن Deep Agents تأتي مزودة بأنظمة ملفات ووكلاء فرعيين ومهارات جاهزة لإدارة هذا السياق.",
+  "detailed_explanation": "المشكلة المطروحة هي أن الوكلاء الذين ينفذون مهامًا طويلة يواجهون خطر امتلاء نافذة السياق (Context Window) بمعلومات غير ضرورية أو فقدان معلومات مهمة مع تقدم المهمة.\n\nحل LangChain المقترح عبر Deep Agents يجمع ثلاث آليات: أنظمة ملفات لتخزين المعلومات خارج السياق المباشر، وكلاء فرعيين (subagents) لتوزيع المهام، وSkills جاهزة توفر سياقًا محددًا عند الحاجة بدل تحميله كله دفعة واحدة.\n\nهذا النمط من التصميم مهم لمن يبني Agents تتعامل مع مهام تمتد لساعات أو أيام، إذ يوضح كيف يمكن الحفاظ على أداء الوكيل دون أن ينهار بسبب امتلاء السياق.",
+  "why_it_matters": "يفيد هذا الطرح كل من يبني أنظمة وكلاء طويلة المهام، لأنه يحدد مشكلة تقنية أساسية (إدارة Context Window) ويعرض حلًا جاهزًا ضمن بنية Deep Agents.",
+  "original_text": "The biggest challenge facing an agent harness is context engineering, or what information an agent gets, and when.\n\nThe longer the task, the harder it is to keep the context window from overloading.\n\nDeep Agents ships with this built in: filesystems, subagents, and skills, already wired up for context management.",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق - كمية النص التي يمكن للنموذج معالجتها دفعة واحدة"
+   },
+   {
+    "term": "Subagent",
+    "ar": "وكيل فرعي يُفوَّض له جزء من مهمة أكبر"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent",
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "Deep Agents"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 48,
+   "replies": 8,
+   "reposts": 15,
+   "quotes": 0,
+   "bookmarks": 21,
+   "views": 5593
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1531",
+  "serial": 1531,
+  "serial_display": "#001531",
+  "source_type": "x",
+  "source_url": "https://x.com/SpaceXAI/status/2100310550127464682",
+  "source_native_id": "2100310550127464682",
+  "source_name": "SpaceXAI",
+  "source_site": "x.com",
+  "author": "SpaceXAI",
+  "published_at": "2026-09-16T19:47:11Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Grok Voice يصل إلى منصة fal لبناء وكلاء صوتيين سريعين",
+  "arabic_summary": "أصبح نموذج Grok Voice للكلام متاحًا على منصة fal، ويجيب خلال 0.70 ثانية، مع دعم تحويل النص لكلام بأكثر من 30 صوتًا وأكثر من 25 لغة، وإمكانية استنساخ الصوت من دقيقتين فقط من التسجيل.",
+  "detailed_explanation": "النموذج يتميز بسرعة استجابة عالية (0.70 ثانية) وقدرة على إنهاء استدعاءات الأدوات (tool calls) قبل انتهاء الجملة المنطوقة، إضافة إلى دعم واسع للغات والأصوات، وميزة استنساخ الصوت من عينة قصيرة جدًا.\n\nإتاحته على منصة fal تعني أن المطورين يمكنهم دمجه في تطبيقاتهم لبناء وكلاء يتعاملون مع المكالمات الصوتية وحل مشكلات العملاء في الزمن الحقيقي تقريبًا. Grok وSpaceXAI ليسا من أدوات عزيز المذكورة، لذا يصنَّف كخبر عام في عالم الذكاء الاصطناعي، لكنه يمس مجال الصوت تحديدًا لمن يبني تطبيقات صوتية.",
+  "why_it_matters": "توفر Grok Voice على fal يفتح الباب أمام المطورين لبناء وكلاء صوتيين منخفضي زمن الاستجابة لخدمة العملاء والتطبيقات التفاعلية.",
+  "original_text": "Use Grok Voice in fal to build intelligent, low-latency agents that resolve real customer issues",
+  "glossary": [
+   {
+    "term": "tool calls",
+    "ar": "استدعاءات الأدوات"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج",
+   "Agent"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Grok Voice",
+   "fal",
+   "SpaceXAI"
+  ],
+  "change_types": [
+   "New Integration",
+   "General Availability"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 85,
+  "metrics": {
+   "likes": 696,
+   "replies": 56,
+   "reposts": 66,
+   "quotes": 8,
+   "bookmarks": 141,
+   "views": 94316
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Grok Voice is live on fal.\n\nThe latest speech model from @SpaceXAI that answers in 0.70 seconds and finishes its tool calls before the sentence ends. Transcription with word-level timestamps, text to speech in 30+ voices across 25+ languages, and cloning from two minutes of audio.\n\nEvery voice in this video is from Grok Voice."
+  },
+  "cluster_id": "grok-voice-fal",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1532",
+  "serial": 1532,
+  "serial_display": "#001532",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2100284068763992396",
+  "source_native_id": "2100284068763992396",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-09-16T18:01:58Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة jev تصنّف آلاف الإيميلات خلال ثوانٍ",
+  "arabic_summary": "يشير المنشور إلى أداة تُدعى jev من typesafeai استطاعت تصنيف نحو ألف بريد إلكتروني من حيث الفئة والأولوية والبريد المزعج والرد، خلال حوالي 10 ثوانٍ فقط، بحسب فيديو توضيحي على يوتيوب.",
+  "detailed_explanation": "الأداة المذكورة، jev، تُقدَّم كمثال على سرعة معالجة الذكاء الاصطناعي لمهام تصنيف نصي متكررة: تصنيف ما يقارب ألف رسالة بريد إلكتروني بحسب الفئة (category) والأولوية (priority) وتحديد البريد المزعج (spam) واقتراح الرد، في زمن قصير جدًا يقارب 10 ثوانٍ حسب الفيديو التوضيحي المشار إليه.\n\nهذا النوع من الأتمتة يهم بشكل مباشر من يتعامل مع صناديق بريد إلكتروني مزدحمة، إذ يوفر بديلاً آليًا للفرز اليدوي الذي يستهلك وقتًا طويلاً يوميًا. المعلومات المتاحة في المنشور محدودة بذكر الأداة والنتيجة دون تفاصيل تقنية إضافية عن كيفية عملها.",
+  "why_it_matters": "يعرض حالة استخدام ملموسة لسرعة معالجة الذكاء الاصطناعي لكميات كبيرة من البيانات النصية اليومية مثل البريد الإلكتروني.",
+  "original_text": "jev by @typesafeai looks crazy...\n\ni recommend watching this video on youtube. \n\nit took like 10 seconds to classify ~1000 emails for category, priority, spam, and reply. https://t.co/qytCefHczx",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "jev",
+   "typesafeai"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 250,
+   "replies": 11,
+   "reposts": 11,
+   "quotes": 2,
+   "bookmarks": 268,
+   "views": 16222
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1533",
+  "serial": 1533,
+  "serial_display": "#001533",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2100209487231721672",
+  "source_native_id": "2100209487231721672",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-16T13:05:36Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شرح: بناء صورة تجمع عقودًا مختلفة من عمرك بـ Prompt واحد في ChatGPT",
+  "arabic_summary": "يقدّم المنشور Prompt جاهزًا لرفع صورة شخصية في ChatGPT وتوليد كولاج بخمسة لوحات تُظهر نفس الوجه بهيئات مختلفة عبر عقود زمنية من 1980 إلى 2060، مع الحفاظ على ملامح الوجه وهوية الشخص ثابتة.",
+  "detailed_explanation": "المنشور خطوات مباشرة لاستخدام ميزة توليد الصور في ChatGPT: رفع صورة شخصية، ثم كتابة Prompt محدد يطلب من النموذج استخدام الصورة كمرجع دقيق للهوية وإنشاء كولاج عمودي بنسبة 4:5 يضم خمس لوحات جنبًا إلى جنب، كل لوحة تمثل عقدًا زمنيًا مختلفًا (1980، 2000، 2020، 2040، 2060)، مع الحفاظ على ثبات الوجه والملامح ولون البشرة والهوية في كل لوحة.\n\nهذا النوع من المنشورات يفيد مباشرة من يريد إنتاج محتوى بصري إبداعي باستخدام أداة موجودة فعليًا لدى عزيز (ChatGPT) دون الحاجة لأدوات خارجية.",
+  "why_it_matters": "مثال عملي وقابل للتكرار فورًا يوضح طريقة كتابة Prompt للتوليد الصوري بثبات الهوية داخل ChatGPT.",
+  "original_text": "1. Open Chatgpt\n\n2. Upload your image\n\n3. Prompt: 'Use my uploaded photo as the exact identity reference. Create a vertical 4:5 photorealistic \"Same Girl... Different Decades\" collage with 5 side-by-side panels: 1980, 2000, 2020, 2040, 2060. Keep my face, facial features, skin tone and identity consistent in every panel.'",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "الأمر النصي الموجَّه للنموذج"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 29,
+   "replies": 5,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 10,
+   "views": 4426
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1534",
+  "serial": 1534,
+  "serial_display": "#001534",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlsafran/status/2100223497112834118",
+  "source_native_id": "2100223497112834118",
+  "source_name": "سلطان آل سفران",
+  "source_site": "x.com",
+  "author": "SultanAlsafran",
+  "published_at": "2026-09-16T14:01:16Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تجربة خاصية computer history في Codex واستهلاكها لحد الاستخدام",
+  "arabic_summary": "يشارك الكاتب تجربته مع خاصية جديدة في Codex تسمى computer history، وهي تسجّل تاريخ استخدام الكمبيوتر والتطبيقات وتقترح أحيانًا Skills لأتمتة المهام المتكررة. يذكر أن الخاصية لا تزال قيد التقييم وتستهلك من حد الاستخدام، ولاحظ أنها تسجّل أشياء ينساها المستخدم.",
+  "detailed_explanation": "المنشور تجربة شخصية مع خاصية جديدة اسمها computer history داخل Codex، تعمل عبر تسجيل تاريخ استخدام المستخدم للكمبيوتر والتطبيقات، وبناءً على هذا السجل تقترح أحيانًا Skills جاهزة لأتمتة المهام المتكررة التي يقوم بها المستخدم يدويًا.\n\nيوضح الكاتب أن هذه الخاصية تستهلك جزءًا من حد الاستخدام (usage limit) المخصص له، وأنها لا تزال في مرحلة تقييم بالنسبة له، مع ملاحظة طريفة لكنها مهمة: الخاصية تسجّل أفعالًا ينسى المستخدم نفسه أنه قام بها، وهو ما يعتبره تنبيهًا مفيدًا حول أنماط الاستخدام غير الواعية.",
+  "why_it_matters": "خاصية جديدة في Codex، أداة يستخدمها عزيز، تتصل مباشرة باقتراح Skills تلقائيًا بناءً على سلوك المستخدم.",
+  "original_text": "قاعد أجرب خاصية computer history في كوديكس، الخاصية تسجل تاريخ استعمالك للكمبيوتر والتطبيقات وتقترح لك أحيانا skills لأتمتة شغلك المتكرر، الخاصية تستهلك من حد الاستخدام وإلى الآن هي في طور التقييم بالنسبة لي.\n-\nالملاحظ: يسجل أشياء تنسى أنك سويتها، وفي الأمر موعظة. https://t.co/kodJ3U2HlY",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "سكيل (ملف مهارة قابل لإعادة الاستخدام)"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 10,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 1220
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1535",
+  "serial": 1535,
+  "serial_display": "#001535",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2100320915456233909",
+  "source_native_id": "2100320915456233909",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-16T20:28:22Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain تعرض Agent لتحليل حملات إعلانية داخل Slack",
+  "arabic_summary": "بنى فريق LangChain وكيلًا يعمل داخل Slack يقرأ بيانات الإنفاق والنقرات والتحويلات من 6 منصات إعلانية ومستودع بياناتهم كل يوم اثنين، ثم يوضح للفريق ما تغيّر ولماذا، ويقترح تعديلات ويطبقها بعد الموافقة.",
+  "detailed_explanation": "الوكيل مصمم كـDeep Agent يعمل داخل بيئة Slack، ويجمع بيانات من ست منصات إعلانية مختلفة إضافة إلى مستودع البيانات الداخلي، ليقدم تقريرًا أسبوعيًا تلقائيًا كل يوم اثنين.\n\nما يميز التصميم هو خطوة الموافقة البشرية قبل تطبيق أي تعديل مقترح، وهذا نمط شائع في بناء وكلاء العمل الآمنة التي تفوض التنفيذ لكن تبقي القرار النهائي بيد الإنسان.\n\nهذا المثال يوضح كيفية دمج مصادر بيانات متعددة (منصات إعلانية + مستودع بيانات) في وكيل واحد يعمل ضمن أداة تواصل يستخدمها الفريق فعليًا بدل واجهة منفصلة.",
+  "why_it_matters": "مثال عملي على بناء Deep Agent يدمج مصادر بيانات متعددة ويعمل ضمن أداة تواصل يومية كـSlack، وهو نموذج قابل للتكرار لمن يبني أتمتة تحليل بيانات فعلية.",
+  "original_text": "A quick TL;DR on our Paid Media Agent:\n\n✅ A Deep Agent that lives in Slack.\n✅ Reads spend, clicks, and conversions across 6 ad platforms + our data warehouse every Monday.\n✅ Tells our team what changed and why, proposes changes, and applies once approved. https://t.co/RUXlrarODM",
+  "glossary": [
+   {
+    "term": "Deep Agent",
+    "ar": "وكيل متقدم يجمع ويحلل بيانات من مصادر متعددة ذاتيًا"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "LangChain",
+   "Slack"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 15,
+   "replies": 4,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 4,
+   "views": 5067
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1536",
+  "serial": 1536,
+  "serial_display": "#001536",
+  "source_type": "x",
+  "source_url": "https://x.com/itsPaulAi/status/2100327532180463689",
+  "source_native_id": "2100327532180463689",
+  "source_name": "Paul Couvert",
+  "source_site": "x.com",
+  "author": "itsPaulAi",
+  "published_at": "2026-09-16T20:54:40Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شرح: تدريب أكثر من 500 نموذج مفتوح مجانًا عبر Google Colab وUnsloth",
+  "arabic_summary": "يشرح الكاتب طريقة إجراء Fine-tuning لأكثر من 500 نموذج مفتوح المصدر مجانًا باستخدام Google Colab ومكتبة Unsloth Studio، مع إمكانية رفع ملفات PDF أو CSV لتحويلها إلى بيانات تدريب اصطناعية (synthetic dataset) وتصدير النموذج بعد التدريب.",
+  "detailed_explanation": "المنشور دليل عملي مختصر لتخصيص النماذج مفتوحة المصدر عبر Fine-tuning باستخدام Google Colab المجاني ومكتبة Unsloth Studio، ويوضح أنها تدعم أكثر من 500 نموذج مختلف.\n\nالخطوات المذكورة: فتح دفتر Colab، تشغيل خلايا التثبيت لـ Unsloth Studio، اختيار نموذج، ثم رفع بيانات (بما فيها ملفات PDF أو CSV يمكن تحويلها تلقائيًا إلى بيانات تدريب اصطناعية)، وأخيرًا تصدير النموذج المدرَّب للاستخدام. هذا يخفض عتبة الدخول لتخصيص النماذج لمن لا يملك موارد حوسبة كبيرة.",
+  "why_it_matters": "خطوات عملية مباشرة تتيح لأي مطوّر تخصيص نموذج مفتوح دون تكلفة أو بنية تحتية، بما يخدم بناء تطبيقات مخصصة.",
+  "original_text": "Friendly reminder that you can fine tune 500+ open source models in a free Google Colab\n\nYou can even upload PDFs/CSVs and turn them into usable synthetic datasets.\n\n1. Open the Google Colab below\n2. Run the blocks to install Unsloth Studio\n3. Choose a model\n4. Upload a dataset\n5. You're good to go!\n\nAnd you can of course export your model afterwards.",
+  "glossary": [
+   {
+    "term": "Fine-tuning",
+    "ar": "Fine-tuning"
+   },
+   {
+    "term": "Synthetic dataset",
+    "ar": "بيانات تدريب اصطناعية"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google Colab",
+   "Unsloth"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 69,
+  "metrics": {
+   "likes": 56,
+   "replies": 1,
+   "reposts": 15,
+   "quotes": 0,
+   "bookmarks": 92,
+   "views": 4954
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1537",
+  "serial": 1537,
+  "serial_display": "#001537",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2100267588567937264",
+  "source_native_id": "2100267588567937264",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-16T16:56:28Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Videoclaw: وكيل مكتبي واحد يدمج إنشاء الفيديو بدل خمسة تطبيقات",
+  "arabic_summary": "يعلن المنشور عن Videoclaw، وكيل إنشاء فيديو على سطح المكتب يستبدل مجموعة أدوات منفصلة (ChatGPT وHeyGen وElevenLabs وSuno وCapCut) بتطبيق واحد يتولى التحرير والتوليد والإنشاء بمجرد كتابة Prompt.",
+  "detailed_explanation": "المنشور إعلان إطلاق أداة جديدة اسمها Videoclaw، تُوصف بأنها وكيل (agent) لإنشاء الفيديو يعمل من سطح المكتب، ويهدف إلى استبدال «الحزمة القديمة» من الأدوات المستخدمة عادة في إنتاج فيديو بالذكاء الاصطناعي: ChatGPT للنص، وHeyGen للأفاتار، وElevenLabs للصوت، وSuno للموسيقى، وCapCap للمونتاج.\n\nبدل خمسة اشتراكات وخمسة حسابات منفصلة، يقدّم Videoclaw تجربة موحدة يكفي فيها كتابة Prompt واحد ليقوم النظام بالتحرير والتوليد والإنشاء تلقائيًا. المنشور المقتبس يوضح أن الفيديو الترويجي نفسه أُنتج بالكامل باستخدام الأداة، بمزيج من لقطات بشرية ومولّدة.",
+  "why_it_matters": "يقدّم بديلًا موحّدًا لسير عمل إنتاج الفيديو بالذكاء الاصطناعي بدل تعدد الاشتراكات والأدوات المنفصلة.",
+  "original_text": "ChatGPT + HeyGen + ElevenLabs + Suno + CapCut. That's the old video stack.\n\nFive subscriptions. Five logins. Five bills.\n\nOne app just ended all of it for video creation.\n\nMeet Videoclaw, a desktop video creation agent that replaces all of it 👇 https://t.co/ImT41UkAq7",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "تطبيق"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Videoclaw"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 8,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 3463
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "AI video creation is getting more powerful, but only a few have figured it out.\n\nThats why I built Videoclaw.\n\nI want it to be so easy, you don't need to figure it out. Just prompt, and watch it edit, generate and create video :) \n\nToday we launch.\n\nThe video was made entirely  with Videoclaw, blending human and generated footage. To show how truly easy it is, prompts and proofs for each project a"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1538",
+  "serial": 1538,
+  "serial_display": "#001538",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2100178563362074889",
+  "source_native_id": "2100178563362074889",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-09-16T11:02:43Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فكرة عملية: ابدأ مصنع البرمجيات الآلي صغيرًا وتوسّع تدريجيًا",
+  "arabic_summary": "ينصح الكاتب، نقلًا عن آخر، ببدء «مصنع البرمجيات» (software factory) الذي يعتمد على Agent بمهمة واحدة يوميًا فقط -مثل فرز مشكلة واحدة- ثم مراقبة نتائجه وتعديله، وزيادة العدد تدريجيًا كلما ازدادت الثقة في حكمه.",
+  "detailed_explanation": "يطرح المنشور منهجية تدريجية لبناء ما يسميه «مصنع برمجيات» يعتمد على وكيل ذكاء اصطناعي لفرز (triage) المشكلات والمهام في مستودع الشيفرة. النصيحة الجوهرية هي البدء بحجم عمل صغير جدًا - مشكلة واحدة يوميًا فقط - بدل تفويض الوكيل بكل المهام دفعة واحدة.\n\nهذا يتيح للمستخدم مراجعة مخرجات الوكيل وتعديل سلوكه بثقة أكبر، ثم زيادة عدد المهام تدريجيًا (اثنتان، خمس، عشر) كلما ثبتت جودة حكمه. الفكرة تلخّص نهجًا حذرًا في تبني الوكلاء داخل بيئات العمل الحقيقية بدل القفز المباشر لأتمتة كاملة قد تفشل بصمت.",
+  "why_it_matters": "نصيحة عملية لأي فريق يبني وكلاء أتمتة لسير العمل البرمجي، تعالج مخاطر الثقة الزائدة المبكرة في الوكلاء.",
+  "original_text": "A great idea I'm stealing from @dexhorthy:\n\nWhen you first start building a software factory, make it TINY.\n\nDon't get it to triage every issue in your repo. Just do one per day.\n\nCheck its output. Adjust it. Keep going with your regular work.\n\nAs you begin to trust its judgment, get it to triage TWO issues per day instead. Then five. Then ten.\n\nStart small. Adjust. Build trust. Expand.",
+  "glossary": [
+   {
+    "term": "Software factory",
+    "ar": "مصنع برمجيات آلي"
+   },
+   {
+    "term": "Triage",
+    "ar": "فرز الأولويات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 1501,
+   "replies": 82,
+   "reposts": 55,
+   "quotes": 15,
+   "bookmarks": 830,
+   "views": 92394
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1539",
+  "serial": 1539,
+  "serial_display": "#001539",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2100256644592443465",
+  "source_native_id": "2100256644592443465",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-16T16:12:59Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Apify يطلق واجهات بيانات مدفوعة بالعملة الرقمية عبر Monad",
+  "arabic_summary": "أعلنت Apify إطلاق 41 نقطة وصول (endpoint) على منصة Monad API Hub، تُدفع بعملة USDC لكل نتيجة، دون الحاجة لحساب أو مفتاح API، مع إرجاع بيانات منظمة في كل استدعاء.",
+  "detailed_explanation": "تعلن Apify عن دمج جديد يتيح الوصول إلى 41 نقطة وصول لجلب بيانات من منصات مثل X وTikTok وLinkedIn وReddit وAmazon، لكن بآلية دفع مختلفة تمامًا: الدفع لكل نتيجة بعملة USDC عبر شبكة Monad، دون الحاجة لحساب تقليدي أو مفتاح API.\n\nهذا يهم مستخدمي Apify لأنه يفتح مسارًا جديدًا لاستهلاك خدمتها من قبل الوكلاء الآليين (Agents) الذين يملكون محفظة رقمية بدل بيانات اعتماد تقليدية، ما يبسط عملية الدمج الآلي ويغيّر نموذج التسعير المتاح لمن يبني أنظمة أتمتة تعتمد على جلب بيانات الويب.",
+  "why_it_matters": "يتيح للوكلاء الآليين (Agents) الوصول إلى بيانات الويب ودفع ثمنها تلقائيًا دون إعداد حسابات، وهو تغيير في طريقة تسعير واستهلاك خدمة يستخدمها عزيز.",
+  "original_text": "Apify is now live on @monad API Hub 👀\n\nFrom day one: 41 endpoints payable per result in USDC, no account or API key needed, with structured data returned on every call 🔥",
+  "glossary": [
+   {
+    "term": "Endpoint",
+    "ar": "نقطة وصول برمجية"
+   },
+   {
+    "term": "USDC",
+    "ar": "عملة رقمية مستقرة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "بيانات وتحليلات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Monad"
+  ],
+  "change_types": [
+   "New Integration",
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 12,
+  "metrics": {
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 374
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Scrape the web with @apify: pay per result with USDC on Monad\n\n41 endpoints across X, TikTok, LinkedIn, Reddit, Amazon &amp; more. \n\nNo API keys. Just an agent with a wallet.\n\nhttps://t.co/nZtf8ZqFoa"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "apify",
+    "url": "https://x.com/apify/status/2100242724213367024"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1540",
+  "serial": 1540,
+  "serial_display": "#001540",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2100276144633434150",
+  "source_native_id": "2100276144633434150",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-09-16T17:30:28Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Canvas في Gemini يحوّل الأفكار إلى تصاميم قابلة للطباعة ثلاثية الأبعاد",
+  "arabic_summary": "تتيح ميزة Canvas في Gemini كتابة كود مخصص لتصميم أشكال ثلاثية الأبعاد، مثل مزهرية، مع إمكانية تعديل المعاملات الرياضية ورؤيتها بصريًا، ثم تصديرها كملف STL جاهز للطباعة ثلاثية الأبعاد.",
+  "detailed_explanation": "الميزة تجمع بين البرمجة والتصميم البارامتري (parametric design)، إذ يكتب المستخدم كودًا يحدد شكل الجسم ثلاثي الأبعاد، ثم يمكنه تعديل قيم المعاملات لرؤية التغير مباشرة على الشكل ثلاثي الأبعاد.\n\nالمخرج النهائي ملف STL، الصيغة القياسية للطباعة ثلاثية الأبعاد، ما يعني أن الفكرة يمكن أن تنتقل مباشرة من الشاشة إلى طابعة فعلية. بما أن Gemini من أدوات عزيز المذكورة صراحة، فهذه ميزة جديدة تستحق المتابعة لمن يستكشف استخدامات تصميمية أو هندسية للنموذج.",
+  "why_it_matters": "يوسّع استخدام Gemini من توليد النصوص والصور إلى إنتاج تصاميم قابلة للتصنيع الفعلي، وهذا يمس عزيز مباشرة كأداة يستعملها.",
+  "original_text": "Go from inspiration to physical objects with Gemini. \n\nWith Canvas in Gemini, you can code a custom app to design a vase and change its mathematical parameters to visualize it in 3D. Then, export it as an .STL file for 3D printing to watch your ideas take shape.",
+  "glossary": [
+   {
+    "term": "STL",
+    "ar": "صيغة ملف للطباعة ثلاثية الأبعاد"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Gemini",
+   "Canvas"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 89,
+  "metrics": {
+   "likes": 857,
+   "replies": 49,
+   "reposts": 94,
+   "quotes": 13,
+   "bookmarks": 332,
+   "views": 51558
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1541",
+  "serial": 1541,
+  "serial_display": "#001541",
+  "source_type": "x",
+  "source_url": "https://x.com/MistralAI/status/2100153489787633694",
+  "source_native_id": "2100153489787633694",
+  "source_name": "Mistral AI",
+  "source_site": "x.com",
+  "author": "MistralAI",
+  "published_at": "2026-09-16T09:23:05Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Mistral تتشارك مع Mozilla لتعزيز الخصوصية في تصفّح الويب بالذكاء الاصطناعي",
+  "arabic_summary": "أعلنت Mistral AI شراكة مع Mozilla لتقديم خصوصية وتحكّم وخيارات أكثر لمستخدمي الذكاء الاصطناعي أثناء تصفح الإنترنت.",
+  "detailed_explanation": "لا يقدّم المنشور تفاصيل تقنية دقيقة حول شكل هذا التكامل، لكنه يشير إلى توجه نحو جعل تجربة تصفح الإنترنت المدعومة بالذكاء الاصطناعي أكثر احترامًا لخصوصية المستخدم، بدل الاعتماد الكامل على خدمات سحابية مركزية.\n\nMistral وMozilla ليستا من أدوات عزيز المذكورة، ولا يقع الخبر ضمن القائمة المغلقة لـ«خارج الاهتمام» (فهو ليس استحواذًا أو تمويلًا أو تقييمًا)، لذا يصنَّف ضمن عالم AI عام كخبر شراكة يهم المهتمين بالذكاء الاصطناعي والخصوصية بشكل عام.",
+  "why_it_matters": "شراكة بين شركة نماذج وشركة متصفح تشير إلى اتجاه نحو دمج الذكاء الاصطناعي في تصفح الويب مع مراعاة أكبر للخصوصية، وهو موضوع يهم مستخدمي الإنترنت عمومًا.",
+  "original_text": "Today, we are announcing a partnership with @mozilla  to bring privacy, control and choice to people using AI to browse online. 🦊🐈\n\nhttps://t.co/Bsd6N4jNdV https://t.co/OczDk9utfL",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Mistral AI",
+   "Mozilla"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 99,
+  "metrics": {
+   "likes": 3102,
+   "replies": 135,
+   "reposts": 283,
+   "quotes": 70,
+   "bookmarks": 282,
+   "views": 138700
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [
+   "https://mistral.ai/news/mistral-x-mozilla"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1542",
+  "serial": 1542,
+  "serial_display": "#001542",
+  "source_type": "x",
+  "source_url": "https://x.com/runwayml/status/2100275904366944329",
+  "source_native_id": "2100275904366944329",
+  "source_name": "Runway",
+  "source_site": "x.com",
+  "author": "runwayml",
+  "published_at": "2026-09-16T17:29:31Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Runway تطلق مجموعة نماذج خريف 2026 الجديدة",
+  "arabic_summary": "أعلنت Runway عن أكبر دفعة نماذج لديها حتى الآن، تشمل Fish Audio S2.1 Pro وMiniMax H3 Max وCartesia Sonic 3.6 وأداة تحسين وتحرير فيديو Flux Video، إلى جانب نماذج من مختبرات أخرى رائدة، متاحة كلها على منصة Runway.",
+  "detailed_explanation": "الإعلان يجمع نماذج صوت مثل Fish Audio وCartesia Sonic إلى جانب نماذج فيديو مثل MiniMax H3 Max وأداة Flux Video لرفع الجودة والتحرير، وكلها تعمل ضمن منصة Runway الواحدة.\n\nهذا النمط من التجميع يجعل Runway بوابة وصول لعدة نماذج متخصصة بدل بناء نموذج واحد شامل، وهو اتجاه متكرر في صناعة أدوات الإنتاج الإبداعي بالذكاء الاصطناعي.",
+  "why_it_matters": "توسيع Runway لمكتبة النماذج المتاحة يعني وصولًا أسهل لأدوات صوت وفيديو متعددة المصادر من مكان واحد، دون الحاجة للتنقل بين منصات مختلفة.",
+  "original_text": "The Runway Fall 2026 collection has landed.\n\nOur biggest model drop yet, featuring Fish Audio S2.1 Pro, MiniMax H3 Max, Cartesia Sonic 3.6, Flux Video upscaler and edit, now available alongside the best models from Runway and other frontier labs. Get started at the link below. https://t.co/886TbTgHgK",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Runway",
+   "Fish Audio",
+   "MiniMax",
+   "Cartesia",
+   "Flux"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 96,
+   "replies": 13,
+   "reposts": 11,
+   "quotes": 11,
+   "bookmarks": 35,
+   "views": 15510
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1543",
+  "serial": 1543,
+  "serial_display": "#001543",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2100272093577543911",
+  "source_native_id": "2100272093577543911",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-16T17:14:22Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Design وSlides وDocs تعمل الآن داخل Claude Code",
+  "arabic_summary": "أعلنت Anthropic أن أدوات Claude Design وClaude Slides وClaude Docs باتت متاحة داخل Claude Code، ما يتيح طلب مراجعة تصميم أو نموذج واجهة مباشرة من هناك.",
+  "detailed_explanation": "الخبر يعلن دمج ثلاث أدوات من عائلة Claude — Claude Design وClaude Slides وClaude Docs — داخل Claude Code، بحيث يمكن للمستخدم أن يطلب من داخل بيئة البرمجة نفسها إنشاء عرض تقديمي لمراجعة تصميم أو نموذج أولي لواجهة مستخدم (UI mockup) دون الخروج لأداة منفصلة.\n\nهذا يوسّع استخدام Claude Code من مجرد أداة برمجة إلى بيئة عمل متكاملة تشمل التوثيق والعرض والتصميم، وهو تغيير مباشر يخصّ من يستخدم Claude Code يوميًا في سير عمله.",
+  "why_it_matters": "توسيع مباشر لقدرات Claude Code، أداة يستخدمها عزيز فعليًا، بإضافة إنتاج مخرجات تصميم ووثائق داخل بيئة البرمجة نفسها.",
+  "original_text": "RT @ClaudeDevs: Claude Design, Claude Slides and Claude Docs also work inside Claude Code now.\n\nAsk for a design review deck or a UI mockup…",
+  "glossary": [
+   {
+    "term": "UI mockup",
+    "ar": "نموذج أولي لواجهة المستخدم"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 217,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1340
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1544",
+  "serial": 1544,
+  "serial_display": "#001544",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2100307879060271243",
+  "source_native_id": "2100307879060271243",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-16T19:36:34Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Higgsfield تطلق API موحدًا لأكثر من 50 نموذج ذكاء اصطناعي",
+  "arabic_summary": "أطلقت Higgsfield واجهة برمجية (API) واحدة تتيح الوصول إلى أكثر من 50 نموذجًا متقدمًا (frontier models) بأسعار أقل من الاشتراك المعتاد، مع خصومات تصل إلى 50% لفترة محدودة.",
+  "detailed_explanation": "الفكرة الأساسية هي تجميع أكثر من 50 نموذجًا متقدمًا خلف واجهة برمجية واحدة، بدل الاشتراك المنفصل في كل خدمة على حدة، مع وعد بأسعار أقل من نموذج الاشتراك الشهري التقليدي.\n\nهذا النوع من الخدمات يهم المطورين الذين يبنون تطبيقات تعتمد على تبديل النماذج أو مقارنة أدائها، لكنه لا يمس أدوات عزيز المباشرة بذاتها، لذا يصنَّف كخبر عام في نماذج وLLM وليس كأداة يستعملها.",
+  "why_it_matters": "توحيد الوصول لعشرات النماذج عبر API واحد يسهّل على المطورين تجربة نماذج متعددة دون التعامل مع واجهات منفصلة لكل مزوّد.",
+  "original_text": "RT @higgsfield: Introducing Higgsfield API.\n\n50+ frontier models in one API, at lower prices than a subscription.\n\n&gt; Get up to 50% OFF disc…",
+  "glossary": [
+   {
+    "term": "API",
+    "ar": "واجهة برمجة التطبيقات"
+   },
+   {
+    "term": "frontier models",
+    "ar": "نماذج متقدمة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Higgsfield"
+  ],
+  "change_types": [
+   "New Release",
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 298,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 922
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1545",
+  "serial": 1545,
+  "serial_display": "#001545",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2100262478148145302",
+  "source_native_id": "2100262478148145302",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-09-16T16:36:10Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Unity تطلق إضافة رسمية لدمج Codex في محرّرها",
+  "arabic_summary": "أعلنت Unity عن إضافة (plugin) رسمية من الطرف الأول لدمج Codex من OpenAI داخل محرّر الألعاب Unity. الهدف تمكين المطوّرين من استخدام Codex مباشرة أثناء بناء الألعاب دون الخروج من البيئة.",
+  "detailed_explanation": "الإضافة تأتي استجابة لطلبات مستخدمي Unity، وتمثّل تكاملًا مباشرًا (native integration) بين محرّر الألعاب ونموذج Codex من OpenAI، بدل الاعتماد على أدوات وسيطة أو نسخ الكود يدويًا.\n\nبما أن Codex مذكور صراحة ضمن أدوات عزيز، فإن أي تطور في طريقة استعماله أو تكامله مع بيئات جديدة يستحق المتابعة، لا سيما أن التكامل مع Unity يفتح بابًا لاستخدامات في تطوير الألعاب والتطبيقات التفاعلية.",
+  "why_it_matters": "دمج Codex رسميًا داخل أداة تطوير شائعة يوسّع استخدامه الفعلي في سير عمل المبرمجين خارج بيئات الأكواد التقليدية.",
+  "original_text": "RT @unitygames: We heard you loud and clear 🔊\n\nIntroducing the official Unity plugin for @OpenAI’s Codex - a first-party integration availa…",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Unity",
+   "OpenAI",
+   "Codex"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 57,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 6842
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1546",
+  "serial": 1546,
+  "serial_display": "#001546",
+  "source_type": "x",
+  "source_url": "https://x.com/ElevenLabs/status/2100262886916358361",
+  "source_native_id": "2100262886916358361",
+  "source_name": "ElevenLabs",
+  "source_site": "x.com",
+  "author": "ElevenLabs",
+  "published_at": "2026-09-16T16:37:47Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ElevenLabs تطلق منصة رد آلي على مكالمات المنشآت الصغيرة",
+  "arabic_summary": "أطلقت ElevenLabs منصة Reception، وهي موظفة استقبال ذكية مبنية على ElevenAgents لالتقاط كل مكالمة، الرد على الأسئلة، وحجز المواعيد وإرسال تأكيد نصي، بإعداد يتم في دقائق عبر إضافة رابط الموقع فقط.",
+  "detailed_explanation": "Reception ليست مجرد نموذج صوتي بل منتج متكامل مبني فوق بنية ElevenAgents، يستهدف مشكلة محددة وهي فقدان المكالمات غير المُجابة لدى الأعمال الصغيرة.\n\nطريقة الإعداد السريعة عبر رابط الموقع فقط تجعل الأداة سهلة التبني دون حاجة لخبرة تقنية، وهذا يمثل اتجاهًا في تسويق أدوات الذكاء الاصطناعي كخدمات جاهزة بدل بنية تحتية خام.",
+  "why_it_matters": "يوسّع هذا الإصدار استخدامات الأدوات الصوتية من مجرد توليد أصوات إلى منتج جاهز موجّه للمنشآت الصغيرة، ما يعكس تحول شركات الصوت نحو حلول أعمال متكاملة.",
+  "original_text": "Introducing Reception, an AI receptionist platform for small businesses, built on ElevenAgents. \n\nEvery missed call could be a lost customer. Reception answers every call, answers questions, books the job, and texts confirmation.\n\nSet up in minutes just by adding your website. https://t.co/95CNaBVH3X",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة",
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "ElevenLabs",
+   "ElevenAgents"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1850,
+   "replies": 76,
+   "reposts": 145,
+   "quotes": 115,
+   "bookmarks": 1768,
+   "views": 612449
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1547",
+  "serial": 1547,
+  "serial_display": "#001547",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2100161738343874633",
+  "source_native_id": "2100161738343874633",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-16T09:55:52Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GPT-6 Astra يشعل موجة مواقع تعليمية تفاعلية",
+  "arabic_summary": "يشير المنشور إلى أن نموذج GPT-6 Astra أدى إلى موجة من المستخدمين يبنون مواقع تعليمية تفاعلية، مع رابط يعرض عشرة أمثلة على هذا الاستخدام.",
+  "detailed_explanation": "المنشور يشير إلى إصدار نموذج جديد يسمى GPT-6 Astra، وأنه أطلق موجة من الاستخدامات الإبداعية في مجال التعليم، تحديدًا بناء مواقع تعليمية تفاعلية (interactive learning websites). يستشهد بعشرة أمثلة «برّاقة» على هذا الاستخدام دون تفاصيل تقنية إضافية داخل النص نفسه.\n\nرغم أن المحتوى تسويقي الطابع، إلا أنه يرصد إشارة إلى وجود نموذج جديد باسم Astra يُستخدم فعليًا في إنشاء مواقع، وهو ما يهمّ من يتابع تطورات النماذج وتطبيقاتها في التعليم.",
+  "why_it_matters": "يوضح استخدامًا عمليًا جديدًا لنموذج حديث في بناء تجارب تعليمية تفاعلية عبر الويب.",
+  "original_text": "GPT-6 Astra has changed Education forever\n\nPeople can't stop building interactive learning websites.\n\n10 Wild Examples:\nhttps://t.co/6vCDL4vwLR",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "موقع وصفحة هبوط",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بحث وتعليم",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GPT-6 Astra"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 68,
+   "replies": 17,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 49,
+   "views": 7156
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt6-astra",
+  "also_reported": [
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2100378382160572499"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2100337702097019295"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2100315566280220840"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1548",
+  "serial": 1548,
+  "serial_display": "#001548",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2100178874697138486",
+  "source_native_id": "2100178874697138486",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-16T11:03:57Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصيحة استخدام: سحب محادثات Codex السابقة لمحادثة جديدة",
+  "arabic_summary": "يشارك أحد المستخدمين نصيحة عملية باستخدام Codex: يمكن سحب (drag) مواضيع أو محادثات سابقة داخل Codex وإدراجها في محادثة جديدة، وهي ميزة قد لا يعرفها كثير من المستخدمين.",
+  "detailed_explanation": "النصيحة بسيطة لكنها عملية: بدل بدء محادثة جديدة من الصفر في Codex، يمكن سحب مواضيع أو خيوط (threads) من محادثات سابقة وإدماجها في المحادثة الجديدة، ما يحافظ على السياق دون الحاجة لإعادة شرح المشكلة أو نسخ محتوى يدويًا.\n\nهذا النوع من الميزات الصغيرة يحدث فرقًا تراكميًا في تجربة الاستخدام اليومي لأداة برمجية مثل Codex، خصوصًا للمطورين الذين يتنقلون بين مهام مترابطة عبر جلسات متعددة.",
+  "why_it_matters": "نصيحة استخدام صغيرة لكنها توفر وقتًا حقيقيًا لمستخدمي Codex في تنظيم سياق العمل عبر جلسات متعددة.",
+  "original_text": "did you know you can drag previous codex threads into a new thread? https://t.co/3t2vvdalgC",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 49,
+  "metrics": {
+   "likes": 23,
+   "replies": 4,
+   "reposts": 2,
+   "quotes": 1,
+   "bookmarks": 6,
+   "views": 2211
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "codex tip: holy crap you can do this https://t.co/m15iq4e2LT"
+  },
+  "cluster_id": "codex-drag-threads",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2100361997678477452"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1549",
+  "serial": 1549,
+  "serial_display": "#001549",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2100258583518597429",
+  "source_native_id": "2100258583518597429",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-16T16:20:41Z",
+  "fetched_at": "2026-09-17T00:18:24Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إمكانية إضافة Middleware مخصص لوكلاء LangChain المُدارة",
+  "arabic_summary": "أوضحت LangChain أن بالإمكان إضافة طبقة Middleware مخصصة لـManaged Deep Agents، تتيح التحكم في السلوك حول استدعاءات النموذج والأدوات ودورة حياة الوكيل، مع عرض توضيحي مختصر.",
+  "detailed_explanation": "الميزة تسمح بإدخال منطق مخصص (middleware) في نقاط محددة من دورة عمل الوكيل: قبل أو بعد استدعاء النموذج، عند استدعاء الأدوات، أو في مراحل دورة حياة الوكيل عمومًا.\n\nهذا النوع من التحكم مفيد لمن يحتاج تسجيل أحداث، تصفية مدخلات، أو فرض قواعد أمان معينة قبل تنفيذ إجراء، دون الحاجة لتعديل جوهر منطق الوكيل.",
+  "why_it_matters": "يفيد من يبني وكلاء مخصصين على بنية LangChain لأنه يمنحهم نقطة تحكم إضافية في سلوك الوكيل دون إعادة بناء البنية من الصفر.",
+  "original_text": "PSA: You can add custom middleware to your Managed Deep Agents.\n\nWith middleware, you can add behavior around model calls, tool calls, and the agent lifecycle.\n\nHere's a quick demo. https://t.co/s7lEl02qc0",
+  "glossary": [
+   {
+    "term": "Middleware",
+    "ar": "طبقة برمجية وسيطة تتحكم في سلوك النظام عند نقاط محددة"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 25,
+   "replies": 4,
+   "reposts": 5,
+   "quotes": 3,
+   "bookmarks": 5,
+   "views": 5569
+  },
+  "metrics_captured_at": "2026-09-17T00:18:24Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
