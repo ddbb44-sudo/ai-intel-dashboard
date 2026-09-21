@@ -1,0 +1,1162 @@
+[
+ {
+  "id": "c1641",
+  "serial": 1641,
+  "serial_display": "#001641",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2101768566164840752",
+  "source_native_id": "2101768566164840752",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-20T20:20:49Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "غوغل تفتح مصدر ARTEMIS لتشغيل الهاتف تلقائيًا عبر الوكلاء",
+  "arabic_summary": "أطلقت غوغل بشكل مفتوح المصدر مشروع ARTEMIS الذي يتيح لوكلاء الذكاء الاصطناعي التحكم بهاتف حقيقي كأنه إنسان: يرى الشاشة، يضغط، يسحب، يتنقل، ويتحقق من النتيجة. يتصل بالوكلاء عبر MCP مع أدوات مثل Claude Code وCodex وCursor، ويحقق أكثر من 99% نجاح في مهام AndroidWorld مع SDK بلغة Python للدمج في أنابيب الاختبار.",
+  "detailed_explanation": "ARTEMIS هي أداة مفتوحة المصدر (رخصة Apache 2.0) من غوغل تتيح لوكيل ذكاء اصطناعي التحكم في هاتف Android حقيقي بلغة طبيعية بسيطة: يعطيه المستخدم مهمة، ويقوم الوكيل بتنفيذها كاملة من رؤية الشاشة وتحديد العناصر إلى النقر والسحب والتنقل، وأخيرًا التحقق من النتيجة والإبلاغ عنها.\n\nتتصل الأداة بالوكلاء الشائعة عبر بروتوكول MCP، بما فيها Claude Code وCodex وCursor وWindsurf وVS Code، ما يجعلها قابلة للدمج المباشر في بيئات العمل الحالية لمطوّري البرمجيات. تقارير غوغل تشير إلى نسبة نجاح تتجاوز 99% في اختبارات AndroidWorld، مع سرعة تنفيذ بين 3-5 ثوانٍ لكل خطوة في نمط Flash.\n\nالاستخدام العملي الأبرز هو في ضمان الجودة (QA) والاختبار الآلي لتطبيقات الهاتف: يمكن للمطور أن يطلب من Codex بناء ملف APK، تثبيته، تسجيل الدخول، تجربة مسار الشراء، ثم الإبلاغ عن أي أخطاء مع لقطات شاشة توضيحية — وكل ذلك يحدث تلقائيًا دون تدخل يدوي.",
+  "why_it_matters": "يفتح الباب لأتمتة كاملة لاختبار التطبيقات الجوّالة والتحقق من واجهاتها عبر وكلاء ذكاء اصطناعي دون تدخل بشري، وهو مفيد مباشرة لمن يستعمل Claude Code أو Codex في تطوير التطبيقات.",
+  "original_text": "Google just open-sourced ARTEMIS.\n\nIt lets Al agents control a real phone like a human.\n\nYou give the agent a task in plain English and it operates the device end to end: sees the screen, finds the elements, taps, swipes, navigates, verifies the outcome, and reports the result.\n\nIt connects to your agent over MCP: Claude Code, Codex, Cursor, Windsurf, Antigravity, VS Code, and more.\n\nWhat Google reports:\n\n→ 99%+ task completion on AndroidWorld\n→ 100+ multi-step tasks\n→ ~3-5 seconds per step in Flash mode\n→ Targeting that fuses accessibility, OCR, and vision → Screenshots, execution traces, and diagnostics on every run\n→ A Python SDK to drop into your test pipelines\n\nTell Codex to build the APK, install it, log in with a test account, walk the checkout flow, flag any unexpected popups, and return screenshots of the failures, and it drives the device itself.\n\nQA, mobile testing, debugging, automation, all of it moves forward.\n\nLink: https://t.co/efwoPtDo8r\n\n100% open source. Apache 2.0.",
+  "glossary": [
+   {
+    "term": "SDK",
+    "ar": "حزمة تطوير البرمجيات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Claude Code",
+   "Codex",
+   "Cursor"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release",
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 36,
+   "replies": 22,
+   "reposts": 6,
+   "quotes": 2,
+   "bookmarks": 39,
+   "views": 4150
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "artemis-google",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2101792218658877746"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1642",
+  "serial": 1642,
+  "serial_display": "#001642",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2101706145282855233",
+  "source_native_id": "2101706145282855233",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-20T16:12:47Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "علماء رياضيات يتحدثون عن تأثير AI على مجالهم",
+  "arabic_summary": "رئيس الجمعية الرياضية الفرنسية يصف تأثير الذكاء الاصطناعي على الرياضيات بأنه أشبه بـ«المنشطات»، بينما عبّر سيدريك فيلاني الحاصل على ميدالية فيلدز عن انصدامه من التقدم في مسألة نافييه-ستوكس. تيرينس تاو انضم أيضًا للأصوات المطالبة بإبطاء تطوير الذكاء الاصطناعي، رغم انتقادات وُجهت له بأنه لم يتحدث عن ذلك إلا بعدما اقترب الذكاء الاصطناعي من مجاله.",
+  "detailed_explanation": "المنشور يرصد تحوّلًا في خطاب علماء الرياضيات، من التشكك في قدرات نماذج اللغة إلى الاعتراف بأن التقدم الأخير في حل مسائل رياضية صعبة كنافييه-ستوكس مثير للقلق فعليًا. سيدريك فيلاني، الذي كان سابقًا من أشد المتشككين، وصف الوضع بأنه «كارثة» و«نهاية تاريخ» في مجاله.\n\nكما يشير إلى أن تيرينس تاو، أحد أبرز علماء الرياضيات المعاصرين، طالب بإبطاء تطوير الذكاء الاصطناعي، لكن هذا الموقف قوبل بانتقاد يرى أنه جاء فقط بعد أن أصبح المجال يهمّه شخصيًا، وهو ما يفتح نقاشًا أوسع عن مصداقية دعوات «الإبطاء» حين تصدر من المتأثرين مباشرة.\n\nالأهمية هنا ليست تقنية بل اجتماعية-معرفية: حين يبدأ العلماء في أعالي التخصصات النظرية بالتعبير عن قلق وجودي من الذكاء الاصطناعي، فهذا مؤشر على أن النقاش تجاوز الوظائف الروتينية إلى جوهر النشاط البشري الفكري نفسه.",
+  "why_it_matters": "يعكس تحوّل النقاش من افتراضات نظرية إلى مخاوف حقيقية لدى نخبة علمية من أن الذكاء الاصطناعي بدأ يهدد حتى المجالات الأكاديمية العميقة كالرياضيات البحثية.",
+  "original_text": "علماء الرياضيات بدأوا يتكلمون بشكل جدي أكثر عن تأثير الذكاء الاصطناعي على مجالهم.\n\nرئيس الجمعية الرياضية الفرنسية وصف اللي يحصل بأنه أشبه بـ«المنشطات» اللي دخلت المهنة، وحتى طلاب الدكتوراه صار عندهم خوف حقيقي من أن الوظائف اللي يدرسون سنوات علشان يوصلون لها يمكن ما تبقى بنفس الشكل بعد التخرج.\n\nوالكلام ما عاد فقط عن الوظائف، بعضهم يتكلم عن احتمال أن الرياضيات نفسها تتغير كليًا كنشاط بشري.\n\nسيدريك فيلاني، الحاصل على ميدالية فيلدز، قال إنه انصدم بعد ما عرف عن التقدم في مسألة نافييه-ستوكس، ووصف الجو بأنه:\n\n«كأننا في نهاية التاريخ… كارثة من نوع ما شهدته الرياضيات من قبل».\n\nالمثير أن فيلاني نفسه كان قبل فترة متشكك جدًا من نماذج اللغة، وكان يقول إنها مجرد دوال من نوع f(x)=y وإنها أساسًا ما تفهم أي شيء 😐\n\nحتى تيرينس تاو انضم للأصوات اللي تطالب بإبطاء تطوير الذكاء الاصطناعي، وقال إن سرعة التطور «مجنونة»، وما فيه سبب أصلًا إننا نستمر بهذه الخطوات السريعة.\n\nلكن بعدها جاءه انتقاد كبير في السوشال ميديا، لأن البعض شاف أنه ما بدأ يتكلم عن الإبطاء إلا بعدما صار الذكاء الاصطناعي يقترب فعليًا من مجال عمله.\n\nواضح أن الموضوع بدأ يتحول من نقاش نظري عن مستقبل الذكاء الاصطناعي إلى شيء يمس حتى أكثر المجالات اللي كنا نحسبها بعيدة عنه.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "تيرينس تاو",
+   "سيدريك فيلاني"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 25,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 17,
+   "views": 2659
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1643",
+  "serial": 1643,
+  "serial_display": "#001643",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2101679302181814652",
+  "source_native_id": "2101679302181814652",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-20T14:26:07Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سكيل جديد \"/wtf\" لجعل شرح الوكلاء أكثر وضوحًا",
+  "arabic_summary": "ضمن نسخة Compound Engineering 3.27 أُضيف Skill جديد باسم \"/wtf\" يجعل الوكيل يعيد شرح ما أخرجه بطريقة أوضح للفهم، ويمكن استدعاؤه بلا مطالبة لإعادة صياغة آخر إخراج، أو تمرير رابط مستند ليشرحه أيضًا. يأتي هذا كمحاولة لحل مشكلة أساليب الإخراج المقتضبة في Claude التي وصفت بأنها متذبذبة (hit and miss).",
+  "detailed_explanation": "المنشور يتحدث عن مشكلة في تواصل الوكلاء (Agents) القائمين على نماذج مثل Claude: أساليب الإخراج المختصرة (output styles) التي تحاول حل مشكلة التواصل الغامض تعمل بشكل متذبذب أحيانًا تنجح وأحيانًا لا.\n\nكحل عملي، أضاف الفريق في النسخة 3.27 من مشروعهم Compound Engineering سكيل جديد يُستدعى بأمر \"/wtf\"، يجعل الوكيل يعيد صياغة ما أخرجه بلغة أبسط وأوضح. يمكن استدعاؤه بلا أي مطالبة إضافية فيعيد صياغة آخر مخرج، أو يُمرَّر له نص أو رابط مستند فيشرحه بدوره.\n\nهذا مثال عملي على كيفية استخدام آلية Skills لحل مشاكل تجربة استخدام محددة في سياق العمل مع الوكلاء، وهو نموذج يمكن الاستفادة منه في بناء سكيلات مشابهة.",
+  "why_it_matters": "يعالج مشكلة عملية شائعة في التعامل مع الوكلاء وهي صعوبة فهم مخرجاتها التقنية، بحلّ عملي على شكل Skill قابل للاستدعاء المباشر.",
+  "original_text": "RT @trevin: Agents have been still so frustrating in the way they communicate.  Claude \"output styles\" try to solve this with it's concise style, but it's hit and miss.  \n\nIn the latest version of Compound Engineering 3.27, we added the \"/wtf\" skill to get your agent to explain things in a more understandable way.\n\n- You can trigger it bare with no prompt, and it'll restate what it just output.\n- Pass it a prompt, including a url to a doc, and it'll explain that too.\n\nRead more here: https://t.co/KnCXAFG4g0",
+  "glossary": [
+   {
+    "term": "Output styles",
+    "ar": "أساليب الإخراج"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature",
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 809
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1644",
+  "serial": 1644,
+  "serial_display": "#001644",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2101738500093612372",
+  "source_native_id": "2101738500093612372",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-20T18:21:21Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فريق قانوني في GitHub يبني Skill مخصصًا للتحقق من المستندات",
+  "arabic_summary": "مدير قانوني في GitHub استخدم GitHub Copilot CLI لبناء Skill مخصص اسمه Eyeball، يقوم بتضمين لقطات شاشة مضمّنة (inline) من المستندات الأصلية للتحقق من تحليلات الذكاء الاصطناعي. الأداة أصبحت مستخدمة من قبل كل المحامين في GitHub لمراجعة البنود المعقدة بثقة أكبر.",
+  "detailed_explanation": "القصة تعرض حالة استخدام واقعية لملفات Skill المبنية فوق أداة سطر الأوامر GitHub Copilot CLI، حيث لم يكتفِ الفريق القانوني بالاعتماد على مخرجات الذكاء الاصطناعي كما هي، بل بنوا أداة تحقق تربط كل تحليل بمصدره الأصلي عبر لقطات شاشة مضمّنة.\n\nهذا النمط من بناء أدوات تحقق مخصصة فوق قدرات الوكلاء يمثل نموذجًا عمليًا لكيفية رفع الثقة في مخرجات الذكاء الاصطناعي داخل فرق العمل غير التقنية، وهو أمر يهم أي شخص يبني Skills لأتمتة مهام تتطلب دقة عالية.",
+  "why_it_matters": "مثال عملي على استخدام Skills المخصصة لبناء أدوات تحقق داخلية تزيد الثقة في مخرجات الذكاء الاصطناعي في مجالات حساسة كالقانون.",
+  "original_text": "When the cost of error is high, trust is everything.\n\nDan, a director of Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill that embeds inline screenshots of source documents to verify AI analysis.\n\nDan's tool, aptly named Eyeball, helps the legal team check complex clauses and act on AI outputs with confidence. Now, every lawyer at GitHub is using the terminal to streamline their daily workflows. ▶️",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "GitHub",
+   "GitHub Copilot CLI"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 136,
+   "replies": 31,
+   "reposts": 11,
+   "quotes": 3,
+   "bookmarks": 29,
+   "views": 34776
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1645",
+  "serial": 1645,
+  "serial_display": "#001645",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2101697599103287794",
+  "source_native_id": "2101697599103287794",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-09-20T15:38:49Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "نموذج Qwen-Image-2.1 بحجم 7B يتفوق على Nano Banana 2.0",
+  "arabic_summary": "أطلقت Qwen نموذج Qwen-Image-2.1 بأوزان مفتوحة وحجم صغير نسبيًا (7 مليار معامل)، وهو نموذج موحّد لتوليد الصور وتحريرها، ويتفوق بحسب المنشور على نموذج Nano Banana 2.0 الأقوى في هذا المجال رغم صغر حجمه وسرعته الفائقة في الاستدلال.",
+  "detailed_explanation": "التطور اللافت هنا هو أن نموذجًا بحجم 7 مليار معامل فقط - وهو صغير جدًا مقارنة بمعايير نماذج توليد الصور الحديثة - يستطيع منافسة أو تجاوز نموذج مغلق المصدر يُعد من الأقوى في السوق.\n\nكون النموذج مفتوح الأوزان يعني إمكانية تشغيله وتخصيصه بحرية دون الاعتماد على واجهات برمجية مدفوعة، وهو ما يهم المطورين والباحثين الذين يريدون التحكم الكامل في نموذج توليد الصور دون تكاليف تشغيل كبيرة.",
+  "why_it_matters": "يظهر أن النماذج الصغيرة مفتوحة المصدر باتت تنافس النماذج المغلقة الكبيرة في مهام توليد الصور، مما يفتح الباب لتشغيلها محليًا بتكلفة أقل.",
+  "original_text": "وصلنا لمرحلة صار فيها نموذج مفتوح الأوزان بحجم 7B فقط يتفوق على Nano Banana 2.0!\n\nفكر فيها شوي… نموذج صغير نسبيًا، تقدر تشغله وتطوره بحرية، ينافس ويتجاوز واحد من أقوى نماذج توليد الصور.",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Qwen-Image-2.1",
+   "Nano Banana 2.0"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 50,
+   "replies": 1,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 43,
+   "views": 7835
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Meet Qwen-Image-2.1, the most balanced and cost-effective image generation model in the Qwen-Image series! Now open weights! 🎨\n\nA unified model for both generation and editing, delivering top-tier quality in a lightweight package.\n\nHighlights: 👀\n- Compact & exceptionally fast: A lightweight 7B architecture that outperforms most closed-source models, with drastically accelerated inference for multi"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1646",
+  "serial": 1646,
+  "serial_display": "#001646",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2101725845924749751",
+  "source_native_id": "2101725845924749751",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-20T17:31:04Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "دراسة: محاولة إزالة تحيز GPT-4 صنعت تحيزًا معاكسًا",
+  "arabic_summary": "كشفت دراسة أن GPT-4 يرفض بشدة مضايقة امرأة حتى لمنع كارثة كبرى، بينما يبدي تقبلًا أكبر للفعل نفسه أو حتى التضحية بحياة شخص إذا كان الضحية رجلًا. النتيجة تُظهر أن محاولات تصحيح التحيز الجندري في النموذج قد تنتج تحيزًا جديدًا بالاتجاه المعاكس بدل إزالته.",
+  "detailed_explanation": "الدراسة تسلط الضوء على مشكلة عميقة في محاذاة النماذج اللغوية الكبيرة: عندما يُدرَّب النموذج على تجنّب التحيز ضد فئة معينة، قد يتشكل لديه تحيز مضاد تجاه فئة أخرى في السيناريوهات المتماثلة تمامًا باستثناء الجنس.\n\nهذا يعني أن أحكام النموذج الأخلاقية ليست ثابتة أو منطقية بقدر ما تبدو، بل حساسة لمتغيرات سطحية في صياغة السيناريو، وهو ما يثير أسئلة حول موثوقية هذه النماذج في سياقات تتطلب حكمًا أخلاقيًا متسقًا.",
+  "why_it_matters": "يوضح أن معالجة التحيز في النماذج ليست حيادية دائمًا، بل قد تُنتج انحرافًا آخر يصعب رصده دون اختبار سيناريوهات متعددة.",
+  "original_text": "الذكاء الاصطناعي يرفض مضايقة النساء\n\nدراسة كشفت مفارقة غريبة في محاولات إزالة التحيز من الذكاء الاصطناعي:\n\nGPT-4 رفض بشدة مضايقة امرأة حتى لو كان ذلك لمنع كارثة نووية، لكنه كان أكثر تقبلًا للفعل نفسه عندما كان الضحية رجلًا، بل وأكثر تقبلًا للتضحية بحياة شخص.\n\nوفي سيناريوهات متطابقة، تغيّر حكم النموذج بشكل كبير بمجرد تغيير جنس الضحية.\n\nاللافت:\nمحاولة إزالة تحيز قد تصنع تحيز جديد في الاتجاه المعاكس…",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "GPT-4"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 35,
+  "metrics": {
+   "likes": 6,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 2178
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1647",
+  "serial": 1647,
+  "serial_display": "#001647",
+  "source_type": "x",
+  "source_url": "https://x.com/itsPaulAi/status/2101780210991747107",
+  "source_native_id": "2101780210991747107",
+  "source_name": "Paul Couvert",
+  "source_site": "x.com",
+  "author": "itsPaulAi",
+  "published_at": "2026-09-20T21:07:06Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Laya: نظام تصنيف مفتوح المصدر أسرع بخمسين ضعفًا",
+  "arabic_summary": "أداة Laya هي نظام تصنيف مفتوح المصدر بديل يعمل بذاكرة أقل من 1 جيجابايت، ويمكن تشغيله على أي لابتوب أو هاتف. يتميز بسرعة عالية تصل لـ60 قرارًا في الثانية، لكنه محدود بنافذة سياق صغيرة (1000 رمز) وأقل قدرة على التعميم مقارنة بالبديل الأصلي، رغم سهولة ضبطه الدقيق.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر خيارًا خفيفًا وسريعًا لمهام التصنيف يمكن تشغيله محليًا دون بنية تحتية ثقيلة، مناسب لتطبيقات تتطلب استجابة فورية.",
+  "original_text": "So we already have an open source alternative similar to Jev... and 50x faster?!\n\nLaya is an open source classification system:\n\n- runs on less than 1GB memory\n- available on hugging face\n- can run on any laptop/phone\n\nQuick example where it plays Snake at 60 decisions/sec!\n\nBUT it has some limitations:\n\n1. For now it only has a 1k context so some use cases won't fit\n\n2. It's not as good as Jev when it comes to generalization (but very easy to fine tune it if needed)\n\nhttps://t.co/RrzwbWLi2B",
+  "glossary": [
+   {
+    "term": "Context",
+    "ar": "نافذة السياق"
+   },
+   {
+    "term": "Fine-tune",
+    "ar": "الضبط الدقيق"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Laya",
+   "Hugging Face"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 91,
+   "replies": 9,
+   "reposts": 7,
+   "quotes": 2,
+   "bookmarks": 71,
+   "views": 7581
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1648",
+  "serial": 1648,
+  "serial_display": "#001648",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2101683717571784879",
+  "source_native_id": "2101683717571784879",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-20T14:43:40Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "غياب مولّد الصور في Claude يحدّ من مهام العمل المعرفي",
+  "arabic_summary": "يشير الكاتب إلى أن عدم توفر مولّد صور داخل Claude يمثّل فجوة في المشاريع الوكيلية المتعلقة بالعمل المعرفي، فبينما يتميز Claude في الرسم والنمذجة عبر الكود، فإن مولّدات الصور من Google وOpenAI تمنح نماذجهما خيارات أكثر لإنشاء العروض التقديمية والنماذج والرسوم البيانية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح نقطة ضعف عملية في أداة يستعملها القارئ (Claude) مقارنة بمنافسيها، وهو أمر يمسّ اختيار الأداة المناسبة لمهام تصميمية أو تقديمية.",
+  "original_text": "Claude not having an image generator is a gap in agentic projects that involve knowledge work. It is quite good at using code to draw or model objects, but image generators from Google and OpenAI give their AIs many more option for doing PowerPoints, mockups, infographics, etc.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Claude",
+   "Google",
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 594,
+   "replies": 106,
+   "reposts": 18,
+   "quotes": 5,
+   "bookmarks": 52,
+   "views": 37105
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1649",
+  "serial": 1649,
+  "serial_display": "#001649",
+  "source_type": "x",
+  "source_url": "https://x.com/alashalash/status/2101637375654867287",
+  "source_native_id": "2101637375654867287",
+  "source_name": "عبدالسلام عبدالعزيز الشلاش",
+  "source_site": "x.com",
+  "author": "alashalash",
+  "published_at": "2026-09-20T11:39:31Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ورشة عن ربط Claude Code بالمكتبة الشاملة للبحث الشرعي",
+  "arabic_summary": "دعوة لحضور ندوة عبر Zoom تشرح كيفية ربط Claude Code بالمكتبة الشاملة لتطوير البحث في العلوم الشرعية، تشمل هندسة الأوامر وتقسيم المهام وتتبع الأدلة وبناء أدوات معرفية للباحث. الندوة يقدمها د. مشاري الدليمي بتاريخ 30 سبتمبر برسوم وقفية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح استعمالًا عمليًا لأداة Claude Code في مجال البحث الشرعي بربطها بمصدر معرفي متخصص (المكتبة الشاملة)، وهو تطبيق حقيقي يمس أدوات يستعملها القارئ.",
+  "original_text": "RT @watadwaqf: 📚 فوائد ربط Claude Code بالمكتبة الشاملة\n\n🔗 https://t.co/c78XUJhH8L\n\nكيف يمكن للذكاء الاصطناعي أن يطوّر طريقة بحثك في المكتبة الشاملة؟ 🤖📖\n\nمن هندسة الأوامر وتقسيم المهام، إلى تتبّع الأدلة ودراسة المذاهب وبناء أدوات معرفية تخدم الباحث.\n\n🎙️ يقدمها: د. مشاري الدليمي @MishariAldulimi \n📅 الأربعاء 30 سبتمبر\n🕣 8:30 مساءً بتوقيت الكويت\n💻 عبر Zoom\n💰 الرسوم: 5 د.ك (رسوم وقفية)\n\n#وتد_الوقفية #المكتبة_الشاملة #ClaudeCode #الذكاء_الاصطناعي #البحث_العلمي #العلوم_الشرعية",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم",
+   "إسلامي"
+  ],
+  "entities": [
+   "Claude Code",
+   "المكتبة الشاملة"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 49
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [
+   "https://watadwaqf.com/lecture.php?id=132"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1650",
+  "serial": 1650,
+  "serial_display": "#001650",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2101808502411038743",
+  "source_native_id": "2101808502411038743",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-09-20T22:59:31Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شرح لطريقة تنظيم Claude Project كبنية تنظيمية للوكلاء",
+  "arabic_summary": "يصف الكاتب Claude Project كـ«مجلد لتنظيم تنسيق الوكلاء» حيث يمكن إنشاء مشروع بهدف، ثم محادثة وكيل رئيسي يفرّع منه \"threads\" فرعية تستعمل أدوات ونماذج مختلفة وتنتج مخرجات (artifacts) يمكن تعديلها، مع احتفاظ كل thread بسياق كامل عن المشروع دون إعادة شرح.",
+  "detailed_explanation": "",
+  "why_it_matters": "يقدّم نمطًا عمليًا لتنظيم مهام معقدة بأداة يستعملها القارئ (Claude)، عبر توزيع العمل على وكلاء فرعيين محتفظين بالسياق، مما يفيد من يبني تدفقات عمل وكيلية.",
+  "original_text": "I'm \"claude project\" pilled. \n\nA Claude Project can be thought of as a \"FFOAO\"\n\nA Folder For Organized Agent Orchestration\n\nAnd it's very intuitive....\n\n- Name your project\n- Give it a goal\n- Chat with an agent\n- Agent can spin up \"threads\" \n- The threads use the tools (your main agent does not)\n- Each thread can use different models\n- Each thread can create different artifacts (You can ask it to create a design like design mode, and it will send back a canvas that you can edit)\n- Each new thread has context over the entire project, so no reexplaining. \n- The routines (crons) live within the project\n- The artifacts are stored in \"library\" within the project\n\nVideo soon.",
+  "glossary": [
+   {
+    "term": "Thread",
+    "ar": "خيط/فرع محادثة"
+   },
+   {
+    "term": "Artifact",
+    "ar": "مخرج قابل للتحرير"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 65,
+   "replies": 15,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 75,
+   "views": 4538
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1651",
+  "serial": 1651,
+  "serial_display": "#001651",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2101606868565008852",
+  "source_native_id": "2101606868565008852",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-20T09:38:18Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مقارنة سرعة وكلاء البرمجة في حل خطأ برمجي واحد",
+  "arabic_summary": "تجربة عملية قارنت زمن حل نفس الخطأ البرمجي بنفس البرومبت بين Claude Code وOpenCode مع DeepSeek وCodex، حيث تفاوتت الأزمنة بفارق يصل إلى 3.2 ضعف بين الأسرع والأبطأ، بينما خرج Kimi من المقارنة بسبب حدّ الاستخدام. الثلاثة الذين أكملوا اجتازوا كل الاختبارات.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعطي مؤشرًا عمليًا على فروق الأداء الزمنية بين أدوات البرمجة الوكيلة الشائعة رغم كونه اختبارًا واحدًا فقط.",
+  "original_text": "نفس الخطأ البرمجي.\nنفس المشروع.\nونفس البرومبت.\nلكن أبطأ تشغيل استغرق 3.2× زمن الأسرع:\n\nClaude Code — 50 ثانية\nOpenCode + DeepSeek — 74 ثانية\nCodex — 160 ثانية\nKimi خرج من المقارنة بسبب Rate Limit\n\nالثلاثة الذين أكملوا المهمة نجحوا في 79/79 اختبار.\nاختبار واحد فقط، وليس ترتيبا عام لأفضل النماذج.",
+  "glossary": [
+   {
+    "term": "Rate Limit",
+    "ar": "حد معدل الاستخدام"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "OpenCode",
+   "DeepSeek",
+   "Codex",
+   "Kimi"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 22,
+   "replies": 1,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 15,
+   "views": 3629
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1652",
+  "serial": 1652,
+  "serial_display": "#001652",
+  "source_type": "x",
+  "source_url": "https://x.com/Wa7d_ai/status/2101738389003260382",
+  "source_native_id": "2101738389003260382",
+  "source_name": "مجتمع واحد",
+  "source_site": "x.com",
+  "author": "Wa7d_ai",
+  "published_at": "2026-09-20T18:20:55Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "شرح مبسّط لتقنية التقطير Distillation في نماذج AI",
+  "arabic_summary": "المنشور يشرح مفهوم التقطير (Distillation) وهو تدريب نموذج صغير (طالب) على تقليد طريقة تفكير نموذج كبير (معلم) بحيث يحتفظ بنسبة كبيرة من أدائه لكن بتكلفة وسرعة أفضل. يذكر أن DeepSeek استفاد من هذه التقنية بشكل كبير، ويربطها بانخفاض أسعار خدمات الذكاء الاصطناعي باستمرار.",
+  "detailed_explanation": "",
+  "why_it_matters": "يفسّر أحد الأسباب التقنية الرئيسية وراء ظهور نماذج أرخص وأسرع في السوق، وهو أمر يهم أي مستخدم يقارن بين النماذج من زاوية التكلفة والأداء.",
+  "original_text": "بدل ما تبني نموذج من الصفر!!🤖\nتاخذ نموذج كبير ذكي (المعلم)،وتخلّيه يعلّم نموذج أصغر (الطالب).\n\nالطالب ما يحفظ إجابات المعلم بس، يتعلم طريقة تفكيره.\n\nالنتيجة؟\nنموذج أصغر، أسرع، أرخص ويحتفظ بـ 95% من أداء المعلم.\n\nDeepSeek اللي ضرب السوق في 2025؟\nجزء كبير من قوته جاء من التقطير على نماذج أقوى.\n\nليش يهمك؟\nلأن هذا هو السبب الحقيقي وراء انخفاض أسعار AI باستمرار.\n\nكل ما نموذج كبير ينزل، بعد فترة تطلع نسخ مقطّرة منه، أرخص وأسرع.\n\nوش أكثر شي يخليك تختار نموذج على ثاني؟ 🤔",
+  "glossary": [
+   {
+    "term": "Distillation",
+    "ar": "التقطير"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "DeepSeek"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 21,
+  "metrics": {
+   "likes": 3,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 756
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1653",
+  "serial": 1653,
+  "serial_display": "#001653",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2101621484212899905",
+  "source_native_id": "2101621484212899905",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-20T10:36:22Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "شرح: مشاركة تطبيق محلي عبر إنترنت بدون نشر باستخدام Cloudflare Tunnel",
+  "arabic_summary": "المنشور يشرح طريقة مجانية لمشاركة تطبيق يعمل على الجهاز المحلي (localhost) مع أي شخص أو حتى مع AI Agent، دون الحاجة لنشره على استضافة أو شراء نطاق أو إعداد DNS. يتم ذلك عبر أداة cloudflared التي تنشئ رابط HTTPS عام خلال ثوانٍ.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر للمطورين حلًا سريعًا وبسيطًا لاختبار ومشاركة التطبيقات محليًا دون تعقيدات النشر التقليدي.",
+  "original_text": "مجاني وبدون حساب\n\nللمطورين والمبتدئين… هذه تستحق الحفظ 👨‍💻\n\nإذا عندك تطبيق يشتغل على:\n\nlocalhost:3000\n\nوتريد مشاركته مع أحد أو حتى AI Agent…\n\nبدون Deploy\nبدون شراء Domain\nبدون إعداد DNS\nوبدون فتح Ports\n\nCloudflare عندها حل بسيط:\n\nhttps://t.co/xdiFu2eEeb\n\nثبت cloudflared ثم شغّل:\n\ncloudflared tunnel --url http://localhost:3000\n\nوخلال ثواني تحصل على رابط HTTPS عام لتطبيقك المحلي: \n\nhttps://t.co/xxRsO4eh6d",
+  "glossary": [
+   {
+    "term": "DNS",
+    "ar": "نظام أسماء النطاقات"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Cloudflare"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 347,
+   "replies": 2,
+   "reposts": 30,
+   "quotes": 2,
+   "bookmarks": 516,
+   "views": 26329
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [
+   "https://try.cloudflare.com"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1654",
+  "serial": 1654,
+  "serial_display": "#001654",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2101811329527173324",
+  "source_native_id": "2101811329527173324",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-20T23:10:45Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Rescript: بديل مفتوح المصدر ومجاني لأداة Descript",
+  "arabic_summary": "أداة Rescript تتيح تحرير الفيديو عبر تعديل نص التفريغ الصوتي (transcription) مباشرة بدلًا من التعامل مع خط زمني تقليدي، وهي بديل مجاني ومفتوح المصدر لأداة Descript المدفوعة. تعمل بشكل خاص تمامًا حيث تبقى البيانات على جهاز المستخدم.",
+  "detailed_explanation": "",
+  "why_it_matters": "يتيح لصناع المحتوى تحرير فيديوهات المحاضرات والدروس بسرعة دون الاعتماد على أدوات مدفوعة أو رفع بياناتهم لخوادم خارجية.",
+  "original_text": "RT @JeremyNguyenPhD: Did you know there's a free &amp; open-source version of Descript?!\n\nEdit your videos just by making cuts and edits to the transcription. It's saved me so much time editing lecture videos.\n\nAlso, Rescript is 100% private: your data stays on your machine.\n\nRescript by @wassgha https://t.co/rirR30gtrC",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Rescript",
+   "Descript"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "rescript-descript",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2101628463178490324"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1655",
+  "serial": 1655,
+  "serial_display": "#001655",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2101731295659180527",
+  "source_native_id": "2101731295659180527",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-20T17:52:43Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ملاحظة: جودة لغة الوكلاء تتراجع في المهام الطويلة",
+  "arabic_summary": "يشير الكاتب إلى ظاهرة مفارقة في الوكلاء العاملين بنماذج اللغة الكبيرة: أكثر ما يزعج في المهام الطويلة ليس الأخطاء البرمجية أو الهلوسة، بل تراجع جودة اللغة نفسها (Drift) مع طول المهمة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يلفت النظر إلى مشكلة عملية تواجه أي شخص يشغّل وكلاء لمهام طويلة، وقد تؤثر على جودة النتائج النهائية حتى لو كان الأداء المنطقي صحيحًا.",
+  "original_text": "It is ironic that the thing that is now most annoying about long-running agentic tasks with Large Language Models isn't coding or errors or hallucinations, but the fact that their language gets worse due to drift as a task goes on\n\nIts in your the name! Just write better already!",
+  "glossary": [
+   {
+    "term": "Drift",
+    "ar": "انحراف/تشتت تدريجي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 189,
+   "replies": 43,
+   "reposts": 3,
+   "quotes": 4,
+   "bookmarks": 22,
+   "views": 18426
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1656",
+  "serial": 1656,
+  "serial_display": "#001656",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2101695377950814623",
+  "source_native_id": "2101695377950814623",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-20T15:30:00Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة Herdr تدير جلسات وكلاء البرمجة في الخلفية",
+  "arabic_summary": "أداة جديدة تسمى Herdr تتيح لوكلاء البرمجة مثل Claude Code وCodex وOpenCode الاستمرار في العمل بالخلفية دون الحاجة لإبقاء الطرفية مفتوحة، مع عرض في جلسة واحدة لمن يعمل ومن ينتظر تدخل المستخدم.",
+  "detailed_explanation": "",
+  "why_it_matters": "يحل مشكلة عملية لمن يشغّل عدة وكلاء برمجة في آن واحد ويحتاج متابعة حالتهم بسهولة.",
+  "original_text": "تقفل الطرفية وترجع بعدين؟ Herdr يخلي وكلاء البرمجة يكملون شغلهم في الخلفية.\n\nـ Claude Code وCodex وOpenCode وغيرهم، جلسة واحدة وتعرف مباشرة مين يشتغل ومين ينتظر تدخلك. https://t.co/w7wEMCfVcL",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Herdr",
+   "Claude Code",
+   "Codex",
+   "OpenCode"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 15,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 1122
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1657",
+  "serial": 1657,
+  "serial_display": "#001657",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2101710585394053599",
+  "source_native_id": "2101710585394053599",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-09-20T16:30:26Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة لإضافة خامات وإضاءة وحركة احترافية للتصاميم",
+  "arabic_summary": "أداة جديدة تتيح للمصممين التحكم في طبقة الخامة والإضاءة والحركة لإعطاء التصميم إحساسًا احترافيًا بدل السطح المسطح، بهدف رفع القيمة المتصورة للعمل البصري.",
+  "detailed_explanation": "",
+  "why_it_matters": "يهم المصممين الباحثين عن طريقة سريعة لإضافة عمق بصري احترافي لأعمالهم دون أدوات تصميم ثلاثية الأبعاد معقدة.",
+  "original_text": "Pro designers shape the viewers' perception\n\nMaterial, light and motion carry more perceived value than a flat canvas with a boring design\nThe tool below lets you art-direct that layer\n\nLink: https://t.co/fgjbXyayoG https://t.co/HpnTfjrCP2",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 77,
+  "metrics": {
+   "likes": 204,
+   "replies": 16,
+   "reposts": 13,
+   "quotes": 6,
+   "bookmarks": 157,
+   "views": 10590
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [
+   "https://holocloth.vercel.app/"
+  ],
+  "quoted": null,
+  "cluster_id": "holocloth-tool",
+  "also_reported": [
+   {
+    "author": "AmirMushich",
+    "url": "https://x.com/AmirMushich/status/2101749542316101906"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1658",
+  "serial": 1658,
+  "serial_display": "#001658",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2101587805642109332",
+  "source_native_id": "2101587805642109332",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-09-20T08:22:33Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مندوب مبيعات بلا خبرة برمجة يفوز بجائزة عبر أداة مبنية على Gemini",
+  "arabic_summary": "قصة عن شخص من خلفية مبيعات بنى Actor بسيط باستخدام Prompt مع Gemini يحوّل عنوانًا إلى تقدير مساحة المبنى من صور الأقمار الصناعية، وفاز بجائزة 2000 دولار ضمن مسابقة Apify.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال ملموس على كيف يمكّن الجمع بين Prompt ونموذج جاهز غير المبرمجين من بناء أدوات مفيدة عمليًا.",
+  "original_text": "A salesperson with no coding background built an Actor using a prompt + Gemini, thought nobody else would want it, and won $2,000 in the Apify $1M Challenge.\n\nThe Actor takes an address and returns the building's estimated square footage from satellite. Full story in the 🧵 https://t.co/qr3ORLx9Iz",
+  "glossary": [
+   {
+    "term": "Actor",
+    "ar": "وحدة تنفيذ آلية على منصة Apify"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Gemini"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 36,
+  "metrics": {
+   "likes": 4,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 678
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1659",
+  "serial": 1659,
+  "serial_display": "#001659",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2101758178879033667",
+  "source_native_id": "2101758178879033667",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-20T19:39:33Z",
+  "fetched_at": "2026-09-21T00:08:31Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مقارنة بين خيارات الاستضافة المجانية للسيرفرات في 2026",
+  "arabic_summary": "منشور يقارن بين Oracle Cloud وGoogle Cloud وAWS وAzure من حيث توفر سيرفرات مجانية فعليًا مقابل تجارب مجانية محدودة المدة، مع توضيح الموارد وأفضل استخدام لكل خيار.",
+  "detailed_explanation": "",
+  "why_it_matters": "مفيد لمن يبحث عن بيئة تجربة أو استضافة بدون تكلفة لمشاريعه الصغيرة.",
+  "original_text": "تدفع شهريًا على VPS؟\nممكن ما تحتاج تدفع أصلًا.\nفي 2026 ما زالت هناك خيارات تعطيك سيرفر مجاني فعلًا، وأبرزها Oracle Cloud، بينما AWS وAzure أقرب لتجربة مجانية محدودة.\n\nجمعت في الصورة الفرق بين:\nOracle Cloud\nGoogle Cloud\nAWS\nAzure\n\nمع الموارد والمدة وأفضل استخدام لكل خيار.\nاحفظ الصورة، غالبًا سترجع لها عندما تحتاج VPS لمشروع أو تجربة جديدة.",
+  "glossary": [
+   {
+    "term": "VPS",
+    "ar": "خادم افتراضي خاص"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Oracle Cloud",
+   "Google Cloud",
+   "AWS",
+   "Azure"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 132,
+   "replies": 6,
+   "reposts": 13,
+   "quotes": 1,
+   "bookmarks": 142,
+   "views": 6485
+  },
+  "metrics_captured_at": "2026-09-21T00:08:31Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
