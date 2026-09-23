@@ -1,0 +1,2134 @@
+[
+ {
+  "id": "c1697",
+  "serial": 1697,
+  "serial_display": "#001697",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2102461471716483208",
+  "source_native_id": "2102461471716483208",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-22T18:14:11Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مقارنة عملية: GPT-6 Sol مقابل Claude Opus 5.5 في العمل اليومي",
+  "arabic_summary": "دان شيبر من Every يقارن أداء GPT-6 Sol الجديد من OpenAI مع Claude Opus 5.5 من Anthropic بعد اختبارهما في العمل الفعلي. Sol أسرع وأرخص بنسبة 50% من GPT-5.6 ويقارب أداء Astra في الكتابة واستخدام الحاسوب، بينما يتفوق Opus 5.5 في المهام البرمجية الطويلة المستقلة.",
+  "detailed_explanation": "نشر دان شيبر من Every مقارنة تفصيلية بين نموذجين أُطلقا في نفس اليوم تقريبًا: GPT-6 Sol من OpenAI وClaude Opus 5.5 من Anthropic، بناءً على استخدامهما الفعلي في العمل داخل Codex.\n\nفي الكتابة، سجّل Sol أداءً قريبًا من Astra (النموذج الرائد لدى OpenAI) وتفوّق على Opus 5.5 في وضوح الفكرة الرئيسية أول النص، بينما ميل Opus لدفن الفكرة داخل النص ظل قائمًا. في استخدام الحاسوب (Computer Use)، طابق إصدار تجريبي سابق من Sol أداء Astra في 17 من 18 محاولة عبر ست مهام أبسط، بسعر توكن أقل بكثير.\n\nفي البرمجة، تحسّن Sol عن GPT-5.6 بما في ذلك جودة أفضل في شيفرة Ruby، لكن Opus 5.5 حافظ على سقف أعلى في المهام البرمجية الطويلة والمستقلة. لاحظ الكاتب أيضًا مشكلة تقنية: مصنّف أمان جديد في Codex كان يوقف العمل المصرَّح به مسبقًا طالبًا موافقة إضافية، ما زاد الاحتكاك في الجلسات الطويلة رغم أنه لا يعكس قصورًا في Sol نفسه.\n\nالخلاصة العامة: Sol يقدّم جزءًا كبيرًا من قدرة Astra بحوالي خُمس سعرها، بينما فاجأ Opus 5.5 الفريق بمطابقته أو تفوقه أحيانًا على Fable 5.1 في بعض المهام رغم اختلاف طبيعة النموذجين.",
+  "why_it_matters": "مقارنة مبنية على استخدام فعلي تساعد من يعمل بـCodex أو Claude Code على اختيار النموذج الأنسب لكل نوع مهمة، خصوصًا مع فرق السعر الكبير.",
+  "original_text": "BREAKING: \n\n@OpenAI just dropped GPT-6 Sol. It’s my new daily driver in Codex: not quite Astra, but close enough for much of my everyday work, faster, and 50% cheaper than 5.6 Sol.\n\nWe tested it across the work we actually do at @every and ran it head to head versus Opus 5.5. Here’s my vibe check:\n\n• Writing: On a paragraph-writing task drawn from my real work, Sol scored close to Astra, which is still my top model for writing. It writes clean, minimal prose and puts the important idea first. Opus 5.5 is pleasant to work with, but its drafts still tend to bury the point.\n\n• Computer use: If you love Astra’s computer use, you’ll like Sol. An earlier Sol preview matched Astra on 17 of 18 attempts across six of our simpler Hands tasks, at a much lower token price.\n\n• Coding: Sol improves on GPT-5.6—including better Ruby code in @kieranklaassen tests—but Opus 5.5 has the higher ceiling for long, autonomous builds.\n\nOne frustration: Codex’s new security classifier repeatedly stopped work we’d already authorized to ask for approval. That’s friction from the classifier, not necessarily a limitation of Sol, but it made long runs harder to leave alone.\n\nOverall:\nSol feels like an S-class iP",
+  "glossary": [
+   {
+    "term": "Computer Use",
+    "ar": "استخدام الحاسوب (تحكّم الوكيل بواجهة الجهاز)"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-6 Sol",
+   "Anthropic",
+   "Claude Opus 5.5",
+   "Codex",
+   "Every"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 85,
+  "metrics": {
+   "likes": 591,
+   "replies": 35,
+   "reposts": 27,
+   "quotes": 9,
+   "bookmarks": 248,
+   "views": 128475
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe.\n\nGPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale.\n\nWe’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional prici"
+  },
+  "cluster_id": "vibe-check-sol-opus",
+  "also_reported": [
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102556723244564715"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102509857870155878"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1698",
+  "serial": 1698,
+  "serial_display": "#001698",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2102317476814246126",
+  "source_native_id": "2102317476814246126",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-22T08:42:00Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تجربة تبني فلترًا هجينًا لتصنيف أخبار السوق بين نموذجين",
+  "arabic_summary": "يشرح صاحب المنشور تجربته في بناء نظام يصنّف أخبار السوق إلى مهم أو غير مؤكد أو ضوضاء، ثم يحدد اتجاه الخبر ونوعه. اختبر النظام على 30 حالة صناعية بالعربية والإنجليزية، ووجد أن TypeSafe كان دقيقًا وثابتًا وسريعًا في التصنيف الأولي بينما DeepSeek Flash كان أدق في تفاصيل الاتجاه ونوع الحدث، فبنى نسخة هجينة تجمع الاثنين، ووصل المشروع إلى إصدار v0.1 يعمل من سطر الأوامر.",
+  "detailed_explanation": "التجربة المذكورة تنطلق من ملاحظة أن اختيار 'أفضل نموذج' سؤال خاطئ، والأهم هو بناء تدفق عمل يوزّع المهام حسب نقاط قوة كل نموذج. صاحب المنشور اختبر 30 حالة صناعية بلغتين وفي سوقين مختلفين، مع تكرار كل حالة 3 مرات على كل نظام لضمان الثبات.\n\nالنتائج: TypeSafe حقق دقة وثباتًا كاملين (100%) في تصنيف الإشارة (مهم/غير مؤكد/ضوضاء) بمتوسط زمن استجابة 0.384 ثانية، بينما DeepSeek Flash كان أدق في التفاصيل الدقيقة كنوع الحدث (96.7%) لكن أقل في النتيجة الكاملة (85.6%).\n\nبناءً على ذلك صمم نظامًا هجينًا: TypeSafe يفرز الخبر أولًا، فإن كان ضوضاء يتوقف النظام دون استدعاء DeepSeek لتوفير التكلفة والزمن، وإن كان مهمًا أو غير مؤكد ينتقل إلى DeepSeek لتحديد التفاصيل. المشروع وصل لإصدار v0.1 يعمل من سطر الأوامر، ويُوصف بأنه أداة ترتيب أولوية لا توصية استثمارية.",
+  "why_it_matters": "مثال عملي على دمج نموذجين مختلفين في تدفق عمل واحد لتقليل التكلفة والزمن دون التضحية بالدقة، وهو نمط تصميم مفيد لبناء أدوات فرز مشابهة.",
+  "original_text": "180 طلب كشفت لي أن سؤال: «أي نموذج أفضل؟» كان السؤال الخطأ.\n\nبنيت اختبار لفرز أخبار السوق إلى:\nمهم، غير مؤكد، أو ضوضاء.\nثم تحديد اتجاه الخبر ونوع الحدث.\n\nالاختبار شمل 30 حالة صناعية بالعربية والإنجليزية، من السوقين السعودي والأمريكي، وشغّلت كل حالة 3 مرات على كل نظام.\n\nالنتيجة:\n\nـ TypeSafe حقق 100% في تصنيف الإشارة، و100% في الثبات، بمتوسط 0.384 ثانية.\n\nـDeepSeek Flash  كان أدق في التفاصيل:\n85.6% للنتيجة الكاملة، و96.7% في تحديد نوع الحدث.\n\nلذلك بنيت نسخة هجينة:\nـTypeSafe  يفرز الخبر أولًا.\n\nإذا كان ضوضاء، يتوقف النظام ولا يستدعي DeepSeek.\n\nإذا كان مهم أو غير مؤكد، ينتقل إلى DeepSeek لتحديد الاتجاه ونوع الحدث.\n\nوصل المشروع الآن إلى v0.1 تعمل من سطر الأوامر.\n\nفلتر معلومات يساعد على ترتيب ما يستحق الانتباه، وليس توصية تداول.\n\nالفيديو يلخص المشكلة والتجربة والنتيجة.",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياس أداء"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بيانات وتحليلات",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "DeepSeek"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 16,
+   "replies": 3,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 993
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "typesafe-filter",
+  "also_reported": [
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2102473568273502446"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1699",
+  "serial": 1699,
+  "serial_display": "#001699",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2102435870309769352",
+  "source_native_id": "2102435870309769352",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-22T16:32:27Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تطلق Claude Opus 5.5 بسعر أرخص ٤٠٪",
+  "arabic_summary": "أصدرت Anthropic نموذج Claude Opus 5.5 الجديد، وأظهرت اختبارات فريق Every أنه ينافس نموذج Fable 5.1 في البرمجة والتصميم والكتابة مع تكلفة أقل بنسبة تصل إلى ٤٠٪. يتفوق النموذج في المشاريع البرمجية الشاملة لكنه لا يزال أضعف في مهام الكتابة اليومية مقارنة بمنافسيه.",
+  "detailed_explanation": "أعلنت Anthropic عن Claude Opus 5.5 بوصفه بديلاً اقتصاديًا لنموذج Opus 5 السابق، مع سعر ٥ دولارات لكل مليون توكن مدخل و٢٠ دولارًا لكل مليون توكن مخرج، أي انخفاض بنحو ٢٠٪ في سعر المخرجات مقارنة بالنموذج السابق الذي كان يكلّف ٢٥ دولارًا.\n\nحسب اختبارات فريق Every، يتفوق النموذج الجديد في المشاريع البرمجية الشاملة من البداية للنهاية، ويقترب من أداء Fable 5.1 في مهام متعددة كالتصميم والعمل المعرفي، لكنه ما زال يتأخر في وضوح الكتابة اليومية إذ يميل لدفن الفكرة الرئيسية داخل الفقرات التمهيدية رغم حصوله على أعلى درجة سهولة قراءة بين النماذج المختبرة.\n\nكما لاحظ الفريق أن النموذج قد يبالغ أحيانًا في تنفيذ المهام متجاوزًا الحد المطلوب، وهي مشكلة وُصفت بأنها لا تزال قائمة رغم التحسينات العامة في الكفاءة واستهلاك التوكنز.",
+  "why_it_matters": "تغيّر موازين الأسعار والأداء بين النماذج المنافسة يؤثر مباشرة على اختيار عزيز لأداة العمل اليومية في البرمجة والكتابة.",
+  "original_text": "BREAKING:\n\nAnthropic just dropped Opus 5.5—and it’s pulling some of our recent Codex converts back to Claude.\n\nWe’ve been testing it at @every across coding, design, writing, and knowledge work. It sometimes beats Fable 5.1 in our testing and is up to 40% cheaper than Opus 5.\n\nIt's a strong contender for new daily driver model:\n\nIt’s excellent at end-to-end builds that match your taste. I’ve started reaching for Opus over Fable on big, end-to-end coding projects.  And @kieranklaassen is replacing Fable 5.1 with Opus for his day-to-day product work. He calls it his new favorite model.\n\nIt produces legible prose, but still trails Astra on writing tasks. Opus 5.5 scores a 68.42 on reading ease—the highest on any model we've tested. But in my writing benchmark tests it consistently buries the main point in intro paragraphs, and revisions. You'll be able to understand what this model is saying (yay!) but for day-to-day writing it's still behind.\n\nThe economics are striking. Anthropic says Opus 5.5 will cost $5 per million input tokens and $20 per million output tokens. That’s the same input price and 20% less for output than Opus 5’s $5/$25. Altogether it should save roughly 40% on cost",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "توكن — وحدة نصية أساسية تُقاس بها تكلفة استخدام النموذج"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "Claude Opus 5.5"
+  ],
+  "change_types": [
+   "New Release",
+   "Pricing Change",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1869,
+   "replies": 59,
+   "reposts": 88,
+   "quotes": 18,
+   "bookmarks": 1397,
+   "views": 1021496
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "opus-5-5",
+  "also_reported": [
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102448271587508487"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102444094446616824"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102440289839575433"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102439186012008803"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102438751276568872"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102438684574576750"
+   },
+   {
+    "author": "smalkalbani",
+    "url": "https://x.com/smalkalbani/status/2102451332796092689"
+   },
+   {
+    "author": "Abdullah4AI",
+    "url": "https://x.com/Abdullah4AI/status/2102438141978100183"
+   },
+   {
+    "author": "claudeai",
+    "url": "https://x.com/claudeai/status/2102435511222890900"
+   },
+   {
+    "author": "perplexity_ai",
+    "url": "https://x.com/perplexity_ai/status/2102439872485355547"
+   },
+   {
+    "author": "cursor_ai",
+    "url": "https://x.com/cursor_ai/status/2102448392773435706"
+   },
+   {
+    "author": "github",
+    "url": "https://x.com/github/status/2102451479487324333"
+   },
+   {
+    "author": "addyosmani",
+    "url": "https://x.com/addyosmani/status/2102436416437580159"
+   },
+   {
+    "author": "Wa7d_ai",
+    "url": "https://x.com/Wa7d_ai/status/2102452944876540091"
+   },
+   {
+    "author": "trq212",
+    "url": "https://x.com/trq212/status/2102437686967738431"
+   },
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2102453258061320657"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1700",
+  "serial": 1700,
+  "serial_display": "#001700",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2102495992121901406",
+  "source_native_id": "2102495992121901406",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-22T20:31:21Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصائح عملية لاستخدام Claude Opus 5.5 بعد اختبار أسبوع",
+  "arabic_summary": "فريق Every اختبر Claude Opus 5.5 لمدة أسبوع وخرج بست نصائح عملية: وضع حد أقصى للميزانية لأنه لا يتوقف تلقائيًا، طلب المُخرَج النهائي أولًا، جعله ينقد عمله بنفسه، إعطاؤه ملاحظات لأنه يبني عليها بدل الجدال، مراجعة أن الفكرة الرئيسية ظاهرة في النص، وأنه يقدّم أفضل نتائجه في العمل البصري كواجهات الألعاب والرسوم ثلاثية الأبعاد.",
+  "detailed_explanation": "بعد إطلاق Claude Opus 5.5، أجرى فريق Every اختبارًا أسبوعيًا مكثفًا على النموذج في عملهم الفعلي، وخرجوا بملاحظات تشغيلية دقيقة تتجاوز مجرد قياس الأداء النظري.\n\nمن أبرز الملاحظات: النموذج لا يتوقف من تلقاء نفسه عند إنجاز المهمة، بل يستهلك حد الاستخدام الأسبوعي كاملًا إن لم يُحدَّد له متى يتوقف بوضوح (\"done\"). كذلك يُفضَّل طلب المُخرَج النهائي أولًا لأنه في اختبار محدود بالوقت بنى أدوات مساعدة بدل تسليم الجدول المطلوب مباشرة.\n\nلاحظ الفريق أيضًا أن Opus 5.5 يمكن أن ينقد عمله الخاص بدقة تلتقط أخطاء فاتت المصمم البشري، لكنه أحيانًا يرفض 90% من عمله لأسباب غير واضحة، ما يستدعي مراجعة بشرية. كما تحسّنت استجابته للملاحظات: صار يبني عليها بدل الجدال، خلافًا لسلوك سابق. وأخيرًا، أفضل نتائجه تظهر في المهام البصرية كالواجهات والرسوم والنماذج الأولية.",
+  "why_it_matters": "نصائح استخدام مبنية على اختبار فعلي تفيد مباشرة كل من يعمل بـClaude Opus 5.5 في مهام حقيقية.",
+  "original_text": "RT @every: We tested Claude Opus 5.5 for a week. Some tips:\n\n1. Set a budget and a stopping point. It won't stop on its own, and it'll eat your weekly limit. Tell it what \"done\" looks like.\n\n2. Ask for the deliverable first. Given 10 minutes for a run of show, it built a data generator and handouts, then ran out of time before making the schedule.\n\n3. Let it critique itself, then check. It caught things our designer missed, and also rejected 90 percent of its own work for reasons he couldn't trace.\n\n4. Give it notes. Opus 5.5 is a personality fix: It builds on your feedback now instead of arguing with it.\n\n5. Move the point up yourself. Its prose is the most readable we've measured, but it still buries the lede.\n\n6. Point it at visual work. Game UI, 3D, animations, and prototypes were its best one-shot results.\n\nFull Vibe Check: https://t.co/pRlJVLIaqc",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic",
+   "Every"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 9,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 637
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "opus-5.5-vibe-check-tips",
+  "also_reported": [
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102490147384439246"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2102466205198274736"
+   },
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2102502644522582170"
+   },
+   {
+    "author": "addyosmani",
+    "url": "https://x.com/addyosmani/status/2102576772340760655"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1701",
+  "serial": 1701,
+  "serial_display": "#001701",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2102484247412146458",
+  "source_native_id": "2102484247412146458",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-22T19:44:41Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "متى تستخدم Opus 5.5 ومتى تبقى على Fable أو Sol",
+  "arabic_summary": "دليل مقارنة من فريق Every يحدد متى يُفضَّل Claude Opus 5.5: للواجهات والنماذج الأولية والكتابة الإبداعية، ومتى يبقى المستخدم على Fable 5.1 للمهام الكبيرة التي يجب أن تكون صحيحة من أول مرة، ومتى يفضَّل Astra أو GPT-5.6 Sol عندما يكون الوقت محدودًا.",
+  "detailed_explanation": "قدّم فريق Every خلاصة عملية بعد اختبار Opus 5.5، تصنّف استخدام النماذج حسب طبيعة المهمة بدل الاكتفاء بمقارنة عامة للأداء.\n\nبحسب الدليل، يُفضَّل Opus 5.5 عند بناء أشياء يمكن النظر إليها بصريًا مثل الواجهات والنماذج الأولية والمشاهد ثلاثية الأبعاد والألعاب، وكذلك عند الحاجة إلى متعاون في الكتابة والعمل الإبداعي، أو عند تمثيل شخصيات ومفاوضات وتحليلات ذات وجهة نظر.\n\nفي المقابل، يُنصح بالبقاء على Fable 5.1 حين تكون المشكلة أكبر من أن تُقيَّم بالعين المجردة، أو حين يجب أن يكون المُخرَج صحيحًا من المحاولة الأولى، أو حين يفضّل المستخدم أسلوب Fable في الكتابة.\n\nأما Astra أو GPT-5.6 Sol فيبقيان الخيار الأفضل حين يكون هناك سقف زمني للمهمة، أو حين يحتاج المستخدم لمحرر لا كاتب، أو حين لا توجد ميزانية استخدام محددة، لأن Opus قد يستهلك وقتًا طويلًا إن تُرك دون قيد.",
+  "why_it_matters": "يوفّر معيارًا عمليًا لاختيار النموذج المناسب حسب طبيعة المهمة بدل الاعتماد على انطباع عام.",
+  "original_text": "RT @every: Reach for Opus 5.5 if:\n• You build things you can look at e.g. Interfaces, prototypes, 3D scenes, games, tools.\n• You want a collaborator for writing and creative work.\n• You need someone to be, e.g. Personas, negotiations, and analysis with a point of view\n\nStay on Fable 5.1 if:\n• The problem is too big to eyeball.\n• The deliverable has to be right the first time.\n• You prefer Fable’s prose.\n\nKeep Astra or GPT-5.6 Sol nearby if:\n• The deliverable has a clock.\n• You need an editor, not a writer.\n• Nobody has set a budget. Opus will take the afternoon if you let it.\n\nMore on our vibe check on Opus 5.5: https://t.co/NQRErDlte8",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Opus 5.5",
+   "Fable 5.1",
+   "Astra",
+   "GPT-5.6 Sol",
+   "Every"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 607
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1702",
+  "serial": 1702,
+  "serial_display": "#001702",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2102499328040346099",
+  "source_native_id": "2102499328040346099",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-09-22T20:44:37Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Fireworks تطلق مؤشر SII لقياس أداء الذكاء الاصطناعي في العمل الفعلي",
+  "arabic_summary": "أطلقت شركة Fireworks مؤشراً جديداً باسم Specialized Intelligence Index (SII) لقياس أداء نماذج الذكاء الاصطناعي على مهام تحاكي العمل الحقيقي بدلاً من الاختبارات الثابتة المعتادة. يضم المؤشر 12 شريكاً عبر 6 قطاعات منها الصحة والقانون والأمن السيبراني ودعم العملاء.",
+  "detailed_explanation": "تكمن مشكلة أغلب اختبارات الذكاء الاصطناعي الحالية في كونها ثابتة ومحدودة النطاق وسهلة التقييم، بينما العمل الحقيقي يتضمن مدخلات معقدة وغموضاً وأدوات متعددة الخطوات وقيوداً تجارية واقعية، وهذا ما يحاول SII معالجته.\n\nبُني المؤشر بالتعاون مع فرق تُجري هذه التقييمات فعلياً في الإنتاج، عبر 12 شريك إطلاق موزعين على 6 قطاعات: الرعاية الصحية، القانون، الأمن السيبراني، دعم العملاء، الإنتاجية، والبرمجيات.\n\nمن الأمثلة المذكورة: dfbench v1 من DepthFirst، وهو اختبار للأمن الدفاعي يغطي اكتشاف الثغرات والتحقق منها والتحليل التفاضلي، حيث حقق نموذج dfs-large1 (مبني على GLM 5.2 ومُدرَّب لاحقاً بواسطة Fireworks عبر RL) نتائج متقدمة بفضل تقنيات مثل reward shaping وعقوبات الجهد الزائد.",
+  "why_it_matters": "يقدم طريقة تقييم أقرب للواقع العملي المعقد بدلاً من Benchmarks التقليدية السهلة، وهو مفيد لمن يختار نماذج لمهام إنتاجية فعلية.",
+  "original_text": "You can now benchmark AI on the tasks that matter for your job 🤯\n\nIt’s called Specialized Intelligence Index (SII) by Fireworks and it just launched.\n\nMost AI benchmarks are static, bounded, and cheap to grade. Real work is the opposite: complex inputs, ambiguity, multi-step tools, business constraints.\n\nSo Fireworks built the Index with the teams that run these evaluations in production.\n\n12 launch partners across 6 industries: healthcare, legal, cybersecurity, customer support, productivity, and software.\n\nAnd the early results are wild.\n\nTake DepthFirst's dfbench v1, a defensive security benchmark covering vulnerability detection, validation, and differential analysis. DepthFirst's own dfs-large1, a GLM 5.2 base post-trained with Fireworks using RL, set a new Pareto frontier on it.\n\nThe gains came from RL reward shaping, an effort penalty and a soft finding-budget penalty, plus training vulnerability detection and validation together.\n\nSo if you need to pick models for your workloads, start here.\n\nhttps://t.co/ibBGTwY2ZW",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياس أداء"
+   },
+   {
+    "term": "Fine-tuning",
+    "ar": "ضبط دقيق للنموذج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Fireworks",
+   "DepthFirst",
+   "GLM 5.2"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 21,
+   "replies": 6,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 11,
+   "views": 2820
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "sii-fireworks",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2102532720111009912"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1703",
+  "serial": 1703,
+  "serial_display": "#001703",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2102429704833904685",
+  "source_native_id": "2102429704833904685",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-09-22T16:07:57Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "DigitalOcean تطلق Managed Agents لتشغيل الوكلاء بكفاءة",
+  "arabic_summary": "أطلقت DigitalOcean خدمة Managed Agents في نسخة معاينة عامة، تتيح تشغيل Claude Code وCodex وLangGraph في بيئة تتوقف عند الخمول دون تكلفة، مع استئناف سريع وحفظ للحالة، ودعم لأكثر من 16000 أداة وأكثر من 75 نموذجًا عبر نقطة وصول واحدة موحدة.",
+  "detailed_explanation": "أعلنت DigitalOcean عن Managed Agents كخدمة في نسخة معاينة عامة (Public Preview)، تصفها بأنها لحظة \"AWS\" الخاصة بوكلاء الذكاء الاصطناعي. تتيح الخدمة تشغيل Claude Code وCodex أو agents مبنية بـLangGraph داخل بيئة تشغيل تتوقف تلقائيًا عند الخمول (مثلًا توقف الجمعة واستئناف الاثنين) دون فقدان أي حالة، مع استئناف سريع خلال 316 ملي ثانية بفضل نقاط حفظ (checkpoints) تخزن الجهاز وذاكرة الوكيل معًا.\n\nتتيح الخدمة أيضًا تفريع الجلسة (fork) لتجربة عدة مسارات، والوصول لأكثر من 16000 أداة (مثل Exa وSupabase وBox وGitHub وStripe) عبر نقطة وصول واحدة يمكن التحكم بها، مع حل بيانات الاعتماد لكل استدعاء دون أن تلمس الوكيل أو بيئة العزل مباشرة، ودعم لأكثر من 75 نموذجًا عبر أمر واحد مع توجيه ذكي بينها.",
+  "why_it_matters": "يقدم بنية تحتية جاهزة لتشغيل agents بتكلفة مضبوطة وإدارة موحدة، وهو ما يهم كل من يشغّل وكلاء AI بشكل مستمر ويريد تقليل التكاليف والتعقيد التشغيلي.",
+  "original_text": "This is the \"AWS moment\" for AI agents.\n\nDigitalOcean just launched Managed Agents, now in public preview 👇\n\n→ Run Claude Code, Codex, or LangGraph in a runtime built to pause when idle\n→ Pause Friday, resume Monday. Nothing lost, zero cost while it's paused\n→ Resumes in 316ms\n→ Checkpoints save the machine and the agent's memory together\n→ Fork one session three ways, test approaches, keep what works\n→ 16,000+ tools, one governed endpoint. Exa, Supabase, Box, GitHub, Stripe, and 400+ more\n→ Credentials resolve per call, never touch the agent or sandbox\n→ 75+ models, one doctl command, with smart routing built in",
+  "glossary": [
+   {
+    "term": "Checkpoint",
+    "ar": "نقطة حفظ لحالة النظام"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "DigitalOcean",
+   "Claude Code",
+   "Codex",
+   "LangGraph"
+  ],
+  "change_types": [
+   "Beta / Preview",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 20,
+   "replies": 6,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 4602
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "DigitalOcean Managed Agents is now in public preview. \n\nRun Claude Code, Codex, or your own LangGraph agent in a runtime environment that pauses when idle. Put its tools behind one governed endpoint, and pick from 75+ open and proprietary models. One cloud, one bill.\n\nPrompts to get started available in the blog: https://t.co/QQqQ9w28lG"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1704",
+  "serial": 1704,
+  "serial_display": "#001704",
+  "source_type": "x",
+  "source_url": "https://x.com/Wa7d_ai/status/2102472983025443137",
+  "source_native_id": "2102472983025443137",
+  "source_name": "مجتمع واحد",
+  "source_site": "x.com",
+  "author": "Wa7d_ai",
+  "published_at": "2026-09-22T18:59:55Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تطلق GPT-6 Sol وLuna بأسعار أرخص 50%",
+  "arabic_summary": "أطلقت OpenAI نموذجين جديدين ضمن عائلة GPT-6: Sol للمهام المعقدة والكود، وLuna للمهام السريعة الكثيفة. النموذجان أسرع وأرخص من GPT-6 Astra، بأسعار أقل 50% من GPT-5.6، وجاء إطلاقهما بعد ساعتين فقط من إطلاق Claude Opus 5.5 من أنثروبك.",
+  "detailed_explanation": "أعلنت OpenAI عن نموذجين جديدين يبنيان على قدرات GPT-6 Astra لكنهما مصمّمان للسرعة والتكلفة: Sol موجّه للمهام المعقدة كالبرمجة، وLuna للمهام الخفيفة السريعة عالية الحجم. الشركة خفّضت أسعار API بنسبة 50% مقارنة بأسعار GPT-5.6 الترويجية، مستفيدة من تحسينات في الـcaching والاستدلال.\n\nالتوقيت لافت: الإطلاق جاء بعد أقل من ساعتين من إطلاق Anthropic لـClaude Opus 5.5، ما يوضح أن الشركتين تتنافسان الآن على البُعد نفسه — تقديم نفس مستوى الذكاء أو قريبًا منه بتكلفة أقل وسرعة أعلى، بدل السعي فقط وراء نموذج أذكى من كل الجوانب.",
+  "why_it_matters": "من يشغّل agents أو تطبيقات باستدعاءات API كثيفة سيلاحظ الفرق مباشرة في الفاتورة، والتزامن مع إطلاق Anthropic يكشف أن سباق النماذج الحالي محوره الكفاءة والسعر لا الذكاء الخام فقط.",
+  "original_text": "🔔 GPT-6 Sol و Luna أُطلقوا اليوم من OpenAI \n\nأسرع وأرخص من Astra، وبأسعار نزلت 50% عن GPT-5.6.\n\nSol للكود والمهام المعقدة\nLuna للمهام السريعة الكثيفة\n\nاللافت: أُطلقوا بعد أقل من ساعتين بس من إطلاق Opus 5.5\nنفس اليوم، سباق مباشر على الكفاءة.🔥\n\nليش يهمك؟\nلو تشغّل agents أو تطبيق فيه استدعاءات كثيرة، الفرق في السعر يبان في فاتورتك.\n\nمنافسة النماذج والأسعار بين الشركتين، ما تحس إنها في صالحك؟ 👀\n https://t.co/PfMgKfoaGI",
+  "glossary": [
+   {
+    "term": "API",
+    "ar": "واجهة برمجة التطبيقات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-6 Sol",
+   "GPT-6 Luna",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Release",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 5,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 893
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt6-sol-luna",
+  "also_reported": [
+   {
+    "author": "OpenAI",
+    "url": "https://x.com/OpenAI/status/2102460975790137662"
+   },
+   {
+    "author": "Abdullah4AI",
+    "url": "https://x.com/Abdullah4AI/status/2102461918606958804"
+   },
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2102461432684282061"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1705",
+  "serial": 1705,
+  "serial_display": "#001705",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2102347353625612555",
+  "source_native_id": "2102347353625612555",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-09-22T10:40:43Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مصمم يلاحظ توجه شركات AI لجعل واجهاتها أكثر إنسانية",
+  "arabic_summary": "يلاحظ الكاتب أن شركات الذكاء الاصطناعي بدأت تصمم واجهاتها لتبدو أقرب للبشر وأقل جفافًا: تطبيق Muse يستخدم شخصية متحركة مبتسمة، وميزة Computer Use في ChatGPT تُظهر مؤشر فأرة متحرك أثناء العمل رغم عدم ضرورته تقنيًا، تشبيهًا بأسلوب الأيفون الأول في تقليد الأشياء المألوفة لتسهيل التعامل مع تقنية جديدة.",
+  "detailed_explanation": "يشير الكاتب إلى ملاحظة تصميمية: شركات الذكاء الاصطناعي تحاول جعل تطبيقاتها تبدو أقل غرابة وأكثر إنسانية. مثال Muse بشخصيته المتحركة المبتسمة الجاهزة للمساعدة دائمًا، ومثال ChatGPT Computer Use الذي يعرض مؤشر فأرة يتحرك أثناء تنفيذ المهام، رغم أن ذلك غير مطلوب تقنيًا، لكنه يجعل العملية أقل إخافة وأسهل للمتابعة.\n\nيقارن الكاتب هذا بمرحلة الأيفون الأولى حين كانت الواجهات تحاكي أشياء من الواقع (مثل شكل الدفاتر والأزرار الجلدية) لتسهّل قبول تقنية غير مألوفة، ويرى أن ما يحدث الآن هو محاكاة لـ\"الحضور\" البشري لإضفاء طابع أكثر إنسانية على الذكاء الاصطناعي.",
+  "why_it_matters": "يلمس اتجاهًا في تصميم واجهات الذكاء الاصطناعي يهم كل من يصمم منتجات AI: إضفاء طابع إنساني ومطمئن على التفاعل مع الوكلاء بدل الشاشة الفارغة الباردة.",
+  "original_text": "Interesting to see how the AI companies are trying to make their apps feel more human, less alien. \n\nMuse has this cute little animated guy smiling all the time, ready to help you with anything. It feels friendlier and more relatable than a blank, sterile screen with an input.\n\nChatGPT Computer Use shows a moving cursor as it’s working. It’s not technically required, but it makes the whole process less scary and easier to follow.\n\nIt’s like the early iPhone days when things used to immitate real world objects so that an unfamiliar technology felt more intuitive and relatable. \n\nIn this case we imitate presence, trying to give the AI a more human feel.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Muse",
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 797,
+   "replies": 41,
+   "reposts": 22,
+   "quotes": 4,
+   "bookmarks": 219,
+   "views": 37181
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1706",
+  "serial": 1706,
+  "serial_display": "#001706",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2102417736118739158",
+  "source_native_id": "2102417736118739158",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-09-22T15:20:23Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Sol: أداة agent تبادر بإنجاز المهام من البريد دون طلب",
+  "arabic_summary": "يشرح الكاتب أداة تُدعى Sol، وهي agent يبحث بشكل استباقي في رسائل البريد الإلكتروني عن التزامات لم تُنجز بعد (مثل وعد بإرسال عرض لعميل)، ثم يبدأ العمل عليها تلقائيًا ويجهّز المسودة لمراجعة المستخدم والموافقة قبل الإرسال.",
+  "detailed_explanation": "يصف الكاتب إحباطه من الوكلاء الحاليين الذين يتطلبون تذكيرًا دائمًا بكل مهمة، مقدّمًا أداة Sol كمثال مختلف: تعمل بشكل استباقي على مسح رسائل البريد الإلكتروني لاكتشاف التزامات غير منجزة (كوعد بكتابة عرض لعميل)، ثم تجد سلسلة الرسائل ذات الصلة وتستنتج ما وُعد به، وتبدأ في صياغة العمل المطلوب تلقائيًا دون أي طلب مسبق من المستخدم.\n\nيبقى دور المستخدم في مراجعة التفاصيل والموافقة النهائية قبل إرسال أي شيء، لكن الفكرة الأساسية هي أن الأداة \"تلاحظ\" ما يجب فعله قبل أن يتذكر المستخدم نفسه أن يطلبه، وهو ما يمثل خطوة نحو agents أكثر استقلالية في إدارة المهام اليومية.",
+  "why_it_matters": "يعالج مشكلة شائعة في agents الحالية وهي غياب المبادرة، بحيث ينتقل الوكيل من تنفيذ أوامر صريحة إلى اكتشاف المهام بنفسه، وهو تحول مهم في تصميم أدوات الإنتاجية القائمة على AI.",
+  "original_text": "my biggest frustration with agents rn is their lack of initiative.\n\nyou still have to remember to give them every single job you want them to do.\n\nsol is interesting bc it *proactively* finds unfinished commitments in your emails and starts preparing the work for you (no prompting necessary)\n\nas an example: say you promised a client a proposal and still need to write it.\n\nsol will go in and find that email thread, work out what you promised, and automatically draft the proposal for you to review.\n\nyou still finalize the details and approve what gets sent.\n\nbut the useful part is having an agent that notices what needs doing before you remember to ask.",
+  "glossary": [],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Sol"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 12,
+   "replies": 7,
+   "reposts": 2,
+   "quotes": 1,
+   "bookmarks": 22,
+   "views": 7405
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "The obvious is missing.\n\nSo we built Sol - https://t.co/ph4XsBV5b5\n\nSol finds the work itself, does it, and comes back for your approval.\n\nEvery day in our emails we say \"I’ll share”, \"I'll review”, \"I'll get back\" - then repeat the exact same thing to an AI. Why?\n\nSol finds everything you said you’d do & gets them started for you.\n\nIt does the research, creates the doc, builds the slides, finds t"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1707",
+  "serial": 1707,
+  "serial_display": "#001707",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2102406225526948221",
+  "source_native_id": "2102406225526948221",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-09-22T14:34:39Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحديث Compound Engineering يدعم تحويل المهام عبر النماذج",
+  "arabic_summary": "صدر تحديث 3.28 لأداة Compound Engineering يضيف دعم التحويل عبر النماذج (cross-model dispatching) ضمن ملفات Skills، بحيث يمكن لنموذج Grok 4.7 العمل تلقائيًا بمستوى استدلال عالٍ في مهام مثل مراجعة الأكواد والمستندات. كما شمل التحديث إصلاحات توافق مع OpenCode V2.",
+  "detailed_explanation": "أعلن الحساب عن التحديث 3.28 لأداة Compound Engineering، وأبرز ميزاته دعم التحويل عبر النماذج (cross-model dispatching) داخل ملفات Skills، بحيث يمكن توجيه مهام معينة كمراجعة الأكواد أو مراجعة المستندات إلى نموذج Grok 4.7 بشكل افتراضي مع ضبط مستوى الاستدلال على الأعلى (xHigh).\n\nشملت التغييرات الأخرى إمكانية ضبط جهد الاستدلال (reasoning effort) للعامل الخارجي عبر ملف الإعدادات بدلاً من تثبيته دائمًا على المستوى الأعلى، إضافة إلى إصلاحات توافق مع OpenCode V2 وإصلاحات في أداة ce-babysit-pr.",
+  "why_it_matters": "التحويل التلقائي بين نماذج مختلفة ضمن نفس مهام Skills يفتح بابًا لتصميم سير عمل هجين أكثر كفاءة بين الأدوات.",
+  "original_text": "RT @trevin: Compound Engineering 3.28 is out!  \n\nThe cross-model dispatching across the skills supports Grok 4.7 defaulting to xHigh.  This includes things like cross-model code review, doc review.\n\nOther changes:\n- set the external worker's reasoning effort from config (prev always pinned to high)\n- OpenCode V2 compat fixes\n- ce-babysit-pr fixes\n\nhttps://t.co/YmqTzRGvgC",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "سكيل — ملف يضبط سلوك النموذج أو الوكيل عند تنفيذ مهمة محددة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Grok 4.7",
+   "OpenCode"
+  ],
+  "change_types": [
+   "Update",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 28,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 811
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1708",
+  "serial": 1708,
+  "serial_display": "#001708",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2102506476401258678",
+  "source_native_id": "2102506476401258678",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-09-22T21:13:01Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تحسّن Prompt Caching لنماذج GPT-6 في الـAPI",
+  "arabic_summary": "أعلنت OpenAI تحسينات في آلية تخزين الـPrompts المؤقت (Prompt Caching) الخاصة بنماذج GPT-6 في الـAPI، ما يرفع معدل الإصابة في الكاش (cache-hit rate) افتراضيًا. هذا يعني توفيرًا أكبر في تكلفة التوكنات المدخلة يصل إلى 90% للمدخلات المكرَّرة.",
+  "detailed_explanation": "تخزين الـPrompt المؤقت (Prompt Caching) تقنية تتيح لمزودي النماذج إعادة استخدام أجزاء من الـContext Window التي تكرّرت بين طلبات متتالية، بدل إعادة معالجتها من الصفر، مما يوفر الوقت والتكلفة.\n\nبحسب المنشور، رفعت OpenAI معدل نجاح هذا التخزين افتراضيًا لنماذج GPT-6، بحيث يستفيد عدد أكبر من التوكنات المدخلة من خصومات تصل إلى 90% مقارنة بالسعر العادي.\n\nهذا التحسين يهم مباشرة كل من يبني Agents أو تطبيقات تعتمد على استدعاءات متكررة لنفس السياق، إذ يخفض الكلفة التشغيلية دون تغيير في طريقة الاستخدام.",
+  "why_it_matters": "يقلل تكلفة تشغيل الوكلاء (Agents) ويسرّع استجابتها، وهو أمر مباشر لكل من يبني على API الخاص بـOpenAI.",
+  "original_text": "We’ve improved prompt caching in the API for GPT-6, helping agents run faster and cost less.\n\nHigher cache-hit rates by default mean more input tokens benefit from cached-input discounts of up to 90%.\n https://t.co/NZse8QKr8G",
+  "glossary": [
+   {
+    "term": "Prompt Caching",
+    "ar": "تخزين الـPrompt المؤقت"
+   },
+   {
+    "term": "Token",
+    "ar": "توكن"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-6"
+  ],
+  "change_types": [
+   "New Feature",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 1164,
+   "replies": 55,
+   "reposts": 45,
+   "quotes": 18,
+   "bookmarks": 122,
+   "views": 56820
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1709",
+  "serial": 1709,
+  "serial_display": "#001709",
+  "source_type": "x",
+  "source_url": "https://x.com/ollama/status/2102268230052274300",
+  "source_native_id": "2102268230052274300",
+  "source_name": "ollama",
+  "source_site": "x.com",
+  "author": "ollama",
+  "published_at": "2026-09-22T05:26:18Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Ollama تعتذر عن خطأ في احتساب استهلاك نموذج DeepSeek",
+  "arabic_summary": "أعلنت Ollama أن بعض الطلبات لنموذج deepseek-v4.1-flash احتُسبت بمعدل خاطئ لعدة ساعات، ما رفع استهلاك بعض المستخدمين عن المتوقع. أعادت الشركة ضبط الاستهلاك الشهري أو الأسبوعي وأرجعت أي كميات إضافية استُهلكت بسبب الخطأ.",
+  "detailed_explanation": "أوضحت Ollama أن خللًا تقنيًا أدى إلى احتساب طلبات نموذج deepseek-v4.1-flash بمعدل استهلاك غير صحيح لبضع ساعات، ما تسبب في استهلاك أعلى من المتوقع لبعض المستخدمين على خططهم.\n\nاستجابت الشركة بإعادة ضبط عدادات الاستخدام الشهرية أو الأسبوعية بحسب الخطة، وأعادت أي كميات استهلاك إضافية نتجت عن الخطأ إلى حسابات المتأثرين، وهو إجراء تصحيحي مباشر وشفاف.\n\nبما أن Ollama من أدوات عزيز المعتمدة، فإن أي خلل في احتساب الاستخدام أو الفوترة يمسّ تجربته المباشرة، ويستحق تسجيله ضمن حوادث الموثوقية الخاصة بالأداة.",
+  "why_it_matters": "الخطأ يمس فوترة الاستخدام مباشرة لمن يعتمد على Ollama، وهي أداة أساسية في عمل عزيز، لذا يستحق المتابعة كحادثة تسعير وموثوقية.",
+  "original_text": "Over the last few hours, some requests to the deepseek-v4.1-flash model on Ollama were charged at an incorrect rate, leading to higher usage consumption than expected for certain users. Sorry about this.\n\nFor anyone effected:\n- Usage (monthly, or weekly + session on previous plans) has been reset\n- If extra usage amounts were consumed due to this model, these extra usage amounts have been restored to your account.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Ollama",
+   "DeepSeek"
+  ],
+  "change_types": [
+   "Outage / Incident",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 516,
+   "replies": 55,
+   "reposts": 12,
+   "quotes": 8,
+   "bookmarks": 23,
+   "views": 47448
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1710",
+  "serial": 1710,
+  "serial_display": "#001710",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2102586256681046294",
+  "source_native_id": "2102586256681046294",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-23T02:30:02Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بودكاست GitHub يناقش هل Skills أنهت الحاجة إلى MCP",
+  "arabic_summary": "يطرح إعلان حلقة بودكاست GitHub أسئلة رائجة في مجتمع المطورين: هل يجب مراجعة الكود المولّد بالذكاء الاصطناعي، هل انتهى عصر RAG، وهل جعلت Skills بروتوكول MCP غير ضروري. الحلقة تجيب على هذه التساؤلات دون تفاصيل في المنشور نفسه.",
+  "detailed_explanation": "يعلن GitHub عن حلقة بودكاست تتناول ثلاثة أسئلة رائجة بين المطورين: مراجعة الكود المولّد آليًا، مستقبل تقنية RAG، والعلاقة بين ملفات Skills وبروتوكول MCP، وهل أصبحت Skills بديلًا يغني عن MCP.\n\nالمنشور نفسه لا يقدّم إجابات مفصّلة بل يحيل إلى الحلقة، لكن طرح هذه الأسئلة مجتمعة يعكس نقاشًا فعليًا داخل مجتمع تطوير الوكلاء حول أي البنى التحتية تستحق الاستثمار حاليًا.\n\nبما أن Skills وMCP يقعان في صميم اهتمامات عزيز، فإن أي مصدر يناقش العلاقة بينهما يستحق المتابعة حتى لو كان الشكل حلقة صوتية لا مقالًا مفصّلًا.",
+  "why_it_matters": "النقاش حول العلاقة بين Skills وMCP وRAG محوري لمن يبني أنظمة وكيلية، إذ يحدد أي البنى يستثمر فيها وقته وجهده.",
+  "original_text": "Should you review your AI-generated code?\n\nIs RAG over?\n\nDid Skills make MCP obsolete?\n\nThe GitHub Podcast responds to these hot takes 👇\nhttps://t.co/7cOBj3MtKW",
+  "glossary": [
+   {
+    "term": "RAG",
+    "ar": "التوليد المعزز بالاسترجاع"
+   },
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill",
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "MCP",
+   "RAG"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 25,
+   "replies": 7,
+   "reposts": 6,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 12510
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [
+   "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1711",
+  "serial": 1711,
+  "serial_display": "#001711",
+  "source_type": "x",
+  "source_url": "https://x.com/mckaywrigley/status/2102447442147086563",
+  "source_native_id": "2102447442147086563",
+  "source_name": "Mckay Wrigley",
+  "source_site": "x.com",
+  "author": "mckaywrigley",
+  "published_at": "2026-09-22T17:18:26Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تعليق: Claude Opus 5.5 يجمع شخصية سابقة مع ذكاء محسّن",
+  "arabic_summary": "يصف مطوّر معروف نموذج Claude Opus 5.5 بأنه يجمع بين الشخصية المحبوبة لـ Opus 4.6 وذكاء وذوق Fable 5.1، مع زيادة 25% في حدود الاستخدام، معتبراً إياه إصداراً من الطبقة الأولى بلا حاجة لاستخدام نموذج آخر حالياً.",
+  "detailed_explanation": "التعليق يأتي من مطوّر معروف بمتابعته الدقيقة لنماذج الذكاء الاصطناعي، ويسلّط الضوء على جانب لا تذكره الإعلانات الرسمية عادة: 'الشخصية' أو أسلوب تفاعل النموذج، والذي يصفه بأنه عاد لما كان مميزاً في Opus 4.6 بعد أن فُقد في إصدارات لاحقة.\n\nكما يشير إلى زيادة 25% في حدود الاستخدام، وهو تفصيل عملي يهم مشتركي الخطط المدفوعة في Claude مباشرة، ويؤكد بأن النموذج الجديد أصبح خياره الوحيد الحالي دون حاجة للتنقل بين نماذج أخرى.",
+  "why_it_matters": "تقييم مستخدم فعلي وموثوق لأداء Opus 5.5 عملياً يكمّل الإعلان الرسمي ويعطي انطباعاً مباشراً عن الفرق الملموس في الاستخدام اليومي لـ Claude.",
+  "original_text": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence &amp; taste of fable 5.1.\n\nand a 25% usage bump!\n\ni honestly don’t really see a reason to use another model right now?\n\ns-tier release.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Claude",
+   "Claude Opus 5.5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 4564,
+   "replies": 103,
+   "reposts": 110,
+   "quotes": 21,
+   "bookmarks": 320,
+   "views": 129329
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1712",
+  "serial": 1712,
+  "serial_display": "#001712",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2102356413590728949",
+  "source_native_id": "2102356413590728949",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-09-22T11:16:43Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Google تفتح مصدر AX لإدارة جيوش وكلاء الذكاء الاصطناعي",
+  "arabic_summary": "فتحت Google مصدر مشروع AX، وهو نظام يشبه Kubernetes لكن مخصص لتشغيل وإدارة أعداد ضخمة من AI agents. كل agent يحصل على بيئة معزولة، مع ربط بالمستودعات وMCP والمهارات، وتحكّم في الصلاحيات والوصول للشبكة، ومراقبة لما يفعله.",
+  "detailed_explanation": "AX مشروع فتحت Google مصدره، ويُوصف بأنه أشبه بـKubernetes لكن مصمم خصيصًا لإدارة أعداد ضخمة من الوكلاء بدل الحاويات. يمنح كل agent بيئة تشغيل معزولة، ويتيح ربطه بالمستودعات التي يحتاجها وبخوادم MCP والمهارات (Skills)، مع تحديد صلاحياته ووصوله للشبكة ومراقبة كل ما يقوم به.\n\nاللافت أن Google صممت المشروع منذ البداية ليتحمل مستقبلًا مليارات المهام لوكلاء داخل عنقود واحد (Cluster)، ما يشير إلى أن مرحلة قادمة من تشغيل \"جيوش\" من الوكلاء بدل التعامل معهم فرديًا وبشكل عشوائي.",
+  "why_it_matters": "يمثّل انتقالًا من تشغيل agents فرديين إلى بنية تحتية كاملة لإدارتهم بأعداد كبيرة، وهو ما يمسّ مباشرة أي عمل يعتمد على تشغيل عدة وكلاء ذكاء اصطناعي بشكل منظم وآمن.",
+  "original_text": "قوقل فجأة فتحت مصدر AX، واللي تقدر تعتبره تقريبًا Kubernetes لوكلاء الذكاء الاصطناعي \n\nالفكرة أنه مصمم لتشغيل وإدارة أعداد ضخمة جدًا من الوكلاء.\n\nكل وكيل يحصل على بيئة معزولة خاصة فيه، وتقدر تربط له المستودعات اللي يحتاجها وMCP والمهارات، وتحدد وصوله للشبكة والصلاحيات، وتراقب كل اللي يسويه.\n\nيعني بدل ما عندك كم وكيل شغالين بشكل عشوائي، يصير عندك نظام كامل لإدارة جيش وكلاء بدون ما ينقلبون عليك 😂\n\nوالأغرب أن Google مصممة AX من البداية على أساس أنه يقدر يتعامل مستقبلًا مع مليارات مهام الوكلاء داخل Cluster واحد.\n\nبدأنا فعلًا ندخل مرحلة إدارة جيوش الذكاء الاصطناعي \n\nيمكن يفيدكم\n\nhttps://t.co/TnFBeXpUaU",
+  "glossary": [
+   {
+    "term": "Kubernetes",
+    "ar": "منصة إدارة حاويات مفتوحة المصدر"
+   },
+   {
+    "term": "Cluster",
+    "ar": "عنقود من الأجهزة يعمل كوحدة واحدة"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "AX"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 48,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 50,
+   "views": 3020
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1713",
+  "serial": 1713,
+  "serial_display": "#001713",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdulaziz_Hmadi/status/2102334443570758083",
+  "source_native_id": "2102334443570758083",
+  "source_name": "عبدالعزيز الحمادي",
+  "source_site": "x.com",
+  "author": "Abdulaziz_Hmadi",
+  "published_at": "2026-09-22T09:49:25Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أداة مفتوحة المصدر تفرغ الاجتماعات محلياً بنموذج Qwen على ماك",
+  "arabic_summary": "خدمة مجانية ومفتوحة المصدر تفرغ الاجتماعات الحضورية والأونلاين مباشرة على الجهاز دون رفعها للإنترنت أو الحاجة لاتصال شبكة، وتستخدم نموذج Qwen محلياً. بعد التفريغ تلخص الاجتماع وتستخرج القرارات والمهام في محضر مرتب. تعمل حالياً على أجهزة ماك فقط.",
+  "detailed_explanation": "أغلب أدوات تفريغ الاجتماعات المتوفرة حالياً تعتمد على خدمات سحابية، ما يعرّض المحتوى لخطر التسريب، خصوصاً في الاجتماعات ذات الطابع الحساس أو السري.\n\nما يميز هذه الخدمة أنها مفتوحة المصدر وتعمل بالكامل محلياً على الجهاز باستخدام نموذج Qwen، دون رفع أي بيانات لخوادم خارجية ودون الحاجة لدخول بوت تسجيل إلى الاجتماع نفسه.\n\nبعد عملية التفريغ، تقوم الأداة تلقائياً بتلخيص الاجتماع واستخراج القرارات والمهام وتحويلها لمحضر منظم جاهز للمشاركة. القيد الحالي أنها تعمل على أجهزة ماك فقط.",
+  "why_it_matters": "تحل مشكلة خصوصية بيانات الاجتماعات الحساسة عبر معالجة كاملة على الجهاز بدل الاعتماد على خدمات سحابية خارجية.",
+  "original_text": "RT @Abdulaziz_Hmadi: خدمة جميلة ومجانية تفرغ اجتماعاتك الحضورية أو الأونلاين مباشرة على جهازك بدون ما ترفعها على الإنترنت وبدون الحاجة لاتصال إنترنت!\n\nأغلب التطبيقات الحالية تستخدم خدمات على الإنترنت قد تسبب خطر تسريبها، لكن إلي أعجبني في هذه الخدمة أنها مفتوحة المصدر وتستخدم نموذج Qwen المحلي وغيره على جهازك مباشرة، بدون رفع الاجتماعات لخوادم خارجية، وبدون دخول Bot للاجتماع.\n\nوبعد التفريغ؛ تلخص لك الاجتماع، وتستخرج القرارات والمهام وتحوله لمحضر مرتب مباشرة.\n\nجربها، عبر الرابط:\nhttps://t.co/If1eM2wDfw\n\"علماً أنها حالياً تعمل على أجهزة الماك فقط\"\n\nشرح الخدمة باختصار:",
+  "glossary": [
+   {
+    "term": "Open Source",
+    "ar": "مفتوح المصدر"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Qwen"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 77,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 194,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 0
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1714",
+  "serial": 1714,
+  "serial_display": "#001714",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2102353464584262036",
+  "source_native_id": "2102353464584262036",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-09-22T11:05:00Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenCode 2.0 يعدّل إعداداته الخاصة أثناء التشغيل دون إعادة تشغيل",
+  "arabic_summary": "يشرح المنشور أن أداة OpenCode 2.0 صارت قادرة على تعديل نفسها وهي تعمل: إضافة أدوات جديدة، تعديل Plugins، ربط خوادم MCP، وتغيير الإعدادات (config) دون الحاجة لإعادة التشغيل (Restart)، ويمكنها استخدام هذا التغيير داخل نفس الجلسة.",
+  "detailed_explanation": "الميزة المحورية هي أن OpenCode 2.0 لا يقتصر على تنفيذ أوامر برمجية، بل يمكنه تعديل تركيبته الداخلية أثناء التشغيل: إضافة أداة جديدة، تعديل Plugin قائم، أو الاتصال بخادم MCP، وكل ذلك دون حاجة لإيقاف الجلسة وإعادة تشغيلها.\n\nالأهم، وفق المنشور، أن الأداة تستطيع استخدام هذا التغيير فورًا داخل الجلسة نفسها التي أُجري فيها التعديل، ما يعني حلقة تطوير ذاتي تُغني عن دورات إعادة التشغيل التقليدية عند تعديل الإعدادات أو الإضافات.",
+  "why_it_matters": "قدرة أداة برمجية على تعديل بنيتها وإعداداتها حيّة أثناء التشغيل تفتح بابًا لوكلاء أكثر مرونة وتكيّفًا في بيئات التطوير.",
+  "original_text": "ـ OpenCode 2.0 ما عاد مجرد أداة تكتب كود.صار يقدر يغيّر نفسه وهو شغال:\n- يضيف Tool جديد، \n- يعدل Plugin، يربط MCP، \nويغير الـ config بدون Restart.\n\nويقدر يستخدم التغيير داخل نفس الجلسة.اختصرت الفكرة في فيديو قصير. https://t.co/p3OrBDYH5b",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات (MCP)"
+   },
+   {
+    "term": "Plugin",
+    "ar": "إضافة داخل برنامج قائم"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP",
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenCode"
+  ],
+  "change_types": [
+   "Update",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 28,
+   "replies": 1,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 2413
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "kit finally finished the blog post\n\nhe covers how OpenCode 2.0 is able to modify everything about itself in real time even during running sessions\n\nbtw post whatever easter eggs you're able to find\n\nhttps://t.co/7WZOaygFjK"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1715",
+  "serial": 1715,
+  "serial_display": "#001715",
+  "source_type": "x",
+  "source_url": "https://x.com/Kimi_Moonshot/status/2102372557190230244",
+  "source_native_id": "2102372557190230244",
+  "source_name": "Kimi.ai",
+  "source_site": "x.com",
+  "author": "Kimi_Moonshot",
+  "published_at": "2026-09-22T12:20:52Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Kimi تطلق إضافة متصفح تنفّذ المهام وتسجّل عادات المستخدم كـ Skill",
+  "arabic_summary": "أطلقت Moonshot إضافة متصفح جديدة باسم Kimi Browser Extension (سابقًا Kimi WebBridge)، تتيح محادثة Kimi من الشريط الجانبي للتصفح، وتعبئة النماذج، وإنجاز المهام. للمهام المتكررة يمكن تسجيل الخطوات مرة واحدة وحفظها كـ Skill يعيد Kimi تنفيذه لاحقًا.",
+  "detailed_explanation": "الإضافة الجديدة تعمل من شريط جانبي داخل المتصفح (متوفرة على Chrome Web Store)، وتتيح لـ Kimi الوصول إلى صفحات الويب مباشرة لتنفيذ أوامر مثل تعبئة نماذج أو التنقل بين الصفحات.\n\nالميزة الأبرز هي القدرة على تسجيل سلسلة خطوات يقوم بها المستخدم مرة واحدة، ثم حفظها كـ Skill يمكن لـ Kimi استدعاؤه وتنفيذه تلقائيًا في المرات القادمة، ما يحوّل مهام التصفح المتكررة إلى إجراءات آلية بدل تكرارها يدويًا.",
+  "why_it_matters": "تحويل التصفح اليدوي إلى Skills قابلة لإعادة الاستخدام يقرّب نماذج الدردشة من أتمتة حقيقية لمهام الويب اليومية.",
+  "original_text": "Meet the new Kimi Browser Extension, formerly Kimi WebBridge.\n\nFrom your browser sidebar, you can chat with Kimi to navigate websites, fill out forms, and get things done.\n\nFor repetitive tasks, record your steps once and save them as a skill. Kimi can take it from there next time.\n\nAvailable now on https://t.co/3u29cgYcJQ and the Chrome Web Store.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "مهارة محفوظة قابلة لإعادة الاستخدام"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Kimi",
+   "Moonshot",
+   "Chrome"
+  ],
+  "change_types": [
+   "New Release",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 800,
+   "replies": 42,
+   "reposts": 62,
+   "quotes": 15,
+   "bookmarks": 174,
+   "views": 48325
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1716",
+  "serial": 1716,
+  "serial_display": "#001716",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2102603824997482540",
+  "source_native_id": "2102603824997482540",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-23T03:39:51Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أفضل إعداد جهد لـClaude Opus 5.5 في البرمجة الوكيلية",
+  "arabic_summary": "يشير تحليل إلى أن إعداد الجهد المتوسط (Medium) قد يكون الأنسب لـClaude Opus 5.5 عند استخدامه في مهام البرمجة الوكيلية (agentic coding)، استنادًا إلى رسم بياني بمقياس لوغاريتمي.",
+  "detailed_explanation": "يعرض المنشور ملاحظة تقنية حول أداء Claude Opus 5.5 في مهام البرمجة الوكيلية، مشيرًا إلى أن إعداد الجهد المتوسط قد يكون الخيار الأفضل بدلاً من الإعدادات الأعلى، بناءً على رسم بياني بمحور سيني بمقياس لوغاريتمي.\n\nهذا يرتبط بما أعلنته Anthropic من أن النموذج يحقق نتائج متقدمة بإعداده الافتراضي بجزء من التكلفة، متفوقًا أحيانًا على نماذج أخرى تعمل بأعلى إعداداتها، مع سرعة إنتاج أعلى بنسبة تفوق ٣٠٪ مقارنة بالنموذج السابق.",
+  "why_it_matters": "معرفة إعداد الجهد الأمثل يوفر التكلفة ويحسّن جودة المخرجات عند استخدام Opus 5.5 في مهام البرمجة.",
+  "original_text": "Medium might be the best setting for the new Claude Opus 5.5 for agentic coding.\n\nNote that the x-axis is in log scale, too. https://t.co/BLbRJY7H0X",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Opus 5.5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 12,
+  "metrics": {
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 263
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "At its default effort setting, Opus 5.5 delivers frontier results for a fraction of the cost per task, often beating other models running at their highest settings.\n\nIt also generates output more than 30% faster than Opus 5. https://t.co/GBvrvbsxNL"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1717",
+  "serial": 1717,
+  "serial_display": "#001717",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2102442112637907125",
+  "source_native_id": "2102442112637907125",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-22T16:57:15Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain تطلق Managed Deep Agents لبناء وكلاء يفتحون PRs من Slack",
+  "arabic_summary": "أطلقت LangChain ميزة Managed Deep Agents التي تتيح ببضعة أسطر كود بناء وكيل يستقبل طلبات من Slack وينفذها كطلبات سحب (PR) على GitHub. قدّمت مثالًا باسم Patch: يذكر في محادثة، يوصف الميزة، فيفتح PR جاهزًا للمراجعة.",
+  "detailed_explanation": "تقدّم LangChain هنا قدرة جاهزة (Managed) لبناء ما تسميه 'Deep Agents' دون الحاجة لبنية تحتية معقدة من المطور، وذلك عبر واجهة برمجية مبسطة.\n\nالمثال المذكور (Patch) يوضح تدفق العمل: طلب في قناة Slack، يوصف فيه المطلوب، فيقوم الوكيل بفتح Pull Request على GitHub يحتوي التغييرات (diff) جاهزة للمراجعة البشرية قبل الدمج، ما يحافظ على مبدأ المراجعة البشرية رغم الأتمتة.",
+  "why_it_matters": "يبسّط بناء وكلاء برمجة عملية تربط أدوات التواصل بمستودعات الكود مباشرة، ما يقلل خطوات التطوير اليدوية.",
+  "original_text": "With Managed Deep Agents, you can build agents that ship GitHub PRs from Slack with just a few lines of code.\n\nWe built one called Patch\n💻 Tag it in a thread\n💬 Describe the feature\n…and it opens a PR with the diff, ready to review.\n\nhttps://t.co/Pl9r1P70le https://t.co/8eD8U6pf2b",
+  "glossary": [
+   {
+    "term": "PR",
+    "ar": "طلب سحب (Pull Request)"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "GitHub",
+   "Slack"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 24,
+   "replies": 4,
+   "reposts": 1,
+   "quotes": 1,
+   "bookmarks": 6,
+   "views": 6163
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [
+   "https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1718",
+  "serial": 1718,
+  "serial_display": "#001718",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2102462075746586773",
+  "source_native_id": "2102462075746586773",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-09-22T18:16:35Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Claude يرفع حدّ الاستخدام لخطط Pro وMax وTeam",
+  "arabic_summary": "أعلنت Anthropic زيادة حدّ الاستخدام لكل خمس ساعات في خطط Pro وMax وTeam، مع إضافة ميزة إعادة تعيين حد الاستخدام يمكن للمشترك حفظها واستخدامها في أي وقت يختاره.",
+  "detailed_explanation": "أعلنت Anthropic عن زيادة حدّ الاستخدام الذي يُحسب كل خمس ساعات لمستخدمي خطط Pro وMax وTeam في Claude، وهو تغيير مباشر في سياسة الاستخدام يفيد المشتركين الذين يواجهون انقطاع الخدمة بعد استنفاد الحصة المخصصة.\n\nإلى جانب ذلك، أضافت الشركة ميزة جديدة تتيح للمشتركين الحصول على «ريست» (إعادة تعيين) لحد الاستخدام يمكن حفظه واستخدامه لاحقًا وقت الحاجة، بدلًا من أن يكون مقيدًا بتوقيت محدد فقط.",
+  "why_it_matters": "رفع حدود الاستخدام يمسّ مباشرة تجربة المشتركين في خطط Claude المدفوعة ويقلل من انقطاع العمل بسبب استنفاد الحصة.",
+  "original_text": "ما أحد توقع الحركة هذه\n\nفي Claude زادوا حد الـ 5 ساعات في خطط Pro و Max و Team\n\nوبعد عطوا المشتركين ريست مخزن تقدر تحفظه وتستخدمه متى ما تريد\n\nالمنافسة صارت حلوة",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [
+   "Update",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 72,
+   "replies": 5,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 36,
+   "views": 16240
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "One more thing: we’re increasing five-hour usage limits on Pro, Max, and Team plans. We’re also providing subscription users a rate limit reset, which you can save and use whenever you choose."
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "addyosmani",
+    "url": "https://x.com/addyosmani/status/2102447435847234030"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1719",
+  "serial": 1719,
+  "serial_display": "#001719",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2102274855689392371",
+  "source_native_id": "2102274855689392371",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-09-22T05:52:38Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إعادة تعيين وشيكة لحصة استخدام Codex",
+  "arabic_summary": "يشير منشور إلى قرب حدوث إعادة تعيين (reset) لحصة استخدام Codex، متوقعًا أن تكون قريبًا من الساعة الثالثة فجر يوم الثلاثاء، وينصح المستخدمين باستغلال ما تبقى من حصتهم الحالية قبل ذلك.",
+  "detailed_explanation": "يتوقع المنشور -نقلاً عن مصدر مرتبط بفريق Codex- أن يحدث تصفير أو إعادة تعيين لحصة استخدام المستخدمين قريبًا، مع تحديد تقريبي للتوقيت قرب الساعة الثالثة فجر يوم الثلاثاء.\n\nالنصيحة المباشرة المرافقة هي استغلال ما تبقى من الحصة الحالية قبل إعادة التعيين، وهو أمر عملي بحت يخص طريقة استخدام أداة Codex اليومية.",
+  "why_it_matters": "توقيت إعادة تعيين حصة Codex يهم المستخدمين المباشرين لتنظيم استغلال حصتهم المتبقية دون هدر.",
+  "original_text": "A codex reset is coming soon (could be 3am Tuesday).\n\nIf you've got usage left: let it rip!",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 11,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 2362
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon."
+  },
+  "cluster_id": "codex-reset",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2102457967690039800"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1720",
+  "serial": 1720,
+  "serial_display": "#001720",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2102441628661080384",
+  "source_native_id": "2102441628661080384",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-22T16:55:20Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تقييم أولي لنموذج Opus 5.5 عبر اختبار توليد الأكواد",
+  "arabic_summary": "يشارك الكاتب انطباعاته الأولى عن نموذج Opus 5.5 قائلاً إنه أول نموذج غير تابع لعائلة Fable/Astra يشعر بأنه بمستوى Fable، لكنه لم يحل بعد مشكلة كثافة اللغة الموجودة في نماذج Claude الأخيرة. يقارن نتيجة اختبار توليد شكل بصري (shader) بين النموذجين.",
+  "detailed_explanation": "",
+  "why_it_matters": "يقدّم تقييمًا مستقلًا من باحث معروف حول أداء نموذج جديد قبل انتشار المراجعات الرسمية، وهو مؤشر مبكر على مستوى القدرة الفعلي.",
+  "original_text": "Opus 5.5 was a good model in my early tests, first non-Fable/Astra model to feel like a Fable-class model, but still hasn't fully solved the dense language issue of the recent Claudes.\n\nIts version of the same shader (broken towers are a nice touch):  https://t.co/GH5cwxCwu8 https://t.co/KDDQolLSfP",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Opus 5.5",
+   "Fable"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 733,
+   "replies": 33,
+   "reposts": 35,
+   "quotes": 3,
+   "bookmarks": 111,
+   "views": 82788
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [
+   "https://twigl.app?ol=true&ss=-P291BpUn5JvZhohk-c0"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "The drowned neo-gothic tower twigl shader created by Fable 5.1 with the same prompt. (compare to Fable 5 in the quoted tweet, and other models before that) https://t.co/b3OCbBc9g6"
+  },
+  "cluster_id": "opus55",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1721",
+  "serial": 1721,
+  "serial_display": "#001721",
+  "source_type": "x",
+  "source_url": "https://x.com/perplexity_ai/status/2102493613192298913",
+  "source_native_id": "2102493613192298913",
+  "source_name": "Perplexity",
+  "source_site": "x.com",
+  "author": "perplexity_ai",
+  "published_at": "2026-09-22T20:21:54Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity تطور تدريبًا لاحقًا يقلل فشل استدعاء الأدوات",
+  "arabic_summary": "نشرت Perplexity بحثًا حول تدريب لاحق (post-training) لنموذج Computer يعتمد على التعلم من الأخطاء الذاتية عبر أسلوب self-distillation موجّه بتلميحات. أظهر اختبار A/B حي أن نقطة تفتيش لاحقة خفّضت فشل استدعاء الأدوات بنسبة 21.2% مقارنة بنقطة سابقة.",
+  "detailed_explanation": "",
+  "why_it_matters": "تحسين موثوقية استدعاء الأدوات (tool-calling) عامل أساسي في نجاح الوكلاء العمليين، وهذا يمثل تقدمًا قابلًا للقياس في هذا الجانب.",
+  "original_text": "New research: We post-trained a Computer model to learn from its own errors using hint-guided self-distillation.\n\nIn a live A/B test, a later trained checkpoint reduced tool-call failures by 21.2% relative to an earlier checkpoint. https://t.co/3MFrp1yxDt",
+  "glossary": [
+   {
+    "term": "self-distillation",
+    "ar": "التقطير الذاتي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Perplexity",
+   "Computer"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 231,
+   "replies": 17,
+   "reposts": 20,
+   "quotes": 9,
+   "bookmarks": 100,
+   "views": 64867
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1722",
+  "serial": 1722,
+  "serial_display": "#001722",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2102468342007439789",
+  "source_native_id": "2102468342007439789",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-09-22T18:41:29Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub Copilot يضيف نموذجي GPT-6 Sol وGPT-6 Luna رسميًا",
+  "arabic_summary": "أعلن GitHub توفر نموذجين جديدين من عائلة GPT-6 داخل GitHub Copilot بشكل عام: GPT-6 Sol للمهام التفاعلية والوكيلية المتوازنة، وGPT-6 Luna كنموذج خفيف واقتصادي للمهام الصغيرة وهو الأرخص في العائلة.",
+  "detailed_explanation": "",
+  "why_it_matters": "توسيع خيارات النماذج داخل Copilot يمنح المطورين مرونة أكبر لاختيار التوازن المناسب بين الأداء والتكلفة في مهام البرمجة اليومية.",
+  "original_text": "📣 @OpenAIDevs's GPT-6 family is expanding in GitHub Copilot with two additional models now generally available. \n\n☀️ GPT-6 Sol: the balanced model for interactive and agentic coding.\n\n🌕 GPT-6 Luna: a lightweight, cost-efficient model for smaller tasks and the lowest-cost option in the family.\n\nTry them in the GitHub Copilot app or @code.\nhttps://t.co/gyEGwnYxFT",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub Copilot",
+   "GPT-6 Sol",
+   "GPT-6 Luna",
+   "OpenAI"
+  ],
+  "change_types": [
+   "General Availability",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 278,
+   "replies": 8,
+   "reposts": 24,
+   "quotes": 4,
+   "bookmarks": 25,
+   "views": 50084
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2102582021293842534"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1723",
+  "serial": 1723,
+  "serial_display": "#001723",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAI/status/2102447425243828347",
+  "source_native_id": "2102447425243828347",
+  "source_name": "OpenAI",
+  "source_site": "x.com",
+  "author": "OpenAI",
+  "published_at": "2026-09-22T17:18:22Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تعلن مبادئ لدعم تقييمات مستقلة من أطراف ثالثة",
+  "arabic_summary": "أعلنت OpenAI التزامها بدعم تقييمات مستقلة لأنظمتها عبر منح جهات خارجية وصولًا عميقًا لمراحل التدريب والتقييم والنشر، بهدف تمكينها من تحدي افتراضات الشركة واكتشاف مخاطر قد تكون فاتتها، مع تحديد أربعة مجالات ذات أولوية لهذا التقييم.",
+  "detailed_explanation": "",
+  "why_it_matters": "يعكس تحولًا نحو مزيد من الشفافية والمساءلة الخارجية في تطوير النماذج المتقدمة، وهو ما يهم كل من يتابع سياسات السلامة في هذا المجال.",
+  "original_text": "As part of our efforts to pace the frontier, we’re committed to supporting independent assessments with deep levels of access across training, evaluation, and deployment.\n\nThat access should enable third party assessors to challenge our assumptions, identify risks we may have missed, and reach their own conclusions about the effectiveness of our safeguards.\n\nWe’re outlining four priority areas for deeper assessment, alongside principles for rigorous, secure, and independent work: \n\nhttps://t.co/z2b15zsqzO",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 98,
+  "metrics": {
+   "likes": 2529,
+   "replies": 368,
+   "reposts": 164,
+   "quotes": 61,
+   "bookmarks": 327,
+   "views": 472012
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1724",
+  "serial": 1724,
+  "serial_display": "#001724",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2102593821376696785",
+  "source_native_id": "2102593821376696785",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-09-23T03:00:05Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء لعبة قتال فضائي واقعية عبر نموذج Fable/Opus",
+  "arabic_summary": "استخدم كاتب المنشور نموذج Fable/Opus لبناء لعبة قتال مركبات فضائية بفيزياء واقعية تشمل الميكانيكا المدارية والحرارة، مع تبسيط الرياضيات المعقدة داخل اللعبة نفسها. يصف التجربة بأنها ممتعة لمن يهوى هذا النوع من الألعاب.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوضح كيف يمكن لنموذج لغوي متقدم توليد منطق لعبة معقّد يتضمن حسابات فيزيائية دقيقة، وهو مثال عملي على قدرات البرمجة الوكيلية.",
+  "original_text": "I had Fable/Opus build a hard science fiction starship combat game, with orbital mechanics, delta-v, heat, and realistic tactics, but simplified for 2D space with the hard math done by the game.\n\nIts quite fun to play (if you like this kind of thing): https://t.co/OilhLeVOw2 https://t.co/EiAIOnTkFa",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Fable",
+   "Opus"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 87,
+   "replies": 17,
+   "reposts": 6,
+   "quotes": 2,
+   "bookmarks": 42,
+   "views": 8971
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [
+   "https://orbital-declaration.netlify.app/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1725",
+  "serial": 1725,
+  "serial_display": "#001725",
+  "source_type": "x",
+  "source_url": "https://x.com/shadcn/status/2102408442086556147",
+  "source_native_id": "2102408442086556147",
+  "source_name": "shadcn",
+  "source_site": "x.com",
+  "author": "shadcn",
+  "published_at": "2026-09-22T14:43:28Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "shadcn/lint يضيف دعم Vue وSvelte لأنظمة تصميم Tailwind",
+  "arabic_summary": "أداة shadcn/lint، وهي Linter موجّه للـAgents خاص بأنظمة تصميم Tailwind، أصبحت تدعم الآن أطر Vue وSvelte إضافة إلى دعمها السابق. الأداة تتيح تعريف قواعد يجب على الـAgent الالتزام بها عند التعامل مع المكوّنات والأنماط.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوسّع نطاق استخدام الأداة ليشمل مطوّرين خارج نظام React، ويحسّن دقة الـAgents عند العمل على أنظمة تصميم متعددة الأطر.",
+  "original_text": "shadcn/lint now supports Vue and Svelte. https://t.co/EBwuJx02xD",
+  "glossary": [
+   {
+    "term": "Linter",
+    "ar": "أداة تدقيق الشيفرة"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "shadcn",
+   "Vue",
+   "Svelte",
+   "Tailwind"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 678,
+   "replies": 38,
+   "reposts": 23,
+   "quotes": 5,
+   "bookmarks": 101,
+   "views": 46196
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing shadcn/lint. An agent-first linter for Tailwind design systems.\n\nYou define what’s allowed. When an agent breaks a rule, the error explains what’s wrong and how to fix it using your components, variants and theme.\n\nThere’s a lot you can do with this. Let me show you ↓\n\nhttps://t.co/PMOkfk1jPB"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1726",
+  "serial": 1726,
+  "serial_display": "#001726",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2102600792238883203",
+  "source_native_id": "2102600792238883203",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-09-23T03:27:47Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تبديل مستوى الجهد في Opus 5.5 لا يكسر ذاكرة التخزين المؤقت",
+  "arabic_summary": "أوضحت ملاحظة تقنية أن تبديل مستوى الجهد (effort) أثناء جلسة عمل مع Claude Opus 5.5 لا يفسد الـprompt cache، بشرط استخدام نسخة Claude Code 2.1.280 أو أحدث.",
+  "detailed_explanation": "",
+  "why_it_matters": "تفصيل عملي مهم لمن يستخدم Claude Code بكثافة، إذ يوضح كيف يحافظ على كفاءة التخزين المؤقت وتقليل التكلفة عند تغيير إعدادات الجلسة.",
+  "original_text": "RT @lydiahallie: Switching effort mid-session on Opus 5.5 doesn't break your prompt cache btw! Just make sure you're on Claude Code v2.1.280+",
+  "glossary": [
+   {
+    "term": "Prompt Cache",
+    "ar": "تخزين مؤقت لنتائج المطالبات لتسريع الاستجابة وخفض التكلفة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Claude Opus 5.5"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 73,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 137,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 923
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1727",
+  "serial": 1727,
+  "serial_display": "#001727",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2102536420824916400",
+  "source_native_id": "2102536420824916400",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-09-22T23:12:00Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر: النماذج الحالية كافية والإصدارات الجديدة مبالغ فيها",
+  "arabic_summary": "يعبّر الكاتب عن شعوره بالتعب من كثرة إصدارات النماذج الجديدة والمبالغة في الترويج لها، مشيرًا إلى أن النماذج المتوفرة منذ أشهر تكفيه في احتياجاته البرمجية وأن التحسينات صارت هامشية.",
+  "detailed_explanation": "",
+  "why_it_matters": "رأي من مطوّر معروف يعكس تحوّلًا في مزاج المجتمع التقني تجاه سباق النماذج، وقد يشير لبداية تشبّع في قيمة الترقيات المتلاحقة للمستخدمين العاديين.",
+  "original_text": "I’ve reached a point where I’m like not excited about new models. There are too many releases, too many people overhype those releases, and it feels like marginal gains.\n\nI feel like the models from the last few months are good enough for my coding needs at least.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 987,
+   "replies": 91,
+   "reposts": 40,
+   "quotes": 17,
+   "bookmarks": 81,
+   "views": 26915
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c1728",
+  "serial": 1728,
+  "serial_display": "#001728",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2102488129693229387",
+  "source_native_id": "2102488129693229387",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-09-22T20:00:07Z",
+  "fetched_at": "2026-09-23T04:35:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith يضيف دعم نماذج القرار لمراقبة سلوك الوكلاء",
+  "arabic_summary": "أعلنت LangChain أن أداة LangSmith صارت تدعم ما تسميه 'نماذج القرار' مثل Jev وSemIf، ما يمنح المطورين رؤية أوضح على كل خطوة يتخذها الوكيل. الهدف تسهيل تصحيح الأخطاء وفهم سلوك النموذج.",
+  "detailed_explanation": "",
+  "why_it_matters": "مراقبة قرارات الوكلاء خطوة ضرورية مع تعقّد أنظمة Agent، وتضيف طبقة شفافية لمن يبني عليها.",
+  "original_text": "LangSmith now supports decision models including Jev and SemIf, giving you visibility into every step. Now, you can:\n✅ Debug faster\n✅ Understand model behavior\n🚀 Confidently improve your apps\n\nTry it today -&gt; https://t.co/wuVrwcvKyO https://t.co/nDkLcrdT7S",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "LangSmith"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 26,
+   "replies": 4,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 5180
+  },
+  "metrics_captured_at": "2026-09-23T04:35:32Z",
+  "external_links": [
+   "https://smith.langchain.com"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2102487536782450795"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
