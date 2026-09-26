@@ -13,7 +13,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-18",
+ "updated": "2026-09-26",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -543,6 +543,11 @@
   {
    "handle": "venturetwins",
    "name": "Justine Moore",
+   "active": true
+  },
+  {
+   "handle": "ClaudeDevs",
+   "name": "ClaudeDevs",
    "active": true
   }
  ]
