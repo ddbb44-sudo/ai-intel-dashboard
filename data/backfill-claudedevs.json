@@ -1,0 +1,2787 @@
+[
+ {
+  "id": "c1842",
+  "serial": 1842,
+  "serial_display": "#001842",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2082164248697069935",
+  "source_native_id": "2082164248697069935",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-07-28T18:00:16Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بروتوكول MCP يتحوّل إلى نمط عديم الحالة في أكبر تحديث له",
+  "arabic_summary": "أصدرت Anthropic تحديثًا جديدًا لبروتوكول MCP يجعله عديم الحالة (stateless)، ما يسهّل نشر الخوادم البعيدة وتوسيع نطاقها. يوصف بأنه أكبر تحديث للبروتوكول منذ إطلاقه.",
+  "detailed_explanation": "التحديث يستهدف جعل بروتوكول MCP عديم الحالة (stateless)، وهو تغيير جوهري في الطريقة التي تتواصل بها الأدوات والخوادم عبر البروتوكول. الأنظمة عديمة الحالة تسهّل عادة التوسع الأفقي والنشر السحابي، لأن كل طلب يُعالج مستقلًا دون الحاجة للاحتفاظ بحالة جلسة سابقة على نفس الخادم.\n\nهذا يعني عمليًا أن مطوري خوادم MCP البعيدة سيجدون مرونة أكبر في نشر خوادمهم عبر عدة نسخ أو مثيلات دون تعقيد إدارة الحالة المشتركة، وهو ما يهمّ أي بنية وكلاء تعتمد على اتصالات متعددة ومتزامنة.",
+  "why_it_matters": "أي تغيير في بنية MCP نفسه يؤثر مباشرة على كل من يبني أو يشغّل خوادم MCP، لأنه يمسّ طريقة التصميم الأساسية لا مجرد ميزة إضافية.",
+  "original_text": "MCP 2026-07-28 is live and it's the largest update to the protocol since launch.\n\nMCP is now stateless, making it easier to deploy and scale remote servers. \n\nhttps://t.co/K8KqxbUh4e",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات والبيانات الخارجية"
+   },
+   {
+    "term": "Stateless",
+    "ar": "عديم الحالة، لا يحتفظ بحالة سابقة بين الطلبات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "MCP",
+   "Claude"
+  ],
+  "change_types": [
+   "New Release",
+   "Upgrade"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 13247,
+   "replies": 362,
+   "reposts": 1371,
+   "quotes": 429,
+   "bookmarks": 7879,
+   "views": 2778091
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1843",
+  "serial": 1843,
+  "serial_display": "#001843",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2085794862608318627",
+  "source_native_id": "2085794862608318627",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-07T18:27:02Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "وضع Auto Mode يصبح افتراضيًا في Claude Code للمستخدمين المدفوعين",
+  "arabic_summary": "أعلنت Anthropic أن وضع Auto Mode سيصبح ابتداءً من 14 أغسطس الوضع الافتراضي للصلاحيات في Claude Code لمستخدمي Pro وMax وTeam. يعتمد هذا الوضع على مصنّف منفصل يراجع أوامر النظام والإجراءات، واختبارات داخلية أظهرت أنه رصد 89% من الأوامر الخطرة مقابل 14% للمراجعة اليدوية.",
+  "detailed_explanation": "تشير Anthropic إلى أن Auto Mode يستخدم مصنّفًا (classifier) منفصلًا لمراجعة الأوامر والإجراءات قبل تنفيذها تلقائيًا، بدلًا من انتظار موافقة المستخدم على كل خطوة كما في الوضع اليدوي. الرقم اللافت هو أن هذا المصنّف رصد في الاختبارات 89% من الأوامر الخطرة، بينما لم تتجاوز نسبة رصد المراجعة اليدوية 14%، وهو ما يشير إلى أن المراجعة البشرية لم تكن فعّالة كما يُفترض.\n\nهذا التغيير يعني أن مستخدمي Claude Code من فئات Pro وMax وTeam سيجدون أنفسهم بشكل افتراضي يعملون بأقل تدخل يدوي، مع الاعتماد على طبقة أمان آلية بدلًا من موافقتهم الشخصية على كل أمر يُنفَّذ في بيئتهم.",
+  "why_it_matters": "تغيير الوضع الافتراضي للصلاحيات يمسّ مباشرة طريقة استخدام Claude Code في المهام اليومية، ويطرح سؤالًا حقيقيًا عن التوازن بين الأتمتة والأمان عند تنفيذ أوامر تلقائية.",
+  "original_text": "Starting August 14, auto mode will be the default permission mode in Claude Code for Pro, Max, and Team users.\n\nAuto mode reviews shell commands and actions with a separate classifier. In testing, it caught 89% of dangerous commands. Manual approval caught 14%.",
+  "glossary": [
+   {
+    "term": "Classifier",
+    "ar": "مصنّف آلي يقيّم المحتوى أو الإجراء تلقائيًا"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature",
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 14697,
+   "replies": 531,
+   "reposts": 717,
+   "quotes": 389,
+   "bookmarks": 1898,
+   "views": 3008432
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1844",
+  "serial": 1844,
+  "serial_display": "#001844",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+  "source_native_id": "2085817074816070014",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-07T19:55:17Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "جلسات Claude Code يمكنها الآن التواصل مع بعضها البعض",
+  "arabic_summary": "أضافت Anthropic ميزة جديدة في Claude Code تتيح لجلسة عمل إرسال ملخص لجلسة أخرى بدلًا من إعادة شرح السياق من جديد. الجلسة المستقبِلة تتابع المهمة من حيث توقفت، دون نقل كامل السجل أو الملفات.",
+  "detailed_explanation": "الفكرة الأساسية هي أن الجلسات لم تعد معزولة تمامًا عن بعضها؛ يمكن لجلسة أن ترسل ملخصًا موجزًا (وليس كامل السجل أو الملفات) إلى جلسة أخرى، والجلسة المستقبِلة تكمل العمل من نقطة التوقف. هذا يوفر وقتًا كبيرًا في السيناريوهات التي يعمل فيها المستخدم بمهام متوازية أو ينتقل بين سياقات مختلفة.\n\nمن الناحية العملية، هذا يقلل من الحاجة لإعادة صياغة التعليمات أو شرح الخلفية كلما بدأ المستخدم جلسة جديدة، ويجعل التنقل بين المهام أكثر سلاسة خاصة لمن يدير عدة مسارات عمل متزامنة في نفس المشروع.",
+  "why_it_matters": "هذه الميزة تحل مشكلة عملية يعانيها كل من يعمل بجلسات متعددة متوازية في Claude Code، وهي فقدان السياق عند الانتقال بين الجلسات.",
+  "original_text": "New in Claude Code: your sessions can now message each other.\n\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task. https://t.co/PtNsfXeQXP",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 60081,
+   "replies": 1915,
+   "reposts": 4623,
+   "quotes": 2471,
+   "bookmarks": 21824,
+   "views": 7961674
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1845",
+  "serial": 1845,
+  "serial_display": "#001845",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2085853169930957158",
+  "source_native_id": "2085853169930957158",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-07T22:18:43Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Managed Agents تضيف ميزة تحديد ميزانية للجلسات",
+  "arabic_summary": "أطلقت Anthropic أربعة تحديثات لخدمة Claude Managed Agents هذا الأسبوع، أبرزها إمكانية تحديد ميزانية إنفاق للجلسات؛ فإذا وصلت الجلسة إلى الحد الأقصى تتوقف مؤقتًا مع حدث budget_reached، ويمكن رفع الميزانية لاستئنافها.",
+  "detailed_explanation": "الميزة الأساسية هنا هي تحديد سقف إنفاق لكل جلسة عمل ضمن Claude Managed Agents، وهي خدمة تتيح تشغيل وكلاء آليين بشكل مُدار. عند بلوغ الجلسة الحد المرسوم، تتوقف تلقائيًا وتُصدر حدثًا باسم budget_reached بدلًا من الاستمرار دون رقابة، ما يمنح فرق التطوير أداة تحكم مالي مباشرة.\n\nهذا مهم لمن يبني أنظمة وكلاء تعمل باستقلالية نسبية على مدى فترات طويلة، إذ يقلل من مخاطر الإنفاق غير المتوقع الناتج عن تشغيل مطوّل أو حلقات غير محسوبة.",
+  "why_it_matters": "التحكم في ميزانية الجلسات يمنح فرق العمل التي تشغّل وكلاء آليين قدرة على ضبط التكلفة بدقة بدلًا من مفاجآت الفواتير.",
+  "original_text": "We shipped four updates to Claude Managed Agents this week.\n\nFirst, you can now set a budget for sessions to keep spend predictable. Sessions that hit the limit pause with a budget_reached event, you can raise the budget to resume. https://t.co/0DUdGgFHzY",
+  "glossary": [
+   {
+    "term": "Managed Agents",
+    "ar": "وكلاء آليون تُدار دورة حياتهم وتشغيلهم من قبل المزوّد"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Claude Managed Agents",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 5039,
+   "replies": 219,
+   "reposts": 277,
+   "quotes": 71,
+   "bookmarks": 1541,
+   "views": 612971
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1846",
+  "serial": 1846,
+  "serial_display": "#001846",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2088014831605702937",
+  "source_native_id": "2088014831605702937",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-13T21:28:23Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "خانة استئناف تلقائي عند بلوغ حد الاستخدام في Claude Code",
+  "arabic_summary": "أضافت Anthropic خانة اختيار جديدة في إصدار سطح المكتب من Claude Code تتيح استئناف العمل تلقائيًا فور إعادة تعيين حد الاستخدام، بدلًا من العودة يدويًا لمتابعة المهمة.",
+  "detailed_explanation": "الميزة تتيح للمستخدم تفعيل خيار 'auto-continue' بحيث إذا توقف العمل بسبب بلوغ حد الاستخدام، تُستأنف المهمة تلقائيًا من حيث توقفت بمجرد إعادة تعيين الحد، دون الحاجة لمتابعة الأمر يدويًا أو تذكر العودة لاحقًا.\n\nهذا يوفر وقتًا وجهدًا لمن يعمل بكثافة على Claude Code ويصطدم بحدود الاستخدام بشكل متكرر، إذ يزيل خطوة المتابعة اليدوية ويجعل التدفق أكثر استمرارية.",
+  "why_it_matters": "ميزة بسيطة لكنها تحل احتكاكًا يوميًا حقيقيًا لمستخدمي Claude Code الذين يصلون إلى حدود الاستخدام أثناء العمل.",
+  "original_text": "Hit your usage limit in Claude Code desktop? There's now an auto-continue checkbox. \n\nTurn it on, and it'll automatically continue where you left off once your limit resets. https://t.co/Zs7ZX67cly",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 15868,
+   "replies": 1011,
+   "reposts": 740,
+   "quotes": 470,
+   "bookmarks": 2837,
+   "views": 1502299
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1847",
+  "serial": 1847,
+  "serial_display": "#001847",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2089436153208549876",
+  "source_native_id": "2089436153208549876",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-17T19:36:13Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شركة قانونية تخفّض تكاليفها 50% باستخدام أسطول من Claude Managed Agents",
+  "arabic_summary": "نشرت Anthropic دراسة حالة عن شركة ABC Legal التي نشرت أكثر من 50 وكيلًا آليًا عبر Claude Managed Agents، ما خفّض تكاليف بعض المهام القانونية بنسبة تصل إلى 50%. الوكلاء يستخدمون حلقة تغذية راجعة للتحسّن المستمر.",
+  "detailed_explanation": "دراسة الحالة تصف كيف حوّلت شركة ABC Legal موظفيها إلى 'بنائين' للوكلاء عبر خدمة Claude Managed Agents، حيث نُشر أسطول يضم أكثر من 50 وكيلًا آليًا. النتيجة المعلنة هي خفض التكاليف حتى 50% في بعض المهام القانونية، وهو رقم ملموس يوضح قيمة الأتمتة في قطاع يعتمد تقليديًا على العمل اليدوي المكثف.\n\nإضافة إلى خفض التكلفة، تشير المدونة إلى أن الوكلاء يستخدمون حلقة تغذية راجعة تسمح لهم بالتحسن مع الوقت، ما يعني أن الأداء لا يبقى ثابتًا بل يتطور مع الاستخدام المستمر، وهذا نموذج يهم أي فريق يفكر في بناء وكلاء مشابهين لأتمتة مهام متخصصة.",
+  "why_it_matters": "مثال عملي حقيقي على استخدام أسطول من الوكلاء الآليين في بيئة عمل مهنية، يوضح أثرًا ماليًا ملموسًا بدلًا من وعد نظري.",
+  "original_text": "In a new blog post, we share how one customer, ABC Legal, deployed Claude Managed Agents.\n \nThe fleet of 50+ agents have cut costs by up to 50% for certain legal tasks.\n\nThe agents also use a feedback loop to improve continuously over time.\n\nRead more:\nhttps://t.co/ILlGNtVcWv https://t.co/ixJrIdcOmZ",
+  "glossary": [
+   {
+    "term": "Feedback loop",
+    "ar": "حلقة تغذية راجعة تُستخدم لتحسين الأداء تلقائيًا"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Claude Managed Agents",
+   "ABC Legal",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2789,
+   "replies": 109,
+   "reposts": 162,
+   "quotes": 29,
+   "bookmarks": 2204,
+   "views": 329273
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1848",
+  "serial": 1848,
+  "serial_display": "#001848",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2089471692762673408",
+  "source_native_id": "2089471692762673408",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-17T21:57:26Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مهارة /design جديدة تتيح لـ Claude تصميم واجهات داخل CLI",
+  "arabic_summary": "أطلقت Anthropic ميزة تجريبية باسم /design في Claude Code تجلب سير عمل Claude Design القائم على لوحات قابلة للتعديل (artboards) إلى واجهة الأوامر وسطح المكتب. يمكن للمستخدم تشغيل الأمر، اختيار تصميم، تعديله، ثم تكليف Claude بتنفيذه.",
+  "detailed_explanation": "المهارة الجديدة، وهي في مرحلة research preview، تسمح للمستخدم بتشغيل أمر /design داخل Claude Code (سواء في CLI أو سطح المكتب) للحصول على لوحات تصميم (artboards) قابلة للتعديل مبنية على نظام artifacts. يمكن اختيار أحد التصاميم، تعديله بصريًا، ثم تكليف Claude بتحويله إلى كود فعلي للواجهة.\n\nهذا يمثل خطوة نحو دمج مرحلتي التصميم والتنفيذ في أداة واحدة بدلًا من التنقل بين أداة تصميم منفصلة وبيئة برمجة، وهو ما يفيد المطورين الذين يعملون بمفردهم دون فريق تصميم متخصص.",
+  "why_it_matters": "دمج التصميم البصري داخل بيئة الكود مباشرة يقرّب الفجوة بين تصميم الواجهة وتنفيذها البرمجي في أداة واحدة.",
+  "original_text": "Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on artifacts.\n\nRun /design to get editable artboards for your UI — pick one, tweak it, then have Claude implement it. https://t.co/uttl4F1G0e",
+  "glossary": [
+   {
+    "term": "Artboard",
+    "ar": "لوحة عمل قابلة للتعديل تعرض تصميم الواجهة"
+   },
+   {
+    "term": "Artifacts",
+    "ar": "نظام عرض مخرجات قابلة للتفاعل داخل Claude"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude Code",
+   "Claude Design"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 14778,
+   "replies": 444,
+   "reposts": 957,
+   "quotes": 345,
+   "bookmarks": 7688,
+   "views": 1833038
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1849",
+  "serial": 1849,
+  "serial_display": "#001849",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2089509659090780193",
+  "source_native_id": "2089509659090780193",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-18T00:28:18Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code CLI يخفّض استهلاك المعالج إلى النصف بتحسين تقني",
+  "arabic_summary": "حسّنت Anthropic أداء Claude Code CLI ليستهلك ضعف أقل من المعالج عند الذروة (p99)، بعد اكتشاف أن جامع القمامة في Bun كان يعمل بمؤقت ثابت يسحب موارد المعالج أثناء أكثر لحظات الأداة انشغالًا. الآن ينتظر التحسين حتى تصبح العملية خاملة.",
+  "detailed_explanation": "المشكلة التقنية كانت أن جامع القمامة (garbage collector) في بيئة تشغيل Bun يعمل وفق مؤقت ثابت بغض النظر عن حالة النظام، ما يعني أنه قد يبدأ عمله في أسوأ توقيت ممكن، أي عندما تكون الأداة في ذروة انشغالها، فيسحب موارد المعالج بعيدًا عن المهمة الفعلية.\n\nالحل كان تأجيل عمل جامع القمامة حتى تصبح العملية خاملة فعليًا، وهو تعديل هندسي دقيق أدى إلى خفض استهلاك المعالج بمقدار الضعف عند مستوى الذروة (p99)، وهو تحسين يفيد بشكل خاص المستخدمين الذين يشغّلون Claude Code على أجهزة ذات موارد محدودة أو أثناء مهام مكثفة.",
+  "why_it_matters": "تحسين استهلاك المعالج يعني تجربة أكثر سلاسة واستجابة لمستخدمي Claude Code، خاصة على الأجهزة محدودة الموارد.",
+  "original_text": "Perf win of the day: Claude Code CLI now uses 2x less CPU at p99.\n\nBun's garbage collector was running on a fixed timer, so it would kick in mid-turn and steal CPU right when Claude Code was busiest. Now it waits until the process is idle. https://t.co/icGc35LDQs",
+  "glossary": [
+   {
+    "term": "Garbage collector",
+    "ar": "جامع القمامة، آلية تنظيف الذاكرة تلقائيًا"
+   },
+   {
+    "term": "p99",
+    "ar": "قياس أداء يمثل أسوأ 1% من الحالات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Bun"
+  ],
+  "change_types": [
+   "Upgrade"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 6640,
+   "replies": 239,
+   "reposts": 231,
+   "quotes": 95,
+   "bookmarks": 657,
+   "views": 658210
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1850",
+  "serial": 1850,
+  "serial_display": "#001850",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2089798442306711646",
+  "source_native_id": "2089798442306711646",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-18T19:35:49Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تمدّد زيادة 50% في حدود Claude Code الأسبوعية حتى نهاية أغسطس",
+  "arabic_summary": "أعلنت Anthropic تمديد الزيادة المؤقتة البالغة 50% في الحدود الأسبوعية لاستخدام Claude Code حتى 31 أغسطس، مع أمل في جعل هذا التغيير دائمًا رغم أن الطلب القوي على النماذج قد يضغط على السعة المتاحة.",
+  "detailed_explanation": "الزيادة المؤقتة في الحدود الأسبوعية كانت مقررًا انتهاؤها في وقت سابق، لكن Anthropic مددتها حتى نهاية أغسطس لجميع مستخدمي Pro وMax وTeam والمؤسسات ذات الاشتراكات بالمقعد. الشركة تشير إلى رغبتها في جعل هذا التغيير دائمًا، لكنها تحذر من أن الطلب القوي على النماذج قد يجعل السعة محدودة في الفترة المقبلة.\n\nهذا النوع من التحديثات يهم بشكل مباشر أي مستخدم يعتمد على Claude Code بكثافة، لأنه يحدد سقف الاستخدام الذي يمكن الاعتماد عليه في التخطيط للعمل، ويكشف أيضًا عن ضغط حقيقي على البنية التحتية خلف الكواليس.",
+  "why_it_matters": "أي تغيير في حدود الاستخدام يؤثر مباشرة على قدرة المستخدمين المدفوعين على الاعتماد على Claude Code في العمل اليومي دون انقطاع.",
+  "original_text": "We’re extending the 50% increase to weekly Claude Code limits through August 31. \n\nWe hope to make this a permanent change to our plans, but strong demand for our models means that capacity may be tight over the coming weeks. We’ll keep you posted as things develop.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [
+   "Pricing Change",
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 20148,
+   "replies": 1381,
+   "reposts": 1381,
+   "quotes": 1028,
+   "bookmarks": 1779,
+   "views": 3705700
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We're also keeping Claude Code weekly limits 50% higher, now through August 19, for all Pro, Max, Team, and seat-based Enterprise users."
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1851",
+  "serial": 1851,
+  "serial_display": "#001851",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2089860955266228548",
+  "source_native_id": "2089860955266228548",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-18T23:44:14Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Desktop يبدأ التشغيل أسرع بضعفين بعد إصلاح مشكلة المؤقتات",
+  "arabic_summary": "حسّنت Anthropic سرعة إقلاع تطبيق Claude Desktop لتصبح أسرع بمرتين مقارنة بالشهر الماضي، بعد اكتشاف أن التطبيق كان يدخل في وضع توفير الطاقة عند التشغيل في الخلفية، ما كان يبطئ محرك JavaScript والمؤقتات.",
+  "detailed_explanation": "المشكلة كانت أن التطبيق عند بدء تشغيله في الخلفية (قبل ظهور نافذته) كانت مؤقتاته تخضع لتقييد (throttling) ومحرك JavaScript يدخل في وضع توفير الطاقة، ما يبطئ عملية الإقلاع الفعلية حتى بعد ظهور النافذة للمستخدم.\n\nالإصلاح جعل التطبيق يبدأ بأقصى سرعة حتى أثناء كون نافذته مخفية، بالإضافة إلى تحسينات أداء أصغر أخرى، ما نتج عنه إقلاع أسرع بمرتين، وهو تحسين تقني بسيط لكنه ملموس في تجربة الاستخدام اليومية.",
+  "why_it_matters": "تحسين سرعة الإقلاع يقلل الاحتكاك اليومي لمستخدمي Claude Desktop الذين يفتحون التطبيق بشكل متكرر خلال العمل.",
+  "original_text": "Claude Desktop now starts ~2x faster than it did a month ago.\n\nWhen the app started in the background, its timers got throttled and the JS engine dropped into power-saving mode. We now boot at full speed even while the window's still hidden, along with some smaller perf fixes! https://t.co/pt5UviYvkL",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Desktop"
+  ],
+  "change_types": [
+   "Upgrade"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3881,
+   "replies": 205,
+   "reposts": 138,
+   "quotes": 66,
+   "bookmarks": 269,
+   "views": 482962
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1852",
+  "serial": 1852,
+  "serial_display": "#001852",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2090218983962390950",
+  "source_native_id": "2090218983962390950",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-19T23:26:54Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Managed Agents تضيف ذاكرة للعمل داخل Self-Hosted Sandboxes",
+  "arabic_summary": "أضافت Anthropic ثلاثة تحديثات إلى Claude Managed Agents، أبرزها تسهيل استخدام الذاكرة مع Self-Hosted Sandboxes، بحيث يمكن حفظ أي عمل يُنجز داخل هذه البيئات المعزولة إلى الذاكرة.",
+  "detailed_explanation": "الميزة تتيح لأي عمل يتم تنفيذه داخل Self-Hosted Sandbox — وهي بيئة معزولة يديرها المستخدم بنفسه لتشغيل الوكلاء — أن يُحفظ إلى الذاكرة بدلًا من أن يضيع بمجرد انتهاء الجلسة. هذا يعني أن الوكلاء الذين يعملون في بيئات معزولة يمكنهم الاستفادة من السياق المتراكم عبر تشغيلات متعددة.\n\nهذا التحديث يخدم بشكل خاص المؤسسات التي تفضل استضافة بيئات تشغيل الوكلاء بنفسها لأسباب أمنية أو تنظيمية، ويمنحها ميزة الاستمرارية التي كانت متاحة سابقًا فقط للبيئات المُدارة من قبل Anthropic مباشرة.",
+  "why_it_matters": "القدرة على حفظ سياق العمل من بيئات معزولة ذاتية الاستضافة تجعل الوكلاء الآليين أكثر استمرارية وقابلية للاعتماد عليها عبر جلسات متعددة.",
+  "original_text": "We shipped three updates to Claude Managed Agents.\n\nFirst, we made it easier to use memory with Self-Hosted Sandboxes.\n \nAny work done in a Self-Hosted Sandbox can be saved to memory. https://t.co/tIoCSU28qk",
+  "glossary": [
+   {
+    "term": "Self-Hosted Sandbox",
+    "ar": "بيئة تشغيل معزولة يستضيفها المستخدم بنفسه"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Managed Agents"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2987,
+   "replies": 128,
+   "reposts": 170,
+   "quotes": 40,
+   "bookmarks": 1054,
+   "views": 330406
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1853",
+  "serial": 1853,
+  "serial_display": "#001853",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2090245922685063634",
+  "source_native_id": "2090245922685063634",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-20T01:13:57Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نمط إخراج جديد باسم Concise في Claude Code لردود أقصر",
+  "arabic_summary": "أضافت Anthropic نمط إخراج جديدًا اسمه Concise في Claude Code، يجعل الردود تبدأ بالنتيجة مباشرة وتبقى قصيرة، مع إمكانية طلب التفاصيل الكاملة عند الحاجة. يُفعَّل من إعدادات التهيئة أو عبر ملف settings.json.",
+  "detailed_explanation": "نمط الإخراج الجديد Concise مصمم ليقدّم النتيجة أولًا بشكل مباشر بدلًا من مقدمات طويلة، مع الحفاظ على إمكانية الحصول على التفاصيل الكاملة عند الطلب الصريح. يمكن تفعيله بسهولة من قائمة الإعدادات داخل الأداة (config → Output style) أو عبر تعديل ملف الإعدادات مباشرة.\n\nهذه الميزة تفيد المستخدمين الذين يفضلون سير عمل سريعًا دون قراءة شروحات مطوّلة في كل مرة، خصوصًا في المهام المتكررة أو عند العمل تحت ضغط الوقت.",
+  "why_it_matters": "خيار تخصيص طول الردود يمنح المستخدمين تحكمًا مباشرًا في تجربة العمل حسب طبيعة المهمة، سواء أرادوا إجابات سريعة أو تفصيلًا كاملًا.",
+  "original_text": "You can now set Claude Code's output style to Concise.\n\nClaude leads with the result, keeps responses short, and still gives full detail when you ask.\n\nTurn it on in /config → Output style, or set \"outputStyle\": \"Concise\" in settings.json. https://t.co/XYg7bHeVT2",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 19381,
+   "replies": 946,
+   "reposts": 1001,
+   "quotes": 767,
+   "bookmarks": 8819,
+   "views": 3355757
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1854",
+  "serial": 1854,
+  "serial_display": "#001854",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2090511582531072265",
+  "source_native_id": "2090511582531072265",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-20T18:49:35Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل جديد يربط Claude Managed Agents بواجهات AG-UI المفتوحة",
+  "arabic_summary": "نشرت Anthropic دليلًا (cookbook) يوضح كيفية ربط Claude Managed Agents بـ AG-UI، وهو بروتوكول تفاعل المستخدم مع الوكيل مفتوح المصدر من CopilotKit، ما يتيح بناء واجهات مستخدم متنوعة مدعومة بالوكلاء.",
+  "detailed_explanation": "الدليل الجديد يشرح كيفية دمج Claude Managed Agents مع AG-UI، وهو بروتوكول تفاعل مفتوح بين المستخدم والوكيل طوّرته CopilotKit. هذا يسمح للمطورين ببناء واجهات مستخدم مختلفة (سواء ويب أو تطبيقات) تتصل بالوكلاء المُدارين من Anthropic دون الاعتماد على واجهة موحدة واحدة.\n\nهذا مفيد لمن يريد بناء منتج خاص به يستخدم قدرات Claude Managed Agents في الخلفية، مع حرية تصميم واجهة أمامية مختلفة تمامًا حسب احتياجات مشروعه.",
+  "why_it_matters": "ربط الوكلاء المُدارين ببروتوكول واجهة مفتوح يوسّع الخيارات أمام المطورين لبناء تجارب مستخدم مخصصة بدلًا من الاقتصار على واجهات Anthropic الجاهزة.",
+  "original_text": "Claude Managed Agents can power many different UIs. \n\nOur new cookbook pairs Claude Managed Agents with AG-UI, @CopilotKit's open Agent-User Interaction Protocol. https://t.co/3OAp5HMFQM",
+  "glossary": [
+   {
+    "term": "AG-UI",
+    "ar": "بروتوكول تفاعل مفتوح بين المستخدم والوكيل الآلي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude Managed Agents",
+   "AG-UI",
+   "CopilotKit"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2343,
+   "replies": 106,
+   "reposts": 137,
+   "quotes": 25,
+   "bookmarks": 1435,
+   "views": 332728
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1855",
+  "serial": 1855,
+  "serial_display": "#001855",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2090540270219567575",
+  "source_native_id": "2090540270219567575",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-20T20:43:35Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Computer Use وSkills API وFiles API تصبح متاحة عمومًا في منصة Claude",
+  "arabic_summary": "أعلنت Anthropic أن أدوات Computer Use وBrowser Tool وSkills API وFiles API أصبحت متاحة بشكل عام (GA) على منصة Claude، ما يتيح أتمتة العمل في تطبيقات لا تملك واجهة برمجية، وبناء وكلاء مُدارين على أساس مهارات وملفات قابلة لإعادة الاستخدام.",
+  "detailed_explanation": "الإعلان يشمل أربع قدرات أصبحت جميعها متاحة عمومًا (General Availability): Computer Use الذي يتيح للنموذج التفاعل مع واجهات الحاسوب مباشرة، وBrowser Tool للتصفح، وSkills API لبناء مهارات قابلة للإصدار وإعادة الاستخدام، وFiles API لإدارة الملفات كموارد ثابتة يمكن الرجوع إليها.\n\nالفائدة العملية الأبرز هي القدرة على أتمتة العمل في تطبيقات لا تملك واجهة برمجية (API) أصلًا، عبر التفاعل المباشر مع واجهاتها الرسومية بدلًا من الاعتماد على تكاملات مخصصة. كما أن بناء الوكلاء على 'مهارات مُصدَرة' (versioned skills) وملفات قابلة لإعادة الاستخدام يمنح المطورين بنية أكثر استقرارًا وقابلية للصيانة عند بناء أنظمة وكلاء معقدة.",
+  "why_it_matters": "توفر هذه الأدوات رسميًا يعني أن المطورين يمكنهم الاعتماد عليها في بيئات إنتاج حقيقية بدلًا من مرحلة تجريبية، وهو تحول مهم لبناء وكلاء أكثر استقلالية.",
+  "original_text": "Computer use, the browser tool, the Skills API, and the Files API are now generally available on the Claude Platform.\n\nAutomate work in applications that have no API with fewer round trips per task, and build Claude Managed Agents on versioned skills and reusable files. https://t.co/aXHuc6eQBB",
+  "glossary": [
+   {
+    "term": "Computer Use",
+    "ar": "قدرة النموذج على التفاعل مباشرة مع واجهة الحاسوب"
+   },
+   {
+    "term": "GA",
+    "ar": "الإتاحة العامة، أي خروج الميزة من مرحلة التجربة إلى الإنتاج الكامل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill",
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic",
+   "Claude Managed Agents"
+  ],
+  "change_types": [
+   "General Availability"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 4404,
+   "replies": 158,
+   "reposts": 250,
+   "quotes": 74,
+   "bookmarks": 2356,
+   "views": 1759944
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1856",
+  "serial": 1856,
+  "serial_display": "#001856",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2090933155847143498",
+  "source_native_id": "2090933155847143498",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-21T22:44:46Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تحسّن موثوقية ميزة Remote Control في Claude Code",
+  "arabic_summary": "استجابت Anthropic لملاحظات المستخدمين حول مشاكل موثوقية ميزة Remote Control في Claude Code، وأعلنت في سلسلة تغريدات عن تحسينات جديدة أُدخلت عليها بعد أن كانت من أكثر الأمور المطلوب إصلاحها الشهر الماضي.",
+  "detailed_explanation": "النص يشير إلى أن Remote Control كانت أكثر ميزة طلب المستخدمون إصلاحها في الشهر الماضي، ما دفع الفريق للعمل على تحسين موثوقيتها. التغريدة تفتح سلسلة (thread) لشرح التحسينات المحددة، لكن التفاصيل الدقيقة لكل تحسين لم تُذكر في هذا المنشور تحديدًا.\n\nمع ذلك، فإن مجرد الاعتراف العلني بمشكلة موثوقية شائعة والاستجابة لها يعكس أهمية هذه الميزة لمستخدمي Claude Code الذين يعتمدون عليها للتحكم عن بُعد، وهو ما يجعلها تحديثًا يستحق المتابعة لمن يستخدم هذه الوظيفة تحديدًا.",
+  "why_it_matters": "إصلاح موثوقية ميزة كانت مصدر شكوى متكرر يعزز ثقة المستخدمين الذين يعتمدون على التحكم عن بُعد في سير عملهم اليومي.",
+  "original_text": "Last month you told us Remote Control was the thing you'd most like us to fix, so we've been working hard on reliability.\n\nHere's what's better today: 🧵",
+  "glossary": [
+   {
+    "term": "Remote Control",
+    "ar": "ميزة التحكم عن بُعد في جلسات الأداة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 10350,
+   "replies": 400,
+   "reposts": 428,
+   "quotes": 268,
+   "bookmarks": 2993,
+   "views": 1582663
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1857",
+  "serial": 1857,
+  "serial_display": "#001857",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2091953609185657251",
+  "source_native_id": "2091953609185657251",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-24T18:19:41Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مصادقة موحدة على مستوى المؤسسات لموصلات MCP أصبحت متاحة عمومًا",
+  "arabic_summary": "أعلنت Anthropic أن ميزة المصادقة المُدارة على مستوى المؤسسات لموصلات MCP أصبحت متاحة عمومًا. تتيح هذه الميزة لمسؤولي حسابات Team وEnterprise مركزة التفويض عبر مزوّد الهوية الخاص بهم، بحيث يتصل المستخدمون بالأدوات والبيانات تلقائيًا دون الحاجة لعملية OAuth فردية لكل مستخدم.",
+  "detailed_explanation": "قبل هذه الميزة، كان على كل مستخدم في مؤسسة ما إتمام عملية OAuth بشكل فردي للاتصال بموصلات MCP المختلفة، وهو ما يخلق احتكاكًا إداريًا وأمنيًا عند التوسع لعدد كبير من المستخدمين. الآن، يمكن لمسؤولي حسابات Team وEnterprise مركزة عملية التفويض بالكامل من خلال مزوّد الهوية (Identity Provider) الخاص بالمؤسسة.\n\nهذا يعني أن الاتصال بالأدوات والبيانات عبر MCP يصبح تلقائيًا للمستخدمين النهائيين بمجرد أن يمنحهم المسؤول الصلاحية المركزية، ما يبسط عملية الإدارة الأمنية ويقلل من عبء الإعداد الفردي المتكرر، وهو أمر مهم لأي فريق يخطط لتوسيع استخدام MCP عبر عدد كبير من الموظفين.",
+  "why_it_matters": "تبسيط إدارة المصادقة على موصلات MCP على مستوى المؤسسات يزيل عائقًا أمنيًا وإداريًا حقيقيًا أمام تبني MCP على نطاق واسع داخل الفرق.",
+  "original_text": "Enterprise-managed auth for MCP connectors is now generally available.\n\nFor Claude Team and Enterprise admins, authorization is centralized through your identity provider.\n\nFor users, tools and data are connected automatically, without the need for individual OAuth. https://t.co/83768WvXdH",
+  "glossary": [
+   {
+    "term": "Identity Provider",
+    "ar": "مزوّد هوية مركزي يدير مصادقة المستخدمين"
+   },
+   {
+    "term": "OAuth",
+    "ar": "بروتوكول تفويض معياري للوصول إلى الحسابات والبيانات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "MCP",
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [
+   "General Availability",
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3349,
+   "replies": 142,
+   "reposts": 191,
+   "quotes": 79,
+   "bookmarks": 1378,
+   "views": 621386
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1858",
+  "serial": 1858,
+  "serial_display": "#001858",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2092006814804214163",
+  "source_native_id": "2092006814804214163",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-24T21:51:06Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحسين تقني يجعل ردود Claude الطويلة تظهر أكثر سلاسة على الويب وسطح المكتب",
+  "arabic_summary": "أعادت Anthropic بناء محرك عرض النص المتدفق (streaming renderer) في Claude على الويب وسطح المكتب، ما جعل الردود الطويلة تظهر بسلاسة أكبر بأربعة أضعاف، مع تقليل التجمّد بمقدار 9 مرات على الأجهزة البطيئة، وحفاظ على 120 إطارًا في الثانية على شاشات 120Hz.",
+  "detailed_explanation": "المشكلة السابقة كانت أن محرك عرض النص المتدفق يعيد رسم أجزاء من الواجهة لا تحتاج فعليًا إلى تحديث، ما يسبب تجمدًا مؤقتًا أو تقطعًا في العرض خاصة مع الردود الطويلة. الحل كان إعادة بناء المحرك بحيث يلمس فقط الأجزاء التي تتغير فعلًا.\n\nالنتائج المذكورة ملموسة: سلاسة أكبر بأربعة أضعاف، وتقليل حالات التجمد بمقدار تسع مرات على الأجهزة الأبطأ، مع تقليص أسوأ حالة تجمد بـ4.5 مرة، والحفاظ على معدل 120 إطارًا في الثانية على أجهزة MacBook ذات شاشة 120Hz طوال مدة الرد. هذا التحسين يفيد بشكل مباشر أي مستخدم يعتمد على Claude للحصول على ردود طويلة ومفصلة بشكل متكرر.",
+  "why_it_matters": "تحسين عرض النص المتدفق يحسّن تجربة الاستخدام الفعلية عند التعامل مع ردود طويلة، خاصة على الأجهزة ذات الأداء المتوسط أو المنخفض.",
+  "original_text": "Long answers on Claude on web and desktop now stream ~4x smoother.\n\nWe rebuilt the streaming renderer to only touch what's still changing, so a long reply stalls 9x less on a slower laptop, its worst freeze is 4.5x shorter, and on a 120Hz MacBook it holds 120fps start to finish. https://t.co/huomk33lMb",
+  "glossary": [
+   {
+    "term": "Streaming renderer",
+    "ar": "محرك عرض يعرض النص أثناء توليده تدريجيًا"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "Upgrade"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 8622,
+   "replies": 351,
+   "reposts": 335,
+   "quotes": 143,
+   "bookmarks": 1084,
+   "views": 1206622
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1859",
+  "serial": 1859,
+  "serial_display": "#001859",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2092672740197081360",
+  "source_native_id": "2092672740197081360",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-26T17:57:15Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دعم Admin API في حزم SDK وواجهة ant CLI",
+  "arabic_summary": "أضافت Anthropic دعم Admin API إلى حزم التطوير البرمجية وواجهة سطر الأوامر ant. يتيح ذلك إدارة الأعضاء ومساحات العمل ومفاتيح API، وقراءة حدود الاستخدام الخاصة بالمؤسسة مباشرة من الكود أو الطرفية.",
+  "detailed_explanation": "الإضافة تخصّ المطورين الذين يديرون مؤسسات كاملة على منصة Claude، إذ توفر Admin API إمكانية التحكم في الأعضاء ومساحات العمل ومفاتيح API عبر الكود مباشرة بدل لوحة التحكم.\n\nكما تتيح قراءة حدود معدل الاستخدام (rate limits) الخاصة بالمؤسسة، ما يساعد في مراقبة الاستهلاك وبناء أدوات إدارية مخصصة فوق حساب Claude.",
+  "why_it_matters": "يسهّل على فرق التطوير إدارة حسابات Claude برمجيًا بدل الاعتماد على واجهة الويب، وهو مفيد لمن يدير عدة مفاتيح أو أعضاء ضمن مؤسسة.",
+  "original_text": "We've added the Admin API to the SDKs and the `ant` CLI.\n\nYou can manage members, workspaces, and API keys, and read your org's rate limits.\n\nDocs: https://t.co/5M9fjnT3Qf https://t.co/bk1ID4vGF3",
+  "glossary": [
+   {
+    "term": "Admin API",
+    "ar": "واجهة برمجية لإدارة الحسابات والمؤسسات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature",
+   "API Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 1558,
+   "replies": 62,
+   "reposts": 78,
+   "quotes": 26,
+   "bookmarks": 424,
+   "views": 226904
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://platform.claude.com/docs/en/manage-claude/admin-api"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1860",
+  "serial": 1860,
+  "serial_display": "#001860",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2092695038270775647",
+  "source_native_id": "2092695038270775647",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-26T19:25:52Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يكتب تقارير الأعطال تلقائيًا للمراجعة",
+  "arabic_summary": "أصبح بإمكان Claude Code صياغة تقرير ملاحظات (feedback) بنفسه عند حدوث خطأ أو عند إخبار المستخدم بوجود مشكلة. يمكن للمستخدم مراجعة التقرير وتعديله ثم الموافقة على إرساله.",
+  "detailed_explanation": "الميزة موجهة لمستخدمي Claude Code الذين يواجهون أخطاء أثناء العمل. عندما يفشل شيء، أو يلاحظ Claude أنه أخطأ، أو يخبره المستخدم بوجود مشكلة، يكتب الأداة تقريرًا بنفسها.\n\nيبقى القرار النهائي للمستخدم عبر مراجعة التقرير وتعديله والموافقة عليه قبل إرساله، ما يجعل عملية الإبلاغ عن الأعطال أسرع وأقل جهدًا.",
+  "why_it_matters": "يقلل الاحتكاك في الإبلاغ عن الأعطال، فبدل كتابة التقرير يدويًا يكفي أن يلاحظ الأداة الخطأ وتصيغه هي.",
+  "original_text": "Claude Code can now draft feedback for you.\n\nWhen something fails, when Claude notices it made a mistake, or when you tell it something went wrong, it writes up the report itself.\n\nYou can review, modify and approve the feedback to send. https://t.co/ed9lWylugx",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3215,
+   "replies": 198,
+   "reposts": 142,
+   "quotes": 56,
+   "bookmarks": 611,
+   "views": 468242
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1861",
+  "serial": 1861,
+  "serial_display": "#001861",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2092984433649283284",
+  "source_native_id": "2092984433649283284",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-27T14:35:49Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل جديد لربط Claude Managed Agent بـ Chat SDK من Vercel",
+  "arabic_summary": "نشرت Anthropic كتيّب طهي (cookbook) يشرح كيفية ربط Claude Managed Agent بـ Chat SDK الخاص بـ Vercel، ما يمنح الوكيل وصولًا إلى طبقة محادثة موحّدة.",
+  "detailed_explanation": "الدليل موجه لمن يبني تطبيقات وكلاء تحادثية باستخدام Claude، ويشرح خطوات ربط Managed Agent بـ Chat SDK من Vercel، وهي طبقة دردشة عامة يمكن استخدامها لبناء واجهات محادثة موحدة عبر مختلف التطبيقات.\n\nهذا يختصر الوقت على المطورين الذين يريدون واجهة دردشة جاهزة بدل تصميمها يدويًا لكل وكيل.",
+  "why_it_matters": "يوفر مسارًا جاهزًا لمطوري الوكلاء لدمج Claude مع بنية دردشة عامة بدل بنائها من الصفر.",
+  "original_text": "We've added a new cookbook: connect a Claude Managed Agent to @vercel's Chat SDK. This gives an agent access to a universal chat layer. \n \nhttps://t.co/0FrWT6C6R3 https://t.co/wVCfAC3j1b",
+  "glossary": [
+   {
+    "term": "Managed Agent",
+    "ar": "وكيل مُدار من قبل المنصة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Vercel",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2752,
+   "replies": 103,
+   "reposts": 165,
+   "quotes": 27,
+   "bookmarks": 1638,
+   "views": 407263
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/chat-sdk"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1862",
+  "serial": 1862,
+  "serial_display": "#001862",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2093368017304371503",
+  "source_native_id": "2093368017304371503",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-28T16:00:02Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استئناف جلسات الطرفية داخل تطبيق Claude Code سطح المكتب",
+  "arabic_summary": "يمكن الآن استخدام أمر /resume في تطبيق Claude Code لسطح المكتب لاستئناف أي جلسة بدأت من CLI، مع بقاء المحادثة والسياق كاملين.",
+  "detailed_explanation": "الميزة تفيد من يستخدم Claude Code في كل من الطرفية (CLI) والتطبيق المكتبي، إذ تتيح كتابة /resume لاختيار أي جلسة بدأت من سطر الأوامر ومتابعتها من التطبيق مباشرة.\n\nيبقى السياق الكامل للمحادثة محفوظًا، ما يعني عدم الحاجة لإعادة شرح المهمة أو فقد التقدم عند التبديل بين الواجهتين.",
+  "why_it_matters": "يزيل الفجوة بين العمل عبر الطرفية والتطبيق المكتبي، فيمكن المستخدم من التنقل بينهما دون فقد سياق العمل.",
+  "original_text": "You can now resume your terminal sessions in the Claude Code desktop app.\n\nType /resume to pick any session you started from the CLI. The session continues in the app with the full conversation and context intact. https://t.co/fdNi7paSrz",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 7329,
+   "replies": 286,
+   "reposts": 387,
+   "quotes": 133,
+   "bookmarks": 1551,
+   "views": 651881
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1863",
+  "serial": 1863,
+  "serial_display": "#001863",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2093480630801858750",
+  "source_native_id": "2093480630801858750",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-28T23:27:32Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحسينات أسبوعية متنوعة في Claude Code: سرعة وشفافية",
+  "arabic_summary": "أعلنت Anthropic عن دفعة تحسينات في Claude Code تشمل تسريع بدء تشغيل CLI، وزيادة الشفافية حول استهلاك التوكنز، وتسهيل رؤية وتعديل قواعد الوضع التلقائي، وإصلاحات لميزة التحكم عن بُعد.",
+  "detailed_explanation": "التحديث يجمع عدة تحسينات تقنية صغيرة: سرعة أكبر في بدء تشغيل واجهة سطر الأوامر، ورؤية أوضح لمكان استهلاك التوكنز أثناء الجلسات، وتسهيل تعديل قواعد الوضع التلقائي (auto mode).\n\nكما شملت التحديثات إصلاحات إضافية لميزة Remote Control التي تتيح التحكم عن بعد بجلسات Claude Code، ما يحسن الاستقرار لمن يعتمد عليها.",
+  "why_it_matters": "التحسينات التراكمية الصغيرة تجعل تجربة الاستخدام اليومي أسلس وأكثر وضوحًا، خصوصًا لمن يتابع استهلاك التوكنز أو يعتمد على العمل عن بعد.",
+  "original_text": "We've been shipping a lot of improvements to Claude Code based on your feedback.\n\nThis week we made CLI startup faster, added more visibility into where your tokens go, made auto mode rules easier to see and edit, and shipped even more Remote Control fixes.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 5676,
+   "replies": 319,
+   "reposts": 170,
+   "quotes": 49,
+   "bookmarks": 466,
+   "views": 533583
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1864",
+  "serial": 1864,
+  "serial_display": "#001864",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2093742321473065266",
+  "source_native_id": "2093742321473065266",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-08-29T16:47:23Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رفع دائم بنسبة 25% في حدود Claude Code الأسبوعية",
+  "arabic_summary": "أعلنت Anthropic رفعًا دائمًا بنسبة 25% في حدود الاستخدام الأسبوعية القياسية في Claude Code لخطط Pro وMax وTeam وEnterprise، بدءًا من 14 سبتمبر، مع بقاء الزيادة الحالية 50% سارية حتى ذلك التاريخ.",
+  "detailed_explanation": "هذا تغيير في التسعير/الحدود يخص مباشرة مستخدمي Claude Code على خطط Pro وMax وTeam وEnterprise. الحدود الأسبوعية القياسية سترتفع بنسبة 25% بشكل دائم اعتبارًا من 14 سبتمبر.\n\nحتى ذلك الموعد، تبقى الزيادة المؤقتة الحالية البالغة 50% سارية، ما يعني أن المستخدمين يحصلون على سعة أكبر بشكل انتقالي قبل استقرار الحد الجديد الدائم عند 25% زيادة عن المستوى الأصلي.",
+  "why_it_matters": "تغيير مباشر في حدود الاستخدام يمس كل مشترك في هذه الخطط، ويعني إمكانية عمل أكبر دون الاصطدام بسقف الاستخدام الأسبوعي.",
+  "original_text": "Starting September 14, we're permanently raising standard weekly limits in Claude Code by 25% for Pro, Max, Team, and seat-based Enterprise plans. Until then, the current 50% increase will be in place.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 18533,
+   "replies": 1992,
+   "reposts": 982,
+   "quotes": 1815,
+   "bookmarks": 2147,
+   "views": 7086742
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1865",
+  "serial": 1865,
+  "serial_display": "#001865",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2094851229734277228",
+  "source_native_id": "2094851229734277228",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-01T18:13:48Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Fable 5.1 بأداء أفضل وتكلفة أقل للـ cache",
+  "arabic_summary": "أصبح نموذج Fable 5.1 متاحًا في Claude Code ومنصة Claude، بنفس سعر الإصدار السابق لكن مع تخفيض 75% في تكلفة قراءات cache عبر API. يتميز بقدرة أكبر على إنجاز مهام طويلة قبل طلب تدخل المستخدم، ووعي أفضل بحالات التعثر، وأسلوب كتابة أكثر طبيعية.",
+  "detailed_explanation": "Fable 5.1 يمثل تحديثًا لنموذج Fable 5 بنفس السعر الأساسي، لكن مع تخفيض جوهري في تكلفة قراءات الكاش (cache reads) عبر API بنسبة 75%، وهو أمر مهم لمن يشغّل مهامًا طويلة تعتمد على إعادة استخدام السياق.\n\nكما يتحسن النموذج في الاستمرار بمهمة طويلة فترة أطول قبل الحاجة لتدخل المستخدم، ويصبح أكثر وضوحًا عند التعثر بدل الاستمرار في مسار خاطئ، إضافة إلى أسلوب كتابة أكثر طبيعية.",
+  "why_it_matters": "خفض تكلفة قراءات الكاش بنسبة كبيرة يقلل تكاليف الاستخدام الفعلي لمن يعتمد على Claude في مهام طويلة عبر API.",
+  "original_text": "Fable 5.1 is now live in Claude Code and the Claude Platform.\n\nIt's priced the same as Fable 5, with 75% cheaper API cache reads. It gets a lot further into a long task before it needs your input, is better at telling you when it's stuck, and its writing style is more natural.",
+  "glossary": [
+   {
+    "term": "Cache reads",
+    "ar": "قراءات من الذاكرة المخبأة لتقليل التكلفة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Claude",
+   "Fable 5.1"
+  ],
+  "change_types": [
+   "Model Update",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 8800,
+   "replies": 402,
+   "reposts": 666,
+   "quotes": 234,
+   "bookmarks": 833,
+   "views": 1032405
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work. https://t.co/8P9PSrWPi3"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1866",
+  "serial": 1866,
+  "serial_display": "#001866",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2094856679250919746",
+  "source_native_id": "2094856679250919746",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-01T18:35:27Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إعادة تعيين حدود الاستخدام لجميع المستخدمين مع إطلاق Fable 5.1",
+  "arabic_summary": "بمناسبة إطلاق Fable 5.1، أعادت Anthropic تعيين حدود الاستخدام لكل من فترة الخمس ساعات والحد الأسبوعي لجميع المستخدمين.",
+  "detailed_explanation": "الخبر مرتبط مباشرة بإطلاق Fable 5.1: أعادت Anthropic تصفير حدود الاستخدام الزمنية (كل 5 ساعات) والحد الأسبوعي لجميع المستخدمين فور إطلاق النموذج.\n\nهذا يتيح لمستخدمي Claude تجربة النموذج الجديد فورًا بسعة كاملة بدل الاصطدام بحدود متبقية من الاستخدام السابق.",
+  "why_it_matters": "يمنح المستخدمين سعة استخدام إضافية فورية دون انتظار للاستفادة من النموذج الجديد.",
+  "original_text": "With Fable 5.1 out today, we've also reset 5-hour and weekly limits for all users.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 26072,
+   "replies": 1131,
+   "reposts": 1420,
+   "quotes": 782,
+   "bookmarks": 990,
+   "views": 2203896
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1867",
+  "serial": 1867,
+  "serial_display": "#001867",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2095226982644830648",
+  "source_native_id": "2095226982644830648",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-02T19:06:54Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تشغيل ميزة Computer Use في الخلفية داخل Claude Code",
+  "arabic_summary": "أصبحت ميزة Computer Use في تطبيق Claude Code لسطح المكتب تعمل الآن في الخلفية على macOS، بحيث يعمل Claude في التطبيقات المسموح بها بينما يواصل المستخدم عمله. الميزة في مرحلة تجريبية لخطتي Pro وMax.",
+  "detailed_explanation": "الميزة تخص مستخدمي macOS ممن جربوا Computer Use سابقًا في Claude Code. الآن تعمل هذه القدرة في الخلفية، بحيث يواصل Claude تنفيذ المهام في التطبيقات المسموح له بها بينما يستمر المستخدم في عمله على الشاشة دون تعطّل.\n\nهي في مرحلة beta وحصرية لخطتي Pro وMax على macOS فقط، ويمكن تفعيلها من الإعدادات إن لم تكن مفعّلة تلقائيًا.",
+  "why_it_matters": "يتيح للمستخدم تشغيل مهام Claude الآلية في التطبيقات الأخرى دون توقف عمله الخاص، وهي خطوة نحو استقلالية أكبر للوكيل.",
+  "original_text": "Computer use in the Claude Code desktop app now runs in the background.\n\nClaude works in the apps you've allowed it to while you keep working. It's already on if you've used computer use before, or turn it on in Settings &gt; General. \n\nIn beta on Pro and Max, macOS only. https://t.co/o9UrFpjmPB",
+  "glossary": [
+   {
+    "term": "Computer Use",
+    "ar": "قدرة النموذج على التحكم في واجهة الحاسوب مباشرة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3181,
+   "replies": 132,
+   "reposts": 153,
+   "quotes": 38,
+   "bookmarks": 655,
+   "views": 245126
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1868",
+  "serial": 1868,
+  "serial_display": "#001868",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2095233745167282602",
+  "source_native_id": "2095233745167282602",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-02T19:33:47Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تفتح مصدر Claude Commerce Agents كمخطط بناء",
+  "arabic_summary": "فتحت Anthropic مصدر Claude Commerce Agents، وهو مخطط (blueprint) لبناء وكلاء تسوق وتجارة، مع تطبيقات مرجعية عبر قطاعات التجزئة والسفر والاتصالات والترفيه.",
+  "detailed_explanation": "المشروع موجه لمطوري الوكلاء الذين يعملون في قطاعات التجارة والتسوق. يقدم مخططًا مفتوح المصدر لبناء وكلاء تسوق وتجارة يمكن البناء عليه مباشرة.\n\nيتضمن تطبيقات مرجعية (reference implementations) عبر أربعة قطاعات: التجزئة، السفر، الاتصالات، والترفيه، ما يمنح المطورين أمثلة عملية قابلة للتكييف حسب مجال عملهم.",
+  "why_it_matters": "يوفر نقطة انطلاق جاهزة ومفتوحة المصدر لمن يريد بناء وكيل تجاري بدل البدء من الصفر، عبر أمثلة حقيقية من قطاعات متعددة.",
+  "original_text": "We're open-sourcing Claude Commerce Agents.\n\nThis is a blueprint for building shopping and merchant agents, with reference implementations across retail, travel, telecom, and entertainment. https://t.co/uEPja39hBY",
+  "glossary": [
+   {
+    "term": "Blueprint",
+    "ar": "مخطط مرجعي قابل للبناء عليه"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 11815,
+   "replies": 342,
+   "reposts": 973,
+   "quotes": 297,
+   "bookmarks": 11241,
+   "views": 2220274
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1869",
+  "serial": 1869,
+  "serial_display": "#001869",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2095572891941351550",
+  "source_native_id": "2095572891941351550",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-03T18:01:25Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تستكشف ميزة Function Hooks لتخصيص Claude Code",
+  "arabic_summary": "تعمل Anthropic على ميزة تجريبية باسم Function Hooks تتيح تمديد وتخصيص Claude Code بشكل أعمق. الميزة لم تُطلق بعد، وتدعو الشركة المستخدمين لتقديم ملاحظاتهم عبر GitHub.",
+  "detailed_explanation": "Function Hooks مفهوم قيد الاستكشاف من Anthropic لإتاحة تخصيص وتمديد Claude Code بطرق جديدة، وقد شاركت فيديوهات توضح الفكرة العامة.\n\nالميزة لم تشحن بعد رسميًا، والشركة تجمع الملاحظات عبر GitHub issue قبل اتخاذ قرار الإطلاق النهائي، ما يجعلها فرصة للمطورين للتأثير على شكل الميزة قبل صدورها.",
+  "why_it_matters": "فتح باب التخصيص العميق للأداة يهم المطورين المتقدمين الذين يريدون التحكم في سلوك Claude Code بدقة، لكنه لا يزال في طور التجربة.",
+  "original_text": "We're exploring a new way to let you extend and customize Claude Code: Function Hooks.\n\nHere's a couple videos showing what you'd be able to do. It hasn't shipped yet, we'd love feedback on this on our GitHub issue. https://t.co/0F3kBO3kjl",
+  "glossary": [
+   {
+    "term": "Function Hooks",
+    "ar": "نقاط ربط برمجية لتخصيص سلوك الأداة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3307,
+   "replies": 217,
+   "reposts": 172,
+   "quotes": 88,
+   "bookmarks": 2190,
+   "views": 984859
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1870",
+  "serial": 1870,
+  "serial_display": "#001870",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2095651107645145538",
+  "source_native_id": "2095651107645145538",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-03T23:12:14Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أمر ant apply لمزامنة موارد Managed Agents كملفات في المستودع",
+  "arabic_summary": "أضافت Anthropic أمر ant apply إلى واجهة ant CLI، ما يتيح تعريف بيئات Managed Agent والوكلاء والـ Skills ومخازن الذاكرة والنشرات كملفات داخل مستودع الكود، مع مزامنتها تلقائيًا مع موارد API.",
+  "detailed_explanation": "الأمر الجديد موجه لمطوري الوكلاء الذين يديرون بيئات معقدة على منصة Claude. يتيح تعريف كل من بيئات Managed Agent والوكلاء أنفسهم وملفات Skills ومخازن الذاكرة والنشرات كملفات نصية داخل مستودع الكود.\n\nثم يستخدم ant apply لمزامنة هذه التعريفات مع الموارد الفعلية عبر API، بأسلوب مشابه لأدوات البنية التحتية ككود (Infrastructure as Code)، ما يسهل التتبع والمراجعة عبر Git.",
+  "why_it_matters": "يجلب أسلوب إدارة البنية كملفات (Infrastructure as Code) إلى وكلاء Claude، ما يسهل تتبع التغييرات والتعاون عبر الفرق.",
+  "original_text": "We've added `ant apply` to the ant CLI. \n\nNow you can declare Claude Managed Agent environments, agents, skills, memory stores, and deployments as files in your repository and keep the API's resources in sync with them using `ant apply`.\n\nDocs: https://t.co/qQchmDjTmm https://t.co/7hX3OV3h29",
+  "glossary": [
+   {
+    "term": "ant CLI",
+    "ar": "واجهة سطر أوامر لإدارة موارد Claude"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2584,
+   "replies": 157,
+   "reposts": 168,
+   "quotes": 33,
+   "bookmarks": 1533,
+   "views": 367200
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1871",
+  "serial": 1871,
+  "serial_display": "#001871",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2097437571634639035",
+  "source_native_id": "2097437571634639035",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-08T21:31:00Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كيف تستخدم Anthropic وكيل Claude Tag للاستجابة الأولى في الأعطال",
+  "arabic_summary": "يستخدم فريق CI في Anthropic وكيلًا باسم Claude Tag كأول مستجيب على المناوبة، حيث يقرأ التنبيهات والمقاييس والسجلات ويكتب تقرير موقف (SITREP)، ويحتفظ بملف lessons.md يتعلم منه بمرور الوقت. شاركت الشركة إعدادها كاملة مع قالب وSkills جاهزة.",
+  "detailed_explanation": "هذا مثال داخلي من Anthropic نفسها: فريق تكامل مستمر (CI) يعتمد على وكيل يُدعى Claude Tag كأول مستجيب عند حدوث عطل. يقرأ الوكيل التنبيهات والمقاييس وسجلات النظام تلقائيًا.\n\nيكتب الوكيل تقرير موقف (SITREP) يلخص الحالة، ويحتفظ بملف lessons.md يسجل فيه الدروس المستفادة بمرور الوقت لتحسين أدائه لاحقًا. شاركت الشركة الإعداد كاملًا مع قالب جاهز وملفات Skills يمكن لأي فريق تبنّيها.",
+  "why_it_matters": "مثال عملي حي على استخدام وكيل Claude داخل عملية دعم فني حقيقية، مع مشاركة القالب وSkills المستخدمة فعليًا لتطبيقها مباشرة.",
+  "original_text": "Our CI team's on-call first responder is Claude Tag.\n\nIt reads alerts, metrics, and logs, then writes a SITREP and keeps a lessons.md as it learns.\n\nWe're sharing our setup, including a template and skills, and hope your team finds it as useful as we do: https://t.co/qc1CsEYvBm",
+  "glossary": [
+   {
+    "term": "SITREP",
+    "ar": "تقرير موقف يلخص حالة العطل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent",
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2318,
+   "replies": 121,
+   "reposts": 107,
+   "quotes": 29,
+   "bookmarks": 1608,
+   "views": 350623
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1872",
+  "serial": 1872,
+  "serial_display": "#001872",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2098090911137972271",
+  "source_native_id": "2098090911137972271",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-10T16:47:08Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إمكانية فصل أي لوحة في تطبيق Claude Code إلى نافذة مستقلة",
+  "arabic_summary": "يمكن الآن سحب أي لوحة (كالفرق diff أو الطرفية) في تطبيق Claude Code لسطح المكتب إلى شاشة ثانية أثناء استمرار Claude بالعمل في النافذة الرئيسية، مع إمكانية تشغيل الجلسات جنبًا إلى جنب أو مكدّسة.",
+  "detailed_explanation": "الميزة تخص مستخدمي التطبيق المكتبي لـ Claude Code الذين يعملون على أكثر من شاشة. يمكن الآن سحب أي لوحة مثل عرض الفروقات (diff) أو الطرفية إلى نافذة منفصلة على شاشة ثانية.\n\nيستمر Claude في العمل بالنافذة الرئيسية بينما تُتابع اللوحة المنفصلة على الشاشة الأخرى، مع إمكانية إرجاعها وإعادة ربطها، أو تشغيل عدة جلسات جنبًا إلى جنب أو مكدّسة فوق بعضها.",
+  "why_it_matters": "يحسن تجربة العمل متعدد الشاشات لمن يستخدم Claude Code في مهام برمجية طويلة تتطلب متابعة عدة عناصر في آن واحد.",
+  "original_text": "You can pop out any pane in the Claude Code desktop app into its own window.\n\nDrag the diff or terminal to a second screen while Claude keeps working in the main window, then dock it back whenever you want. You can also run sessions side-by-side or stacked. https://t.co/5BF38zm4ky",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 4124,
+   "replies": 226,
+   "reposts": 207,
+   "quotes": 73,
+   "bookmarks": 804,
+   "views": 366096
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1873",
+  "serial": 1873,
+  "serial_display": "#001873",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2098120133549895978",
+  "source_native_id": "2098120133549895978",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-10T18:43:15Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "عارض جلسات جديد في ant CLI لمتابعة Managed Agents",
+  "arabic_summary": "أضافت Anthropic عارض جلسات إلى ant CLI، حيث يتيح أمر ant beta:sessions connect ربط الطرفية بجلسة قيد التشغيل، ويفتح خيار --web واجهة ويب محلية لمتابعتها.",
+  "detailed_explanation": "الميزة موجهة لمطوري Claude Managed Agents الذين يحتاجون لمراقبة جلسات تعمل حاليًا. أمر ant beta:sessions connect يربط الطرفية مباشرة بجلسة قيد التشغيل لمتابعتها لحظيًا.\n\nمع خيار --web، تفتح واجهة ويب تعمل محليًا (localhost) لعرض الجلسة بصريًا، ما يمنح مرونة أكبر في اختيار طريقة المتابعة حسب الحاجة.",
+  "why_it_matters": "يمنح المطورين طريقة مرنة لمراقبة الوكلاء العاملين، سواء من الطرفية أو من واجهة ويب بصرية.",
+  "original_text": "Two fresh updates to Claude Managed Agents:\n\nFirst, we've added a session viewer to the ant CLI.\n\n`ant beta:sessions connect` attaches your terminal to a running session, and `--web` opens a web UI served from localhost. https://t.co/1UgRRLyxUA",
+  "glossary": [
+   {
+    "term": "ant CLI",
+    "ar": "واجهة سطر أوامر لإدارة موارد Claude"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 1430,
+   "replies": 89,
+   "reposts": 85,
+   "quotes": 16,
+   "bookmarks": 487,
+   "views": 203606
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1874",
+  "serial": 1874,
+  "serial_display": "#001874",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2098500999656923145",
+  "source_native_id": "2098500999656923145",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-11T19:56:41Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أمر claude plugin eval لقياس فاعلية الإضافات وملفات Skills",
+  "arabic_summary": "يتيح أمر جديد في Claude Code إنشاء حالات اختبار لقياس مدى إضافة القيمة الحقيقية من Plugin أو Skill معين، عبر تشغيله على تلك الحالات، ثم إعادة التشغيل بدونه لمقارنة الفرق في النتائج.",
+  "detailed_explanation": "هذه الميزة مهمة لكل من يطور Plugins أو ملفات Skills لـ Claude Code، إذ توفر طريقة منهجية لقياس أثرها الفعلي بدل الاعتماد على الانطباع.\n\nيمكن للمطور إنشاء حالات اختبار (test cases)، ثم تشغيل الـ Plugin أو الـ Skill عليها وتسجيل نتيجة كل حالة، ثم إعادة تشغيل الحالات نفسها دون الإضافة لمقارنة الفرق. هذا يكشف بوضوح ما إذا كانت الإضافة تستحق الاستخدام أو تحتاج مزيدًا من العمل.",
+  "why_it_matters": "أداة تقييم موضوعية لمن يبني Plugins أو ملفات Skills، تجيب عمليًا عن سؤال «هل تضيف هذه الإضافة قيمة فعلية أم لا؟»",
+  "original_text": "New in Claude Code: claude plugin eval\n\nSee what value your plugin is adding, or if it needs more work.\n\nYou can create test cases, run your plugin or skill against those test cases, score those runs, then run each case again without the plugin to see the differences. https://t.co/qfPU6WHueV",
+  "glossary": [
+   {
+    "term": "Test cases",
+    "ar": "حالات اختبار محددة لقياس الأداء"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin",
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 6106,
+   "replies": 199,
+   "reposts": 423,
+   "quotes": 136,
+   "bookmarks": 4824,
+   "views": 939589
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1875",
+  "serial": 1875,
+  "serial_display": "#001875",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2098508880921899197",
+  "source_native_id": "2098508880921899197",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-11T20:28:00Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مثال تطبيقي: كيف يعمل Claude Tag في نوبات المناوبة التقنية",
+  "arabic_summary": "توضح Anthropic طريقة استخدامها الفعلية لوكيل Claude Tag في المناوبة: عند إطلاق تنبيه في Slack، يجلب الوكيل المقاييس ويقارن عمليات النشر ويفحص الأعلام، ثم يقترح سببًا محتملاً وإصلاحًا يمكن الموافقة عليه ودمجه مباشرة.",
+  "detailed_explanation": "هذا استكمال لمثال Claude Tag السابق، ويوضح سير العمل بتفصيل أكبر: عند إطلاق تنبيه في Slack، يبدأ الوكيل فورًا بجلب المقاييس (metrics) ومقارنة عمليات النشر الأخيرة (deploys) وفحص الأعلام (feature flags).\n\nبناءً على هذا التحليل، يحدد الوكيل سببًا محتملاً للمشكلة ويقترح إصلاحًا جاهزًا يمكن لفريق العمل مراجعته والموافقة عليه ودمجه مباشرة، ما يختصر الزمن الحرج في حل الأعطال.",
+  "why_it_matters": "يظهر سيناريو عملي كامل لوكيل يقلص زمن الاستجابة في الأعطال من دقائق إلى ثوانٍ عبر أتمتة خطوات التشخيص الأولى.",
+  "original_text": "Here's how our team uses Claude Tag for on-call:\n\nWhen an alert fires in Slack, Claude pulls metrics, diffs deploys, and checks flags. It finds a likely cause and proposes a fix, which we can approve and merge. Every minute counts, so we love that it starts right away! https://t.co/15gdEHjI7d",
+  "glossary": [],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2041,
+   "replies": 118,
+   "reposts": 118,
+   "quotes": 30,
+   "bookmarks": 1214,
+   "views": 296148
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1876",
+  "serial": 1876,
+  "serial_display": "#001876",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2100270861555228770",
+  "source_native_id": "2100270861555228770",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-16T17:09:29Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أدوات Claude Design وSlides وDocs تعمل داخل Claude Code",
+  "arabic_summary": "أعلنت أنثروبيك أن أدوات Claude Design وClaude Slides وClaude Docs باتت تعمل مباشرة داخل Claude Code. يمكن الآن طلب عرض تقديمي أو نموذج واجهة مع الإشارة إلى ملفات المستودع الفعلية ووثائق الطلبات (RFCs)، ثم تعديل الناتج أو الاستمرار في المحادثة ومشاركة الرابط عند الانتهاء.",
+  "detailed_explanation": "الفكرة الجوهرية هنا هي ربط أدوات إنشاء المحتوى (تصميم، عروض، مستندات) بسياق الكود الفعلي في المستودع. بدلاً من أن يشرح المطور التصميم المطلوب من الصفر، يمكنه توجيه Claude Code إلى ملفات الكود ووثائق RFC ذات الصلة، فينتج عرضاً أو نموذج واجهة مبنياً على الواقع الفعلي للمشروع لا على افتراضات عامة.\n\nهذا يخدم بشكل خاص مراجعات التصميم الداخلية (design reviews) حيث يحتاج الفريق لشرح قرار تقني أو بنية نظام لجمهور غير تقني أو لفريق أوسع، فيمكن الآن توليد ذلك مباشرة من داخل بيئة العمل البرمجية دون الخروج منها.",
+  "why_it_matters": "يدمج أدوات إنتاج المحتوى البصري والمكتوب داخل بيئة البرمجة نفسها، فيغني عن التنقل بين تطبيقات منفصلة عند إعداد عروض تقنية من كود حقيقي.",
+  "original_text": "Claude Design, Claude Slides and Claude Docs also work inside Claude Code now.\n\nAsk for a design review deck or a UI mockup and point it at the actual files and RFCs in the repo. Edit it yourself or keep going in the conversation, and share the link when it's ready.",
+  "glossary": [
+   {
+    "term": "RFC",
+    "ar": "وثيقة طلب تعليقات تقني"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude Code",
+   "Claude Design",
+   "Claude Slides",
+   "Claude Docs"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 5374,
+   "replies": 166,
+   "reposts": 371,
+   "quotes": 69,
+   "bookmarks": 1912,
+   "views": 703303
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "You can also now make decks, docs, and designs in your conversation.\n\nDraft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. https://t.co/Y0JaJGT3G8"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1877",
+  "serial": 1877,
+  "serial_display": "#001877",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2100633571543367691",
+  "source_native_id": "2100633571543367691",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-17T17:10:45Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ميزة Projects في Claude Code تدير المهام تلقائيًا بجلسات متوازية",
+  "arabic_summary": "أطلقت أنثروبيك ميزة Projects في Claude Code لسطح المكتب والويب، وهي محادثة واحدة تُقسّم العمل إلى خيوط (threads) تلقائيًا وتشغّلها كجلسات سحابية متوازية، مع تمرير السياق بينها ومواصلة العمل حتى بعد مغادرة المستخدم. الميزة في مرحلة تجريبية لمستخدمين مختارين.",
+  "detailed_explanation": "الميزة الجديدة تتيح للمستخدم أن يعطي مهمة كبيرة واحدة، ثم تتولى Claude تقسيمها إلى خيوط عمل فرعية تُنفَّذ بالتوازي على جلسات سحابية، مع تمرير السياق (context) بين هذه الخيوط بحيث تبقى متسقة مع بعضها. الأهم أن العمل يستمر حتى بعد أن يغلق المستخدم جهازه، أي أن المهمة لم تعد مرتبطة بجلسة تفاعلية حيّة.\n\nهذا يمثل خطوة نحو أتمتة أعمق في سير عمل المطورين، حيث تنتقل الأداة من كونها مساعدًا تفاعليًا إلى شيء أقرب لمدير مشروع صغير يوزّع العمل وينسّقه. كونها في مرحلة بيتا لمستخدمين مختارين يعني أن الميزة لم تصل بعد للجميع، لكنها تشير إلى الاتجاه القادم للأداة.",
+  "why_it_matters": "يحوّل Claude Code من أداة تُدار يدويًا خطوة بخطوة إلى نظام يدير مهامًا معقدة ومتوازية بنفسه، وهو تغيّر جوهري في طريقة استخدام أدوات الترميز بالذكاء الاصطناعي.",
+  "original_text": "Today we're rolling out Projects in Claude Code on desktop and web.\n\nA project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave.\n\nIn beta for select users. https://t.co/j4k7rludhV",
+  "glossary": [
+   {
+    "term": "Context",
+    "ar": "السياق المُمرَّر بين الجلسات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 11600,
+   "replies": 484,
+   "reposts": 651,
+   "quotes": 319,
+   "bookmarks": 4609,
+   "views": 2625016
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1878",
+  "serial": 1878,
+  "serial_display": "#001878",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2102438800836489554",
+  "source_native_id": "2102438800836489554",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-22T16:44:06Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Opus 5.5: أسرع وأرخص مع زيادة حدود الاستخدام",
+  "arabic_summary": "أطلقت أنثروبيك نموذج Claude Opus 5.5 الذي يؤدي بمستوى Fable 5.1 لكنه أسرع بنحو 30% وأرخص بنحو 40% لكل مهمة مقارنة بـ Opus 5. في Claude Code، ارتفعت حدود جلسات الخمس ساعات بنسبة 20%، وسعر النموذج الأقل يعني استخدامًا أطول ضمن نفس الحدود، مع إعادة تعيين لمستخدمي Pro وMax وTeam.",
+  "detailed_explanation": "الإعلان يجمع بين إصدار نموذج جديد (Opus 5.5) وتغييرات ملموسة في حدود الاستخدام داخل Claude Code. النموذج الجديد يقدّم أداءً مماثلاً لنموذج أعلى (Fable 5.1) بتكلفة أقل بكثير، ما يعني أن المهام التي كانت تتطلب النموذج الأغلى يمكن الآن تنفيذها بتكلفة أقل ووقت أقصر.\n\nالأهم عمليًا هو الأثر على حدود الاستخدام: زيادة حدود الجلسة بنسبة 20% مع انخفاض السعر يعني أن نفس الميزانية الشهرية أو الأسبوعية تذهب أبعد بنسبة 25% تقريبًا. كما أن إعادة التعيين لمستخدمي الاشتراكات المدفوعة تمنحهم فرصة فورية لتجربة النموذج دون انتظار الدورة القادمة.",
+  "why_it_matters": "خفض التكلفة مع رفع سقف الاستخدام يعني أن مستخدمي Claude Code يمكنهم إنجاز عمل أكثر بنفس الاشتراك، وهو تغيّر مباشر في اقتصاديات الاستخدام اليومي.",
+  "original_text": "Opus 5.5 performs at the level of Fable 5.1. It's ~30% faster and ~40% cheaper than Opus 5 per task.\n\nIn Claude Code:\n- 5-hour session limits increase 20% today\n- Opus 5.5 is priced lower, so it goes 25% further within limits\n- Pro, Max, and Team users get a reset to use anytime https://t.co/1seRYKAtzJ",
+  "glossary": [
+   {
+    "term": "Opus",
+    "ar": "أعلى فئة من نماذج Claude"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Claude Opus 5.5",
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 16290,
+   "replies": 465,
+   "reposts": 1203,
+   "quotes": 552,
+   "bookmarks": 1831,
+   "views": 1496367
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family.\n\nIt performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. https://t.co/Q9C2VKQ79f"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1879",
+  "serial": 1879,
+  "serial_display": "#001879",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2102491840612380934",
+  "source_native_id": "2102491840612380934",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-22T20:14:51Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل استعمال Opus 5.5: تسليم المهمة كاملة وترك التفكير له",
+  "arabic_summary": "نشرت أنثروبيك دليل استخدام مقترحات عملية لأول جلسة مع Opus 5.5: تسليم المهمة كاملة مع تعريف واضح لمعنى «الانتهاء» ومتى يجب المراجعة، والتوقف عن كتابة عبارة «فكّر بعناية» لأن النموذج يفكر تلقائيًا الآن، ومراجعة احتياجات النموذج بعد تشغيل طويل للمتابعة.",
+  "detailed_explanation": "الدليل يقدم ثلاث ممارسات محددة تعكس تغيّرًا في سلوك النموذج نفسه. أولًا، تشجيع تسليم مهام كاملة بدلاً من تقسيمها لخطوات صغيرة، شرط تحديد معايير واضحة لمتى تُعتبر المهمة منتهية ومتى يحتاج المستخدم للتدخل والمراجعة.\n\nثانيًا، إشارة مهمة إلى أن النموذج أصبح يفكر تلقائيًا قبل الرد، فلم تعد هناك حاجة لإضافة عبارات تحفيزية مثل «فكّر بعناية» في الـ prompt، وهذا تغيير في سلوك النموذج الأساسي يستحق أن يعرفه كل من اعتاد على أنماط prompting القديمة. ثالثًا، بعد تشغيل النموذج لفترة طويلة على مهمة معقدة، يُنصح بمراجعة ما يحتاجه للمتابعة بدلاً من افتراض أنه يعرف الاتجاه الصحيح تلقائيًا.",
+  "why_it_matters": "نصائح عملية مباشرة من الشركة المطورة تغيّر طريقة صياغة الطلبات (prompting) للاستفادة القصوى من النموذج الجديد، وهذا يوفر وقتًا ويحسّن جودة النتائج فورًا.",
+  "original_text": "Try these in your first Opus 5.5 session:\n\n→ Hand over a whole task. Define \"done\" and when to check in.\n→ Drop \"think carefully\". It always thinks first.\n→ After a long run, check what it needs to go further.\n\nOur playbook: https://t.co/h4Vz9BIl0z",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "التعليمات النصية الموجّهة للنموذج"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Opus 5.5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 14742,
+   "replies": 229,
+   "reposts": 1007,
+   "quotes": 129,
+   "bookmarks": 15814,
+   "views": 1529501
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1880",
+  "serial": 1880,
+  "serial_display": "#001880",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2102839691154427983",
+  "source_native_id": "2102839691154427983",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-23T19:17:05Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كيف جعلت أنثروبيك موقع claude.ai أسرع 3 مرات باستخدام Claude نفسه",
+  "arabic_summary": "شاركت أنثروبيك كيف استخدمت Claude لقياس أداء موقع claude.ai وتشخيصه وتحسينه، ما أدى إلى جعله أسرع بثلاث مرات خلال أسبوعين فقط. المنشور يتضمن الـ prompts والطرق المستخدمة في هذه العملية.",
+  "detailed_explanation": "المنشور يوثّق حالة استخدام داخلية حقيقية: فريق أنثروبيك نفسه استخدم Claude كأداة لتشخيص أسباب بطء موقعهم الرئيسي claude.ai، ثم توليد حلول وتطبيقها، محققين تحسنًا بمقدار ثلاثة أضعاف في الأداء خلال أسبوعين فقط.\n\nما يميز هذا المنشور هو مشاركة الـ prompts والمنهجية الفعلية المستخدمة (مذكورة في الرابط المرفق)، ما يجعله مرجعًا عمليًا لمطورين آخرين يريدون تطبيق نهج مشابه في تحسين أداء تطبيقاتهم الخاصة باستخدام نماذج الذكاء الاصطناعي كأداة تحليل وتصحيح، لا فقط كأداة كتابة كود.",
+  "why_it_matters": "مثال عملي موثّق على استخدام نموذج ذكاء اصطناعي في تحسين أداء تطبيق حقيقي، مع مشاركة الطريقة والـ prompts، وهذا يوفر نموذجًا قابلًا للتكرار لمن يواجه مشاكل أداء مشابهة.",
+  "original_text": "We made claude​.ai 3x faster in two weeks.\n\nHere’s how we use Claude to measure, debug and improve performance. Prompts and methods included.\n\nhttps://t.co/mgvK8mJRuD",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "claude.ai"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 9620,
+   "replies": 236,
+   "reposts": 551,
+   "quotes": 177,
+   "bookmarks": 9092,
+   "views": 1766350
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://claude.dev/blog/how-we-made-claude-ai-faster/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1881",
+  "serial": 1881,
+  "serial_display": "#001881",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2102871550974427462",
+  "source_native_id": "2102871550974427462",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-23T21:23:41Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "جلسات Claude Code السحابية متاحة رسميًا مع أرصدة مجانية",
+  "arabic_summary": "أعلنت أنثروبيك أن جلسات Claude Code السحابية (Cloud sessions) متاحة الآن رسميًا وخرجت من مرحلة المعاينة البحثية، وتتيح استمرار عمل Claude Code حتى مع إغلاق الحاسوب المحمول. يحصل المشتركون الحاليون على رصيد لمرة واحدة: 100 دولار لمستخدمي Pro و250 دولارًا لمستخدمي Max.",
+  "detailed_explanation": "الميزة تعني عمليًا أن المطور يمكنه بدء مهمة معقدة في Claude Code ثم إغلاق حاسوبه دون أن يتوقف العمل، لأن التنفيذ ينتقل إلى بيئة سحابية مستقلة. هذا يفصل بين وجود المستخدم الفعلي أمام الجهاز واستمرارية عمل الوكيل، وهو تحول مهم في نمط التفاعل مع أدوات البرمجة بالذكاء الاصطناعي.\n\nخروج الميزة من مرحلة المعاينة البحثية (research preview) إلى التوفر الرسمي يعني نضجًا في الاستقرار والموثوقية. الرصيد المجاني (بحد 100 أو 250 دولارًا حسب الخطة) هو حافز تجريبي لمرة واحدة يشجع المستخدمين الحاليين على تجربة الميزة الجديدة قبل أن تُحتسب من استخدامهم العادي.",
+  "why_it_matters": "إتاحة تشغيل المهام البرمجية المعقدة على السحابة دون بقاء الجهاز مفتوحًا يغيّر طريقة عمل المطورين مع مهام طويلة الأمد، ويحرّر أجهزتهم للاستخدام في مهام أخرى بالتوازي.",
+  "original_text": "Cloud sessions are officially available and out of research preview! They let you keep Claude Code working, even when your laptop is closed.\n\nExisting subscribers get a one-time credit to try them: $100 on Pro, $250 on Max. https://t.co/SvdB2ATkFw",
+  "glossary": [
+   {
+    "term": "Cloud sessions",
+    "ar": "جلسات تشغيل سحابية مستقلة عن الجهاز"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "General Availability",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 12982,
+   "replies": 465,
+   "reposts": 978,
+   "quotes": 716,
+   "bookmarks": 8883,
+   "views": 4480240
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1882",
+  "serial": 1882,
+  "serial_display": "#001882",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2102893178273874102",
+  "source_native_id": "2102893178273874102",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-23T22:49:38Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دعم تشغيل خيوط Projects محليًا على جهاز المستخدم",
+  "arabic_summary": "أضافت أنثروبيك دعمًا محليًا لميزة Projects في Claude Code، بحيث يمكن لخيوط العمل (threads) أن تعمل الآن على جهاز المستخدم نفسه بدلًا من الاقتصار على الجلسات السحابية فقط.",
+  "detailed_explanation": "",
+  "why_it_matters": "يمنح المطورين مرونة اختيار تشغيل مهامهم محليًا حين يفضلون ذلك، سواء لأسباب خصوصية البيانات أو الحاجة لموارد محلية معينة، دون التخلي عن ميزة تقسيم العمل التلقائي.",
+  "original_text": "We've just added local support to Projects in Claude Code, so threads can now run on your own machine.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature",
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 4113,
+   "replies": 167,
+   "reposts": 175,
+   "quotes": 45,
+   "bookmarks": 1564,
+   "views": 594604
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Today we're rolling out Projects in Claude Code on desktop and web.\n\nA project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave.\n\nIn beta for select users. https://t.co/j4k7rludhV"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1883",
+  "serial": 1883,
+  "serial_display": "#001883",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2103170368794185758",
+  "source_native_id": "2103170368794185758",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-24T17:11:05Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أنثروبيك تستأنف فرض رسوم على الطلبات المحظورة أمنيًا",
+  "arabic_summary": "أعلنت أنثروبيك استئناف فرض رسوم على الطلبات التي تحجبها أنظمة الحماية قبل أن يردّ Claude، وذلك فقط في فئات محددة منخفضة الإيجابيات الكاذبة: البيولوجيا وهجمات التقطير (distillation) وتطوير نماذج لغوية متقدمة منافسة. جاء ذلك بعد رصد هجمات منسقة على أنظمتهم، و99.7% من الحسابات لم تصطدم بأي حظر من هذا النوع في الاختبارات الأخيرة.",
+  "detailed_explanation": "التغيير يخص آلية أمنية داخلية: عندما تحجب أنظمة الحماية طلبًا معينًا قبل أن يصل إلى Claude للرد عليه، كانت أنثروبيك سابقًا لا تحتسب هذا الحظر ضمن الاستخدام المدفوع. الآن تعود لفرض الرسوم على هذه الحالة، لكن فقط في ثلاث فئات محددة تتسم بدقة تصنيف عالية (نسبة إيجابيات كاذبة أقل من 0.1%): محتوى بيولوجي حساس، هجمات تهدف لاستخلاص (تقطير) نموذج آخر من Claude، وطلبات متعلقة بتطوير نماذج لغوية منافسة متقدمة.\n\nالسبب المعلن هو رصد هجمات منسقة حديثة على أنظمة أنثروبيك، والرسوم هنا طبقة دفاعية إضافية لردع إساءة الاستخدام. من الناحية العملية، تؤكد الشركة أن 99.7% من المستخدمين العاديين لن يتأثروا إطلاقًا بهذا التغيير، لكنه يستحق الانتباه لمن يعمل في مجالات قريبة من هذه الفئات الثلاث، إذ يمكن الإبلاغ عن أي حظر يُعتقد أنه خاطئ عبر أمر /feedback.",
+  "why_it_matters": "يمس مستخدمي Claude Code وClaude.ai مباشرة من ناحية التكلفة الفعلية، وقد يفاجئ من يعمل قرب حدود هذه الفئات برسوم غير متوقعة رغم أن الحظر لم يعطِ ردًا فعليًا.",
+  "original_text": "Today, we'll resume charging for requests our safeguards block before Claude responds. This only applies in categories with low false positive rates: biology, distillation attacks, and frontier LLM development. We've seen some coordinated attacks on our systems in recent weeks, and this is one layer of defense.\n\nIn recent testing, 99.7% of accounts using Claude Code, Claude​.ai, or Cowork did not hit any of these newly \"billable blocks.\" The classifiers behind the blocks we’re resuming charging for today are tuned to have a <0.1% false positive rate. We know that's not 0%, and we're going to keep improving them so they interrupt your work less often. If you think a request has been blocked incorrectly, please report it with /feedback in Claude Code. https://t.co/uX6JhvN6He",
+  "glossary": [
+   {
+    "term": "Distillation attack",
+    "ar": "هجوم استخلاص نموذج من نموذج آخر"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Claude Code",
+   "Claude.ai",
+   "Cowork"
+  ],
+  "change_types": [
+   "Pricing Change",
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2763,
+   "replies": 406,
+   "reposts": 160,
+   "quotes": 197,
+   "bookmarks": 750,
+   "views": 1307531
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1884",
+  "serial": 1884,
+  "serial_display": "#001884",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2103548467729887677",
+  "source_native_id": "2103548467729887677",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-25T18:13:31Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "حاسبة تكلفة المهام على Opus 5.5 داخل Claude Code",
+  "arabic_summary": "أوضحت أنثروبيك أن Opus 5.5 أرخص بنسبة 20% لكل token مُدخل ومُخرج، وأرخص بنسبة 60% في قراءات الكاش (cache reads) مقارنة بـ Opus 5. بنت الشركة حاسبة تكلفة يمكن الوصول إليها عبر أمر /usage في Claude Code لمعرفة التكلفة الفعلية لكل مهمة.",
+  "detailed_explanation": "الأرقام المعلنة تفصّل نوع التوفير: خفض 20% في سعر الـ tokens العادية (سواء المدخلة أو المخرجة)، لكن التوفير الأكبر يظهر في قراءات الكاش بنسبة 60%، وهذا مهم لأن الكثير من مهام البرمجة المتكررة تعتمد بشكل كبير على إعادة استخدام سياق مخزّن مسبقًا (context caching).\n\nالإضافة الأهم عمليًا هي بناء حاسبة تكلفة مدمجة يمكن الوصول إليها مباشرة من أمر /usage داخل Claude Code، ما يتيح لكل مستخدم حساب تكلفته الفعلية بدل الاعتماد على أرقام عامة غير مخصصة لحالته.",
+  "why_it_matters": "يمنح المطورين أداة ملموسة لفهم وضبط تكلفة استخدامهم الفعلي بدلًا من الاعتماد على نسب مئوية عامة، وهذا مهم لمن يدير ميزانية استخدام محددة.",
+  "original_text": "Opus 5.5 is 20% cheaper per input and output token than Opus 5, and 60% cheaper on cache reads. So what does that actually do to the cost of a task in Claude Code? \n\nWe ran the numbers, and built a calculator so you can run yours from /usage:\n\nhttps://t.co/WUqoFoecW3",
+  "glossary": [
+   {
+    "term": "Cache reads",
+    "ar": "قراءات من سياق مخزّن مسبقًا لتقليل التكلفة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Opus 5.5",
+   "Claude Code"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 4058,
+   "replies": 174,
+   "reposts": 152,
+   "quotes": 39,
+   "bookmarks": 1112,
+   "views": 340461
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://claude.dev/blog/what-a-task-costs-on-opus-5-5/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1885",
+  "serial": 1885,
+  "serial_display": "#001885",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2103561342057943314",
+  "source_native_id": "2103561342057943314",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-25T19:04:40Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يبحث عن نقطة توقف مناسبة عند بلوغ حد الخمس ساعات",
+  "arabic_summary": "أضافت أنثروبيك تحسينًا بحيث يحاول Claude Code الآن إيجاد نقطة توقف مناسبة عند بلوغ حد الاستخدام كل خمس ساعات، بدلًا من قطع العمل فجأة في منتصف تعديل. يحصل النموذج على مساحة إضافية محدودة تُخصم من الحد الأسبوعي لإنهاء ما يمكنه إنهاؤه.",
+  "detailed_explanation": "",
+  "why_it_matters": "يحل مشكلة عملية مزعجة يواجهها المستخدمون يوميًا وهي التوقف المفاجئ في منتصف عملية تعديل الكود، ما يقلل من فقدان العمل أو تركه في حالة غير مستقرة.",
+  "original_text": "Claude Code will now try to find a graceful stopping point when you hit your 5-hour limit mid-task, instead of cutting off mid-edit. It gets a small, fixed allowance pulled from your weekly limit to wrap up what it can. https://t.co/2IA5z4En6I",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature",
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 21275,
+   "replies": 697,
+   "reposts": 720,
+   "quotes": 505,
+   "bookmarks": 1837,
+   "views": 1092967
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1886",
+  "serial": 1886,
+  "serial_display": "#001886",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2103577007938228300",
+  "source_native_id": "2103577007938228300",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-09-25T20:06:55Z",
+  "fetched_at": "2026-09-26T02:49:55Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بوابة جديدة لبناء ونشر Plugins لـ Claude، واستخدام MCP يقفز 110 أضعاف",
+  "arabic_summary": "أطلقت أنثروبيك بوابة جديدة لتقديم الـ plugins ومتابعة مراجعتها واستخدامها. تحزم هذه الإضافات كلًا من MCP وملفات Skills معًا، وتصبح الطريقة الرئيسية للبناء فوق Claude. كشفت الشركة أن استخدام MCP عبر منتجات Claude ارتفع 110 أضعاف هذا العام.",
+  "detailed_explanation": "الخبر يحمل إعلانين مترابطين: أولًا بوابة جديدة (portal) رسمية لمطوري الإضافات، تتيح تقديم الـ plugin للمراجعة، متابعة حالة المراجعة، ورؤية إحصاءات الاستخدام بعد النشر — وهذا يقرّب تجربة نشر إضافات Claude من تجربة متاجر التطبيقات الناضجة.\n\nثانيًا، وهو الأهم مفاهيميًا، أن Plugins أصبحت الغلاف الذي يحزم كلًا من بنية MCP (لربط الأدوات الخارجية) وملفات Skills (لتوجيه سلوك النموذج) في وحدة واحدة قابلة للتوزيع. هذا يعني أن المطور لم يعد يحتاج لفهم الفرق بينهما عند التوزيع، بل يبني plugin واحدًا يحتوي كليهما.\n\nالرقم المذكور — نمو استخدام MCP بمقدار 110 أضعاف خلال عام واحد فقط — مؤشر كمّي قوي على أن هذه البنية انتقلت من تجربة ناشئة إلى معيار فعلي منتشر بسرعة كبيرة عبر منتجات Claude.",
+  "why_it_matters": "يوحّد Plugins طريقتين منفصلتين للتوسعة (MCP وSkills) في نموذج واحد للنشر والمراجعة، ورقم النمو الهائل في استخدام MCP يؤكد أنها أصبحت البنية التحتية القياسية لربط Claude بالأدوات الخارجية.",
+  "original_text": "It’s now easier to build plugins for Claude.\n\nWe built a new portal to submit your plugin, track review, and see usage.\n\nPlugins package MCP and skills, and are becoming the way to build for Claude. MCP usage across Claude products is up 110x this year!\n\nhttps://t.co/kHgJqjQWrj",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات الخارجية"
+   },
+   {
+    "term": "Plugin",
+    "ar": "إضافة تُحمّل داخل برنامج قائم"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP",
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "MCP"
+  ],
+  "change_types": [
+   "New Feature",
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2022,
+   "replies": 97,
+   "reposts": 129,
+   "quotes": 44,
+   "bookmarks": 1183,
+   "views": 165521
+  },
+  "metrics_captured_at": "2026-09-26T02:49:55Z",
+  "external_links": [
+   "https://claude.com/blog/build-plugins-for-claude"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ }
+]
