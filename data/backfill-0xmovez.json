@@ -340,5 +340,72 @@
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": "backfill"
+ },
+ {
+  "id": "c1920",
+  "serial": 1920,
+  "serial_display": "#001920",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2086061180087353721",
+  "source_native_id": "2086061180087353721",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-08-08T12:05:17Z",
+  "fetched_at": "2026-09-28T03:12:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "عرض مجاني مؤقت لنموذج Seedance 2.5 على منصة Higgsfield",
+  "arabic_summary": "أطلقت منصة Higgsfield عرضًا مؤقتًا لمدة 33 يومًا يتيح استخدام نموذج الفيديو Seedance 2.5 دون تكلفة، مع دعم لقطات مستمرة تصل إلى 30 ثانية وحتى 50 مدخلًا من الصور والمقاطع والصوت والنص في تمريرة واحدة، إضافة إلى تعديل على مستوى المنطقة داخل المشهد.",
+  "detailed_explanation": "يقدّم Seedance 2.5 على Higgsfield ميزة اللقطة الواحدة المستمرة حتى 30 ثانية، وهي قفزة عن الطريقة التقليدية بمقاطع قصيرة تُدمج لاحقًا. كما يدعم دمج عدة مدخلات (صور ومقاطع وصوت ونص) في مرة واحدة، إضافة إلى تعديل جزء محدد من المشهد بدل إعادة التوليد الكامل، وهو ما يوفر وقتًا كبيرًا في العمل الإبداعي.\n\nالعرض المجاني لمدة 33 يومًا فرصة عملية لمن يعمل بالفيديو أو المونتاج لتجربة الأداة بلا كلفة قبل اتخاذ قرار الاشتراك، لكن يجب التنبه أنه عرض محدود المدة وسينتهي.",
+  "why_it_matters": "يتيح للمستخدمين تجربة نموذج فيديو متقدم بلا تكلفة لفترة محدودة، ما يفتح المجال لتجربة إنتاج فيديو طويل النسبة دون قيود الرصيد المعتادة.",
+  "original_text": "SEEDANCE 2.5 UNLIMITED FOR 33 DAYS ON HIGGSFIELD\n\nThe clip below is one generation. Not a cut, not a stitch - 10 seconds in a single continuous take.\n\n→ unlimited generations for 33 days, zero credit cost\n→ native 30-second single-shot video\n→ up to 50 inputs - images, clips, audio, text, all in one pass\n→ region-level editing, so you fix one detail instead of regenerating everything\n\nThe constraint that stops most people from getting good at this just disappeared for a month.",
+  "glossary": [
+   {
+    "term": "single-shot video",
+    "ar": "لقطة فيديو مستمرة واحدة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Higgsfield",
+   "Seedance 2.5"
+  ],
+  "change_types": [
+   "Pricing Change",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 47,
+   "replies": 11,
+   "reposts": 5,
+   "quotes": 0,
+   "bookmarks": 28,
+   "views": 7234
+  },
+  "metrics_captured_at": "2026-09-28T03:12:28Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "33 Days of Unlimited Seedance 2.5\n\nSeedance 2.5 is LIVE on Higgsfield today.\n\nThe most capable video model yet, with 30-second scenes in a single pass, 50 references and production-ready editing.\n\nZero credit cost for 33 days. Limited-time offer. https://t.co/ldITD8TCHX"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
  }
 ]
