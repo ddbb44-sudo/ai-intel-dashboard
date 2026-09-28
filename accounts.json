@@ -13,7 +13,7 @@
  },
  "window_hours": 24,
  "default_max_per_day": 25,
- "updated": "2026-09-26",
+ "updated": "2026-09-28",
  "accounts": [
   {
    "handle": "OpenDesignHQ",
@@ -548,6 +548,11 @@
   {
    "handle": "ClaudeDevs",
    "name": "ClaudeDevs",
+   "active": true
+  },
+  {
+   "handle": "0xMovez",
+   "name": "Movez",
    "active": true
   }
  ]
