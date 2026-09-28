@@ -1,0 +1,344 @@
+[
+ {
+  "id": "c1915",
+  "serial": 1915,
+  "serial_display": "#001915",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2087943913319375142",
+  "source_native_id": "2087943913319375142",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-08-13T16:46:35Z",
+  "fetched_at": "2026-09-28T03:10:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ورشة عمل ساعة كاملة لإتقان Claude Code من الصفر",
+  "arabic_summary": "يستعرض المنشور محتوى ورشة مدتها ساعة تشرح استخدام Claude Code SDK، وبناء حلقات الوكلاء، وأدوات /skills و/goal، وتصميم ملف CLAUDE.md، والذاكرة عبر الرسوم البيانية (graphs)، وتوسيع Claude Code بالروتينات والخطافات (hooks)، مع عرض حي لبناء الوكلاء.",
+  "detailed_explanation": "يغطي المحتوى المذكور جوانب عملية محددة في Claude Code بدءًا من الـSDK وصولًا إلى بناء حلقات وكلاء (agentic loops) تتذكر وتتحسن، وهو ما يمس مباشرة كيفية استخدام هذه الأداة في مشاريع حقيقية.\n\nمن أبرز ما يذكره: تصميم ملف CLAUDE.md من الصفر، واستخدام أدوات /skills و/goal داخل الأداة، وتوسيعها عبر الروتينات والخطافات (hooks)، وهي تفاصيل تقنية مباشرة تفيد من يبني بها فعليًا.",
+  "why_it_matters": "يقدم مسارًا عمليًا شاملًا لمن يستخدم Claude Code فعليًا في بناء أنظمة وكلاء متقدمة، بدل الاكتفاء بالاستخدام السطحي.",
+  "original_text": "Anthropic engineer just released 1-hour workshop on mastering Claude Code, taking you from 0 to 100%.\n\n• 02:07 - introduction to the Claude Code SDK\n• 07:42 - building an agentic loop with Claude\n• 13:41 - claude toolkit (/skills, /goal, agents)\n• 16:55 - designing CLAUDE.md from scratch\n• 25:06 - agentic memory with Graphs and dreaming\n• 32:09 - extending Claude Code (routines and hooks)\n• 55:54 - building agents with Claude: live demo\n\nThis one video will save you hours of watching YouTube guides on how to use Claude Code.\n\nWatch it today, then read the full guide to Graph Engineering with Claude in the article below.",
+  "glossary": [
+   {
+    "term": "Agentic Loop",
+    "ar": "حلقة تكرار ذاتية للوكيل"
+   },
+   {
+    "term": "Hooks",
+    "ar": "خطافات برمجية للتوسعة"
+   },
+   {
+    "term": "SDK",
+    "ar": "حزمة تطوير برمجية"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 88,
+   "replies": 7,
+   "reposts": 18,
+   "quotes": 1,
+   "bookmarks": 112,
+   "views": 12362
+  },
+  "metrics_captured_at": "2026-09-28T03:10:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/WVztfCUH4u"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1916",
+  "serial": 1916,
+  "serial_display": "#001916",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2103177715125752176",
+  "source_native_id": "2103177715125752176",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-09-24T17:40:17Z",
+  "fetched_at": "2026-09-28T03:10:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دمج نموذجين لإعادة تصميم مواقع مباشرة أثناء التصفح",
+  "arabic_summary": "يعرض المنشور تجربة بناء أداة تعيد تصميم أي موقع مباشرة أثناء التمرير، حيث يتخذ نموذج «Jev» قرارات تصميم سريعة (تخطيط، ألوان، نوع الخط) بينما يكتب «Opus 5.5» الكود الفعلي للمكوّن. يتم تسليم إعادة تصميم كاملة لثماني أقسام من موقع في نحو 20 ثانية.",
+  "detailed_explanation": "الفكرة الأساسية في المنشور هي فصل مهمتين: مهمة اتخاذ القرار السريع (ما هو التخطيط، الألوان، نوع العنصر) ومهمة التنفيذ الفعلي (كتابة كود TSX وCSS). النموذج الأول «Jev» مخصص للقرارات السريعة جدًا (حوالي 0.1 ثانية) بينما «Opus 5.5» يتولى التوليد الفعلي للمكوّنات.\n\nالآلية تعتمد على IntersectionObserver لرصد متى يظهر قسم من الصفحة بنسبة كافية في الشاشة، عندها تبدأ عملية القرار ثم التوليد، مع انتقال بصري بين القسم القديم والجديد. النتيجة عرضها الكاتب كإعادة بناء لموقع استضافة قديم بثلاثة أنماط بصرية مختلفة.\n\nهذا النمط من دمج نموذجين بأدوار متخصصة (قرار سريع + تنفيذ) يمثل اتجاهًا عمليًا في هندسة الوكلاء، حيث يُستخدم نموذج كبير فقط عند الحاجة الفعلية للتوليد، بينما تُدار القرارات السريعة بنموذج أخف وأرخص.",
+  "why_it_matters": "يوضح نمطًا جديدًا في دمج نموذج قرار سريع مع نموذج توليد كود لبناء تجارب تفاعلية فورية، وهو أسلوب قد يُلهم طرقًا مشابهة في أتمتة الواجهات.",
+  "original_text": "JEV + Opus 5.5 is insane for live design...  \n\nI built a live site redesigner with JEV + Opus 5.5  \n\nPaste any link → press Start → scroll, and Jev + Opus 5.5 rebuild every section of the site in front of you  \n\nFull production ship in 20 seconds:  \n\n1. IntersectionObserver fires when a section is 30%+ in the viewport  \n\n2. Jev returns one typed decision in ~0.1s: { layout, copy, drop, type, palette, p }  \n\n3. Opus 5.5 writes the component (TSX) + a CSS patch for the chosen style  \n\n4. The new section wipes in with clip-path, the old one blurs out  \n\n5. Next section enters the queue, one at a time, no race conditions  \n\nOutput: 8 sections of a 2015 hosting site rebuilt in ~20s, streamed line by line in the terminal  \n\n3 styles, one renderer: orthographic globe + lambert shading → ASCII / 2-color halftone / ink stipple  \n\nScroll yourself and it redesigns whatever you land on  \n\nJev decides fast, Opus designs it",
+  "glossary": [
+   {
+    "term": "IntersectionObserver",
+    "ar": "أداة برمجية لرصد ظهور عنصر في نطاق رؤية المستخدم"
+   },
+   {
+    "term": "TSX",
+    "ar": "امتداد ملفات TypeScript مع JSX لكتابة واجهات React"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Opus 5.5",
+   "Jev"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 94,
+  "metrics": {
+   "likes": 691,
+   "replies": 29,
+   "reposts": 78,
+   "quotes": 7,
+   "bookmarks": 902,
+   "views": 102622
+  },
+  "metrics_captured_at": "2026-09-28T03:10:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/qQDIN39Vj5"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1917",
+  "serial": 1917,
+  "serial_display": "#001917",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2103511014486507772",
+  "source_native_id": "2103511014486507772",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-09-25T15:44:41Z",
+  "fetched_at": "2026-09-28T03:10:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج قرار صغير جديد يتفوّق على منافسه بسرعة وكفاءة",
+  "arabic_summary": "يقارن المنشور بين نموذجي قرار صغيرين «Drex» و«Jev» في لعبة اختبار مباشرة، حيث تفوّق Drex بأقل من 6 مليار معامل، واستخدم رموز أقل بخمس مرات وزمن استجابة أقل. يقدَّم Drex كنموذج مخصص للقرارات السريعة مثل توجيه الوكلاء واختيار الأدوات وكشف المخاطر، مع عرض حصة مجانية من الرموز للمطورين الأوائل.",
+  "detailed_explanation": "المنشور يقدم مقارنة تنافسية مباشرة بين نموذجين صغيرين مخصصين لاتخاذ القرارات الثنائية أو المتعددة الخيارات، وليسا نماذج دردشة عامة. النقطة الجوهرية أن Drex يحقق أداءً أفضل من Jev بموارد أقل بكثير: عدد معاملات أقل من 6 مليار، واستهلاك رموز أقل بخمس مرات (70 مقابل 367 لكل قرار)، وزمن استجابة أسرع تقريبًا بمقدار الثلث.\n\nيوضح الكاتب أن هذه النماذج ليست مخصصة للمحادثة بل لمهام مثل توجيه الوكلاء (agent routing)، واختيار الأدوات، وإعادة الترتيب (reranking)، وتصنيف المستندات، وفحوصات الامتثال، والحواجز الوقائية (guardrails)، وكشف المخاطر.\n\nهذا النوع من النماذج المتخصصة الصغيرة يمثل بديلاً اقتصاديًا وسريعًا في الأنظمة التي تحتاج قرارات متكررة بمعدل عالٍ، بدل استدعاء نموذج لغوي كبير في كل مرة.",
+  "why_it_matters": "يبرز اتجاهًا متناميًا نحو نماذج صغيرة متخصصة في اتخاذ القرارات بدل نماذج الدردشة الكبيرة، ما يقلل التكلفة وزمن الاستجابة في أنظمة الوكلاء.",
+  "original_text": "Drex just took #1 from Jev on the Decision Index...\n\nSo I made them play the same game: Drex vs Jev, flappy-style, head to head\n\nSame seed, same course, same prompt. Every flap is one typed decision: flap or glide. \nOnly the model changes.\n\nwhat Drex is:\n\n> A small decision model from https://t.co/lyEkjPGVMh, under 6B params\n> Returns a probability for every option in \n> #1 on Decision Index 0.2: 51.73 vs Jev 1.13.0 at 51.67\n> Wins 23 of the 40 benchmarks scored so far\n> 70 tokens per decision vs 367 for Jev, 5x fewer\n> ~25 decisions per second on a single H100\n\nMy bench (simulated, latency profile from Nace):\n\n> Drex ~136ms vs Jev ~204ms per decision\n> Faster reply = fresher state = fewer crashes\n> 20 seeds: Drex won 19, 1 draw\n\nBuilt for decisions, not chat:\n\nagent routing, tool selection, reranking, doc classification, compliance checks, guardrails, risk detection\n\n250M free tokens for the first 10,000 builders\n\nLink below",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياسي لتقييم أداء النماذج"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة نصية أساسية يعالجها النموذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Drex",
+   "Jev"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 89,
+   "replies": 15,
+   "reposts": 7,
+   "quotes": 1,
+   "bookmarks": 63,
+   "views": 10061
+  },
+  "metrics_captured_at": "2026-09-28T03:10:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1918",
+  "serial": 1918,
+  "serial_display": "#001918",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2103990531638563249",
+  "source_native_id": "2103990531638563249",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-09-26T23:30:07Z",
+  "fetched_at": "2026-09-28T03:10:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "عشر خطوات لخفض تكلفة الوكلاء بدمج نموذج قرار مع نموذج توليد",
+  "arabic_summary": "يشرح المنشور بنية عملية لتقليل تكلفة أنظمة الوكلاء عبر الفصل بين نموذج صغير يعطي إجابات منطقية سريعة رخيصة (Jev) ونموذج كبير (Opus 5.5) يُستدعى فقط للحالات المعقدة. يشمل الشرح تفاصيل عن التخزين المؤقت للسياق، وتوجيه العمل بدل توجيه السياق بالكامل، وتكلفة كل خطوة بالدولار.",
+  "detailed_explanation": "يقوم المنشور على فكرة مركزية: أغلب القرارات في نظام الوكلاء لا تحتاج نموذجًا لغويًا كبيرًا، بل يمكن حسمها بنموذج صغير سريع يعيد قيمة منطقية (boolean) أو احتمالية بدل نص حر. يذكر الكاتب أن نموذج Jev يعيد إجابة نمطية في 0.44 ثانية بتكلفة 0.00035 دولار فقط.\n\nمن الأفكار المهمة المطروحة: تقييم عدة أسئلة بالتوازي بدل التسلسل لتقليل التكلفة الحدّية، والتفريع المباشر بناءً على الاحتمالية الناتجة بدل تحليل نص، وتجنّب تمرير المهمة بين نماذج مختلفة (Opus → Sonnet → Opus) لأن ذلك يعيد معالجة السياق كاملاً وهو مكلف، مقارنة بإبقاء سياق واحد دافئ عبر التخزين المؤقت (caching) الذي يقلل التكلفة بمقدار 20 ضعفًا.\n\nكما يشير إلى تصنيف تدريجي: 99% من القرارات تنتهي عند نموذج القرار الصغير، بينما تُصعّد الحالات الصعبة فقط (1%) إلى Opus 5.5 صاحب نافذة السياق الأكبر (1M) والقدرات الأعلى في اختبار Terminal-Bench. هذه البنية تمثل نمطًا هندسيًا واضحًا لمن يصمم أنظمة وكلاء تعمل بكفاءة اقتصادية.",
+  "why_it_matters": "يقدّم نمط هندسة عملي لخفض تكلفة تشغيل الوكلاء بشكل كبير، وهو مهم لكل من يبني أنظمة تعتمد على استدعاءات متكررة لنماذج كبيرة.",
+  "original_text": "JEV + Opus 5.5 is insane for building a company brain...\n\nI collected the whole architecture from TypeSafe and Anthropic docs into a 14-page PDF.\n\nHere are the 10 steps:\n\nstep 1 → meet the pair: Opus 5.5 thinks, Jev decides, your code holds the branch. two models, one loop, no prompt in the middle\n\nstep 2 → stop asking a text generator for a boolean: Jev takes a state and returns a typed answer with a calibrated probability in 0.44s for $0.00035\n\nstep 3 → ask everything at once: Choice, Score and Noul all evaluated in parallel, so the fourth question costs almost nothing. ask what you might need, not what you can afford\n\nstep 4 → branch on the number: 0.999 is not text you parse, it is the if statement. ~99% of turns end here and never become a generation call\n\nstep 5 → stop routing blind: Opus 5.5 → Sonnet → 5.5 costs 5.84 vs 3.32 for pure 5.5, because handing back reprocesses the whole context\n\nstep 6 → keep one context warm instead: cache reads at $0.20 per Mtok are 20x cheaper than loading fresh. route work, not context\n\nstep 7 → escalate, don't delegate: the hard 1% goes to Opus 5.5 with 1M context, 128K output and 66.4% on Terminal-Bench 4.0. pay for thinking, not plumbing\n\ns",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "حجم النص الذي يستطيع النموذج معالجته دفعة واحدة"
+   },
+   {
+    "term": "Caching",
+    "ar": "تخزين مؤقت لتفادي إعادة معالجة نفس البيانات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic",
+   "Opus 5.5",
+   "Jev",
+   "Sonnet"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 89,
+  "metrics": {
+   "likes": 398,
+   "replies": 18,
+   "reposts": 21,
+   "quotes": 2,
+   "bookmarks": 698,
+   "views": 67075
+  },
+  "metrics_captured_at": "2026-09-28T03:10:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/qQDIN39Vj5"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ },
+ {
+  "id": "c1919",
+  "serial": 1919,
+  "serial_display": "#001919",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2104240559632384173",
+  "source_native_id": "2104240559632384173",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-09-27T16:03:38Z",
+  "fetched_at": "2026-09-28T03:10:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "برومبت واحد لتحويل Claude Opus 5.5 إلى استوديو تصميم حركي",
+  "arabic_summary": "يشارك المنشور برومبتًا واحدًا يُرسل إلى Claude Opus 5.5 لتحويله إلى أداة احترافية لتصميم الحركة (motion design)، مع إحالة إلى دليل شامل لإتقان هذا الاستخدام.",
+  "detailed_explanation": "المنشور مختصر جدًا لكنه يقدّم قيمة عملية مباشرة: برومبت جاهز يمكن نسخه ولصقه في Claude Opus 5.5 لتحويله من نموذج محادثة عام إلى أداة متخصصة في تصميم الحركة (motion design)، وهو مجال يشمل الرسوم المتحركة والانتقالات البصرية والتأثيرات الحركية.\n\nيحيل الكاتب إلى مقال أطول يشرح كيفية إتقان هذا الاستخدام بالتفصيل، ما يجعل المنشور نقطة دخول سريعة لموضوع أوسع حول توظيف نماذج اللغة الكبيرة في مهام تصميمية بصرية وليست نصية فقط.\n\nبما أن Claude من أدوات عزيز الأساسية، فإن أي استخدام جديد أو برومبت متخصص له قيمة مباشرة وقابلة للتطبيق الفوري.",
+  "why_it_matters": "يقدّم طريقة عملية جاهزة لاستخدام Claude في مهمة إبداعية متخصصة، وهي أداة يستخدمها عزيز فعليًا ضمن قائمة أدواته.",
+  "original_text": "Opus 5.5 is insane for motion design...\n\nsend this single prompt to Claude Opus 5.5 to turn it into a professional motion design studio.\n\nthen read the full guide to mastering motion design with Opus 5.5 in the article below. https://t.co/1jDXf4SCBm",
+  "glossary": [
+   {
+    "term": "Motion Design",
+    "ar": "تصميم الرسوم المتحركة والانتقالات البصرية"
+   },
+   {
+    "term": "Prompt",
+    "ar": "نص التوجيه الذي يُرسل للنموذج"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude",
+   "Opus 5.5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1001,
+   "replies": 18,
+   "reposts": 68,
+   "quotes": 0,
+   "bookmarks": 2136,
+   "views": 110909
+  },
+  "metrics_captured_at": "2026-09-28T03:10:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/4qTQfdoerp"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": "backfill"
+ }
+]
