@@ -1,0 +1,2214 @@
+[
+ {
+  "id": "c2095",
+  "serial": 2095,
+  "serial_display": "#002095",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2106026961134895407",
+  "source_native_id": "2106026961134895407",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-02T14:22:10Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج TwIL-LM3-Pro الصغير ينافس في الاستدلال المنطقي بـ3.6 مليار معامل",
+  "arabic_summary": "يرى الكاتب أن النماذج اللغوية الصغيرة هي مستقبل الأنظمة الوكيلية (Agentic AI)، لأن معظم قرارات الوكلاء بسيطة (توجيه، تصنيف، تحقق) ولا تحتاج نموذجًا ضخمًا. يستشهد بنموذج TwIL-LM3-Pro مفتوح المصدر بحجم 3.6 مليار معامل يضاهي أداء Qwen3-8B في الاستدلال المنطقي الصوري، ويعمل محليًا بذاكرة صغيرة.",
+  "detailed_explanation": "يبني الكاتب حجته على فكرة أن حلقة عمل الوكيل (agent loop) تتكوّن غالبًا من قرارات محدودة ومحصورة كالتصنيف والتحقق والتوجيه، وهذه لا تستدعي استخدام نموذج استدلال ضخم ومكلف.\n\nيشير إلى أن التدريب اللاحق (Post-training) بطرق مثل الـ SFT والتعلم المعزز مقابل أدوات تحقق أصبح أهم من حجم النموذج الخام في تحديد الجودة، وأن نموذجًا بحجم 3B عند تكميم int4 يمكن أن يعمل على جهاز لابتوب عادي بذاكرة 1.5 غيغابايت فقط.\n\nيستشهد بنموذج TwIL-LM3-Pro كدليل عملي: نموذج بحجم 3.6 مليار معامل يضاهي أداء Qwen3-8B في مهام المنطق الصوري، ويتفوق على VibeThinker-3B في جميع المهام الست المختبرة، مع حجم ملف 2.09 غيغابايت يعمل على المعالج أو بطاقة رسومية بذاكرة 4 غيغابايت فقط.\n\nالفكرة العملية المطروحة هي 'تقطير' حركة استخدام الـ API الخاصة بالمستخدم إلى نموذج أصغر يملكه بنفسه، ليتولى الحالات البسيطة ويصعّد الحالات الصعبة فقط إلى نموذج أكبر، ما يوفر التكلفة عند الحجم الكبير من الاستخدام.",
+  "why_it_matters": "يطرح فكرة عملية لتصميم أنظمة الوكلاء بتكلفة أقل عبر الاستعانة بنماذج صغيرة متخصصة بدل الاعتماد الكامل على النماذج الكبيرة.",
+  "original_text": "Small Language Models are the Future of Agentic AI\n\nMost agent calls are small decisions: route, classify, check, gate.\n\nnone of them need a frontier model.\n\nHere are my notes 👇\n\n→ An agent loop is mostly bounded choices, not deep reasoning\n→ Post-training (SFT, RL against verifiers) now matters more than raw size\n→ A 3B model at int4 fits in ~1.5 GB and runs on a laptop\n→ Distil your API traffic into a model you own, escalate the hard cases\n→ At high volume, owning beats renting in days\n\nAnd here's the proof it works:\n\nTwIL-LM3-Pro by @thewebai\n→ 3.6B params, on par with Qwen3-8B on formal logic\n→ leads VibeThinker-3B on all 6 formal-logic tasks tested\n→ 2.09 GiB, runs on CPU or 4GB VRAM\n\nEvery agent will have a layer of small specialists underneath it.\n\nFull 18-page PDF below. Model 👇\nhttps://t.co/oda2vOsWul",
+  "glossary": [
+   {
+    "term": "Agentic AI",
+    "ar": "الذكاء الاصطناعي الوكيلي"
+   },
+   {
+    "term": "Fine-tuning",
+    "ar": "الضبط الدقيق"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "نموذج",
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "TwIL-LM3-Pro",
+   "Qwen3-8B",
+   "VibeThinker-3B"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 55,
+  "metrics": {
+   "likes": 31,
+   "replies": 7,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 20,
+   "views": 2110
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "http://huggingface.co/webAI-Official/TwIL-LM3-Pro"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "Half a million downloads in a month. Today, our open source family takes another step forward. \n\nThank you for the incredible support behind our first-generation models. We’re excited to introduce TwIL-LM3-Pro. \n\nAt just 3.6 billion parameters, it brings powerful reasoning to everyday computers, with quantized builds that run locally. No cloud required. \n\nIn our evaluation: \nFormal logic: Highest "
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2096",
+  "serial": 2096,
+  "serial_display": "#002096",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2106105105523306787",
+  "source_native_id": "2106105105523306787",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-10-02T19:32:41Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بحث NVIDIA: SoL-Pi يخفّض تكلفة وكلاء البرمجة للنصف",
+  "arabic_summary": "تنشر NVIDIA بحثًا بعنوان SoL-Pi يستخدم وكلاء ذكاء اصطناعي لتحسين وكلاء البرمجة الأخرى، ما يخفّض تكلفة الـ API بنسبة 50% مقارنة بـ Codex و54.3% مقارنة بـ Claude Code، مع خسارة طفيفة في الأداء. الكود مفتوح المصدر بالكامل تحت رخصة MIT.",
+  "detailed_explanation": "يقدم الباحثون طريقة تدعى SoL-Pi تعتمد على حلقة تحسين تلقائية: وكيل ذكاء اصطناعي ينفّذ مهام برمجة حقيقية، ثم يقرأ وكيل بحثي آخر أثر هذا التنفيذ (traces) ليحدد أين تُهدر الـ Tokens، ويقترح إصلاحات. يُحتفظ فقط بالإصلاحات التي تحافظ على الأداء وتخفض التكلفة للجولة التالية.\n\nأربعة تحسينات نجحت ودخلت النسخة النهائية: دمج الإجراءات في خطوات أقل (Action Fusion)، وتنظيف السياق من العمل المنجز أولًا بأول (Online Context Compact)، وتقصير مخرجات الأدوات (ObservationPack)، وتفويض القراءات الطويلة لنموذج أرخص (Evidence-Preserving Reducer).\n\nعند الاختبار على 51 مهمة من EdgeBench مع نماذج GPT-5.6 Sol وOpus 5، حققت الطريقة نتائج مقاربة لأداء Codex وClaude Code الأصليين، لكن بتوفير يصل إلى 8.75–13.50 دولارًا لكل ساعة تشغيل وكيل، وبتخفيض يقارب نصف عدد الـ Tokens المستهلكة. الكود متاح بالكامل كمصدر مفتوح برخصة MIT.",
+  "why_it_matters": "يقدم طريقة عملية مُثبتة بحثيًا لخفض تكاليف تشغيل وكلاء البرمجة بشكل كبير دون التضحية بالأداء، وهو أمر يمس مباشرة من يستخدم Codex أو Claude Code بكثافة.",
+  "original_text": "Another banger paper from NVIDIA.\n\nThey used AI agents to make coding agents cheaper to run. The result cuts API cost by about half with almost no loss in performance.\n\nThe result is SoL-Pi, and it cuts API cost by 50% versus Codex and 54.3% versus Claude Code.\n\nThe method is a loop. An agent works through real coding tasks. A research AI reads its traces, finds where tokens are wasted, and proposes fixes. Fixes that keep performance and lower cost are kept for the next round.\n\nThe four that made it into the final harness:\n\n- Action Fusion merges actions into fewer steps - Online Context Compact clears finished work out of context - ObservationPack shortens tool output - Evidence-Preserving Reducer delegates long reads to a cheaper model\n\nTested on 51 held-out EdgeBench tasks with GPT-5.6 Sol and Opus 5: scores comparable to Pi, nearly half the tokens, and $8.75–$13.50 saved per hour of agent time versus native Codex and Claude Code.\n\nPaper: https://t.co/gdwCOEO9Fy\nCode: https://t.co/bSypM5L378\n\n100% open source. MIT.",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة نصية"
+   },
+   {
+    "term": "API",
+    "ar": "واجهة برمجة التطبيقات"
+   },
+   {
+    "term": "Context",
+    "ar": "السياق"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "NVIDIA",
+   "Codex",
+   "Claude Code",
+   "GitHub"
+  ],
+  "change_types": [
+   "Research Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 56,
+  "metrics": {
+   "likes": 17,
+   "replies": 14,
+   "reposts": 6,
+   "quotes": 1,
+   "bookmarks": 21,
+   "views": 3400
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "https://arxiv.org/abs/2609.20519",
+   "https://github.com/NVlabs/SoL-Pi"
+  ],
+  "quoted": null,
+  "cluster_id": "solpi",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2106119924087398431"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2097",
+  "serial": 2097,
+  "serial_display": "#002097",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2106079663340880243",
+  "source_native_id": "2106079663340880243",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-10-02T17:51:35Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تلخّص إعلانات سبتمبر: نموذج Argon وGooglebook وWeatherNext 3",
+  "arabic_summary": "نشرت Google ملخصًا لإعلاناتها خلال سبتمبر، أبرزها نموذج Gemini 4 Argon الموجّه للتفكير المعقد والأمن السيبراني بنافذة سياق تصل إلى مليون Token، ونموذجا Gemini 3.8 Live للمحادثة الصوتية شبه الفورية، وفئة أجهزة لابتوب جديدة باسم Googlebook مصمّمة للعمل مع Gemini، إضافة إلى نموذج WeatherNext 3 للتنبؤ الجوي، ومشروع لرسم خريطة دماغ ذبابة الفاكهة بمساعدة الذكاء الاصطناعي.",
+  "detailed_explanation": "يجمع المنشور عدة إعلانات متفرقة من Google خلال شهر واحد، أبرزها نموذج Gemini 4 Argon الذي يستهدف الاستدلال المعقد والدفاع السيبراني، مع نافذة سياق هائلة تصل إلى مليون Token في المخرجات، وهو رقم كبير نسبيًا يسمح بمعالجة مهام طويلة ومعقدة دفعة واحدة.\n\nكما تم الإعلان عن نموذجي Gemini 3.8 Live وLive Extended Thinking، وهما موجهان للصوت والمحادثة الفورية، ما يخدم بناء وكلاء صوتيين أكثر طبيعية في التفاعل.\n\nأما Googlebook فهو إعلان عن فئة جديدة من أجهزة اللابتوب مصممة خصيصًا للعمل مع Gemini وأجهزة Android، وهو تحرك نحو دمج الذكاء الاصطناعي في العتاد مباشرة.\n\nوأخيرًا، تطرق المنشور إلى WeatherNext 3 لتحسين دقة التنبؤات الجوية، ومشروع علمي لرسم خريطة دماغ ذبابة الفاكهة، وهو إسهام بحثي أوسع يستخدم فيه الذكاء الاصطناعي كأداة علمية لا منتجًا تجاريًا.",
+  "why_it_matters": "يعطي صورة شاملة عن اتجاه Google في توسيع Gemini عبر النماذج والعتاد والتطبيقات العلمية في وقت واحد.",
+  "original_text": "RT @NewsFromGoogle: ICYMI: Here's a recap of our AI announcements from September. ⬇️\n\n💎 Announced Gemini 4 Argon, our newest frontier model, built with advanced reasoning and a 1-million-token output limit. It’s designed to tackle complex challenges — especially in cybersecurity defense.\n\n🗣️ Launched Gemini 3.8 Live & 3.8 Live Extended Thinking, two new language audio models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more natural.\n\n💻 Announced Googlebook, a new category of laptops designed for Gemini Intelligence and engineered to work seamlessly with your @Android phone right out of the box.\n\n🌦️ Launched WeatherNext 3, our most advanced and accurate global weather forecasting AI model, now including real-time satellite data, hourly refreshes, higher resolution, precise precipitation forecasting, and clean energy variables.\n\n🪰 Mapped the male fruit fly’s brain with the help of Google AI, charting over 166,000 neurons and nearly 12,000 distinct cell types. This milestone  will help us better understand how brains function.",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   },
+   {
+    "term": "Token",
+    "ar": "توكن"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Gemini",
+   "Googlebook",
+   "WeatherNext"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 339,
+   "replies": 48,
+   "reposts": 19,
+   "quotes": 3,
+   "bookmarks": 45,
+   "views": 38005
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2098",
+  "serial": 2098,
+  "serial_display": "#002098",
+  "source_type": "x",
+  "source_url": "https://x.com/AIatMeta/status/2106099776035152231",
+  "source_native_id": "2106099776035152231",
+  "source_name": "AI at Meta",
+  "source_site": "x.com",
+  "author": "AIatMeta",
+  "published_at": "2026-10-02T19:11:30Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Meta تنشر ست أبحاث رياضية بمساعدة نموذج Muse Spark",
+  "arabic_summary": "عمل رياضيون مع نموذجي Muse Spark 1.1 و1.2 عبر واجهة محادثة عادية في وضع التفكير، بلا أي بنية بحثية خاصة، لحل مسائل رياضية مفتوحة لا حلّ معروفًا لها سلفًا. نتج عن ذلك ست أوراق بحثية توضح كل منها أيّ الفقرات كتبها بشر وأيّها كتبها الذكاء الاصطناعي.",
+  "detailed_explanation": "تأتي هذه التجربة بعد أن أظهرت نماذج Meta أداءً بمستوى الميداليات الذهبية في خمس مسابقات رياضيات وفيزياء وكيمياء. أرادت الشركة معرفة ما إذا كان النموذج قادرًا على المساهمة في مسألة مفتوحة فعلًا، أي بلا مسار حل معروف، لا مجرد حل أسئلة ذات إجابات موجودة مسبقًا.\n\nجرت التجربة عبر أشهر عدة، حيث استخدم رياضيون النموذج في وضع التفكير عبر واجهة المحادثة العادية بلا أي سقالة بحثية مخصصة. قاد الرياضيون البحث، وراجعه فريق آخر من الرياضيين، وحُدّدت في كل ورقة الفقرات التي كتبها البشر أو النموذج بشكل أساسي، مع الإشارة إلى الأبحاث السابقة التي استُند إليها.\n\nالأهمية هنا ليست في عدد الأوراق بل في المنهجية: الشفافية حول دور النموذج، والاعتراف بعمل فرق أخرى توصلت لحلول مشابهة بشكل مستقل. هذا يفتح نقاشًا حول كيفية توثيق مساهمة الذكاء الاصطناعي في الأبحاث العلمية الجادة.",
+  "why_it_matters": "يختبر الخبر قدرة النماذج على الإسهام في أبحاث أصيلة غير محلولة لا مجرد حل مسائل معروفة، وهو اختبار أصعب من اجتياز المسابقات.",
+  "original_text": "Following gold-medal-level performance from our AI models across five competitions in mathematics, physics, and chemistry, we asked a harder question: can AI contribute when a problem is genuinely open and without an existing solution path?\n\nOver the past several months, mathematicians worked with Muse Spark 1.1 and Muse Spark 1.2 in Thinking Mode through the regular https://t.co/wHkMPH82ZH chat interface, with no custom research scaffold, to find solutions to such problems.\n\nOur goal wasn't to mass-produce papers, but empower researchers. Every collaboration followed the same principles: mathematicians guided the research, a second group of mathematicians then reviewed the work, each paper marks which passages were drafted primarily by humans or AI, and each credits the prior research it builds on. Where other teams independently announced solutions to the same problems, we acknowledge their work as well.\n\nToday, we're sharing six papers from that collaboration.\n\n🧵👇",
+  "glossary": [
+   {
+    "term": "Thinking Mode",
+    "ar": "وضع التفكير"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Meta",
+   "Muse Spark"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 770,
+   "replies": 46,
+   "reposts": 100,
+   "quotes": 26,
+   "bookmarks": 244,
+   "views": 187660
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "http://meta.ai"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2099",
+  "serial": 2099,
+  "serial_display": "#002099",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106058009411739960",
+  "source_native_id": "2106058009411739960",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-02T16:25:32Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "رأي: فجوة بين أرقام اختبارات Gemini وأدائه الفعلي",
+  "arabic_summary": "يناقش الكاتب ظاهرة benchmaxxing التي تجعل الشركات تضبط نماذجها لتحقيق درجات عالية في الاختبارات المعتمدة بدل الأداء الفعلي، مستشهدًا بتقرير بلومبرغ الذي نقل عن موظفين في Google أن نموذج Gemini 4 Argon يؤدي أقل في المهام الحقيقية رغم نتائجه التنافسية المعلنة، خاصة في البرمجة وتصميم الواجهات.",
+  "detailed_explanation": "يطرح الكاتب ظاهرة يسميها الصناعة benchmaxxing، وهي ضبط النموذج ليحقق درجة عالية في اختبار معتمد أكثر من ضبطه لإنجاز مهام حقيقية غير مرتبة كما يطلبها المستخدم العادي. يستشهد بمثال حديث: أعلنت Google عن Gemini 4 Argon بنتائج تنافسية على اختبارات معتمدة، لكن بلومبرغ نقلت في اليوم نفسه عن موظفين داخل الشركة أن النموذج يؤدي أداءً أضعف في المهام الحقيقية، خصوصًا البرمجة وتصميم الواجهات، وأن Google نفت هذا الكلام.\n\nيشرح الكاتب أسبابًا عامة لهذه الفجوة: أرقام الإطلاق غالبًا من أفضل تشغيل في ظروف قياسية، وبعض الاختبارات مشبعة أو قريبة من بيانات التدريب فلا يعكس ارتفاع الدرجة قفزة عملية حقيقية، ونافذة السياق الطويلة تُعرض كميزة بينما يتدهور التماسك الفعلي قبل نهايتها، وتفضيل المستخدمين في المقارنات العمياء لا يطابق دائمًا ترتيب الشركة لنموذجها.",
+  "why_it_matters": "يشكك في موثوقية أرقام الـ Benchmark المعلنة من الشركات الكبرى، وهو أمر يمس كل من يعتمد على هذه الأرقام لاختيار نموذج للعمل.",
+  "original_text": "مفارقة Google… خداع أم واقع الجميع؟\n\nبتتبع إطلاق Google لنماذجها نجد أنه الأرقام تظهر كأنها أعادت ترتيب السباق:\n- تفوق في البرمجة\n- تقدم في الأمن السيبراني\n- صدارة في سير العمل\n\nثم بالتجربة يظهر سؤال أبسط:\n\nهل هذا النموذج الذي استخدمه هو نفسه الذي تظهر أرقامه المنشورة؟\n\nآخر مثال قبل أيام….\n\nGoogle أعلنت عن Gemini 4 Argon بنتائج تنافسية على اختبارات معتمدة….\n\nفي اليوم نفسه نقلت بلومبرغ عن موظفين داخل الشركة أن النموذج يؤدي أقل حين يُوضع على مهام حقيقية، خصوصاً البرمجة وتصميم الواجهات. \n\nعصبت google وقالت هذا الكلام ما صحيح!\n\nهنا تظهر المفارقة….\n\nGoogle يمكن ما تكذب… ليش؟\n\nلأن هناك فجوة منهجية صار اسمها في الصناعة benchmaxxing وتعني ضبط النموذج ليحصل على درجة عالية في الاختبار، أكثر من ضبطه لإنجاز عمل غير مرتب يطلبه مستخدم عادي.\n\nوهذه الممارسات منتشرة عند معظم الشركات وتحدثت عنها من قبل:\n\n- أرقام الإطلاق في الغالب هي لأفضل تشغيل وفي ظروف قياسية.\n\n- بعض الاختبارات مشبعة أو قريبة من بيانات التدريب، فارتفاع النقطة لا يعني قفزة عملية (يعني النموذج  تدرب على بعض ما في الاختبار)\n\n- نافذة السياق الطويلة تُعرض كميزة، بينما التماسك الفعلي ينهار قبل نهايتها.\n\n- ما يفضّله المستخدم في مقارنة عمياء لا يطابق دائماً ترتيب المختبر لنفسه.\n\nلذلك السؤال\nهل تخدعنا google؟\n\nوالسؤال الأخر\nهل صارت الأرقام ",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياسي"
+   },
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Gemini 4 Argon",
+   "Bloomberg"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 18,
+   "replies": 3,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 3459
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2100",
+  "serial": 2100,
+  "serial_display": "#002100",
+  "source_type": "x",
+  "source_url": "https://x.com/venturetwins/status/2106071514416382053",
+  "source_native_id": "2106071514416382053",
+  "source_name": "Justine Moore",
+  "source_site": "x.com",
+  "author": "venturetwins",
+  "published_at": "2026-10-02T17:19:12Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة تُظهر FLUX 3 ينفّذ تعديلات صور متعددة دون تدهور الجودة",
+  "arabic_summary": "يشارك الكاتب تجربة استخدم فيها FLUX 3 لتعديل صورة إعلانية قديمة عبر تسع عمليات تعديل متتالية (استبدال فساتين، أثاث، ورق حائط، مكياج، شعار) محافظًا على بنية الصورة الأصلية دون ظهور تشوهات.",
+  "detailed_explanation": "يوضّح المنشور تجربة عملية لنموذج FLUX 3 في التعديل متعدد الجولات (multi-turn editing) على صورة إعلانية واحدة، حيث أجرى الكاتب تسعة تعديلات متتالية شملت تغيير الفساتين والأثاث وورق الحائط والمكياج والشعار.\n\nالنقطة الجوهرية هي الحفاظ على بنية الصورة الأصلية دون ظهور تشوهات أو تدهور في الجودة رغم تكرار التعديل، وهي مشكلة تقنية شائعة في أدوات توليد وتحرير الصور بالذكاء الاصطناعي سابقًا.\n\nالمنشور المقتبس (الأصلي) يذكر أيضًا ميزات إضافية في FLUX 3 مثل التحكم الدقيق بالبكسل، التخطيط عبر صناديق الإحاطة (bounding boxes)، التوليد بدقة تصل إلى 4K، واستخدام حتى 10 مراجع لتركيب صورة واحدة، مع توفر أوزان تجارية ومفتوحة المصدر.",
+  "why_it_matters": "حل مشكلة تدهور جودة الصورة عبر التعديلات المتكررة كان عائقًا شائعًا في أدوات توليد الصور، وتجاوزه يفتح استخدامات عملية في التصميم والإعلان.",
+  "original_text": "We've definitely cracked multi-turn editing without image degradation 🤯\n\nI took this old Chloe ad and wanted to see if FLUX 3 could swap out everything - dresses, couch, wallpaper, makeup, logo - while maintaining the structure.\n\nNine turns later and no artifacts! https://t.co/ZXhyl7Lubo",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "FLUX 3"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 359,
+   "replies": 16,
+   "reposts": 19,
+   "quotes": 1,
+   "bookmarks": 233,
+   "views": 21344
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing FLUX 3 Image.\n\nControl every pixel.\n\nMake precise multi-turn edits without changing any other pixel.\n\nLay out the image exactly how you want using bounding boxes.\n\nGenerate in up to 4K to preserve details.\n\nUse up to 10 references to compose an image.\n\nCommercial Weights available for companies running image generation at scale.\n\nOpen Weights version of FLUX 3 Image is launching in the"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2101",
+  "serial": 2101,
+  "serial_display": "#002101",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2106177086822183019",
+  "source_native_id": "2106177086822183019",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-03T00:18:43Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصائح OpenAI للمطوّرين لبناء إضافات Plugins في ChatGPT",
+  "arabic_summary": "تحدّث مطوّر في DevDay عن بناء Plugin Extensions في ChatGPT، وشارك ثلاث نصائح: دمج الإضافة في سير عمل المستخدم عبر الشريط الجانبي ولوحات مخصصة، الاهتمام بتجربة الإعداد الأولى عبر onboarding skill مخصص، وتسهيل الدخول بخاصية Sign in with ChatGPT.",
+  "detailed_explanation": "المنشور جزء من تغطية DevDay حيث تحدّث أحد مطوّري الإضافات عن تجربته في بناء Plugin Extensions، وهي ميزة تتيح للإضافات الظهور داخل واجهة ChatGPT نفسها كشريط جانبي أو لوحة جانبية أو عارض ملفات مخصص أو إعدادات.\n\nالنصيحة الأولى تدعو لجعل الإضافة جزءًا طبيعيًا من سير عمل المستخدم بدل أن تكون أداة منفصلة. النصيحة الثانية تركّز على تجربة ما بعد التثبيت، باستخدام onboarding skill مخصص يوجّه المستخدم في أول استخدام. النصيحة الثالثة تخص تسهيل تسجيل الدخول عبر Sign in with ChatGPT بدل إنشاء حساب جديد.\n\nهذه الإرشادات تهم أي مطوّر يبني Plugin فوق ChatGPT، إذ تمثّل توجيهات مباشرة من فريق OpenAI حول كيفية تصميم تجربة متكاملة داخل المنصة.",
+  "why_it_matters": "يفتح الباب أمام من يبني إضافات لـ ChatGPT لفهم أفضل الممارسات الرسمية من فريق المنصة نفسها.",
+  "original_text": "RT @coreyching: Got to take the main stage at OpenAI DevDay to talk about plugin extensions!\n\nA few takeaways for developers building plugins:\n\n1. Make your plugin part of how people work.\nPlugin extensions let you build apps that open from ChatGPT’s sidebar, side panel, custom file viewers and editors, and settings for your plugin. Full spec here:\nhttps://t.co/fDQD08Yqud⁠\n\n2. Put care into what happens after installation.\nYou can provide a custom onboarding skill to guide people through setup and help them learn what your plugin can do. Use that first experience to help someone accomplish something useful and give them a reason to come back. \n\n3. Make it easier to get started.\nPlugins can support Sign in with ChatGPT so people can connect using their existing ChatGPT account. A smoother sign-in experience can help more people get through setup and start using what you’ve built. \n\n@vigyso wrote a great walkthrough of Sign in with ChatGPT for developers who want to learn more:\nhttps://t.co/OabXj2jdjO⁠\n\nHere are some of the folks behind the platform: @mxstbr , @ShopifyVC , @tarstarr , and @glencoates . We’re listening to your feedback and excited to support more of the open ecosystem",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   },
+   {
+    "term": "Onboarding",
+    "ar": "تهيئة الاستخدام الأولي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 97,
+   "replies": 13,
+   "reposts": 9,
+   "quotes": 1,
+   "bookmarks": 63,
+   "views": 13877
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "openai-plugin-extensions",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2102",
+  "serial": 2102,
+  "serial_display": "#002102",
+  "source_type": "x",
+  "source_url": "https://x.com/cursor_ai/status/2106066782155157603",
+  "source_native_id": "2106066782155157603",
+  "source_name": "Cursor",
+  "source_site": "x.com",
+  "author": "cursor_ai",
+  "published_at": "2026-10-02T17:00:24Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Cursor يطلق Rollouts لرصد الانحدارات وإصلاحها تلقائيًا بعد النشر",
+  "arabic_summary": "أطلقت Cursor ميزة جديدة باسم Rollouts تكتب خطة مراقبة بعد النشر وترصد أي انحدار (regression) في الكود، ثم تفتح تذكرة (issue) تلقائيًا تحدد سبب المشكلة، مع إمكانية تشغيل Agent سحابي بضغطة واحدة لإصلاحه. الاستخدام مجاني عبر رصيد خاص حتى 3 أكتوبر.",
+  "detailed_explanation": "ميزة Rollouts الجديدة في Cursor تعمل على كتابة خطة مراقبة تلقائية عند نشر تغييرات جديدة على الكود، ثم تتابع عملية النشر فعليًا للتحقق من عدم وجود انحدارات (regressions) تؤثر على سلوك التطبيق.\n\nعند اكتشاف مشكلة، تحدد الميزة التغيير (Pull Request) المسبب للخلل وتفتح تذكرة تلقائية، ويمكن للمستخدم بضغطة واحدة تشغيل Agent سحابي يتولى إصلاح المشكلة مباشرة دون تدخل يدوي كامل.\n\nالإعلان يذكر أن رصيد استخدام هذه الميزة متاح مجانًا حتى 3 أكتوبر، ما يوحي بأنها في مرحلة إطلاق تجريبي أو ترويجي مبدئي قبل فرض تسعير عادي عليها.",
+  "why_it_matters": "يمسّ هذا مباشرة أداة Cursor التي يستخدمها المطورون يوميًا، ويضيف طبقة أتمتة لمراقبة النشر واكتشاف الأخطاء قبل وصولها للمستخدمين.",
+  "original_text": "When Rollouts catches a regression, it finds the offending PR and opens an issue. One click starts a cloud agent to fix it.\n\nRollouts usage credits are included through Oct 3.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   },
+   {
+    "term": "Regression",
+    "ar": "انحدار/تراجع في الوظائف"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Cursor",
+   "Rollouts"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Agent Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 652,
+   "replies": 53,
+   "reposts": 27,
+   "quotes": 6,
+   "bookmarks": 100,
+   "views": 50430
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Rollouts.\n\nRollouts write a monitoring plan, then watch changes as they deploy. \n\nDeployments are verified, so regressions are caught before users see them. https://t.co/01Pgz5B6V1"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2103",
+  "serial": 2103,
+  "serial_display": "#002103",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2106034600879210791",
+  "source_native_id": "2106034600879210791",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-10-02T14:52:31Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة Alpha Gen لإزالة خلفيات الفيديو تعمل داخل المتصفح",
+  "arabic_summary": "أداة جديدة باسم Alpha Gen (نسخة تجريبية) تحوّل مقطع فيديو عادي RGB إلى قناة ألفا (matte) مطابقة لكل إطار دون الحاجة لشاشة خضراء أو أقنعة يدوية أو أي Prompt. صُممت للتعامل مع الحواف الصعبة مثل الشعر والدخان والزجاج والماء.",
+  "detailed_explanation": "تقدّم الأداة حلًا لمشكلة تقنية معروفة في مجال الفيديو: فصل العناصر عن خلفيتها (keying/matting) حين يكون التصوير بلا شاشة خضراء. تعتمد الطريقة التقليدية على الـroto اليدوي أو التصوير بخلفية خضراء مضبوطة، وكلاهما مكلف من حيث الوقت والمعدات.\n\nما يميز Alpha Gen أنها تعمل مباشرة داخل المتصفح، وتنتج قناة ألفا (alpha matte) تطابق كل إطار من الفيديو الأصلي بدقة، مع تركيز خاص على الحواف الصعبة كالشعر والفراء والدخان والنار والزجاج والماء — وهي عناصر يصعب التعامل معها بالطرق اليدوية التقليدية. تجربة المستخدم الذي نشرها أظهرت دقة عالية على عشرات مقاطع الفيديو.",
+  "why_it_matters": "تسهّل العملية التقنية الصعبة في فصل الخلفية عن الفيديو، وهي مهمة متكررة في مونتاج الفيديو تتطلب عادة أدوات احترافية مكلفة.",
+  "original_text": "Video background removal (RGB/Alpha smart split)\nTested on a dozen of my videos - works precisely\n\nRight in your browser. Damn, that's good\nSave this damn tool for future, thank me later https://t.co/4aVHufFywr",
+  "glossary": [
+   {
+    "term": "Alpha matte",
+    "ar": "قناة ألفا / قناع الشفافية"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Alpha Gen"
+  ],
+  "change_types": [
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 86,
+  "metrics": {
+   "likes": 353,
+   "replies": 15,
+   "reposts": 38,
+   "quotes": 3,
+   "bookmarks": 459,
+   "views": 21404
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "The last drop of VFX Week: Alpha Gen (Beta).\n\nGive it an ordinary RGB clip and get back an alpha matte that matches your plate frame for frame. No green screen, no masks, no prompt.\n\nBuilt for the edges that are hard to key or roto: hair, fur, smoke, fire, glass, water. 🧵 https://t.co/RM7UhJs9NW"
+  },
+  "cluster_id": "alpha-gen-bg-removal",
+  "also_reported": [
+   {
+    "author": "AmirMushich",
+    "url": "https://x.com/AmirMushich/status/2106114530036400632"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2104",
+  "serial": 2104,
+  "serial_display": "#002104",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2106099802970705933",
+  "source_native_id": "2106099802970705933",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-02T19:11:37Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كل شركة ستملك وكيلها الخاص داخل منصات المحادثة",
+  "arabic_summary": "يرى مقال Every أن كل شركة ستحتاج وكيلها (Agent) الخاص بها كما تحتاج موقعًا إلكترونيًا، وأن العملاء سيتوقعون الوصول إليه عبر منصات مثل ChatGPT وClaude بدل زيارة موقع الشركة. تذكر الشركات أنها تدمج وكلاءها في Slack وTeams وWhatsApp، مع مثال على إصدار بطاقات شركات عبر رسائل Slack.",
+  "detailed_explanation": "تقترح Every أن نمط تفاعل الشركات مع عملائها يتغير: بدل إنشاء موقع إلكتروني فقط، ستحتاج الشركات إلى بناء وكيل (Agent) خاص بها يمكن الوصول إليه من داخل منصات المحادثة الشائعة مثل ChatGPT وClaude، بدل أن يزور العميل موقع الشركة مباشرة.\n\nتذكر الشركة أمثلة عملية: شركات تدمج وكلاءها داخل Slack وMicrosoft Teams وWhatsApp، ومثال على شركة Ramp التي تصدر بطاقات ائتمان للموظفين عبر رسائل مباشرة في Slack. كما تشير Every إلى أنها تستخدم وكيلها الخاص يوميًا وأنه في مرحلة Beta.",
+  "why_it_matters": "يطرح تحولًا محتملًا في كيفية تفاعل العملاء مع الشركات، من المواقع إلى الوكلاء داخل منصات المحادثة التي يستخدمها عزيز مباشرة.",
+  "original_text": "RT @every: Every business will have its own agent, the way every business has a website—and customers will expect to reach it from inside @OpenAI’s ChatGPT or @claudeai, not by visiting the company's site.\n\nCompanies are bringing their agents into conversational platforms like @SlackHQ, @Microsoft Teams, and @WhatsApp. @tryramp, for example, is issuing people corporate cards via Slack DMs.\n\nAt Every, we use our company agent daily.\n\nOur Every Agent is in beta: https://t.co/Zs1OONl3UF\n\nRead the full piece: https://t.co/iXEZEPeIKg",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "OpenAI",
+   "Claude",
+   "Slack",
+   "Microsoft Teams",
+   "WhatsApp",
+   "Ramp"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 35,
+   "replies": 1,
+   "reposts": 6,
+   "quotes": 2,
+   "bookmarks": 37,
+   "views": 3701
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2105",
+  "serial": 2105,
+  "serial_display": "#002105",
+  "source_type": "x",
+  "source_url": "https://x.com/alashalash/status/2106096233073050037",
+  "source_native_id": "2106096233073050037",
+  "source_name": "عبدالسلام عبدالعزيز الشلاش",
+  "source_site": "x.com",
+  "author": "alashalash",
+  "published_at": "2026-10-02T18:57:25Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج Nemotron يخفّض أخطاء التعرف على اللهجات السعودية",
+  "arabic_summary": "أعلنت NVIDIA أن ضبط نموذج Nemotron 3.5 ASR الصوتي قلّص نسبة الخطأ في التعرف على اللهجتين النجدية والحجازية من 55% إلى 30%. نشرت الشركة درسًا تعليميًا يشرح كيفية تكييف النموذج مع لهجات ولغات أخرى.",
+  "detailed_explanation": "تواجه نماذج التعرف على الكلام صعوبة تقليدية في التعامل مع اللهجات العربية المحلية رغم دعمها الاسمي للغة العربية الفصحى. أظهرت NVIDIA أن تطبيق Fine-tuning على نموذج Nemotron 3.5 ASR الخاص بها أدى إلى خفض معدل خطأ الكلمات (WER) من 55% إلى 30% تقريبًا على اللهجتين النجدية والحجازية السعوديتين، وهو تحسن كبير في الدقة.\n\nرافق الإعلان نشر درس تعليمي (tutorial) يوضح كيفية تكرار هذه العملية لتكييف النموذج مع لهجات أو لغات أخرى، ما يجعله مفيدًا عمليًا لمن يعمل على تطبيقات صوتية تستهدف جمهورًا عربيًا محليًا.",
+  "why_it_matters": "يبيّن تحسّنًا ملموسًا في دعم اللهجات العربية المحلية بنماذج التعرف على الكلام، وهو تحدٍّ معروف في هذا المجال.",
+  "original_text": "RT @NVIDIAAI: A speech model can support Arabic and still struggle with local dialects.\n\nFine-tuning NVIDIA Nemotron 3.5 ASR cut word error rate on Najdi and Hijazi Saudi Arabic from 55% to 30%.\n\nCheck out our new tutorial and learn how to adapt it for other dialects and languages: https://t.co/YQDrx8TvC5",
+  "glossary": [
+   {
+    "term": "Fine-tuning",
+    "ar": "الضبط الدقيق"
+   },
+   {
+    "term": "ASR",
+    "ar": "التعرف الآلي على الكلام"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "صوت",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "NVIDIA",
+   "Nemotron"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2267,
+   "replies": 103,
+   "reposts": 240,
+   "quotes": 70,
+   "bookmarks": 1441,
+   "views": 414517
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2106",
+  "serial": 2106,
+  "serial_display": "#002106",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2106006297003106381",
+  "source_native_id": "2106006297003106381",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-10-02T13:00:03Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Skill على Apify يكشف إعلانات TikTok المموّهة كمحتوى عضوي",
+  "arabic_summary": "ملف Skill جديد على منصة Apify يحلل منشورات TikTok الفيروسية ليكشف ما هو إعلان مدفوع عبر معدل الإعجابات، ثم يرتّب المنشورات العضوية الناجحة حسب عدد الحفظ، مقابل رسوم صغيرة للوصول إلى نحو 3400 منشور.",
+  "detailed_explanation": "الفكرة تقوم على ملف Skill مبني على Apify يستهدف مشكلة شائعة في تحليل محتوى TikTok: صعوبة التمييز بين المنشورات الفيروسية الحقيقية والإعلانات المدفوعة التي تُقدَّم كمحتوى عضوي. يعتمد الـSkill على معدل الإعجابات كإشارة للكشف عن الإعلانات، ثم يرتب المنشورات العضوية الفائزة في أي مجال بحسب عدد مرات الحفظ بدلًا من المشاهدات وحدها.\n\nما يلفت الانتباه هنا هو النموذج التجاري: الوصول لنحو 3400 منشور مقابل مبلغ صغير على منصة Apify، وتوفر الكود الكامل (repo) لمن أراد البناء عليه أو فهم الآلية، ما يجعله مرجعًا عمليًا لأي شخص يصمم Skills مشابهة لتحليل اتجاهات المحتوى.",
+  "why_it_matters": "مثال عملي على بناء Skill تجاري صغير يحل مشكلة بحثية محددة (رصد اتجاهات المحتوى)، وهو نموذج مفيد لمن يبني أو يقيّم ملفات Skills.",
+  "original_text": "Some \"viral\" @tiktok_us carousels are just paid ads in a trench coat.\n\n@nestymee's skill spots them by like-rate, then ranks the organic winners in any niche by saves. About 3,400 posts for $11 on Apify.\n\nFull repo in her replies if you're researching carousel trends 👇",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تسويق ومحتوى",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "TikTok"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 6,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 610
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "just published the viral-carousels trendwatching skill you guys asked for\n\nit returns the carousel accounts by niche ranked by saves and like-rate instead of views, with the slides of the top posts.\n\n$11 on apify, everything's in the repo 👇 https://t.co/CqBgvOKYAS"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2107",
+  "serial": 2107,
+  "serial_display": "#002107",
+  "source_type": "x",
+  "source_url": "https://x.com/karpathy/status/2105909609487872075",
+  "source_native_id": "2105909609487872075",
+  "source_name": "Andrej Karpathy",
+  "source_site": "x.com",
+  "author": "karpathy",
+  "published_at": "2026-10-02T06:35:51Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "اختبار طريف يكشف أن نماذج اللغة تعرف الجغرافيا ضمنيًا",
+  "arabic_summary": "طرح الباحث تجربة بسيطة: سؤال نموذج لغوي 'يابسة أم ماء؟' مع إحداثيات نصية 16200 مرة ثم رسم النتائج كصورة، فظهر أن النموذج يعرف خريطة العالم تقريبًا من مجرّد تدريبه على نصوص الإنترنت.",
+  "detailed_explanation": "التجربة بسيطة: إعطاء النموذج إحداثيات خط عرض وطول كنص، وسؤاله فقط إن كانت تشير إلى يابسة أم ماء، وتكرار هذا 16200 مرة ثم رسم النتائج كصورة. النتيجة كانت خريطة عالم شبه دقيقة.\n\nهذا يُظهر أن النماذج اللغوية الكبيرة، من خلال تدريبها الهائل على نصوص الإنترنت، تكوّن تمثيلاً ضمنيًا دقيقًا لحقائق العالم مثل الجغرافيا، دون أن تكون مصممة خصيصًا لذلك كنموذج خرائط.\n\nهذا النوع من الـ Evals البسيطة لكنها كاشفة يهم الباحثين والمهتمين بفهم ما تخزنه النماذج داخليًا من معرفة العالم، وهو موضوع بحثي متكرر في النقاشات حول قدرات LLMs.",
+  "why_it_matters": "يوضح ظاهرة مثيرة في قدرات النماذج اللغوية على استيعاب معرفة جغرافية دقيقة ضمنيًا دون تدريب مخصص لذلك، وهو مؤشر على عمق ما تختزنه هذه النماذج من العالم الحقيقي.",
+  "original_text": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet.",
+  "glossary": [
+   {
+    "term": "Eval",
+    "ar": "تقييم/اختبار قدرات"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 15466,
+   "replies": 431,
+   "reposts": 859,
+   "quotes": 122,
+   "bookmarks": 3893,
+   "views": 936560
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "results for all claudes https://t.co/bS5jvCC2YJ"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2108",
+  "serial": 2108,
+  "serial_display": "#002108",
+  "source_type": "x",
+  "source_url": "https://x.com/shadcn/status/2105989383337783628",
+  "source_native_id": "2105989383337783628",
+  "source_name": "shadcn",
+  "source_site": "x.com",
+  "author": "shadcn",
+  "published_at": "2026-10-02T11:52:51Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Remocn Studio تطبيق مجاني لتحرير الفيديو بالـ Agents",
+  "arabic_summary": "تطبيق macOS جديد مفتوح المصدر ومجاني اسمه Remocn Studio، يتيح إنشاء وتحرير الفيديوهات عبر وصف ما تريده لوكيل ذكاء اصطناعي، مع دعم Claude وCodex وGrok وGitHub Copilot، وإمكانية إنتاج عدة فيديوهات معًا وإضافة هوية العلامة التجارية.",
+  "detailed_explanation": "Remocn Studio تطبيق macOS مفتوح المصدر يسمح للمستخدم بوصف الفيديو الذي يريده، ليتولى Agent (يمكن اختياره من بين Claude وCodex وGrok وGitHub Copilot) تنفيذ عملية الإنشاء والتحرير.\n\nمن الميزات المذكورة: إنتاج عدة فيديوهات دفعة واحدة، إضافة عناصر العلامة التجارية، وإعداد خط إنتاج فيديو (pipeline) خاص بالمستخدم. كونه مجانيًا ومفتوح المصدر ويدعم Claude وCodex تحديدًا، يجعله ذا صلة مباشرة بأدوات يستعملها عزيز، رغم أن جوهر الأداة هو تحرير الفيديو.",
+  "why_it_matters": "يجمع هذا التطبيق بين تحرير الفيديو والـ Agents المألوفة لدى المطورين (Claude وCodex)، ما يفتح مسارًا جديدًا لأتمتة إنتاج الفيديو بالوصف النصي بدل الواجهات التقليدية.",
+  "original_text": "RT @_remocn: Introducing Remocn Studio\n\nA macOS app for creating and editing videos with your agent. Free. Open source. Use the one you already love: Claude, Codex, Grok, GitHub Copilot. Describe what you want to see. Make several videos at once. Add your brand. Set up your own video pipeline. Enjoy!",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق",
+   "Agent"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Remocn Studio",
+   "Claude",
+   "Codex",
+   "Grok",
+   "GitHub Copilot"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 548,
+   "replies": 30,
+   "reposts": 61,
+   "quotes": 20,
+   "bookmarks": 892,
+   "views": 81564
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2109",
+  "serial": 2109,
+  "serial_display": "#002109",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2106081640934260992",
+  "source_native_id": "2106081640934260992",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-10-02T17:59:26Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحديث اسم أمر فحص الإعدادات في Claude Code",
+  "arabic_summary": "تغيّر اسم الأمر '/claude-api prompt-audit' إلى '/checkup prompt-audit' في Claude Code لأن الاسم القديم أوحى بأنه مخصص لواجهة API فقط رغم أنه كان يعمل دائمًا مع إعدادات Claude Code العادية. الأمر يفحص ملف CLAUDE.md وSkills وAgents بحثًا عن تعليمات لم تعد ضرورية للنموذج.",
+  "detailed_explanation": "الأمر '/checkup prompt-audit' (سابقًا '/claude-api prompt-audit') هو أداة داخل Claude Code تفحص ملف CLAUDE.md إضافة إلى ملفات Skills وAgents المرتبطة بالمشروع، بحثًا عن تعليمات زائدة لم يعد النموذج بحاجة إليها.\n\nالتغيير هنا تسمية فقط لكنه يعكس استخدامًا فعليًا للأمر مع كل إعدادات Claude Code لا مع API حصرًا كما أوحى الاسم القديم.\n\nهذا يفيد مباشرة من يدير مشاريع معقدة بملفات CLAUDE.md طويلة أو Skills متعددة، إذ يساعد على تقليص ما لا لزوم له وتحسين كفاءة الـ Prompt.",
+  "why_it_matters": "أداة تنظيف صغيرة لكنها مفيدة لمن يدير ملفات CLAUDE.md وSkills، إذ تساعد في تقليل Prompt الزائد الذي قد يثقل Context Window.",
+  "original_text": "RT @lydiahallie: Small change, but \"/claude-api prompt-audit\" is now also \"/checkup prompt-audit\"\n\nThe name made it sound API-only, even though it always worked on your Claude Code setup. It checks your CLAUDE.md, skills and agents for instructions your model doesn't need anymore. Really useful! https://t.co/nlStQWjaO8",
+  "glossary": [
+   {
+    "term": "Prompt audit",
+    "ar": "تدقيق التوجيهات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 99,
+  "metrics": {
+   "likes": 1630,
+   "replies": 91,
+   "reposts": 108,
+   "quotes": 27,
+   "bookmarks": 1305,
+   "views": 163906
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2110",
+  "serial": 2110,
+  "serial_display": "#002110",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2105947776236376475",
+  "source_native_id": "2105947776236376475",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-02T09:07:31Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخدام GitHub Actions كبداية بسيطة لبناء software factories",
+  "arabic_summary": "يشرح الكاتب كيف يمكن استغلال GitHub Actions كبيئة مجانية لتجربة فكرة software factories، حيث تُنشأ التذاكر كـ issues وتُستخدم labels لتشغيل العمليات وإنشاء Pull Requests، مع إمكانية جدولة مهام يومية عبر Cron.",
+  "detailed_explanation": "يقدّم الكاتب GitHub Actions كبيئة اختبار مجانية (sandbox) للمستودعات العامة، لا تتطلب أي إعداد إضافي لأن المستخدم غالبًا يملك حسابًا عليها أصلًا.\n\nالفكرة العملية: تُنشأ المهام كـ issues، وتُستخدم labels لتفعيل Actions التي تنتج Pull Requests، ويمكن لهذه الـ Actions نفسها أن تضع labels جديدة فتصنع حلقة عمل متكررة (loop). كما يمكن جدولة مهام يومية عبر Cron رغم عدم دقّتها الكاملة، مع توفّر أدوات مراقبة بسيطة لمعرفة أسباب الفشل.\n\nيوصي الكاتب بهذا المسار كخطوة تجريبية قبل بناء بنية تحتية خاصة (infra) لأنظمة software factories الأكثر تعقيدًا.",
+  "why_it_matters": "يتيح للمطوّرين تجربة أتمتة سير العمل بالوكلاء البرمجية دون الحاجة لبنية تحتية خاصة قبل الاستثمار فيها.",
+  "original_text": "GitHub actions are a super easy way to get started with software factories\n\n1. Essentially free sandboxes for public repo's\n2. You already have a login\n3. Create tickets (pieces of work for the agent to do) as issues\n4. Use labels to trigger actions, which create PR's\n5. Actions can apply labels, which create loops\n6. Cron jobs (albeit not very accurate) for running daily jobs\n7. Simple observability for seeing what went wrong\n\nGreat for messing about with software factories before building them on your own infra",
+  "glossary": [
+   {
+    "term": "Pull Request",
+    "ar": "طلب دمج تعديلات في الكود"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 1044,
+   "replies": 56,
+   "reposts": 54,
+   "quotes": 8,
+   "bookmarks": 1060,
+   "views": 75087
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2111",
+  "serial": 2111,
+  "serial_display": "#002111",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2106078367833591915",
+  "source_native_id": "2106078367833591915",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-02T17:46:26Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة: Claude Opus 5.5 ينتج رسومًا متحركة كاملة بطلب واحد",
+  "arabic_summary": "يروي الكاتب تجربته في إنتاج فيديو متحرك مدته دقيقتان مع تصميم صوت كامل باستخدام Claude Opus 5.5 من طلب واحد فقط (one-shot)، ويشارك دليلًا كاملًا حول كيفية صياغة الطلبات لهذا الغرض.",
+  "detailed_explanation": "يصف المنشور تجربة عملية استخدم فيها الكاتب نموذج Claude Opus 5.5 لإنتاج فيديو متحرك مدته دقيقتان يتضمن تصميم صوت (sound design) أيضًا، وكل ذلك من طلب واحد (one-shot) دون تكرار أو تعديل.\n\nيرفق الكاتب دليلًا تفصيليًا يشرح فيه كيفية صياغة الـ Prompt للحصول على نتائج مماثلة في الرسوم المتحركة والحركة وتصميم الصوت، ما يجعله مرجعًا عمليًا لمن يريد تكرار التجربة.\n\nهذا يُظهر أن نماذج مثل Opus أصبحت قادرة على مهام إبداعية مركّبة تتجاوز توليد النص إلى تنسيق عناصر حركة وصوت متكاملة، وهو تطور يهم صناع المحتوى المرئي.",
+  "why_it_matters": "يوضح قدرة النموذج على التعامل مع مهام إبداعية متعددة الوسائط (حركة وصوت) من تعليمة واحدة، وهو استخدام عملي متقدم لمن يصمم محتوى متحركًا.",
+  "original_text": "Opus 5.5 is insane for motion design...\n\nI one-shotted this 2-minute GrokBot animation + sound design using just Opus 5.5.\n\nfull guide to prompting, sound design, motion animation with Opus 5.5 in the article below ↓ https://t.co/XLf04JVQw4",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "الطلب/التوجيه"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Claude",
+   "Opus 5.5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 96,
+   "replies": 6,
+   "reposts": 9,
+   "quotes": 0,
+   "bookmarks": 98,
+   "views": 9619
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/4qTQfdoerp"
+  },
+  "cluster_id": "opus55-motion",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2106117546801803679"
+   },
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2106184832162439459"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2112",
+  "serial": 2112,
+  "serial_display": "#002112",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2105975973988737057",
+  "source_native_id": "2105975973988737057",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-02T10:59:33Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "حيلة لتحرير مقاطع الفيديو بكلمة رمزية عبر Codex وClaude Code",
+  "arabic_summary": "يشارك الكاتب طريقته لتسريع تحرير الفيديو: عند التلعثم أثناء التصوير، يقول كلمة رمزية متفقًا عليها ثم يعيد الجملة، لاحقًا يطلب من Codex أو Claude Code تصفح ملف الفيديو وإيجاد نقاط الكلمة الرمزية وحذف الأخطاء المحيطة بها تلقائيًا.",
+  "detailed_explanation": "يشرح الكاتب أسلوبًا بسيطًا لتوفير وقت تحرير الفيديو: عندما يخطئ أو يتلعثم أثناء تصوير محاضرة أو محتوى، ينطق كلمة رمزية متفقًا عليها مسبقًا (يستخدم هو كلمة \"hibachi\")، ثم يعيد الجملة من جديد دون قطع التصوير.\n\nبعد الانتهاء، يطلب من Codex أو Claude Code تصفح ملف الفيديو تلقائيًا، والعثور على جميع مواضع الكلمة الرمزية، وحذف المقاطع الخاطئة المحيطة بها، ما يوفر له وقتًا كبيرًا أسبوعيًا. يذكر أنه قد يشارك هذا كـ Skill جاهز رغم أنه يعتبره واضحًا بذاته.",
+  "why_it_matters": "استخدام عملي لأدوات البرمجة الوكيلية (مثل Codex وClaude Code) في مهمة خارج نطاقها التقليدي، وهو مونتاج الفيديو، ما يوفر وقتًا كبيرًا لصناع المحتوى.",
+  "original_text": "If you film lectures or content and it takes time to edit out mistakes:\n\nwhen you stumble or misspeak, you can say a code word (mine is \"hibachi\") then start the sentence again. then ask codex/claude code to go through your video file, then find all the \"hibachi\" points and edit out the mistakes.\n\nsaved me so much time every week. I can share a skill if anyone wants, but I actually think it's pretty self explanatory.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Codex",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 20,
+   "replies": 6,
+   "reposts": 3,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 4448
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "hibachiskill",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2106157631568318675"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2113",
+  "serial": 2113,
+  "serial_display": "#002113",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2106080588289724527",
+  "source_native_id": "2106080588289724527",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-02T17:55:15Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain تطلق ذاكرة المستخدم في Managed Deep Agents 0.8",
+  "arabic_summary": "أصدرت LangChain النسخة 0.8 من Managed Deep Agents بميزة ذاكرة على مستوى المستخدم، تتيح للـ Agent تذكّر الأشخاص الذين يتعامل معهم وتفضيلاتهم عبر الجلسات.",
+  "detailed_explanation": "Managed Deep Agents هي منصة من LangChain لبناء ونشر الـ Agents، والإصدار 0.8 يضيف قدرة على تخزين ذاكرة خاصة بكل مستخدم أو فريق بدل الاعتماد فقط على سياق المحادثة الواحدة.\n\nحسب منشورات مرتبطة، يمكن للـ Agent حفظ تفضيلات المستخدم (مثل سرعة الرسوم المتحركة في النصوص) وتذكّر محادثات ومخرجات سابقة، ما يحسّن جودة وسرعة توليد المحتوى مع الوقت. الإعداد يتم عبر ملف واحد وأمر نشر واحد، وهو ما يسهّل تبنّي الميزة من قبل فرق التطوير الذين يبنون تطبيقات Agent متعددة المستخدمين.",
+  "why_it_matters": "ذاكرة المستخدم تحوّل الـ Agent من أداة تبدأ من الصفر كل مرة إلى نظام يتراكم فيه السياق، وهذا تطور مهم لبنية الوكلاء التي تُبنى عليها تطبيقات حقيقية.",
+  "original_text": "RT @caspar_br: User memory in Managed Deep Agents 0.8: your agent can remember the people it works with https://t.co/pnmD06la9i https://t.co/g6xer256tI",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "Managed Deep Agents"
+  ],
+  "change_types": [
+   "New Feature",
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 40,
+   "replies": 5,
+   "reposts": 10,
+   "quotes": 4,
+   "bookmarks": 35,
+   "views": 18928
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "https://langch.in/mda"
+  ],
+  "quoted": null,
+  "cluster_id": "mda-user-memory",
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2106081343440634127"
+   },
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2106060391482867799"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2114",
+  "serial": 2114,
+  "serial_display": "#002114",
+  "source_type": "x",
+  "source_url": "https://x.com/ollama/status/2106186667543666841",
+  "source_native_id": "2106186667543666841",
+  "source_name": "ollama",
+  "source_site": "x.com",
+  "author": "ollama",
+  "published_at": "2026-10-03T00:56:47Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نماذج Clef القرارية من Cloudflare متاحة على Ollama",
+  "arabic_summary": "أصبحت نماذج Clef من Cloudflare، وهي نماذج قرار (decision models) مخصصة لتصنيف الصور وتسمية تقارير الأخطاء وتوجيه تذاكر الدعم، متاحة للتنزيل عبر Ollama بنسختين: Clef بحجم 27B وClef Flash بحجم 9B.",
+  "detailed_explanation": "Clef نماذج من Cloudflare مصممة خصيصًا لمهام القرار السريع: تصنيف صورة، تسمية تقرير خطأ، أو توجيه تذكرة دعم إلى الفريق المناسب، بدل الاستخدام العام للمحادثة أو توليد النصوص الطويلة.\n\nتوفرها الآن على Ollama بنسختين - الكاملة 27B والأخف Clef Flash بحجم 9B - يسمح بتشغيلها محليًا بأمر بسيط (ollama pull)، ما يجعلها خيارًا عمليًا لمن يبني أنظمة تصنيف وتوجيه آلي دون الاعتماد على واجهات برمجية سحابية.",
+  "why_it_matters": "توفر هذه النماذج عبر Ollama يعني أن عزيز يمكنه تشغيلها محليًا مباشرة لمهام تصنيف وتوجيه عملية محددة، وهذا امتداد لمنظومة الأدوات التي يستخدمها.",
+  "original_text": ".@Cloudflare's decision models are available on Ollama!\n\nDecision models allow you to classify an image, label a bug report or route a support ticket to the right team.  \n\nClef (27B):\nollama pull clef\n\nClef Flash (9B):\nollama pull clef-flash",
+  "glossary": [
+   {
+    "term": "Decision Models",
+    "ar": "نماذج قرار"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Cloudflare",
+   "Ollama",
+   "Clef"
+  ],
+  "change_types": [
+   "New Release",
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 524,
+   "replies": 24,
+   "reposts": 56,
+   "quotes": 12,
+   "bookmarks": 198,
+   "views": 26496
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "clef-ollama",
+  "also_reported": [
+   {
+    "author": "ollama",
+    "url": "https://x.com/ollama/status/2106192385852240264"
+   },
+   {
+    "author": "ollama",
+    "url": "https://x.com/ollama/status/2106177285527343442"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2115",
+  "serial": 2115,
+  "serial_display": "#002115",
+  "source_type": "x",
+  "source_url": "https://x.com/vercel/status/2106139101422567748",
+  "source_native_id": "2106139101422567748",
+  "source_name": "Vercel",
+  "source_site": "x.com",
+  "author": "vercel",
+  "published_at": "2026-10-02T21:47:46Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Vercel تطرح Jev في AI SDK لمطوّري Python",
+  "arabic_summary": "أعلنت Vercel أن ميزة Jev أصبحت متاحة الآن داخل AI SDK لبايثون، وجرّبتها الشركة في مهمّتين: تمييز نص Python عن الإنجليزية أثناء الكتابة، وكتابة كود Python قرارًا بقرار. التثبيت يتم عبر أداة uv.",
+  "detailed_explanation": "Vercel معروفة بـ AI SDK الذي يستخدمه مطوّرو JavaScript/TypeScript لبناء تطبيقات تعتمد على النماذج اللغوية. إضافة Jev لمستخدمي Python تعني فتح هذه البنية لمجتمع أوسع من المطوّرين الذين يعملون أساسًا بلغة بايثون في مجال الذكاء الاصطناعي.\n\nالتجربتان المذكورتان - تمييز اللغة أثناء الكتابة وكتابة الكود تدريجيًا - تشيران إلى طبيعة الأداة كمساعد قرارات متسلسلة بدل التوليد الدفعي الكامل، وهو نمط يهمّ من يبني أدوات أو Agents تعمل بشكل تفاعلي.",
+  "why_it_matters": "يوسّع هذا دعم AI SDK ليشمل مطوّري Python مباشرة، وهو امتداد عملي لبنية بناء التطبيقات القائمة على الوكلاء خارج نطاق JavaScript.",
+  "original_text": "Jev is now in the AI SDK for Python.\n\nTo test it, we ran two experiments:\n▪︎ Detecting Python vs. English as text is typed\n▪︎ Writing Python, one decision at a time\n\n𝚞𝚟 𝚊𝚍𝚍 𝚊𝚒\n\nhttps://t.co/fWPx6k3Gw3 https://t.co/eLaAvdzGdS",
+  "glossary": [
+   {
+    "term": "AI SDK",
+    "ar": "حزمة تطوير برمجيات للذكاء الاصطناعي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Vercel",
+   "Jev",
+   "Python"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 126,
+   "replies": 17,
+   "reposts": 10,
+   "quotes": 2,
+   "bookmarks": 49,
+   "views": 32031
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "https://vercel.com/blog/jev-for-python-engineers"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2116",
+  "serial": 2116,
+  "serial_display": "#002116",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2106079691337867687",
+  "source_native_id": "2106079691337867687",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-10-02T17:51:42Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Gemini يطلق Guided Vision للمساعدة البصرية لضعاف البصر",
+  "arabic_summary": "أطلقت Google ميزة Guided Vision ضمن Gemini Live على أجهزة Android المتوافقة، طُوّرت بالتعاون مع مجتمع المكفوفين وضعاف البصر، وتوفر وصفًا صوتيًا فوريًا للمحيط عبر الكاميرا، مع إمكانية طرح أسئلة متابعة وتلقي إرشادات صوتية استباقية.",
+  "detailed_explanation": "Guided Vision ميزة جديدة في Gemini Live، تعمل بمشاركة الكاميرا أثناء الجلسة ليصف المساعد المحيط بصوت واضح: قراءة نص دقيق، تحديد أغراض قريبة، والرد على أسئلة تفصيلية حول ما تراه الكاميرا.\n\nطُوّرت الميزة بالتعاون مع مجتمع المكفوفين وضعاف البصر، وتشمل إرشادات صوتية استباقية لمساعدة المستخدم على توسيط أي شيء يريد استكشافه، وهي متاحة حاليًا على أجهزة Android المتوافقة ضمن تطبيق Gemini.",
+  "why_it_matters": "هذه ميزة وصول مباشرة في Gemini تمسّ تطبيق Gemini الذي يستعمله عزيز، وتوسّع استخدامات المساعد الصوتي البصري لفئة محددة من المستخدمين.",
+  "original_text": "RT @NewsFromGoogle: We’re launching Guided Vision in Gemini Live across compatible @Android devices. Built alongside the blind and low-vision community, Guided Vision offers conversational, real-time visual assistance.\n\nSimply share your camera during a Gemini Live session to hear clear descriptions of your surroundings — from reading fine print to finding nearby objects. You can also ask detailed follow-up questions and receive proactive, spoken cues to center whatever you want to explore. \n\nLearn more about Guided Vision in @GeminiApp: https://t.co/zHSvJ2qtim",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Google",
+   "Gemini",
+   "Gemini Live",
+   "Android"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 660,
+   "replies": 27,
+   "reposts": 64,
+   "quotes": 12,
+   "bookmarks": 88,
+   "views": 33628
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2117",
+  "serial": 2117,
+  "serial_display": "#002117",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2106176799545970710",
+  "source_native_id": "2106176799545970710",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-03T00:17:34Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تحديثات أسبوعية على Agents API من OpenAI",
+  "arabic_summary": "أعلن فريق Agents API عن مجموعة تحديثات تشمل Computer Use لتشغيل متصفح ووكيل بطلب API واحد، ودعم AWS Bedrock Managed Agents، وتحسينات في بيئات التشغيل ولوحة التحكم، مع رفع الموثوقية إلى 99.97%.",
+  "detailed_explanation": "التحديث يشمل عدة نقاط مهمة لمن يطور باستخدام Agents API: ميزة Computer Use التي تتيح تشغيل متصفح مع وكيل بطلب واحد، ودعم Bedrock Managed Agents الذي يوفر البنية نفسها عبر AWS، إضافة إلى تحسينات في حجم البيئات المستضافة وإمكانية إعادة استخدامها عبر جلسات متعددة.\n\nكما تحسّنت لوحة التحكم لتسمح بتهيئة subagents مباشرة، مع تحسّن ملموس في الموثوقية ووقت استجابة استدعاء الأدوات بنسبة 20%. هذه التغييرات تراكمية وتمسّ أي بنية وكلاء مبنية فوق منصة OpenAI.",
+  "why_it_matters": "تحديثات متتالية على بنية الوكلاء تعني تغييرات عملية لكل من يبني أنظمة Agent فوق واجهة OpenAI البرمجية.",
+  "original_text": "Building with the Agents API?\n\nCatch up on what’s new:",
+  "glossary": [
+   {
+    "term": "Computer Use",
+    "ar": "استخدام الحاسوب عبر الوكيل"
+   },
+   {
+    "term": "Subagent",
+    "ar": "وكيل فرعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [
+   "New Feature",
+   "Upgrade",
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 235,
+   "replies": 34,
+   "reposts": 14,
+   "quotes": 2,
+   "bookmarks": 76,
+   "views": 34917
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "The team behind Agents API continues to cook. Here's what's new this week:\n\nComputer use: Spin up a browser + agent with 1 API call 🖥️\nBedrock Managed Agents: Agents API except AWS\nGPT‑6.1 Sol 🌞\nEnvironment sizes: Spin up a light or beefy oai-hosted environment 💪\nDashboard improvements: configure subagents and more from the dashboard 📈\nEnvironment portability: Re-use environments across multiple s"
+  },
+  "cluster_id": "agents-api-weekly-update",
+  "also_reported": [
+   {
+    "author": "OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2106176067748897032"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2118",
+  "serial": 2118,
+  "serial_display": "#002118",
+  "source_type": "x",
+  "source_url": "https://x.com/trq212/status/2106119299484221762",
+  "source_native_id": "2106119299484221762",
+  "source_name": "Thariq",
+  "source_site": "x.com",
+  "author": "trq212",
+  "published_at": "2026-10-02T20:29:05Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إضافة You Should Know لإدارة إشعارات Claude Code",
+  "arabic_summary": "يعلّق المستخدم على plugin جديد في Claude Code باسم You Should Know، يفحص مخرجات Claude ليُنبّه المستخدم إلى معلومات مهمّة قد تفوته، مع تفعيله عبر أمر plugin enable.",
+  "detailed_explanation": "المنشور تعليق على إضافة جديدة اسمها You Should Know تُضاف إلى Claude Code ضمن نظام الـ plugins. وظيفتها مسح مخرجات Claude أثناء العمل والتنبيه لأي معلومة مهمة قد يغفل عنها المستخدم أثناء الانشغال بالمهمة الأساسية.\n\nتفعيلها بسيط عبر أمر plugin enable، وهذا يعكس اتجاه Anthropic نحو جعل Claude Code قابلاً للتخصيص بإضافات صغيرة الحجم موجهة لحلّ مشاكل استخدام محددة، بدل الاعتماد فقط على الميزات الافتراضية.",
+  "why_it_matters": "هذا تخصيص مباشر لسلوك Claude Code عبر نظام الإضافات (plugins) الذي أطلقته Anthropic مؤخرًا، ويفيد من يعتمد على الأداة يوميًا في البرمجة.",
+  "original_text": "\"You should know\" is a great way of staying on top of what's possible with Claude and also a great example of the kind of things mods enable.\n\nYou can really make Claude Code yours.",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1184,
+   "replies": 69,
+   "reposts": 43,
+   "quotes": 4,
+   "bookmarks": 889,
+   "views": 114454
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We're adding a new plugin to Claude Code: You should Know.\n\nIt scans Claude's output for important information you might miss to help keep you in the loop.\n\nEnable it with:\n\n/plugin enable cc-plugin-you-should-know@builtin https://t.co/A4byi4Q9Df"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2119",
+  "serial": 2119,
+  "serial_display": "#002119",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2106228294366716059",
+  "source_native_id": "2106228294366716059",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-10-03T03:42:11Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شرح مبسّط لمفهوم Mods الجديدة في Claude Code",
+  "arabic_summary": "توضيح لمفهوم Mods في Claude Code بأنها إضافات Plugins بوظائف خاصة تتيح تشغيل كود المستخدم داخل Claude Code مثل middleware، مع إمكانية أن يكتبها Claude نفسه للمستخدم.",
+  "detailed_explanation": "المنشور شرح تعليمي مبسّط يوضح أن Mods في Claude Code هي في الأساس Plugins لها وظائف خاصة تجعلها تعمل كـ middleware داخل جلسة الأداة، أي أنها تتدخل في سلوك الأداة أثناء التشغيل.\n\nيشير الشرح أيضًا إلى أن كتابة هذه الـ Mods لا تتطلب خبرة عميقة، إذ يمكن طلب كتابتها من Claude نفسه، مما يخفّض حاجز الدخول لتخصيص الأداة.\n\nهذا يفيد مباشرة مستخدمي Claude Code الذين يريدون تعديل سلوك الأداة أو واجهتها دون انتظار ميزات رسمية جديدة.",
+  "why_it_matters": "يشرح بنية جديدة تتيح للمطورين تخصيص سلوك Claude Code برمجيًا، وهو أمر يمسّ مباشرة من يستخدم الأداة في العمل اليومي.",
+  "original_text": "RT @lydiahallie: A few of you asked what mods are, here's a quick walkthrough! They’re really just plugins with a few special functions that let your code run inside Claude Code, like middleware.\n\n(don't worry, you can just ask Claude to write them for you 😛) https://t.co/R1fjPiEwxl",
+  "glossary": [
+   {
+    "term": "Middleware",
+    "ar": "طبقة وسيطة"
+   },
+   {
+    "term": "Mod",
+    "ar": "تعديل/تخصيص"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 1264,
+   "replies": 91,
+   "reposts": 67,
+   "quotes": 10,
+   "bookmarks": 923,
+   "views": 69331
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "claude-code-mods",
+  "also_reported": [
+   {
+    "author": "ClaudeDevs",
+    "url": "https://x.com/ClaudeDevs/status/2106138612215808023"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2120",
+  "serial": 2120,
+  "serial_display": "#002120",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2105951409887949107",
+  "source_native_id": "2105951409887949107",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-02T09:21:57Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Prompt لتحليل جلسات الوكيل البرمجي وتحسين تصفّح المستودع",
+  "arabic_summary": "يقترح الكاتب Prompt باسم retro يطلب من الوكيل البرمجي مراجعة آخر عشر جلسات عمل، لاكتشاف المواضع التي يضيع فيها وقتًا طويلاً بالبحث عن معلومة أو يعتمد على وثائق قديمة. الهدف تحسين تنظيم المستودع (repo) لتسهيل تصفّحه على الوكلاء.",
+  "detailed_explanation": "الفكرة تقوم على استخدام الوكيل نفسه لتدقيق سلوكه السابق: إعادة قراءة جلسات العمل الأخيرة لتحديد أين يضيع وقتًا في البحث عن سياق أو يعتمد خطأً على وثائق قديمة غير محدّثة.\n\nالناتج العملي هو قائمة تحسينات بنيوية على المستودع — مثل تنظيم الملفات أو تحديث التوثيق — تجعل الوكلاء القادمين أسرع في الوصول للمعلومة الصحيحة، وهو ما يترجم مباشرة إلى توفير في عدد الـ Tokens المستهلكة لكل مهمة.",
+  "why_it_matters": "تحسين قابلية التصفّح يقلّل استهلاك الـ Tokens ويرفع كفاءة الوكلاء البرمجية في المشاريع الحقيقية.",
+  "original_text": "Prompt of the day:\n\n/retro read my last 10 coding agent sessions and find ways to make my repo easier to navigate. Find where agents take too long to find relevant information, or rely on out-of-date docs.\n\nImproving navigability is such an underrated way to save tokens.",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة قياس نص يعالجها النموذج"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3960,
+   "replies": 115,
+   "reposts": 177,
+   "quotes": 16,
+   "bookmarks": 4892,
+   "views": 195993
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "retro-prompt",
+  "also_reported": [
+   {
+    "author": "mattpocockuk",
+    "url": "https://x.com/mattpocockuk/status/2106020183630594075"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2121",
+  "serial": 2121,
+  "serial_display": "#002121",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2106067328601370724",
+  "source_native_id": "2106067328601370724",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-02T17:02:34Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith تطلق Custom Apps لبناء واجهات من بيانات المشروع",
+  "arabic_summary": "أطلقت LangSmith ميزة Custom Apps التي تتيح للمستخدمين بناء واجهة خاصة تعتمد على بيانات LangSmith ونشرها داخل مساحة العمل، دون الحاجة للتعامل مع الاستضافة أو المصادقة أو الصلاحيات.",
+  "detailed_explanation": "LangSmith هي منصة LangChain لمراقبة وتقييم تطبيقات الذكاء الاصطناعي، وCustom Apps ميزة جديدة تتيح بناء واجهة مخصصة تستهلك بيانات هذه المنصة مباشرة.\n\nالقيمة الأساسية هي تخطّي العمل التقني المعتاد عند بناء أي تطبيق داخلي: الاستضافة، نظام الدخول، وإدارة الصلاحيات، إذ تتكفل LangSmith بكل ذلك وتترك للمطوّر فقط بناء الواجهة ونشرها داخل مساحة العمل.",
+  "why_it_matters": "تختصر هذه الميزة عملًا هندسيًا كاملًا (استضافة، مصادقة، صلاحيات) لمن يريد بناء لوحات أو أدوات داخلية فوق بيانات مراقبة الـ Agents في LangSmith.",
+  "original_text": "💻 Build the interface you want w/ your LangSmith data\n✅ Publish it into your workspace\n🙅 Skip hosting, auth, + permissions work\n\nGet started with Custom Apps today. \nhttps://t.co/MayBpUbhnW",
+  "glossary": [],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "LangChain",
+   "LangSmith"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 38,
+   "replies": 6,
+   "reposts": 4,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 7663
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "https://www.langchain.com/blog/langsmith-custom-apps"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2122",
+  "serial": 2122,
+  "serial_display": "#002122",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2106037071848636473",
+  "source_native_id": "2106037071848636473",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-02T15:02:20Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith Engine v2 يختبر إصلاحات الـ Agents قبل النشر",
+  "arabic_summary": "أطلقت LangChain نسخة جديدة من LangSmith Engine تقوم تلقائيًا بإعادة إنتاج المشكلة في نفس بيئة النشر، وبناء إصلاح واختباره وتحسينه، ثم تقديمه كـ Pull Request جاهز للمراجعة والنشر.",
+  "detailed_explanation": "LangSmith Engine v2 يستهدف مشكلة شائعة في تطوير الـ Agents: صعوبة التحقق من أن إصلاحًا مقترحًا يحل المشكلة فعلًا دون كسر شيء آخر. الأداة تعيد إنتاج المشكلة الأصلية في نفس بيئة النشر وبنفس المدخلات.\n\nبعدها تبني إصلاحًا وتختبره وتكرر التحسين حتى تصل لحل مُرضٍ، ثم تسلّم النتيجة للمطور على شكل Pull Request جاهز للمراجعة والنشر، ما يضيف طبقة تحقق آلية قبل أي تغيير على الإنتاج.",
+  "why_it_matters": "أتمتة اختبار إصلاحات الـ Agents قبل الدمج تقلل مخاطر النشر وتختصر دورة التصحيح، وهذا مباشر الصلة ببناء وصيانة أنظمة الوكلاء.",
+  "original_text": "Validate agent fixes before shipping them with LangSmith Engine v2. \n\nEngine now tests and validates fixes automatically: \n\n✅ Replicates the issue with the same deployment environment and same inputs\n✅ Builds a fix, tests it, and iterates on improving it until it has a satisfactory solution\n✅ You review the fix and deploy it with a ready-made PR",
+  "glossary": [
+   {
+    "term": "Pull Request",
+    "ar": "طلب دمج تغييرات الكود"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "LangSmith Engine"
+  ],
+  "change_types": [
+   "New Feature",
+   "Upgrade"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 26,
+   "replies": 10,
+   "reposts": 2,
+   "quotes": 2,
+   "bookmarks": 6,
+   "views": 6757
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2123",
+  "serial": 2123,
+  "serial_display": "#002123",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2106137763087290561",
+  "source_native_id": "2106137763087290561",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-02T21:42:27Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بلاغات عن تقارير Deep Research في ChatGPT بلا استشهادات",
+  "arabic_summary": "يبلغ مستخدم أن ميزة Deep Research في ChatGPT Pro أنتجت له تقارير بدون أي استشهادات (citations) أو عمليات بحث على الويب، وذلك بشكل متكرر، ويشير إلى أن مستخدمين آخرين في منتدى مطوري OpenAI يبلّغون عن مشكلة مشابهة.",
+  "detailed_explanation": "يذكر المستخدم أن ميزة Deep Research في اشتراك ChatGPT Pro أنتجت تقارير خالية تمامًا من الاستشهادات، وأحيانًا بدون أي عملية بحث على الويب على الإطلاق، رغم أن هذه الميزة مصممة أصلًا للبحث العميق المدعوم بمصادر.\n\nيشير إلى أن المشكلة تكررت معه عدة مرات، وأن مستخدمين آخرين في منتدى مطوري OpenAI أبلغوا عن مشكلة مشابهة، ما يرجّح أن الأمر خلل عام وليس حالة فردية.",
+  "why_it_matters": "خلل في ميزة بحثية أساسية بأداة يستخدمها عزيز يُفقدها قيمتها الأساسية وهي الاستشهاد بالمصادر.",
+  "original_text": "Is anyone getting this? Deep Research in ChatGPT gave me a report with zero citations!\n\nIt's happened multiple times, sometimes even reporting zero web searches. I was using Pro.\n\nOpenAI Dev Community has people reporting something similar: https://t.co/WVzHnXJv1x",
+  "glossary": [
+   {
+    "term": "Deep Research",
+    "ar": "البحث العميق"
+   },
+   {
+    "term": "Citation",
+    "ar": "استشهاد مرجعي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 29,
+  "metrics": {
+   "likes": 3,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 594
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "deepresearchbug",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2106139167214403854"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2124",
+  "serial": 2124,
+  "serial_display": "#002124",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleAI/status/2106049984164463069",
+  "source_native_id": "2106049984164463069",
+  "source_name": "Google AI",
+  "source_site": "x.com",
+  "author": "GoogleAI",
+  "published_at": "2026-10-02T15:53:39Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تطلق أول قمر صناعي تجريبي لمشروع Suncatcher",
+  "arabic_summary": "أطلقت Google قمرًا صناعيًا تجريبيًا بالشراكة مع Planet وSpaceX ضمن مشروع Suncatcher الذي يستكشف إمكانية استضافة بنية تعلم آلي في الفضاء. الهدف الأول جمع بيانات عن تحمّل معالجات TPU لظروف الفضاء القاسية.",
+  "detailed_explanation": "",
+  "why_it_matters": "فكرة استضافة الحوسبة في المدار المنخفض للاستفادة من طاقة شمسية أكبر تفتح مسارًا جديدًا محتملًا لتوسيع البنية التحتية لتدريب النماذج مستقبلًا.",
+  "original_text": "Project Suncatcher has liftoff! ☀️🚀\n\nAnnounced last year, this moonshot project explores if we can one day host machine learning infrastructure in space. After years of research, we’ve just launched a prototype satellite, built in partnership with @planet, into orbit on @SpaceX's Transporter-18 rideshare mission.\n\nThis initial mission will gather data on how @Google TPUs handle the physical stress and extremes of spaceflight. Ultimately, these findings will help us explore how to potentially link multiple satellite constellations for scaled machine learning. By operating in low Earth orbit, these systems can tap into near-constant sunlight to generate up to 8x more solar power than on Earth.",
+  "glossary": [
+   {
+    "term": "TPU",
+    "ar": "وحدة معالجة موترات"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Google",
+   "Planet",
+   "SpaceX",
+   "TPU"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 655,
+   "replies": 53,
+   "reposts": 75,
+   "quotes": 22,
+   "bookmarks": 57,
+   "views": 58313
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2125",
+  "serial": 2125,
+  "serial_display": "#002125",
+  "source_type": "x",
+  "source_url": "https://x.com/ElevenLabs/status/2106099648121225710",
+  "source_native_id": "2106099648121225710",
+  "source_name": "ElevenLabs",
+  "source_site": "x.com",
+  "author": "ElevenLabs",
+  "published_at": "2026-10-02T19:11:00Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ElevenLabs تطلق نموذج Eleven v4 الصوتي في تطبيق ElevenReader",
+  "arabic_summary": "أصبح نموذج Eleven v4، الأكثر تعبيرًا بين نماذج ElevenLabs الصوتية، متاحًا الآن داخل تطبيق ElevenReader لقراءة المقالات والكتب الإلكترونية وملفات PDF بصوت مختار من أكثر من 90 لغة.",
+  "detailed_explanation": "",
+  "why_it_matters": "يحسّن جودة التجربة الصوتية في قراءة المحتوى الطويل، وهو مفيد لمن يبني محتوى صوتيًا أو يستخدم أدوات تحويل النص إلى صوت.",
+  "original_text": "Eleven v4, our most expressive voice model, is now in ElevenReader.\n\nListen to any article, ebook, or PDF in a voice you choose, in 90+ languages.\n https://t.co/vYoaJ2e0cw",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "ElevenLabs",
+   "ElevenReader"
+  ],
+  "change_types": [
+   "Model Update",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 165,
+   "replies": 12,
+   "reposts": 5,
+   "quotes": 5,
+   "bookmarks": 38,
+   "views": 13167
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2126",
+  "serial": 2126,
+  "serial_display": "#002126",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2106118517447876618",
+  "source_native_id": "2106118517447876618",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-10-02T20:25:59Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يضيف Plugin جديدًا لتنبيه المستخدم بالمعلومات المهمة",
+  "arabic_summary": "أطلقت Anthropic إضافة جديدة لـClaude Code باسم «You should Know» تفحص مخرجات Claude وتنبّه المستخدم للمعلومات المهمة التي قد يفوتها، ويمكن تفعيلها بأمر مباشر.",
+  "detailed_explanation": "",
+  "why_it_matters": "ميزة عملية تقلل فرصة تفويت تفاصيل مهمة في مخرجات طويلة أثناء الاستخدام اليومي لـClaude Code، وهي أداة يستعملها عزيز فعليًا.",
+  "original_text": "We're adding a new plugin to Claude Code: You should Know.\n\nIt scans Claude's output for important information you might miss to help keep you in the loop.\n\nEnable it with:\n\n/plugin enable cc-plugin-you-should-know@builtin https://t.co/A4byi4Q9Df",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 9035,
+   "replies": 199,
+   "reposts": 500,
+   "quotes": 106,
+   "bookmarks": 8995,
+   "views": 598948
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2127",
+  "serial": 2127,
+  "serial_display": "#002127",
+  "source_type": "x",
+  "source_url": "https://x.com/deepseek_ai/status/2105915715241062644",
+  "source_native_id": "2105915715241062644",
+  "source_name": "DeepSeek",
+  "source_site": "x.com",
+  "author": "deepseek_ai",
+  "published_at": "2026-10-02T07:00:07Z",
+  "fetched_at": "2026-10-03T05:05:11Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "DeepSeek تطلق نسخًا سطحية لـ DeepSeek Harness على macOS وWindows",
+  "arabic_summary": "أعلنت DeepSeek إتاحة نسخ مُعبّأة (packaged) من أداة DeepSeek Harness على أنظمة macOS وWindows، مع توفرها لمستخدمي Linux عبر حزمة npm.",
+  "detailed_explanation": "",
+  "why_it_matters": "يسهّل الإصدار الجديد وصول المطورين إلى أداة DeepSeek Harness عبر أنظمة التشغيل الرئيسية دون الحاجة لإعدادات تقنية معقدة.",
+  "original_text": "Please check out @DeepSeekHarness. We just released packaged desktop versions for macOS and Windows; Linux users can get it from the @​deepseek-ai/dsh package on npm. https://t.co/Cde0dZ6cPy",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "DeepSeek",
+   "DeepSeek Harness"
+  ],
+  "change_types": [
+   "New Release",
+   "General Availability"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3880,
+   "replies": 175,
+   "reposts": 292,
+   "quotes": 77,
+   "bookmarks": 859,
+   "views": 341606
+  },
+  "metrics_captured_at": "2026-10-03T05:05:11Z",
+  "external_links": [
+   "https://deepseek.com/harness"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "DeepSeek Harness for desktop is now available on macOS and Windows. https://t.co/hpDsyMYvLs"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
