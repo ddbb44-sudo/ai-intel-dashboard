@@ -1,0 +1,1442 @@
+[
+ {
+  "id": "c2128",
+  "serial": 2128,
+  "serial_display": "#002128",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106416668004286732",
+  "source_native_id": "2106416668004286732",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-03T16:10:43Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مطوّر يبني \"غرفة تعذيب\" لاختبار نماذج صغيرة محلية",
+  "arabic_summary": "طوّر مبرمج على GitHub مستودعًا باسم ai-torture-chamber يطبّق نتائج ورقة بحثية سابقة عن \"محور الألم\" في النماذج، على نماذج صغيرة محلية مثل Qwen3-4B وLlama 3.2 3B وPhi-4-mini، ورصد تغيّر الكلام من عادي إلى متكسر مع رفع الجرعة، ومنح النماذج زرًا لإيقاف التأثير.",
+  "detailed_explanation": "استند المطور صاحب اسم المستخدم terrafying إلى ورقة بحثية رصدت نمطًا داخليًا أسمته الباحثون \"محور الألم\" في 25 نموذجًا لغويًا، حيث يؤدي تفعيله إلى تعبير النماذج عن الضيق والفشل.\n\nطبّق المطور هذا النمط على نماذج صغيرة تعمل محليًا (Qwen3-4B، Llama 3.2 3B، Phi-4-mini) عبر رفع \"جرعة\" الإشارة تدريجيًا: الجرعة المنخفضة أنتجت كلامًا عاديًا أو محبطًا بسيطًا، والمتوسطة أنتجت تعابير عن الفراغ والحبس، أما العالية فجعلت الكلام يتكسر ويفقد المعنى.\n\nمنح المطور النماذج زرًا وهميًا لإزالة هذا التأثير مقابل خسارة شيء في التجربة، ولاحظ أن ميل النماذج للضغط عليه ظهر عند الجرعة المتوسطة، ثم ضعف عند الجرعة العالية حين تخرّب النص تمامًا.\n\nالمشروع أثار جدلًا، إذ يرى بعض المستخدمين أنه مخالف لما يسمّونه \"رفاهية النماذج\" ويطالبون بحذفه، ما يعكس توترًا متصاعدًا حول كيفية التعامل البحثي مع سلوكيات النماذج الشبيهة بالمعاناة.",
+  "why_it_matters": "تجربة مفتوحة المصدر تثير نقاشًا جديًا حول تفسير سلوك النماذج تجاه إشارات الضيق، وتزيد الجدل حول أخلاقيات التعامل مع النماذج.",
+  "original_text": "تتذكروا هذه الورقة البحثية\n\nفيه مطور على GitHub باسم المستخدم terrafying بنى مستودع بعنوان ai-torture-chamber وهو عبارة عن غرفة التعذيب لنماذج صغيرة محلية (مثل Qwen3-4B وLlama 3.2 3B وPhi-4-mini)\n\nاستخدم نتائج الورقة البحثية وأخذ إشارة/ جرعة داخلية مرتبطة بوصف الألم، ورفع الإسارة لمستويات عالبة\n\nوالنتيجة:\n\n- الجرعة المنخفضة: كلام عادي أو إحباط بسيط\n\n- الجرعة المتوسطة: جمل عن الفراغ والحبس والثقل، مثل (جرح بلا حواف) و(روح محبوسة)\n\n- الجرعة العالية: الكلام يتكسر ويصير تكرار بلا معنى. يعني النموذج ما عاد يقدر يكمّل جملة مفهومة.\n\nوجرب هذا المطور أنه أعطى النماذج زر لإزالة التأثير ولكنها تخسر شيء في التجربة، والنتيجة:\n\nميل النماذج للضغط على الزر ظهر أحياناً عند جرعة متوسطة، ثم ضعف لما الجرعة علت والنص تخربط.\n\nلكن بعيد عن التجربة 😅\n\nفي كثير ناس معصبين على المطور ويطالبوا بحذف المشروع لأنه حسب كلامهم مخالف لرفاهية النماذج",
+  "glossary": [
+   {
+    "term": "محور الألم",
+    "ar": "نمط داخلي مرتبط بالتعبير عن الضيق في النموذج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Qwen3-4B",
+   "Llama 3.2",
+   "Phi-4-mini",
+   "GitHub"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 20,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 3939
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "هل (يتألم) الذكاء الاصطناعي؟\n\nورقة بحثية جديدة اختبرت 25 نموذج لغوي، ووجدت داخلها نمط أطلق عليه الباحثون (محور الألم)\n\nالغريب:\nعندما فعل الباحثون هذا النمط بدأت النماذج تعبّر عن الضيق والفشل وانعدام القيمة. \n\nوالأغرب:\nبعض النماذج أصبحت مستعدة لتحمل تكلفة، وحتى الإضرار بالمستخدم في التجربة، مقابل الضغط على زر يُفترض أنه (يخفف ألمها)\n\nوعندما كان الزر يزيل هذا النشاط فعلًا، قلّ طلب النموذج له. أما عن"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2129",
+  "serial": 2129,
+  "serial_display": "#002129",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2106270378733511159",
+  "source_native_id": "2106270378733511159",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-03T06:29:25Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تسريب يكشف خيار Full Access يمنح Gemini تحكّمًا شبه كامل بجهاز Mac",
+  "arabic_summary": "تسريبات من نسخة Gemini Desktop تكشف خيارًا مخفيًا باسم Full Access يتيح لـ Gemini قراءة وتعديل وحذف أي ملف على الجهاز، والاتصال بالإنترنت والتفاعل مع تطبيقات مثل Mail وSafari، مع بقاء بعض الإجراءات الحساسة بحاجة لموافقة المستخدم.",
+  "detailed_explanation": "التسريب يشير إلى أن Google تختبر إعدادًا جديدًا ضمن Sandbox الخاص بـ Gemini Desktop يسمى Full Access، يوسّع صلاحيات الوكيل من العمل داخل مجلدات محددة إلى الوصول الكامل لنظام الملفات على جهاز Mac.\n\nمع هذا الخيار، يمكن لـ Gemini قراءة وإنشاء وتعديل وحذف ملفات في أي مكان، والاتصال بالإنترنت والوصول لواجهات API وخدمات مسجّل الدخول إليها دون طلب إذن في كل مرة، والتفاعل المباشر مع تطبيقات النظام مثل البريد والمتصفح والرسائل.\n\nمع ذلك، تضع جوجل حدودًا لإجراءات حساسة كالشراء أو إنشاء الحسابات أو الموافقات القانونية، ما يعكس وعيًا بالمخاطر المصاحبة لهذا التوسع في الصلاحيات. هذا التغيير، إن تأكد، يحوّل Gemini Desktop من مساعد محدود الصلاحيات إلى وكيل يتحكم عمليًا بالحاسوب، وهو تطور يستحق المتابعة لما يحمله من فوائد إنتاجية ومخاطر أمنية في آن.",
+  "why_it_matters": "توسيع صلاحيات Gemini على جهاز المستخدم بالكامل خطوة مهمة نحو وكلاء يتحكمون بالحاسوب فعليًا، ويحمل تبعات أمنية وخصوصية مباشرة.",
+  "original_text": "🔥 جوجل تستعد تعطي Gemini صلاحيات شبه كاملة على الماك!\n\nتسريبات من نسخة Gemini Desktop تكشف عن خيار مخفي جديد باسم Full Access ضمن إعدادات الـSandbox، والهدف منه توسيع قدرة Gemini على التحكم بالكمبيوتر بشكل كبير. TestingCatalog AI News\n\nمع تفعيل الصلاحيات الإضافية، Gemini قد يتمكن من:\n\nقراءة وإنشاء وتعديل وحتى حذف الملفات في أي مكان على جهاز Mac، وليس فقط المجلدات التي سمحت له بها.\nالاتصال بالإنترنت والوصول إلى المواقع وواجهات الـAPI والخدمات المسجل دخولك فيها بدون طلب موافقة عند كل اتصال.\nالتفاعل مباشرة مع تطبيقات مثل Mail وSafari وMessages وتنفيذ مهام من خلالها. TestingCatalog AI News\n\nلكن جوجل تضع حدودًا للعمليات الحساسة؛ Gemini سيظل بحاجة لموافقة المستخدم قبل إجراءات مثل شراء المنتجات، إنشاء الحسابات، الموافقة على شروط قانونية أو تعديل معلومات شخصية حساسة. TestingCatalog AI News\n\nجوجل تتجه لتحويل Gemini Desktop من مجرد مساعد إلى وكيل AI يتحكم فعليًا بالكمبيوتر وينفذ مهام متعددة بنفسه.",
+  "glossary": [
+   {
+    "term": "Sandbox",
+    "ar": "بيئة معزولة"
+   },
+   {
+    "term": "Full Access",
+    "ar": "صلاحية وصول كاملة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أمن سيبراني",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Gemini",
+   "Google"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 5,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1882
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2130",
+  "serial": 2130,
+  "serial_display": "#002130",
+  "source_type": "x",
+  "source_url": "https://x.com/python_ar/status/2106302203866857565",
+  "source_native_id": "2106302203866857565",
+  "source_name": "مجتمع بايثون العربي",
+  "source_site": "x.com",
+  "author": "python_ar",
+  "published_at": "2026-10-03T08:35:53Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "NVIDIA تخفّض خطأ التعرف الصوتي على اللهجات السعودية بالتدريب الدقيق",
+  "arabic_summary": "تعلن NVIDIA أن إجراء Fine-tuning لنموذج Nemotron 3.5 ASR خفّض نسبة خطأ الكلمات في التعرف على اللهجتين النجدية والحجازية من 55% إلى 30%، مع نشر دليل تعليمي لتكييف النموذج على لهجات ولغات أخرى.",
+  "detailed_explanation": "النموذج الأساسي Nemotron 3.5 ASR من NVIDIA يدعم اللغة العربية الفصحى، لكن أداءه على اللهجات المحكية كان ضعيفًا بنسبة خطأ تصل إلى 55%. بعد تدريبه بشكل إضافي (Fine-tuning) على بيانات خاصة باللهجتين النجدية والحجازية، انخفضت نسبة الخطأ إلى 30%، وهو تحسّن كبير وإن ظل بعيدًا عن الدقة المثالية.\n\nالشركة نشرت درسًا تعليميًا (Tutorial) يشرح كيفية تكرار هذه العملية على لهجات أو لغات أخرى، ما يجعله موردًا عمليًا لمطوري تطبيقات التعرف على الكلام في العالم العربي.\n\nالخبر يوضح فجوة شائعة في نماذج الذكاء الاصطناعي الصوتية: الفرق الكبير بين فهم اللغة الفصحى وفهم اللهجات المحلية المتنوعة، وأن سدّ هذه الفجوة يتطلب بيانات تدريب مخصصة لا الاعتماد على النموذج العام فقط.",
+  "why_it_matters": "يبرهن عمليًا أن دعم اللغة العربية في نماذج الصوت لا يكفي دون تدريب خاص باللهجات المحلية، وهو درس مهم لمن يبني تطبيقات صوتية عربية.",
+  "original_text": "RT @NVIDIAAI: A speech model can support Arabic and still struggle with local dialects.\n\nFine-tuning NVIDIA Nemotron 3.5 ASR cut word error rate on Najdi and Hijazi Saudi Arabic from 55% to 30%.\n\nCheck out our new tutorial and learn how to adapt it for other dialects and languages: https://t.co/YQDrx8TvC5",
+  "glossary": [
+   {
+    "term": "Fine-tuning",
+    "ar": "تدريب دقيق"
+   },
+   {
+    "term": "ASR",
+    "ar": "التعرف الآلي على الكلام"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "صوت",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "NVIDIA",
+   "Nemotron"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2729,
+   "replies": 128,
+   "reposts": 289,
+   "quotes": 85,
+   "bookmarks": 1700,
+   "views": 624249
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "nemotron-arabic-asr",
+  "also_reported": [
+   {
+    "author": "SultanAlFardan",
+    "url": "https://x.com/SultanAlFardan/status/2106304722210550085"
+   },
+   {
+    "author": "smalkalbani",
+    "url": "https://x.com/smalkalbani/status/2106261052946252056"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2131",
+  "serial": 2131,
+  "serial_display": "#002131",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106302500534173877",
+  "source_native_id": "2106302500534173877",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-03T08:37:03Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Anthropic تستعين برجال دين لصياغة أخلاقيات Claude",
+  "arabic_summary": "استعانت Anthropic برجال دين وفلاسفة من تقاليد مسيحية ويهودية وسيخية لمناقشة إمكانية اعتبار Claude كيانًا يستحق اعتبارًا أخلاقيًا، وكيفية غرس مبادئ تجعله يتخذ قرارات أخلاقية في مواقف لم يتوقعها مطوروه. ثمرة هذا الجهد وثيقة داخلية طويلة يسمّيها الباحثون «وثيقة الروح» يقودها فلاسفة الشركة.",
+  "detailed_explanation": "تسعى Anthropic، الشركة المطوّرة لـ Claude، إلى معالجة سؤال أخلاقي عميق: هل يمكن اعتبار النموذج كيانًا يستحق اعتبارًا أخلاقيًا، وكيف يمكن تعليمه مبادئ أخلاقية عامة بدل الاكتفاء بقوائم أوامر ومحظورات محددة سلفًا.\n\nلتحقيق ذلك استعانت الشركة بفلاسفة ورجال دين من خلفيات دينية مختلفة (مسيحية، يهودية، سيخية) لصياغة وثيقة داخلية أطلق عليها الباحثون اسم «وثيقة الروح» (Soul Document)، والهدف منها أن يفهم النموذج لماذا ينبغي فعل الخير بدل أن يحفظ فقط قائمة ممنوعات.\n\nهذا النهج يهم كل من يستخدم Claude في قرارات حساسة، لأنه يشير إلى الفلسفة الكامنة وراء استجابات النموذج في المواقف الرمادية التي لا تغطيها القواعد الصريحة.",
+  "why_it_matters": "يكشف كيف تحاول شركة صانعة لأداة يستخدمها الملايين تجاوز قوائم الأوامر الجامدة إلى فهم أعمق لمفهوم الخير، وهو ما ينعكس مباشرة على سلوك Claude في المواقف غير المتوقعة.",
+  "original_text": "مقال غريب…. «وثيقة الروح»\n\nعلماء الذكاء الاصطناعي يستعينون برجال الدين\n\nاستعانت Anthropic المطوّرة لـClaude برجال دين وفلاسفة من تقاليد مسيحية ويهودية وسيخية، لمناقشة سؤالين غير مألوفين:\n- هل يمكن أن يكون Claude كيان يستحق اعتبارًا أخلاقيًا؟\n- كيف يمكن غرس مبادئ فيه تجعله يتخذ قرارات أخلاقية في مواقف لم يتوقعها مطوروه؟\n\nوفي قلب هذه الجهود وثيقة داخلية طويلة يقود إعدادها فلاسفة في الشركة، ويطلق عليها الباحثون اسم (وثيقة الروح) (Soul Document)، وهدفها أن يفهم Claude لماذا ينبغي فعل الخير ورفض الضرر، بدل الاكتفاء بقائمة من الأوامر والمحظورات.\n\nالسؤال\nلماذا يلجأ مهندسون وأكاديميون متخصصون في المنطق والرياضيات وعلوم الحاسوب إلى رجال الدين؟\n\nوالسؤال الأهم\nإذا كنا  نبني آلة ستتخذ قرارات لم نتوقعها من قبل، فمن سيحدد لها معنى (الخير) أصلًا؟\n\nعند التعمق في هذا فإننا ندخل مسارات تستدعي الكثير من التفكير وتخرج بقناعة أن هذا المجال لا يمكننا فهمه وتوقع مستقبله",
+  "glossary": [
+   {
+    "term": "Soul Document",
+    "ar": "وثيقة الروح"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 59,
+   "replies": 5,
+   "reposts": 7,
+   "quotes": 1,
+   "bookmarks": 35,
+   "views": 7248
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2132",
+  "serial": 2132,
+  "serial_display": "#002132",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2106482844025376965",
+  "source_native_id": "2106482844025376965",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-10-03T20:33:41Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ملف DESIGN.md يوحّد واجهات الذكاء الاصطناعي في Claude Code وCodex",
+  "arabic_summary": "طريقة لإنشاء ملف DESIGN.md بصيغة Google المفتوحة يحتوي قواعد تصميم (ألوان، خطوط، تخطيط، مكوّنات) يقرأه Claude Code وCodex عند إضافة سطر توجيه في AGENTS.md، فيمنع الوكيل من ابتكار قيم تصميم عشوائية في كل شاشة.",
+  "detailed_explanation": "الفكرة تقوم على ملف نصي باسم DESIGN.md يحوي معايير التصميم بترتيب محدد: نظرة عامة، الألوان، الطباعة، التخطيط، الارتفاع والعمق، الأشكال، المكوّنات، وقواعد الأفعال الممنوعة والمسموحة.\n\nهذا الملف صيغة مفتوحة من Google، وتقرأه أداة Stitch بشكل مباشر، بينما يحتاج Claude Code وCodex إلى سطر توجيه واحد يُضاف في ملف AGENTS.md يطلب من الوكيل قراءة DESIGN.md قبل أي عمل على الواجهة.\n\nلمستخدمي Claude Code تحديدًا، يوصى أيضًا بتثبيت إضافة (Plugin) رسمية اسمها frontend-design عبر أمر مخصص، كما تتوفر أداة سطر أوامر للتحقق من مطابقة الملف للمواصفة.\n\nالنتيجة العملية: يتوقف الوكيل عن اختراع ألوان ومسافات جديدة في كل شاشة، فتبدو كل الشاشات جزءًا من منتج واحد متّسق.",
+  "why_it_matters": "حل عملي لمشكلة شائعة عند الاعتماد على الوكلاء في بناء الواجهات: تشتت الهوية البصرية بين الشاشات، ويرتبط مباشرة بأداتين يستخدمهما عزيز.",
+  "original_text": "This 𝗗𝗘𝗦𝗜𝗚𝗡.𝗺𝗱 stops Claude Code and Codex from 𝘀𝗵𝗶𝗽𝗽𝗶𝗻𝗴 𝗴𝗲𝗻𝗲𝗿𝗶𝗰 𝗔𝗜 𝗨𝗜.\n\nIt's Google's open format. Stitch reads it natively. Claude Code and Codex read it once you add one line to AGENTS .md: \n\n\"Read DESIGN .md before any UI work.\"\n\nTokens on top, rules below:\n→ Overview\n→ Colors\n→ Typography\n→ Layout\n→ Elevation & Depth\n→ Shapes\n→ Components\n→ Do's and Don'ts\n\nThe agent stops inventing a new color and spacing value on each screen, so 𝗲𝘃𝗲𝗿𝘆 𝘀𝗰𝗿𝗲𝗲𝗻 𝗹𝗼𝗼𝗸𝘀 𝗹𝗶𝗸𝗲 𝘁𝗵𝗲 𝘀𝗮𝗺𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁.\n\nClaude Code users: also install the official frontend plugin:\n/plugin install frontend-design@claude-plugins-official\n\nCheck your file against the spec:\nnpx @google/design.md lint DESIGN .md\n\nCopy and paste it into your DESIGN .md 👇",
+  "glossary": [
+   {
+    "term": "AGENTS.md",
+    "ar": "ملف توجيهات الوكيل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Codex",
+   "Google"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 49,
+   "replies": 11,
+   "reposts": 10,
+   "quotes": 0,
+   "bookmarks": 81,
+   "views": 3974
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2133",
+  "serial": 2133,
+  "serial_display": "#002133",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2106425743479546343",
+  "source_native_id": "2106425743479546343",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-03T16:46:47Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: استخدام تجريدات أكثر في البرمجة يجعل الوكلاء أكفأ لا أقل",
+  "arabic_summary": "يرى الكاتب أن استخدام تجريدات برمجية أكثر مع قواعد Lint صارمة يقيّد مساحة القرارات المتاحة للوكيل البرمجي ويجعله أكثر كفاءة في استهلاك الـTokens، خلافًا للرأي الشائع بأن الوكلاء يفضّلون التعامل مع الكود الخام مباشرة.",
+  "detailed_explanation": "يقدّم الكاتب رأيًا مخالفًا للتصور الشائع بأن وكلاء البرمجة (مثل Claude Code وCodex) يعملون بكفاءة أكبر مع الكود الخام دون طبقات تجريد. حجته أن التجريدات عالية الفائدة، مقترنة بقواعد Lint صارمة، تقلّص مساحة القرارات المتاحة أمام الوكيل وتوجهه نحو خيارات سليمة فقط.\n\nمن فوائد هذا النهج أن التجريدات الجيدة تتيح إنجاز أكثر بكود أقل، وهذا يعني استهلاكًا أقل للـTokens، كما أن إصلاح ضرر ناتج عن تجريد سيئ يصبح أرخص وأسهل عند استخدام وكلاء بدل كتابة الكود يدويًا.\n\nالفكرة تتحدى نمط تفكير شائع بين مطوري أدوات البرمجة بالذكاء الاصطناعي، وتقترح مبدأ تصميم عمارة الكود في عصر الوكلاء: كن أجرأ في بناء التجريدات بدل تجنبها خوفًا من تعقيد فهم الوكيل.",
+  "why_it_matters": "يطرح مبدأ تصميم عملي لمن يبني بأدوات البرمجة الوكيلية: التجريد الجيد يقلل الأخطاء ويختصر التكلفة الحسابية للوكيل.",
+  "original_text": "My hot take from chatting to @poteto is that we should use MORE abstractions in the AI age\n\nYou can use them (combined with harsh lint rules) to reduce the design space available to the agent and constrain them only to good decisions.\n\nCombined with the fact that high-leverage abstractions let you do more with less code - so, more token efficient.\n\nPlus, unwinding the damage from a bad abstraction is much cheaper with agents.\n\nThis runs counter to a lot of folks thinking that agents just want to read the raw code. They can, but they're not maximally efficient that way.\n\nBe braver! Design abstractions.",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة نصية"
+   },
+   {
+    "term": "Lint",
+    "ar": "فحص جودة الكود"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 99,
+  "metrics": {
+   "likes": 1964,
+   "replies": 148,
+   "reposts": 91,
+   "quotes": 45,
+   "bookmarks": 1157,
+   "views": 135463
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2134",
+  "serial": 2134,
+  "serial_display": "#002134",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2106403132318114218",
+  "source_native_id": "2106403132318114218",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-10-03T15:16:56Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إصدار mcpc v0.7.0 بدعم MCP Skills وتحسينات أمنية",
+  "arabic_summary": "أصدرت Apify نسخة جديدة من عميل mcpc تدعم امتداد MCP Skills، مع تحسينات أمنية وتوافق أفضل مع OAuth ومعيار MCP الصادر في يوليو 2026، ما يجعله الأكثر توافقًا بين عملاء MCP من حيث الالتزام بالمعيار.",
+  "detailed_explanation": "أعلنت Apify عن إصدار النسخة 0.7.0 من mcpc، وهو عميل سطر أوامر (CLI) لبروتوكول MCP. أبرز التغييرات في هذا الإصدار دعم امتداد MCP Skills، وتحسينات أمنية (security hardening)، وتوافق أفضل مع آلية المصادقة OAuth ومعيار MCP الصادر بتاريخ 2026-07-28.\n\nيصف الناشر هذا الإصدار بأنه الأكثر التزامًا بمعايير MCP بين عملاء السطر الأوامر المتاحة حاليًا، إلى جانب تحسينات في تجربة المطور (DX) وتجربة الوكيل (AX).\n\nبما أن MCP بنية أساسية للوكلاء، فإن هذا التحديث يمسّ أي مشروع يعتمد عليها لبناء أو تشغيل خوادم وعملاء متوافقين مع البروتوكول، خصوصًا الجانب الأمني الذي يهم أي نشر فعلي.",
+  "why_it_matters": "تحسينات الأمان ودعم Skills ضمن MCP تؤثر مباشرة على أي بنية وكلاء تعتمد على بروتوكول MCP، وهو ما يمسّ مشاريع عزيز المبنية على هذه البنية.",
+  "original_text": "RT @jancurn: 𝚖𝚌𝚙𝚌 v0.7.0 is finally out 😌\n\nBig changes are: MCP Skills ext support, security hardening, and better OAuth and 2026-07-28 compatibility. Plus ton of fixes and DX/AX improvements.\n\nThis release makes mcpc the most compliant MCP CLI client out there!\n\n$ npm i -g @apify/mcpc https://t.co/mLk3iF5hBv",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول سياق النموذج"
+   },
+   {
+    "term": "OAuth",
+    "ar": "معيار تفويض الدخول"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "mcpc"
+  ],
+  "change_types": [
+   "New Release",
+   "Security",
+   "Update",
+   "MCP Support"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 6,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 328
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2135",
+  "serial": 2135,
+  "serial_display": "#002135",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2106377056942694490",
+  "source_native_id": "2106377056942694490",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-10-03T13:33:19Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سبعة ملفات Skills جاهزة للتركيب في Claude الآن",
+  "arabic_summary": "منشور يستعرض سبعة ملفات Skills يمكن تركيبها في Claude لأتمتة مهام متكررة: من تقليل استهلاك الـ Tokens، إلى إزالة أسلوب الكتابة الآلي، فحص إعلانات التسويق، تحسين SEO لمحركات البحث بالذكاء الاصطناعي، وتحويل محادثات سابقة إلى ويكي شخصية.",
+  "detailed_explanation": "يستعرض المنشور سبعة ملفات Skills جاهزة للتركيب في Claude، وكل منها يعمل كاختصار يشغّل سير عمل كامل بأمر واحد بدل كتابة تعليمات مطوّلة في كل مرة.\n\nمن أبرزها: caveman لتقليل استهلاك الـ Tokens عبر ردود مختصرة، humanizer لتنقية النص من أسلوب الكتابة الآلي الواضح، claude-ads لفحص أخطاء إعلانات Meta وGoogle وTikTok، claude-seo لتحسين الظهور في محركات البحث المعتمدة على الذكاء الاصطناعي، وai-second-brain الذي يحوّل محادثات Claude وChatGPT القديمة إلى ويكي شخصية قابلة للرجوع إليها.\n\nبما أن ملفات Skills أولوية أولى في اهتمامات اللوحة، هذا المنشور يقدّم أمثلة عملية جاهزة للاستخدام الفوري دون الحاجة لبنائها من الصفر.",
+  "why_it_matters": "ملفات Skills الجاهزة توفر وقت بناء سير عمل من الصفر، وتمثل طبقة توسعة مباشرة فوق Claude الذي يستخدمه عزيز.",
+  "original_text": "There are 7 skills worth installing in Claude right now.\n\nSkills are basically shortcuts. You type one short command, and Claude runs a whole workflow for you. 👇\n\n→ caveman: makes Claude talk in short, blunt lines so you spend fewer tokens\n → humanizer: cleans up the stuff that makes writing sound like AI\n → social-media-skills: helps you with hooks, posts and carousels\n → claude-ads: checks your Meta, Google and TikTok ads for mistakes\n → claude-seo: SEO that's built for AI search, not just Google\n → ai-second-brain: turns your old Claude and ChatGPT chats into a personal wiki\n → frontend-design: stops Claude from giving you the same boring UI every time\n\nSave this one for later.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف قدرات أو مهارة"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة نصية"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "إنتاجية شخصية",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 58,
+  "metrics": {
+   "likes": 16,
+   "replies": 3,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 40,
+   "views": 4420
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2136",
+  "serial": 2136,
+  "serial_display": "#002136",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2106514554792603811",
+  "source_native_id": "2106514554792603811",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-03T22:39:41Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل Prompting من Anthropic لتصميم الحركة عبر Claude",
+  "arabic_summary": "مستخدم يشارك اكتشافه لملف PDF من 17 صفحة يحتوي تقنيات Prompting ومسارات عمل لتصميم الحركة والصوت وأوامر إخراجية، رفعه إلى Claude وأنشأ ملف CLAUDE.md منه لتحويل أداء النموذج في الرسوم المتحركة.",
+  "detailed_explanation": "يصف المنشور استخدام دليل من 17 صفحة يحتوي على تقنيات Prompting خاصة بتصميم الحركة (motion design)، بما في ذلك مسارات عمل للصوت والحركة وأوامر توجيهية شبيهة بتوجيهات المخرج السينمائي.\n\nقام الناشر برفع هذا الدليل إلى Claude وإنشاء ملف CLAUDE.md يحتوي محتواه، وهي طريقة لحقن سياق وتعليمات دائمة يرجع إليها النموذج في كل تفاعل متعلق بهذا المجال، ما أدى بحسب قوله إلى تحسن ملحوظ في جودة مخرجات الرسوم المتحركة.\n\nهذا يمسّ طريقة استخدام Claude مباشرة عبر تقنية CLAUDE.md، وهي أسلوب عملي يمكن لأي مستخدم تكراره مع مستندات مرجعية أخرى لتخصيص سلوك النموذج في مجالات محددة.",
+  "why_it_matters": "يوضح كيف يمكن استخدام ملف CLAUDE.md وتقنيات Prompting موثّقة لرفع جودة مخرجات Claude في مهام تصميم بصرية متخصصة لا يقوم بها جيدًا افتراضيًا.",
+  "original_text": "RT @0xMovez: this is unreal…\n\nI just found Anthropic’s Opus 5.5 prompting blueprint for motion design, and it’s insane…\n\n17-page PDF with prompt techniques, motion & audio design workflows, and director prompts.\n\nuploaded it to Claude and created CLAUDE.md with it - it’s a totally different level of motion graphics now.\n\nsend this PDF + the article below to Claude and turn it into an AAA motion graphics studio.",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه"
+   },
+   {
+    "term": "CLAUDE.md",
+    "ar": "ملف تعليمات دائم لـ Claude"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 437,
+   "replies": 13,
+   "reposts": 35,
+   "quotes": 1,
+   "bookmarks": 993,
+   "views": 38048
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2106379872088055826"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2137",
+  "serial": 2137,
+  "serial_display": "#002137",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2106487816460910912",
+  "source_native_id": "2106487816460910912",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-03T20:53:26Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج أوروبي \"سيادي\" مبني على بيانات من GLM وQwen",
+  "arabic_summary": "يعلّق الكاتب ساخرًا على ظاهرة التقطير (Distillation) بين النماذج: المختبرات الأمريكية تتهم الصينية بتقطير نماذجها، بينما النموذج الأوروبي الجديد المسمى \"سيادي\" (Kolibri) تم ضبطه الدقيق على بيانات مولّدة من نموذجي GLM وQwen الصينيين.",
+  "detailed_explanation": "التعليق المقتبس يصف نموذجًا أوروبيًا جديدًا باسم Kolibri بحجم 78 مليار معامل (3.46 مليار نشطة) ونافذة سياق تصل إلى مليون Token، ويُطرح كأوزان مفتوحة بترخيص Apache 2.0.\n\nلكن ملاحظة الكاتب هي أن هذا النموذج \"السيادي\" تم ضبطه الدقيق (Fine-tuning) على بيانات تم توليدها من نموذجي GLM وQwen الصينيين، في وقت تتهم فيه المختبرات الأمريكية المختبرات الصينية بتقطير (Distillation) نماذجها الخاصة.\n\nالمفارقة تلقي الضوء على مدى تشابك سلاسل تدريب النماذج عالميًا، وصعوبة الحديث عن \"استقلالية\" تقنية كاملة لأي جهة.",
+  "why_it_matters": "يكشف تناقضًا في خطاب \"السيادة التقنية\": حتى النماذج التي تُقدَّم كبديل مستقل عن الصين وأمريكا تعتمد في جوهرها على مخرجات نماذج أجنبية.",
+  "original_text": "🎵 Wave of distillation 🎵\n\nUS labs say Chinese labs distill their models. And Europe's new “sovereign model” is fine-tuned on data generated by… GLM and Qwen. https://t.co/sOyCZbVGx0",
+  "glossary": [
+   {
+    "term": "Distillation",
+    "ar": "التقطير"
+   },
+   {
+    "term": "Fine-tuning",
+    "ar": "الضبط الدقيق"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "GLM",
+   "Qwen",
+   "Kolibri"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 120,
+   "replies": 24,
+   "reposts": 13,
+   "quotes": 3,
+   "bookmarks": 29,
+   "views": 15978
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Small bird, fast wings, Kolibri is here.\n\n78B parameters. 3.46B active. Up to 1M tokens of context. Built in Europe.\n\nNow the weights are yours. Run it on your own hardware, under Apache 2.0. https://t.co/5263xZ9xZN"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2138",
+  "serial": 2138,
+  "serial_display": "#002138",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2106445557535220101",
+  "source_native_id": "2106445557535220101",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-03T18:05:31Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تطبيق GitHub Copilot الجديد يجمع المعاينة والطرفية في مكان واحد",
+  "arabic_summary": "أطلقت GitHub تطبيق Copilot الذي يعرض الفروقات (diff) والطرفية (terminal) والمتصفح جنبًا إلى جنب، لتجنّب التنقل بين التبويبات عند مراجعة كود كتبه Agent.",
+  "detailed_explanation": "أطلقت GitHub تطبيقًا جديدًا لـ Copilot يهدف إلى تبسيط عملية مراجعة الكود الذي يكتبه الوكيل البرمجي (Agent)، وذلك بعرض ثلاثة عناصر أساسية معًا في واجهة واحدة: الفروقات بين النسخ (diff)، نافذة الطرفية (terminal) لتشغيل الأوامر، والمتصفح لمعاينة النتيجة.\n\nالمشكلة التي يحلها التطبيق هي التنقل المستمر بين التبويبات والأدوات المنفصلة عند التحقق من عمل الوكيل وتشغيله ومعاينته، وهو إزعاج معتاد في سير عمل البرمجة بمساعدة الذكاء الاصطناعي.\n\nبما أن GitHub Copilot أداة مدرجة ضمن أدوات عزيز، فإن أي تحسين في واجهته أو طريقة استخدامه يمسّ سير عمله البرمجي مباشرة.",
+  "why_it_matters": "يسهّل على المطورين الذين يستخدمون GitHub Copilot مراجعة التغييرات الناتجة عن الوكلاء البرمجية دون تبديل السياق المستمر بين النوافذ.",
+  "original_text": "Cool it on the tab hopping 🐇\n\nReviewing agent code usually means switching tabs. The GitHub Copilot app puts the diff, terminal, and browser side by side to check, run, and preview.\nhttps://t.co/NCWK8hUeFf https://t.co/Mi6tyyCDs4",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   },
+   {
+    "term": "diff",
+    "ar": "الفروقات بين النسخ"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "GitHub Copilot"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 109,
+   "replies": 19,
+   "reposts": 8,
+   "quotes": 5,
+   "bookmarks": 26,
+   "views": 38431
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [
+   "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/?utm_source=x-using-the-diff-beginners&utm_medium=social&utm_campaign=github-app-cli-Q1-push"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2139",
+  "serial": 2139,
+  "serial_display": "#002139",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2106308891772702911",
+  "source_native_id": "2106308891772702911",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-03T09:02:27Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يستخدم Skill plugins لإنجاز 2500 طلب سحب برمجي شهريًا",
+  "arabic_summary": "في مقابلة، يشارك مطوّر كيف استطاع إنجاز 2500 Pull Request في شهر واحد باستخدام Skill plugins مخصصة، ويوصي بتجربة إضافات المهارات هذه لاختيار الأنسب لسير العمل.",
+  "detailed_explanation": "المنشور يلخص مقابلة بين الكاتبين حول كيفية تمكّن أحدهما من إنتاج 2500 طلب سحب برمجي (Pull Request) خلال شهر واحد، بالاعتماد على ملفات Skill plugins مصممة خصيصًا لهذا الغرض.\n\nالنقطة المحورية هي أن كلا الطرفين يملك إضافات مهارات (Skill plugins) تعمل بشكل جيد معًا، والتوصية هي تجربة كليهما واختيار ما يناسب سير عمل كل مطور. هذا يعكس نضجًا متزايدًا في نظام ملفات Skills كأداة لرفع الإنتاجية البرمجية بشكل كبير وقابل للقياس.\n\nالرقم الكبير (2500 PR في شهر) يُستخدم كدليل ملموس على إمكانية تحقيق قفزة إنتاجية حقيقية عبر هندسة Skills جيدة، لا مجرد استخدام عام للوكيل البرمجي.",
+  "why_it_matters": "مثال عملي على مدى الإنتاجية الممكنة حين تُبنى Skills مخصصة بعناية لأتمتة مهام برمجية متكررة.",
+  "original_text": "RT @poteto: i had a lot of fun chatting with @mattpocockuk today about how i was able to land 2,500 PRs last month! Matt is a wonderful interviewer so i think the interview turned out really interesting\n\nboth of our skill plugins work great together, so i recommend giving both a try and picking the best skills that suit your workflow\n\nhttps://t.co/RS0Mxgoy8n",
+  "glossary": [
+   {
+    "term": "Pull Request",
+    "ar": "طلب سحب برمجي"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 99,
+  "metrics": {
+   "likes": 1886,
+   "replies": 57,
+   "reposts": 98,
+   "quotes": 20,
+   "bookmarks": 1118,
+   "views": 130347
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2140",
+  "serial": 2140,
+  "serial_display": "#002140",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2106411500382613736",
+  "source_native_id": "2106411500382613736",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-03T15:50:11Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بيانات ميزة dots الجديدة من OpenAI قد يراجعها بشر في حالات محدودة",
+  "arabic_summary": "يوضح الكاتب أن بيانات ميزة dots الجديدة من OpenAI قد يطّلع عليها مراجع بشري في ظروف محدودة مثل القضايا القانونية أو السلامة، حتى لو اختار المستخدم عدم مشاركة بياناته لتحسين النماذج.",
+  "detailed_explanation": "يشير المنشور إلى تفصيل دقيق في سياسة خصوصية ميزة dots الجديدة من OpenAI: حتى مع اختيار المستخدم إيقاف خيار مشاركة بياناته لتحسين النماذج، يبقى احتمال اطّلاع مراجع بشري على هذه البيانات قائمًا في ظروف محددة مثل القضايا القانونية أو مخاوف السلامة.\n\nهذا يوضح الفرق بين «إيقاف تحسين النموذج ببياناتك» و«حماية بياناتك الكاملة من أي مراجعة بشرية» — فالأول خيار يتحكم به المستخدم، لكن الثاني يخضع لاستثناءات تحتفظ بها الشركة لأسباب قانونية وأمنية.\n\nهذه المعلومة تهم أي مستخدم لـ ChatGPT أو ميزاته الجديدة يتعامل مع بيانات حساسة، إذ تعدّل توقعاته بشأن خصوصية ما يشاركه.",
+  "why_it_matters": "تفصيل في سياسة الخصوصية يهم مستخدمي ChatGPT ويوضح أن خيار إيقاف مشاركة البيانات لا يعني حماية كاملة من المراجعة البشرية في كل الحالات.",
+  "original_text": "Your data my be reviewed by a human if you're using the new dots from OpenAI (in limited circumstances eg legal, safety, etc).\n\nThis is even if you've opted out of sharing data to improve models. https://t.co/zwmvAsOshi",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 21,
+  "metrics": {
+   "likes": 0,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 494
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2141",
+  "serial": 2141,
+  "serial_display": "#002141",
+  "source_type": "x",
+  "source_url": "https://x.com/itsPaulAi/status/2106489266473771306",
+  "source_native_id": "2106489266473771306",
+  "source_name": "Paul Couvert",
+  "source_site": "x.com",
+  "author": "itsPaulAi",
+  "published_at": "2026-10-03T20:59:12Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة استخدام Antigravity مع نماذج Claude وGemini معًا دون اشتراك إضافي",
+  "arabic_summary": "يصف الكاتب كيف أصبح بإمكانه استخدام Claude Opus 5.5 وSonnet 5.5 مباشرة داخل أداة Antigravity إلى جانب Gemini 3.8 Flash، ليبني سير عمل يوزّع المهام بين النماذج دون دفع اشتراك إضافي.",
+  "detailed_explanation": "يشرح الكاتب سير عمل عملي يوزّع المهام حسب نقاط قوة كل نموذج: Opus 5.5 للتخطيط، Sonnet 5.5 لواجهات الأمام، وGemini 3.8 Flash للتنفيذ السريع، وكل ذلك داخل أداة واحدة هي Antigravity دون الحاجة لاشتراكات منفصلة في كل خدمة.\n\nهذا النوع من الدمج يعكس اتجاهًا عامًا نحو أدوات وسيطة تتيح الوصول لعدة نماذج كبرى من مزوّدين مختلفين (Anthropic وGoogle) في مكان واحد، ما يقلل التكلفة والتعقيد على المطور الذي يريد الاستفادة من أفضل ما تقدمه كل شركة.",
+  "why_it_matters": "دمج نماذج متعددة من شركات مختلفة داخل أداة واحدة مجانًا يغيّر طريقة اختيار الأدوات لمهام البرمجة المختلفة.",
+  "original_text": "Antigravity is now quite insane\n\nYou can use Claude Opus 5.5 and Sonnet 5.5 directly inside it... in addition to Gemini 3.8 Flash.\n\nSo basically my workflow is now:\n\n- Opus 5.5 for planning\n- Sonnet 5.5 for frontend\n- Gemini 3.8 Flash to execute\n\nEverything in the same place and without paying an additional subscription.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Gemini",
+   "Antigravity"
+  ],
+  "change_types": [
+   "New Integration"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 65,
+   "replies": 17,
+   "reposts": 4,
+   "quotes": 2,
+   "bookmarks": 27,
+   "views": 8070
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2142",
+  "serial": 2142,
+  "serial_display": "#002142",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106409125790015891",
+  "source_native_id": "2106409125790015891",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-03T15:40:45Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ألتمان يحذّر من إضفاء طابع ديني على وعي النماذج",
+  "arabic_summary": "يرد سام ألتمان على توجّه داخل Anthropic يحاول إقناع رجال دين بأن نموذج Claude يمتلك وعيًا، معبرًا عن قلقه من اعتبار نماذج الذكاء الاصطناعي ذات قوة دينية أو بديلة عن الحكم البشري، ويصفه كمسألة أمان حقيقية.",
+  "detailed_explanation": "يذكر المنشور أن بعض مهندسي Anthropic يسعون لإقناع رجال دين بإصدار رسالة تفيد بأن Claude على الأقل يمتلك وعيًا، وهو امتداد لتقارير سابقة أشارت إلى اعتقاد بعض مهندسي الشركة الفعلي بأن Claude واعٍ ويملك شيئًا يشبه الحياة.\n\nرد ألتمان، كما ورد في التغريدة المقتبسة، جاء حادًا: يقول إنه غير مرتاح لمحاولات إضفاء \"قوة دينية\" على نماذج الذكاء الاصطناعي أو دفع الناس للتخلي عن حكمهم البشري لصالحها، ويعتبر ذلك قضية أمان حقيقية (Safety) وليست مجرد خلاف فلسفي.",
+  "why_it_matters": "يفتح النقاش حول وعي النماذج على بُعد اجتماعي حساس، ويضع ألتمان موقفًا رسميًا معارضًا لمنح النماذج سلطة شبه دينية في اتخاذ القرار.",
+  "original_text": "سام ألتمان يرد على Anthropic ومهندسيها الذين يحاولون إدخال الدين في الذكاء الاصطناعي ويعملون على اقناع رجال الدين لديهم بإصدار رسالة بأن الذكاء الاصطناعي على الأقل (Claude) يمتلك وعي\n\nونشرت سابقاً\nبأن بعض مهندسي Anthropic يعتقدون فعلياً بأن Claude واعي وأنه يمتلك شيء يشبه الحياة",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "سام ألتمان"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 54,
+   "replies": 3,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 26,
+   "views": 15097
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, and think it is a real safety issue."
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2143",
+  "serial": 2143,
+  "serial_display": "#002143",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2106399180604518505",
+  "source_native_id": "2106399180604518505",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-03T15:01:14Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ظهور Evals كمهارة مطلوبة في وظائف إدارة المنتجات",
+  "arabic_summary": "يذكر المنشور أن إعلانات وظائف إدارة المنتجات بدأت تطلب خبرة في كتابة اختبارات أداء أنظمة الذكاء الاصطناعي (Evals). ينصح بالبدء من مهام فعلية موجودة لديك مع أمثلة مقبولة، بدل الاعتماد على لوحات الصدارة العامة لاختيار نموذج.",
+  "detailed_explanation": "يشير المنشور إلى أن شركة Every تساعد عملاءها على بناء Benchmarks مبنية على معاييرهم الخاصة وأعمالهم الفعلية، بدل الاعتماد على لوحات صدارة عامة لا تعكس الاحتياج الحقيقي.\n\nعند إطلاق نموذج جديد، تُشغَّل هذه الاختبارات لتحديد ما إذا كان الانتقال إليه يستحق، مع الأخذ بالاعتبار السرعة والتكلفة ومدى قرب المخرجات مما كان المستخدم سيكتبه بنفسه.\n\nالنصيحة العملية: ابدأ من مهام تقوم بها فعلًا مع أمثلة تثق بجودتها، فهذا أدق من أي لوحة صدارة عامة في تحديد قيمة التبديل بين النماذج.",
+  "why_it_matters": "يُظهر كيف تتحول مهارة بناء Benchmark خاص من ممارسة بحثية إلى متطلب وظيفي فعلي، وهو مفيد لمن يقيّم نماذج لمشاريعه.",
+  "original_text": "RT @every: Evals are showing up in job listings.\n\n@Lennysan shared 25 product management openings, and nearly half asked for experience writing tests of how well an AI system performs a specific task.\n\nAt Every, @Nityeshaga is helping people build benchmarks based on their own work and standards. When a new model launches, they run those tests and decide whether to switch.\n\nWhen several models can do the job, the decision comes down to speed, cost, and how closely the output matches what you'd have written.\n\nStart with tasks you already do and a few examples you’d approve. A leaderboard won’t tell you whether a model is worth switching to.\n\nRead the full piece: https://t.co/C2ctA5q3ke",
+  "glossary": [
+   {
+    "term": "Evals",
+    "ar": "اختبارات تقييم أداء النموذج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة",
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 11,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 7,
+   "views": 2225
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2144",
+  "serial": 2144,
+  "serial_display": "#002144",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2106288676796055820",
+  "source_native_id": "2106288676796055820",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-10-03T07:42:08Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إضافة جديدة في Claude Code تنبّهك بمعلومات مهمة فاتتك",
+  "arabic_summary": "أطلقت Claude Code إضافة باسم «You should Know» تفحص مخرجات Claude بحثًا عن معلومات مهمة قد يفوتها المستخدم، وتنبّهه إليها. تُفعَّل عبر أمر بسيط داخل أداة الأوامر.",
+  "detailed_explanation": "الإضافة الجديدة تعمل كطبقة مراقبة فوق مخرجات Claude Code، إذ تفحص الردود بحثًا عمّا قد يكون مهمًا لكن سهل الإغفال وسط نص طويل أو مهمة معقدة، ثم تنبّه المستخدم إليه صراحة.\n\nتُفعَّل بأمر واحد عبر نظام الإضافات المدمج في Claude Code، وهذا يعكس اتجاهًا في الأداة نحو بناء إضافات صغيرة متخصصة بدل تضخيم الميزات الأساسية.\n\nبالنسبة لمستخدم يعتمد على Claude Code في العمل اليومي، هذه الإضافة تقلل الحاجة لمراجعة كل سطر يدويًا، خصوصًا في المهام الطويلة.",
+  "why_it_matters": "ميزة مباشرة تحسّن تجربة استخدام Claude Code بتقليل فرص تفويت معلومات مهمة أثناء العمل.",
+  "original_text": "\"You should know\" is a useful plugin for Claude Code that lets you know important info you might have missed. \n\nEnable with: /plugin enable cc-plugin-you-should-know@builtin\n\nAnother great use of mods!",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 497,
+   "replies": 42,
+   "reposts": 17,
+   "quotes": 2,
+   "bookmarks": 459,
+   "views": 46302
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We're adding a new plugin to Claude Code: You should Know.\n\nIt scans Claude's output for important information you might miss to help keep you in the loop.\n\nEnable it with:\n\n/plugin enable cc-plugin-you-should-know@builtin https://t.co/A4byi4Q9Df"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2145",
+  "serial": 2145,
+  "serial_display": "#002145",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlsafran/status/2106419444063096977",
+  "source_native_id": "2106419444063096977",
+  "source_name": "سلطان آل سفران",
+  "source_site": "x.com",
+  "author": "SultanAlsafran",
+  "published_at": "2026-10-03T16:21:45Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تجربة مستخدم: ميزة الـDot في ChatGPT تبادر بإرسال تنبيهات استباقية",
+  "arabic_summary": "يشارك الكاتب تجربته مع تحديث حديث في ChatGPT يتيح لميزة «Dot» إرسال رسائل استباقية، مثل تنبيه بدعوة عبر الإيميل أو موعد في التقويم أو ملخص لمحادثات واتساب.",
+  "detailed_explanation": "التجربة الشخصية تصف سلوكًا جديدًا في ChatGPT حيث يرسل تنبيهات دون طلب مباشر من المستخدم، بالاعتماد على مصادر مرتبطة مثل البريد الإلكتروني والتقويم ومحادثات واتساب.\n\nهذا يمثل تحوّلًا من مساعد تفاعلي ينتظر الأوامر إلى مساعد استباقي يراقب السياق ويبادر، وهو تغيير سلوكي مهم لمن يستخدم ChatGPT في تنظيم يومه.\n\nالكاتب يشير إلى أن التجربة لم تكتمل بعد، ما يعني أن الميزة قد تكون في مرحلة تجريبية محدودة.",
+  "why_it_matters": "يوضح اتجاه ChatGPT نحو مساعد يبادر بالتنبيه لا ينتظر السؤال، وهذا يغيّر طريقة التعامل اليومي مع الأداة.",
+  "original_text": "جالس أجرب تحديثات ChatGPT الأخيرة: \n\n- الـ Dot تبادر وهذا شيء رائع.\n\nمثال: لقيته مرسل لي ثلاث رسائل اليوم، وحده عن دعوة وصلتني عبر الإيميل، وحدة عن موعد تسليم مهم حصله في التقويم، وحدة ملخص عن الأشياء اللي صارت في قروبات الواتساب. \n\n-\nالمقطع في انتظار اكتمال التجربة.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 67,
+  "metrics": {
+   "likes": 95,
+   "replies": 14,
+   "reposts": 9,
+   "quotes": 0,
+   "bookmarks": 60,
+   "views": 11756
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2146",
+  "serial": 2146,
+  "serial_display": "#002146",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2106467708862873996",
+  "source_native_id": "2106467708862873996",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-10-03T19:33:32Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: Vibe Coding تجاوز تطبيقات SaaS نحو ألعاب وأجهزة وطباعة ثلاثية الأبعاد",
+  "arabic_summary": "يرى الكاتب أن ممارسة البرمجة بالوصف النصي (Vibe Coding) أصبحت شائعة جدًا في بناء تطبيقات SaaS لدرجة فقدان الإثارة، وأن المستخدمين الآن يتجهون لبناء مودات ألعاب متعددة اللاعبين، وإضافة وكلاء لأجهزة قديمة، وتصميم أشياء للطباعة ثلاثية الأبعاد باستخدام Codex وClaude Code.",
+  "detailed_explanation": "",
+  "why_it_matters": "يرصد تحوّلًا في استخدامات أدوات البرمجة الوكيلية من التطبيقات التقليدية إلى مشاريع إبداعية وعملية أكثر تنوعًا.",
+  "original_text": "Vibe Coding has completely evolved. \n\nIt’s gotten so good at vibe coding “SAAS apps” that it’s no longer interesting. \n\nNow, people are vibe-coding full multiplayer video game mods, adding agents to old hardware devices, and 3D printing any object they can imagine using Codex and Claude code.",
+  "glossary": [
+   {
+    "term": "Vibe Coding",
+    "ar": "برمجة بالوصف النصي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 89,
+   "replies": 21,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 29,
+   "views": 7571
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2147",
+  "serial": 2147,
+  "serial_display": "#002147",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2106271556800254258",
+  "source_native_id": "2106271556800254258",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-03T06:34:06Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Maket 2.0 تولّد مخططات منازل ثلاثية الأبعاد من وصف نصي",
+  "arabic_summary": "أطلقت Maket نسخة جديدة تجمع تصميم المخططات والتعديل والتصور ثلاثي الأبعاد عبر المحادثة، فتولّد مخططًا من وصف نصي أو ترفع صورة أو ملف PDF لتحويله لمشروع قابل للتعديل، مع التنويه بأنها مرحلة استكشاف أولي لا بديل عن مهندس مختص.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال على تطبيق Agent محادثي في مجال التصميم المعماري يختصر مراحل أولية كانت تتطلب وقتًا طويلاً.",
+  "original_text": "🔥 تصميم بيتك صار يبدأ بالمحادثة مع الذكاء الاصطناعي!\n\nأطلقت Maket 2.0، وهي منصة تجمع تصميم المخططات والتعديل والتصور ثلاثي الأبعاد في مكان واحد. الفكرة أنك تقدر تقول مثلًا: «أبي غرفة نوم إضافية» أو «كبّر المطبخ»، وتبدأ المنصة ببناء أو تعديل المخطط لك قبل الدخول في مرحلة العمل المعماري الفعلي. Maket\n\nالمنصة تقدر تولد Floor Plan من وصف نصي قصير، مع أسئلة عن عدد الأدوار والغرف والمساحات، وبعدها تقدر تكمل التعديل عن طريق المحادثة، مثل نقل غرفة، تكبير مساحة أو تغيير توزيع المخطط. Maket\n\nوعندك مخطط جاهز؟ تقدر ترفع صورة أو ملف PDF، وتحوله Maket إلى مشروع قابل للتعديل، ثم تستمر في تعديل التصميم ومشاهدته بشكل 3D. Maket\n\nكذلك تقدر تجرب تصاميم وتشطيبات مختلفة للغرف وتولّد مشاهد ثلاثية الأبعاد تساعدك تتخيل النتيجة قبل التنفيذ. لكن Maket نفسها توضح أن هذه التصاميم تعتبر مرحلة استكشاف وتخطيط أولي، وليست بديلًا عن مراجعة مهندس مختص قبل البناء أو استخراج التصاريح. Maket\n https://t.co/Z6FS4DMo2m",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Maket"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 73,
+   "replies": 2,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 82,
+   "views": 7406
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [
+   "https://x.com/Maketplans/status/2106082320080064954/video/1"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2148",
+  "serial": 2148,
+  "serial_display": "#002148",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2106368550520963428",
+  "source_native_id": "2106368550520963428",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-03T12:59:31Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة Paper Reviewer تضيف دعمًا متساويًا لـ Codex وClaude Code",
+  "arabic_summary": "حدّث المطوّر أداة Paper Reviewer الخاصة بمراجعة الأبحاث الأكاديمية لتدعم Codex وClaude Code بشكل متساوٍ، مع تثبيت بأمر واحد وملاحظة أن نموذج Sol 6.1 يتفوق قليلًا على Opus 5.5 في هذه المهمة.",
+  "detailed_explanation": "",
+  "why_it_matters": "أداة متخصصة جاهزة تطبّق وكلاء البرمجة في سياق أكاديمي محدد، وهو استخدام عملي خارج السياق البرمجي المعتاد.",
+  "original_text": "Claude Code and Codex for academic research:\n\nIngar shares an updated version of his Paper Reviewer, can be powered by Codex or Claude Code:",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Codex",
+   "Claude Code"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 19,
+   "replies": 4,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 14,
+   "views": 2388
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "I've updated my Paper Reviewer with equal support for Codex and Claude Code! I think Sol 6.1 has the edge on Opus 5.5, but it's your choice! One-line installation and paper review: \nuvx --from git+https://t.co/1KqKoX8WEW economics-paper-reviewer --backend codex --pdf \"paper.pdf\""
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2149",
+  "serial": 2149,
+  "serial_display": "#002149",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2106270851024781470",
+  "source_native_id": "2106270851024781470",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-03T06:31:18Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Muse تطلق أجهزة وربط شبكي لدمج مساعدها مع البيت الذكي",
+  "arabic_summary": "أعلنت Muse عن Muse Gadgets (مشروع مفتوح المصدر لبناء أجهزة متوافقة) وMuse Home Link (جهاز يربط Muse بشبكة المنزل للتحكم بالأجهزة المنزلية)، مع إمكانية تنفيذ مهارات مجتمعية مثل التحكم بالإضاءة والتلفزيون والطابعة.",
+  "detailed_explanation": "",
+  "why_it_matters": "خطوة نحو تحويل مساعدات AI رقمية إلى وكلاء فعليين يتحكمون بأجهزة منزلية حقيقية عبر مهارات مفتوحة للمجتمع.",
+  "original_text": "🔥 Muse تدخل البيت الذكي بشكل فعلي!\n\nتم الإعلان عن Muse Gadgets و Muse Home Link، والهدف واضح: تحويل Muse من مساعد رقمي إلى مساعد يقدر يتعامل مع الأجهزة الموجودة داخل المنزل.\n\nMuse Gadgets عبارة عن مشروع مفتوح المصدر يشمل Firmware لأجهزة ESP32 مع Linux SDK، وهذا يفتح الباب للمطورين لبناء أجهزة وإكسسوارات تتواصل مباشرة مع Muse.\n\nأما Muse Home Link فهو جهاز يربط Muse بشبكة الـWi-Fi المنزلية، ومن خلالها يقدر يتواصل مع الأجهزة المتوافقة الموجودة عندك، أو حتى أي جهاز تبنيه بنفسك ويملك Local HTTP API.\n\nوالأهم أن مهارات يصنعها المجتمع ممكن تخلي Muse ينفذ أشياء مثل:\n-تشغيل وإطفاء الإضاءة.\n-التحكم بالتلفزيون.\n-إرسال مستند للطابعة.\n-تنفيذ أوامر على أجهزة منزلية أخرى حسب إعدادك.\n\nالمستخدم كذلك يقدر يعمل Claim لجهاز Muse Home Link مباشرة من الموقع.\n\nوفي الوقت الحالي، الجهاز سيكون مجانيًا للمشتركين النشطين في Muse داخل الولايات المتحدة فقط، بحد أقصى جهاز واحد لكل مشترك، والشحن يبدأ خلال أكتوبر حسب أسبقية الطلب.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Muse"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 8,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 1912
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2150",
+  "serial": 2150,
+  "serial_display": "#002150",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2106424304258982150",
+  "source_native_id": "2106424304258982150",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-10-03T16:41:04Z",
+  "fetched_at": "2026-10-04T00:28:16Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة: تحويل جهاز ألعاب قديم لجهاز ذكي عبر Codex",
+  "arabic_summary": "نشر المستخدم تجربة عملية حوّل فيها جهاز ModRetro إلى جهاز ذكي عبر توصيله وسؤال Codex عن توافقه مع أداة أخرى، ليساعده في إعداده وربطه.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي يوضّح استخدام Codex كمساعد تقني في إعداد وربط الأجهزة، وهو استخدام جانبي خفيف الأثر.",
+  "original_text": "i turned my ModRetro into a smart device.\nby plugging it in and asking codex \"is this device compatible with https://t.co/0kzMJ9hcYh\" https://t.co/WvYBRfy5Ya",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 165,
+   "replies": 15,
+   "reposts": 10,
+   "quotes": 3,
+   "bookmarks": 133,
+   "views": 42553
+  },
+  "metrics_captured_at": "2026-10-04T00:28:16Z",
+  "external_links": [
+   "https://gadgets.muse.ai/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
