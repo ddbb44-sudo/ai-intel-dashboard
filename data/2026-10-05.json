@@ -1,0 +1,783 @@
+[
+ {
+  "id": "c2151",
+  "serial": 2151,
+  "serial_display": "#002151",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106663165123813617",
+  "source_native_id": "2106663165123813617",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-04T08:30:13Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ألمانيا تطلق نموذج Kolibri السيادي مفتوح الأوزان",
+  "arabic_summary": "أطلقت ألمانيا نموذج Kolibri بـ78 مليار معامل (منها 3.5 مليار نشطة فقط لكل رمز)، يدعم الألمانية والإنجليزية بسياق يصل إلى مليون رمز، وأوزانه مفتوحة بترخيص Apache 2.0 لتمكين التشغيل المحلي دون إرسال بيانات خارج أوروبا.",
+  "detailed_explanation": "يعرض المنشور إطلاق ألمانيا لنموذج Kolibri الذي يستخدم بنية بمعاملات نشطة جزئية (mixture-of-experts على الأرجح) حيث يبلغ إجمالي المعاملات 78 مليارًا لكن 3.5 مليار فقط تعمل فعليًا عند معالجة كل رمز، ما يقلل التكلفة الحاسوبية مقارنة بتشغيل نموذج كامل بهذا الحجم.\n\nالنموذج يدعم اللغتين الألمانية والإنجليزية بنافذة سياق تصل إلى مليون رمز، وهي ميزة مهمة للتعامل مع مستندات طويلة. الأوزان مفتوحة بترخيص Apache 2.0 المسموح تجاريًا، والهدف المعلن هو تمكين التشغيل المحلي داخل البنية التحتية الأوروبية دون إرسال بيانات لخوادم خارجية — وهو ما يخدم متطلبات الخصوصية والسيادة الرقمية. الشرط العملي للتشغيل يتطلب نحو 78 غيغابايت من الذاكرة وبطاقة بمستوى H200 أو B200، ما يحصره في بيئات حوسبة متقدمة نسبيًا.",
+  "why_it_matters": "نموذج سيادي أوروبي مفتوح المصدر يتيح تشغيلاً محليًا كاملاً، وهو خطوة ضمن سباق الدول نحو استقلالية البنية التحتية للذكاء الاصطناعي.",
+  "original_text": "ألمانيا أطلقت نموذجها (السيادي)\n\nنموذج Kolibri وهو بـ 78 مليار معامل، لكن نحو 3.5 مليار فقط تعمل في كل رمز. وهو قوي في الرياضيات وبعض المجالات الأخرى\n\nألماني وإنجليزي...\n\nسياق حتى مليون رمز\n\nوالأوزان مفتوحة بـ Apache 2.0\n\nالفكرة\nتشغيل محلي دون إرسال البيانات خارج البنية الأوروبية\n\nالشرط العملي\nنحو 78 غيغابايت ذاكرة وبطاقة بمستوى H200 أو B200",
+  "glossary": [
+   {
+    "term": "Apache 2.0",
+    "ar": "ترخيص مفتوح المصدر يسمح بالاستخدام التجاري"
+   },
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Kolibri"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 66,
+  "metrics": {
+   "likes": 89,
+   "replies": 3,
+   "reposts": 8,
+   "quotes": 0,
+   "bookmarks": 50,
+   "views": 17767
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Small bird, fast wings, Kolibri is here.\n\n78B parameters. 3.46B active. Up to 1M tokens of context. Built in Europe.\n\nNow the weights are yours. Run it on your own hardware, under Apache 2.0. https://t.co/5263xZ9xZN"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2152",
+  "serial": 2152,
+  "serial_display": "#002152",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2106752670405099523",
+  "source_native_id": "2106752670405099523",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-10-04T14:25:52Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إضافة مهارتين جديدتين لمستودع Skills مفتوح",
+  "arabic_summary": "أضاف صاحب مستودع Skills مهارتين جديدتين: الأولى تجعل تطبيقات الويب تبدو كتطبيقات أصلية بتعطيل تأثير hover على أجهزة اللمس، والثانية تحاول كسر واجهة المستخدم عبر إدخال أسماء وقوائم طويلة وبريد إلكتروني غير اعتيادي ثم تصلح المشكلات الناتجة.",
+  "detailed_explanation": "المنشور يعرض إضافتين إلى مستودع Skills مفتوح المصدر على GitHub. مهارة /mobile-native تستهدف مشكلة شائعة في تطبيقات الويب التي تحاول تقليد التطبيقات الأصلية، وهي بقاء تأثيرات hover الخاصة بالفأرة فعالة حتى على الأجهزة اللمسية، ما يسبب تجربة استخدام غير طبيعية.\n\nأما مهارة /break-ui فتتبع نهجًا اختباريًا: تحاول كسر الواجهة عمدًا عبر إدخال بيانات حافة (edge cases) مثل الأسماء الطويلة جدًا والبريد الإلكتروني غير المعتاد والقوائم الطويلة، ثم تقترح أو تطبق إصلاحات. هذا النمط من Skills يمثل مثالًا عمليًا على كيفية تحويل مهام اختبار الجودة اليدوية إلى مهارات قابلة لإعادة الاستخدام ضمن أدوات الوكلاء البرمجية.",
+  "why_it_matters": "مهارتان عمليتان جاهزتان للاستخدام تساعدان في اختبار الواجهات وتحسين تجربة المستخدم على الأجهزة اللمسية، وتوضحان نمطًا متكررًا في بناء Skills للمطورين.",
+  "original_text": "Added two new skills to my skills repo recently.\n\n/mobile-native - makes your web app feel native by doing stuff like disabling hover on touch devices.\n\n/break-ui - tries to break your UI by adding long names, unusual emails, long lists, and fixes it.\n\nhttps://t.co/zEnLEjl3xX",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة قابل لإعادة الاستخدام"
+   },
+   {
+    "term": "UI",
+    "ar": "واجهة المستخدم"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3510,
+   "replies": 58,
+   "reposts": 110,
+   "quotes": 10,
+   "bookmarks": 3776,
+   "views": 96238
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [
+   "https://github.com/emilkowalski/skills"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2153",
+  "serial": 2153,
+  "serial_display": "#002153",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106703776816263483",
+  "source_native_id": "2106703776816263483",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-04T11:11:35Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Google تغيّر توزيع نماذج Gemini حسب مستوى الاشتراك",
+  "arabic_summary": "ابتداء من 9 أكتوبر، تتغير النماذج المتاحة في Gemini حسب الاشتراك: الحسابات بدون اشتراك تحصل على Flash-Lite فقط، واشتراك AI Plus يحصل على Flash-Lite وFlash مع اختفاء Pro، بينما يحتفظ AI Pro وAI Ultra بالنماذج الثلاثة. التغيير يخص الحسابات الشخصية وسيصل المشتركون في Plus ببريد إلكتروني بموعد التطبيق.",
+  "detailed_explanation": "يوضح المنشور أن Google ستعيد توزيع النماذج المتاحة ضمن Gemini بحسب فئة الاشتراك بدءًا من 9 أكتوبر. المستخدمون بدون اشتراك سيقتصرون على Flash-Lite، أما مشتركو AI Plus فسيفقدون الوصول إلى نموذج Pro وسيبقى لديهم Flash-Lite وFlash فقط. في المقابل، تحتفظ فئتا AI Pro وAI Ultra بجميع النماذج الثلاثة.\n\nهذا يعني أن مستخدمي Plus الذين يعتمدون على Pro ضمن اشتراكهم سيحتاجون للترقية إلى فئة أعلى للحفاظ على نفس القدرات. التغيير مقتصر على الحسابات الشخصية وسيُبلَّغ المشتركون في Plus عبر بريد إلكتروني بالموعد الدقيق لتطبيقه على حسابهم.",
+  "why_it_matters": "تغيير مباشر في مستوى القدرات المتاحة لمستخدمي Gemini حسب فئة الاشتراك، ما يؤثر على من يعتمد على نموذج Pro ضمن خطة Plus.",
+  "original_text": "Google تغير قواعد Gemini من 9 أكتوبر\n\nبدون اشتراك: Flash-Lite فقط\n AI Plus: Flash-Lite وFlash، وPro يختفي\n AI Pro وAI Ultra: النماذج الثلاثة تبقى.\n\nالتغيير للحسابات الشخصية، ومشتركو Plus يستلمون بريد بموعد التطبيق على حسابهم. https://t.co/YgqKZyeLB4",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "change_types": [
+   "Pricing Change",
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 61,
+  "metrics": {
+   "likes": 56,
+   "replies": 6,
+   "reposts": 4,
+   "quotes": 1,
+   "bookmarks": 32,
+   "views": 12519
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2154",
+  "serial": 2154,
+  "serial_display": "#002154",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2106793980801261895",
+  "source_native_id": "2106793980801261895",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-04T17:10:02Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Git 2.56 يصدر بتحسينات أداء وأمر جديد لحل التعارضات",
+  "arabic_summary": "أطلقت Git نسختها 2.56 مع أمر جديد git add --resolved لمعالجة ملفات التعارض بدقة أكبر، وتحسينات أداء كبيرة شملت تقليص زمن بعض عمليات merge-base من 0.68 ثانية إلى 0.01 ثانية.",
+  "detailed_explanation": "يعرض منشور GitHub أبرز ما جاء في إصدار Git 2.56. الميزة الأبرز هي أمر git add --resolved الذي يقتصر عمله على تحديد المسارات التي لا تزال معلّمة كمتعارضة فقط، ويرفض تثبيتها إن بقيت علامات التعارض (conflict markers) داخل الملف — وهو ما يمنع أخطاء شائعة عند حل تعارضات الدمج يدويًا.\n\nكذلك تضمن الإصدار تحسينات أداء ملحوظة، أبرزها انخفاض زمن إحدى حالات حساب merge-base من 0.68 ثانية إلى 0.01 ثانية فقط، وهو تحسن كبير يؤثر في سرعة عمليات الدمج والمقارنة في المستودعات الكبيرة.",
+  "why_it_matters": "تحسينات أداء ملموسة وأمر جديد يسهل سير عمل المطورين اليومي مع حل تعارضات Git، وهي أداة أساسية في أي مشروع برمجي.",
+  "original_text": "Git 2.56 is here. ⚡ The new git add --resolved stages only paths that are still marked as conflicted, and refuses to stage them if conflict markers remain. One merge-base case dropped from 0.68s to 0.01s. \n\nThe highlights 👇\nhttps://t.co/CxbNfofYrf",
+  "glossary": [
+   {
+    "term": "merge-base",
+    "ar": "نقطة الدمج الأساس بين فرعين"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Git",
+   "GitHub"
+  ],
+  "change_types": [
+   "New Release",
+   "New Feature",
+   "Upgrade"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 645,
+   "replies": 39,
+   "reposts": 81,
+   "quotes": 9,
+   "bookmarks": 103,
+   "views": 60988
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [
+   "https://github.blog/open-source/git/highlights-from-git-2-56/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2155",
+  "serial": 2155,
+  "serial_display": "#002155",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2106804792555434479",
+  "source_native_id": "2106804792555434479",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-04T17:52:59Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "عرض Gemini AI Plus مجانًا لسنة للطلاب في الشرق الأوسط",
+  "arabic_summary": "تتيح Google للطلاب الجامعيين في الشرق الأوسط الاشتراك في Google AI Plus مجانًا لمدة سنة كاملة عبر حساب تعليمي أو جامعي، بشرط التسجيل قبل 31 ديسمبر.",
+  "detailed_explanation": "يعلن المنشور عن عرض من Google يتيح للطلاب الجامعيين في منطقة الشرق الأوسط الحصول على اشتراك Google AI Plus مجانًا لمدة سنة كاملة، شرط التسجيل بحساب تعليمي أو جامعي قبل نهاية ديسمبر. يشمل العرض وفق النص المقتبس وصولًا لنموذج Gemini وميزة Deep Research، وقدرات أكبر لتوليد الصور والموسيقى والفيديو، إضافة إلى مساحة تخزين سحابية أكبر في Drive وGmail.\n\nهذا النوع من العروض التعليمية يهم فئة الطلاب والمهتمين بالاستفادة من أدوات Google AI دون تكلفة، ويعكس استراتيجية الشركة في توسيع قاعدة المستخدمين الشباب.",
+  "why_it_matters": "فرصة وصول مجاني لنموذج Gemini المتقدم وميزات البحث العميق والتوليد للطلاب، ما قد يوسع استخدام الأداة بينهم بشكل كبير.",
+  "original_text": "Gemini AI Plus مجاناً لمدة سنة في الشرق الأوسط\n\nاشترك بحساب تعليمي أو جامعي قبل 31 ديسمبر",
+  "glossary": [
+   {
+    "term": "Deep Research",
+    "ar": "بحث عميق آلي متعدد الخطوات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 182,
+   "replies": 6,
+   "reposts": 11,
+   "quotes": 0,
+   "bookmarks": 257,
+   "views": 51302
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "نعم الخبر صحيح 😉 سنة كاملة من Google AI Plus مجانًا للطلاب الجامعيين في الشرق الأوسط💡🔥\n\nاشتركوا قبل ٣١ ديسمبر ولا تفوّتوا مزايا Google AI Plus الحصرية \n\n* وصول شامل لنموذج Gemini 3.1 Pro وميزة \"Deep Research\".\n* إمكانيات أكبر لتوليد الصور، والموسيقى، والفيديو (بما فيها Gemini Omni).\n* صلاحيات أكثر لاستخدام الميزات والنماذج في دفاتر الملاحظات.\n* مساحة تخزين سحابية بسعة 400 جيجابايت (تشمل Drive وGma"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2156",
+  "serial": 2156,
+  "serial_display": "#002156",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2106708913861366140",
+  "source_native_id": "2106708913861366140",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-04T11:32:00Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Perplexity تتيح تفويض مهام بحث عبر البريد الإلكتروني مجانًا",
+  "arabic_summary": "أتاحت Perplexity ميزة جديدة تسمح لأي شخص، حتى بدون حساب، بإرسال بريد إلكتروني إلى عنوان مخصص للحصول على مهام منفذة بما في ذلك تقارير Deep Research، وذلك مجانًا لفترة محدودة.",
+  "detailed_explanation": "تعلن Perplexity عن فتح الوصول لخدمة جديدة تعمل عبر البريد الإلكتروني: يمكن لأي مستخدم إرسال أو نسخ رسالة إلى عنوان computer@perplexity.com، فيقوم وكيل آلي بتنفيذ المهمة المطلوبة في الخلفية مع الحفاظ على سياق الرسالة، ثم يعيد النتيجة بالبريد، بما في ذلك تقارير Deep Research المعقدة.\n\nالميزة المهمة هنا أن الخدمة لا تتطلب حسابًا على المنصة، وهي مجانية لفترة محدودة، ما يجعلها طريقة سهلة للوصول إلى قدرات بحث متقدمة دون المرور بواجهة تطبيق أو تسجيل دخول.",
+  "why_it_matters": "يتيح الوصول إلى وكيل بحث متقدم دون الحاجة لتسجيل حساب أو استخدام واجهة تطبيق، ما يخفض حاجز الاستخدام لأدوات البحث العميق.",
+  "original_text": "You can email computer@perplexity.com for free and get things like Deep Research reports back, even if you don't have an account:",
+  "glossary": [
+   {
+    "term": "Deep Research",
+    "ar": "بحث عميق آلي متعدد الخطوات"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل آلي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Perplexity"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 21,
+   "replies": 3,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 15,
+   "views": 2422
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We're opening access to anyone (no Perplexity account needed), and we will run all tasks delegated via email for free for a limited time. Forward or CC computer@perplexity.com to get started, and the agent will complete the task in the background while keeping the email context."
+  },
+  "cluster_id": "perplexity-email-task",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2106892180161986698"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2157",
+  "serial": 2157,
+  "serial_display": "#002157",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2106768373736493399",
+  "source_native_id": "2106768373736493399",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-04T15:28:16Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "عرض لنموذج Fable 5.1 يبني لعبة من وصف نصي واحد",
+  "arabic_summary": "يعرض الكاتب نتيجة طلب من نموذج Fable 5.1 لبناء لعبة محاكاة مدينة بطراز معماري معين، منفذة من وصف واحد فقط بدون كتابة كود. يقارن النتيجة بتجربة سابقة مع GPT-5 قبل أكثر من عام لإظهار التطور.",
+  "detailed_explanation": "المنشور يقارن بين قدرات نموذج اليوم (Fable 5.1) ونموذج قبل أكثر من عام (GPT-5) في مهمة متطابقة تقريبًا: بناء أداة تفاعلية من وصف نصي واحد.\n\nالفارق الزمني القصير نسبيًا مقابل القفزة في جودة الناتج يعطي مؤشرًا ملموسًا على وتيرة تطور قدرات التوليد البرمجي من الوصف الطبيعي، وهو ما يهم أي شخص يتابع إمكانيات بناء التطبيقات بدون كود.",
+  "why_it_matters": "يوضح مدى تقدّم قدرة النماذج على توليد تطبيقات تفاعلية معقدة من أوامر نصية بسيطة دون تدخل برمجي.",
+  "original_text": "\"create the ultimate brutalist city builder. you should have lots of controls over buildings in ways that are delightful and intuitive to people...\"\n\nHere is Fable 5.1, a little over a year since GPT-5 below, in a single shot from a prompt.\n\nIt quite good: https://t.co/WsmSwYSDKc https://t.co/N8wkvVBH8o",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Fable",
+   "GPT-5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 215,
+   "replies": 68,
+   "reposts": 11,
+   "quotes": 7,
+   "bookmarks": 91,
+   "views": 35599
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [
+   "https://brut-city.netlify.app/"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "I had access to GPT-5. I think it is a very big deal as it is very smart & just does stuff for you\n\nFull write up in comments, but this is “make a procedural brutalist building creator where i can drag and edit buildings in cool ways\" & \"make it better\" a bunch. I touched no code https://t.co/hnYV39FOOn"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2158",
+  "serial": 2158,
+  "serial_display": "#002158",
+  "source_type": "x",
+  "source_url": "https://x.com/Wa7d_ai/status/2106810729336639543",
+  "source_native_id": "2106810729336639543",
+  "source_name": "مجتمع واحد",
+  "source_site": "x.com",
+  "author": "Wa7d_ai",
+  "published_at": "2026-10-04T18:16:35Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "شرح ميزة Dots من OpenAI: وكيل ثابت داخل ChatGPT",
+  "arabic_summary": "يشرح المنشور ميزة جديدة في ChatGPT تتيح إنشاء وكيل ثابت يتابع مهمة معينة عبر محادثات متعددة بدل إعادة شرح السياق كل مرة. الوكيل يعمل على حاسوب سحابي خاص به ويتعامل مع التطبيقات المرتبطة، لكنه يرجع للمستخدم عند أي خطوة تحتاج موافقة.",
+  "detailed_explanation": "الفكرة المحورية في المنشور هي الانتقال من نموذج «سؤال وجواب» إلى نموذج «تفويض ومتابعة»: بدل أن يكرر المستخدم السياق في كل محادثة، يحتفظ الوكيل بذاكرة العمل ويواصل من حيث توقف.\n\nهذا يمس بشكل مباشر طريقة استخدام ChatGPT في العمل اليومي، خصوصًا للمهام الممتدة مثل متابعة مشروع أو تلخيص ملفات بشكل دوري، مع إبقاء القرارات الحساسة بيد المستخدم.",
+  "why_it_matters": "يحوّل ChatGPT من أداة إجابة فورية إلى مساحة عمل مستمرة يمكن تفويضها بمهام متابعة طويلة الأمد.",
+  "original_text": "تدري وش ميزة Dots الجديدة من OpenAI؟\nمو إنها تخلي ChatGPT يجاوبك أسرع.\n\nالفكرة: يصير عندك وكيل ثابت داخل ChatGPT يعرف المهمة، ويتابعها معك بين المحادثات.\n\nتعطيه هدف واضح:  \nتابع هذا المشروع، راجع هالملفات، جهز لي ملخصات، أو ذكّرني بالمهام.\n\nوهو يشتغل على Cloud Computer خاص فيه، ويتعامل مع التطبيقات اللي تربطها، ويرجع لك بالنتيجة.\nيعني بدل ما تعيد عليه السياق كل مرة…  \nيصير عنده مساحة يشتغل فيها ويتذكر وين وقفتوا.\n\nبس مو معناه يقرر عنك كل شيء.  \nإذا فيه خطوة تحتاج موافقتك، يرجع لك.\n\nوهنا التغيير الحقيقي:\nChatGPT ما عاد بس مكان تسأله.  \nبدأ يصير مكان تعطيه مسؤولية ويتابعها معك.\n\nجربتوه ولا باقي؟👀",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 5,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 1387
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2159",
+  "serial": 2159,
+  "serial_display": "#002159",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2106838830024122666",
+  "source_native_id": "2106838830024122666",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-10-04T20:08:14Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مكتبة Skills بأسلوب شخصيات Star Trek لنموذج Hermes",
+  "arabic_summary": "يعرض المنشور مكتبة من 68 ملف إعداد جاهز لنموذج Hermes، كل ملف مبني على شخصية من Star Trek ومخصص لمهمة معينة مثل البحث أو تحليل البيانات أو الأمن أو التفاوض. يمكن تثبيت أي ملف واستخدامه مباشرة بدل بناء الإعدادات من الصفر، مع إمكانية حزمها ومشاركتها.",
+  "detailed_explanation": "هذه المكتبة مثال على اتجاه متنامٍ في بناء Skills: تنظيمها حول شخصيات أو أدوار واضحة المعالم بدل كونها تعليمات عامة، مما يسهّل اختيار الملف المناسب للمهمة.\n\nكونها قابلة للتثبيت والمشاركة مباشرة يجعلها مرجعًا عمليًا لمن يصمم Skills مشابهة أو يبحث عن قوالب جاهزة لتوفير وقت الإعداد.",
+  "why_it_matters": "يقدّم نموذجًا جاهزًا لتنظيم ملفات Skills حول أدوار وظيفية واضحة، وهو نمط عملي لمن يبني إعدادات وكلاء متخصصة.",
+  "original_text": "🖖 Hermes عنده مكتبة متاحة من 68 ملف إعداد جاهز بناها Teknium مستوحاة من شخصيات Star Trek\n\n🧠 مو مجرد أسماء وشخصيات لكل ملف تعليمات تحدد أسلوب التحليل والعمل ونقاط التركيز مثل Spock للبحث وData لتحليل البيانات وWorf للأمن وQuark للتسعير والتفاوض\n\n📦 تقدر تثبت الملف وتستخدمه مع نموذجك ومزودك بدل بناء الإعدادات من الصفر وتقدر تحزم إعدادات وكيلك وتشاركها مع غيرك\n\n💻 لتثبيت ملف Picard على macOS أو Linux راجع سكربت التثبيت قبل تشغيله ثم ابدأ جلسة جديدة",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة/إعداد"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Hermes",
+   "Teknium"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 40,
+   "replies": 1,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 39,
+   "views": 2951
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2160",
+  "serial": 2160,
+  "serial_display": "#002160",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2106730768789602313",
+  "source_native_id": "2106730768789602313",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-04T12:58:51Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق v1.3 من مجموعة Skills لمات بوكوك مع أمر /retro",
+  "arabic_summary": "يعرض الكاتب مثالًا عمليًا على استخدام إصدار جديد من مجموعة Skills الخاصة به، حيث يطلب من الوكيل مراجعة التغييرات، إعادة تسمية ملف التوثيق، وفحص جلسات سابقة لتقديم توصيات حول تحسين سير العمل بناءً على كيفية استخدام الملفات.",
+  "detailed_explanation": "المثال المعروض يبيّن استخدامًا عمليًا لإصدار جديد من Skills يتجاوز مجرد التثبيت إلى فحص سلوك الاستخدام الفعلي عبر جلسات سابقة واقتراح تحسينات، وهو نمط «تحسين ذاتي» للإعدادات.\n\nهذا يهم بشكل مباشر كل من يبني أو يدير مجموعات Skills، إذ يقدّم طريقة ملموسة لقياس فعالية الملفات الحالية وتحديثها.",
+  "why_it_matters": "يوضح نمط استخدام متقدم لملفات Skills في مراجعة الذات وتحسين سير العمل تلقائيًا بناءً على سجل الاستخدام الفعلي.",
+  "original_text": "Prompt of the day:\n\n1. Re-check mattpocock/skills for the v1.3 release. Rename CONTEXT.md to GLOSSARY.md. Check /setup-matt-pocock-skills for any required changes. Perform a diff of the skills in my repository vs Matt's.\n\n2. Get a sense for how I use Matt's skills: scan my last 25 sessions for skill invocations. Then, recommend how this release might improve my workflow.\n\nEnjoy v1.3, pals.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة/إعداد"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "مات بوكوك"
+  ],
+  "change_types": [
+   "New Release",
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2145,
+   "replies": 51,
+   "reposts": 55,
+   "quotes": 8,
+   "bookmarks": 2414,
+   "views": 96000
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "skills-v1.3",
+  "also_reported": [
+   {
+    "author": "mattpocockuk",
+    "url": "https://x.com/mattpocockuk/status/2106729173511188654"
+   },
+   {
+    "author": "mattpocockuk",
+    "url": "https://x.com/mattpocockuk/status/2106721758363414793"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2161",
+  "serial": 2161,
+  "serial_display": "#002161",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2106696992751857805",
+  "source_native_id": "2106696992751857805",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-04T10:44:38Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تنبيه بانتهاء صلاحية إعادة ضبط استخدام Codex قريبًا",
+  "arabic_summary": "تنبيه بأن حدّ إعادة ضبط استخدام Codex قد ينتهي خلال أقل من 13 ساعة إن لم يُستخدم، مع إمكانية سؤال Codex نفسه عن موعد انتهاء أي إعادة ضبط.",
+  "detailed_explanation": "يشير المنشور إلى أن مستخدمي Codex قد يكون لديهم رصيد استخدام (reset) سينتهي قريبًا دون أن يُستفاد منه إن لم يُستخدم خلال مهلة محددة. ويقترح الكاتب حلاً عمليًا وهو سؤال Codex نفسه عن موعد انتهاء صلاحية أي إعادة ضبط، وهي طريقة بسيطة لمعرفة الحدود الزمنية الدقيقة المرتبطة بحساب المستخدم.\n\nهذه الملاحظة تفيد مستخدمي الأداة في إدارة استهلاكهم بشكل أفضل وتجنب فقدان رصيد مجاني أو مخصص دون استخدامه.",
+  "why_it_matters": "معلومة عملية مباشرة لمستخدمي Codex تساعدهم على الاستفادة الكاملة من حدود استخدامهم قبل أن تُفقد.",
+  "original_text": "Heads up: you may have a Codex reset that will expire in less than 13 hours if you don't use it.\n\nFor the exact timing of any reset you can ask Codex when it expires. https://t.co/kYlS23lPwx",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 12,
+   "replies": 4,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1299
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "codex-reset",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2106879638526181668"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2162",
+  "serial": 2162,
+  "serial_display": "#002162",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2106958444196413670",
+  "source_native_id": "2106958444196413670",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-05T04:03:33Z",
+  "fetched_at": "2026-10-05T05:21:53Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إيقاف GPTs المخصصة في ChatGPT ونقلها إلى Plugins خاصة",
+  "arabic_summary": "يذكر الكاتب أن ميزة GPTs ستتوقف في ديسمبر، ويمكنه نقل أكثر GPT استخدامًا له إلى Plugin خاص، لكنه يشير إلى أن الهدف الأصلي من إنشاء GPT كان مشاركته مع آخرين، وهذا المسار الجديد لا يحقق ذلك.",
+  "detailed_explanation": "المنشور يوثق تحولًا في بنية ChatGPT: ميزة GPTs التي كانت محور اهتمام الشركات والمعلمين لسنوات ستُلغى، ويستبدلها OpenAI بنظام Plugins لا يخدم نفس غرض المشاركة العامة.\n\nهذا يهم كل من بنى GPT مخصصًا يُستخدم من قبل جمهور أوسع، إذ لا يبدو أن المسار الجديد يحافظ على إمكانية الوصول العام لتلك الأدوات.",
+  "why_it_matters": "إيقاف GPTs يمس آلاف المستخدمين والمؤسسات التي بنت أدوات عامة عليها، والبديل المطروح (Plugin خاص) يضيّق نطاق الاستخدام والمشاركة.",
+  "original_text": "I can migrate my most-used GPT (going away in December) to a private \"plugin.\" But the reason I created a GPT was for other people to use it.\n\nGPTs are obviously obsolete, but I know they were a focus within companies & among educators for years. This isn't a great path for them. https://t.co/ESNBkvRnAm",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "Plugin"
+  ],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "Deprecation"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 40,
+   "replies": 10,
+   "reposts": 3,
+   "quotes": 1,
+   "bookmarks": 7,
+   "views": 7125
+  },
+  "metrics_captured_at": "2026-10-05T05:21:53Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
