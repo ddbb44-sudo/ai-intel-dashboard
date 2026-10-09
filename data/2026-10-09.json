@@ -1,0 +1,2177 @@
+[
+ {
+  "id": "c2274",
+  "serial": 2274,
+  "serial_display": "#002274",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2108314315069485081",
+  "source_native_id": "2108314315069485081",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-08T21:51:17Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سير عمل لتحويل المقالات إلى فيديوهات بواسطة Claude",
+  "arabic_summary": "يشرح المنشور خطوات عملية لتحويل مقال مكتوب إلى فيديو جاهز للنشر عبر الدردشة مع Claude: طلب خطاف افتتاحي ومشاهد، ثم صور ثابتة، ثم تحريك القصة المصورة بأداة خارجية، وأخيرًا حفظ العملية كـ Skill قابل لإعادة الاستخدام. الأداتان المذكورتان لتوليد الصور والتحريك خارج قائمة أدوات عزيز.",
+  "detailed_explanation": "المنشور وصفة عملية من فريق Every لتحويل مقالاتهم إلى فيديوهات قصيرة قابلة للمشاركة على منصات التواصل. يبدأ العامل بإعطاء Claude نص المقال وطلب خطاف افتتاحي وتسلسل مشاهد، مع مراجعة بشرية في كل خطوة.\n\nبعدها يُطلب من النموذج توليد صورة ثابتة لكل مشهد مع نص على الشاشة وألوان مستوحاة من صورة الغلاف، ثم تُحرَّك القصة المصورة المعتمدة باستخدام أداة خارجية اسمها Hyperframes، وفي حال الغلاف المتحرك يُستخدم نموذج MiniMax داخل أداة أخرى.\n\nالخطوة الأخيرة والأهم من منظور بناء المهارات: بعد نجاح الفيديو، يُطلب من Claude حفظ العملية بأكملها والتصحيحات التي أُجريت كـ Skill قابل لإعادة الاستخدام مستقبلًا، وهو ما يجعل هذا المنشور متعلقًا مباشرة بملفات Skills وكيفية بنائها من تجربة عملية متكررة.",
+  "why_it_matters": "يوضح نمط استخدام عملي يجمع بين المحادثة مع نموذج لغوي وأدوات تحريك خارجية لإنتاج محتوى فيديو من نص، وينتهي بحفظ العملية كمهارة قابلة لإعادة الاستخدام.",
+  "original_text": "RT @every: We’ve been turning our articles into social-ready videos. Here’s how to do it with @hyperframes_:\n\n1. Give Claude the article and ask for an opening hook and a sequence of scenes. Confirm the choices against the piece.\n\n2. Ask for one still image per scene, with the onscreen text, and colors from the cover image. Check the story before approving animation.\n\n3. Have Claude animate the approved storyboard with Hyperframes. For an animated cover, use MiniMax in @FLORA and give Claude the resulting clip.\n\n4. Watch the preview. Flag unreadable text, cropped letters, or scenes that pass too quickly. Review again after each round of changes.\n\nOnce the video works, ask Claude to save the process and your corrections as a reusable skill—including the approval steps.\n\nFor @kplikethebird’s Compound Writing guide, @beckyisj made an 18-second video showing flying papers from the cover, followed by the writing process in a loop.\n\nRead the full piece: https://t.co/wJcXNnmTEY",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة قابل لإعادة الاستخدام يحفظ خطوات عمل متكررة"
+   },
+   {
+    "term": "Storyboard",
+    "ar": "قصة مصورة توضح تسلسل المشاهد قبل التحريك"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Claude",
+   "Hyperframes",
+   "MiniMax",
+   "Flora"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 32,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 1,
+   "bookmarks": 61,
+   "views": 3006
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2275",
+  "serial": 2275,
+  "serial_display": "#002275",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2108270886059167849",
+  "source_native_id": "2108270886059167849",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-08T18:58:43Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "und",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تطلق رصيد API شهري مجاني ضمن خطط Max وTeam",
+  "arabic_summary": "أعلنت Anthropic عن رصيد شهري مجاني لاستخدام API يُضاف لمشتركي خطط Max وTeam: 100 دولار لخطة Max 5x، و200 دولار لخطة Max 20x، وحتى 500 دولار مجمّعة لخطة Team. يعمل الرصيد مع أي نموذج بما فيها Haiku 5.5، عبر Messages API وManaged Agents وAgent SDK، لكنه لا يعمل مع جلسات Claude Code التفاعلية ولا يتراكم بين الدورات.",
+  "detailed_explanation": "الرصيد الجديد يستهدف تشجيع مستخدمي خطط Max وTeam على استخدام Claude API مباشرة أو عبر أدوات خارجية تقبل مفتاح API، بدلًا من الاقتصار على واجهة الدردشة فقط.\n\nمن المهم ملاحظة القيود: الرصيد لا يعمل مع Claude Code التفاعلي، ولا يُحتسب كاستخدام إضافي ضمن حدود الخطة، ولا يتراكم، أي ينتهي نهاية كل دورة فوترة، والمشتركون الجدد يحصلون عليه بعد مرور 7 أيام من الاشتراك.\n\nهذا التغيير يهم أي مطوّر يبني تطبيقات أو وكلاء فوق Claude API ويدفع اشتراكًا شهريًا أصلًا، لأنه يقلل التكلفة الفعلية للتجربة والتطوير دون الحاجة لفوترة منفصلة.",
+  "why_it_matters": "هذا يغيّر مباشرة من قيمة الاشتراك في خطط Claude المدفوعة لأي مطوّر يستخدم API، إذ يضيف قيمة مجانية فعلية دون تكلفة إضافية ضمن حدود الخطة الحالية.",
+  "original_text": "أطلقت Anthropic رصيد شهري مجاني\n لـ API مع خطط Max و Team:\n\n• Max 5x:\n 100 دولار شهرياً\n • Max 20x:\n 200 دولار شهرياً\n • Team: \n 500 دولار مجمّعة\n\nالرصيد يعمل على أي نموذج، بما فيها Haiku 5.5، ويمكن استخدامه في:\n- Messages API\n- Claude Managed Agents\n- Agent SDK\n- أي أداة خارجية تقبل مفتاح Claude API\nلا يعمل مع جلسات Claude Code التفاعلية، ولا يُحتسب كاستخدام إضافي داخل حدود الخطة.\n\nلتحصل عليه:\n من https://t.co/p8fMxFSa16 \nSettings\n Billing \n بعد ربط منظمة Console.\n\nالمشتركون الجدد يطالبون بعد 7 أيام\n\nالرصيد لا يتراكم وينتهي نهاية كل دورة",
+  "glossary": [
+   {
+    "term": "Messages API",
+    "ar": "واجهة برمجية للتفاعل المباشر مع نماذج Claude"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "Claude API",
+   "Haiku 5.5"
+  ],
+  "change_types": [
+   "Pricing Change",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 15,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 3802
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "http://claude.ai"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:\n\nMax 5x: $100\nMax 20x: $200\nTeam: up to $500, pooled\n\nWorks on any model, including Haiku 5.5, in your code or third-party harnesses. \n\nHow it works and full terms: https://t.co/qmWL6xVGwr"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "ClaudeDevs",
+    "url": "https://x.com/ClaudeDevs/status/2108228391404966005"
+   },
+   {
+    "author": "trq212",
+    "url": "https://x.com/trq212/status/2108301668828004396"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2276",
+  "serial": 2276,
+  "serial_display": "#002276",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2108306207207485792",
+  "source_native_id": "2108306207207485792",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-08T21:19:04Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "OpenAI تفصل ثلاثة باحثين في سلامة الذكاء الاصطناعي",
+  "arabic_summary": "فصلت OpenAI في بداية أكتوبر 2026 ثلاثة باحثين في مجال سلامة الذكاء الاصطناعي هم جاسمن وانغ وتوميك كورباك وميكيتا باليسني، بزعم مشاركة معلومات داخلية مع جهة خارجية. الباحثون ينفون التهمة ويقولون إن السبب الحقيقي هو تقديمهم سلامة النماذج على المصالح التجارية للشركة.",
+  "detailed_explanation": "القضية تتمحور حول اتهام OpenAI لثلاثة موظفين بمشاركة معلومات حساسة مع جهة خارجية متخصصة في سلامة الذكاء الاصطناعي، بينما يدّعي الموظفون أن الفصل تم لأسباب تتعلق بتعارضهم مع أولويات الشركة التجارية قصيرة الأمد.\n\nكل حالة من الحالات الثلاث لها تفاصيل مختلفة: واحدة تتعلق بدخول بريد إلكتروني لمدير دون إذن كامل، وأخرى بالتواصل مع مجموعة تقييم خارجية ضمن تحقيق أمني، والثالثة بتنسيق خارجي بعلم الإدارة بحسب ما يقول الموظف.\n\nالباحثون يحذرون من أن طريقة الفصل قد تخلق أثرًا مخيفًا يمنع موظفي الشركة من التحدث علنًا عن مخاطر الذكاء الاصطناعي أو التعاون مع خبراء مستقلين، وهو ما يمس مباشرة نقاش حوكمة السلامة في صناعة الذكاء الاصطناعي.",
+  "why_it_matters": "الخلاف يكشف توترًا داخليًا في OpenAI حول أولوية سلامة الذكاء الاصطناعي مقابل الضغوط التجارية، وهو ما يثير تساؤلات حول شفافية الشركات الكبرى في التعامل مع مخاوف السلامة.",
+  "original_text": "OpenAI تفصل ثلاثة باحثين في سلامة الذكاء الاصطناعي\n في بداية أكتوبر 2026 فصلت OpenAI ثلاثة كانوا يعملون على سلامة الذكاء الاصطناعي:\n\n- جاسمن وانغ\n- توميك كورباك\n- ميكيتا باليسني\n\n▪️موقف الشركة تقول OpenAI إن تحقيق داخلي أظهر أنهم شاركوا بعض المعلومات مع جهة خارجية متخصصة في سلامة الذكاء الاصطناعي. لذلك أنهت علاقتها بهم.\n\n▪️موقف الباحثين ينفون الاتهام… وفي رسالة نشرها الثلاثة في 8 أكتوبر قالوا إن سبب الفصل الحقيقي هو أنهم قدّموا سلامة الذكاء الاصطناعي على مصالح الشركة التجارية قصيرة الأجل. ويقولوا أن طريقة الفصل تخيف بقية الموظفين من التحدث عن مخاطر الذكاء الاصطناعي أو التعاون مع خبراء خارج الشركة.\n\nتفاصيل … الاتهامات\n\n•جاسمن وانغ\nقيل لها إن السبب دخولها بريداً إلكترونياً لمدير. تقول إن الشركة أعطتها هذا الدخول لمهمة توظيف، وطلبت إزالته ولم يُزل، ففتحت رسالة حساسة بالخطأ وأبلغت فوراً.\n\n•توميك كورباك:\nكان يتواصل مع مجموعة تقييم خارجية ضمن عمله في التحقيق بحادثة أمنية.\n\n•ميكيتا باليسني:\nكان ينسق مع جهات خارجية حول كيفية مراقبة سلوك النماذج المتقدمة، ويقول إن ذلك تم بعلم الإدارة.\n\nكواليس هذه الشركات تحمل الكثير",
+  "glossary": [],
+  "audience_topic": "خارج الاهتمام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "OpenAI",
+   "جاسمن وانغ",
+   "توميك كورباك",
+   "ميكيتا باليسني"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 25,
+  "metrics": {
+   "likes": 4,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1704
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2277",
+  "serial": 2277,
+  "serial_display": "#002277",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleDeepMind/status/2108216895329497200",
+  "source_native_id": "2108216895329497200",
+  "source_name": "Google DeepMind",
+  "source_site": "x.com",
+  "author": "GoogleDeepMind",
+  "published_at": "2026-10-08T15:24:11Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مقال من Google DeepMind عن مستقبل الذكاء الاصطناعي في العلوم",
+  "arabic_summary": "مقال فكري بالشراكة مع معهد Google DeepMind يناقش كيف يمكن لنماذج اللغة الكبيرة أن تتحول من أداة مساعدة للعلماء إلى منسّق تلقائي يدير التفاعل بين النماذج المتخصصة (مثل AlphaFold) ويطرح تساؤلات معرفية حول تفسير الاكتشافات الناتجة عن نماذج صندوق أسود.",
+  "detailed_explanation": "يطرح المقال فكرة أن الذكاء الاصطناعي قد لا يكون فقط أداة تسريع للممارسات العلمية القائمة، بل \"اختراعًا لمنهج اختراع\" على غرار المجهر أو الاستدلال الإحصائي، أي أداة تفتح أنماطًا جديدة كليًا من الاكتشاف.\n\nحاليًا، تعمل نماذج اللغة الكبيرة ونماذج متخصصة مثل AlphaFold كعنصرين مكمّلين اقتصاديًا: الأولى تتولى التحليل والكتابة والبرمجة، والثانية تتولى التنبؤات المتخصصة، بينما يدير العالِم التنسيق بينهما يدويًا.\n\nالتصور المستقبلي الذي يطرحه المقال هو أن تتولى نماذج اللغة نفسها إدارة هذا التنسيق تلقائيًا، بما يحوّل دور العالِم من منفّذ للخطوات إلى مصمّم لحلقة العمل بأكملها، مع تساؤلات مفتوحة حول كيفية تفسير نتائج نماذج يصعب فهم آليتها الداخلية.",
+  "why_it_matters": "يرسم تصورًا لمستقبل البحث العلمي حيث يتحول دور العالِم من تنفيذ الخطوات إلى تصميم حلقة الأتمتة، وهو تحول بعيد عن عمل عزيز لكنه يهم فهم اتجاه الصناعة.",
+  "original_text": "RT @alexolegimas: New essay for the @GoogleDeepMind Institute with James Manyika on AI x Science, \"Bending the Curve of Discovery\".\n\nWhile accelerating existing scientific practices is certainly useful, the real promise of AI is its potential to act as an invention of a method of invention (IMI) a la Griliches--e.g., the microscope or statistical inference--which would unlock questions and whole modes of discovery that were previously beyond human reach.\n\nToday, LLMs and specialized models like AlphaFold act as economic complements. LLMs handle analysis, coding, and writing, while specialized tools handle domain-specific predictions. Most handoffs between them run through the scientist.\n\nWhat may the future of science look like? LLMs orchestrating those handoffs automatically--prompting specialized models, auditing outputs, and looping until either the question is answered or a non-automated stage is reached (e.g., wet lab testing). The scientist's role shifts from running each step to designing this loop. We saw a glimpse of this workflow with Anthropic’s enzyme discovery a few weeks ago, and we're seeing this in our own work too.\n\nThis raises foundational epistemic questions:\n\n1.",
+  "glossary": [
+   {
+    "term": "LLM",
+    "ar": "نموذج لغوي كبير"
+   },
+   {
+    "term": "Black-box model",
+    "ar": "نموذج صندوق أسود"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Google DeepMind",
+   "AlphaFold",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 77,
+  "metrics": {
+   "likes": 213,
+   "replies": 13,
+   "reposts": 44,
+   "quotes": 5,
+   "bookmarks": 131,
+   "views": 25040
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2278",
+  "serial": 2278,
+  "serial_display": "#002278",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2108255598672523753",
+  "source_native_id": "2108255598672523753",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-08T17:57:58Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أول فيلم مولَّد بالذكاء الاصطناعي يسعى لترشيح الأوسكار",
+  "arabic_summary": "فيلم Gods Don't Give Gifts، من إخراج اليوتيوبر Zack London بالشراكة مع استوديو Fable، يعتمد على الذكاء الاصطناعي في الصورة والإنتاج مع أصوات لممثلين بشريين. مدته 104 دقيقة ومصنّف R، وتأجل عرضه من 30 أكتوبر إلى 4 ديسمبر بهدف تقريبه من موسم جوائز الأوسكار في فئة أفضل فيلم رسوم متحركة.",
+  "detailed_explanation": "الفيلم يعتمد على أربع قصص مترابطة في عالم خيال علمي يتصوّر مستقبلًا يمكن فيه استبدال الأجساد ونقل الوعي ومحو الذاكرة، وتسيطر فيه شركة خيالية على 97% من 'حصة العقول'.\n\nرئيس استوديو Fable وصف الفيلم بأنه أول عمل ذكاء اصطناعي لديه فرصة حقيقية للترشيح، وشبّهه بفيلم Toy Story لجيله الحالي، لكن بنبرة ساخرة تعكس مخاوف المجتمع الحالية من الذكاء الاصطناعي.\n\nالتأجيل من 30 أكتوبر إلى 4 ديسمبر جاء تحديدًا لمواءمة توقيت العرض مع موسم جوائز الأوسكار، ما يدل على جدية المحاولة لدخول المنافسة الرسمية وليس مجرد تجربة تقنية عابرة.",
+  "why_it_matters": "محاولة ترشيح فيلم مولّد بالذكاء الاصطناعي للأوسكار تمثل اختبارًا فعليًا لمدى قبول الصناعة والجمهور لهذا النوع من الإنتاج، وقد تشكّل سابقة تؤثر في مستقبل صناعة السينما.",
+  "original_text": "أول فيلم مولَّد بالذكاء الاصطناعي يطمح إلى الأوسكار\n\nGods Don’t Give Gifts\nمن إخراج اليوتيوبر Zack London المعروف بـ Gossip Goblin، وبالشراكة مع استوديو Fable\n\nالمدة: 104 دقائق\nالتصنيف:  R\nالنوع: خيال علمي رسوم متحركة\nالأصوات: لممثلين بشريين\nالصورة والإنتاج: يعتمدان على الذكاء الاصطناعي\n\nالفيلم أربع قصص مترابطة على كوكب Niiro Cradle، في ما يسمى (الدورة الثانية للبشرية)\n\n- الأجساد تُستبدل\n- الوعي سلعة\n- الذاكرة تُركَّب أو تُمحى\n- الموت لم يعد نهائياً\n\nشركة NiiroCore تسيطر على 97% من (حصة العقول) وتنقل الوعي إلى هياكل اصطناعية.\n\nالعرض:\nكان مقرراً في 30 أكتوبر ثم تأجل إلى 4 ديسمبر، والاستوديو يقول إن الهدف تقريب الفيلم من موسم جوائز الأوسكار والتقديم لفئة أفضل فيلم رسوم متحركة.\n\nرئيس Fable، Edward Saatchi، وصفه بأنه أول فيلم ذكاء اصطناعي لديه فرصة ترشيح، وشبّهه بـ Toy Story لهذا الجيل، لكن بنبرة ساخرة عن مخاوف 2026 من الذكاء الاصطناعي.\n\nوصلنا مرحلة كانت تخاف منها هوليود ومشاهيرها… أصبح الجميع في الأمر الواقع… وبشكل غير مباشر ، الثورة الأولى ضد الذكاء الاصطناعي أصبحت أكبر محفز للناس أن يبحثوا عن أفلام مولدة بالذكاء الاصطناعي.\n\nولكن ما مستقبل هذه الصناعة؟\nهل ستبقى الاهتمامات نفسها السابقة؟\nهل يتغير السوق والمصادر؟",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Fable",
+   "Zack London",
+   "Gods Don't Give Gifts"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 56,
+   "replies": 4,
+   "reposts": 12,
+   "quotes": 0,
+   "bookmarks": 47,
+   "views": 8649
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2279",
+  "serial": 2279,
+  "serial_display": "#002279",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2108216899439894574",
+  "source_native_id": "2108216899439894574",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-08T15:24:12Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "متى تستخدم grill-with-docs أو wayfinder بدلًا من الحل المباشر",
+  "arabic_summary": "ينصح الكاتب بعدم استخدام أدوات التخطيط المعقدة (grill-with-docs وwayfinder) للتغييرات الصغيرة، ويشرح متى يكون التخطيط المسبق مفيدًا ومتى يصبح عبئًا زائدًا عند التعامل مع الوكلاء البرمجية.",
+  "detailed_explanation": "يشرح المنشور قاعدتين عمليتين للتعامل مع أوامر Skills مخصصة (يبدو أنها /grill-with-docs و/wayfinder) عند العمل مع وكيل برمجي: الأولى أنه عند صغر حجم التعديل المطلوب (diff صغير) يفضَّل تنفيذ الحل مباشرة (one-shot) دون المرور بعملية 'التمحيص' (grilling) التي تهدف لمنع الوكيل من بناء الشيء الخاطئ، لأن تكلفة الخطأ في تعديل صغير منخفضة أصلًا.\n\nالقاعدة الثانية هي تجنّب البدء مباشرة بـ wayfinder (أداة لإنشاء خرائط وتذاكر عمل)، لأن ذلك قد يؤدي لإنشاء خطط وتذاكر غير ضرورية إذا تبيّن أن الحل أبسط مما كان متوقعًا. بدلاً من ذلك، يُنصح بالبدء بجلسة grill-with-docs للتغييرات متوسطة إلى كبيرة الحجم، ثم التحول لـ wayfinder فقط إذا تعقّد التخطيط. هذا النوع من القواعد العملية يفيد مباشرة من يبني أو يستخدم Skills مخصصة لتوجيه سلوك الوكلاء البرمجية.",
+  "why_it_matters": "يقدّم قاعدة عملية لتحسين سير العمل مع أدوات Skills عند البرمجة بمساعدة الوكلاء، بما يوفر وقتًا ويتجنب تعقيدًا غير ضروري.",
+  "original_text": "Should you /grill-with-docs, /wayfinder, or just one shot the code?\n\n1. If the diff is tiny, DON'T grill\n\n/grill-with-docs saves you from situations where the agent built the wrong thing. But if the thing it's building is tiny, that cost drops to nothing. So one-shotting is absolutely fine when you're only making small changes.\n\n2. Never start with /wayfinder\n\nA failure mode of /wayfinder is that you start grilling and the solution turns out to be way simpler than you thought. Why is this bad? Because you've created the map and tickets, and you realise you don't need them.\n\nSo if the expected diff is medium-large, always start with a /grill-with-docs session. Then, if planning starts to get out of hand, just say \"/wayfinder let's turn this into a map\".",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة مخصص يوجّه سلوك الوكيل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1126,
+   "replies": 56,
+   "reposts": 49,
+   "quotes": 9,
+   "bookmarks": 963,
+   "views": 42868
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2280",
+  "serial": 2280,
+  "serial_display": "#002280",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2108348428946170068",
+  "source_native_id": "2108348428946170068",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-10-09T00:06:51Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء Skill لمونتاج فيديو قصير بالكامل عبر Claude Opus",
+  "arabic_summary": "صنع الكاتب Skill مخصّص لمونتاج فيديوهات قصيرة بأسلوب رسم اليد على ورق الرسم البياني، فقام Claude Opus بتنفيذ كل خطوات التحرير تلقائيًا — إزالة الخلفية والترجمة والرسوم والمؤثرات — بالاعتماد على JavaScript وHTML canvas فقط دون أي برنامج مونتاج تقليدي.",
+  "detailed_explanation": "يروي الكاتب تجربته في بناء Skill مخصص لمونتاج الفيديوهات القصيرة (short form editing) مستوحى من أسلوب شائع يعتمد على رسوم بيانية مرسومة باليد، واستغرق بناؤه ساعة واحدة.\n\nبعد رفع فيديو خام يحتوي أخطاء، طلب من Claude Opus استخدام هذا الـ Skill، فقام النموذج تلقائيًا بإزالة الخلفية، وإضافة الشخص إلى لوحة (canvas)، وتفريغ الصوت نصيًا، وإضافة الترجمة والرسوم المتحركة والمؤثرات الصوتية، بل واستخدم Gemini للتحقق من جودة النتيجة النهائية بمشاهدة الفيديو.\n\nاللافت أن كل هذا تم دون استخدام أي منصة تحرير فيديو تقليدية، بل بالاعتماد على كود JavaScript مخصص على HTML canvas، وهذا يوضح كيف يمكن لملفات Skills أن تحوّل Claude إلى أداة إنتاج كاملة متخصصة في مهمة واحدة.",
+  "why_it_matters": "مثال عملي يوضح كيف يبني المستخدمون Skills مخصصة فوق Claude Opus لأتمتة مهام إبداعية كاملة دون أدوات تحرير خارجية، وهو ما يمس صميم ملفات Skills.",
+  "original_text": "claude opus 5.5 is my video editor... \nand it one shot this short form video edit...\n\nI spent an hour making this skill for short form editing...\nBased on a viral format where people fill in hand drawn graph paper... \n\nAfter making this skill...\n\nAll i did was upload a video of me talking (with tons of mistakes)... then i said \"Claude, use the skill and edit this video) \n\n- it removed the background\n- added me to the canvas\n- transcribed the video\n- added subtitles\n- created all the graphics animations and sound effects - and checked it's work multiple times even watching the video using gemini to make sure no huge mistakes. \n\nit doesnt use any editing platform... just custom JavaScript on an HTML canvas (more down below in thread)\n\nThis was one shot... i could easily improve it more... just wanted to show what's possible, one shot. \n\nIt's not perfect... but when i make it better I'll share the full skill on @agentnative_ website.\n\nMore on how i ideate to build these skills below. 👇",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة مخصص للنموذج"
+   },
+   {
+    "term": "Canvas",
+    "ar": "لوحة رسم برمجية في المتصفح"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Gemini"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 12,
+   "replies": 5,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 1423
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2281",
+  "serial": 2281,
+  "serial_display": "#002281",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2108303528083275952",
+  "source_native_id": "2108303528083275952",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-08T21:08:26Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Claude Science يساعد في إنشاء أول خريطة كاملة للسماء بالأشعة فوق البنفسجية",
+  "arabic_summary": "ساعد عالم فلك باستخدام Claude Science في تجميع أول خريطة كاملة للسماء في الضوء فوق البنفسجي، بدمج بيانات من عدة مهام فضائية بينها GALEX التابعة لناسا التي غطّت ثلثي السماء فقط. الثلث الناقص قُدّر إحصائيًا بالاستعانة ببيانات مرئية وتحت حمراء وراديوية وقياسات من قمر غايا.",
+  "detailed_explanation": "استعان الباحث بـ Claude Science لإيجاد مجموعات بيانات فلكية متفرقة من مهام رصد مختلفة (GALEX، Swift، FIMS/SPEAR، TD-1) ومعايرتها معًا لإنشاء خريطة موحدة، ثم استخدم استدلالًا إحصائيًا لتقدير المناطق غير المرصودة.\n\nالدقة في اختبار المناطق المخفية بلغت نحو 10% مقارنة بالقيم الفعلية المقاسة لاحقًا، وهو ما يعطي مؤشرًا على موثوقية هذا النهج في ملء الفجوات البحثية حيث تنعدم البيانات المباشرة.\n\nهذا النوع من الاستخدام يبرز دور نماذج الذكاء الاصطناعي كمساعد تحليلي في العلوم الدقيقة وليس فقط كأداة نصية، ما يفتح الباب أمام تطبيقات مشابهة في مجالات بحثية أخرى تعاني من فجوات بيانات.",
+  "why_it_matters": "يُظهر المثال كيف يمكن استخدام نماذج الذكاء الاصطناعي كمساعد بحثي فعلي في العلوم الفيزيائية لدمج وتحليل بيانات معقدة من مصادر متعددة، لا مجرد أداة كتابة أو برمجة.",
+  "original_text": "Claude Science ساهم في تجميع أول خريطة كاملة للسماء في الضوء فوق البنفسجي.\n\nما الذي حدث؟\n•مهمة ناسا GALEX غطّت نحو ثلثي السماء فقط، وتجنبت مناطق النجوم الساطعة ومنها جزء كبير من مستوى درب التبانة لحماية كواشفها.\n\n•الأداة جمعت بيانات من GALEX وSwift وFIMS/SPEAR وTD-1 وعايرتها معاً.\n\n•الثلث الناقص قُدّر من علاقات مع بيانات مرئية وتحت حمراء وراديوية، مع تقديرات لأكثر من 100 مليون نجم من قياسات غايا.\n\n•في اختبار على مناطق مخفية، اقترب التقدير من القيم المقاسة بنسبة نحو 10%.",
+  "glossary": [
+   {
+    "term": "Claude Science",
+    "ar": "استخدام نموذج Claude كمساعد في تحليل بيانات علمية"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Claude Science",
+   "ناسا",
+   "GALEX",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 30,
+  "metrics": {
+   "likes": 3,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 1717
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "An astrophysicist worked with Claude Science to create the first complete ultraviolet map of the sky. Astronomers have already created complete sky maps from radio to gamma rays. But large regions of the sky have never been observed in UV.\n\nIn today’s science blog, Brice Ménard explains how he guided Claude to find existing datasets, combine them, and fill in the gaps with statistical inference. T"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "AnthropicAI",
+    "url": "https://x.com/AnthropicAI/status/2108290395599667700"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2282",
+  "serial": 2282,
+  "serial_display": "#002282",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2108287358374482381",
+  "source_native_id": "2108287358374482381",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-10-08T20:04:10Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تخفض سعر قراءة الكاش لنموذج Sonnet 5.5",
+  "arabic_summary": "خفضت Anthropic سعر قراءات الكاش (cache reads) لنموذج Sonnet 5.5 إلى النصف، ليصبح 0.10 دولار لكل مليون Token، ما يجعل العمل الوكيلي (agentic work) أرخص بنحو 20% على منصة Claude API. لا تغيير على حدود استخدام Claude Code.",
+  "detailed_explanation": "التغيير يخص تحديدًا تسعير قراءات الكاش لنموذج Sonnet 5.5 ضمن Claude Platform، حيث أصبح السعر 0.10 دولار لكل مليون Token، بينما يبقى سعر الإدخال 2 دولار والإخراج 10 دولار لكل مليون Token.\n\nالنتيجة العملية هي أن المهام الوكيلية (agentic work) التي تعتمد بشكل مكثف على إعادة استخدام السياق المخزن مؤقتًا (caching) ستصبح أرخص بنسبة تقارب 20%، وهذا التخفيض يقتصر على استخدام API ولا يمسّ حدود استخدام Claude Code.\n\nلأن Claude من أدوات عزيز الأساسية، فإن أي تغيير في تسعيره يُستثنى صراحة من قاعدة استبعاد الأخبار التجارية، ويُصنَّف ضمن «أداة يستعملها».",
+  "why_it_matters": "خفض تكلفة الاستخدام المكثف عبر API يقلل مباشرة من تكلفة تشغيل الوكلاء المعتمدين على Sonnet 5.5، وهو مسار يستخدمه عزيز عبر Claude.",
+  "original_text": "ICYMI we've cut the price of Sonnet 5.5 cache reads in half.\n\nIn the Claude Platform, it's now $0.10 per million tokens (input is $2, output is $10). \n\nThis means Sonnet 5.5 now runs ~20% cheaper on most agentic work. \n\n(API only, no change to Claude Code usage limits.)",
+  "glossary": [
+   {
+    "term": "Cache reads",
+    "ar": "قراءات التخزين المؤقت"
+   },
+   {
+    "term": "Token",
+    "ar": "توكن"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "Sonnet 5.5"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 98,
+  "metrics": {
+   "likes": 3233,
+   "replies": 115,
+   "reposts": 105,
+   "quotes": 46,
+   "bookmarks": 222,
+   "views": 145278
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2283",
+  "serial": 2283,
+  "serial_display": "#002283",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2108261554638495935",
+  "source_native_id": "2108261554638495935",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-10-08T18:21:38Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Voyager: بيئة مفتوحة للعمل الإبداعي بالذكاء الاصطناعي",
+  "arabic_summary": "أُطلقت أداة Voyager كـ'harness' مفتوحة تشغّل نماذج مثل Opus وAstra وDeepSeek لإنتاج فيديو وجرافيك وألعاب، وتضم محررات مجانية مدمجة أو تتحكم في برامج مثل Blender وResolve وAfter Effects وAbleton وأكثر من 100 أداة أخرى.",
+  "detailed_explanation": "Voyager أداة جديدة توصف بأنها 'Codex للعمل الإبداعي'، أي بيئة تشغيل (harness) مفتوحة مصممة خصيصًا لاستخراج أفضل نتائج إبداعية من نماذج الذكاء الاصطناعي مثل Opus وAstra وDeepSeek، بعكس معظم أدوات AI المبنية أساسًا للبرمجة.\n\nتأتي الأداة مع محررات رسومية وموسيقية وفيديو مجانية مدمجة، أو يمكنها التحكم في برامج احترافية خارجية مثل Blender وResolve وAfter Effects وAbleton وأكثر من 100 أداة أخرى، ما يجعلها طبقة تنسيق (orchestration) فوق أدوات التصميم الموجودة.\n\nهذا يهم فئة المصممين وصناع الفيديو الذين يبحثون عن طريقة لأتمتة سير العمل الإبداعي بالكامل باستخدام نماذج اللغة والصور بدل الاعتماد على كل أداة بمفردها.",
+  "why_it_matters": "يقدّم بديلًا بصري-إبداعي لما يقدمه Codex في البرمجة، ويهم صناع المحتوى والمصممين الذين يبحثون عن أتمتة الأعمال الإبداعية عبر نماذج متعددة.",
+  "original_text": "Voyager just launched. An open harness for S-tier video, graphics, and games 🤯\n\n> Runs Opus, Astra, and DeepSeek\n> Free editors built in\n> Or drives Blender, Resolve, After Effects, Ableton, and 100+ others\n\nThe Codex for creative work.",
+  "glossary": [
+   {
+    "term": "Harness",
+    "ar": "بيئة تشغيل وتنسيق"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Opus",
+   "DeepSeek",
+   "Blender",
+   "Resolve",
+   "After Effects",
+   "Ableton"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 10,
+   "replies": 3,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 2362
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Voyager: the open harness for S-tier video, graphics and games.\n\nThe Codex for creative work.\n\nMost AI tools are built for coding. Voyager is designed to get the best creative results from models like Opus, Astra and DeepSeek.\n\nIt comes with free graphics, music and video editing tools - or, it can drive Blender, Resolve, After Effects, Ableton and 100+ others.\n\nEverything in this thre"
+  },
+  "cluster_id": "voyager-launch",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2108297117458411682"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2284",
+  "serial": 2284,
+  "serial_display": "#002284",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2108219650974818747",
+  "source_native_id": "2108219650974818747",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-08T15:35:08Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فكرة استخدام واجهة داخل الدردشة لتحويل RSS إلى تجربة تفاعلية في Codex",
+  "arabic_summary": "يصف المنشور تجربة مع ميزة الواجهة داخل الدردشة في OpenAI، حيث جرّب الكاتب إعادة بناء مقالات Every كعناصر تفاعلية داخل محادثة Codex، مع أزرار لتثبيت Skills أو تعليم الـ Agent من المقال. يقترح أن الطريقة تنطبق على أي خلاصة RSS.",
+  "detailed_explanation": "يتحدث الكاتب عن ميزة أسماها 'UI in chat' من OpenAI، معتبرًا إياها من أهم الابتكارات في Codex إلى جانب إطلاقات النماذج نفسها. المثال العملي: أخذ ملف MCP الخاص بـ Every وإعادة بناء مقالاتهم داخل الدردشة بشكل تفاعلي، مع أزرار لتثبيت Skills بنقرة واحدة أو تعليم الـ Agent دروسًا من المقال مباشرة.\n\nيضيف أن هذه الطريقة تعمل مع أي خلاصة RSS، ويرى أنها قد تمثل مستقبل قراءة المحتوى الإعلامي بشكل عام. المثال الثاني الذي يذكره هو قائمة مهام على شكل Kanban داخل الدردشة تطلق جلسات محادثة جديدة.\n\nالمحتوى يمس Codex وهو من أدوات عزيز المذكورة، لكن جوهر الخبر فعليًا عن ميزة واجهة داخل الدردشة وربطها بتثبيت Skills، لذا اعتُبر من زاوية سكيل لأنه الأعلى عند التعارض.",
+  "why_it_matters": "يوضح استخداماً عمليًا جديدًا لميزة الواجهة داخل الدردشة في Codex يمكن أن يغيّر طريقة تفاعل المستخدمين مع المحتوى والمهارات المحفوظة.",
+  "original_text": "RT @bran_don_gell: UI in chat is one of the biggest innovations I've seen from OpenAI aside from model launches and is totally changing how I use Codex. \n\nA few examples I've experimented with:\n- Take every's MCP and re-create Every's articles in chat in a way I can interact with them. Give me buttons to one click install Every skills or teach my agent lessons from an Every piece. \n^you can do this with literally any RSS feed. I think this is likely the future of reading media.\n- in chat kanban style to-do list that kicks off new chat sessions",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول يربط النماذج بمصادر بيانات وأدوات خارجية"
+   },
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة قابل للتثبيت والاستخدام داخل الوكيل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "MCP",
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "Every"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 14,
+   "replies": 3,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 10,
+   "views": 1899
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2285",
+  "serial": 2285,
+  "serial_display": "#002285",
+  "source_type": "x",
+  "source_url": "https://x.com/itsPaulAi/status/2108328250598666708",
+  "source_native_id": "2108328250598666708",
+  "source_name": "Paul Couvert",
+  "source_site": "x.com",
+  "author": "itsPaulAi",
+  "published_at": "2026-10-08T22:46:40Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تطبيق مفتوح المصدر يضغط ذاكرة المحادثة بنسبة 80٪ ويستورد من Claude Code",
+  "arabic_summary": "تطبيق سطح مكتب مفتوح المصدر (MIT) يدعى Atomic Agent Desktop يعمل محليًا ويقلّل حجم ذاكرة المحادثة حتى 80٪، ويمكنه استيراد Skills والذاكرة وخوادم MCP والمحادثات من Claude Code، مع إمكانية تفويض التنفيذ لنماذج محلية بينما تخطط نماذج سحابية.",
+  "detailed_explanation": "يقدّم المنشور تطبيقًا جديدًا يُدعى Atomic Agent Desktop، وهو نظام agentic محلي مفتوح المصدر (رخصة MIT) يعمل على macOS وWindows وLinux، ويتميز بتقنية تضغط ذاكرة المحادثة (context) حتى 80٪ باستخدام ما يسمى TurboQuant لتوسيع نافذة السياق على النماذج المحلية.\n\nالميزة الأبرز لعزيز هي إمكانية استيراد Skills والذاكرة وخوادم MCP والمحادثات مباشرة من Claude Code إلى هذا التطبيق المحلي، ما يجعله امتدادًا أو بديلًا تكامليًا لإعداد عزيز الحالي.\n\nكما يوفر تنسيقًا هجينًا (Atomic Fusion) بين النماذج السحابية والمحلية بهدف خفض التكاليف، عبر استخدام نموذج سحابي للتخطيط وتفويض التنفيذ لنموذج محلي أرخص وأسرع.",
+  "why_it_matters": "يمس أداة يستعملها عزيز (Claude Code) مباشرة من خلال قدرته على استيراد Skills وMCP servers منها، ويفتح مسارًا لتشغيل عمل وكيلي محلي أرخص.",
+  "original_text": "Local AI is evolving REALLY fast\n\nThis desktop app is open source (MIT) and compresses the memory a conversation takes by up to 80%!!\n\nAnd it's not just a chat btw... but a fully agentic setup\n\nYou can literally import from Claude Code your:\n\n- skills\n- memory\n- MCP servers\n- chats\n\nIf needed you can also call cloud models to plan and delegate the execution to local models.\n\nAvailable on macOS/Windows/Linux\n\nWe're so back!",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   },
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات"
+   },
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent",
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 13,
+   "replies": 4,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 2137
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Meet Atomic Agent Desktop!\n\n✦ Local AI-first agent for Mac, Windows & Linux\n✦ 4x bigger context window on local models with TurboQuant\n✦ Atomic Fusion orchestrates cloud and local models to reduce costs\n\nDownload Free & Private Agent → https://t.co/295O9ILOgw https://t.co/JQDtxyXDwz"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2286",
+  "serial": 2286,
+  "serial_display": "#002286",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2108186533303898293",
+  "source_native_id": "2108186533303898293",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-08T13:23:32Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: تحسّن النماذج لا يلغي الحاجة لملفات Skills الجيدة",
+  "arabic_summary": "يرى الكاتب أن تطور النماذج لا يغني عن استخدام Skills، بل يجعلها أكثر فعالية لأن النماذج تتحسن أيضًا في كيفية استخدامها لهذه الملفات. الفكرة المحورية أن Skills الجيدة توضّح للنموذج أولويات المستخدم ثم تترك له حرية التنفيذ.",
+  "detailed_explanation": "يتناول المنشور حجة متكررة في النقاشات حول تطوير الوكلاء البرمجية: أن تحسّن النماذج الأساسية سيجعل الحاجة لملفات Skills المخصصة أقل أهمية بمرور الوقت. يردّ الكاتب بأن هذا المنطق مقلوب، لأن النماذج لا تتحسن فقط في القدرات العامة، بل تتحسن أيضًا في كيفية استخدامها وتفسيرها لملفات Skills نفسها.\n\nجوهر الفكرة أن الدور الحقيقي لـ Skill الجيد ليس إعطاء تعليمات تفصيلية خطوة بخطوة، بل توضيح الأولويات والتفضيلات العامة للمستخدم، ثم ترك النموذج يتصرف بحرية ضمن هذا الإطار. هذا يعيد تعريف ما يعنيه 'Skill جيد' في ظل تطور النماذج، وهو نقاش مباشر ومهم لكل من يصمم أو يستخدم ملفات Skills.",
+  "why_it_matters": "يردّ على حجة شائعة بأن تطور النماذج سيُلغي الحاجة لملفات Skills، وهو نقاش مباشر حول مستقبل هذا المفهوم وقيمته المستمرة.",
+  "original_text": "\"Models are getting better, we don't need skills!\"\n\nWhat if I told you that models are also getting better at using skills?\n\nGood skills tell the model what you care about, then stay out of its way.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة مخصص يوجّه سلوك الوكيل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 1148,
+   "replies": 106,
+   "reposts": 25,
+   "quotes": 19,
+   "bookmarks": 166,
+   "views": 50774
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2287",
+  "serial": 2287,
+  "serial_display": "#002287",
+  "source_type": "x",
+  "source_url": "https://x.com/ClaudeDevs/status/2108320296323477683",
+  "source_native_id": "2108320296323477683",
+  "source_name": "ClaudeDevs",
+  "source_site": "x.com",
+  "author": "ClaudeDevs",
+  "published_at": "2026-10-08T22:15:03Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل Anthropic لبناء أتمتة عبر Claude Managed Agents",
+  "arabic_summary": "نشرت Anthropic شرحًا لكيفية بناء Agent يعمل وفق جدول زمني، يقرأ Slack وGitHub، يحتفظ بذاكرة وبيانات اعتماد، وينشر تحديثات تلقائيًا، باستخدام أمر Claude Code ورصيد API الجديد المتضمن في خطتي Max وTeam.",
+  "detailed_explanation": "يشرح المنشور خطوات بناء Agent مُدار (Managed Agent) يعمل وفق جدولة زمنية، قادر على قراءة قنوات Slack ومستودعات GitHub، والاحتفاظ بذاكرة عمل سابقة، ونشر تحديثات دورية دون تدخل يدوي متكرر.\n\nالإعداد يتم عبر أمر مخصص في Claude Code، مع الاستفادة من رصيد API الجديد المضمّن في خطط Max وTeam، ما يعني أن هذه الإمكانية متاحة فعليًا لمستخدمي هذه الخطط دون تكلفة إضافية منفصلة.\n\nبما أن Claude Code وAnthropic من أدوات عزيز الأساسية، فإن هذا الشرح يقدّم مسارًا عمليًا مباشرًا لبناء أتمتة وكيلية يمكن تطبيقها على سير عمله الفعلي.",
+  "why_it_matters": "يوضح طريقة عملية لبناء أتمتة حقيقية عبر Claude دون الحاجة لتشغيل خادم خاص، وهو ما يمسّ عمل عزيز مباشرة باعتبار Claude Code أداته.",
+  "original_text": "How to build automations with Claude Managed Agents: https://t.co/uvNMfZ4vwB\n\nDeploy an agent that reads Slack/GitHub on a schedule (with credentials and memory) and posts updates. You can set it up with a Claude Code command and use the new API credits included in Max and Team.",
+  "glossary": [
+   {
+    "term": "Managed Agent",
+    "ar": "وكيل مُدار"
+   },
+   {
+    "term": "API credits",
+    "ar": "رصيد واجهة برمجية"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 1030,
+   "replies": 57,
+   "reposts": 62,
+   "quotes": 17,
+   "bookmarks": 1171,
+   "views": 71396
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "https://claude.dev/blog/building-effective-agent-automations/"
+  ],
+  "quoted": null,
+  "cluster_id": "claude-managed-agents",
+  "also_reported": [
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2108331334078738940"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2288",
+  "serial": 2288,
+  "serial_display": "#002288",
+  "source_type": "x",
+  "source_url": "https://x.com/trq212/status/2108344710331076943",
+  "source_native_id": "2108344710331076943",
+  "source_name": "Thariq",
+  "source_site": "x.com",
+  "author": "trq212",
+  "published_at": "2026-10-08T23:52:04Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude تطلق ميزتي Dashboards و Motion في النسخة التجريبية",
+  "arabic_summary": "أعلنت Claude عن ميزتين جديدتين في مرحلة beta: Dashboards التي تحوّل البيانات إلى لوحات تحكم حيّة، وMotion التي تحوّل الأفكار إلى شروح متحركة (animated explainers) بمجرد الطلب من Claude.",
+  "detailed_explanation": "تضيف Claude قدرتين جديدتين ضمن واجهتها: الأولى تتيح تحويل بيانات خام إلى لوحات تحكم (dashboards) تفاعلية حيّة مباشرة من المحادثة، والثانية تحوّل وصفًا نصيًا للفكرة إلى شرح متحرك (animated explainer) بصري.\n\nكلتا الميزتين في طور beta، أي أنها متاحة للتجربة وقد تتغير قبل الإطلاق الكامل. هذا يعني أن عزيز يمكنه تجربة هاتين الأداتين فورًا ضمن استخدامه الحالي لـ Claude دون الحاجة لأي تكامل أو إعداد إضافي.\n\nأهمية الخبر تكمن في كونه توسعًا مباشرًا لقدرات أداة يستخدمها عزيز يوميًا، وليس مجرد تحسين تدريجي، بل إضافة وظيفتين جديدتين كليًا (data visualization وcontent generation بصري).",
+  "why_it_matters": "ميزتان جديدتان مباشرة في أداة يستعملها عزيز، تفتحان استخدامات جديدة لعرض البيانات والشرح المرئي دون أدوات خارجية.",
+  "original_text": "RT @claudeai: Claude Dashboards and Claude Motion are in beta today.\n\nAsk Claude to turn your data into live dashboards and your ideas into animated explainers. https://t.co/V3fU4lMnzp",
+  "glossary": [
+   {
+    "term": "Beta",
+    "ar": "النسخة التجريبية"
+   },
+   {
+    "term": "Dashboard",
+    "ar": "لوحة تحكم"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بيانات وتحليلات",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 23802,
+   "replies": 496,
+   "reposts": 1431,
+   "quotes": 724,
+   "bookmarks": 13800,
+   "views": 1584815
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "claude-dashboards-motion",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2289",
+  "serial": 2289,
+  "serial_display": "#002289",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2108226169472737606",
+  "source_native_id": "2108226169472737606",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-08T16:01:02Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain تبني وكيلاً يشتري فعليًا عبر Stripe Link",
+  "arabic_summary": "أعلنت LangChain عن قدرة جديدة تتيح بناء Agent يبحث عن منتجات حقيقية، يجهّز طلب الشراء، ثم يدفع عبر محفظة Stripe Link، مع اشتراط موافقة شخص على كل طلب. النظام مبني على بروتوكول MPP ومنصة Managed Deep Agents.",
+  "detailed_explanation": "يصف المنشور تدفق عمل عملي: المستخدم يطلب شيئًا عبر Slack، يبحث الـ Agent عن المنتج ويجهّز الطلب، ثم يمرّ عبر مراجعة بشرية قبل الدفع الفعلي من خلال محفظة Agent Wallet الخاصة بـ Stripe Link.\n\nالبنية التحتية خلف هذا تعتمد على ما يسمّى MPP (بروتوكول دفع للوكلاء) إلى جانب Managed Deep Agents من LangChain، ما يعني أن هذه القدرة ليست تجربة معزولة بل جزء من منصة أوسع لبناء وكلاء قادرين على اتخاذ إجراءات مالية.\n\nالأهمية هنا ليست في كون الوكيل \"يدفع\" بحد ذاته، بل في النموذج الذي يوازن بين الأتمتة والرقابة البشرية، وهو نمط متوقع أن ينتشر في أنظمة الوكلاء التجارية.",
+  "why_it_matters": "يقرّب الوكلاء خطوة من تنفيذ معاملات مالية حقيقية، لكنه يُبقي الإنسان في حلقة الموافقة كضمان أمان.",
+  "original_text": "You can now build an agent that:\n🔎 Finds real products\n🛒 Prepares purchases\n💳 Pays\n…with a person approving every order 👨‍💻\n\nAsk in @slackhq, review the order, approve in @Stripe's Link agent wallet.\n\nBuilt on MPP + Managed Deep Agents.\n\nhttps://t.co/UY3PTfdWsX",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   },
+   {
+    "term": "MPP",
+    "ar": "بروتوكول دفع متعدد للوكلاء"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "Stripe"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 51,
+   "replies": 8,
+   "reposts": 12,
+   "quotes": 9,
+   "bookmarks": 18,
+   "views": 14111
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link"
+  ],
+  "quoted": null,
+  "cluster_id": "stripe-link-agents",
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2108227120313045273"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2290",
+  "serial": 2290,
+  "serial_display": "#002290",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2108268041125691868",
+  "source_native_id": "2108268041125691868",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-08T18:47:25Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دعم LangChain لواجهة Decisions API الجديدة من OpenAI",
+  "arabic_summary": "أعلن فريق LangChain دمج واجهة OpenAI Decisions API الجديدة في مكتبتهم، وتوفر إمكانية طرح أسئلة نعم/لا أو اختيار من خيارات أو تقييم بالنقاط، إلى جانب طبقتي توجيه للنماذج وتشغيل تلقائي.",
+  "detailed_explanation": "أعلن فريق LangChain عن دمج واجهة برمجية جديدة من OpenAI تسمى Decisions API داخل مكتبتهم، وتشمل التحديثات ثلاثة عناصر: أولًا OpenAIDecisions الذي يتيح طرح أسئلة بصيغة نعم/لا أو اختيار من عدة خيارات أو تقييم بالنقاط. ثانيًا طبقة وسيطة (middleware) لتوجيه الطلبات بين النماذج المختلفة حسب الحاجة. ثالثًا طبقة وسيطة أخرى للتشغيل التلقائي الكامل.\n\nهذا الإعلان يأتي ضمن موجة أوسع حول ما يسمى 'نماذج القرار' (Decision Models)، وهي بنية تهدف لجعل الوكلاء يتخذون قرارات منظمة بدل إجابات نصية حرة، وقد ظهرت أولًا في أداة تسمى Jev قبل أن تتبناها OpenAI وDatabricks بصيغ مشابهة.",
+  "why_it_matters": "يمثل نمطًا جديدًا يسمى 'نماذج القرار' يضاف كبنية أساسية لبناء الوكلاء، ودخوله LangChain يسهّل استخدامه في تطبيقات عملية.",
+  "original_text": "RT @sydneyrunkle: the @OpenAI decisions API is now in @LangChain! \n\nwe shipped:\n\n1. OpenAIDecisions: ask yes/no, choice, and score questions\n2. model routing middleware\n3. auto mode middleware\n\ndocs: https://t.co/ipUgaOntES",
+  "glossary": [
+   {
+    "term": "Middleware",
+    "ar": "طبقة وسيطة تعالج الطلبات بين النظام والنموذج"
+   },
+   {
+    "term": "API",
+    "ar": "واجهة برمجية للتفاعل مع خدمة أو نظام"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "API/SDK",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI",
+   "LangChain"
+  ],
+  "change_types": [
+   "New Integration",
+   "API Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 58,
+  "metrics": {
+   "likes": 46,
+   "replies": 8,
+   "reposts": 8,
+   "quotes": 2,
+   "bookmarks": 13,
+   "views": 3312
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2108261566978347516"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2291",
+  "serial": 2291,
+  "serial_display": "#002291",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2108253604305887470",
+  "source_native_id": "2108253604305887470",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-08T17:50:03Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub يطلق مصنّفًا جديدًا لحماية الأسرار البرمجية",
+  "arabic_summary": "طوّرت GitHub مصنّفًا (classifier) يراعي السياق لفحص الأسرار المحتملة (مثل مفاتيح API) خلال أقل من ملّيثانيتين، ويُتوقع أن يضاعف عدد الأسرار التي يمنعها نظام push protection قبل دخولها سجل المستودع.",
+  "detailed_explanation": "يشرح منشور GitHub أن تطور أدوات التطوير بمساعدة الوكلاء (Agents) زاد من سرعة كتابة الكود، ما يزيد من احتمال تسرّب أسرار حساسة مثل مفاتيح API أو كلمات المرور داخل المستودعات.\n\nالحل المطروح هو مصنّف جديد يعتمد على السياق (context-aware classifier) يفحص الأسرار المرشحة بسرعة فائقة، ويُقدَّر أن يضاعف فعالية نظام الحماية قبل دخول الوقت الفعلي للنشر.\n\nلأن GitHub ضمن قائمة أدوات عزيز الأساسية، فإن أي تحسين أمني فيه يمسّ عمله مباشرة، خاصة في سياق استخدام الوكلاء البرمجية التي قد تتعامل مع أسرار حساسة دون انتباه كافٍ.",
+  "why_it_matters": "مع تسارع كتابة الكود بمساعدة الوكلاء، يصبح تسرّب الأسرار خطرًا متزايدًا، وهذا التحسين يمسّ أمان GitHub الذي يعتمد عليه عزيز مباشرة.",
+  "original_text": "Devs and agents are moving faster than ever. Secret protection needs to keep pace.\n\nGitHub’s new context-aware classifier checks candidate secrets in under 2 milliseconds and could more than double the number of secrets push protection prevents before they enter repository history.\nhttps://t.co/7LeAg7nnAm",
+  "glossary": [
+   {
+    "term": "Classifier",
+    "ar": "مصنّف"
+   },
+   {
+    "term": "Push protection",
+    "ar": "حماية الدفع إلى المستودع"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Feature",
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 88,
+   "replies": 20,
+   "reposts": 10,
+   "quotes": 2,
+   "bookmarks": 10,
+   "views": 19771
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/?utm_source=x-promoting-secret-protection-article&utm_medium=social&utm_campaign=secret-protection-oct-2026"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2292",
+  "serial": 2292,
+  "serial_display": "#002292",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2108226353896325268",
+  "source_native_id": "2108226353896325268",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-08T16:01:46Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مصمم سابق في Anthropic يطلق أداة لتصميم الحركة عبر Claude",
+  "arabic_summary": "أطلق مصمم عمل سابقًا في Anthropic أداة أو إطار عمل (harness) يحوّل نموذج Opus 5.5 إلى ما يشبه استوديو تصميم حركة متكامل. المنشور يشير إلى خريطة طريق وأمثلة عملية مرفقة.",
+  "detailed_explanation": "يتحدث المنشور عن أداة أو منهجية طوّرها مصمم كان يعمل سابقًا في Anthropic، تهدف لتوجيه نموذج Opus 5.5 نحو إنتاج تصاميم حركة بجودة استوديو احترافي.\n\nرغم أن Claude مذكور بالاسم ويتأثر هذا الخبر به مباشرة، إلا أن جوهر الخبر هو أداة طرف ثالث (harness) وليس تحديثًا أو ميزة من Anthropic نفسها، لذلك يصنَّف ضمن عالم AI عام بدل أداة يستعملها، لأن ما يُطلَق هنا هو منتج مستقل يُستخدم مع Claude لا تغيير في Claude ذاته.\n\nالمنشور لا يذكر تفاصيل تقنية دقيقة عن كيفية عمل الأداة، بل يحيل القارئ لمقال أو خيط موسّع لمزيد من الشرح والأمثلة.",
+  "why_it_matters": "يوسّع استخدام Claude في مهام التصميم الحركي، وهو مجال يهمّ صانعي المحتوى والمصممين الذين يعتمدون على النماذج التوليدية.",
+  "original_text": "ex. Anthropic designer released Opus 5.5 motion design harness, that turns Claude into premier motion design studio.\n\nthis is unreal…\n\nsend it to Opus 5.5 & Fable 5.5, and thank me later. Then read the full roadmap with examples below. https://t.co/CCj5jMfXCj",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 89,
+  "metrics": {
+   "likes": 409,
+   "replies": 14,
+   "reposts": 32,
+   "quotes": 1,
+   "bookmarks": 649,
+   "views": 37175
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/4qTQfdoerp"
+  },
+  "cluster_id": "opus-motion-harness",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2108243328936673317"
+   },
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2108170313557016623"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2293",
+  "serial": 2293,
+  "serial_display": "#002293",
+  "source_type": "x",
+  "source_url": "https://x.com/claudeai/status/2108271552991252810",
+  "source_native_id": "2108271552991252810",
+  "source_name": "Claude",
+  "source_site": "x.com",
+  "author": "claudeai",
+  "published_at": "2026-10-08T19:01:22Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude يطلق Dashboards وMotion في نسخة تجريبية",
+  "arabic_summary": "أطلقت Anthropic ميزتين جديدتين لـ Claude في مرحلة Beta: Dashboards لتحويل البيانات إلى لوحات تفاعلية حية، وMotion لتحويل الأفكار إلى شروحات متحركة (animated explainers).",
+  "detailed_explanation": "الميزتان الجديدتان تمثلان تحولًا في طبيعة مخرجات Claude: Dashboards يحوّل بيانات خام يزوّدها المستخدم إلى لوحات بيانات حية يمكن التفاعل معها، بينما Motion يحوّل أفكارًا نصية إلى رسوم متحركة توضيحية.\n\nكونهما في مرحلة Beta يعني أن الميزتين لا تزالان قيد التطوير وقد تشهدان تغييرات، لكن إطلاقهما يشير إلى اتجاه Anthropic نحو جعل Claude أداة إنتاج مرئي متكامل، لا مجرد محادثة نصية.\n\nبما أن Claude أداة أساسية ضمن أدوات عزيز، فإن أي ميزة جديدة فيه تمسّ عمله مباشرة، خصوصًا مع إمكانية ربطها بأدوات فيديو أخرى كما ظهر في منشورات لاحقة.",
+  "why_it_matters": "يوسّع هذا قدرات Claude من مجرد توليد نص وكود إلى إنتاج مخرجات مرئية تفاعلية، ما يقرّبه من أدوات العرض والتحليل البصري.",
+  "original_text": "Claude Dashboards and Claude Motion are in beta today.\n\nAsk Claude to turn your data into live dashboards and your ideas into animated explainers. https://t.co/V3fU4lMnzp",
+  "glossary": [
+   {
+    "term": "Dashboard",
+    "ar": "لوحة بيانات"
+   },
+   {
+    "term": "Beta",
+    "ar": "نسخة تجريبية"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بيانات وتحليلات",
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Feature",
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 23803,
+   "replies": 496,
+   "reposts": 1432,
+   "quotes": 724,
+   "bookmarks": 13801,
+   "views": 1584815
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "claude-dashboards-motion",
+  "also_reported": [
+   {
+    "author": "runwayml",
+    "url": "https://x.com/runwayml/status/2108287937272266800"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2294",
+  "serial": 2294,
+  "serial_display": "#002294",
+  "source_type": "x",
+  "source_url": "https://x.com/AnthropicAI/status/2108302539498414208",
+  "source_native_id": "2108302539498414208",
+  "source_name": "Anthropic",
+  "source_site": "x.com",
+  "author": "AnthropicAI",
+  "published_at": "2026-10-08T21:04:30Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أنثروبيك تطلق مبادرة لتأمين البنية التحتية الحرجة",
+  "arabic_summary": "أعلنت Anthropic عن إطلاق Anthropic Cyber Mission، وهي مبادرة جديدة تهدف لتأمين البنية التحتية الحرجة وبرمجيات المصدر المفتوح. المبادرة تندرج ضمن توجه الشركة نحو تطبيقات الأمن السيبراني لنماذجها.",
+  "detailed_explanation": "أعلنت Anthropic عن مبادرة جديدة باسم Cyber Mission تستهدف تأمين البنية التحتية الحرجة والبرمجيات مفتوحة المصدر. المنشور لا يقدّم تفاصيل تقنية دقيقة عن آلية العمل أو الأدوات المستخدمة، لكنه يشير إلى اتجاه استراتيجي للشركة نحو دمج قدرات الأمن السيبراني ضمن جهودها.\n\nبما أن Anthropic مذكورة ضمن أدوات عزيز، فإن أي مبادرة أمنية تطلقها تمسّ بشكل غير مباشر الثقة في استخدام منتجاتها مثل Claude، خصوصًا في السياقات التي تتطلب حماية بيانات حساسة أو بنية تحتية.",
+  "why_it_matters": "يتعلق الأمر بأمن أداة (Claude) يستعملها عزيز، ويعكس توجه الشركة نحو تعزيز الثقة الأمنية في منتجاتها.",
+  "original_text": "We’re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.\n\nhttps://t.co/0tz0ARAEMj",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Anthropic"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 91,
+  "metrics": {
+   "likes": 1172,
+   "replies": 87,
+   "reposts": 126,
+   "quotes": 43,
+   "bookmarks": 277,
+   "views": 98606
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "https://www.anthropic.com/news/anthropic-cyber-mission"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2295",
+  "serial": 2295,
+  "serial_display": "#002295",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2108175792945676313",
+  "source_native_id": "2108175792945676313",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-08T12:40:51Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أمر مخصص لجمع أسئلة الوكيل المتراكمة أثناء عمله الطويل",
+  "arabic_summary": "يشارك الكاتب أمرًا مخصصًا باسم /wait-what يُستخدم لجمع الأسئلة التي يطرحها الوكيل البرمجي أثناء عمله المستقل لساعات طويلة، بدلًا من تركها متناثرة داخل نافذة السياق.",
+  "detailed_explanation": "يقدّم المنشور أمرًا مخصصًا (يبدو أنه Skill أو prompt مُسمّى) باسم /wait-what، يُستخدم عندما يعمل الوكيل البرمجي لفترة طويلة دون إشراف مباشر ويتراكم لديه عدة أسئلة أو استفسارات متناثرة ضمن نافذة السياق (context window). بدلاً من البحث يدويًا عن هذه الأسئلة، يجمعها الأمر في مكان واحد.\n\nهذا النوع من الحلول العملية الصغيرة يوضّح كيف يمكن لملفات Skills أو الأوامر المخصصة أن تحسّن تجربة العمل مع الوكلاء البرمجية طويلة المدى، وهو مرتبط مباشرة باهتمامات من يبني أو يستخدم مثل هذه الأدوات.",
+  "why_it_matters": "حل عملي بسيط لمشكلة شائعة عند تشغيل الوكلاء البرمجية لفترات طويلة دون إشراف، وهو مثال ملموس على فائدة أوامر Skills المخصصة.",
+  "original_text": "Prompt of the day:\n\n/wait-what questions did you have for me\n\nGreat for when the agent has gone off on its own for hours and has random questions scattered through its context window.",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill",
+   "Prompt"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 458,
+   "replies": 49,
+   "reposts": 17,
+   "quotes": 3,
+   "bookmarks": 269,
+   "views": 28664
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2296",
+  "serial": 2296,
+  "serial_display": "#002296",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2108214214347071604",
+  "source_native_id": "2108214214347071604",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-10-08T15:13:32Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مقارنة بيانات بين أداة Apify RAG Web Browser وTavily",
+  "arabic_summary": "نشر حساب Apify مقارنة كمية بين أداته RAG Web Browser وأداة Tavily على نفس الاستعلام، حيث استخرجت أداة Apify محتوى أكبر بكثير (564 ألف حرف مقابل 67 ألف) من نفس أربعين نتيجة بحث.",
+  "detailed_explanation": "يعرض المنشور مقارنة رقمية مباشرة بين أداتين لجلب محتوى الويب لصالح أنظمة RAG وAgent: أداة Apify الخاصة بالشركة، وأداة منافسة هي Tavily. الفارق الكبير في حجم المحتوى المستخرج (8.4 أضعاف) يعكس فلسفتين مختلفتين: جلب شامل مقابل مقتطفات مركّزة.\n\nبما أن Apify ضمن قائمة أدوات عزيز المعتمدة، والمنشور يتناول ميزة تقنية مباشرة فيها (أداء الاستخراج)، فهذا يجعله ضمن درجة «أداة يستعملها». المنشور يحيل لخيط أطول فيه تفاصيل إضافية لم تُذكر هنا بالكامل.",
+  "why_it_matters": "يفيد من يبني Agent يعتمد على استخراج محتوى الويب في اختيار أداة الجلب المناسبة بحسب حاجته لكمية المحتوى أو إيجازه.",
+  "original_text": "Apify RAG Web Browser vs Tavily: 564k characters vs 67k across the same 40 results.\n\n8.4x more content, or tighter snippets - depends on what your agent needs. Full breakdown in the thread ↓ https://t.co/w8vrUxmbZt",
+  "glossary": [
+   {
+    "term": "RAG",
+    "ar": "توليد معزّز بالاسترجاع"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "بيانات وتحليلات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Apify",
+   "Tavily"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 15,
+  "metrics": {
+   "likes": 1,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 337
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2297",
+  "serial": 2297,
+  "serial_display": "#002297",
+  "source_type": "x",
+  "source_url": "https://x.com/midjourney/status/2108307894886400511",
+  "source_native_id": "2108307894886400511",
+  "source_name": "Midjourney",
+  "source_site": "x.com",
+  "author": "midjourney",
+  "published_at": "2026-10-08T21:25:47Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Midjourney تختبر وضع تفكير جديد لتوليد الصور في نسخة Alpha",
+  "arabic_summary": "أعلنت Midjourney عن اختبار ميزة جديدة تسمى 'thinking mode' على موقعها التجريبي Alpha، وتقول إنها تحسّن دقة اتباع الأوامر النصية وجودة الخطوط والتناسق العام في الصور المولدة.",
+  "detailed_explanation": "تختبر Midjourney ميزة جديدة أسمتها 'وضع التفكير' حصريًا على نسخة Alpha التجريبية من موقعها، وتذكر أنها لاحظت تحسنًا في ثلاثة جوانب أساسية: دقة اتباع الأوامر النصية (Prompt accuracy)، جودة الخطوط والنصوص داخل الصورة (Typography)، والتناسق العام بين عناصر الصورة (Coherence).\n\nالشركة تطلب من المستخدمين تجربة الميزة وتقديم ملاحظات، ما يعني أنها في مرحلة اختبار مبكرة (Beta) ولم تُطلق بعد للجميع. لا تذكر التغريدة تفاصيل تقنية عن آلية عمل هذا الوضع.",
+  "why_it_matters": "تحسين دقة اتباع الأوامر وجودة النص داخل الصور من أكبر نقاط ضعف نماذج توليد الصور، وأي تقدم فيها يرفع جودة الاستخدام العملي.",
+  "original_text": "We're testing a new \"thinking mode\" for our image generation on our Alpha website (alpha dot midjourney dot com). We're finding it boosts prompt accuracy, typography and coherence. We'd love your help testing it on your images and telling us what you think. Thanks! <3 https://t.co/iWf8xoVej7",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "النص التوجيهي الذي يُعطى للنموذج لتوليد مخرجاته"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Midjourney"
+  ],
+  "change_types": [
+   "Beta / Preview",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 236,
+   "replies": 20,
+   "reposts": 21,
+   "quotes": 5,
+   "bookmarks": 58,
+   "views": 11200
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2298",
+  "serial": 2298,
+  "serial_display": "#002298",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2108233460502708572",
+  "source_native_id": "2108233460502708572",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-08T16:30:00Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain يعرض Agent لطلب مستلزمات المكاتب داخل Slack",
+  "arabic_summary": "بنى فريق LangChain تطبيقًا تجريبيًا باسم Restock، وهو Agent يعمل داخل Slack للبحث عن منتجات حقيقية وتحضير الشراء وإتمام الدفع، مع موافقة بشرية على كل طلب قبل تنفيذه.",
+  "detailed_explanation": "يعرض المنشور تطبيقًا بنته LangChain باسم Restock، وهو Agent مخصص لأتمتة طلب مستلزمات المكاتب يعمل كتكامل داخل Slack. يقوم الوكيل بثلاث خطوات أساسية: البحث عن منتجات حقيقية، تحضير عملية الشراء، ثم إتمام الدفع فعليًا عبر نظام دفع مرتبط، مع بقاء شخص بشري يوافق على كل طلب قبل تنفيذه.\n\nالتطبيق مبني على تقنية أطلق عليها المنشور المقتبَس اسم MPP ونظام 'Managed Deep Agents'، وهو مثال يوضح كيف يمكن دمج بروتوكولات الدفع البرمجي مع الوكلاء الذكية في سياق عمل تجاري حقيقي.",
+  "why_it_matters": "مثال عملي على بناء Agent يدمج البحث والدفع الفعلي ضمن أداة تواصل شائعة، مع إبقاء الإنسان في حلقة الموافقة.",
+  "original_text": "Here’s an app we built called Restock, an office supply agent that works in @SlackHQ.\n\nA quick demo ⏯️ https://t.co/Ugrepjp6sw",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "برنامج ذكي ينفذ مهامًا بشكل مستقل نيابة عن المستخدم"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "LangChain",
+   "Slack",
+   "Stripe"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 18,
+   "replies": 1,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 3,
+   "views": 4384
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "You can now build an agent that:\n🔎 Finds real products\n🛒 Prepares purchases\n💳 Pays\n…with a person approving every order 👨‍💻\n\nAsk in @slackhq, review the order, approve in @Stripe's Link agent wallet.\n\nBuilt on MPP + Managed Deep Agents.\n\nhttps://t.co/UY3PTfdWsX"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2108232461079421237"
+   },
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2108228210617929878"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2299",
+  "serial": 2299,
+  "serial_display": "#002299",
+  "source_type": "x",
+  "source_url": "https://x.com/cursor_ai/status/2108289748628566496",
+  "source_native_id": "2108289748628566496",
+  "source_name": "Cursor",
+  "source_site": "x.com",
+  "author": "cursor_ai",
+  "published_at": "2026-10-08T20:13:40Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Cursor يضيف ميزة /visualize لبناء الرسوم البيانية داخل الدردشة",
+  "arabic_summary": "أضاف Cursor أمر /visualize ضمن نافذة الـ Agents، يتيح للمستخدم تحليل البيانات ورؤية الرسم البياني مباشرة داخل المحادثة، ويمكن طرح أسئلة متابعة في نفس الجلسة للحصول على رسوم جديدة.",
+  "detailed_explanation": "أعلن حساب Cursor الرسمي عن ميزة جديدة باسم /visualize متاحة الآن داخل نافذة الـ Agents، تتيح للمستخدم تحليل البيانات ورؤية النتيجة كرسم بياني مضمّن مباشرة في المحادثة بدل الخروج إلى أداة خارجية.\n\nالميزة الإضافية التي أبرزها المنشور المقتبَس هي استمرارية الحوار: يمكن طرح سؤال متابعة في نفس المحادثة بعد ظهور أول رسم بياني، فيستجيب /visualize برسم جديد دون الحاجة لإعادة الطلب من الصفر، ما يجعل تحليل البيانات تفاعليًا ومتسلسلًا.",
+  "why_it_matters": "Cursor من أدوات عزيز المذكورة، وأي ميزة جديدة تضاف إليه تمسّ طريقة عمله المباشرة في البرمجة وتحليل البيانات.",
+  "original_text": "The first chart usually raises the next question.\n\nAsk it in the same chat and /visualize answers with a new chart. https://t.co/NPdqP4c46r",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Cursor"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 595,
+   "replies": 45,
+   "reposts": 38,
+   "quotes": 3,
+   "bookmarks": 87,
+   "views": 26975
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Cursor can now build charts and diagrams right in the chat.\n\nUse /visualize to analyze data and see the answer inline. Available now in the Agents Window. https://t.co/oDR6jJvAGK"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2300",
+  "serial": 2300,
+  "serial_display": "#002300",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2108297807387922608",
+  "source_native_id": "2108297807387922608",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-08T20:45:42Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فريق Every يشارك طريقة جعل الـ Agent أكثر كفاءة في استهلاك Tokens",
+  "arabic_summary": "تغريدة تشير إلى مقال يشرح كيف عدّل فريق Every بنية الـ Agent الخاص بهم لتقليل استهلاك الـ Tokens وتحسين الكفاءة. لم يرد تفصيل تقني في التغريدة نفسها سوى الإشارة إلى المقال.",
+  "detailed_explanation": "التغريدة إعلان مختصر من عضو فريق Every يشير إلى مقال تقني يشرح كيف جعلوا الـ Agent الخاص بمنتجهم أكثر كفاءة من ناحية استهلاك الـ Tokens. لا تحتوي التغريدة نفسها على تفاصيل تقنية عن الطريقة أو الأسلوب المتبع، بل هي دعوة لقراءة المقال الكامل.\n\nرغم أن الموضوع يخص بنية الوكلاء وهو مهم من حيث التصنيف، إلا أن غياب أي تفصيل فعلي في النص (ما الأسلوب؟ ما النتيجة؟) يجعل المحتوى القابل للنقل محدودًا جدًا لمن لا يملك رابط المقال.",
+  "why_it_matters": "كفاءة استهلاك الـ Tokens مسألة عملية مباشرة لكل من يبني Agents، إذ تؤثر على التكلفة وسرعة الاستجابة.",
+  "original_text": "RT @paridhitweets: shared some insights into how we made the @every  agent more token efficient! check it out here\nhttps://t.co/TtoRtB1ssf",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة نصية أساسية يقاس بها استهلاك النماذج اللغوية"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Every"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 4,
+   "replies": 0,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 1503
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "https://every.to/context-window/building-a-more-efficient-agent?utm_cta_source=newsletter_main_building_a_more_efficient_agentplus_why_every_traded_personal_agents_for_a_shared_company_agent_the__1#inside-every"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2301",
+  "serial": 2301,
+  "serial_display": "#002301",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2108136562710167959",
+  "source_native_id": "2108136562710167959",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-08T10:04:58Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ورشة عمل عن استخدام Claude Code وCodex في البحث الأكاديمي",
+  "arabic_summary": "شارك باحث مواد من ورشة عمل استمرت يومين حول استخدام الذكاء الاصطناعي الوكيل (agentic AI) في البحث الأكاديمي، مع التركيز على أداتي Claude Code وCodex.",
+  "detailed_explanation": "يشير المنشور إلى مشاركة مواد من ورشة عمل مدتها يومان ركزت على كيفية استخدام الذكاء الاصطناعي الوكيل، تحديدًا Claude Code وCodex، في سياقات البحث الأكاديمي. المنشور لا يفصّل محتوى الورشة نفسها، لكنه يشير لوجود رابط للمواد.\n\nكون كلا الأداتين (Claude Code وCodex) ضمن أدوات عزيز يجعل هذا المحتوى ذا صلة مباشرة بإمكانية الاستفادة من أساليب جديدة في استخدام هذه الأدوات لأغراض بحثية أو أكاديمية.",
+  "why_it_matters": "يقدّم موارد عملية لاستخدام أدوات agentic AI (Claude Code وCodex، وكلاهما من أدوات عزيز) في سياق البحث الأكاديمي، وهو استخدام مباشر لهذه الأدوات.",
+  "original_text": "Claude Code and Codex for academic research:\n\n@ClaesBackman shares materials from his recent 2-day workshop on agentic AI for research.\n\nLink in the reply https://t.co/jRGspYibcK",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Claude Code",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 168,
+   "replies": 5,
+   "reposts": 37,
+   "quotes": 0,
+   "bookmarks": 276,
+   "views": 12852
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "claude-codex-research-workshop",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2108319876410650702"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2302",
+  "serial": 2302,
+  "serial_display": "#002302",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+  "source_native_id": "2108262812489531498",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-08T18:26:38Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تطلق وضع Ultrafast لنموذج GPT-6.1 Sol",
+  "arabic_summary": "أعلنت OpenAI عن تفعيل وضع Ultrafast لنموذج GPT-6.1 Sol، متاحًا عبر API وCodex وChatGPT Work. الوضع الجديد يقدّم أداءً أقرب لنموذج Astra لكن بسرعة تصل إلى 8 أضعاف السرعة القياسية لـ Sol.",
+  "detailed_explanation": "وضع Ultrafast ليس نموذجًا جديدًا بل تحسين أداء لنموذج GPT-6.1 Sol الموجود، يتيح استجابات أسرع بما يصل إلى 8 أضعاف السرعة القياسية. الإعلان يربط هذا التحسين مباشرة بجودة قريبة من نموذج Astra الأعلى في التسلسل.",
+  "why_it_matters": "زيادة السرعة بهذا الحجم مع الحفاظ على مستوى ذكاء قريب من النموذج الأعلى تفتح استخدامات عملية جديدة للتطبيقات التفاعلية السريعة التي يبنيها المطورون عبر Codex وAPI.",
+  "original_text": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work.\n\nNear-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come. https://t.co/Cyy9k2hifV",
+  "glossary": [
+   {
+    "term": "Ultrafast",
+    "ar": "وضع تشغيل سريع لنموذج GPT-6.1 Sol"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI",
+   "GPT-6.1 Sol",
+   "Codex",
+   "ChatGPT"
+  ],
+  "change_types": [
+   "New Feature",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3914,
+   "replies": 322,
+   "reposts": 255,
+   "quotes": 252,
+   "bookmarks": 467,
+   "views": 719769
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gpt6-1-ultrafast",
+  "also_reported": [
+   {
+    "author": "OpenAI",
+    "url": "https://x.com/OpenAI/status/2108269021430710412"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2303",
+  "serial": 2303,
+  "serial_display": "#002303",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2108222800825819518",
+  "source_native_id": "2108222800825819518",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-08T15:47:39Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج GPT-6 Luna يتصدّر في سرعة الاستجابة بين النماذج",
+  "arabic_summary": "بحسب OpenRouter، يُعد GPT-6 Luna أسرع نموذج لمهام Decisions حاليًا بزمن استجابة 180 مللي ثانية على الطلبات العالمية، متقدمًا على نماذج Jev وPerplexity Decider.",
+  "detailed_explanation": "القياس أجرته منصة OpenRouter، وهي منصة تجميع وتوجيه بين نماذج متعددة، ما يمنح المقارنة مصداقية نسبية لأنها مبنية على استخدام فعلي للطلبات لا على اختبار معملي معزول.\n\nيبرز هذا التصنيف تنافسًا متزايدًا بين مزوّدي النماذج على محور السرعة بجانب الجودة، خصوصًا في فئة النماذج المخصصة لمهام 'القرارات' السريعة.",
+  "why_it_matters": "سرعة الاستجابة معيار مهم عند اختيار نموذج للمهام التفاعلية الفورية مثل أنظمة اتخاذ القرار السريع في التطبيقات.",
+  "original_text": "RT @OpenRouter: GPT-6 Luna is the fastest Decisions model today, at 180ms on global requests 🏁\n\nFollowed by Jev and Perplexity Decider: https://t.co/WD9xIYT9PF",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياسي لمقارنة أداء النماذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenRouter",
+   "GPT-6 Luna",
+   "Perplexity"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 492,
+   "replies": 28,
+   "reposts": 20,
+   "quotes": 11,
+   "bookmarks": 68,
+   "views": 32597
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2304",
+  "serial": 2304,
+  "serial_display": "#002304",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2108282066358153504",
+  "source_native_id": "2108282066358153504",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-10-08T19:43:09Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "شرح: بناء لعبة باستخدام ChatGPT بسطر واحد فقط",
+  "arabic_summary": "منشور تعليمي يوضح طريقة الطلب من ChatGPT لبناء لعبة كاملة باستخدام أمر (prompt) واحد فقط.",
+  "detailed_explanation": "يقدّم المنشور شرحًا مختصرًا (بصيغة فيديو أو رابط) حول كيفية صياغة أمر واحد لـ ChatGPT يؤدي إلى بناء لعبة كاملة، دون تفصيل إضافي في النص نفسه حول آلية العمل أو نوع اللعبة.\n\nهذا النوع من المحتوى يفيد من يريد تجربة قدرات ChatGPT التوليدية في البرمجة السريعة (rapid prototyping) باستخدام prompt مصمم بعناية بدل سلسلة أوامر معقدة.",
+  "why_it_matters": "يوضح استخدامًا عمليًا مباشرًا لأداة يستعملها عزيز (ChatGPT) لإنتاج محتوى برمجي كامل من أمر بسيط.",
+  "original_text": "كيف تخلي ChatGPT يبني لك لعبة بسطر واحد 🎮 https://t.co/qDD3iGSG3r",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 11,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 11,
+   "views": 1853
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2305",
+  "serial": 2305,
+  "serial_display": "#002305",
+  "source_type": "x",
+  "source_url": "https://x.com/DilumSanjaya/status/2108241054298415258",
+  "source_native_id": "2108241054298415258",
+  "source_name": "Dilum Sanjaya",
+  "source_site": "x.com",
+  "author": "DilumSanjaya",
+  "published_at": "2026-10-08T17:00:11Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج أولي لأداة تحليل حرائق الغابات بمساعدة Opus 5.5",
+  "arabic_summary": "بنى أحد المطورين نموذجًا أوليًا لأداة تصوّر تطور حرائق الغابات بمرور الوقت، وتتبع النقاط الساخنة عبر بيانات الدرون، وتراقب جهود الإطفاء. صرّح أنه استخدم نموذج Opus 5.5 في بنائها.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي على استخدام نماذج الذكاء الاصطناعي الحديثة في بناء أدوات تحليل بيانات جغرافية وبيئية معقّدة بسرعة.",
+  "original_text": "Played around with an idea for a wildfire analysis tool\n\nVisualizes wildfire progression over time, tracks hot spots with drones and monitors firefighting efforts\n\nMade with Opus 5.5 https://t.co/lp6SEumDxS",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 672,
+   "replies": 29,
+   "reposts": 48,
+   "quotes": 7,
+   "bookmarks": 411,
+   "views": 21933
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2306",
+  "serial": 2306,
+  "serial_display": "#002306",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2108190782028996680",
+  "source_native_id": "2108190782028996680",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-10-08T13:40:25Z",
+  "fetched_at": "2026-10-09T00:14:32Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مقارنة تجريبية بين تسعة نماذج ذكاء اصطناعي في مهام تصميم",
+  "arabic_summary": "أجرى الكاتب اختبارًا على تسعة نماذج ذكاء اصطناعي لمهام تصميم مختلفة، ثم قيّم النتائج عبر مراجعة بمعايير يستخدمها مديرو الفن مثل جودة الحركة والعلامة التجارية والطباعة. نشر النتائج في مقال مع قائمة مختصرة بالأسعار.",
+  "detailed_explanation": "",
+  "why_it_matters": "يفيد من يبحث عن نموذج مناسب لمهام التصميم بمقارنة عملية بدل الاعتماد على الدعاية.",
+  "original_text": "I compared 9 best AI models on 3 design tasks\n\nCreated assets -> ran art director's review -> rated design/motion quality, branding, typography etc.\nHow to choose best design models:\na) shortlist+price - https://t.co/hSfPDMOUX3\nb) real design tests - article below",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 37,
+   "replies": 7,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 20,
+   "views": 2768
+  },
+  "metrics_captured_at": "2026-10-09T00:14:32Z",
+  "external_links": [
+   "http://amirmushich.link/ai-arena"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/Zk4ybPWGfo"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
