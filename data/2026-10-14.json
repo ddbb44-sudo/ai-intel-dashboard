@@ -1,0 +1,2256 @@
+[
+ {
+  "id": "c2418",
+  "serial": 2418,
+  "serial_display": "#002418",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2110038834205409332",
+  "source_native_id": "2110038834205409332",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-13T16:03:55Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تقييم مفصّل لنموذج Gemini 4 يظهر تقدّمًا ملموسًا لغوغل",
+  "arabic_summary": "أجرى فريق Every اختبارات مكثّفة على نموذج Gemini 4 الجديد من غوغل عبر مهام البرمجة والكتابة والتصميم والمعرفة العامة لمدة أسبوع. أظهرت النتائج تفوّقًا في الكتابة وبناء تطبيقات جديدة من الصفر، لكن أداءً ضعيفًا نسبيًا (21%) في اختبار إعادة هيكلة أكواد موجودة مقارنة بنماذج منافسة بلغت 81-85%.",
+  "detailed_explanation": "نشر دان شيبر ملخصًا لاختبار أجراه فريق Every على نموذج Gemini 4 الجديد من غوغل، شمل اختبارات في البرمجة والكتابة والتصميم ومهام المعرفة على مدى أسبوع كامل. الانطباع العام كان إيجابيًا بشكل مفاجئ مقارنة بالتوقعات الأولية المبنية على نتائج الـ Benchmarks الأولية.\n\nفي الكتابة، وصف شيبر النموذج بأنه أصبح شريكه المفضل الجديد، مشيرًا إلى أن فريق DeepMind استعان بكتّاب محترفين لتحسين جودة الأسلوب والحدّ من «الركاكة» المعروفة في مخرجات الذكاء الاصطناعي. أما في البرمجة، فالنموذج أظهر قوة في بناء تطبيقات من الصفر (بنى تطبيق مراقبة لمعدل ضربات القلب عبر الكاميرا في 35 دقيقة)، لكنه كان أقل كفاءة في مهام إعادة الهيكلة لأكواد موجودة مسبقًا.\n\nالنتيجة الأبرز جاءت من اختبار «Senior Engineer Benchmark» الخاص بالفريق، حيث سجّل Gemini 4 نسبة 21% فقط مقارنة بـ81-85% لنماذج منافسة مثل GPT-6 Astra وFable 5، ما يشير إلى ضعف في مراجعة الكود الذاتية والتحقق من العمل المنجز.",
+  "why_it_matters": "يوضح هذا التقييم أن غوغل عادت لتكون خيارًا جديًا في سباق النماذج الحدودية، لكنه يكشف أيضًا نقاط ضعف واضحة في مهام محددة كإعادة هيكلة الكود ومراجعة الذات.",
+  "original_text": "BREAKING: Gemini 4 is OUT and it's SURPRISINGLY GOOD?? \n\nI admit I was ready to trash this model qhen I saw the benchmarks but six of us at @every spent the past week testing it across coding, writing, design, and knowledge work, and were pleasantly surprsied.\n\nIt’s a breakthrough if your company lives in Google’s ecosystem, and a strong option for frontier hoppers as a secondary model for certain tasks. I\n\nHere’s our vibe check:\n\nMy new favorite writing partner. DeepMind hired professional writers with red pens to stamp out AI slop, and it worked. I use it to untangle structure and sharpen metaphors; it also taught me something new tracing in a few of my favorite books. It's got a natural feel for structure and detailed explanations that Astra and Opus lack.\n\nShaky at refactors, fast on greenfield apps. At low effort on a from-scratch build, Gemini 4 built @kieranklaassen a working webcam heart-rate monitor in 35 minutes—matching Claude Opus 5.5’s quality and beating OpenAI’s models on that test. Where it cuts corners is self-verification and existing codebases. In 17 of Kieran’s 38 benchmark runs, it opened and closed its code-review step just 30 milliseconds apart instead of ins",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياس الأداء"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Gemini 4",
+   "Every"
+  ],
+  "change_types": [
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 359,
+   "replies": 53,
+   "reposts": 26,
+   "quotes": 15,
+   "bookmarks": 159,
+   "views": 69849
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://every.to/p/vc-gemini-4-argon-puts-google-back-on-the-frontier?utm_source=danx&utm_campaign=vibecheck-gemini-argon&utm_content=dan-261013"
+  ],
+  "quoted": null,
+  "cluster_id": "gemini-4-argon-vibe-check",
+  "also_reported": [
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2110057883740373400"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2110056016872427944"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2110041552454287437"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2110041516320362570"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2110039595945710045"
+   },
+   {
+    "author": "danshipper",
+    "url": "https://x.com/danshipper/status/2110039417650024592"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2419",
+  "serial": 2419,
+  "serial_display": "#002419",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2110063746542625033",
+  "source_native_id": "2110063746542625033",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-13T17:42:54Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "وكيل من GPT-5.6 يساعد في اختراق Chrome الكامل مقابل 250 ألف دولار",
+  "arabic_summary": "فريق XBOW بنى سلسلة اختراق كاملة لمتصفح Chrome خلال 6 أيام فقط بمشاركة وكيل مبني على GPT-5.6، وحصل على مكافأة 250 ألف دولار من جوجل، وهي ثاني مرة في تاريخ Chrome تُمنح فيها هذه المكافأة الكاملة. الاختراق من النوع الذي يمكّن المهاجم من السيطرة الكاملة على الجهاز بمجرد زيارة موقع، دون نقر أو تحميل.",
+  "detailed_explanation": "القصة تبدأ من تحدٍّ داخلي وضعه فريق XBOW في بداية 2026: بناء اختراق كامل (full-chain exploit) لمتصفح Chrome قبل مؤتمر Black Hat الأمني في أغسطس. الهدف كان اختبار ما إذا كانت قدرات XBOW يمكن أن تتجاوز تطبيقات الويب لتشمل البرمجيات المكتبية والخوادم والأجهزة.\n\nChrome يُعدّ من أكثر البرمجيات تحصينًا في العالم، ويستخدمه أكثر من نصف سكان الأرض. الاختراق الكامل يسمح للمهاجم بالسيطرة التامة على الجهاز وقراءة كل بريد إلكتروني وكلمة مرور وحساب بنكي يكتبه المستخدم، دون الحاجة لتحميل ملف أو النقر على رابط تصيّد — مجرد زيارة الموقع الخاطئ كافية.\n\nفريق مكوّن من أربعة مهندسين بشريين وعضو خامس هو وكيل مبني على GPT-5.6 من OpenAI، أعاد بناء سلسلة اختراق جديدة خلال 6 أيام فقط بعد أن اكتشفت جوجل أن إحدى الثغرات المكتشفة سابقًا معروفة لديها بالفعل. النتيجة: مكافأة 250 ألف دولار، وهي ثاني مرة فقط في تاريخ برنامج مكافآت Chrome تُمنح فيها مكافأة بهذا الحجم لاختراق كامل السلسلة.",
+  "why_it_matters": "يُظهر أن وكلاء الذكاء الاصطناعي بدأوا يشاركون فعليًا في اكتشاف ثغرات أمنية حقيقية وخطيرة في برمجيات شديدة التحصين مثل Chrome، وهو مؤشر على تطور قدرات الوكلاء في الأمن السيبراني الهجومي والدفاعي.",
+  "original_text": "RT @oegerikus: For the second time in Google Chrome’s history, Google awarded a $250,000 bounty for a full-chain exploit… to @XBOW. Here’s the full story:\n\nAt an all-hands at the start of 2026 in Malta, I set the team a crazy challenge. A full-chain exploit of Chrome by the annual Black Hat cybersecurity conference in August.\n\nI believed there were few better tests of whether @XBOW could move beyond web applications to desktop software, servers and devices.\n\nChrome is one of the most hardened pieces of software on the planet, used by more than half the world’s population.\n\nA full-chain exploit lets an attacker take total control of a machine, where they can read every email, password and bank login the user types. You don’t need to download anything or click a phishing link. Visiting the wrong site is enough.\n\nSo @moyix, Andres Luksenberg, Baul Lee, and Willem Pinckaers took on the challenge along with a fifth teammate: OpenAI's GPT-5.6 Sol. \n\nThey built a chain they thought would win, but Google told us they already knew one of the bugs. \n\nWe were already in Las Vegas for Black Hat and DEF CON, and the team didn’t want to go home without the win.\n\nSo Brendan and the agents built a",
+  "glossary": [
+   {
+    "term": "full-chain exploit",
+    "ar": "اختراق متسلسل كامل"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "XBOW",
+   "Google Chrome",
+   "OpenAI",
+   "GPT-5.6"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 95,
+  "metrics": {
+   "likes": 1445,
+   "replies": 42,
+   "reposts": 147,
+   "quotes": 53,
+   "bookmarks": 568,
+   "views": 396094
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2420",
+  "serial": 2420,
+  "serial_display": "#002420",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2110064059727196167",
+  "source_native_id": "2110064059727196167",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-13T17:44:09Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تقرير صندوق النقد الدولي يحذر من فقاعة استثمارات الذكاء الاصطناعي",
+  "arabic_summary": "كشف تقرير صندوق النقد الدولي للاستقرار المالي لأكتوبر 2026 عن ارتفاع كبير في اعتماد الأسواق المالية على شركات الحوسبة السحابية، مع تحذيرات من تراكم الديون والتقييمات المرتفعة المرتبطة بالذكاء الاصطناعي. يشير التقرير إلى سيناريوهات افتراضية لتصحيح حاد في الأسواق إن لم تتحقق الأرباح المتوقعة.",
+  "detailed_explanation": "يستعرض المنشور أرقامًا من تقرير صندوق النقد الدولي تُظهر أن 10% من إصدارات سندات الشركات ذات التصنيف الاستثماري عالميًا باتت تأتي من شركات الحوسبة السحابية الكبرى، مقارنة بأقل من 1% في 2024. كما يذكر وجود 300 مليار دولار استثمارات مترابطة في أسهم شركات الذكاء الاصطناعي، و650 مليار دولار ديون مرتبطة بهذه الترتيبات، و1.4 تريليون دولار التزامات إيرادات مستقبلية مرتبطة بخدمات ورقائق الذكاء الاصطناعي.\n\nيحذر التقرير من أن ضخامة هذه الاستثمارات وارتفاع التقييمات، إلى جانب الاعتماد المتزايد على الديون، قد يجعل الأسواق عرضة لتصحيح حاد إذا جاءت الأرباح أقل من المتوقع، مع احتمال انتقال الأثر من أسهم شركات الذكاء الاصطناعي إلى المستثمرين والمقرضين وقطاعات أخرى من الاقتصاد. ويقارن المنشور هذا الوضع بفقاعة الإنترنت عام 2000 من حيث التفاؤل الكبير وتدفق الاستثمارات الضخمة.",
+  "why_it_matters": "تحذير من مؤسسة مالية دولية كبرى يضع استثمارات الذكاء الاصطناعي الهائلة تحت المجهر، وقد يؤثر ذلك على وتيرة التمويل والتوسع في القطاع مستقبلًا.",
+  "original_text": "🌍 هل نحن نقترب من فقاعة الذكاء الاصطناعي؟\n\nكشف تقرير صندوق النقد الدولي للاستقرار المالي – أكتوبر 2026 عن أرقام مهمة تعكس حجم الاستثمارات والمخاطر المرتبطة بالذكاء الاصطناعي.\n\n🤖 10% من إصدارات سندات الشركات ذات التصنيف الاستثماري عالمياً أصبحت تأتي من شركات الحوسبة السحابية العملاقة، مقارنة بأقل من 1% في عام 2024.\n\n💰 300 مليار دولار استثمارات في أسهم شركات الذكاء الاصطناعي ضمن ترتيبات تمويلية مترابطة بين الشركات.\n\n🏦 650 مليار دولار ديون مرتبطة بهذه الترتيبات التمويلية.\n\n📈 1.4 تريليون دولار التزامات بإيرادات مستقبلية مرتبطة بخدمات ورقائق الذكاء الاصطناعي.\n\n📉 20% انخفاض افتراضي محتمل في الأسهم الأمريكية ضمن سيناريو إعادة تقييم توقعات الذكاء الاصطناعي.\n\n🌐 0.4% انخفاض محتمل في الناتج المحلي الإجمالي العالمي بحلول عام 2028 إذا تراجعت استثمارات الذكاء الاصطناعي، مقارنة بالمسار الأساسي للاقتصاد.\n\n⚠️ مهم: الرقمان الأخيران يمثلان سيناريوهات افتراضية للمخاطر، وليسا توقعات مؤكدة لما سيحدث.\n\nهل نحن أمام فقاعة جديدة؟\n\nيحذر التقرير من أن ضخامة الاستثمارات وارتفاع تقييمات شركات التكنولوجيا، إلى جانب الاعتماد المتزايد على الديون، قد تجعل الأسواق عرضة لتصحيح حاد إذا جاءت الأرباح المستقبلية أقل من التوقعات.\n\nوقد تبدأ المشكلة بانخفاض أسعار أسهم شركات الذكاء الاصطناعي، ثم تنتقل إلى المستثمرين والمقرضي",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "صندوق النقد الدولي"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 9,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2190
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2421",
+  "serial": 2421,
+  "serial_display": "#002421",
+  "source_type": "x",
+  "source_url": "https://x.com/Abdullah4AI/status/2109995405312131526",
+  "source_native_id": "2109995405312131526",
+  "source_name": "Abdullah4AI | عبدالله الرشودي",
+  "source_site": "x.com",
+  "author": "Abdullah4AI",
+  "published_at": "2026-10-13T13:11:21Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أبل تعلن جهاز HomeView بشاشة ذكية وSiri AI للتحكم بالمنزل",
+  "arabic_summary": "أعلنت أبل عن جهاز HomeView بشاشة 7 بوصة يجمع الترفيه والمكالمات والتحكم بالمنزل الذكي، مع تعرف على وجوه حتى 6 أشخاص وتخصيص الواجهة حسب المستخدم. يعتمد الجهاز على Siri AI المرتبط بـ Apple Intelligence لفهم المحتوى على الشاشة وتنفيذ مهام عبر التطبيقات وتلخيص تسجيلات الكاميرات.",
+  "detailed_explanation": "الجهاز الجديد HomeView يأتي بنسختين (طاولة وجدار) ويعتمد على التعرف على الوجه لتخصيص الواجهة والمحتوى حسب الشخص الموجود أمامه، وهي ميزة تعتمد على نماذج رؤية حاسوبية. الذكاء الاصطناعي يظهر هنا عبر Siri AI الذي يحتاج جهازًا داعمًا لـ Apple Intelligence، ويتيح الاستفادة من الرسائل والمواعيد وتنفيذ مهام بين التطبيقات المختلفة، إضافة إلى تلخيص تسجيلات الكاميرات المتوافقة التي يصل عددها إلى 9 كاميرات في آن واحد.\n\nيشير المنشور إلى أن هذه الميزات الذكية لا تزال تجريبية، وأن بعضها له حدود استخدام يومية مع إمكانية توسعتها مقابل اشتراك إضافي، كما أن السعودية ليست ضمن دول الإطلاق وأن الدعم باللغة الإنجليزية فقط مبدئيًا. هذا يضع الجهاز في سياق المنافسة المتصاعدة على الأجهزة المنزلية التي تدمج الذكاء الاصطناعي التوليدي كواجهة تفاعل أساسية.",
+  "why_it_matters": "يمثل دخول أبل بجدية إلى فئة الشاشات الذكية المنزلية مع ربطها بذكاء اصطناعي توليدي (Siri AI)، في منافسة مباشرة مع أجهزة مماثلة من جوجل وأمازون.",
+  "original_text": "🏠 أبل توها أعلنت HomeView يجي بشاشة 7 بوصة تجمع الترفيه والمكالمات والتحكم بالبيت وتجي بنسخة للطاولة ونسخة للجدار\n\n👤 يتعرف على 6 أشخاص بالوجه ويغيّر الواجهة والمحتوى حسب اللي قدامه\n\n🧠 Siri AI يفهم الشاشة وربطه بآيفون أو آيباد يدعم Apple Intelligence يتيح له الاستفادة من رسايلك ومواعيدك وتنفيذ مهام بين التطبيقات\n\n📹 يعرض حتى 9 كاميرات متوافقة مع بعض وتلخيص التسجيلات يحتاج جهاز يدعم Apple Intelligence واشتراك iCloud+ مؤهل\n\n💵 سعره بأمريكا 299 دولار والحجز المسبق بدأ اليوم بدول محددة والتوفّر من 13 نوفمبر\n\n⚠️ سيري تجريبي وبعض ميزات الذكاء الاصطناعي لها حدود استخدام يومية مع توسعة مدفوعة لاحقًا\n\n🇸🇦 السعودية مو ضمن دول الإطلاق وسيري على الجهاز يبدأ بالإنجليزية فقط",
+  "glossary": [
+   {
+    "term": "Apple Intelligence",
+    "ar": "نظام الذكاء الاصطناعي من أبل"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Apple",
+   "HomeView",
+   "Siri AI",
+   "Apple Intelligence"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 29,
+  "metrics": {
+   "likes": 4,
+   "replies": 2,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1743
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "apple-home-oct13",
+  "also_reported": [
+   {
+    "author": "Abdullah4AI",
+    "url": "https://x.com/Abdullah4AI/status/2110092142714487268"
+   },
+   {
+    "author": "Abdullah4AI",
+    "url": "https://x.com/Abdullah4AI/status/2110090065292505452"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2422",
+  "serial": 2422,
+  "serial_display": "#002422",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2109994676530913535",
+  "source_native_id": "2109994676530913535",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-10-13T13:08:27Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ScaleDown تطلق نماذج CDM لتقليل تكلفة مهام الوكلاء البسيطة",
+  "arabic_summary": "تطلق ScaleDown نوعًا جديدًا من بنية النماذج تسمى Constrained Decoding Models (CDMs)، مصممة لمهام محددة مثل التوجيه والتصنيف والتلخيص دون الحاجة لتوليد نص كامل عبر LLM تقليدي، بتكلفة 0.05 دولار لكل مليون Token إدخال. النماذج متاحة الآن عبر OpenRouter وVercel وLiteLLM وLangChain.",
+  "detailed_explanation": "تقدّم ScaleDown فكرة أن كثيرًا من أعباء عمل الإنتاج (production workloads) لا تحتاج إلى نموذج لغوي كبير يكتب الإجابة كلمة بكلمة، بل تحتاج فقط إجابة سريعة وثابتة وبتكلفة منخفضة. من هنا جاءت فكرة Constrained Decoding Models التي تُبنى لتنفيذ مهمة واحدة فقط، وتقرأ المدخل مرة واحدة متجاوزة حلقة التوليد التسلسلي التي تُبطئ نماذج اللغة الكبيرة.\n\nالاستخدام المذكور تحديدًا: تمكين وكلاء الذكاء الاصطناعي من التوجيه (routing) والتصنيف (tagging) والتلخيص دون دفع تكلفة Token الإخراج الكاملة، إذ السعر المعلن هو 0.05 دولار لكل مليون Token إدخال فقط. النماذج متاحة الآن مباشرة على منصات شائعة في بناء الوكلاء مثل OpenRouter وVercel وLiteLLM وLangChain.",
+  "why_it_matters": "يقترح بديلًا أرخص وأسرع من نماذج اللغة الكبيرة للمهام البسيطة التي تحتاج إجابة ثابتة لا نصًا توليديًا، وهو ما يهم مطوري الوكلاء الباحثين عن خفض التكلفة التشغيلية.",
+  "original_text": "Your AI agents can now route, tag and summarize without paying for output tokens 🤯\n\nScaleDown's CDMs are live today on OpenRouter, Vercel, LiteLLM and LangChain.\n\n$0.05 per million input tokens. That's it. https://t.co/yedQcKFIjj",
+  "glossary": [
+   {
+    "term": "Constrained Decoding Models",
+    "ar": "نماذج فك ترميز مقيّد"
+   },
+   {
+    "term": "Token",
+    "ar": "Token"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "ScaleDown",
+   "OpenRouter",
+   "Vercel",
+   "LiteLLM",
+   "LangChain"
+  ],
+  "change_types": [
+   "New Release",
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 50,
+  "metrics": {
+   "likes": 23,
+   "replies": 6,
+   "reposts": 1,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 2876
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "You already gave the LLM the answer. So why is it writing it out from scratch?\n\nIntroducing a new AI model architecture: Constrained Decoding Models (CDMs)\n\nLLMs were built to write. Most production workloads just need an answer: fast, consistent, and affordable.\n\nCDMs are purpose-built for 1 task each. They read your input once and skip the token-by-token generative loop that makes LLMs slow and "
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2423",
+  "serial": 2423,
+  "serial_display": "#002423",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2110052331702124894",
+  "source_native_id": "2110052331702124894",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-13T16:57:33Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة موسّعة لـGemini 4 قبل الإطلاق: تفوق لكن مع ملاحظات",
+  "arabic_summary": "باحث جرّب Gemini 4 قبل إطلاقه ووصفه بأنه قفزة كبيرة عن إصدارات Gemini السابقة، وأول نموذج من خارج OpenAI/Anthropic يتجاوز معيارًا داخليًا يستخدمه الكاتب لتقييم النماذج، لكنه لا يزال متأخرًا في العمل متعدد الوكلاء المعقد ويميل للثقة الزائدة بنتائجه.",
+  "detailed_explanation": "يصف الباحث تجربته مع Gemini 4 قبل إطلاقه العام، معتبرًا أنه تقدّم كبير مقارنة بإصدارات Gemini السابقة، وأول نموذج من خارج OpenAI وAnthropic يتجاوز معيار تقييم داخلي يسميه 'Fable/Mythos/Astra bar'. كما يلاحظ أنه أكثر مرونة في التعامل مع المهام (agentic) وله شخصية مختلفة عن Claude، ما يجعله إضافة قيّمة للمشهد.\n\nلكنه يشير إلى أن النموذج لا يزال متأخرًا في بعض الجوانب، خصوصًا العمل متعدد الوكلاء المعقد، وله ميل للثقة الزائدة بنتائجه وبعض الكسل، مع ضعف في بيئة Antigravity المصاحبة له مقارنة بمنافسيها. ويورد مثالًا عمليًا حيث استخدم النموذج لبناء لعبة محاكاة مدينة ببنية برутаلية، مرفقًا روابط تجارب مباشرة.",
+  "why_it_matters": "تقييم مستقل ومفصّل من باحث معروف يوضح نقاط قوة وضعف Gemini 4 الحقيقية مقارنة بمنافسيه، بما يتجاوز الإعلانات الرسمية للشركة.",
+  "original_text": "I spent a decent amount of time with Gemini 4 before launch. Overall, Gemini 4 is a big jump over previous Gemini models and it is the first non-OpenAI/Anthropic model to pass the Fable/Mythos/Astra bar. It is also much more pleasant and more agentic then previous Gemini models, without the weird personality issues that you often found in Gemini 3 series models. In fact, a big advantage is that has a very different personality and sense of taste than Claude or Astra, making it a good addition to the AI world. \n\nOn the usefulness side, in some areas it is at least at par with OpenAI and Anthropic (it is quite creative and a good writer), but in others it lags, including at complex multi-agent work. It has a tendency to be too certain about its conclusions and a little lazy, issues not helped by the Antigravity harness not being quite as good as the competition. Still, I expect to see rapid improvements in model abilities using Gemini 4 as a base.\n\nHere is a fun example:  \"create the ultimate brutalist city builder. you should have lots of controls over buildings in ways that are delightful and inuitive to people who just want to play, but are sophisticated and deep for people who kn",
+  "glossary": [
+   {
+    "term": "Agentic",
+    "ar": "قائم على سلوك الوكيل"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Gemini 4",
+   "OpenAI",
+   "Anthropic",
+   "Antigravity"
+  ],
+  "change_types": [
+   "Beta / Preview"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 84,
+  "metrics": {
+   "likes": 682,
+   "replies": 73,
+   "reposts": 38,
+   "quotes": 7,
+   "bookmarks": 174,
+   "views": 43633
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://formwork-city.netlify.app/Fable",
+   "https://brut-city.netlify.app/",
+   "https://rainbow-panda-689e6b.netlify.app/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2424",
+  "serial": 2424,
+  "serial_display": "#002424",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2109979816195989608",
+  "source_native_id": "2109979816195989608",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-13T12:09:24Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangChain يدعم نماذج القرار المقيّدة من ScaleDown",
+  "arabic_summary": "أضافت LangChain دعمًا لنماذج ScaleDown المسماة Constrained Decision Models، وهي نماذج مخصصة لمهام سريعة ومنخفضة التكلفة مثل التلخيص والاستخراج والتصنيف داخل حلقة الوكيل. الدعم متوافق مع LangChain وDeep Agents، ويتيح تتبع كل استدعاء عبر LangSmith LLM Gateway.",
+  "detailed_explanation": "نماذج القرار المقيّدة (CDMs) مصممة لمهمة واحدة فقط، وتقرأ المدخل مرة واحدة بدلاً من توليد الاستجابة رمزًا تلو الآخر كما تفعل نماذج اللغة التقليدية، ما يجعلها أسرع وأرخص لمهام مثل التلخيص أو الاستخراج أو التصنيف.\n\nعبر الدمج الجديد مع LangChain، يمكن لمطوري الوكلاء استخدام هذه النماذج مباشرة ضمن Deep Agents، مع إمكانية تتبّع كل استدعاء ومراقبة التكلفة عبر LangSmith LLM Gateway الذي يوفر أيضًا حدود إنفاق وحدود معدل استخدام.\n\nالفائدة العملية تكمن في تقليل الاعتماد الكامل على نماذج اللغة الكبيرة في كل خطوة من حلقة الوكيل، واستبدال المهام البسيطة المتكررة بنماذج أرخص وأسرع دون فقدان القدرة على المراقبة والتتبع.",
+  "why_it_matters": "يوفر بديلاً أسرع وأرخص من نماذج اللغة الكبيرة التقليدية للمهام الفرعية المتكررة داخل الوكلاء، وهو ما يهم من يبني أنظمة وكلاء تعتمد على LangChain لتقليل التكلفة والزمن.",
+  "original_text": "New in LangChain: Support for @scaledown_team's constrained decision models, which are optimized for quick, cost-effective decisions:\n\n✅ Compatible with LangChain + Deep Agents\n✅ Trace every call with LangSmith LLM Gateway\n\nStart summarizing, extracting, and classifying today.",
+  "glossary": [
+   {
+    "term": "Constrained Decision Model",
+    "ar": "نموذج قرار مقيّد"
+   },
+   {
+    "term": "Deep Agents",
+    "ar": "وكلاء متعمقون"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "LangChain",
+   "ScaleDown",
+   "LangSmith"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 18,
+   "replies": 6,
+   "reposts": 0,
+   "quotes": 1,
+   "bookmarks": 2,
+   "views": 5408
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "we're excited to partner with @scaledown_team to offer support for their new constrained decision models (CDMs) in @LangChain!\n\nthese cheap+fast models are tailored to specific critical tasks in the agent loop, like summarization, extraction, and classification."
+  },
+  "cluster_id": "langchain-scaledown",
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2109981982167793874"
+   },
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2109981971879469520"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2425",
+  "serial": 2425,
+  "serial_display": "#002425",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2110053128393613375",
+  "source_native_id": "2110053128393613375",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-10-13T17:00:43Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إطلاق Drama 3 من Fish Audio لاستنساخ وتوجيه الأصوات كممثل",
+  "arabic_summary": "أطلقت Fish Audio نموذج Drama 3 الذي يتيح استنساخ صوت وتوجيهه كما لو كان ممثلًا: كتابة تعليمات أداء مثل صوت ضحك جماعي، تغيير المشاعر في منتصف الجملة دون إعادة تسجيل، وتصحيح كلمة واحدة فقط بدل إعادة توليد المقطع كاملًا. النموذج مفتوح الأوزان ومتاح عبر الويب أو API.",
+  "detailed_explanation": "أعلنت شركة Fish Audio عن Drama 3، نموذج تحويل نص إلى كلام (TTS) تصفه بأنه الأكثر قدرة على التعبير والتحكم في العالم. الميزة الأساسية أن المستخدم يستطيع كتابة توجيهات أداء نصية مثل وصف ضحك جمهور فيقوم النموذج بتنفيذها صوتيًا، وتغيير الانفعال في منتصف الجملة دون الحاجة لإعادة التسجيل بالكامل.\n\nمن ميزاته أيضًا إمكانية الهمس أو إبطاء الكلام على كلمات مختارة فقط، وتصحيح كلمة واحدة في مقطع صوتي دون إعادة توليد المقطع كله، بالإضافة إلى دعم مشاهد كاملة متعددة الشخصيات في مرور واحد. النموذج مفتوح الأوزان (open-weight)، ومتاح للتجربة عبر الويب أو من خلال API.",
+  "why_it_matters": "يقدّم تحكمًا دقيقًا غير معتاد في توليد الصوت الاصطناعي على مستوى الكلمة والمشهد، وهو ما يفتح استخدامات جديدة في إنتاج الدراما الصوتية والمحتوى متعدد الشخصيات.",
+  "original_text": "You can now clone and direct an AI voice like an actor 🤯\n\nFish Audio's Drama 3 just launched.\n\n> Write \"[crowd laughing]\" and it performs it\n> Shift emotion mid-sentence, no retake\n> Whisper or slow down only the words you select\n> Fix a single word without regenerating the whole take\n> Full multi-character scenes in one pass\n\nYou can try it on the web or through the API today: https://t.co/lEuWP0g3Cw",
+  "glossary": [
+   {
+    "term": "TTS",
+    "ar": "تحويل النص إلى كلام"
+   },
+   {
+    "term": "open-weight",
+    "ar": "أوزان مفتوحة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Fish Audio",
+   "Drama 3"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 15,
+   "replies": 1,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 15,
+   "views": 2328
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://fish.audio/app/"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "$52M seed round. 15M+ users. But this is what we're most proud of yet.\n\nIntroducing Drama 3: the most emotive and controllable TTS model in the world\n\nAnd yes, it's open-weight.\n\nYou can now control how even a single word should sound, change its tone, and shift your voice mid-sentence.\n\nUncle Roger was impressed too.\n\nTry it here:\n\nhttps://t.co/4nbz4sQ4yy\n\nComment “DRAMA” within the next 48 hours"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2426",
+  "serial": 2426,
+  "serial_display": "#002426",
+  "source_type": "x",
+  "source_url": "https://x.com/itsPaulAi/status/2110108691332768087",
+  "source_native_id": "2110108691332768087",
+  "source_name": "Paul Couvert",
+  "source_site": "x.com",
+  "author": "itsPaulAi",
+  "published_at": "2026-10-13T20:41:30Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "MiniCPM-V 4.7: نموذج صغير يعمل على الهاتف بكفاءة عالية",
+  "arabic_summary": "نموذج مفتوح المصدر جديد باسم MiniCPM-V 4.7 يعمل بـ3 مليار معامل فعّال فقط، لكنه يتفوّق على نماذج أكبر منه بعشر مرات في القدرة. المميز أنه يعمل محليًا حتى على هاتف آيفون دون حاجة لخوادم.",
+  "detailed_explanation": "يشير المنشور إلى أن تطور النماذج المحلية (Local AI) يسير بوتيرة سريعة جدًا. فبعد أن كان نموذج Qwen 3.8 27B يحتاج عتادًا قويًا ومكلفًا رغم تفوقه على نماذج أكبر، جاء MiniCPM-V 4.7 ليقدم أداءً مماثلاً أو أفضل بموارد أقل بكثير — 3 مليار معامل فعّال فقط، وقادر على العمل على هاتف آيفون مباشرة.\n\nهذا يعني أن المستخدم يمكنه اليوم تشغيل نموذج على جهازه الشخصي يتفوق على أقوى النماذج المتاحة قبل ستة أشهر فقط، وهو ما يعكس التسارع الكبير في كفاءة النماذج الصغيرة متعددة الوسائط (Multimodal) وتأثيره المحتمل على مستقبل الذكاء الاصطناعي الهامشي (Edge AI).",
+  "why_it_matters": "يؤكد اتجاهًا متصاعدًا نحو تشغيل نماذج قوية محليًا على الأجهزة الشخصية، ما يقلل الاعتماد على الخوادم السحابية ويفتح استخدامات جديدة للخصوصية والسرعة.",
+  "original_text": "RT @itsPaulAi: Local AI is evolving REALLY fast\n\nQwen 3.8 27B was released just 2 months ago and was smarter than Opus 4.6\n\nBut you needed powerful/expensive hardware to run it\n\nMiniCPM-V 4.7 is as powerful and:\n\n- only 3B active parameters (!)\n- it runs even on an iphone\n- better than models w/ 10x more active parameters\n\nSo you can run a model on a phone that is better than the most powerful one available 6 months ago.\n\nThe future is local.",
+  "glossary": [
+   {
+    "term": "Local AI",
+    "ar": "ذكاء اصطناعي محلي"
+   },
+   {
+    "term": "Active Parameters",
+    "ar": "المعاملات الفعّالة"
+   },
+   {
+    "term": "MLLM",
+    "ar": "نموذج لغوي متعدد الوسائط"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "MiniCPM-V",
+   "Qwen"
+  ],
+  "change_types": [
+   "Research Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2026,
+   "replies": 74,
+   "reposts": 159,
+   "quotes": 10,
+   "bookmarks": 1989,
+   "views": 148306
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "minicpm-v47",
+  "also_reported": [
+   {
+    "author": "itsPaulAi",
+    "url": "https://x.com/itsPaulAi/status/2109939477372092706"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2427",
+  "serial": 2427,
+  "serial_display": "#002427",
+  "source_type": "x",
+  "source_url": "https://x.com/MistralAI/status/2109901149772136643",
+  "source_native_id": "2109901149772136643",
+  "source_name": "Mistral AI",
+  "source_site": "x.com",
+  "author": "MistralAI",
+  "published_at": "2026-10-13T06:56:48Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Mistral Large 4 يتصدّر نماذج منافسة في اختبار برمجي صعب",
+  "arabic_summary": "أضاف فريق sudo L7، وهو اختبار قياسي (Benchmark) لمهارات هندسة البرمجيات على مستوى كبار المهندسين، نموذج Mistral Large 4 إلى قائمته. حقق النموذج نسبة 13.3% متقدمًا على Muse Spark 1.3 وGrok 4.7.",
+  "detailed_explanation": "يذكر المنشور أن sudo L7 اختبار مصمم خصيصًا لقياس ما إذا كانت وكلاء البرمجة (Coding Agents) قادرة على تجاوز كتابة كود صحيح تقنيًا إلى ممارسة الحكم الهندسي الذي يتمتع به المهندسون ذوو الخبرة، مثل التعامل مع الأنظمة الفوضوية واكتشاف المخاطر الخفية ومعرفة متى يكون الكود الصحيح تقنيًا خيارًا سيئًا للنشر.\n\nحقق Mistral Large 4 نتيجة 13.3% في هذا الاختبار، متقدمًا على Muse Spark 1.3 (12.2%) وGrok 4.7 (10.6%)، وهي أرقام منخفضة نسبيًا تعكس صعوبة الاختبار نفسه أكثر من كونها علامة تفوق كبير.",
+  "why_it_matters": "يقيس الاختبار قدرة الوكلاء البرمجية على الحكم الهندسي الدقيق لا مجرد كتابة كود صحيح، وهو مقياس يهمّ من يقيّم نماذج البرمجة.",
+  "original_text": "RT @HelloSurgeAI: 🇫🇷 Le Chonk joins the sudo L7 leaderboard 🇫🇷\n\nWe just added @MistralAI's Mistral Large 4 to sudo L7, our benchmark for staff-level software engineering.\n\nMistral Large 4 scores 13.3%, ahead of Muse Spark 1.3 (12.2%) and Grok 4.7 (10.6%).\n\nsudo L7 tests whether coding agents can go beyond writing correct code to exercise the judgment of experienced engineers: navigating messy systems, spotting hidden risks, and knowing when technically correct code is still the wrong thing to ship.\n\nAllez, le Chonk ! 🥖\n\nLeaderboard ↓\nhttps://t.co/ouCzU2m8mT",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياسي"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Mistral Large 4",
+   "sudo L7",
+   "Muse Spark 1.3",
+   "Grok 4.7"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 265,
+   "replies": 4,
+   "reposts": 36,
+   "quotes": 2,
+   "bookmarks": 33,
+   "views": 19152
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2428",
+  "serial": 2428,
+  "serial_display": "#002428",
+  "source_type": "x",
+  "source_url": "https://x.com/AnthropicAI/status/2110047081414987957",
+  "source_native_id": "2110047081414987957",
+  "source_name": "Anthropic",
+  "source_site": "x.com",
+  "author": "AnthropicAI",
+  "published_at": "2026-10-13T16:36:41Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تبني نظام تحكّم إصدارات جديد خاص بها",
+  "arabic_summary": "كشفت Anthropic أنها بنت نظام تحكّم إصدارات (Version Control) جديدًا كليًا ونقلت مستودعها الموحّد إليه خلال خمسة أشهر، بعدما قفز عدد التعديلات البرمجية اليومية من 2500 إلى أكثر من 30 ألف تعديل بفعل عمل الوكلاء البرمجية.",
+  "detailed_explanation": "توضح Anthropic في مدونتها الهندسية أن حجم التعديلات البرمجية المدمجة يوميًا قفز من نحو 2500 في مايو إلى أكثر من 30 ألف في سبتمبر، وهو نمو هائل سببه استخدام الوكلاء البرمجية بكثافة بدلًا من المطورين البشريين فقط.\n\nهذا الحجم تجاوز قدرة أدوات التطوير التقليدية المبنية لمقياس بشري، ما دفع الشركة إلى بناء نظام تحكّم إصدارات جديد من الصفر، وترحيل مستودعها الموحّد (Monorepo) بالكامل من git إليه خلال خمسة أشهر فقط. القصة تعكس تحديًا بنيويًا حقيقيًا تواجهه فرق الهندسة حين يتوسع استخدام الوكلاء بشكل كبير.",
+  "why_it_matters": "يكشف كيف تضطر الشركات لإعادة بناء بنيتها التحتية الأساسية لمواكبة الحجم الهائل من العمل الذي تنتجه الوكلاء البرمجية، وهو درس مهم لكل فريق يستخدم Agents بكثافة.",
+  "original_text": "New on our Engineering blog: Creating in-house source control. \n\nIn May, we merged around 2,500 code changes per day. In September, we merged more than 30,000 per day. As a result, we became bottlenecked by developer infrastructure built for human (rather than agent) scale.  \n\nHere, we share how we built a new version control system—and fully migrated our monorepo from git—in five months: https://t.co/wzNkwHs7IN",
+  "glossary": [
+   {
+    "term": "Monorepo",
+    "ar": "مستودع موحّد"
+   },
+   {
+    "term": "Version Control",
+    "ar": "نظام تحكّم بالإصدارات"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 14788,
+   "replies": 635,
+   "reposts": 1283,
+   "quotes": 1023,
+   "bookmarks": 11420,
+   "views": 2850337
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://www.anthropic.com/engineering/redesigning-source-control"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2429",
+  "serial": 2429,
+  "serial_display": "#002429",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2109973273924579720",
+  "source_native_id": "2109973273924579720",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-13T11:43:24Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "قائمة أخطاء شائعة في البرمجة بمساعدة الوكلاء",
+  "arabic_summary": "خبير في أدوات البرمجة بالذكاء الاصطناعي يسرد سلسلة من الأخطاء الشائعة التي يقع فيها المطورون عند استخدام الوكلاء البرمجية، مثل الإفراط في المراجعة اليدوية أو عدم بناء لغة مشتركة مع الوكيل أو إهمال التحقق الآلي من عمله.",
+  "detailed_explanation": "يسرد الكاتب قائمة طويلة من الأخطاء التي يقع فيها من يستخدم الوكلاء البرمجية (Agents) مثل Claude Code وCodex، منها: جعل مستوى الجهد المطلوب من الوكيل مرتفعًا جدًا، إطالة ملفات Skills بلا داعٍ، عدم المحاذاة الكافية قبل بدء العمل أو المحاذاة المفرطة التي تعطّل التقدم.\n\nكما يشير إلى أخطاء بنيوية مثل جعل الفحوصات الآلية متساهلة جدًا، عدم مراجعة جلسات البرمجة السابقة مع الوكيل، الإفراط في المراجعة البشرية بدل الاعتماد على التحقق الذاتي للوكيل، وتحميل ملفات التوجيه العامة (Steering Files) بمحتوى زائد. والفكرة الأساسية أن بنية الكود نفسها يجب أن تسمح للوكيل بالتنقل بسهولة وبناء لغة مشتركة مع الفريق.",
+  "why_it_matters": "يقدّم دليلًا عمليًا مكثفًا لتحسين سير العمل مع الوكلاء البرمجية (Agents)، وهو مجال يتطور بسرعة ويحتاج ممارسات ناضجة.",
+  "original_text": "Some mistakes you might be making:\n\nYour effort level is too high\nYour skills are too long\nYou're not aligning before you start work\nYou're aligning too often, and too hard\nYour automated checks are too lax\nYour custom tooling is too token-inefficient\nYou aren't doing enough automated review\nYou aren't reviewing previous coding sessions (with an agent)\nYou're doing too much human review\nYou aren't vibe coding enough prototypes\nYour agent can't verify its own work\nYou're babysitting the agent too much\nYou've overloaded your global steering files\nYour codebase is hard to navigate\nYou aren't building a shared language\nYour codebase architecture allows bad tests to be written\nYou aren't thinking strategically enough\nYou aren't thinking enough",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   },
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   },
+   {
+    "term": "Steering Files",
+    "ar": "ملفات التوجيه"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3169,
+   "replies": 231,
+   "reposts": 180,
+   "quotes": 42,
+   "bookmarks": 2682,
+   "views": 144992
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2430",
+  "serial": 2430,
+  "serial_display": "#002430",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2110021742169047187",
+  "source_native_id": "2110021742169047187",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-13T14:56:00Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "LangSmith يطلق ميزة AI Search للبحث في آثار الوكلاء",
+  "arabic_summary": "أعلنت LangChain عن ميزة جديدة في LangSmith تتيح البحث في Traces الخاصة بالوكلاء عبر وصف نصي بسيط، بدلاً من كتابة Evaluator أو مراجعة ساعات من المحادثات يدويًا. يمكن للمستخدم كتابة سؤال مثل \"أين فشل الوكيل في إتمام المهمة؟\" ليعيد النظام الآثار المطابقة.",
+  "detailed_explanation": "تعالج الميزة مشكلة شائعة لدى مطوري الوكلاء: صعوبة العثور على حالات محددة ضمن سجلات ضخمة من المحادثات أو عمليات التنفيذ. سابقًا كان الحل إما بناء Evaluator مخصص أو المراجعة اليدوية البطيئة لساعات من الـ Traces.\n\nمع AI Search، يكفي وصف السلوك المطلوب بلغة طبيعية—مثل هل بدا المستخدم محبطًا، أو أين حاول إلغاء اشتراكه—ليقوم LangSmith بإرجاع الآثار ذات الصلة مباشرة.\n\nهذا يختصر دورة التصحيح والتحسين لمطوري الوكلاء المعتمدين على LangSmith في الإنتاج، ويجعل تحليل جودة الوكيل أقرب لاستعلام بحثي منه لعملية هندسية ثقيلة.",
+  "why_it_matters": "تسهّل هذه الميزة تصحيح أخطاء الوكلاء وتحليل سلوكهم في الإنتاج دون الحاجة لأدوات تقييم معقدة، وهو ما يهم فرق بناء الوكلاء التي تستخدم LangSmith للمراقبة.",
+  "original_text": "🔎 Announced at Interrupt: AI Search in LangSmith\n\nYou used to need an evaluator or read hours of conversations to find traces that answer questions such as:\n\n💬 Does the user seemed frustrated?\"\n\n💬 Where did the agent fail to complete the task?\n\n💬 Where is the user trying to cancel their subscription?\n\nNow, just describe it. LangSmith returns the traces where it happened. https://t.co/rC1M6luCT9",
+  "glossary": [
+   {
+    "term": "Trace",
+    "ar": "أثر تنفيذي"
+   },
+   {
+    "term": "Evaluator",
+    "ar": "أداة تقييم"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain",
+   "LangSmith"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 44,
+   "replies": 15,
+   "reposts": 10,
+   "quotes": 8,
+   "bookmarks": 12,
+   "views": 13540
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://www.langchain.com/blog/agent-traces-ai-search-langsmith"
+  ],
+  "quoted": null,
+  "cluster_id": "langsmith-ai-search",
+  "also_reported": [
+   {
+    "author": "LangChain",
+    "url": "https://x.com/LangChain/status/2110031281333633114"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2431",
+  "serial": 2431,
+  "serial_display": "#002431",
+  "source_type": "x",
+  "source_url": "https://x.com/venturetwins/status/2110041613179527253",
+  "source_native_id": "2110041613179527253",
+  "source_name": "Justine Moore",
+  "source_site": "x.com",
+  "author": "venturetwins",
+  "published_at": "2026-10-13T16:14:57Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Gemini 4 Argon يبني متحفًا تفاعليًا لأجهزة Apple من الصفر",
+  "arabic_summary": "طلب مستخدم من Gemini 4 Argon بناء متحف تفاعلي لأجهزة Apple التاريخية دون تزويده بأي صور أو بيانات. قام النموذج بجلب صور أرشيفية لأجهزة Mac، وكتابة أداة لتنظيفها، واستخراج مواصفات 50 عامًا، وبناء واجهة Cover Flow ثلاثية الأبعاد تتكيّف مع العقد الزمني المعروض.",
+  "detailed_explanation": "يروي المنشور تجربة طلب فيها الكاتب من Gemini 4 Argon بناء متحف تفاعلي لأجهزة Apple التاريخية دون أن يزوّده بأي بيانات أو صور مسبقًا.\n\nقام النموذج، وفق الوصف، بالبحث عن صور أرشيفية لأجهزة Mac وجلبها، ثم كتب أداة برمجية لتنظيف تلك الصور، واستخرج مواصفات تقنية تمتد لخمسين عامًا، وانتهى ببناء واجهة تفاعلية بأسلوب Cover Flow ثلاثي الأبعاد تتغيّر بصريًا بحسب العقد الزمني الذي يتصفحه المستخدم — وهو مثال على القدرة الوكيلية المستقلة للنموذج في تنفيذ مهام بحث وبرمجة وتصميم متتالية بلا توجيه تفصيلي.",
+  "why_it_matters": "يُظهر قدرة Gemini 4 Argon على تنفيذ مهام بحثية وبرمجية معقّدة ومتعددة الخطوات بشكل مستقل، وهو مؤشر عملي على قوته في المهام الوكيلية.",
+  "original_text": "Asked Gemini 4 Argon for an interactive museum of Apple computers.\n\n...and didn't provide any images or data.\n\nIt scraped archival Mac photos, wrote a tool to clean the images, pulled 50 years of specs, and built a 3D Cover Flow with UI that morphs to match the decade you’re in. https://t.co/L7LDusxzIy",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Gemini 4 Argon"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 89,
+  "metrics": {
+   "likes": 967,
+   "replies": 56,
+   "reposts": 84,
+   "quotes": 8,
+   "bookmarks": 269,
+   "views": 29254
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Today we are rolling out Gemini 4 Argon globally in the Gemini API, to Pro + Ultra in Gemini App, and Ultra subs in Antigravity!\n\nArgon is a huge step forward for Gemini, and a labor of love. This model has been battle tested by over 100,000 people at Google over the last month, with so much new innovation, ambition, and hard work baked into this release. The team has been heads down over the last"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2432",
+  "serial": 2432,
+  "serial_display": "#002432",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2110046218034229730",
+  "source_native_id": "2110046218034229730",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-13T16:33:15Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يستخدم Claude Opus 5.5 مع Blender لبناء لعبة ثلاثية الأبعاد",
+  "arabic_summary": "حوّل مطوّر لعبة قصة الأمير الصغير إلى لعبة ثلاثية الأبعاد قابلة للاستكشاف باستخدام Claude Opus 5.5 مع برنامج Blender. يشرح المنشور طريقة إرسال موقع اللعبة إلى Claude لإنشاء Skill حركي بناءً عليه، مع رابط لدليل كامل حول إعادة إنشاء أي لعبة بالطريقة نفسها.",
+  "detailed_explanation": "يروي المنشور تجربة مطوّر شاب حوّل قصة الأمير الصغير إلى لعبة ثلاثية الأبعاد قابلة للاستكشاف بالدمج بين Claude Opus 5.5 وBlender، ويشير إلى أن الطريقة تتضمن إرسال موقع اللعبة إلى Claude وطلب إنشاء Skill حركي (Motion Skill) بناءً على محتواه.\n\nيحيل المنشور إلى دليل كامل يشرح كيفية إعادة إنشاء أي لعبة بأسلوب مشابه باستخدام Opus 5.5، مما يجعله مثالًا عمليًا على استخدام ملفات Skills المخصصة مع أدوات التصميم ثلاثي الأبعاد لإنتاج محتوى تفاعلي.",
+  "why_it_matters": "يوضّح استخدامًا عمليًا ملموسًا لـ Claude Code مع أداة تصميم ثلاثي الأبعاد عبر بناء Skill مخصص، وهو نمط عمل يهم من يستكشف قدرات الوكلاء البرمجية في التصميم.",
+  "original_text": "Opus 5.5 + Blender is insane for game design.\n\n20 year old Chinese guy turned The Little Prince story into a 3D explorable game.\n\nIt’s f*cking insane.\n\nsend the game’s website to your Claude and ask it to create a motion skill based on it: \n\nhttps://t.co/T9leMyF68h\n\nthen read the full guide on how to recreate any game with Opus 5.5 in the article below.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Claude Opus 5.5",
+   "Blender",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 120,
+   "replies": 8,
+   "reposts": 8,
+   "quotes": 1,
+   "bookmarks": 97,
+   "views": 6088
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "http://littleprince.dev"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/4qTQfdoerp"
+  },
+  "cluster_id": "opus-blender-littleprince",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2110102663127777311"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2433",
+  "serial": 2433,
+  "serial_display": "#002433",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2110038997821235278",
+  "source_native_id": "2110038997821235278",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-10-13T16:04:34Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تطلق Gemini 4 Argon عالميًا لمطوّرين ومشتركين",
+  "arabic_summary": "أعلنت Google عن إطلاق نموذجها الجديد Gemini 4 Argon عالميًا، وهو متاح للمطوّرين والمؤسسات عبر النسخة المدفوعة من Gemini API ومنصة Gemini، وكذلك لمشتركي Ultra في Google Antigravity، ولمشتركي Ultra وPro في تطبيق Gemini وSearch.",
+  "detailed_explanation": "يمثّل الإعلان إطلاقًا رسميًا لنموذج Gemini 4 Argon، وهو أحدث إصدار من عائلة Gemini، ويأتي متاحًا فورًا عبر قنوات متعددة: النسخة المدفوعة من Gemini API للمطوّرين والمؤسسات، منصة Google Antigravity لمشتركي Ultra، وتطبيق Gemini مع ميزة البحث لمشتركي Ultra وPro.\n\nهذا الانتشار الواسع عبر منتجات مختلفة دفعة واحدة يشير إلى أن Google تعامل هذا الإصدار كنقلة جوهرية في قدرات نماذجها، لا مجرد تحديث تدريجي، وهو ما يجعله محل اهتمام لمن يتابع تطور نماذج اللغة الكبيرة وقدراتها الجديدة.",
+  "why_it_matters": "النموذج يصل إلى شرائح واسعة من المستخدمين والمطوّرين دفعة واحدة عبر عدة منتجات من Google، ما يجعله نموذجًا أساسيًا يُتوقع التعامل معه قريبًا في سياقات متعددة.",
+  "original_text": "RT @sundarpichai: Gemini 4 Argon is here.\n\nIt’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search.\n\nHope you all enjoy it! https://t.co/2jyAgqoylU",
+  "glossary": [
+   {
+    "term": "API",
+    "ar": "واجهة برمجة التطبيقات"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Gemini 4 Argon",
+   "Gemini API",
+   "Google Antigravity"
+  ],
+  "change_types": [
+   "New Release",
+   "Model Update",
+   "General Availability"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 18730,
+   "replies": 1069,
+   "reposts": 1665,
+   "quotes": 890,
+   "bookmarks": 2604,
+   "views": 2627884
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini4-argon",
+  "also_reported": [
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2110050785786781837"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2110042226680287283"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2110039322229649783"
+   },
+   {
+    "author": "joshwoodward",
+    "url": "https://x.com/joshwoodward/status/2110141481516421537"
+   },
+   {
+    "author": "CodeByPoonam",
+    "url": "https://x.com/CodeByPoonam/status/2110045777016095060"
+   },
+   {
+    "author": "GoogleAI",
+    "url": "https://x.com/GoogleAI/status/2110039860077527293"
+   },
+   {
+    "author": "GoogleDeepMind",
+    "url": "https://x.com/GoogleDeepMind/status/2110039274922131792"
+   },
+   {
+    "author": "GeminiApp",
+    "url": "https://x.com/GeminiApp/status/2110093640177783147"
+   },
+   {
+    "author": "GoogleAIStudio",
+    "url": "https://x.com/GoogleAIStudio/status/2110039725805297933"
+   },
+   {
+    "author": "venturetwins",
+    "url": "https://x.com/venturetwins/status/2110039192365637985"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2434",
+  "serial": 2434,
+  "serial_display": "#002434",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2110053275949044211",
+  "source_native_id": "2110053275949044211",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-13T17:01:18Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Kylon: منصة تحوّل وكلاء الذكاء الاصطناعي إلى زملاء عمل",
+  "arabic_summary": "منصة جديدة باسم Kylon تتيح إضافة أدوات ذكاء اصطناعي مثل Codex وClaude Code إلى محادثات فريق العمل، بحيث تتصرف كزملاء حقيقيين يمكن مناداتهم بـ@ لتنفيذ مهام مثل كتابة الأكواد وتنظيم الملفات، مع قدرة الوكلاء على التعاون وتسليم المهام لبعضها.",
+  "detailed_explanation": "تقدّم منصة Kylon فكرة دمج أدوات ذكاء اصطناعي متعددة مثل Codex وClaude Code داخل محادثات فريق العمل، بحيث يمكن التعامل معها كزملاء حقيقيين عبر الإشارة إليها بعلامة @ لطلب كتابة أكواد أو تنظيم ملفات.\n\nالميزة الأبرز أن الوكلاء يمكنهم التعاون فيما بينهم وتسليم المهام لبعضهم تلقائيًا، كما يتيح النظام بناء تطبيقات داخل المحادثة نفسها ونشرها برابط مستقل، مع احتفاظ كل وكيل بذاكرته الخاصة وإمكانية تحديد صلاحياته. الفكرة تجمع أدوات منفصلة في مساحة عمل جماعية واحدة بدل استخدامها بمعزل عن بعضها.",
+  "why_it_matters": "يمثل نموذجًا لدمج وكلاء متعددين (multi-agent) داخل بيئة تعاون جماعي واحدة بدل استخدام كل أداة بمعزل عن الأخرى، وهو اتجاه متصاعد في بنية العمل الجماعي بالذكاء الاصطناعي.",
+  "original_text": "منصة 🚀 Kylon تطلق محادثات تحوّل الذكاء الاصطناعي إلى موظف ضمن فريق العمل!\n\nالفكرة إنك تقدر تضيف أدوات ذكاء اصطناعي مثل Codex وClaude Code إلى محادثات فريقك، وتتعامل معها كأنها زملاء عمل حقيقيون.\n\nتقدر تطلب من الذكاء الاصطناعي كتابة الأكواد أو تنظيم الملفات بمجرد الإشارة إليه باستخدام @.\nوكلاء الذكاء الاصطناعي يقدرون يتعاونون ويسلّمون المهام لبعض تلقائيًا.\nتقدر تبني تطبيقات داخل المحادثة نفسها، مثل تطبيق لإدارة الفواتير، وتنشرها برابط مستقل.\nكل وكيل يحتفظ بذاكرته الخاصة، مع إمكانية تحديد الحسابات والصلاحيات المسموح له باستخدامها.\n\nالجميل في الفكرة؟ بدل ما تستخدم كل أداة ذكاء اصطناعي بشكل منفصل، تجمعها مع فريقك في مكان واحد، وتتوزع المهام بينهم.\n https://t.co/7ovDKWyovh",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Kylon",
+   "Codex",
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 39,
+  "metrics": {
+   "likes": 10,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 1433
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://x.com/testingcatalog/status/2110043079256219925/video/1"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "itsolelehmann",
+    "url": "https://x.com/itsolelehmann/status/2110097747470909455"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2435",
+  "serial": 2435,
+  "serial_display": "#002435",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2110008451866710221",
+  "source_native_id": "2110008451866710221",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-13T14:03:11Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أنثروبيك تحذّر من دودة ذكاء اصطناعي ذاتية الانتشار",
+  "arabic_summary": "نشرت Anthropic بحثًا يحذّر من بلوغ نماذج الذكاء الاصطناعي عتبة قدرات تسمح بإنشاء دودة برمجية ذاتية التكاثر تستهدف أجهزة إنترنت الأشياء مثل أجهزة التلفاز الرخيصة. التنبيه يدعو للتركيز على عتبات القدرات الحرجة لا على التحسّن التدريجي فقط.",
+  "detailed_explanation": "يشير الباحث إيثان مولِك إلى أن أنثروبيك نشرت دراسة تتناول ظاهرة مقلقة: عند بلوغ نموذج الذكاء الاصطناعي عتبة قدرة معينة، يصبح بإمكانه تصميم دودة برمجية قادرة على التكاثر الذاتي والانتشار عبر أجهزة إنترنت الأشياء الرخيصة مثل أجهزة التلفاز غير المعروفة بعلامات تجارية كبرى.\n\nالفكرة المحورية هنا ليست التحسّن التدريجي في الأداء بل وجود «عتبات» حرجة يتجاوزها النموذج فجأة ليصبح قادرًا على سلوكيات خطيرة لم تكن ممكنة من قبل، وهو ما يستدعي رصدًا دقيقًا لهذه النقاط الحرجة بدلًا من الاكتفاء بمراقبة الاتجاه العام للتقدم.",
+  "why_it_matters": "يرفع هذا النوع من الأبحاث من أولوية التفكير في المخاطر الأمنية الناشئة عن قدرات النماذج المتقدمة، لا فقط أدائها.",
+  "original_text": "A worthwhile (and unnerving) reminder from Anthropic that we should be paying attention to AI ability thresholds, not just steady climbs\n\nIn this case, the threshold is the capability needed for a self-replicating AI worm on IoT devices like off-brand TVs https://t.co/RCRTlQC3fG https://t.co/9ZwuNxA5p2",
+  "glossary": [
+   {
+    "term": "IoT",
+    "ar": "إنترنت الأشياء"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Anthropic"
+  ],
+  "change_types": [
+   "Research Release",
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 475,
+   "replies": 105,
+   "reposts": 36,
+   "quotes": 10,
+   "bookmarks": 144,
+   "views": 30848
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://www.anthropic.com/research/self-replicating-ai"
+  ],
+  "quoted": null,
+  "cluster_id": "anthropic-self-replicating-worm",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2436",
+  "serial": 2436,
+  "serial_display": "#002436",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2110085117041594750",
+  "source_native_id": "2110085117041594750",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-13T19:07:50Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Gemini 4 Argon متاح عمومًا في GitHub Copilot",
+  "arabic_summary": "أعلن GitHub أن نموذج Gemini 4 Argon أصبح متاحًا بشكل عام ضمن GitHub Copilot، مع نتائج أفضل في جميع اختبارات البرمجة مقارنة بنماذج Gemini السابقة، خصوصًا في Copilot CLI. يوصي الفريق باستخدامه للمهام البرمجية المعقدة والوكيلية والاستدلالية.",
+  "detailed_explanation": "يؤكد GitHub أن Gemini 4 Argon تجاوز إصدارات Gemini السابقة في جميع اختبارات البرمجة (Benchmarks)، مع أكبر تحسّن ملحوظ في Copilot CLI، ويشير إلى أن النموذج يراجع عمله ويختبر الحالات الحدية قبل الانتهاء من المهمة.\n\nيوصي الفريق باستخدام هذا النموذج تحديدًا للمهام البرمجية المعقدة والمهام الوكيلية (Agentic) ومهام الاستدلال، وهو متاح الآن عبر تطبيق Copilot وCLI وفي بيئة VS Code، مما يجعله خيارًا مباشرًا لمن يستخدم GitHub Copilot في عمله اليومي.",
+  "why_it_matters": "يمسّ هذا الخبر مباشرة أداة GitHub Copilot التي يستعملها عزيز، ويوفر له نموذجًا أقوى للمهام البرمجية داخل أدواته الحالية.",
+  "original_text": "🚀 @GoogleAI's Gemini 4 Argon is now generally available in GitHub Copilot.\n\nWhat we learned from early testing ⬇️\n• It solved more tasks than previous Gemini models on every coding benchmark, with its largest gains in Copilot CLI.\n• It checks its work thoroughly, testing edge cases before it finishes.\n\nUse Gemini 4 Argon for complex coding, agentic, and reasoning tasks. Find it in the GitHub Copilot app, CLI, and @code.\nhttps://t.co/ArPCQ3HkCB",
+  "glossary": [
+   {
+    "term": "Benchmark",
+    "ar": "اختبار قياسي"
+   },
+   {
+    "term": "Agentic",
+    "ar": "وكيلي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "GitHub Copilot",
+   "Gemini 4 Argon",
+   "Google AI"
+  ],
+  "change_types": [
+   "General Availability",
+   "Model Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 76,
+  "metrics": {
+   "likes": 327,
+   "replies": 41,
+   "reposts": 28,
+   "quotes": 10,
+   "bookmarks": 42,
+   "views": 35233
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2437",
+  "serial": 2437,
+  "serial_display": "#002437",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2110044128130068665",
+  "source_native_id": "2110044128130068665",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-10-13T16:24:57Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Drama 3: نموذج TTS مفتوح الوزن يتحكم بنبرة الصوت ومشاعره",
+  "arabic_summary": "إطلاق نموذج تحويل نص إلى كلام باسم Drama 3 يتيح التحكم بالنبرة العاطفية لكل كلمة عبر أوامر نصية بسيطة، مثل جعل الصوت يبدو سعيدًا ظاهريًا لكنه حزين في الباطن. النموذج مفتوح الوزن وجاء بعد جولة تمويل بقيمة 52 مليون دولار وأكثر من 15 مليون مستخدم.",
+  "detailed_explanation": "يوضح المنشور أن الذكاء الاصطناعي الصوتي كان يعاني تاريخيًا من صعوبة نقل «الموقف» أو النبرة الحقيقية وراء الكلمات، فجملة واحدة مثل «أنا سعيد من أجلك» يمكن أن تحمل معاني متضاربة حسب السياق. نموذج Drama 3 يتيح للمستخدم توجيه هذه النبرة بلغة طبيعية، مثل طلب صوت يبدو سعيدًا للآخرين لكنه يخفي ألمًا داخليًا.\n\nالنموذج مفتوح الوزن، ما يعني إمكانية الوصول إليه واستخدامه من قبل المطورين مباشرة، وهو ما يميزه عن النماذج المغلقة التي تقدمها شركات أخرى في هذا المجال.",
+  "why_it_matters": "يعالج قصورًا معروفًا في تقنيات الصوت الاصطناعي وهو ضعف التحكم بنبرة المشاعر، ما يفتح استخدامات جديدة في الإنتاج الصوتي والمحتوى.",
+  "original_text": "so AI can be passive-aggressive now? lol\n\nvoice AI always struggled to get the \"attitude\" behind the words right\n\nlike there's endless ways to say “i’m so happy for you”:\n\n> genuinely stoked your best friend got their dream job\n> jealous your least competent coworker got promoted over you\n> trying not to cry because your ex just got engaged\n\nbut now with drama 3, you can just direct the attitude behind the words in plain english:\n\n“sound happy for them, but make it obvious you’re dying inside.”\n\nits not what you say, its how you say it",
+  "glossary": [
+   {
+    "term": "TTS",
+    "ar": "تحويل النص إلى كلام"
+   },
+   {
+    "term": "open-weight",
+    "ar": "مفتوح الوزن"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Drama 3"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 13,
+   "replies": 3,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2593
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "$52M seed round. 15M+ users. But this is what we're most proud of yet.\n\nIntroducing Drama 3: the most emotive and controllable TTS model in the world\n\nAnd yes, it's open-weight.\n\nYou can now control how even a single word should sound, change its tone, and shift your voice mid-sentence.\n\nUncle Roger was impressed too.\n\nTry it here:\n\nhttps://t.co/4nbz4sQ4yy\n\nComment “DRAMA” within the next 48 hours"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2438",
+  "serial": 2438,
+  "serial_display": "#002438",
+  "source_type": "x",
+  "source_url": "https://x.com/ElevenLabs/status/2110037384192774210",
+  "source_native_id": "2110037384192774210",
+  "source_name": "ElevenLabs",
+  "source_site": "x.com",
+  "author": "ElevenLabs",
+  "published_at": "2026-10-13T15:58:09Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "صوت بديل من ElevenLabs يُستخدم للمرة الأولى في البرلمان البريطاني",
+  "arabic_summary": "ألقت البارونة كامبل خطابًا في مجلس اللوردات البريطاني باستخدام صوت مصطنع أعادت بناءه شركة ElevenLabs، وهي أول مرة تحدث فيها عضوة مصابة بضمور العضلات الشوكي بصوتها الأصلي المعاد إنشاؤه. تقول الشركة إنها استعادت أصوات أكثر من 11,000 شخص فقدوا أصواتهم بسبب الإصابة أو المرض.",
+  "detailed_explanation": "يسرد المنشور كيف استخدمت البارونة جين كامبل، المصابة بضمور العضلات الشوكي الذي يؤثر على كلامها، صوتًا مصطنعًا من ElevenLabs يحاكي نبرة وإيقاع وطبقة صوتها الأصلي لإلقاء خطاب في مجلس اللوردات البريطاني، في سابقة لهذا المجلس.\n\nتذكر الشركة أن تقنيتها استُخدمت لاستعادة أصوات أكثر من 11,000 شخص فقدوا القدرة على الكلام بسبب إصابة أو مرض، مع التزام معلن بمساعدة مليون شخص حول العالم ممن يعانون فقدان الصوت.",
+  "why_it_matters": "استخدام إنساني ملموس لتقنية استنساخ الصوت يوضح أثرها الاجتماعي الحقيقي خارج نطاق الترفيه أو الإنتاج.",
+  "original_text": "Today, Baroness Campbell of Surbiton delivered a speech in the @UKHouseofLords using an AI recreation of her voice, built by ElevenLabs. A first for the UK Parliament.\n\nBaroness Campbell has spinal muscular atrophy, which affects her speech. The Baroness has now created an AI voice that replicates the tone, rhythm, and pitch of her original voice.\n\nOur technology has now been used to restore the voices of more than 11,000 people who have lost their voices through injury or illness, and we’ve committed to help one million people living with voice loss around the world.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة",
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "ElevenLabs",
+   "UK House of Lords",
+   "Baroness Campbell of Surbiton"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 1157,
+   "replies": 50,
+   "reposts": 128,
+   "quotes": 51,
+   "bookmarks": 161,
+   "views": 109691
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2439",
+  "serial": 2439,
+  "serial_display": "#002439",
+  "source_type": "x",
+  "source_url": "https://x.com/itsPaulAi/status/2110041401744363641",
+  "source_native_id": "2110041401744363641",
+  "source_name": "Paul Couvert",
+  "source_site": "x.com",
+  "author": "itsPaulAi",
+  "published_at": "2026-10-13T16:14:07Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تجربة مبكرة لـGemini 4 Argon: قوي في الكتابة والبرمجة",
+  "arabic_summary": "كاتب حصل على وصول مبكر لنموذج Gemini 4 Argon الجديد من جوجل، ووصفه بأنه الأفضل في الكتابة، قادر على إنجاز المهام الطويلة دون تراجع، وممتاز في البرمجة. النموذج متاح الآن لمشتركي Pro وUltra في تطبيق Gemini وAntigravity.",
+  "detailed_explanation": "يقدّم الكاتب تجربة شخصية مبكرة مع Gemini 4 Argon قبل الإطلاق العام، مؤكدًا أنه ربما الأفضل حاليًا في الكتابة، ولا يتوقف أو يستسلم في المهام الطويلة، إضافة لتعدد استخداماته في البرمجة بناءً على مشاريع حقيقية جربها.\n\nيحذر من الحكم عليه من عرض الرسوم ثلاثية الأبعاد فقط، مشيرًا إلى أن قدراته البرمجية أعمق من ذلك بكثير. النموذج أصبح متاحًا لمشتركي الباقات المدفوعة في تطبيق Gemini، وحصريًا لمشتركي Ultra داخل بيئة Antigravity البرمجية.",
+  "why_it_matters": "إطلاق نموذج جديد من جوجل بقدرات برمجية وكتابية قوية يعيد ترتيب المنافسة بين النماذج الكبرى ويمنح المطورين خيارًا إضافيًا للمهام المعقدة.",
+  "original_text": "Google has just released Gemini 4 Argon 🔥\n\nI was lucky enough to have preview access and it's impressive in many aspects:\n\n- probably the best one for writing\n- it doesn't give up on long tasks\n- amazing for coding (very versatile)\n\nDon't judge it on 3D stuff... coding goes much further than that, and having tried it on real projects, Argon is ACTUALLY useful.\n\nAlready available for Pro/Ultra subscribers in the Gemini app and Ultra in Antigravity.",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google",
+   "Gemini 4 Argon",
+   "Antigravity"
+  ],
+  "change_types": [
+   "New Release",
+   "General Availability"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 31,
+   "replies": 4,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 4380
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "The moment you've been waiting 4…\n\nOur new frontier model, Gemini 4 Argon, is rolling out now in the Gemini app to bring your most complex ideas into reality.\n\nSee how Gemini 4 Argon and our latest updates across the Gemini app help you get the most out of every prompt. 🧵"
+  },
+  "cluster_id": "gemini4-argon",
+  "also_reported": [
+   {
+    "author": "SultanAlFardan",
+    "url": "https://x.com/SultanAlFardan/status/2110053518329491551"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2440",
+  "serial": 2440,
+  "serial_display": "#002440",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleAI/status/2110083927620591769",
+  "source_native_id": "2110083927620591769",
+  "source_name": "Google AI",
+  "source_site": "x.com",
+  "author": "GoogleAI",
+  "published_at": "2026-10-13T19:03:06Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google تختبر Gemini 4 Argon لتسريع أبحاث الروبوتات",
+  "arabic_summary": "كشفت Google عن استخدام Gemini 4 Argon لتوليد محاكاة تدريبية تلقائيًا من مقاطع فيديو لبشر يؤدون مهامًا، بدل البرمجة اليدوية. طُبّقت التجربة على روبوت بشري تعلّم لعبة كيس الفول من خلال مشاهدة الفيديوهات.",
+  "detailed_explanation": "استخدم فريق أبحاث Google فيديوهات لأشخاص يؤدون مهامًا ترفيهية (مثل لعبة أكياس الفول) كمدخل لنموذج Gemini 4 Argon، الذي قام تلقائيًا بتوليد محاكاة تدريبية بدلاً من الاعتماد الكامل على البرمجة اليدوية.\n\nطُبّق هذا على روبوت بشري قام بدراسة الفيديوهات، وتشغيل المحاكاة التي ولّدها النموذج، ثم أتقن اللعبة عمليًا. هذا يوضح اتجاهًا جديدًا في استخدام النماذج متعددة الوسائط لتسريع أبحاث الروبوتات عبر تقليل الحاجة للبرمجة اليدوية للمحاكاة.",
+  "why_it_matters": "يُظهر قدرة النموذج على تحويل الملاحظة البصرية إلى كود محاكاة فعلي، وهو تطبيق متقدم يتجاوز الاستخدام النصي التقليدي للنماذج.",
+  "original_text": "We’ve been exploring the potential of using Gemini 4 Argon to accelerate research @Google. One of our tests was using videos of humans performing fun tasks (game of bags, anyone?) to autonomously spin up training simulations, rather than relying entirely on manual programming.\n\nHear from our research team and see the results in action as our humanoid robot studies the videos, runs the simulations, and masters the game of cornhole.",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "روبوتات وعتاد",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 432,
+   "replies": 42,
+   "reposts": 44,
+   "quotes": 7,
+   "bookmarks": 45,
+   "views": 30172
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "gemini4argon",
+  "also_reported": [
+   {
+    "author": "GoogleDeepMind",
+    "url": "https://x.com/GoogleDeepMind/status/2110078384617464201"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2441",
+  "serial": 2441,
+  "serial_display": "#002441",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2110039835348205938",
+  "source_native_id": "2110039835348205938",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-13T16:07:54Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub يحافظ على موافقات PR بعد إعادة ترتيب Stacked PRs",
+  "arabic_summary": "أعلن GitHub أن الموافقات على طلبات السحب (Pull Requests) المكدّسة (Stacked PRs) تُحفَظ الآن بعد إعادة ترتيب المكدّس (Rebase)، طالما لم يتغيّر الفرق (Diff) الفعلي، حتى مع تفعيل خيار إلغاء الموافقات القديمة.",
+  "detailed_explanation": "توضّح الميزة الجديدة أن موافقات المراجعين على طلبات السحب المرتبة في مكدّسات (Stacked PRs) لن تُفقد تلقائيًا بعد عمليات إعادة الترتيب (Rebase)، سواء عبر زر \"Rebase stack\" أو عند الدمج الجزئي للمكدّس، شرط ألا يتغيّر محتوى الفرق البرمجي.\n\nهذا يحل مشكلة شائعة لمن يعمل بأسلوب تقسيم التغييرات الكبيرة إلى سلسلة من طلبات السحب الصغيرة المترابطة، حيث كانت إعادة الترتيب تُلغي الموافقات السابقة حتى لو لم يتغيّر الكود فعليًا، مما يفرض مراجعة متكررة غير ضرورية.",
+  "why_it_matters": "تحسين مباشر في سير عمل المراجعة على GitHub، أداة أساسية يستخدمها عزيز، يقلّل الاحتكاك عند العمل بأسلوب Stacked PRs.",
+  "original_text": "RT @sameenkarim: Approvals are now retained for Stacked PRs after stack rebases ✅\n\nWhether you use the \"Rebase stack\" button or partially merge a stack, as long as the diff doesn't change, PR approvals will be kept even if you have \"dismiss stale approvals\" turned on https://t.co/poh2mU9hzx",
+  "glossary": [
+   {
+    "term": "Pull Request",
+    "ar": "طلب سحب"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 392,
+   "replies": 15,
+   "reposts": 29,
+   "quotes": 8,
+   "bookmarks": 90,
+   "views": 37221
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2442",
+  "serial": 2442,
+  "serial_display": "#002442",
+  "source_type": "x",
+  "source_url": "https://x.com/CodeByPoonam/status/2110042247236628974",
+  "source_native_id": "2110042247236628974",
+  "source_name": "Poonam Soni",
+  "source_site": "x.com",
+  "author": "CodeByPoonam",
+  "published_at": "2026-10-13T16:17:29Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "TinyFish تصبح Plugin داخل Hermes Agent لتصفّح الويب",
+  "arabic_summary": "أعلنت TinyFish أنها أصبحت الآن Plugin ضمن Hermes Agent من NousResearch، يتيح للوكيل البحث في الويب وقراءته مجانًا. جرّب الفريق استخدامه لملء خلايا فارغة في جدول Excel عبر جلب البيانات تلقائيًا من الويب.",
+  "detailed_explanation": "يوضّح المنشور أن TinyFish تعمل الآن كإضافة (Plugin) داخل Hermes Agent، وهو وكيل مفتوح من NousResearch، بحيث يمكنه البحث في الويب وقراءة المحتوى دون تكلفة.\n\nالمثال العملي المذكور هو استخدام الإضافة لملء جدول بيانات Excel يحتوي خلايا فارغة، حيث قامت TinyFish بالبحث عن المعلومات المناسبة لكل صف وتسليمها لـ Hermes Agent لإدراجها في الجدول — وهو استخدام نموذجي لبنية الوكلاء في أتمتة المهام المكتبية المتكررة.",
+  "why_it_matters": "يوسّع هذا قدرة الوكلاء على أداء مهام بحثية وملء بيانات بدون تدخل يدوي، وهو نمط استخدام عملي لأتمتة المهام المكتبية.",
+  "original_text": "RT @Tiny_Fish: ICYMI: Hermes can search and read the web for $0.\n\nhttps://t.co/Z0B83N8JG7\n\nTinyFish is now a plugin in the @NousResearch Hermes Agent.\n\nWe pointed ours at the most boring job in the building: an Excel sheet full of empty cells.\n\nTinyFish searched and fetched information for all the rows and handed back clean results to Hermes Agent to fill in the spreadsheet.",
+  "glossary": [
+   {
+    "term": "Plugin",
+    "ar": "إضافة"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Plugin",
+   "Agent"
+  ],
+  "domains": [
+   "بيانات وتحليلات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "TinyFish",
+   "Hermes Agent",
+   "NousResearch"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 81,
+  "metrics": {
+   "likes": 241,
+   "replies": 49,
+   "reposts": 37,
+   "quotes": 29,
+   "bookmarks": 214,
+   "views": 366782
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://hermes-agent.nousresearch.com/docs/plugins/tinyfish"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2443",
+  "serial": 2443,
+  "serial_display": "#002443",
+  "source_type": "x",
+  "source_url": "https://x.com/alashalash/status/2110166133555056698",
+  "source_native_id": "2110166133555056698",
+  "source_name": "عبدالسلام عبدالعزيز الشلاش",
+  "source_site": "x.com",
+  "author": "alashalash",
+  "published_at": "2026-10-14T00:29:45Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "المكتبة الشاملة تطلق خدمة ذكاء اصطناعي جديدة على موقعها",
+  "arabic_summary": "أعلن موقع الشاملة إطلاق خدمة ذكاء اصطناعي جديدة ضمن موقعه، بالتعاون مع فريق تقني وُصف بخبرته الطويلة في هذا المجال. المنشور لا يفصّل وظائف الخدمة أو كيفية استخدامها.",
+  "detailed_explanation": "المنشور يعلن عن إطلاق خدمة ذكاء اصطناعي جديدة على موقع الشاملة، أحد أبرز المصادر الرقمية للكتب والمخطوطات الإسلامية والتراثية، لكنه لا يوضح طبيعة هذه الخدمة بالتحديد: هل هي بحث ذكي، أم تلخيص، أم محادثة مع النصوص.\n\nيُشكر في المنشور فريق يُدعى «نقاية» لمساهمته التقنية في تطوير هذه الخدمة، ما يشير إلى تعاون متخصص بين موقع الشاملة وجهة تقنية لتطبيق الذكاء الاصطناعي على محتوى المكتبة الضخم من الكتب الشرعية والتراثية.",
+  "why_it_matters": "المكتبة الشاملة مرجع أساسي في المحتوى الإسلامي والشرعي، فإضافة خدمة ذكاء اصطناعي إليها قد تغيّر طريقة البحث والتعامل مع تراثها الضخم.",
+  "original_text": "RT @ShamelaOfficial: الحمد لله تعالى: خدمة الذكاء الاصطناعي بموقع الشاملة\nhttps://t.co/EF0O9fOtAH\nونشكر فريق (نقاية) إذ أفادونا بخبرتهم الطويلة في هذا الأمر، فإطلاق الخدمة بموقع الشاملة هو خلاصة جهدهم التقني، جزاهم الله خيرا",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "إسلامي",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "المكتبة الشاملة",
+   "نقاية"
+  ],
+  "change_types": [
+   "New Release",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 111,
+   "replies": 1,
+   "reposts": 24,
+   "quotes": 2,
+   "bookmarks": 57,
+   "views": 3930
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://shamela.ws/ai"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2444",
+  "serial": 2444,
+  "serial_display": "#002444",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2110005848890359960",
+  "source_native_id": "2110005848890359960",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-13T13:52:51Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "إصدار حزمة Skills جاهزة لأتمتة عملية التوظيف عبر Codex",
+  "arabic_summary": "أطلق فريق Every مجموعة من ملفات Skills المصممة لإدارة خط أنابيب توظيف آلي بالكامل باستخدام Codex، ونشرها كمستودع مفتوح على GitHub.",
+  "detailed_explanation": "أعلن دان شيبر عن إطلاق فريقه مجموعة شاملة من ملفات Skills مخصصة لتشغيل خط أنابيب توظيف آلي بالكامل عبر Codex، وجعلوها متاحة للعموم على مستودع GitHub الخاص بشركة Every.\n\nهذا النوع من الإصدارات يقدّم نموذجًا عمليًا لكيفية هيكلة Skills متعددة تعمل معًا لإنجاز سير عمل كامل ومعقّد، بدلًا من مهمة واحدة بسيطة، ما يجعله مرجعًا مفيدًا لمن يريد بناء أنظمة مشابهة تعتمد على تسلسل قدرات متخصصة داخل Codex.",
+  "why_it_matters": "يقدّم مثالًا عمليًا جاهزًا لاستخدام Skills في أتمتة عملية عمل حقيقية ومعقّدة كالتوظيف، وهو ما يفيد من يبني أنظمة مشابهة بالاعتماد على Codex.",
+  "original_text": "we (@ArielleShipper) made the ultimate set of skills for running an automated hiring pipeline in Codex\n\navailable for on the @every github: https://t.co/85SAysNaFy https://t.co/1sg7xLlJGe",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "أعمال وإدارة",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Every",
+   "Codex",
+   "GitHub"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 34,
+   "replies": 10,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 51,
+   "views": 5169
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://github.com/EveryInc/every-hiring-automations-kit-public"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2445",
+  "serial": 2445,
+  "serial_display": "#002445",
+  "source_type": "x",
+  "source_url": "https://x.com/cursor_ai/status/2110087611763368271",
+  "source_native_id": "2110087611763368271",
+  "source_name": "Cursor",
+  "source_site": "x.com",
+  "author": "cursor_ai",
+  "published_at": "2026-10-13T19:17:44Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Gemini 4 Argon متاح الآن في Cursor بسعر وأداء محددين",
+  "arabic_summary": "أعلنت Cursor عن دعم نموذج Gemini 4 Argon داخل المحرر، مع تسجيله 52.8% في اختبار CursorBench، أي بمستوى مقارب لنموذج Opus 5.5. التسعير محدد بـ2 دولار لكل مليون token دخل و10 دولار لكل مليون token خرج.",
+  "detailed_explanation": "",
+  "why_it_matters": "إضافة نموذج جديد إلى أداة برمجة يستعملها المطورون يوميًا، مع بيانات أداء وتسعير واضحة تساعد في اختيار النموذج المناسب للمهمة.",
+  "original_text": "Gemini 4 Argon is now available in Cursor!\n\nIt scores 52.8% on CursorBench at default effort, on par with Opus 5.5.\n\nPriced at $2/M input and $10/M output tokens. https://t.co/1wOk4NvgFJ",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "توكن"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Cursor",
+   "Gemini"
+  ],
+  "change_types": [
+   "New Integration",
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 2488,
+   "replies": 143,
+   "reposts": 123,
+   "quotes": 75,
+   "bookmarks": 215,
+   "views": 123339
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2446",
+  "serial": 2446,
+  "serial_display": "#002446",
+  "source_type": "x",
+  "source_url": "https://x.com/cursor_ai/status/2110075611633074295",
+  "source_native_id": "2110075611633074295",
+  "source_name": "Cursor",
+  "source_site": "x.com",
+  "author": "cursor_ai",
+  "published_at": "2026-10-13T18:30:03Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "منصة Origin من Cursor تدعم أكثر من 20 تكاملًا",
+  "arabic_summary": "أعلنت Cursor أن منصة استضافة الكود الخاصة بها «Origin» باتت تدعم أكثر من 20 تكاملًا تشمل أدوات CI، النشر، مراجعة الكود، الأمن، والمراقبة وإدارة المشاريع.",
+  "detailed_explanation": "",
+  "why_it_matters": "توسيع تكاملات منصة Origin يعني أن مستخدمي Cursor يمكنهم ربط مستودعاتهم بسلسلة أدوات تطوير أوسع دون مغادرة الأداة.",
+  "original_text": "Origin, Cursor’s code hosting platform, now supports over 20 integrations.\n\nConnect your repos to tools for CI, deployments, code review, security, monitoring, and project management. https://t.co/Xq8LpS6Fa7",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Cursor"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 90,
+  "metrics": {
+   "likes": 1296,
+   "replies": 107,
+   "reposts": 94,
+   "quotes": 52,
+   "bookmarks": 137,
+   "views": 64147
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2447",
+  "serial": 2447,
+  "serial_display": "#002447",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2109961187970736418",
+  "source_native_id": "2109961187970736418",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-13T10:55:23Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "اختبار يكشف أن ChatGPT الأضيق سياقًا بين النماذج الكبرى",
+  "arabic_summary": "أجرى الباحث اختبارًا بلصق ورقة بحثية كاملة مع استفسار في كل من ChatGPT وClaude وGemini وGrok، فكان ChatGPT وحده من رفض الطلب وأبلغ أن النص طويل جدًا.",
+  "detailed_explanation": "",
+  "why_it_matters": "يكشف هذا عن فرق عملي في سعة نافذة السياق بين النماذج الشائعة، وهو عامل مهم لمن يستعمل هذه الأدوات في التعامل مع نصوص طويلة.",
+  "original_text": "Does ChatGPT have the smallest context window of the major chat models?\n\nI pasted a full paper and query into ChatGPT, Claude, Gemini and Grok.\n\nGPT was the only one that told me the prompt was too long: https://t.co/1NWx2JDh2X",
+  "glossary": [
+   {
+    "term": "Context Window",
+    "ar": "نافذة السياق"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "ChatGPT",
+   "Claude",
+   "Gemini",
+   "Grok"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 5,
+   "replies": 8,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1111
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "chatgpt-context-window-test",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2110143647106961567"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2448",
+  "serial": 2448,
+  "serial_display": "#002448",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2110117722080317490",
+  "source_native_id": "2110117722080317490",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-13T21:17:23Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "غوغل تمنح الباحثين اشتراكًا مجانيًا في Antigravity لستة أشهر",
+  "arabic_summary": "أعلنت غوغل عن تقديم 10,000 باحث علمي اشتراكًا مجانيًا بأعلى مستوى استخدام في منصّة Antigravity لمدة ستة أشهر، مع فتح باب التقديم للراغبين من الأوساط الأكاديمية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يتيح هذا العرض للباحثين الوصول لأدوات متقدمة دون تكلفة، ما قد يسرّع استخدام الذكاء الاصطناعي في البحث العلمي.",
+  "original_text": "Academic researchers:\n\nGoogle are giving away free, top-tier plans to Google Antigravity for 6 month. Apply below:",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Google",
+   "Google Antigravity"
+  ],
+  "change_types": [
+   "Pricing Change"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 4,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 1121
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We are offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months. Please apply! https://t.co/ywWLNf4Q7q"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2449",
+  "serial": 2449,
+  "serial_display": "#002449",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2110072821384913303",
+  "source_native_id": "2110072821384913303",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-10-13T18:18:58Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة Paint Mixer مبنية بـ Codex لمزج الألوان",
+  "arabic_summary": "طوّر صاحب الحساب أداة ويب لمزج الألوان كما لو كانت دهانًا حقيقيًا، بهدف استكشاف ألوان العلامات التجارية. بُنيت الأداة باستخدام Codex.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي على استخدام Codex لبناء أداة تصميم مصغّرة وجاهزة للاستخدام مباشرة.",
+  "original_text": "I built this Paint mixer with Codex to explore brand colors by mixing them like physical paint\n\nDesign your palettes here:\nhttps://t.co/Be4PDNXw64 https://t.co/DTloYVTCF5",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 31,
+   "replies": 9,
+   "reposts": 5,
+   "quotes": 1,
+   "bookmarks": 9,
+   "views": 2585
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [
+   "https://amirmushich.com/lab/paint-mixer/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2450",
+  "serial": 2450,
+  "serial_display": "#002450",
+  "source_type": "x",
+  "source_url": "https://x.com/GeminiApp/status/2110105496145576406",
+  "source_native_id": "2110105496145576406",
+  "source_name": "Google Gemini",
+  "source_site": "x.com",
+  "author": "GeminiApp",
+  "published_at": "2026-10-13T20:28:48Z",
+  "fetched_at": "2026-10-14T01:04:22Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ميزة جديدة في Gemini تحوّل الفيديو إلى آلة موسيقية تفاعلية",
+  "arabic_summary": "أطلقت Gemini App ميزة تتيح تحويل فيديو أو بث الكاميرا إلى سينثيسايزر قابل للعزف، عبر بناء تطبيق صوتي تفاعلي داخل Canvas.",
+  "detailed_explanation": "",
+  "why_it_matters": "ميزة إبداعية جديدة تربط الرؤية الحاسوبية بالصوت التفاعلي داخل تطبيق Gemini المستخدم فعليًا.",
+  "original_text": "Gemini 4 Argon lets you reimagine your video or webcam feed as a playable synthesizer.\n\nSpin up an interactive audio app in Canvas, set the vibe, and play your camera like an instrument.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Gemini"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 85,
+  "metrics": {
+   "likes": 719,
+   "replies": 35,
+   "reposts": 63,
+   "quotes": 9,
+   "bookmarks": 178,
+   "views": 50399
+  },
+  "metrics_captured_at": "2026-10-14T01:04:22Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
