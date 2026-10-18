@@ -1,0 +1,1078 @@
+[
+ {
+  "id": "c2568",
+  "serial": 2568,
+  "serial_display": "#002568",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2111604705340326393",
+  "source_native_id": "2111604705340326393",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-10-17T23:46:08Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic: التحقق الآلي من الكود ضروري حين يكتب الوكيل معظمه",
+  "arabic_summary": "تعليق من مهندس في Anthropic يشرح أن تمكين Agent من التحقق من عمله بنفسه حسّن جودة المخرجات بشكل كبير، لدرجة أن Claude Code بات يكتب أكثر من 90% من كوده. يدعو إلى تحويل مراجعة الكود من قراءة بشرية سطرًا بسطر إلى نظام تحقق متعدد الطبقات يشمل اختبارات شاملة وخرائط ميزات ومراجعات متعددة الوكلاء.",
+  "detailed_explanation": "يشرح الكاتب، وهو من فريق Anthropic، أن منح الوكيل البرمجي وسيلة للتحقق من صحة عمله بنفسه رفع جودة المخرجات بشكل كبير، وأن هذا الاستثمار في التحقق هو ما مكّن Claude Code من كتابة أكثر من 90% من كوده الخاص مع الحفاظ على الاستقرار.\n\nيرى أن مراجعة الكود التقليدية القائمة على قراءة بشرية سطرًا بسطر لم تعد كافية عندما يُنتج الكود بمعدل أسرع من قدرة المراجعة البشرية، فالحل في نظام تحقق متعدد الطبقات: اختبارات شاملة end-to-end، خرائط ميزات (feature maps)، اختبارات خصائص (property tests)، ومراجعات تنافسية بين وكلاء متعددين.\n\nالرسالة الأعمق أن دور المطور يتحول من مراجعة الكود سطرًا بسطر إلى التركيز على نية المنتج وتقييم المخاطر والأدلة، بينما تُفوَّض عملية فحص الكود نفسها للاختبارات الآلية. هذا يمثل نموذجًا عمليًا لكل من يدير أو يبني مع Agents برمجية على نطاق واسع.",
+  "why_it_matters": "يقدّم نمط عمل عملي لإدارة فرق تطوير تعتمد على Agents بكثافة، وهو سؤال مركزي لكل من يبني أو يستخدم أدوات برمجة بالذكاء الاصطناعي.",
+  "original_text": "Give your agent a way to verify its work. This can dramatically improve the quality of output.\n\nWith this process in place, Claude Code was able to write 90%+ of its code itself. When generating software at a faster rate than you can review it, the bottleneck shifts to proving that it works. @bcherny and team invested enough in verification, we've been able to move fast while maintaining stability.\n\nCode reviews aren't going away, but you need to think of it differently. One human reading through line-by-line is no longer going to work as a gate, it needs to evolve into a multi-layered verification system, built with fast deterministic feedback loops for your agents. \n\nThis is where e2e tests, feature maps (as @poteto has been advocating), property tests and multi-agent adversarial reviews come in. These all provide opportunities to catch errors early and fix them before things get out of hand.\n\nYou don't have enough eyeballs for the amount of code being written so your focus needs to be on product intent, risk assessment and evaluating evidence rather than reviewing code. Delegate the code checking work to your automated tests, scale your approvals based on risk, and turn your tes",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "برنامج يتخذ إجراءات مستقلة لتنفيذ مهام نيابة عن المستخدم"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Anthropic",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 92,
+  "metrics": {
+   "likes": 756,
+   "replies": 104,
+   "reposts": 56,
+   "quotes": 17,
+   "bookmarks": 680,
+   "views": 38914
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Claude writes about 90% of Claude Code's code.\n\nFrom June to September, merged PRs more than doubled while the share reverted fell by more than 40%.\n\nWe wrote about how we changed code review to get there, and how to adopt it:\n\nhttps://t.co/9sZe64g3mb"
+  },
+  "cluster_id": "claude-code-90-percent",
+  "also_reported": [
+   {
+    "author": "addyosmani",
+    "url": "https://x.com/addyosmani/status/2111311335242027069"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2569",
+  "serial": 2569,
+  "serial_display": "#002569",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2111552864820904409",
+  "source_native_id": "2111552864820904409",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-17T20:20:08Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أمازون تنشر أكثر من مليون روبوت في مستودعاتها عالميًا",
+  "arabic_summary": "أمازون باتت تشغّل أكثر من مليون روبوت في مستودعاتها حول العالم، أغلبها روبوتات متنقلة تنقل الرفوف وأذرع آلية للفرز والتعبئة. تقول الشركة إن الروبوتات ساعدت في 75% من عمليات التسليم العالمية، وتخطط لمضاعفة عدد الأذرع الروبوتية وبناء مصانع جديدة لإنتاجها، وسط تقارير عن احتمال تقليص التوظيف البشري مستقبلًا.",
+  "detailed_explanation": "تكشف الأرقام أن أمازون، ثاني أكبر جهة توظيف في العالم بأكثر من 1.5 مليون موظف، باتت تدير أسطولًا يتجاوز مليون روبوت في مستودعاتها، أغلبها روبوتات متنقلة لنقل الرفوف إلى جانب أذرع آلية لفرز وتعبئة الطرود.\n\nتفيد الشركة بأن هذه الروبوتات ساهمت في 75% من عمليات التسليم العالمية، وتخطط لمضاعفة عدد الأذرع الروبوتية وبناء مصانع جديدة متخصصة في إنتاج المزيد منها، ما يشير إلى استثمار استراتيجي طويل الأمد في الأتمتة.\n\nفي المقابل، تشير تقارير داخلية مذكورة في المنشور إلى احتمال تجنب توظيف مئات الآلاف من الأشخاص مستقبلًا بسبب هذه الأتمتة، رغم أن الشركة تبرر ذلك بتقليل الأعمال الشاقة والإصابات الخطيرة. هذا التوازن بين كفاءة التشغيل والأثر الوظيفي يجعل الخبر مثالًا بارزًا على التحول الجاري في قطاع الروبوتات الصناعية.",
+  "why_it_matters": "مثال كبير الحجم على أتمتة سلاسل التوريد بالروبوتات، يعكس اتجاه الصناعة نحو استبدال العمل اليدوي بأنظمة آلية على نطاق واسع.",
+  "original_text": "أمازون تنشر أكثر من مليون روبوت في مستودعاتها حول العالم\n\nالشركة تعتبر ثاني أكبر جهة توظيف على مستوى العالم، وعدد موظفيها البشر يتجاوز 1.5 مليون شخص (بدوام كامل وجزئي).\n\nالروبوتات أغلبها من النوع المتنقل الذي ينقل الرفوف، مع أذرع آلية تقوم بفرز وتعبئة الطرود، وتقول الشركة إن الروبوتات ساعدت في 75% من عمليات التسليم العالمية، وتخطط لمضاعفة عدد الأذرع الروبوتية قريبًا وبناء مصانع جديدة لإنتاج المزيد منها.\n\nإذا فكرت في الرقم فهو مخيف… مليون آلة تشتغل 24 ساعة مقابل مليون ونص بشر.\n\nالشركة تقول إن الروبوتات تخفف الأعمال الشاقة والإصابات الخطيرة، وفي نفس الوقت فيه تقارير داخلية تتكلم عن إمكانية تجنب توظيف مئات الآلاف من الأشخاص في السنوات القادمة بسبب الأتمتة.\n\nيعني تخفف الأعمال الشاقة مقابل التخلي عن موظفين بشر… معادلة صعبة",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Amazon"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 20,
+   "replies": 2,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 2995
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2570",
+  "serial": 2570,
+  "serial_display": "#002570",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2111556429299724553",
+  "source_native_id": "2111556429299724553",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-17T20:34:18Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "حملة تصيّد تستهدف مستخدمي Mac عبر صفحة مزيفة لتطبيق Claude",
+  "arabic_summary": "قراصنة يستخدمون إعلانات Google وروابط Bing الشرعية لتوجيه مستخدمي Mac إلى صفحة تحميل مزيفة تنتحل تطبيق Claude. عند نسخ أمر التثبيت المعروض، يُنسخ أمر مختلف ينفذ كودًا خبيثًا بدل التطبيق الحقيقي. اكتشفت الحملة شركة Push Security وأوقفت جوجل الحسابات الإعلانية المسؤولة.",
+  "detailed_explanation": "تكشف الحملة عن أسلوب تصيّد متطور يستغل إعلانات Google وروابط Bing الشرعية لجذب مستخدمي أجهزة Mac إلى صفحة تبدو تمامًا كصفحة التحميل الرسمية لتطبيق Claude AI، بما في ذلك عرض أمر تثبيت يبدو صحيحًا على الشاشة.\n\nالخديعة تكمن في أن الضغط على زر النسخ ينسخ أمرًا مختلفًا فعليًا عن الظاهر على الشاشة، وعند لصق هذا الأمر في نافذة Terminal، تظهر رسالة مطمئنة تدّعي تحميل التطبيق من الموقع الرسمي، بينما ينفّذ في الخلفية كودًا خبيثًا من خادم يتحكم فيه المهاجمون.\n\nاكتشف الباحثون في شركة Push Security هذه الحملة، وبعد الإبلاغ أوقفت جوجل الحسابات الإعلانية المسؤولة ووصفت الممارسة بأنها انتهاك صارخ لسياساتها. هذا النوع من الهجمات يستهدف تحديدًا موثوقية أسماء الأدوات المعروفة، لذا يُنصح مستخدمو Claude بالتحقق من مصدر أي رابط تحميل قبل تنفيذ أي أمر في Terminal.",
+  "why_it_matters": "يمسّ أمان أداة يستخدمها عزيز مباشرة (Claude)، والتحذير ضروري لتجنب الوقوع في هذا النوع من التصيّد عبر الإعلانات.",
+  "original_text": "تحذير لمستخدمي أجهزة الماك\n\nقراصنة يستخدمون إعلانات google وروابط بينج الشرعية لتوجيه الناس إلى صفحة تحميل مزيفة لتطبيق Claude AI\n\nالصفحة تبدو رسمية ومقنعة جداً، وتعرض أمر التثبيت الصحيح على الشاشة، لكن لما تضغط على زر (نسخ)، ينسخ أمر مختلف على الحافظة.\nوإذا لصقت هذا الأمر في نافذة Terminal، بتظهر لك رسالة مطمئنة تقول إنه يقوم بتحميل التطبيق من الموقع الرسمي، بس في الخلفية يقوم بتنفيذ كود خبيث من سيرفر يتحكم فيه المهاجمون.\n\nاكتشف الباحثون في Push Security الحملة، وأوقفت جوجل الحسابات الإعلانية المسؤولة عنها ووصفتها بانتهاك صارخ لسياساتها.",
+  "glossary": [
+   {
+    "term": "Terminal",
+    "ar": "نافذة سطر الأوامر في نظام التشغيل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Claude",
+   "Google",
+   "Push Security"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 16,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 12,
+   "views": 3361
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2571",
+  "serial": 2571,
+  "serial_display": "#002571",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2111473320885399993",
+  "source_native_id": "2111473320885399993",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-17T15:04:03Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يحوّل شقته إلى نموذج ثلاثي الأبعاد تفاعلي بـClaude",
+  "arabic_summary": "نشر مطوّر مستقل مشروعًا استخدم فيه نموذج Opus 5.5 لإجراء هندسة عكسية لأجهزة إنترنت الأشياء في منزله، ليحوّل شقته إلى نموذج ثلاثي الأبعاد حي يمكن التحكم فيه من MacBook. الضغط على مصباح في النموذج الافتراضي يشغّل المصباح الحقيقي، ويعمل المشروع مع أنظمة Hue وHome Assistant وApple Home وSmart Life، وهو مفتوح المصدر.",
+  "detailed_explanation": "يصف المنشور تجربة مطوّر فردي استعمل نموذج Opus 5.5 (من عائلة Claude) لفهم بروتوكولات أجهزة إنترنت الأشياء في منزله دون توثيق رسمي متاح مسبقًا، وهي مهمة تتطلب عادة خبرة تقنية متخصصة في الهندسة العكسية للبروتوكولات.\n\nالنتيجة مشروع يعرض شقة المستخدم كنموذج ثلاثي الأبعاد حي داخل الحاسوب، بحيث يمكنه التفاعل مع الأجهزة الحقيقية (الإضاءة، المكيفات) عبر النقر على عناصرها الافتراضية، مع دعم لأنظمة منزلية ذكية متعددة مثل Hue وHome Assistant وApple Home وSmart Life.\n\nكون المشروع مفتوح المصدر يجعله مرجعًا عمليًا لمن يريد تكرار الفكرة أو الاستفادة من الكود في مشاريع مشابهة تجمع بين الذكاء الاصطناعي وأتمتة المنزل.",
+  "why_it_matters": "مثال عملي على استخدام نماذج اللغة الكبيرة في الهندسة العكسية وأتمتة المنزل الذكي خارج نطاق البرمجة التقليدية.",
+  "original_text": "RT @0xMovez: Solo dev just reverse engineered his IoT devices with Opus 5.5, after reading my article\n\nthis is f*ckin unreal..\n\nNow his whole apartment lives in the MacBook as a live 3D model. \n\nClick a lamp in 3D, real one turns on. ACs too. \n\nWorks with Hue, Home Assistant, Apple Home & Smart Life. \n\nOpen source ↓",
+  "glossary": [
+   {
+    "term": "IoT",
+    "ar": "إنترنت الأشياء"
+   },
+   {
+    "term": "reverse engineering",
+    "ar": "الهندسة العكسية"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Opus 5.5",
+   "Home Assistant",
+   "Apple Home",
+   "Hue",
+   "Smart Life"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 130,
+   "replies": 23,
+   "reposts": 15,
+   "quotes": 2,
+   "bookmarks": 95,
+   "views": 8103
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "opus-iot-reverse-engineer",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2111458596961587360"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2572",
+  "serial": 2572,
+  "serial_display": "#002572",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2111536299836354864",
+  "source_native_id": "2111536299836354864",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-10-17T19:14:18Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "جوجل تفتح مصدر Harness² لتشغيل وكلاء AI متكررين",
+  "arabic_summary": "جوجل أطلقت كمصدر مفتوح إطار عمل باسم Harness² يسمح بتشغيل وكلاء AI قادرين على التعلم وأداء مهام لم يُصمَّم الإطار أصلًا لأجلها. يتكون من ثمانية مكونات تشمل System Prompt وGuardrails والذاكرة وSkills وSubagents وPlugins.",
+  "detailed_explanation": "أعلنت جوجل عن فتح مصدر إطار عمل باسم Harness² يصفه الكاتب بأنه جاهز للاستخدام المباشر (plug-and-play) لتشغيل وكلاء AI قادرين على العمل والتعلم من مهام لم يكن الإطار مصممًا لها أصلًا، أي قدرة على التعميم خارج النطاق المبرمج له.\n\nيتكون الإطار من ثمانية مكونات رئيسية: System Prompt، وGuardrails (ضوابط الأمان)، والذاكرة، وتوجيه الأدوات، وSubagents (وكلاء فرعية)، وSkills، والسكربتات، وPlugins. هذا التركيب يجعله أشبه بهيكل مرجعي شامل لبناء أنظمة وكلاء معقدة بدلًا من أداة واحدة محددة الغرض.\n\nبالنسبة لمن يعمل على بنية الوكلاء، هذا النوع من الأطر المفتوحة المصدر يوفر نموذجًا جاهزًا للدراسة والتطبيق، خصوصًا فيما يخص تنظيم التفاعل بين Subagents وSkills وPlugins ضمن نظام واحد متماسك.",
+  "why_it_matters": "يقدّم بنية مرجعية مفتوحة المصدر لبناء أنظمة Agent متعددة الطبقات، وهو مفيد لمن يصمم بنى وكلاء ذاتية التحسن بدلاً من بناء كل شيء من الصفر.",
+  "original_text": "Google just open-sourced its Harness²\n\nIt's a plug-and-play framework for recursive agent harnessing in an open world.\n\nAgents can perform, and learn from, tasks its harness was never designed for.\n\nBuilt around 8 components:\n\n1. System prompt\n2. Guardrails\n3. Memory\n4. Tool guidance\n5. Subagents\n6. Skills\n7. Scripts\n8. Plugins\n\nLink: https://t.co/ePcHveCXMN",
+  "glossary": [
+   {
+    "term": "Guardrails",
+    "ar": "ضوابط أمان تمنع الوكيل من تنفيذ إجراءات غير مرغوبة"
+   },
+   {
+    "term": "Subagents",
+    "ar": "وكلاء فرعيون يعملون ضمن إشراف وكيل رئيسي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent",
+   "Skill"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Google"
+  ],
+  "change_types": [
+   "Open Source",
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 408,
+   "replies": 19,
+   "reposts": 59,
+   "quotes": 2,
+   "bookmarks": 560,
+   "views": 19581
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [
+   "https://github.com/google-research/harness2"
+  ],
+  "quoted": null,
+  "cluster_id": "harness2-google",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2111563462098968589"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2573",
+  "serial": 2573,
+  "serial_display": "#002573",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2111397329756377287",
+  "source_native_id": "2111397329756377287",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-17T10:02:05Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ديب سيك تطلق V4.1-Flash-1017 بأداء قوي وأسعار منخفضة",
+  "arabic_summary": "أطلقت DeepSeek نموذجها الجديد V4.1-Flash-1017 المفتوح الأوزان، متفوقًا بحسب التقرير على نماذج منافسة في اختبار برمجي، مع أسعار منخفضة جدًا لمعالجة وتوليد الرموز. النموذج متاح عبر الدردشة وواجهة API وقابل للتحميل من Hugging Face.",
+  "detailed_explanation": "يقدم النموذج الجديد تحديثًا مفتوح الأوزان يركّز على البرمجة والاستدلال، وبحسب المنشور حقق 77% في اختبار DeepSWE 1.1 الخاص بمهام البرمجة، متجاوزًا نماذج منافسة مذكورة في المنشور. الأسعار تبدأ من 0.15 دولار لكل مليون رمز إدخال و0.60 دولار لكل مليون رمز إخراج، وهي أرقام منخفضة مقارنة بالنماذج الكبرى.\n\nالنموذج متاح فورًا عبر منصة الدردشة الخاصة بـDeepSeek وواجهة API، كما يمكن تحميله من Hugging Face لمن يريد تشغيله محليًا أو دمجه في مشاريعه. هذا النوع من الإطلاقات يعزز اتجاه المنافسة على الأسعار بقدر المنافسة على القدرات، وهو ما يهم أي شخص يقارن تكلفة تشغيل النماذج في مشاريعه.",
+  "why_it_matters": "يضيف ضغطًا تنافسيًا جديدًا على أسعار نماذج اللغة الكبيرة، حيث تقدّم DeepSeek أداءً تنافسيًا بتكلفة أقل بكثير من المنافسين الكبار.",
+  "original_text": "🚨🔥 ديب سيك تشعل المنافسة بنموذج ذكاء اصطناعي قوي وتكلفة منخفضة جدًا!\n\nأطلقت شركة DeepSeek تحديثها الجديد DeepSeek-V4.1-Flash-1017، وهو نموذج مفتوح الأوزان يقدم أداءً متقدمًا في البرمجة والاستدلال.\n\n🔥 حقق 77% في اختبار DeepSWE 1.1 المخصص لمهام البرمجة، متفوقًا في هذا الاختبار على GPT-5.6 Sol وClaude Opus 5 وKimi K3 وGLM-5.3.\n\n💰 والمفاجأة في الأسعار!\n\nمعالجة مليون رمز إدخال تبدأ من 0.15 دولار.\nتوليد مليون رمز إخراج يبدأ من 0.60 دولار.\n\n✅ متاح الآن عبر DeepSeek Chat وواجهات API، مع إمكانية تحميل النموذج من Hugging Face.\n\nالمنافسة ما عادت على الذكاء فقط، بل على من يقدم أقوى أداء بأقل تكلفة! 👀🔥\n\n#DeepSeek #الذكاء_الاصطناعي #AI #التقنية_بلا_حدود",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة نصية أساسية يعالجها النموذج"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "DeepSeek",
+   "Hugging Face"
+  ],
+  "change_types": [
+   "New Release",
+   "Pricing Change"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 65,
+  "metrics": {
+   "likes": 98,
+   "replies": 3,
+   "reposts": 7,
+   "quotes": 0,
+   "bookmarks": 41,
+   "views": 7990
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "deepseek-v4.1-flash-1017",
+  "also_reported": [
+   {
+    "author": "deepseek_ai",
+    "url": "https://x.com/deepseek_ai/status/2111375640717033777"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2574",
+  "serial": 2574,
+  "serial_display": "#002574",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2111666933514813677",
+  "source_native_id": "2111666933514813677",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-18T03:53:24Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ثغرة AdFection تخترق الأجهزة عبر الإعلانات بلا نقر",
+  "arabic_summary": "كشف باحثون عن تقنية تجسس تسمى AdFection تستهدف الأجهزة عبر إعلانات خبيثة تظهر في المواقع والتطبيقات دون الحاجة لضغط المستخدم عليها. ارتبطت العملية بشركة إسرائيلية، وسُجّل اختراق أجهزة تابعة لقناة الجزيرة، فيما تغطي الشبكة الإعلانية أكثر من 120 ألف موقع و75 ألف تطبيق.",
+  "detailed_explanation": "تعتمد تقنية AdFection على تحديد هوية الجهاز المستهدف ثم عرض إعلان خبيث مصمم لاستغلال ثغرة أمنية فيه، دون أن يحتاج المستخدم للنقر على الإعلان أو فتح أي رابط. هذا يجعلها خطيرة بشكل خاص لأنها تتجاوز خط الدفاع البشري المعتاد (الحذر من النقر على روابط مشبوهة).\n\nارتبطت العملية بحسب التقرير بشركة إسرائيلية، ورُصد استهدافها لـ45 جهازًا على الأقل تابعة لقناة الجزيرة خلال عامي 2024 و2025. أما نطاق الانتشار فواسع: الشبكة الإعلانية المستغلة تصل إلى أكثر من 120 ألف موقع و75 ألف تطبيق، ما يعني أن أي مستخدم عادي يتصفح هذه المنصات قد يكون معرضًا للاستهداف.",
+  "why_it_matters": "يكشف عن أسلوب اختراق خفي لا يتطلب تفاعلاً من الضحية، مما يرفع مخاطر التصفح العادي على أي مستخدم يعرض له إعلانات من شبكات واسعة الانتشار.",
+  "original_text": "🚨 تخيل جوالك يخترق بمجرد ظهور إعلان قدامك!\n\nكشف باحثون عن طريقة تجسس خطيرة تُسمى AdFection، تسمح للمخترقين باستهداف جوالك من خلال الإعلانات اللي تظهر لك في المواقع والتطبيقات، بدون ما تضغط على الإعلان أو تفتح أي رابط!\n\nالطريقة تعتمد على تحديد جهازك وعرض إعلان خبيث يستغل ثغرة أمنية لاختراقه.\n\nوبحسب التقرير، ارتبطت العملية بشركة إسرائيلية، ورُصد اختراق 45 جهازًا على الأقل تابعًا لقناة الجزيرة خلال 2024 و2025.\n\nالأخطر أن الشبكة الإعلانية وصلت لأكثر من 120 ألف موقع و75 ألف تطبيق، لكن هذا ما يعني أن جميع مستخدميها تعرضوا للاختراق.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "AdFection",
+   "الجزيرة"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 12,
+  "metrics": {
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 518
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2575",
+  "serial": 2575,
+  "serial_display": "#002575",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2111616349071913051",
+  "source_native_id": "2111616349071913051",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-10-18T00:32:24Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "صانع محتوى يبني Skill مخصص لمونتاج الفيديو بـ Claude",
+  "arabic_summary": "صاحب الحساب يروي تجربته الشخصية في إنشاء Skill داخل Claude يقوم بمونتاج فيديو كامل من برومبت واحد مع Blender، حيث يقطع الأخطاء ويضيف الموسيقى والمؤثرات. يصف النتيجة بأنها لا تزال في بداياتها وسيطورها تدريجيًا.",
+  "detailed_explanation": "يشارك الكاتب تجربة شخصية في بناء Skill داخل Claude استغرق يومًا من العمل، يسمح برفع تسجيل فيديو خام ثم تنفيذ عملية مونتاج كاملة تلقائيًا باستخدام Blender: قص الأخطاء، إضافة الموسيقى والمؤثرات الصوتية، وتدوير المشاهد حول نقطة مركزية واحدة.\n\nيصف الناتج الحالي بأنه بدائي نسبيًا (3% من الجودة المرجوة) ويخطط للتحسين التدريجي يوميًا، ما يعكس نهج التكرار السريع في بناء Skills العملية بدلاً من انتظار نسخة مثالية.\n\nالأهمية هنا ليست في جودة الفيديو الناتج بل في توثيق سير عمل حقيقي لبناء Skill يدمج Claude مع أداة تصميم ثلاثي الأبعاد، وهو مرجع عملي لمن يفكر في صناعة Skills مشابهة لأتمتة مهام إبداعية.",
+  "why_it_matters": "مثال عملي على بناء Skill مخصص يدمج Claude مع أداة مونتاج خارجية، وهو نمط استخدام مفيد لمن يطوّر Skills مشابهة.",
+  "original_text": "This video edit was created in a single prompt with Opus 5.5 and blender. I just recorded the video and uploaded it to claude and it used a skill i've been working on for a day.\n\nIt cut out the mistakes, added the music, sound effects all rotating around a single scene in blender. \n\nI think it's about 3% as good as it could be. \nWill be iterating on it to make it 1% better every day. \n\nJust posted it on IG, let's see how it does.",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة مخصص يضاف إلى النموذج لتنفيذ مهمة محددة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Claude",
+   "Blender"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 166,
+   "replies": 39,
+   "reposts": 5,
+   "quotes": 2,
+   "bookmarks": 117,
+   "views": 8609
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "opus-blender-skill",
+  "also_reported": [
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2111642149536375218"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2576",
+  "serial": 2576,
+  "serial_display": "#002576",
+  "source_type": "x",
+  "source_url": "https://x.com/ollama/status/2111576482879553726",
+  "source_native_id": "2111576482879553726",
+  "source_name": "ollama",
+  "source_site": "x.com",
+  "author": "ollama",
+  "published_at": "2026-10-17T21:53:59Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Ollama تستضيف نموذج DeepSeek-V4.1-Flash بسحابة أمريكية بلا احتفاظ بالبيانات",
+  "arabic_summary": "أتاحت Ollama تشغيل نموذج DeepSeek-V4.1-Flash-1017 على سحابتها المستضافة في الولايات المتحدة مع سياسة عدم الاحتفاظ بالبيانات، ويمكن استدعاؤه مباشرة عبر أوامر Ollama أو من خلال Claude Code وOpenCode.",
+  "detailed_explanation": "أضافت Ollama دعمًا لنموذج DeepSeek-V4.1-Flash-1017 على خدمتها السحابية المستضافة في الولايات المتحدة، مع التأكيد على عدم الاحتفاظ بالبيانات (zero data retention)، وهي نقطة تهم المؤسسات الحساسة للخصوصية. النموذج موصوف بأنه قوي في المهام الوكيلية (agentic tasks) وأرخص تكلفة لكل مهمة مقارنة بالإصدار السابق.\n\nيمكن تشغيله مباشرة عبر أمر Ollama البسيط، أو استدعاؤه من داخل Claude Code أو OpenCode عبر أمر launch مخصص، مما يجعله بديلاً سهل الدمج لمن يستخدم هذه الأدوات البرمجية بالفعل.",
+  "why_it_matters": "يتيح لمستخدمي Ollama تشغيل نموذج قوي ومنخفض التكلفة بثقة أكبر من ناحية الخصوصية، ويدمجه مباشرة مع أدوات برمجية مثل Claude Code.",
+  "original_text": "✈ DeepSeek-V4.1-Flash-1017 is on Ollama! US-based hosting with zero data retention. \n\nIt's strong on agentic tasks while being cheaper per task. \n\nTry it on Ollama Cloud: \nollama run deepseek-v4.1-flash:1017-cloud\n\nClaude Code: \nollama launch claude --model deepseek-v4.1-flash:1017-cloud\n\nOpenCode: \nollama launch opencode --model deepseek-v4.1-flash:1017-cloud",
+  "glossary": [
+   {
+    "term": "Zero data retention",
+    "ar": "سياسة عدم الاحتفاظ ببيانات المستخدم بعد المعالجة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Ollama",
+   "DeepSeek",
+   "Claude Code",
+   "OpenCode"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 630,
+   "replies": 62,
+   "reposts": 49,
+   "quotes": 13,
+   "bookmarks": 101,
+   "views": 69401
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API.\n\n🛠️ Optimized for @DeepSeekHarness, Tencent CodeBuddy, WorkBuddy, and more. Upgrade to DeepSeek Harness v0.2.1-rc.1 or later for the best experience with the new model.\n\n1/4"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2577",
+  "serial": 2577,
+  "serial_display": "#002577",
+  "source_type": "x",
+  "source_url": "https://x.com/apify/status/2111374538101379368",
+  "source_native_id": "2111374538101379368",
+  "source_name": "Apify",
+  "source_site": "x.com",
+  "author": "apify",
+  "published_at": "2026-10-17T08:31:31Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل من Apify لربط الوكلاء بالويب عبر MCP",
+  "arabic_summary": "ينشر حساب Apify دليلًا يشرح كيف يتيح بروتوكول MCP للوكلاء الذكية الوصول إلى آلاف الـActors الخاصة بالمنصة للتفاعل مع قواعد البيانات والمواقع وبيانات الويب الحية. الفكرة الأساسية أن نماذج اللغة تستطيع الاستدلال لكن تحتاج أداة خارجية للوصول إلى العالم الحي.",
+  "detailed_explanation": "يشرح المنشور فكرة أساسية في بنية الوكلاء الحديثة: أن نماذج اللغة قوية في الاستدلال لكنها بحاجة إلى وسيط يربطها بالعالم الخارجي — قواعد البيانات والمواقع والبيانات الحية — وهذا ما يوفره بروتوكول MCP.\n\nيقدّم Apify MCP كحل يتيح للوكلاء استدعاء آلاف الـActors (أدوات الاستخلاص والأتمتة الخاصة بمنصة Apify) مباشرة، مع إشارة إلى دليل كامل مرفق في سلسلة تغريدات لشرح طريقة الاستخدام.\n\nالمحتوى يهم مطوري الوكلاء الذين يبحثون عن طرق عملية لتوسيع قدرات نماذجهم بالوصول إلى بيانات الويب الحية دون بناء بنية تحتية خاصة بهم.",
+  "why_it_matters": "يوضح كيف يسدّ MCP الفجوة بين قدرة النماذج على التفكير وحاجتها إلى بيانات حية من الويب، وهو مفيد لمن يبني وكلاء يعتمدون على Apify.",
+  "original_text": "Language models can reason. Reaching databases, websites, or live web data is a different job. MCP is the standard that lets agents call external tools. With Apify MCP, that’s thousands of Actors. Full guide in the 🧵 https://t.co/o5q04fWIjZ",
+  "glossary": [
+   {
+    "term": "Actor",
+    "ar": "وحدة أتمتة خاصة بمنصة Apify"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Apify",
+   "MCP"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 25,
+  "metrics": {
+   "likes": 3,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 553
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2578",
+  "serial": 2578,
+  "serial_display": "#002578",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2111450789566943247",
+  "source_native_id": "2111450789566943247",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-10-17T13:34:31Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سلسلة Skills ثلاثية لأتمتة الرسوم المتحركة في الواجهات",
+  "arabic_summary": "نشر المطوّر سلسلة Skills متتابعة بثلاث خطوات: اكتشاف فرص الحركة، ثم تنفيذها، ثم مراجعتها. الفكرة أن تعمل هذه الـSkills معًا كسير عمل متكامل بدل استخدامها منفردة.",
+  "detailed_explanation": "يعرض المنشور ثلاث Skills مترابطة: الأولى تبحث عن فرص إضافة حركة (animation) في الواجهة، والثانية تنفّذ تلك الحركة، والثالثة تراجع النتيجة وتقيّمها. هذا النمط التسلسلي — اكتشاف ثم تنفيذ ثم مراجعة — يمثّل طريقة ناضجة لتصميم Skills تعمل كخط إنتاج (pipeline) بدل أن تكون أداة واحدة معزولة.\n\nالقيمة هنا ليست في الرسوم المتحركة تحديدًا، بل في البنية: كل Skill لها دور محدد وضيق، وتُستدعى بالتتابع عبر أوامر slash. هذا يسهّل تتبع الأخطاء وتحسين كل مرحلة على حدة، وهو درس مفيد لأي شخص يبني Skills لمهام متعددة الخطوات.",
+  "why_it_matters": "يوضّح نمطًا عمليًا لبناء Skills متسلسلة تتعاون فيما بينها، وهو أسلوب قابل للتطبيق على مهام أخرى غير الرسوم المتحركة.",
+  "original_text": "Try this skill workflow over the weekend, it’s pretty good:\n/find-animation-opportunities → /animate → /review-animations\n\nhttps://t.co/zEnLEjl3xX",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة يوجّه نموذج الذكاء الاصطناعي لأداء مهمة محددة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 2014,
+   "replies": 44,
+   "reposts": 69,
+   "quotes": 9,
+   "bookmarks": 2522,
+   "views": 68340
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [
+   "https://github.com/emilkowalski/skills"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2579",
+  "serial": 2579,
+  "serial_display": "#002579",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2111436833967997249",
+  "source_native_id": "2111436833967997249",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-10-17T12:39:04Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "معرض تفاعلي لشرح آلية عمل الأشياء مبني بـSkill تشريحية مع Codex",
+  "arabic_summary": "بنى مطور معرضًا تفاعليًا يفكك الأشياء اليومية ويشرح أجزاءها وآلية عملها، باستخدام Codex مع Skill مخصصة تُدعى 'Anatomy'. المشروع يوضح كيف يمكن دمج Skill متخصصة مع أداة برمجية لإنتاج محتوى تعليمي تفاعلي.",
+  "detailed_explanation": "استخدم المطور أداة Codex مع Skill تُدعى 'Ryan's Anatomy' لبناء معرض يتيح للمستخدم 'تفجير' (explode) أشياء يومية بصريًا لرؤية أجزائها الداخلية مع شرح لكل جزء وكيفية عمله. هذا النوع من المشاريع يجمع بين التصور البصري والمحتوى التعليمي.\n\nما يجعل المنشور مستحقًا للتغطية هو إظهاره لحالة استخدام ملموسة لـSkill مخصصة (غير تلك الرسمية) مدمجة مع Codex لإنتاج تطبيق واجهة كامل، وهو نمط يفيد من يبحث عن طرق توظيف Skills في مشاريع تطبيقية حقيقية بدل الاستخدام النظري.",
+  "why_it_matters": "مثال عملي على استخدام Skill مخصصة مع Codex لإنتاج تطبيق تعليمي تفاعلي، مما يبيّن إمكانيات دمج الـSkills في مشاريع واجهة فعلية.",
+  "original_text": "Learn object mechanics with Claude/Codex\n\nI built a gallery where you can explode everyday objects, read about every part of them & see how they work \n\nCodex + Ryan’s Anatomy skill\nhttps://t.co/trrSQwcBF6  https://t.co/7yKlZdhNHm",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة يوجّه نموذج الذكاء الاصطناعي لأداء مهمة محددة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "Codex",
+   "Claude"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 52,
+   "replies": 8,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 31,
+   "views": 3442
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [
+   "https://anatomy.amirmushich.com"
+  ],
+  "quoted": null,
+  "cluster_id": "amir-anatomy-skill",
+  "also_reported": [
+   {
+    "author": "AmirMushich",
+    "url": "https://x.com/AmirMushich/status/2111540851285573731"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2580",
+  "serial": 2580,
+  "serial_display": "#002580",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2111515160766550057",
+  "source_native_id": "2111515160766550057",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-17T17:50:19Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "لوحة مفاتيح Logitech MX Keypad تتكامل مع تطبيق GitHub Copilot",
+  "arabic_summary": "أعلنت GitHub عن تكامل جهاز Logitech MX Keypad الفعلي مباشرة مع تطبيق GitHub Copilot، مما يتيح تشغيل سير عمل الوكلاء والتحكم بالجلسات عبر أزرار فعلية بدل الشاشة فقط.",
+  "detailed_explanation": "يتيح هذا التكامل الجديد للمطورين استخدام جهاز لوحة مفاتيح فعلي من Logitech للتحكم في Copilot: تشغيل سير عمل الوكلاء (agentic workflows)، تعيين زر لأمر متكرر (prompt)، أو بدء/استئناف جلسة عمل، بهدف تقليل الحاجة للتبديل بين النوافذ والحفاظ على التركيز.\n\nهذا النوع من التكامل يعكس اتجاهًا لدمج الأدوات المادية مع الأدوات البرمجية المعتمدة على الذكاء الاصطناعي، ويهم بشكل مباشر مستخدمي GitHub Copilot الذين يبحثون عن طرق لتسريع سير عملهم اليومي.",
+  "why_it_matters": "يمثل خطوة لدمج أدوات التحكم المادية مع سير عمل الوكلاء البرمجية، وهو تطور مباشر في طريقة استخدام GitHub Copilot لمن يعتمد عليه يوميًا.",
+  "original_text": "Your workflows have changed with AI. How about your setup?\n\nPhysical controls are back. Take the new Logitech MX Keypad, now directly integrated with the GitHub Copilot app.\n\nThis experience allows you to run agentic workflows with control, map a repeated prompt, start or resume a session, and help you stay in flow.\nhttps://t.co/zbcYD8xQKf",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "GitHub Copilot",
+   "Logitech"
+  ],
+  "change_types": [
+   "New Integration",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 77,
+  "metrics": {
+   "likes": 295,
+   "replies": 34,
+   "reposts": 28,
+   "quotes": 6,
+   "bookmarks": 91,
+   "views": 53676
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [
+   "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/?utm_source=launch-x&utm_medium=social&utm_campaign=ambient-intelligence-oct-2026"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2581",
+  "serial": 2581,
+  "serial_display": "#002581",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2111519962695401774",
+  "source_native_id": "2111519962695401774",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-17T18:09:23Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فريق يبني Skill من أسلوب تحرير رئيسة التحرير لوكيل Slack",
+  "arabic_summary": "بنى فريق Every Skill مستخلصة من التعديلات التحريرية السابقة لرئيسة التحرير، ثم استخدموها داخل وكيل Slack لتطبيق نفس أسلوبها على المسودات. أصبح بإمكان أي عضو في الفريق استدعاء نفس الـSkill لتحرير نصوصه.",
+  "detailed_explanation": "استخرج الفريق نمط تحرير رئيسة التحرير من تعديلاتها التاريخية على النصوص، وحوّلوا ذلك إلى Skill يستخدمها وكيل داخل Slack. حين طُبّقت على مسودة، ظهرت التعديلات بأسلوبها المميز، ولاحظ بقية الفريق ذلك فبدأوا يستخدمون نفس الـSkill على نصوصهم.\n\nالفكرة الأهم هنا هي تحويل خبرة فردية متراكمة (أسلوب تحرير شخص بعينه) إلى أصل مشترك قابل لإعادة الاستخدام عبر الفريق، بدل أن تبقى حبيسة شخص واحد. هذا نموذج قابل للتعميم على أي مهارة بشرية متخصصة يراد توزيعها عبر Skills.",
+  "why_it_matters": "مثال عملي على تحويل أسلوب شخص خبير إلى Skill قابلة للمشاركة ضمن فريق، مما يوزّع المعرفة الضمنية عبر أداة تشغيلية.",
+  "original_text": "RT @every: We taught our Slack agent to edit like our editor in chief.\n\n@danshipper built a skill from @katelaurielee’s historical edits, then asked the Every Agent to give his draft a “Kate pass” in a Slack channel.\n\nKate could see the edits. So could the rest of the team—and they started using the same skill themselves.\n\nInstall the Every Agent in Slack: https://t.co/7WWjCAiOlT",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة يوجّه نموذج الذكاء الاصطناعي لأداء مهمة محددة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "تسويق ومحتوى"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 44,
+  "metrics": {
+   "likes": 6,
+   "replies": 4,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 5,
+   "views": 2651
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2582",
+  "serial": 2582,
+  "serial_display": "#002582",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2111312035049058427",
+  "source_native_id": "2111312035049058427",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-17T04:23:10Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يستخدم Opus 5.5 لتصميم لعبة بأسلوب GTA",
+  "arabic_summary": "شارك مستخدم تجربته في استخدام نموذج Opus 5.5 لتصميم لعبة بعنوان Roadster City بأسلوب يشبه GTA، تتضمن ميكانيكيات قيادة وقفز وطيران بنفاثات. يوضح المنشور إمكانية تجربة اللعبة مباشرة عبر رابط.",
+  "detailed_explanation": "يروي المستخدم تجربة استخدام نموذج Opus 5.5 (من عائلة Claude) في بناء لعبة كاملة بأسلوب GTA تتضمن ميكانيكيات حركة متنوعة مثل القيادة على جدران مرتفعة والقفز فوق المركبات والطيران بنفاثات.\n\nالمنشور يبرز إمكانية توليد تجارب ألعاب تفاعلية معقدة اعتمادًا على قدرات النموذج في توليد الكود والمنطق البرمجي، وهو استخدام عملي يهم المطورين المهتمين بدمج الذكاء الاصطناعي في تطوير الألعاب.",
+  "why_it_matters": "يُظهر قدرة النماذج الحديثة على المساعدة في إنشاء ألعاب تفاعلية معقدة من الصفر دون خبرة برمجية عميقة في تطوير الألعاب.",
+  "original_text": "RT @0xMovez: Holy sh*t, Opus 5.5 insane for game creation...\n\nI designed Roadster City: GTA-style game with every Roadster mechanic.\n\n• Drive up a 63 m wall.\n• Kickflip over a Cybertruck. Fly on thrusters.\n• Fly on thrusters.\n\nTry it now👇\nhttps://t.co/KozzZmFLo0 https://t.co/z3imGkmFfF",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Opus 5.5"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 75,
+   "replies": 13,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 35,
+   "views": 4368
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2583",
+  "serial": 2583,
+  "serial_display": "#002583",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2111585491237650691",
+  "source_native_id": "2111585491237650691",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-17T22:29:47Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "OpenAI تعرض مشاريع بناها المجتمع لإلهام مشاريع عطلة نهاية الأسبوع",
+  "arabic_summary": "نشرت OpenAI Devs صفحة تجمع مشاريع بناها المجتمع باستخدام أدواتها، مع شرح كيفية إعادة بنائها من قبل القراء. الهدف تشجيع المطورين على تجربة مشاريع مشابهة في عطلتهم.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر أمثلة عملية جاهزة للمطورين الذين يستخدمون أدوات OpenAI لبدء مشاريع تجريبية خاصة بهم.",
+  "original_text": "Looking for a weekend project?\n\nHere’s what the community has been building and how you can replicate it yourself:\n\nhttps://t.co/J7mgdmgt9C",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenAI"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 508,
+   "replies": 54,
+   "reposts": 49,
+   "quotes": 12,
+   "bookmarks": 375,
+   "views": 49138
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [
+   "https://youcanjustbuildthings.openai.chatgpt.site"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2584",
+  "serial": 2584,
+  "serial_display": "#002584",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2111368225573540319",
+  "source_native_id": "2111368225573540319",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-10-17T08:06:26Z",
+  "fetched_at": "2026-10-18T04:17:17Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة ويب لقراءة وتصفح ملفات PDF بديلة عن القراءة التقليدية",
+  "arabic_summary": "شارك مطور أداة ويب موصوفة كبديل لقراءة ملفات PDF التقليدية، مع رابط مباشر للتجربة. المنشور لا يوضح تفاصيل تقنية إضافية عن آلية عمل الأداة.",
+  "detailed_explanation": "",
+  "why_it_matters": "قد يوفر بديلاً أسرع أو أوضح لتصفح مستندات PDF لمن يتعامل معها بكثرة، رغم غياب التفاصيل الكاملة عن طريقة العمل.",
+  "original_text": "RT @AmirMushich: F*ck PDFs - use this.\n\nhttps://t.co/OWBU6aIScI https://t.co/njrocfbxjo",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية"
+  ],
+  "entities": [],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 96,
+  "metrics": {
+   "likes": 1039,
+   "replies": 13,
+   "reposts": 127,
+   "quotes": 5,
+   "bookmarks": 1090,
+   "views": 40217
+  },
+  "metrics_captured_at": "2026-10-18T04:17:17Z",
+  "external_links": [
+   "https://amirmushich.com/lab/leaf/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
