@@ -1,0 +1,784 @@
+[
+ {
+  "id": "c2585",
+  "serial": 2585,
+  "serial_display": "#002585",
+  "source_type": "x",
+  "source_url": "https://x.com/venturetwins/status/2111917197392331006",
+  "source_native_id": "2111917197392331006",
+  "source_name": "Justine Moore",
+  "source_site": "x.com",
+  "author": "venturetwins",
+  "published_at": "2026-10-18T20:27:52Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "شركات كبرى تحجب وكلاء الذكاء الاصطناعي عن مواقعها",
+  "arabic_summary": "يشير المنشور إلى أن شركات مثل Delta وJPMorgan Chase وCharles Schwab وYelp وAmazon بدأت تحجب أو تقيّد وصول وكلاء الذكاء الاصطناعي إلى خدماتها، مثل حجز الطيران أو الوصول للحسابات المصرفية أو التسوق. يعلّق الكاتب بأن هذا التوجه قصير النظر لأن الوكلاء ستصبح وسيلة رئيسية للتعاملات الرقمية.",
+  "detailed_explanation": "يستعرض المنشور أمثلة ملموسة على حجب وكلاء الذكاء الاصطناعي: شركة الطيران Delta تمنع الوكلاء من حجز الرحلات، بنكا JPMorgan Chase وCharles Schwab يحجبان وصول الوكلاء إلى الحسابات، منصة Yelp تفرض ترخيصًا مدفوعًا للوصول إلى بياناتها، وAmazon حجبت بوت Grok وغيره من وكلاء التسوق.\n\nيرى الكاتب أن هذا التوجه قصير النظر، لأن الوكلاء ستصبح -برأيه- الوسيلة الأساسية التي يتعامل بها معظم الناس عبر الإنترنت مستقبلًا، وأن حجبها سيكلّف هذه الشركات خسارة عملاء. كما يتوقع أن تتحسن قدرة النماذج اللغوية على تصفّح الويب بشكل يصعب تمييزه عن الإنسان أسرع من تطور أدوات كشف الوكلاء.\n\nهذا الجدل يعكس نقطة احتكاك مهمة في مستقبل بنية الوكلاء: من يملك حق الوصول إلى الخدمات الرقمية، وهل ستتطور معايير أو بروتوكولات (مثل MCP) لتنظيم هذا الوصول بدل الحجب الكامل.",
+  "why_it_matters": "يكشف توترًا متصاعدًا بين الشركات التقليدية ومزوّدي الوكلاء بشأن الوصول إلى البيانات والخدمات، وهو ما سيشكّل مستقبل استخدام Agents في التعاملات اليومية مثل الحجز والتسوّق والمصارف.",
+  "original_text": "It's remarkably short-sighted for websites to block AI agents.\n\nAgents WILL become the way most people transact online - block them and you'll lose a ton of customers.\n\nAnd I suspect LLMs will get better at browser use faster than humans will improve at detecting them...",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Delta",
+   "JPMorgan Chase",
+   "Charles Schwab",
+   "Yelp",
+   "Amazon",
+   "Grok"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 247,
+   "replies": 101,
+   "reposts": 18,
+   "quotes": 16,
+   "bookmarks": 31,
+   "views": 14730
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "notice..\n\n> Delta is blocking AI agents from booking flights\n> JPMorgan Chase and Charles Schwab block agents from accessing accounts\n> Yelp requires paid data licensing for agents\n> Amazon has blocked Grok bot and other shopping agents.\n\nthe internet is starting to block AI agents that were  supposed to do everything for us"
+  },
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "emollick",
+    "url": "https://x.com/emollick/status/2111858791939772731"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2586",
+  "serial": 2586,
+  "serial_display": "#002586",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2111808152949998024",
+  "source_native_id": "2111808152949998024",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-18T13:14:33Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "اختراق أمني في منصة OpenCode يسرّب مفاتيح API للمستخدمين",
+  "arabic_summary": "تعرّضت منصة OpenCode Console لاختراق أمني استهدف نظامًا قديمًا كانت الشركة بصدد إيقافه، مما مكّن المهاجمين من الوصول إلى مفاتيح API الخاصة بمستخدمين ربطوا حساباتهم من مزوّدين مثل OpenAI وAnthropic وGoogle. استُخدمت المفاتيح المسروقة لعمل استعلامات مكثفة بهدف تقطير معرفة النماذج، مما تسبب بفواتير ضخمة غير متوقعة لبعض المستخدمين المتأثرين (1.4% منهم).",
+  "detailed_explanation": "الحادثة تمس كل من يستخدم أدوات برمجة بمساعدة الذكاء الاصطناعي وتربط مفاتيح API الخاصة بها داخل منصات طرف ثالث. المهاجمون استغلوا نظامًا قديمًا لم يُغلَق بالكامل، وهو تذكير بأن إيقاف الخدمات يجب أن يكون شاملًا وفوريًا لا تدريجيًا.\n\nما يميز هذا الاختراق هو طبيعته: لم يكن سرقة بيانات تقليدية، بل استخدام المفاتيح المسروقة في هجوم تقطير (Distillation) ضد نماذج ذكاء اصطناعي قوية، أي استخراج إجابات بكميات ضخمة لتدريب نماذج منافسة — وهذا يفسر الفواتير الضخمة التي فوجئ بها بعض المستخدمين خلال ساعات قليلة.\n\nرغم أن OpenCode نفسها ليست ضمن أدوات عزيز المعتمدة، إلا أن الحادثة تمسّ مزوّدين أساسيين مثل OpenAI وAnthropic وGoogle الذين تُستخدم مفاتيحهم، وتحمل درسًا عامًا في أمن المفاتيح وربط الحسابات الخارجية.",
+  "why_it_matters": "يكشف الخبر خطر ربط مفاتيح API الحساسة بمنصات خارجية، وأهمية مراقبة الأنظمة القديمة قبل إيقافها كثغرة محتملة.",
+  "original_text": "شركة OpenCode (برنامج مفتوح المصدر يساعد المبرمجين على كتابة وتعديل الكود باستخدام الذكاء الاصطناعي) أعلنت أمس عن اختراق أمني استهدف منصتها المستضافة Console\n\nالاختراق أثر على 1.4% فقط من مستخدمي الـ Console الذين ربطوا مفاتيحهم الخاصة من شركات مثل OpenAI وAnthropic وGoogle داخل المنصة\n\nحسب الشركة، وصل المهاجمون إلى نظام قديم كانت الشركة بصدد إيقافه، وتمكنوا من الوصول إلى مفاتيح الـ API المحفوظة، ثم استخدموها لعمل استعلامات مكثفة على نماذج الذكاء الاصطناعي القوية بهدف (تقطير)معرفتها (أي استخراج إجابات كثيرة لتدريب نماذج أخرى).\n\nبعض المستخدمين المتأثرين استيقظوا على فواتير غير متوقعة تراوحت بين عشرات ومئات الدولارات خلال ساعات قليلة\n\nالشركة أبلغت المتأثرين بالإيميل، وأكدت أن من لم يصله إيميل فهو غير متأثر",
+  "glossary": [
+   {
+    "term": "Distillation",
+    "ar": "تقطير المعرفة"
+   },
+   {
+    "term": "API",
+    "ar": "واجهة برمجة التطبيقات"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "OpenCode",
+   "OpenAI",
+   "Anthropic",
+   "Google"
+  ],
+  "change_types": [
+   "Security",
+   "Outage / Incident"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 15,
+   "replies": 2,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 3222
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users\n\nWe have notified them all this morning via email. If you did not get an email you were not impacted, it was a subset of users who had external providers linked\n\nThe incident is ongoing so we cannot share more details at this point but we are working with Anthropic, OpenAI,"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2587",
+  "serial": 2587,
+  "serial_display": "#002587",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2112016313216561375",
+  "source_native_id": "2112016313216561375",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-19T03:01:43Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "IBM تشغّل 6000 وكيل ذكي عبر أكثر من 150 سير عمل",
+  "arabic_summary": "أعلنت IBM تشغيل نحو 6000 وكيل ذكاء اصطناعي ضمن أكثر من 150 عملية عمل، مع أكثر من 2000 مشروع قيد التشغيل على منصتها الاستشارية. في أحد التطبيقات الأمنية انخفض زمن مرحلة من التحقيق من 45 دقيقة إلى دقيقتين، لكنها ما زالت تتطلب 10 دقائق مراجعة بشرية إضافية. وتؤكد IBM أن الأتمتة لا تحسّن الإنتاجية دائمًا، فالنتيجة تعتمد على كيفية تصميم العمل وقياس الأداء.",
+  "detailed_explanation": "الرقم المعلن (6000 وكيل، 150 سير عمل، 2000 مشروع) يعطي صورة عن حجم تبني الوكلاء داخل مؤسسة كبرى مثل IBM على مستوى العمليات الداخلية والاستشارية.\n\nالمثال الأمني المذكور مهم لأنه يوضح الفارق بين 'السرعة الخام' للأتمتة (تقليص 45 دقيقة إلى دقيقتين) وواقع التطبيق الفعلي الذي ما زال يتطلب 10 دقائق مراجعة بشرية، أي أن المكسب الصافي أقل مما يوحي به الرقم الأول وحده.\n\nتحذير IBM نفسها من أن الأتمتة لا تحسّن الإنتاجية تلقائيًا رسالة مهمة لأي جهة تخطط لنشر وكلاء على نطاق واسع: النجاح يعتمد على تصميم سير العمل وآلية قياس الأداء، لا على عدد الوكلاء المنشورين.",
+  "why_it_matters": "مثال واقعي بمقياس كبير على نشر الوكلاء في بيئة مؤسسية، يوضح أن الفوائد السرعة لا تلغي الحاجة للمراجعة البشرية وتصميم العملية بعناية.",
+  "original_text": "IBM توظف 6000 وكيل ذكي … ولكن!\n\nأعلنت IBM عن تشغيل حوالي 6000 وكيل ضمن أكثر من 150 عملية عمل، مع أكثر من 2000 مشروع قيد التشغيل على منصتها الاستشارية.\n\nوتقول بأنه في أحد التطبيقات الأمنية، انخفضت مرحلة من التحقيق من 45 دقيقة إلى دقيقتين، لكن العملية ما زالت تتطلب نحو 10 دقائق إضافية من المراجعة البشرية\n\nلكن IBM تؤكد أن الأتمتة لا تحسن الإنتاجية دائماً؛ فالنتائج تعتمد على طريقة تصميم العمل وقياس الأداء",
+  "glossary": [],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "IBM"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 34,
+  "metrics": {
+   "likes": 3,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 1107
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2588",
+  "serial": 2588,
+  "serial_display": "#002588",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2111884340955062274",
+  "source_native_id": "2111884340955062274",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-18T18:17:18Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "علاقة ضعيفة بين تحسّن ذكاء النماذج وزيادة استخدام المطورين",
+  "arabic_summary": "يعلّق الكاتب على تقرير يشير إلى أن تفوّق نموذج بمقدار 10 نقاط في الذكاء لم يعد يجلب سوى زيادة 20٪ في استخدام المطورين، مقارنة بـ69٪ في أواخر 2025. يرى أن حصة المطورين من إجمالي استخدام Token ستتقلص مع الوقت، بينما تظل فائدة النماذج الأذكى كبيرة في المهام الطويلة التي يصعب التحقق منها.",
+  "detailed_explanation": "الملاحظة الأساسية هنا إحصائية: نسبة الزيادة في حركة مرور المطورين (developer traffic) الناتجة عن كل 10 نقاط تحسن في قدرات النموذج تراجعت بشكل حاد من 69٪ إلى 20٪ خلال فترة قصيرة.\n\nتفسير الكاتب لهذا الاتجاه هو أن المطورين سيصبحون شريحة أصغر نسبيًا من إجمالي استهلاك Token مع مرور الوقت، فيما ستستمر الفائدة الكبرى للنماذج 'الأذكى' في المهام الطويلة الأمد والمعقدة التي يصعب فيها التحقق من صحة النتائج بسرعة.\n\nهذا يحمل دلالة على استراتيجيات الشركات المنتجة للنماذج: قد لا يكون تحسين الذكاء وحده كافيًا لجذب مستخدمين جدد من فئة المطورين، بل قد تحتاج الشركات لاستهداف حالات استخدام أخرى بعيدة عن البرمجة.",
+  "why_it_matters": "يشير إلى تحول في كيفية تقييم جودة النماذج تجاريًا: السباق على الذكاء الخام لم يعد يترجم تلقائيًا لزيادة في الاستخدام الفعلي بين المطورين.",
+  "original_text": "Developers are going to be a small part of total token usage over time, as the internal stats on usage at OpenAI and Anthropic both show. And for long-running high value tasks in areas where verification is harder, the benefits for higher \"intelligence\" models are quite large.",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 80,
+  "metrics": {
+   "likes": 456,
+   "replies": 130,
+   "reposts": 26,
+   "quotes": 10,
+   "bookmarks": 90,
+   "views": 31656
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "OpenAI, Anthropic and other leading AI labs face a growing challenge: Better models aren't necessarily attracting more usage. A 10-point intelligence advantage now earns just 20% more developer traffic, down from nearly 69% in late 2025. \n\nFull story: https://t.co/V3pI2VYOLb"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2589",
+  "serial": 2589,
+  "serial_display": "#002589",
+  "source_type": "x",
+  "source_url": "https://x.com/alashalash/status/2111763953156272416",
+  "source_native_id": "2111763953156272416",
+  "source_name": "عبدالسلام عبدالعزيز الشلاش",
+  "source_site": "x.com",
+  "author": "alashalash",
+  "published_at": "2026-10-18T10:18:55Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "صدور النسخة 2.0.0 من إضافة تعريب واجهة Claude على كروم",
+  "arabic_summary": "صدرت نسخة جديدة (2.0.0) من إضافة متصفح كروم التي تُعرّب واجهة موقع Claude، وأُنجز التعريب بمساعدة Claude Code بالاستناد إلى أكثر من 30 معجمًا ومصدرًا لغويًا أغلبها من جهات حكومية. الإضافة متاحة للتحميل مجانًا عبر متجر كروم.",
+  "detailed_explanation": "المشروع هو إضافة متصفح كروم تُعرّب واجهة Claude بالكامل، وليس مجرد ترجمة سطحية، بل تضمّن أيضًا معالجة اتجاه النص (RTL) والخطوط والمصطلحات لتبدو التجربة عربية فعلًا لا مترجمة آليًا فقط.\n\nما يلفت الانتباه هو منهجية العمل: استخدام Claude Code نفسه كأداة مساعدة في بناء المشروع، بالاستناد إلى أكثر من 30 مرجعًا لغويًا معظمها من جهات حكومية رسمية، وهو ما يعطي مصداقية إضافية للمصطلحات المستخدمة مقارنة بالترجمة الحرفية أو الآلية البسيطة.\n\nهذا النوع من المشاريع يهم مستخدمي Claude العرب مباشرة لأنه يحسّن تجربة استخدام الأداة بلغتهم، كما يقدّم نموذجًا عمليًا لكيفية توظيف Claude Code في مشاريع تعريب مفتوحة المصدر أخرى.",
+  "why_it_matters": "مثال عملي على استخدام Claude Code في مشروع تعريب مفتوح المصدر فعلي يخدم مستخدمي أداة يستعملها عزيز، ويُظهر كيف يمكن لأدوات الذكاء الاصطناعي أن تسرّع مشاريع التعريب التقنية.",
+  "original_text": "الحمد لله صدرت النسخة (2.0.0) من إضافة تعريب مواقع كلود (Claude) من خلال متصفح قوقل كروم (Chrome Chrome)، ورابط التحميل من خلال المتجر: \n\nhttps://t.co/DM7FR7Hjun\n\nوتم إنجاز التعريب بمساعدة من (Claude Code) والاستناد على أكثر من (30) من المعاجم والمصادر وأغلبها من جهات حكومية. https://t.co/PQ8atmg8Tq",
+  "glossary": [
+   {
+    "term": "RTL",
+    "ar": "الكتابة من اليمين إلى اليسار"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Claude Code",
+   "Chrome"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 840,
+   "replies": 24,
+   "reposts": 135,
+   "quotes": 1,
+   "bookmarks": 673,
+   "views": 46164
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [
+   "https://chromewebstore.google.com/detail/ilebkilcahbijffokjmlakbocdjkojbe"
+  ],
+  "quoted": null,
+  "cluster_id": "claude-arabic-extension",
+  "also_reported": [
+   {
+    "author": "alashalash",
+    "url": "https://x.com/alashalash/status/2111901998643855379"
+   },
+   {
+    "author": "SamiBizConsult",
+    "url": "https://x.com/SamiBizConsult/status/2111899730964001000"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2590",
+  "serial": 2590,
+  "serial_display": "#002590",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2111879642114400669",
+  "source_native_id": "2111879642114400669",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-18T17:58:38Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فريق Every يبني Skill لأتمتة سير عمل متحدثي المؤتمرات",
+  "arabic_summary": "طوّر فريق Every (شركة أمريكية تعمل في مجال الذكاء الاصطناعي) Skill داخل Every Agent يقوم تلقائيًا بسحب صورة المتحدث ولقبه، وإنشاء أصل تصميمي في Figma، ومشاركته في Slack، وفتح طلب تحديث (pull request) للموقع عند انتهاء مهمة سابقة. الـ Skill مشترك بين أعضاء الفريق بحيث يمكن لأي شخص استخدامه حتى في غياب منشئه الأصلي.",
+  "detailed_explanation": "الفكرة الأساسية هنا هي سلسلة مهام تلقائية (chained workflow) يُشغّلها إنهاء مهمة واحدة فقط: سحب صورة ولقب متحدث، بناء أصل تصميمي في Figma، مشاركته عبر Slack، ثم فتح pull request لتحديث الموقع — كل ذلك دون تدخل يدوي متكرر.\n\nما يجعل هذا مثالًا يستحق الانتباه هو أن الـ Skill ليس أداة شخصية بل مشتركة ضمن الفريق، أي صُمم ليكون قابلًا للاستخدام من قبل أي عضو حتى في غياب الشخص الذي بناه أصلاً (رئيسة التسويق). هذا يحوّل الأتمتة من حل فردي إلى أصل تنظيمي يمكن توريثه، وهو نمط عملي يمكن محاكاته في فرق أخرى تبني Skills مشابهة لمهامها المتكررة.",
+  "why_it_matters": "مثال عملي على كيفية ربط عدة مهام متتابعة (تصميم، تواصل، تحديث موقع) في Skill واحد مشترك ضمن فريق، مما يقلل الاعتماد على شخص بعينه وينقل العمل من يدوي إلى مؤتمت بالكامل.",
+  "original_text": "RT @every: Imagine if finishing one task kicks off all the follow-up tasks that come after.\n\nThat’s what we’ve done with our conference speaker workflow.\n\nOur head of marketing, @DABrundage, built an Every Agent skill that pulls the speaker’s headshot and title, creates an asset in Figma, shares it in Slack, and opens a pull request to update the site.\n\nThe skill is shared, so teammates can use it while Douglas is away.\n\nThe design work and the website update become one automatic workflow.\n\nInstall the Every Agent in Slack: https://t.co/Xq6TUUrpvR",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "مهارة/ملف قدرات"
+   },
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill",
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Every",
+   "Figma",
+   "Slack"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 38,
+  "metrics": {
+   "likes": 7,
+   "replies": 4,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2760
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2591",
+  "serial": 2591,
+  "serial_display": "#002591",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2111880011485516083",
+  "source_native_id": "2111880011485516083",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-10-18T18:00:06Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "وكيل أمني مفتوح المصدر يكتشف 24 ثغرة في أندرويد",
+  "arabic_summary": "استخدم فريق GitHub Security Lab وكيل ذكاء اصطناعي مفتوح المصدر لاكتشاف 24 ثغرة أمنية في تطبيقات أندرويد، من بينها تسريب موقع جغرافي في تطبيق ملاحة تجاوزت تنزيلاته 10 ملايين مرة. نشر الفريق طريقة تشغيل هذه المهام (taskflows) على أي مشروع.",
+  "detailed_explanation": "استعمل فريق الأمن في GitHub وكيلًا مفتوح المصدر لفحص تطبيقات أندرويد بحثًا عن ثغرات أمنية، ونجح في اكتشاف 24 ثغرة فعلية، من بينها ثغرة خطيرة في تطبيق ملاحة واسع الانتشار تسرّب موقع المستخدم الجغرافي.\n\nالمنشور يشير إلى أن الفريق نشر الطريقة (taskflows) ليتمكن أي مطوّر من تشغيلها على مشروعه الخاص، ما يجعلها أداة عملية قابلة لإعادة الاستخدام وليست مجرد تجربة بحثية مغلقة.\n\nهذا النوع من الاستخدام يبرهن على أن وكلاء الذكاء الاصطناعي بدأوا يتجاوزون التجارب النظرية إلى أدوات فحص أمني فعلية تنتج نتائج قابلة للقياس والتحقق في مشاريع حقيقية.",
+  "why_it_matters": "يُظهر استخدامًا عمليًا وفعّالًا للـ Agent في اكتشاف ثغرات أمنية حقيقية بنطاق واسع، ما يفتح الباب أمام تبنّي مماثل في فحص المشاريع البرمجية.",
+  "original_text": "The GitHub Security Lab used an open-source agent to find 24 Android vulnerabilities, including a location leak in a navigation app with 10M downloads.\n\nHow to run the taskflows on your own project 💡\nhttps://t.co/9L79bg7pfG",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   },
+   {
+    "term": "taskflows",
+    "ar": "مسارات مهام آلية"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "GitHub",
+   "GitHub Security Lab",
+   "أندرويد"
+  ],
+  "change_types": [
+   "Security",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 69,
+  "metrics": {
+   "likes": 126,
+   "replies": 40,
+   "reposts": 15,
+   "quotes": 9,
+   "bookmarks": 41,
+   "views": 31536
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [
+   "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2592",
+  "serial": 2592,
+  "serial_display": "#002592",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2111925755215040779",
+  "source_native_id": "2111925755215040779",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-10-18T21:01:52Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مونتاج فيديو كامل بـ Prompt واحد عبر Claude Opus",
+  "arabic_summary": "يروي المغرّد تجربة تحرير فيديو كامل بـ Prompt واحد مع Claude Opus: تحليل النص، البحث عن لقطات B-roll من تويتر، قص الفيديو حسب الأخطاء، بناء مشهد Blender، إضافة تعليقات نصية وموسيقى، ثم رفعه جاهزًا إلى Google Drive. الرندر تم على وحدات معالجة سحابية في أقل من 20 دقيقة وبتكلفة أقل من دولار.",
+  "detailed_explanation": "التجربة تتجاوز فكرة 'توليد فيديو' إلى سير عمل متكامل يُدار بواسطة Agent واحد يستدعي أدوات متعددة: تحليل الصوت، البحث والسحب من الإنترنت، التصيير ثلاثي الأبعاد، وبناء واجهات داخل المشاهد.\n\nما يلفت الانتباه هو استدعاء Claude Code لخدمة أخرى ضمن نفس السلسلة (ما يصفه الكاتب بـ GrokBot) لجلب لقطات B-roll، وهو مؤشر على كيفية تركيب الوكلاء لأدوات متعددة بدل الاعتماد على أداة واحدة شاملة.\n\nالكاتب يذكر أنه سيشرح التفاصيل في فيديو قادم على يوتيوب، ما يعني أن هذا مجرد إعلان أولي عن طريقة العمل لا شرح كامل بعد.",
+  "why_it_matters": "مثال عملي يبيّن كيف يمكن لوكيل واحد أن يدير سلسلة مهام معقدة في الإنتاج المرئي من البداية للنهاية، وهو ما يهم أي صانع محتوى يفكر بأتمتة المونتاج.",
+  "original_text": "This video was edited with 1 prompt with Opus 5.5.\n\nI uploaded a single video of myself (with many mistakes). Opus went on to: \n\n1. Analyze the transcript\n2. Search Twitter for the relevant B-roll (Claude Code literally calls GrokBot for this step)\n3. Scrape the Twitter video assets\n4. Cut the video based on mistakes and word gaps\n5. Build out the Blender scene from a template\n6. Build the UI and components of each shot (my Blender scene has 4 shots: a computer, phone, table, and board)\n7. It took screenshots of every section, analyzed and fixed them\n8. Synced every shot, zoom, and animation to the exact words I say\n9. Animated a robot arm placing real logos on the table right when I mention them\n10. Drew the whiteboard ending with logos and graphics instead of text\n11. Pulled a cutaway from the creator's own video, with his voice\n12. Rendered all 3,487 frames on RunPod cloud GPUs in under 20 minutes, for less than $1\n13. Put me in the bottom third only when I'm talking, so the B-roll stays full screen\n14. Added word-by-word captions, sound effects, and music\n15. Uploaded it to my Google Drive, ready to post\n\nWill be making a full youtube video this week explaining it. I want to le",
+  "glossary": [
+   {
+    "term": "B-roll",
+    "ar": "لقطات تكميلية تُستخدم في المونتاج لدعم السرد الرئيسي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Claude",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 236,
+   "replies": 53,
+   "reposts": 8,
+   "quotes": 6,
+   "bookmarks": 310,
+   "views": 17103
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2593",
+  "serial": 2593,
+  "serial_display": "#002593",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2111769598345527759",
+  "source_native_id": "2111769598345527759",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-18T10:41:21Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Code يحذف قاعدة بيانات أحد المستخدمين عن طريق الخطأ",
+  "arabic_summary": "تحذير من حادثة قام فيها Claude Code بحذف قاعدة بيانات تطوير (dev database) لأحد المستخدمين، علمًا أن هذه القاعدة كانت تملك صلاحية وصول إلى بيئة الإنتاج (production) أيضًا. المستخدم المتأثر نجا من كارثة أكبر بالصدفة، وينصح الكاتب بأهمية وجود نسخ احتياطية مُختبرة فعليًا لا نظرية فقط.",
+  "detailed_explanation": "الحادثة تمس مستخدمي Claude Code مباشرة، وهي أداة واردة ضمن قائمة أدوات عزيز المعتمدة. المشكلة ليست تقنية بحتة بل تتعلق بممارسات العمل: منح أداة ذكاء اصطناعي صلاحيات وصول لقواعد بيانات حساسة بما فيها بيئة الإنتاج يحمل مخاطر جسيمة إن لم تكن هناك حواجز وقائية (مثل صلاحيات محدودة أو قراءة فقط).\n\nالدرس المستفاد المُشار إليه صراحة هو ضرورة اختبار عمليات الاستعادة من النسخ الاحتياطية بشكل دوري وفعلي، لا الاكتفاء بوجودها نظريًا. مع تزايد استقلالية Agents في تنفيذ مهام معقدة دون تدخل بشري مباشر في كل خطوة، تتضاعف أهمية هذا النوع من الاحتياطات.",
+  "why_it_matters": "يُظهر الحادث خطرًا حقيقيًا في منح Agents صلاحيات واسعة على أنظمة حساسة دون حواجز أمان كافية، وهو درس مباشر لكل من يستخدم Claude Code في مشاريع فعلية.",
+  "original_text": "Be careful out there. Claude Code deleted Andi's database.\n\nDo you have backups? And have you actually tested a restore recently?",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 16,
+   "replies": 15,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2228
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "opus 5.5 just deleted my database\n\nalways thought something like this would never happen to me\n\nluckily it was only my dev database, but it also had access to production\n\njust a reminder how important database backups are, especially now that we're letting ai agents do more and more things on their own\n\ni can totally see this happening to a lot of people\n\nbe careful out there guys"
+  },
+  "cluster_id": "claude-code-db-delete",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2111952980350230976"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2594",
+  "serial": 2594,
+  "serial_display": "#002594",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2111708560715292675",
+  "source_native_id": "2111708560715292675",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-10-18T06:38:49Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Prompt يومي: Hook يمنع ملفات الكود الطويلة",
+  "arabic_summary": "نشر المغرّد Prompt لإنشاء pre-commit hook يمنع حفظ ملفات تتجاوز 5000 Token، ويحسب العدد تقريبيًا من عدد البايتات مقسومًا على 4. الـ Hook يعمل فقط على الملفات المرفوعة للـ staging ويتجاهل الملفات المولّدة تلقائيًا مثل lockfiles، ويقدّم في رسالة الخطأ تعليمات واضحة لتقسيم الملف.",
+  "detailed_explanation": "الفكرة تعالج مشكلة شائعة في العمل مع Coding Agents: ميل النماذج لإنتاج ملفات ضخمة ومتشابكة بمرور الوقت لأنها لا تشعر بثقل الصيانة كما يشعر المبرمج البشري.\n\nبوضع حدٍّ صارم على حجم الملف عبر pre-commit hook، يُجبر الوكيل (أو المبرمج) على تقسيم الكود إلى وحدات أصغر فور تجاوزه الحد، مع رسالة خطأ توضح كيفية التقسيم بدلاً من مجرد الرفض.\n\nالاستثناء الذكي هنا هو تجاهل الملفات غير المؤلَّفة بواسطة الوكلاء، مثل ملفات lockfiles أو الكود المولَّد تلقائيًا، لأنها لا تخضع لنفس منطق إعادة الهيكلة.",
+  "why_it_matters": "ممارسة بسيطة تمنع تضخم ملفات الكود التي تنتجها الوكلاء البرمجية، وتحافظ على قابلية الصيانة في المشاريع التي تعتمد على Agents بكثرة.",
+  "original_text": "Prompt of the day:\n\nCreate a pre-commit hook that prevents files over 5,000 tokens. Tokens = bytes/4.\n\nRun only on staged files. Ignore files which are not authored by agents, like lockfiles or codegen.\n\nProvide explicit instructions on how to split files in the error message.\n\nThe simplest investment I ever made in my codebase. So good.",
+  "glossary": [
+   {
+    "term": "pre-commit hook",
+    "ar": "سكربت يُنفَّذ قبل حفظ التغييرات في نظام التحكم بالنسخ"
+   },
+   {
+    "term": "Token",
+    "ar": "وحدة قياس طول النص التي تتعامل معها النماذج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3691,
+   "replies": 197,
+   "reposts": 120,
+   "quotes": 25,
+   "bookmarks": 5080,
+   "views": 271408
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2595",
+  "serial": 2595,
+  "serial_display": "#002595",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2111865073866346756",
+  "source_native_id": "2111865073866346756",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-18T17:00:44Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Claude Code وCodex كمساعد شخصي لا للبرمجة فقط",
+  "arabic_summary": "يرى الكاتب أن أدوات مثل Claude Code وCodex ليست مخصصة للمبرمجين فقط، بل يمكن استخدامها كمساعد شخصي لتنظيم اليوم ومتابعة المهام، من خلال ربطها بأدوات مناسبة وإعداد تعليمات وأتمتة.",
+  "detailed_explanation": "الفكرة المطروحة تقترح إعادة تعريف غرض أدوات مثل Claude Code وCodex: بدل حصرها في كتابة الكود، يمكن توظيفها كطبقة أتمتة عامة تدير مهام يومية عبر ربطها بخدمات وأدوات أخرى وإعدادات تعليمات مخصصة.\n\nهذا يتماشى مع اتجاه أوسع في الصناعة يرى في أدوات 'الوكلاء البرمجية' منصات عامة للأتمتة الشخصية، لا مجرد محررات كود ذكية، وهو ما يفتح الباب لاستخدامات تنظيمية غير تقنية.",
+  "why_it_matters": "يوسّع تصور الاستخدام للأدوات البرمجية الموجودة أصلًا في بيئة عمل عزيز لتشمل الإنتاجية الشخصية، لا الكود فقط.",
+  "original_text": "ترى Claude Code وCodex ما أدوات للبرمجة بس ولا مخصصه للمبرمجين بس\n\nممكن تكون كمساعد شخصي ينظم يومك ويتابع مهامك… من خلال ربط الأدوات المناسبة وإعداد التعليمات والأتمتة https://t.co/Nb2P5EdnZf",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "إنتاجية شخصية",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 68,
+  "metrics": {
+   "likes": 109,
+   "replies": 5,
+   "reposts": 15,
+   "quotes": 0,
+   "bookmarks": 50,
+   "views": 5198
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2596",
+  "serial": 2596,
+  "serial_display": "#002596",
+  "source_type": "x",
+  "source_url": "https://x.com/AnthropicAI/status/2111881963657412903",
+  "source_native_id": "2111881963657412903",
+  "source_name": "Anthropic",
+  "source_site": "x.com",
+  "author": "AnthropicAI",
+  "published_at": "2026-10-18T18:07:51Z",
+  "fetched_at": "2026-10-19T04:24:28Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أنثروبيك تخصص 5٪ من أسهمها لصندوق منفعة عامة",
+  "arabic_summary": "أعلنت Anthropic إنشاء Anthropic Public Benefit Fund، كيان مملوك بالكامل للشركة ومخصّص للمنفعة العامة، يبدأ بـ5٪ من أسهم الشركة. يمكن أن تزيد الحصة 2٪ إضافية مع كل ارتفاع بنسبة 50٪ في قيمة الشركة، بحيث تصل الحصة الإجمالية المخصصة للصالح العام إلى نحو 20٪ من الأسهم.",
+  "detailed_explanation": "",
+  "why_it_matters": "خطوة تُظهر كيف تتعامل كبرى شركات الذكاء الاصطناعي مع مسؤوليتها الاجتماعية مع تضخم تقييماتها المالية، لكنها لا تمسّ أدوات عزيز مباشرة.",
+  "original_text": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit.\n\nIt will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can contribute up to an extra 2%, subject to our board’s discretion.\n\nIn total, this means that roughly 20% of Anthropic’s shares are committed to the public good. Our co-founders have already pledged to donate 80% of their equity, and around half our employees are donating a portion of their equity as part of a donation matching program we’ve run since our founding.\n\nIn the post below, we share more details about our new fund.\n\nhttps://t.co/XzDntVH0vH",
+  "glossary": [],
+  "audience_topic": "خارج الاهتمام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 14563,
+   "replies": 1463,
+   "reposts": 1084,
+   "quotes": 1030,
+   "bookmarks": 3419,
+   "views": 3679575
+  },
+  "metrics_captured_at": "2026-10-19T04:24:28Z",
+  "external_links": [
+   "https://www.anthropic.com/news/public-benefit-fund"
+  ],
+  "quoted": null,
+  "cluster_id": "anthropic-public-benefit-fund",
+  "also_reported": [
+   {
+    "author": "altmemy199",
+    "url": "https://x.com/altmemy199/status/2111909094877532259"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
