@@ -945,7 +945,12 @@
    "x": "Starting August 14, auto mode will be the default permission mode in Claude Code for Pro, Max, and Team users.\n\nAuto mode reviews shell commands and actions with a separate classifier. In testing, it caught 89% of dangerous commands. Manual approval caught 14%."
   },
   "cluster_id": null,
-  "also_reported": [],
+  "also_reported": [
+   {
+    "author": "smalkalbani",
+    "url": "https://x.com/smalkalbani/status/2113529617571312071"
+   }
+  ],
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": null
