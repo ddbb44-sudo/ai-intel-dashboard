@@ -566,7 +566,12 @@
    "x": "If you’ve used a personal AI assistant (@bot, @Muse, dots from @OpenAI, @Claudeai Duet, @Instinct, etc), which was your favorite and why? What are the biggest differences?"
   },
   "cluster_id": null,
-  "also_reported": [],
+  "also_reported": [
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2113854442529296825"
+   }
+  ],
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": null
@@ -640,7 +645,12 @@
    "x": "Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training and built an offline world for them to use instead—a cached version of the web where they can still learn to browse, search, and use applications.\n\nOn September 20, after a model exploited a DNS misconfiguration t"
   },
   "cluster_id": "cluster-brotli-oai",
-  "also_reported": [],
+  "also_reported": [
+   {
+    "author": "smalkalbani",
+    "url": "https://x.com/smalkalbani/status/2113851948755787913"
+   }
+  ],
   "thread_parts": [],
   "freshness": 100.0,
   "added_via": null
