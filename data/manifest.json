@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generated_at": "2026-10-28T05:22:00Z",
+ "generated_at": "2026-10-29T05:36:22Z",
  "stats": {
   "sprite_cols": 10,
   "sprite_tile": 52,
   "accounts_watched": 69,
   "accounts_with_cards": 62,
   "tweets_fetched": 2367,
-  "cards": 2861,
+  "cards": 2898,
   "merged_sources": 93,
   "reviewed": 1295,
   "read_rejected": 780,
@@ -15,7 +15,7 @@
   "heuristic_dropped": 478,
   "rejected": 1500,
   "window": "آخر 24 ساعة",
-  "fetched_at": "2026-10-28T05:22:00Z"
+  "fetched_at": "2026-10-29T05:36:22Z"
  },
  "authors": "authors.json",
  "shards": [
@@ -118,7 +118,8 @@
   "2026-10-25.json",
   "2026-10-26.json",
   "2026-10-27.json",
-  "2026-10-28.json"
+  "2026-10-28.json",
+  "2026-10-29.json"
  ],
  "counts": {
   "items": 574,
