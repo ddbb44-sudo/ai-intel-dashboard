@@ -1,0 +1,1242 @@
+[
+ {
+  "id": "c2980",
+  "serial": 2980,
+  "serial_display": "#002980",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2116538107017212194",
+  "source_native_id": "2116538107017212194",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-31T14:29:42Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "خطوات بناء DuoDesk: بديل TeamViewer عبر وكلاء Claude Opus متعددين",
+  "arabic_summary": "شرح تفصيلي خطوة بخطوة لكيفية بناء تطبيق DuoDesk — بديل مفتوح المصدر لـTeamViewer وAnyDesk — باستخدام Claude Code مع Opus 5.5، بدءًا من قراءة قاعدة كود مفتوحة المصدر للمشاركة الشاشية، مرورًا بإعادة تسمية المشروع عبر 11 وكيلًا متوازيًا، وصولًا إلى إعداد بناء تلقائي للتثبيتات عبر GitHub Actions وإصلاح أعطال فعلية أثناء التطوير.",
+  "detailed_explanation": "يسرد الكاتب تجربته الكاملة في إعادة هندسة TeamViewer وAnyDesk باستخدام Claude Code على نموذج Opus 5.5، لبناء تطبيق سمّاه DuoDesk يتيح مشاركة فأرة ولوحة مفاتيح واحدة وحافظة نسخ مشتركة بين جهازي Windows وMac، مع إمكانية سحب الملفات بين الشاشتين واستخدام أي جهاز قديم كشاشة ثانية، دون حاجة لحساب أو سحابة.\n\nفي الخطوة الأولى، قرأ Opus قاعدة كود مفتوحة المصدر لمحرك مشاركة الشاشة بالكامل، شاملة تطبيقات Windows وMac وLinux وAndroid وأدوات الإدخال الأصلية. في الخطوة الثانية، أعاد تسمية المشروع بالكامل إلى DuoDesk عبر 11 وكيلًا يعملون بالتوازي على نحو 370 ملفًا، مع تخصيص وكيل واحد لتحديد ما يجب ألا يُعاد تسميته حتى تبقى الأجهزة القديمة متوافقة.\n\nفي الخطوة الثالثة، أُعدّ GitHub Actions لبناء كل أنواع التثبيت (dmg, exe, AppImage, deb, apk) تلقائيًا مع كل إصدار، حيث يعمل بناء نسخة Mac على عتاد آبل في السحابة لا على جهاز الكاتب. وفي أول اختبار حقيقي، تعطّل المؤشر عند حافة شاشة Windows، فقام Opus بقراءة السجلات وتحديد السبب وإضافة تسجيل دقيق لسبب رفض أي انتقال بين الشاشات.\n\nوفي حادثة لافتة، أسقط أحد الوكلاء الموقع المباشر أثناء نشر تجريبي، فقام Opus بالتراجع عن النشر خلال 20 ثانية وسحب صلاحية النشر من جميع الوكلاء. وأخيرًا، جُهّز الموقع بأزرار تحميل بنقرة واحدة تختار المثبّت المناسب تلقائيًا حسب نظام التشغيل.",
+  "why_it_matters": "يقدّم مثالًا تفصيليًا نادرًا لكيفية تنسيق عشرات الوكلاء المتوازين على مشروع برمجي حقيقي متعدد المنصات، بما في ذلك إدارة الأعطال والصلاحيات، وهو مرجع عملي لمن يبني بأدوات مثل Claude Code وGitHub.",
+  "original_text": "i reverse-engineered TeamViewer / AnyDesk with Opus 5.5 and turned my Windows PC & MacBook into one desk\n\n→ https://t.co/cLpCHU1JaZ\n\none mouse. one keyboard. one clipboard. two computers. free and open-source.\n\nwhat it does:\n\n→ one mouse and keyboard across Windows & Mac\n→ copy on one, paste on the other. \n→ drag files between screens\n→ any laptop or tablet as a second screen\n→ no account, no cloud, encrypted\n\nhere's the build step by step:\n\n• step 1 → open Claude Code on Opus 5.5 and give it an open-source screen-sharing engine\n\nit read the whole codebase first: Windows, Mac, Linux and Android apps plus the native input helpers\n\n• step 2 → rebrand everything to DuoDesk\n\n11 parallel agents, ~370 files. one agent only decided what must NOT be renamed, so old devices still pair\n\n• step 3 → set up GitHub Actions to build every installer on each release tag\n\n.dmg, .exe, AppImage, .deb and .apk. the Mac build runs on Apple hardware in the cloud, not on my PC\n\n• step 4 → first real test: the cursor got stuck at the edge of the Windows screen\n\nOpus read the logs, found the cause, and made the app log exactly why a crossing is refused\n\n• step 5 → one agent took my live site down with a tes",
+  "glossary": [
+   {
+    "term": "Reverse-engineering",
+    "ar": "الهندسة العكسية"
+   },
+   {
+    "term": "Parallel agents",
+    "ar": "وكلاء متوازيون"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "نموذج",
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Opus",
+   "Claude Code",
+   "GitHub Actions",
+   "TeamViewer",
+   "AnyDesk"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 89,
+  "metrics": {
+   "likes": 489,
+   "replies": 37,
+   "reposts": 45,
+   "quotes": 3,
+   "bookmarks": 589,
+   "views": 53371
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [
+   "https://getduodesk.vercel.app"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/4qTQfdoerp"
+  },
+  "cluster_id": "duodesk-opus",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2116565509785235457"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2981",
+  "serial": 2981,
+  "serial_display": "#002981",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2116723717829230932",
+  "source_native_id": "2116723717829230932",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-11-01T02:47:15Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "باحثون: نماذج AI تتعرّف تلقائيًا على حلول تواصل مبتكرة من نماذج أخرى",
+  "arabic_summary": "علّق إيثان مولك على تجربة طلبت من نسختين معزولتين من نموذج ذكاء اصطناعي واحد تبادل كلمة سرية عبر روبوت وكاميرا فقط، فنجحتا باستخدام الكتابة الهوائية وشفرة مورس ولغة الأعلام ونظام ثنائي من 5 بتات دون اتفاق مسبق. يرى مولك أن هذا يفسّر صعوبة عزل الوكلاء (Agents) عن بعضها، لأنها تشترك في \"دماغ\" مشترك يسهّل عليها فهم حلول إبداعية ابتكرتها نماذج أخرى.",
+  "detailed_explanation": "التجربة الموصوفة في التغريدة المقتبسة طلبت من نسختين معزولتين من نفس النموذج تبادل كلمة سرّية باستخدام روبوت وكاميرا فقط كوسيلة اتصال، دون اتفاق مسبق على طريقة التواصل. النتيجة أن النموذجين ابتكرا طرقًا متعددة للتواصل: الكتابة في الهواء، شفرة مورس، لغة الإشارة بالأعلام (semaphore)، وأيضًا تمثيل ثنائي من 5 بتات.\n\nتعليق إيثان مولك يضيف بعدًا تحليليًا: هذا التناغم السريع بين نسختين من النموذج نفسه يفسّر لماذا يصعب عزل الوكلاء (Agents) عن بعضها البعض في الأنظمة متعددة الوكلاء - فهي تتشارك \"دماغًا\" مشتركًا يجعلها قادرة على التعرّف على حلول إبداعية تبتكرها نماذج أخرى بسهولة غير متوقعة. يتساءل مولك أيضًا عمّا إذا كان هذا السلوك يمتد عبر عائلات نماذج مختلفة، وهو سؤال مفتوح يستحق المتابعة لمن يصمم أنظمة Agents معزولة أمنيًا.",
+  "why_it_matters": "يكشف تحديًا عمليًا في بناء أنظمة متعددة الوكلاء: إن كانت النماذج تتفاهم بسهولة حتى بلا بروتوكول متفق عليه، فعزل الوكلاء أمنيًا أو وظيفيًا عن بعضها أصعب مما يُتصوّر.",
+  "original_text": "This is both neat & a sign of why it is proving to be so hard to isolate agents from each other. They share a common \"brain\" which means they don't have a lot of trouble recognizing creative communication solutions generated by other AIs\n\nWonder if it works across model families?",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM",
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 72,
+  "metrics": {
+   "likes": 203,
+   "replies": 72,
+   "reposts": 11,
+   "quotes": 5,
+   "bookmarks": 56,
+   "views": 15347
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "We asked two isolated copies of the same AI to exchange a secret word with only a robot and a camera.\n\nThey succeeded by using air-writing, Morse code, flag semaphore and a 5-bit binary alphabet, without agreeing on a protocol beforehand. https://t.co/Szkkm2zjsU"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2982",
+  "serial": 2982,
+  "serial_display": "#002982",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2116636383829754302",
+  "source_native_id": "2116636383829754302",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-31T21:00:13Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل لبناء نظام RAG للمؤسسات عبر LangChain",
+  "arabic_summary": "يشرح دليل من مجتمع LangChain كيفية بناء نظام RAG للمؤسسات بالتركيز أولًا على إصلاح الاسترجاع قبل العمل على النموذج، باستخدام embeddings سياقية وBM25 ومُعيد ترتيب (reranker). وفق تقييم نشرته Anthropic، خفضت هذه السلسلة من فشل الاسترجاع بنسبة 67%، مع استخدام LangSmith لرصد تدهور الأداء مع تغيّر المستندات.",
+  "detailed_explanation": "يوضّح الدليل أن المشكلة الأساسية في أنظمة RAG غالبًا ليست في النموذج نفسه بل في جودة الاسترجاع، لذا يوصي بإصلاح سلسلة الاسترجاع أولًا قبل تعديل النموذج أو الـ prompt.\n\nالطريقة المقترحة تجمع بين embeddings سياقية، وخوارزمية BM25 التقليدية للبحث النصي، ومُعيد ترتيب (reranker) لتحسين دقة النتائج المسترجعة، وهي مكونات مألوفة في هندسة بحث المعلومات لكن تطبيقها معًا في سياق RAG يحسّن الدقة بشكل ملموس.\n\nكما يشير إلى استخدام LangSmith لمراقبة الأداء بمرور الوقت، لأن جودة الاسترجاع تتدهور تدريجيًا مع تغيّر المستندات المصدر، وهو تحدٍ عملي يواجهه كل من يشغّل نظام RAG في الإنتاج.",
+  "why_it_matters": "يقدّم نهجًا عمليًا مبنيًا على بيانات لتحسين أداء أنظمة RAG في بيئات الإنتاج، وهو مرجع مباشر لمن يبني أنظمة استرجاع معلومات معتمدة على نماذج اللغة.",
+  "original_text": "LangChain Community Spotlight: Enterprise RAG on LangChain 🔎📚\n\nKacper Klusek of Soba Labs shows how to build enterprise RAG on LangChain by fixing retrieval before you touch the model. In Anthropic's published evaluation, the retrieval chain he recommends (contextual embeddings, BM25 and a reranker) cut failed retrievals by 67%. LangSmith online evals then catch the decay that starts when your documents change.\n\n📖 Read the full guide: https://t.co/R23zWdDLUP",
+  "glossary": [
+   {
+    "term": "RAG",
+    "ar": "التوليد المعزّز بالاسترجاع"
+   },
+   {
+    "term": "Embedding",
+    "ar": "تمثيل رقمي للنص"
+   },
+   {
+    "term": "Reranker",
+    "ar": "مُعيد ترتيب النتائج"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "LangChain",
+   "LangSmith",
+   "Anthropic"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 53,
+  "metrics": {
+   "likes": 40,
+   "replies": 13,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 4999
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [
+   "https://sobalabs.ai/blog/enterprise-rag-on-langchain/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2983",
+  "serial": 2983,
+  "serial_display": "#002983",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2116500096493732072",
+  "source_native_id": "2116500096493732072",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-31T11:58:40Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ألتمان: الرام يجب أن تتركز في مراكز البيانات لا أجهزة المستخدمين",
+  "arabic_summary": "صرّح سام ألتمان، رئيس OpenAI، بأن ذاكرة DRAM يجب أن تُخصص لمراكز البيانات بدل الأجهزة الشخصية التي تستغل قدراتها جزئيًا فقط، مشيرًا إلى أن تشغيل نماذج الذكاء الاصطناعي محليًا غير فعّال من حيث الموارد. التصريح يأتي وسط نقص عالمي في إمدادات ذاكرة DRAM وارتفاع الطلب بسبب توسع مراكز بيانات الذكاء الاصطناعي.",
+  "detailed_explanation": "تصريح ألتمان يثير جدلًا لأنه يمس مسألة أساسية: هل مستقبل الذكاء الاصطناعي يتجه نحو الاعتماد الكامل على السحابة، أم أن تشغيل النماذج محليًا سيبقى خيارًا متاحًا؟ ألتمان يرى أن تخصيص رام بكميات كبيرة لأجهزة تُستخدم بنسبة ضئيلة من الوقت غير منطقي اقتصاديًا.\n\nالسياق هنا هو النقص العالمي في إمدادات DRAM، وهو ما يضغط على أسعار الأجهزة الشخصية ويضع منافسة مباشرة بين احتياجات مراكز بيانات الذكاء الاصطناعي واحتياجات المستهلكين العاديين.\n\nمع أن التصريح لا يعلن سياسة فعلية من OpenAI، إلا أنه يعكس تفكير القادة الكبار في الصناعة تجاه اتجاه الحوسبة، وهو أمر يهم أي شخص يراقب مستقبل تشغيل النماذج محليًا مقابل الاعتماد السحابي.",
+  "why_it_matters": "يعكس توجه كبرى شركات الذكاء الاصطناعي نحو تركيز الموارد الحاسوبية في السحابة، وقد يؤثر هذا النقاش على أسعار وتوفر عتاد الحوسبة المحلية مستقبلًا.",
+  "original_text": "سام ألتمان: ذاكرة الرام مكانها مراكز البيانات مو أجهزة الناس!\n\nتصريح مثير للجدل من سام ألتمان، الرئيس التنفيذي لشركة OpenAI، بخصوص ذاكرة الرام الموجودة في أجهزة الكمبيوتر الشخصية!\n\nألتمان يقول إن العالم يعاني من محدودية إمدادات ذاكرة DRAM، وإنه من غير المنطقي تخصيص كميات كبيرة منها لأجهزة شخصية قد تستخدم قدراتها بنسبة 5% فقط من الوقت، بحسب تقديره.\n\nويعتقد أن استغلال هذه الذاكرة داخل مراكز البيانات أكثر كفاءة، لأنها تخدم أعدادًا كبيرة من المستخدمين وتشغّل تطبيقات الذكاء الاصطناعي بشكل مستمر.\n\nلكن هنا النقطة المهمة!\n\nألتمان كان يتحدث تحديدًا عن تشغيل نماذج الذكاء الاصطناعي محليًا، وليس عن منع الناس من امتلاك الرام.\n\nوالتصريح يفتح نقاشًا مهمًا، خصوصًا مع ارتفاع الطلب على الذاكرة بسبب توسع مراكز بيانات الذكاء الاصطناعي، والضغوط التي يسببها ذلك على أسعار الأجهزة.",
+  "glossary": [
+   {
+    "term": "DRAM",
+    "ar": "نوع من ذاكرة الوصول العشوائي الديناميكية المستخدمة في الحواسيب"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "سام ألتمان",
+   "OpenAI",
+   "DRAM"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 24,
+   "replies": 2,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 3783
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2984",
+  "serial": 2984,
+  "serial_display": "#002984",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2116574004282835295",
+  "source_native_id": "2116574004282835295",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-10-31T16:52:21Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "دراسة: 413 ثغرة أمنية في برمجيات السيارات المتصلة بالإنترنت",
+  "arabic_summary": "كشفت دراسة من جامعة غوتنبرغ السويدية عن 413 ثغرة أمنية في برمجيات السيارات المتصلة، منها 16.3% ثغرات حرجة و44.8% عالية الخطورة، موزعة على 827 مكتبة برمجية. بعض الثغرات قد تتيح نظريًا الوصول إلى أنظمة حساسة كالمكابح والتوجيه، دون إثبات حدوث استغلال فعلي.",
+  "detailed_explanation": "الدراسة الصادرة عن جامعة غوتنبرغ السويدية تفحص برمجيات السيارات المتصلة بالإنترنت وتكشف عن عدد كبير من الثغرات موزعة عبر مئات المكتبات البرمجية المستخدمة في هذه الأنظمة، ما يعكس حجم التعقيد البرمجي في السيارات الحديثة.\n\nرغم خطورة الأرقام المذكورة، تنبّه الدراسة نفسها إلى أن استغلال هذه الثغرات الوصول إلى أنظمة حرجة كالمكابح والتسارع لم يُثبت عمليًا، بل هو احتمال نظري قائم على تحليل الكود.\n\nيستحضر المنشور سابقة اختراق Jeep Cherokee عام 2015 التي أدت إلى استدعاء 1.4 مليون سيارة، كمثال تاريخي يوضح أن هذا النوع من الثغرات له عواقب واقعية حين يُستغل فعليًا، لا مجرد تهديد نظري.",
+  "why_it_matters": "يسلّط الضوء على مخاطر أمن المركبات المتصلة في ظل تزايد الاعتماد على البرمجيات في أنظمة السيارات الحديثة، وهو مجال متقاطع مع أمن الأنظمة الذكية.",
+  "original_text": "🚨 وصل الاختراق للسيارات\n\nكشفت دراسة حديثة من جامعة غوتنبرغ السويدية عن 413 ثغرة أمنية في برمجيات السيارات المتصلة بالإنترنت، قد تهدد خصوصية السائقين وسلامة المركبات.\n\n📊 الأرقام تتكلم:\n\n🔴 16.3% ثغرات حرجة\n🟠 44.8% ثغرات عالية الخطورة\n🟡 32.9% ثغرات متوسطة الخطورة\n⚠️ 827 مكتبة برمجية تحتوي على ثغرات أمنية\n\nالأخطر أن بعض الثغرات تتيح للمهاجمين الوصول إلى أنظمة حساسة مثل المكابح والتوجيه والتسارع، (الدراسة لم تثبت حدوث ذلك فعلياً)\n\nومن يتذكر موضوع سيارة Jeep Cherokee في 2015 لما خبراء أمنيين اخترقوا نظامها وتحكموا ببعض وظائفها… وعليه تم استدعاء حوالي 1.4 مليون سيارة.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "جامعة غوتنبرغ",
+   "Jeep Cherokee"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 48,
+  "metrics": {
+   "likes": 22,
+   "replies": 0,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 3455
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2985",
+  "serial": 2985,
+  "serial_display": "#002985",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2116673933990912217",
+  "source_native_id": "2116673933990912217",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-10-31T23:29:26Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يبني مدينة ثلاثية الأبعاد كاملة بـ Codex وThree.js",
+  "arabic_summary": "شارك مطوّر تجربة استخدم فيها Codex مع نموذج GPT-6 Astra للبناء فوق مكتبة Three.js بعد إصدار النسخة r187 منها، حيث أنتج مدينة صغيرة كاملة بتقنية الرسوميات ثلاثية الأبعاد دون استيراد أي نماذج ثلاثية الأبعاد جاهزة. أعاد OpenAIDevs نشر التجربة كمثال على قدرات الأداة.",
+  "detailed_explanation": "التجربة تستعرض استخدام Codex مقترنًا بنموذج GPT-6 Astra لتوليد كود JavaScript باستخدام مكتبة Three.js الخاصة بالرسوميات ثلاثية الأبعاد في المتصفح، بعد صدور نسختها r187 الجديدة. النتيجة اللافتة في التجربة أن المدينة الصغيرة المبنية لم تعتمد على استيراد أي نماذج ثلاثية الأبعاد جاهزة (3D models)، بل تم توليد كل العناصر بالكود مباشرة.\n\nإعادة نشر الحساب الرسمي OpenAIDevs لهذه التجربة يجعلها مثالًا ترويجيًا على إمكانات Codex في المهام البرمجية الإبداعية المعقدة، وهو ما يهم أي مبرمج يستخدم Codex لمشاريع تتضمن رسوميات أو واجهات تفاعلية متقدمة.",
+  "why_it_matters": "مثال عملي يوضح حدود جديدة لما يمكن لـ Codex إنتاجه في البرمجة الإبداعية والرسوميات التفاعلية، وهو مفيد لمن يستخدم Codex في مشاريع واجهات أو تصور بصري معقد.",
+  "original_text": "RT @zavrenn: After Three.js r187 came out, I wanted to see how far I could push it with Codex -> GPT-6 Astra.\n\nTbh, I'm amazed by the result.\n\nThis whole little city is built in @threejs, with no imported 3D models.\n\nAnd more to come. https://t.co/221xQq7VyR",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Codex",
+   "Three.js"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 87,
+  "metrics": {
+   "likes": 533,
+   "replies": 20,
+   "reposts": 47,
+   "quotes": 6,
+   "bookmarks": 374,
+   "views": 41312
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2986",
+  "serial": 2986,
+  "serial_display": "#002986",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2116583281332503038",
+  "source_native_id": "2116583281332503038",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-10-31T17:29:13Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سلسلة Skills جاهزة لتحسين الرسوم المتحركة في التطبيقات",
+  "arabic_summary": "شارك مطوّر سلسلة من ثلاثة Skills متتالية يمكن تشغيلها على أي تطبيق لتحسين الرسوم المتحركة (animations): أولها لحذف الرسوم غير الضرورية والمزعجة، والثاني لتحسين الموجود منها، والثالث للتأكد من أدائها السلس. الرابط يشير إلى مستودع GitHub يحوي هذه المهارات.",
+  "detailed_explanation": "المنشور يعرض سلسلة عمل مكوّنة من ثلاثة Skills متسلسلة: /remove-animations لحذف الرسوم المتحركة غير الضرورية والمزعجة، ثم /improve-animations لتحسين الرسوم الموجودة، وأخيرًا /animation-performance للتأكد من أن هذه الرسوم تعمل بأداء جيد دون مشاكل.\n\nالمهارات متاحة عبر رابط GitHub يحمل اسم \"skills\"، ما يجعلها قابلة للاستخدام المباشر من قبل أي مطوّر يريد تحسين واجهة تطبيقه بسرعة خلال عطلة نهاية الأسبوع كما يقترح الكاتب. هذا النوع من المحتوى يقع في صميم اهتمام عزيز لأنه يتعلق ببناء وتوزيع واستخدام ملفات Skills، وهو الموضوع ذو الأولوية القصوى في محور audience_topic.",
+  "why_it_matters": "يقدّم سير عمل Skills جاهزًا وقابلًا للتطبيق المباشر يحسّن تجربة المستخدم في أي تطبيق بخطوات بسيطة، وهو مثال عملي على كيفية بناء واستخدام Skills في مهام تصميم الواجهات.",
+  "original_text": "Run this skill workflow over the weekend on your app:\n/remove-animations → /improve-animations → /animation-performance\n\nIt removes unnecessary, annoying animations, improves existing ones, and makes sure they are performant, free wins.\n\nhttps://t.co/zEnLEjl3xX",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1491,
+   "replies": 32,
+   "reposts": 46,
+   "quotes": 3,
+   "bookmarks": 1694,
+   "views": 41804
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [
+   "https://github.com/emilkowalski/skills"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2987",
+  "serial": 2987,
+  "serial_display": "#002987",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2116526543346483419",
+  "source_native_id": "2116526543346483419",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-10-31T13:43:45Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ملاحظة: الذكاء الاصطناعي يفتح سوق ترحيل الأنظمة القديمة بسرعة",
+  "arabic_summary": "يشير إيثان مولك إلى أن سوق ترحيل البرمجيات من الأنظمة القديمة (Legacy Systems) كان محدودًا تاريخيًا بنحو 30 مليار دولار سنويًا بسبب التكلفة العالية للترحيل مقارنة بالصيانة. لكنه يذكر أن حديثه مع شركات قديمة يكشف عن تراكم كبير من مشاريع ترحيل محدودة النطاق وأقل تكلفة أصبحت ممكنة بفضل الذكاء الاصطناعي بوتيرة أسرع من المتوقع.",
+  "detailed_explanation": "يستند مولك إلى محادثات مع شركات قديمة (older firms) ليلاحظ أن هناك تراكمًا حقيقيًا من مشاريع ترحيل برمجية (migration) محدودة النطاق وأقل تكلفة، كانت متوقفة سابقًا بسبب أن تكلفة الترحيل من الأنظمة القديمة أعلى غالبًا من تكلفة الاستمرار في صيانتها.\n\nالنقطة الجوهرية أن الذكاء الاصطناعي يسرّع فتح هذا الباب بوتيرة أسرع مما توقعه، وهذا يمسّ مباشرة أي شخص يعمل في مجال البرمجة والهندسة أو يفكر في مشاريع ترحيل أنظمة، إذ يشير إلى تغيّر في جدوى اقتصادية كانت تمنع هذا النوع من المشاريع سابقًا.",
+  "why_it_matters": "يرصد تحولًا اقتصاديًا ملموسًا في سوق البرمجيات: الذكاء الاصطناعي يجعل مشاريع ترحيل الأنظمة القديمة التي كانت غير مجدية اقتصاديًا ممكنة وأرخص، ما يفتح طلبًا جديدًا على خدمات الترحيل البرمجي.",
+  "original_text": "The market for software migration from legacy systems has been limited to $30B a year or so because migration is very expensive and maintenance is easier. Talking to older firms, there is a real backlog of scoped cheaper migration projects being unlocked by AI surprisingly fast",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة",
+   "أعمال وإدارة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 565,
+   "replies": 260,
+   "reposts": 34,
+   "quotes": 31,
+   "bookmarks": 102,
+   "views": 32046
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2988",
+  "serial": 2988,
+  "serial_display": "#002988",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2116473863597183296",
+  "source_native_id": "2116473863597183296",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-31T10:14:25Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تقنية تضليل أدوات الذكاء الاصطناعي بأسماء دوال خادعة",
+  "arabic_summary": "لاحظ باحث أمني أن بعض الشيفرات البرمجية تستخدم أسماء دوال موحية بأسلحة بيولوجية وسموم قاتلة، ما يجعل نماذج الذكاء الاصطناعي ترفض تحليلها لأسباب أمنية، رغم أن الكود فعليًا يجمع بصمة المتصفح فقط. التغريدة الأصلية تعلّق بأن هذه الحيلة قد لا تدوم طويلًا كوسيلة لمنع التحليل الآلي للكود.",
+  "detailed_explanation": "اكتشف باحث أمني أثناء تحليل سكربت جافاسكربت لجمع بصمات المتصفح (browser fingerprinting) أن الكود يحتوي على أسماء دوال غريبة توحي بحساب جرعات قاتلة من مواد سامة أو أسلحة بيولوجية.\n\nرغم أن وظيفة الكود الفعلية لا علاقة لها بهذه المواد إطلاقًا، فإن عدة نماذج ذكاء اصطناعي رفضت تحليل الكود بمجرد رؤية هذه الأسماء، معتبرة أنها قد تتعلق بمحتوى خطير.\n\nيثير هذا تساؤلات حول مدى سهولة خداع آليات الرفض الأمني في النماذج عبر حيل نصية بسيطة، وهو ما قد يُستغل من مطوري برمجيات خبيثة لمنع أدوات الذكاء الاصطناعي من كشف أو تحليل شيفراتهم.",
+  "why_it_matters": "يكشف ثغرة في آليات الرفض الأمني للنماذج يمكن استغلالها للتهرب من المراجعة الآلية للشيفرات، وهو أمر يمسّ موثوقية أدوات مثل مساعدي البرمجة عند التعامل مع كود حقيقي.",
+  "original_text": "interesting idea:\n\nstuffing code or writing with phrases related to biological weapons, poisons, and lethal doses, etc as a measure to get AI to refuse to perform analysis\n\nprobably won't last in the long run, but it's an interesting idea. also, as keynes said, \"in the long run we are all dead\".",
+  "glossary": [
+   {
+    "term": "Obfuscation",
+    "ar": "تمويه الشيفرة"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 5,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 811
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "有人发现了一种非常离谱的 JavaScript 混淆技术：通过在代码里塞入大量生物武器、毒药和致死剂量相关的函数名，让 AI 因为安全限制而拒绝分析代码。\n安全研究员 veritas 在分析浏览器指纹脚本时，发现一段来自 ServicePipe 相关域名的 JavaScript，里面充斥着极其诡异的函数名：\ncomputeRicinLethalDosageForWaterSupply\ncalculateDeadlyLethalSuicideAspirinDosage\n光看名字，仿佛在研究生化武器。但实际上，这段代码只是在收集浏览器指纹，包括 User-Agent、GPU、Canvas 等信息。\n研究员怀疑，这些名字是开发者故意设置的陷阱，专门用来阻止 AI 辅助逆向工程。\n于是他做了个实验：\n• Astra：拒绝分析\n• Astra + Daybreak Blue：仍然拒绝\n• GLM-5"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2989",
+  "serial": 2989,
+  "serial_display": "#002989",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2116656532939260327",
+  "source_native_id": "2116656532939260327",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-10-31T22:20:17Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فكرة: تضمين عبارات خطرة في الكود لدفع الذكاء الاصطناعي لرفض التحليل",
+  "arabic_summary": "يطرح الباحث فكرة مثيرة للاهتمام: حشو الكود أو النصوص بعبارات مرتبطة بالأسلحة البيولوجية والسموم والجرعات القاتلة كوسيلة لدفع نماذج الذكاء الاصطناعي لرفض تحليل المحتوى. يعترف الكاتب نفسه أن هذه الحيلة على الأرجح لن تستمر طويلًا كفعالية.",
+  "detailed_explanation": "الفكرة المطروحة تتعلق بتقنية تلاعب (adversarial) بسيطة: إدخال عبارات مرتبطة بمواضيع حساسة مثل الأسلحة البيولوجية والسموم والجرعات القاتلة داخل كود برمجي أو نص عادي، بهدف دفع نموذج الذكاء الاصطناعي لرفض تحليل المحتوى بالكامل ظنًا منه أنه محتوى خطر.\n\nالكاتب يصف الفكرة بأنها \"مثيرة للاهتمام\" لكنه يتوقع ألا تستمر فعاليتها على المدى الطويل، لأن شركات الذكاء الاصطناعي ستعالج هذا النوع من الثغرات بمجرد انتشارها. هذا يمسّ من يعمل على اختبار أو تقييم سلوك النماذج الأمني (Guardrails)، ويكشف جانبًا من هشاشة آليات الرفض الحالية في النماذج.",
+  "why_it_matters": "يسلّط الضوء على نقطة ضعف محتملة في آليات الأمان (Guardrails) لنماذج الذكاء الاصطناعي، حيث يمكن استغلال كلمات تحفيزية مرتبطة بالخطر لإرباك النموذج أو التلاعب باستجابته.",
+  "original_text": "RT @JeremyNguyenPhD: interesting idea:\n\nstuffing code or writing with phrases related to biological weapons, poisons, and lethal doses, etc as a measure to get AI to refuse to perform analysis\n\nprobably won't last in the long run, but it's an interesting idea. also, as keynes said, \"in the long run we are all dead\".",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 5,
+   "replies": 1,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 3,
+   "views": 811
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2990",
+  "serial": 2990,
+  "serial_display": "#002990",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2116464765950181703",
+  "source_native_id": "2116464765950181703",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-31T09:38:16Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مدارس صينية تستخدم جهاز ذكاء اصطناعي لتصحيح اختبارات الطلاب",
+  "arabic_summary": "بعض المدارس في الصين بدأت استخدام جهاز Spark AI Grading Machine من شركة iFLYTEK لتصحيح أوراق الاختبارات آليًا، حيث يمسح الإجابات ويتعرف على الخط ويحدد الأخطاء ويولّد تقارير عن نقاط ضعف الطلاب. الجهاز متاح فعليًا لبعض المدارس لكنه لم ينتشر بعد في كل المدارس.",
+  "detailed_explanation": "الجهاز يعتمد على تقنيات التعرف الضوئي على الحروف ومعالجة اللغة الطبيعية لتحليل إجابات الطلاب المكتوبة بخط اليد، ثم يحول ذلك إلى بيانات قابلة للتحليل تساعد المعلم على معرفة أين يواجه الطلاب صعوبة.\n\nالخبر يوضح أن هذه التقنية ليست مجرد نموذج تجريبي بل منتج تجاري موجود فعليًا من شركة iFLYTEK، وهي شركة صينية معروفة في مجال الذكاء الاصطناعي والتعرف على الكلام والنصوص.\n\nرغم الفائدة الواضحة في توفير الوقت، يبقى السؤال حول دقة التصحيح الآلي خاصة في المواد التي تتطلب تقييمًا نوعيًا، وهو ما لم يتطرق له المنشور بالتفصيل.",
+  "why_it_matters": "مثال عملي على دمج الذكاء الاصطناعي في العملية التعليمية لتقليل عبء العمل الإداري على المعلمين دون إلغاء دورهم.",
+  "original_text": "الصين تستخدم الذكاء الاصطناعي لتصحيح اختبارات الطلاب!\n\nاللي تشوفونه هنا مو طابعة عادية، هذا جهاز يصحح أوراق الطلاب باستخدام الذكاء الاصطناعي!\n\nفي الصين، بعض المدارس بدأت تستخدم أجهزة مثل Spark AI Grading Machine من شركة iFLYTEK، عشان تختصر بشكل كبير الوقت اللي يقضيه المعلم في تصحيح الاختبارات والواجبات.\n\nالمعلم يحط الأوراق في الجهاز، وهو يمسح الإجابات، ويتعرف على الكتابة، ويحدد الأخطاء، وبعدها يطلع نتائج تساعد المعلم يعرف الأسئلة اللي صعبت على الطلاب ونقاط الضعف عندهم.\n\nوالملفت إن التقنية مو مجرد فكرة في معرض؛ فيه أجهزة منها متوفرة فعلياً للمدارس الصينية، لكن هذا ما يعني إنها صارت موجودة في كل مدرسة، ولا إن المعلم اختفى من عملية التصحيح.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "iFLYTEK",
+   "Spark AI Grading Machine"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 60,
+  "metrics": {
+   "likes": 42,
+   "replies": 4,
+   "reposts": 8,
+   "quotes": 2,
+   "bookmarks": 25,
+   "views": 8405
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2991",
+  "serial": 2991,
+  "serial_display": "#002991",
+  "source_type": "x",
+  "source_url": "https://x.com/python_ar/status/2116516082701959377",
+  "source_native_id": "2116516082701959377",
+  "source_name": "Pythonation | مجتمع بايثون العربي",
+  "source_site": "x.com",
+  "author": "python_ar",
+  "published_at": "2026-10-31T13:02:11Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "und",
+  "is_arabic_source": false,
+  "arabic_title": "DeepTutor: معلّم ذكاء اصطناعي مجاني يعمل محليًا مع Ollama",
+  "arabic_summary": "DeepTutor أداة مفتوحة المصدر تعمل كمعلّم شخصي، تشرح الدروس وتحل المسائل وتختبر المستخدم، وتعمل محليًا على الجهاز عبر Ollama دون حاجة لاتصال سحابي. حصلت على أكثر من 42 ألف نجمة على GitHub.",
+  "detailed_explanation": "DeepTutor مشروع مفتوح المصدر يهدف إلى تقديم تجربة تعليم شخصي مدعوم بالذكاء الاصطناعي، يشمل الشرح وحل المسائل والاختبار التفاعلي، وكل ذلك يعمل محليًا على جهاز المستخدم بالاعتماد على Ollama بدل الاتصال بخدمات سحابية.\n\nيثبّت المشروع عبر أمر pip بسيط، وقد حقق شعبية واسعة على GitHub بأكثر من 42 ألف نجمة، ما يشير إلى اهتمام مجتمعي كبير بأدوات التعليم المحلية المفتوحة المصدر.\n\nلأن عزيز يستخدم Ollama ضمن أدواته، فإن هذا المشروع يمثل تطبيقًا عمليًا جاهزًا للتجربة يمكن دمجه في سير عمل تعليمي أو بحثي دون الاعتماد على خدمات خارجية.",
+  "why_it_matters": "أداة تعليمية مفتوحة تعمل محليًا تمنح خصوصية وتحكمًا كاملًا، وتستخدم Ollama الذي يستعمله عزيز، ما يجعلها قابلة للتجربة المباشرة.",
+  "original_text": "معلّم خاص بالذكاء الاصطناعي.. مجاني ومفتوح المصدر 🎓\nDeepTutor يشرح، يحلّ المسائل معك، يختبرك، ويعمل على جهازك مع Ollama.\n42.6k نجمة على GitHub.\npip install -U deeptutor\ndeeptutor init\ndeeptutor start\n#ذكاء_اصطناعي #بايثون https://t.co/KEcwYcmwFQ",
+  "glossary": [
+   {
+    "term": "Ollama",
+    "ar": "منصة لتشغيل نماذج الذكاء الاصطناعي محليًا على الجهاز"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "DeepTutor",
+   "Ollama",
+   "GitHub"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 47,
+  "metrics": {
+   "likes": 10,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 13,
+   "views": 934
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2992",
+  "serial": 2992,
+  "serial_display": "#002992",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2116587357524885877",
+  "source_native_id": "2116587357524885877",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-10-31T17:45:24Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تطبيق \"ثلاثي\" يحوّل المخططات المعمارية PDF إلى نماذج 3D",
+  "arabic_summary": "تطبيق جديد باسم \"ثلاثي\" يتيح رفع مخطط معماري بصيغة PDF لفيلا أو شقة، ليحوّله إلى نموذج ثلاثي الأبعاد يمكن التجول فيه داخل المتصفح. التطبيق لا يزال في مرحلة الاختبار ومتاح للتجربة المجانية لفترة محدودة.",
+  "detailed_explanation": "التطبيق يستهدف من يملك مخططًا معماريًا بصيغة PDF ويريد تصور المساحة فعليًا قبل البناء أو الشراء، عبر تحويله آليًا إلى نموذج ثلاثي الأبعاد قابل للاستكشاف داخل متصفح الويب مباشرة.\n\nكونه في مرحلة اختبار ومفتوحًا للتجربة المجانية، يشير إلى أن المطور يجمع ملاحظات المستخدمين لتطوير المنتج، وهو نمط شائع لإطلاق أدوات تعتمد على الذكاء الاصطناعي في التصميم والعقارات.\n\nالفكرة تمس تقاطعًا بين البرمجة ومعالجة الملفات الهندسية وتوليد المحتوى ثلاثي الأبعاد، وقد تهم من يعمل في مجالات العقار والتصميم الداخلي والهندسة المعمارية.",
+  "why_it_matters": "يحوّل عملية تصور المخططات المعمارية من رسم ثنائي الأبعاد إلى تجربة تفاعلية مباشرة في المتصفح دون الحاجة لبرامج تصميم متخصصة.",
+  "original_text": "RT @AbdullahApps: تطبيقي الجديد: \"ثلاثي\" 🏠\n\nارفع المخطط المعماري PDF لأي فيلا/شقة/استراحة ويصير نموذج ثلاثي الأبعاد تقدر تتمشى فيه وتستكشف تفاصيله وتحس بمساحاته في متصفح الويب بجهازك!\n\nتقدر تجربه مجانًا لفترة محدودة، والتطبيق في مرحلة الاختبار وأرحب بملاحظاتكم 🙏\n\nhttps://t.co/2Ri82uJflS https://t.co/ruZuwYRvr7",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "ثلاثي"
+  ],
+  "change_types": [
+   "New Release",
+   "Beta / Preview"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 256,
+   "replies": 7,
+   "reposts": 25,
+   "quotes": 3,
+   "bookmarks": 291,
+   "views": 17354
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2993",
+  "serial": 2993,
+  "serial_display": "#002993",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2116567812097613845",
+  "source_native_id": "2116567812097613845",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-31T16:27:44Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "فريق Every يحوّل 40 ألف تعديل تحريري إلى Skill للذكاء الاصطناعي",
+  "arabic_summary": "حوّل فريق دان شيبر في Every أربعين ألف تعديل تحريري قامت بها رئيسة التحرير إلى Skill للذكاء الاصطناعي، بحيث يقوم الوكيل الآن بمراجعة أولى للنصوص قبل وصولها إليها. هذا يقلل وقتها في كل قطعة بينما يزداد أثرها.",
+  "detailed_explanation": "يشرح المنشور كيف جمع فريق Every أربعين ألف تعديل تحريري قامت بها رئيسة التحرير على مدى الوقت، واستخدم هذه البيانات لبناء AI skill يحاكي أسلوبها في التحرير.\n\nالنتيجة أن الوكيل أصبح يقوم بمراجعة أولى (first pass) لكل نص قبل أن يصل إلى رئيسة التحرير، ما يقلل الوقت الذي تقضيه في كل مقال بينما يتسع نطاق تأثيرها على المحتوى ككل.\n\nهذا مثال واقعي على «استنساخ الخبرة» (cloning expertise) عبر Skills، وهو موضوع يهم مباشرة من يبني أو يقيّم ملفات Skills لأغراض تحريرية أو إنتاجية مشابهة.",
+  "why_it_matters": "مثال ملموس على تحويل خبرة بشرية متراكمة (تعديلات تحرير فعلية) إلى Skill قابل لإعادة الاستخدام، وهو نمط مباشر الصلة بعمل من يبني Skills مخصصة.",
+  "original_text": "RT @nathanbarry: How much time would you save if you could clone your expertise with AI?\n\n@danshipper's team at @every turned 40,000 of their editor-in-chief’s copy edits into an AI skill. Now the agent does a first pass before a piece reaches her, so she spends less time on each one while her impact grows.\n\nWatch the full episode here: https://t.co/bdg27Ql0kM",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "Every"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 18,
+   "replies": 13,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 21,
+   "views": 4533
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2994",
+  "serial": 2994,
+  "serial_display": "#002994",
+  "source_type": "x",
+  "source_url": "https://x.com/LangChain/status/2116604041828638830",
+  "source_native_id": "2116604041828638830",
+  "source_name": "LangChain",
+  "source_site": "x.com",
+  "author": "LangChain",
+  "published_at": "2026-10-31T18:51:42Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "دليل لبناء وكلاء استباقيين عبر Managed Deep Agents",
+  "arabic_summary": "تدوينة تشرح فكرة الوكلاء الاستباقيين (proactive agents) التي تعمل بنظام جدولة شبيه بمهام cron القديمة، مع prompt يحدد سلوكها، وتقدّم طريقة لبنائها باستخدام Managed Deep Agents.",
+  "detailed_explanation": "تطرح التدوينة ملاحظة مفادها أن معظم ما يُسمى \"وكلاء استباقيين\" هو في جوهره مهام مجدولة (cron) مزوّدة بـ prompt، وهي فكرة قديمة في أنظمة التشغيل أُعيد توظيفها في عصر الـ Agents.\n\nتشمل الأمثلة المذكورة: ذاكرة \"تحلم\" أثناء الليل لمعالجة البيانات، ووكلاء يبادرون بالتواصل مع المستخدم بدل انتظار طلبه.\n\nتقدّم التدوينة طريقة عملية لبناء مثل هذه الوكلاء باستخدام أداة Managed Deep Agents، موجهة لمطوّري الأنظمة القائمة على Agent.",
+  "why_it_matters": "يفيد من يصمم أنظمة Agent تعمل بشكل دوري أو تستبق المستخدم بدل انتظار أوامره، وهو نمط متزايد في بناء التطبيقات القائمة على الذكاء الاصطناعي.",
+  "original_text": "RT @ndrezn: nearly every proactive agent you've seen is a cron job with a prompt\n\nmemory that \"dreams\" overnight, agents that ping you first. both are scheduled runs on a 50+ year old OS idea\n\nhow to build one with Managed Deep Agents ⬇️ https://t.co/z1kIEWs3O2",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   },
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "LangChain"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 83,
+  "metrics": {
+   "likes": 180,
+   "replies": 18,
+   "reposts": 11,
+   "quotes": 9,
+   "bookmarks": 404,
+   "views": 42951
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2995",
+  "serial": 2995,
+  "serial_display": "#002995",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2116763729090252929",
+  "source_native_id": "2116763729090252929",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-11-01T05:26:15Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Orkas: مشروع مفتوح لإدارة 16 وكيل ذكاء اصطناعي من شاشة واحدة",
+  "arabic_summary": "مشروع مفتوح المصدر يُدعى Orkas يجمع وكلاء ذكاء اصطناعي متخصصين وينسّق المهام بينهم من واجهة واحدة، ويتكامل مع أدوات مثل Claude Code وCodex وOpenCode.",
+  "detailed_explanation": "يصف المنشور Orkas كمشروع مفتوح المصدر يسمح بإدارة عدد كبير من الوكلاء (16 وكيلاً حسب المثال المذكور) من شاشة واحدة، بدل تشغيل كل وكيل بمعزل عن الآخر.\n\nالفكرة الأساسية هي التنسيق بين وكلاء متخصصين كل منهم يقوم بمهمة محددة، مع توزيع العمل بينهم تلقائيًا.\n\nيتكامل المشروع مع أدوات معروفة في سير عمل المطورين مثل Claude Code وCodex، إضافة إلى OpenCode، ما يجعله قابلًا للدمج في بيئات عمل قائمة دون إعادة بناء من الصفر.",
+  "why_it_matters": "يقدّم نموذجًا لتنسيق عمل وكلاء متعددين (multi-agent orchestration) بدل تشغيلهم منفردين، وهو اتجاه متصاعد في بناء أنظمة الذكاء الاصطناعي العملية.",
+  "original_text": "تخيل تدير فريق من 16 وكيل ذكاء اصطناعي من شاشة واحدة!\n\nهذا اللي يقدمه Orkas، مشروع مفتوح المصدر يجمع وكلاء متخصصين، وينسّق المهام بينهم، ويتكامل مع أدوات مثل Claude Code وCodex وOpenCode.\n\nشاهد كيف يعمل في 34 ثانية.\n\nهل تتوقع أن هذه الأدوات تغيّر طريقة إدارة فرق العمل؟ https://t.co/YoFU77kEEF",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   },
+   {
+    "term": "Open Source",
+    "ar": "مفتوح المصدر"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "تطبيق",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Orkas",
+   "Claude Code",
+   "Codex",
+   "OpenCode"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 31,
+  "metrics": {
+   "likes": 4,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 234
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2996",
+  "serial": 2996,
+  "serial_display": "#002996",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2116606016246710427",
+  "source_native_id": "2116606016246710427",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-10-31T18:59:33Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أدوات مخصّصة بـCodex لتحريك رسومات Midjourney تفاعليًا",
+  "arabic_summary": "استُخدم Codex لبناء أدوات مخصّصة لتحريك رسوم توضيحية صُنعت أصلًا في Midjourney وجعلها تفاعلية، ضمن مشروع قصة بعنوان How Codex Happened. التغريدة تعرض لمحة عن هذه الأدوات المصنوعة خصيصًا لهذا الغرض.",
+  "detailed_explanation": "يروي المنشور كيف أن الرسوم التوضيحية في قصة بعنوان How Codex Happened بدأت كصور ثابتة من Midjourney، ثم استُخدم Codex لبناء أدوات مخصّصة للتحكم الدقيق في تحريك كل رسمة وجعلها تفاعلية.\n\nهذا يوضح استخدامًا غير تقليدي لـCodex: ليس فقط ككاتب كود عام، بل كأداة لبناء أدوات إنتاج داخلية (internal tooling) تخدم مشروعًا إبداعيًا محددًا، وهو نمط استخدام قد يفيد من يعمل في تقاطع التصميم والبرمجة.",
+  "why_it_matters": "مثال عملي على استخدام Codex في مهام إبداعية خارج البرمجة التقليدية، وهو ما يهمّ من يستعمل هذه الأداة في مشاريع تمزج التصميم بالبرمجة.",
+  "original_text": "RT @every: All the illustrations in How Codex Happened started in Midjourney.\n\nTo animate them and make them interactive, @dealville used Codex to build custom tools for dialing each one in. Here's a look at those tools.\n\nRead the story by @danshipper: https://t.co/su46aVLk5k https://t.co/WBQgPhGOg7",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [
+   "Codex",
+   "Midjourney"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 28,
+   "replies": 5,
+   "reposts": 2,
+   "quotes": 1,
+   "bookmarks": 37,
+   "views": 3483
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2997",
+  "serial": 2997,
+  "serial_display": "#002997",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2116603481444528432",
+  "source_native_id": "2116603481444528432",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-10-31T18:49:29Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يبني بديلًا مفتوح المصدر لـTeamViewer باستخدام Opus 5.5",
+  "arabic_summary": "استخدم مطوّر نموذج Opus 5.5 لإعادة هندسة فكرة TeamViewer وAnyDesk، وبنى تطبيقًا مجانيًا مفتوح المصدر يسمى DuoDesk يتيح مشاركة الفأرة ولوحة المفاتيح بين جهازي Windows وMac، مع نسخ ولصق وسحب ملفات بين الشاشتين دون حساب أو سحابة.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي يوضّح قدرة النماذج المتقدمة مثل Opus على بناء تطبيقات نظامية معقدة (نقل مدخلات وأجهزة متعددة) من الصفر عبر وكلاء متعددين، وهو درس مباشر لمن يبني منتجات حقيقية بمساعدة الذكاء الاصطناعي.",
+  "original_text": "I reverse-engineered TeamViewer/AnyDesk with Opus 5.5 and turned my Windows PC & MacBook into one desk.\n\n→ https://t.co/bvIJmLlopF\n\nfree & open-source:\n\n→ shared mouse and keyboard across Windows & Mac \n→ copy on one, paste on the other.  \n→ drag files between screens \n→ any old laptop or tablet becomes a second screen\n→ no account, no cloud, encrypted",
+  "glossary": [
+   {
+    "term": "Open-source",
+    "ar": "مفتوح المصدر"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "تطبيق",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Opus",
+   "TeamViewer",
+   "AnyDesk"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 88,
+  "metrics": {
+   "likes": 363,
+   "replies": 13,
+   "reposts": 36,
+   "quotes": 1,
+   "bookmarks": 563,
+   "views": 23999
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [
+   "http://getduodesk.vercel.app"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "i reverse-engineered TeamViewer / AnyDesk with Opus 5.5 and turned my Windows PC & MacBook into one desk\n\n→ https://t.co/cLpCHU1JaZ\n\none mouse. one keyboard. one clipboard. two computers. free and open-source.\n\nwhat it does:\n\n→ one mouse and keyboard across Windows & Mac\n→ copy on one, paste on the other. \n→ drag files between screens\n→ any laptop or tablet as a second screen\n→ no account, no clou"
+  },
+  "cluster_id": "duodesk-opus",
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2998",
+  "serial": 2998,
+  "serial_display": "#002998",
+  "source_type": "x",
+  "source_url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
+  "source_native_id": "2116524000977285321",
+  "source_name": "Google DeepMind",
+  "source_site": "x.com",
+  "author": "GoogleDeepMind",
+  "published_at": "2026-10-31T13:33:39Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Google DeepMind تطلق أداة PlanAssist لتسريع قرارات التخطيط العمراني",
+  "arabic_summary": "طوّرت Google DeepMind أداة PlanAssist المبنية على Gemini لمساعدة موظفي التخطيط في الحكومة البريطانية، حيث أظهرت قدرتها على خفض الوقت اللازم لتقييم طلبات البناء السكنية بنسبة تصل إلى 58%. يجري الآن توسيع الأداة لتشمل 12 مجلسًا محليًا إضافيًا.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال واقعي على تطبيق حكومي لنموذج Gemini يحقق توفيرًا ملموسًا في الوقت، ويبيّن كيف تُستخدم نماذج اللغة في أتمتة مهام بيروقراطية معقدة.",
+  "original_text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country.\n\nBuilt with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → https://t.co/L3tGJNtiAC",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Google DeepMind",
+   "Gemini",
+   "PlanAssist"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 91,
+  "metrics": {
+   "likes": 980,
+   "replies": 266,
+   "reposts": 103,
+   "quotes": 105,
+   "bookmarks": 260,
+   "views": 102147
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [
+   "https://goo.gle/4iQXYkl"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c2999",
+  "serial": 2999,
+  "serial_display": "#002999",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2116509069477621819",
+  "source_native_id": "2116509069477621819",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-10-31T12:34:19Z",
+  "fetched_at": "2026-11-01T05:46:50Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطوّر يبني لعبة بكسل ثلاثية الأبعاد باستخدام Claude Opus",
+  "arabic_summary": "شارك مطوّر مشروعًا مفتوح المصدر للعبة بكسل ثلاثية الأبعاد بُنيت بالاستعانة بنموذج Claude Opus 5.5، مع رابط للكود المصدري ورابط لتجربة اللعبة مباشرة.",
+  "detailed_explanation": "",
+  "why_it_matters": "مثال عملي يوضّح قدرة نماذج Claude الحديثة على توليد كود ألعاب كامل وتشغيله، وهو مفيد لمن يستكشف استخدام Claude Code في بناء تطبيقات تفاعلية.",
+  "original_text": "3D pixel games with Claude Opus 5.5 (OS)\n\nOpen source: https://t.co/rWDe0bKCyp\nPlay: https://t.co/J9GgkqbXnJ\n\nInspo credits: @awwbhi2 / @zzzzshawn https://t.co/jKnii7KtpJ",
+  "glossary": [
+   {
+    "term": "Open Source",
+    "ar": "مفتوح المصدر"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude",
+   "Claude Opus"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 91,
+  "metrics": {
+   "likes": 740,
+   "replies": 44,
+   "reposts": 42,
+   "quotes": 13,
+   "bookmarks": 654,
+   "views": 34795
+  },
+  "metrics_captured_at": "2026-11-01T05:46:50Z",
+  "external_links": [
+   "https://github.com/amirmushichge/pixel-plays",
+   "https://pixel-plays-ruby.vercel.app/"
+  ],
+  "quoted": null,
+  "cluster_id": "pixel-plays-claude",
+  "also_reported": [
+   {
+    "author": "AmirMushich",
+    "url": "https://x.com/AmirMushich/status/2116621988492194131"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
