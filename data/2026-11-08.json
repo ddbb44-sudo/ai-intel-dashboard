@@ -1,0 +1,1623 @@
+[
+ {
+  "id": "c3174",
+  "serial": 3174,
+  "serial_display": "#003174",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2119100100555440538",
+  "source_native_id": "2119100100555440538",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-11-07T16:10:09Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Awesome-REA: مرجع ضخم مفتوح المصدر للهندسة العكسية موجّه لوكلاء الذكاء الاصطناعي",
+  "arabic_summary": "مطوّر مستقل أطلق مستودع Awesome-REA، مجموعة ضخمة مفتوحة المصدر تضم 1253 مصدرًا و431 حالة واقعية و235 ورقة بحثية و3309 مستودع مفهرس حول الهندسة العكسية: تفكيك المواقع، فك شفرة الألعاب، تحليل تطبيقات Android وNET. وJVM وElectron، وتحليل البرامج الثابتة. المشروع مصمم ليُقرأ مباشرة من وكلاء الذكاء الاصطناعي عبر llms.txt وواجهة JSON API، ويدعم ربط خوادم MCP بسير عمل الوكلاء البرمجية.",
+  "detailed_explanation": "يتميز هذا المستودع عن مجموعات \"Awesome\" المعتادة في GitHub بأنه مصمم من الأساس للاستهلاك الآلي: يوفر وصولاً عبر llms.txt (ملف معياري متصاعد الانتشار لتوجيه نماذج اللغة لمحتوى موقع أو مستودع) وواجهة JSON API، ما يعني أن وكيل برمجي (Agent) يمكنه قراءة المحتوى بالكامل وفهرسته دون تدخل بشري لتنسيقه.\n\nيغطي المستودع نطاقًا واسعًا من الهندسة العكسية: تفكيك وإعادة بناء مواقع الويب، فك شفرة الألعاب ومحركاتها، تحليل تطبيقات منصات مختلفة (Android، .NET، JVM، Electron)، تحليل الثنائيات الأصلية بأدوات التفكيك والتصحيح، واستخراج وتحليل البرامج الثابتة (firmware) وبروتوكولات الأجهزة.\n\nالإشارة لدمج خوادم MCP وسير عمل الوكلاء (agent workflows) في نهاية الوصف تؤكد أن الهدف الأساسي هو تمكين وكلاء البرمجة بالذكاء الاصطناعي -مثل تلك المبنية على Claude أو غيرها- من الاستفادة من هذه المعرفة المتخصصة مباشرة أثناء تنفيذ مهام الهندسة العكسية، بدل الاعتماد فقط على معرفة النموذج المسبقة.",
+  "why_it_matters": "يجعل معرفة الهندسة العكسية المتراكمة قابلة للاستهلاك المباشر من قبل أدوات البرمجة بالذكاء الاصطناعي، وهو نمط متنامٍ في بناء موارد معرفية موجّهة للـ Agents لا للبشر فقط.",
+  "original_text": "RT @0xMovez: RIP closed-source (1975-2026)...\n\nsolo dev just released the Wikipedia of reverse engineering for your AI agents \n\nthis is f*cking dangerous.\n\nIt’s called Awesome-REA, and it lets you to:\n\n~ inspect, deobfuscate and rebuild websites.\n~ decompile, port and rebuild games and their engines.\n~ break down Android, .NET, JVM and Electron apps.\n~ take apart native binaries with disassemblers, decompilers, debuggers and diffing tools.\n~ extract and analyze firmware, then decode device protocols and packet captures.\n~ plug MCP servers and agent workflows into your AI coding agent.\n\nit comes with 1,253 curated resources, 431 real cases, 235 papers and 3,309 indexed repos.\n\nand your agent can read all of it through llms.txt and a JSON API.\n\nfind the GitHub link below ↓",
+  "glossary": [
+   {
+    "term": "llms.txt",
+    "ar": "ملف توجيه نماذج اللغة لمحتوى الموقع"
+   },
+   {
+    "term": "Reverse Engineering",
+    "ar": "الهندسة العكسية"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Awesome-REA"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 89,
+  "metrics": {
+   "likes": 500,
+   "replies": 18,
+   "reposts": 59,
+   "quotes": 2,
+   "bookmarks": 546,
+   "views": 22944
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2119084345134555182"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3175",
+  "serial": 3175,
+  "serial_display": "#003175",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119091024698261990",
+  "source_native_id": "2119091024698261990",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T15:34:05Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "دراسة: الذكاء الاصطناعي يسرّع تطوير نماذج Anthropic بنسبة تصل لـ80٪",
+  "arabic_summary": "أجرت مؤسسة METR المستقلة تقييمًا استمر نحو 11 أسبوعًا داخل Anthropic، واكتشفت أن تحسّن أداء نماذج الشركة في الاختبارات تسارع بمعدل 1.9 مرة مقارنة بالفترة السابقة، ورجّحت أن استخدام الذكاء الاصطناعي نفسه في عمليات البحث والتطوير مسؤول عن نحو 80% من هذا التسارع، رغم أن Anthropic حجبت جزءًا كبيرًا من الأدلة الداخلية عن التقرير المنشور بحجة السرية.",
+  "detailed_explanation": "أجرت مؤسسة METR، وهي جهة تقييم مستقلة، دراسة استمرت نحو 11 أسبوعًا داخل Anthropic، شملت الاطلاع على بيانات داخلية وإجراء مقابلات مع موظفي الشركة، بهدف فهم أسباب تسارع تحسّن أداء نماذج Anthropic في الاختبارات القياسية مؤخرًا.\n\nخلصت الدراسة إلى أن معدل التحسن أصبح أسرع بنحو 1.9 مرة مقارنة بالفترة السابقة، ورجّح الباحثون أن السبب الرئيسي هو استخدام الشركة للذكاء الاصطناعي نفسه بكثافة في عمليات البحث والتطوير الداخلية، مع تقدير أن مساهمة الذكاء الاصطناعي في هذا التسارع تصل إلى نحو 80%، وإن أكدوا أن هذا الرقم غير محسوم بدقة.\n\nنقطة مهمة في هذا التقرير أن Anthropic حجبت عن النسخة المنشورة جزءًا كبيرًا من الأدلة الداخلية التي استند إليها الباحثون، بذريعة السرية، ما يحدّ من إمكانية التحقق الكامل من الاستنتاجات من قبل أطراف خارجية، ويبقي سؤال حجم \"التسريع الذاتي\" في تطوير النماذج مفتوحًا جزئيًا رغم الدراسة.",
+  "why_it_matters": "يقدّم أول تقدير مستقل لحجم مساهمة الذكاء الاصطناعي في تسريع تطوير نفسه داخل شركة رائدة، وهو مؤشر مباشر على ظاهرة \"التحسين الذاتي المتسارع\" التي يُنظر إليها كعامل خطر محتمل في سباق تطوير النماذج.",
+  "original_text": "ذكاء اصطناعي يطور ذكاء اصطناعي أقوى منه\n\nباحثون من مؤسسة METR (دراسة مستقلة) دخلوا Anthropic واطلعوا على بيانات داخلية، وأجروا مقابلات مع الموظفين خلال تقييم استمر نحو 11 أسبوعًا.\n\nاكتشفوا أن أداء نماذج Anthropic في الاختبارات أصبح يتحسن بمعدل أسرع بنحو 1.9 مرة مقارنة بالفترة السابقة.\n\nالسبب؟\n\nيرجّح أن الجزء الأكبر من هذا التسارع ناتج عن استخدام الشركة للذكاء الاصطناعي نفسه في عمليات البحث والتطوير. وقدّروا أن مساهمة الذكاء الاصطناعي في التسارع الحالي تصل إلى نحو 80%، لكنهم أكدوا أن هذا التقدير غير محسوم.\n\nبس Anthropic حجبت عن التقرير المنشور جزء كبير من الأدلة الداخلية التي اعتمد عليها الباحثون بحجة السرية.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic",
+   "METR"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 40,
+  "metrics": {
+   "likes": 8,
+   "replies": 1,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 1958
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3176",
+  "serial": 3176,
+  "serial_display": "#003176",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2119135501093306487",
+  "source_native_id": "2119135501093306487",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-11-07T18:30:49Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نموذج صوتي بحجم 30 ميغابايت يعمل داخل المتصفح بلا خادم",
+  "arabic_summary": "نموذج Woof من شركة Underdog هو نموذج تحويل نص إلى صوت صغير جدًا (31.7-40.6 ميغابايت) يعمل بالكامل داخل المتصفح دون اتصال بالإنترنت بعد التحميل. يعالج النصوص الصعبة مثل أرقام الهواتف والتواريخ عبر معالج نصي مخصص قبل توليد الصوت، وتُظهر اختبارات الشركة دقة مقاربة لنماذج أكبر بـ1000 مرة من حيث الحجم.",
+  "detailed_explanation": "القياس الأبرز في الخبر هو الفارق الهائل في الحجم: نموذج Woof بنسخته الثنائية الصوت يزن 40.6 ميغابايت مقابل 41.5 غيغابايت لنموذج منافس (Fish Audio Drama 3)، أي أصغر بنحو 1000 مرة، مع معدل خطأ متقارب (1.42% مقابل 1.89% على عينة من 500 جملة صعبة).\n\nما يميز Woof تقنيًا هو معالجته للنصوص \"الصعبة\" — أرقام الهواتف، التواريخ، الأسعار، الرموز — وهي نقطة ضعف معروفة للنماذج الصوتية الصغيرة، عبر تمرير النص أولاً خلال \"معالج نصي\" (text normalizer) قبل التوليد الصوتي.\n\nالقدرة على العمل دون اتصال بالإنترنت بعد التحميل الأول تعني إمكانية بناء تطبيقات صوتية خفيفة تعمل بالكامل من جهة العميل (client-side)، دون الحاجة لخادم باهظ أو استدعاءات API متكررة، وهذا يفتح مجالات للتطبيقات التي تحتاج صوتًا فوريًا بدون تأخير الشبكة.",
+  "why_it_matters": "حجم بهذا الصغر مع دقة مقبولة يفتح الباب لتطبيقات صوتية تعمل محليًا بلا تكلفة خادم أو اتصال دائم بالإنترنت، وهو تحول مهم لمطوري تطبيقات الصوت.",
+  "original_text": "A voice model just got small enough to run inside a browser tab.\n\nIt's called Woof, from Underdog. One voice is 31.7 MB. Two voices are 40.6 MB.\n\nNo server. Once it's loaded, you can go offline and it keeps talking. I set my browser offline and recorded it.\n\nWhat makes it interesting is the hard text. Phone numbers, dates, prices and codes are where small voice models fall apart. Woof runs everything through a text normalizer first.\n\nUnderdog's own numbers on 500 hard sentences:\n\n- Two-voice Woof: 1.42% of words wrong\n- Fish Audio Drama 3: 1.89% wrong, and a 41.5 GB download\n- One-voice Woof: 2.06% wrong\n\nSo it's about 1,000x smaller, with similar accuracy on their test.\n\nLink: https://t.co/MDZ6cXvqvc",
+  "glossary": [
+   {
+    "term": "Text normalizer",
+    "ar": "معالج توحيد النصوص"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Underdog",
+   "Woof",
+   "Fish Audio"
+  ],
+  "change_types": [
+   "New Release",
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 120,
+   "replies": 16,
+   "reposts": 15,
+   "quotes": 0,
+   "bookmarks": 133,
+   "views": 8272
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [
+   "http://underdog.ai/woof"
+  ],
+  "quoted": null,
+  "cluster_id": "woof-voice-model",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2119181410510495978"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3177",
+  "serial": 3177,
+  "serial_display": "#003177",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119114381741191444",
+  "source_native_id": "2119114381741191444",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T17:06:54Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "باحثون يبنون قاعدة بيانات بـ8.3 مليار شخصية افتراضية لاختبار المنتجات",
+  "arabic_summary": "طوّر باحثون من جامعات بينها MIT وهارفارد مشروع MatrAIx، وهو قاعدة بيانات ضخمة تضم 8.3 مليار شخصية افتراضية موصوفة بـ1,290 سمة، يمكن تحويلها إلى وكلاء ذكاء اصطناعي يحاكون سلوك مستخدمين حقيقيين عند التفاعل مع منتج أو تطبيق قبل إطلاقه فعليًا.",
+  "detailed_explanation": "المشروع، الذي شارك في تطويره باحثون من جامعات مرموقة منها MIT وهارفارد، يبني قاعدة بيانات تضم 8.3 مليار شخصية افتراضية متنوعة في العمر والخلفية والاهتمامات وطريقة اتخاذ القرار، موصوفة كل واحدة بـ1,290 سمة مختلفة.\n\nيمكن تحويل هذه الشخصيات إلى وكلاء ذكاء اصطناعي يتفاعلون مع مواقع وتطبيقات ومساعدين أذكياء، بما يحاكي سلوك المستخدمين الحقيقيين. الهدف العملي هو تمكين فرق المنتجات من اختبار أسئلة مثل: هل سيتراجع العميل عن الشراء عند رفع السعر؟ هل سيغادر التطبيق إن كان بطيئًا؟ قبل إطلاق المنتج فعليًا وليس بعده.\n\nأجرى الباحثون أكثر من 18 ألف تجربة، وفي اختبار منفصل التزمت الشخصيات بالسلوك المحدد لها بنسبة 91.5%، وهي نسبة لا تعني دقة تنبؤية مطابقة للبشر الحقيقيين، لكنها مؤشر على قدرة هذه الوكلاء على تمثيل أنماط سلوكية متنوعة بشكل معقول. يمثل هذا تحولًا من اختبار المنتجات بعد الإطلاق إلى محاكاتها قبله.",
+  "why_it_matters": "يتيح للشركات اختبار قرارات المنتج (كرفع السعر أو بطء الأداء) على آلاف الشخصيات الافتراضية قبل الإطلاق الفعلي، بدلًا من انتظار ردود فعل المستخدمين الحقيقيين بعد الإطلاق.",
+  "original_text": "تخيل بس…\n\nتختبر منتج أو خدمة في عالم افتراضي يضم 8.3 مليار شخصية يعني يقارب عدد البشر على كوكب الأرض!\n\nهذا ما قدمه مشروع MatrAIx، الذي طوّره باحثون من جامعات بينها MIT وهارفارد.\n\nأنشأ الباحثون قاعدة بيانات تضم 8.3 مليار شخصية افتراضية، تختلف في العمر والخلفية والاهتمامات والقدرات والسلوك وطريقة اتخاذ القرارات، ويُوصف كل منها باستخدام 1,290 سمة.\n\n▪️ما الذي يمكن أن تفع بهذه الشخصيات؟\n\nيمكن تحويلها إلى وكلاء ذكاء اصطناعي يتفاعلون مع المواقع والتطبيقات والمساعدين الذكيين، ويحاكون تجارب المستخدمين الحقيقيين.\n\n▪️ تخيل أنك تطور تطبيق وتريد معرفة:\n\n- هل سيتراجع العنيل عن الشراء إذا ارتفع السعر؟\n- هل سيغادر التطبيق إذا كان بطيئًا؟\n- هل سيفقد ثقته بالمساعد الذكي إذا قدم إجابة خاطئة؟\n\nبدلًا من إطلاق المنتج وانتظار ردود فعل المستخدمين، يمكنك اختبار هذه السيناريوهات مسبقًا على آلاف الشخصيات الافتراضية وتحليل سلوكها.\n\nأجرى الباحثون أكثر من 18 ألف تجربة، وفي اختبار منفصل التزمت الشخصيات بالسلوك المحدد لها بنسبة 91.5%.\n\n❇️ النسبة لا تعني أن المحاكاة تتنبأ بسلوك البشر بالدقة نفسها، لكنها مؤشر واعد على قدرة الوكلاء على تمثيل شخصيات مختلفة.\n\nالتحول الحقيقي هنا هو الانتقال من اختبار المنتجات بعد وصولها إلى المستخدمين، إلى محاكاة تجارب المستخدمين قبل إطلاقها.\n\nقفزة نحو استشراف المستقبل:\nمحاكاة ثم قرار",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "بحث وتعليم",
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "MIT",
+   "هارفارد"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 16,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 17,
+   "views": 3364
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3178",
+  "serial": 3178,
+  "serial_display": "#003178",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2118918838398116210",
+  "source_native_id": "2118918838398116210",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T04:09:53Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ملخص أبرز اختراقات وتسريبات بيانات البنوك عالميًا أكتوبر-نوفمبر",
+  "arabic_summary": "يسرد المنشور عشرات حوادث التسريب والاختراق التي وقعت في قطاع البنوك والعملات الرقمية خلال شهرين، من كوريا الجنوبية وفرنسا والهند وماليزيا، أبرزها سرقة أصول رقمية بقيمة 6.3 مليار دولار من Binance، مع دعوة لاعتماد أمن استباقي بدل الاستجابة بعد وقوع الحادث.",
+  "detailed_explanation": "يقدم المنشور حصرًا واسعًا لحوادث تسريب البيانات والاختراقات السيبرانية في القطاع المالي خلال شهري أكتوبر ونوفمبر، شملت عدة بنوك في كوريا الجنوبية بأحجام تسريب متفاوتة من عشرات إلى عشرات الآلاف من العملاء، إضافة إلى حادثة سرقة نحو 100 مليون يورو من بنك فرنسي عبر هجوم مرتبط بمزود خدمات خارجي.\n\nأبرز الحوادث المذكورة هي سرقة أصول رقمية من منصة Binance بقيمة 6.3 مليار دولار، نُسبت إلى جهات مرتبطة بكوريا الشمالية، إضافة لحوادث تحقيق جارية في الهند وتشويه مواقع مصرفية في ماليزيا.\n\nيختم المنشور بدعوة لتبني مقاربة أمنية استباقية بدل الاستجابة بعد وقوع الحادث، تشمل التنبؤ بالتهديدات، وتقييم الثغرات دوريًا، وتعزيز أمن الأطراف الثالثة، واستخدام الأتمتة والتحليل الذكي لتقليل زمن اكتشاف التهديدات واحتوائها — وهو ربط مباشر بين الذكاء الاصطناعي وتحسين الأمن السيبراني في القطاع المالي.",
+  "why_it_matters": "يرصد حجم وتواتر الاختراقات السيبرانية في القطاع المالي عالميًا، وهو مؤشر على أهمية الاستثمار في أدوات الأمن الاستباقي المعتمدة على الأتمتة والتحليل الذكي.",
+  "original_text": "🚨 أبرز الهجمات السيبرانية وتسريبات البيانات في القطاع المالي (أكتوبر- نوفمبر)\n\n🇰🇷 كوريا الجنوبية\n\nShinhan Bank: تسريب بيانات نحو 25,000 عميل\nKB Kookmin Bank: تسريب بيانات 2,210 أشخاص.\nHana Bank: تسريب بيانات 89 عميلاً.\nBNK Busan Bank: تسريب بيانات محدود.\nYegaram Savings Bank: تسريب بيانات نحو 40,000 عميل.\nWelcome Savings Bank: تسريب نحو 2,200 عنصر بيانات.\nOK Savings Bank: حادثتان شملتا 518 عميلاً.\nHyundai Capital: تسريب بيانات 146 وسيط قروض.\n\n🇫🇷 فرنسا\n\nCrédit Mutuel Arkéa: سرقة نحو 100 مليون يورو عبر هجوم مرتبط بمزود خدمات خارجي.\n\n🌐 منصات العملات الرقمية\n\nBinance: سرقة أصول رقمية بقيمة 6.3 مليار دولار، نُسبت إلى جهات مرتبطة بكوريا الشمالية.\n\n🇮🇳 الهند\n\nState Bank of India (SBI): رصد 3,897 سجلاً يحتوي على بيانات عملاء على الويب المظلم.\nAU Small Finance Bank: تحقيق في تسريب محتمل لبيانات قروض السيارات عبر Salesforce.\n\n🇲🇾 ماليزيا\n\nBank Rakyat: تشويه مواقع إلكترونية مصرفية، بما فيها صفحة تسجيل الدخول، دون تأكيد تسريب بيانات العملاء.\n\n…. مرحلة تتطلب الاستباق قبل الاستجابة (Proactive Security):\n\n🔹 التنبؤ بالتهديد قبل تحوله إلى هجوم\n\n🔹 تقييم الثغرات والمخاطر بشكل دوري\n\n🔹 تعزيز أمن الأطراف الثالثة وسلاسل التوريد\n\n🔹 استخدام الأتمتة والتحليل الذكي لتقليل (زمن) اكتشاف التهديدات واحتوائها\n\n(تخي",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Binance"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 41,
+  "metrics": {
+   "likes": 8,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 3015
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3179",
+  "serial": 3179,
+  "serial_display": "#003179",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2119014179029889326",
+  "source_native_id": "2119014179029889326",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-11-07T10:28:44Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ثغرة أمنية خطيرة في تطبيق Applebee's تكشف بيانات ملايين العملاء",
+  "arabic_summary": "اكتشف باحث أمن سيبراني بيانات دخول لقاعدة بيانات عملاء Applebee's مخزنة داخل الكود المصدري لتطبيق أندرويد، مما سمح بالوصول إلى معلومات ملايين المستخدمين وحتى تعديلها أو حذفها. الشركة لم توفر قناة واضحة للإبلاغ عن الثغرات حتى اضطر الباحث للتواصل عبر موقع إعلامي.",
+  "detailed_explanation": "اكتشف الباحث روبرت ويغينز بيانات دخول إلى قاعدة بيانات العملاء مخزنة بشكل مكشوف داخل الكود المصدري لتطبيق Applebee's على أندرويد. هذه البيانات منحت وصولًا لمعلومات حساسة تشمل الأسماء والبريد الإلكتروني وتواريخ الميلاد وأرقام الهواتف وعناوين IP وسجلات تسجيل الدخول لملايين العملاء.\n\nالأخطر من الاكتشاف نفسه أن الصلاحيات لم تكن مقتصرة على القراءة، بل سمحت بتعديل أو حذف بيانات العملاء، وهو ما يرفع من خطورة الثغرة لتتجاوز مجرد تسريب معلومات إلى إمكانية تخريب قاعدة البيانات بالكامل.\n\nكما يسلط المنشور الضوء على مشكلة إجرائية: غياب قناة واضحة للإبلاغ عن الثغرات الأمنية، ما اضطر الباحث للتواصل مع وسيلة إعلامية لإيصال التحذير للشركة. هذا درس عملي لكل فريق تطوير حول ضرورة فصل بيانات الدخول السرية عن كود التطبيق القابل للتحليل، وتوفير قنوات إبلاغ أمنية واضحة (مثل Responsible Disclosure).",
+  "why_it_matters": "مثال تحذيري على خطأ برمجي أساسي (تخزين بيانات دخول حساسة داخل التطبيق) يهم كل مطور يبني تطبيقات تتعامل مع بيانات عملاء حقيقية.",
+  "original_text": "كوارث الذكالي🔥\n\nسلسلة المطاعم الأمريكية Applebee’s ارتكبت خطأ أمنيًا غريبًا، بعدما تركت بيانات الدخول إلى قاعدة بيانات عملائها داخل الكود المصدري لتطبيقها على أندرويد! \n\nباحث الأمن السيبراني روبرت ويغينز اكتشف بيانات الدخول أثناء فحص التطبيق، والمفاجأة أنها كانت تسمح له بالوصول إلى قاعدة بيانات تحتوي على معلومات ملايين العملاء.\n\nوالبيانات شملت الأسماء والبريد الإلكتروني وتواريخ الميلاد وأرقام الهواتف والرموز البريدية، بالإضافة إلى عناوين IP وتواريخ إنشاء الحسابات وعدد مرات تسجيل الدخول.\n\nوالأخطر أن صلاحيات الوصول ما كانت مقتصرة على قراءة البيانات فقط، بل كان بإمكان الباحث تعديل معلومات العملاء أو حذفها من قاعدة البيانات!\n\nوتخيلوا أن الباحث لما حاول يبلغ الشركة بالثغرة، ما حصل حتى على جهة أمنية يتواصل معها للإبلاغ عن المشكلة.\n\nوفي النهاية اضطر يتواصل مع موقع TechCrunch، الذي نقل البلاغ إلى الشركة، ورد أحد ممثليها بتوجيه شكر كبير للباحث، وأكد أنهم سيبدأون تحقيقًا داخليًا.\n\nوللعلم، تطبيق Applebee’s تجاوز مليون تحميل على Google Play، وقاعدة بيانات برنامج الولاء تضم ما لا يقل عن 8.5 مليون عميل.\n\nتخيل شركة عندها بيانات ملايين العملاء، وتترك بيانات الدخول لقاعدة البيانات داخل تطبيق متاح للجميع، وحتى ما عندها وسيلة واضحة للإبلاغ عن الثغرات الأمنية.\n\nمن أساسيات تطوير التطبيقات أنك ما تخزن ب",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Applebee's",
+   "روبرت ويغينز",
+   "TechCrunch"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 32,
+  "metrics": {
+   "likes": 7,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 1054
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3180",
+  "serial": 3180,
+  "serial_display": "#003180",
+  "source_type": "x",
+  "source_url": "https://x.com/karpathy/status/2119114537442189652",
+  "source_native_id": "2119114537442189652",
+  "source_name": "Andrej Karpathy",
+  "source_site": "x.com",
+  "author": "karpathy",
+  "published_at": "2026-11-07T17:07:31Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "مطور يبني موقع فيديوهات مخصص بـClaude Code خلال 3 دقائق",
+  "arabic_summary": "استلهم كارباثي من موقع قوائم يوتيوب بناه زميله، فطلب من Claude Code إنشاء نسخة مشابهة باسم TristanTube تضم 47 ألف فيديو مع وضعية مشاهدة مريحة (TV mode)، وأنجز المهمة بالكامل في محاولة واحدة استغرقت 3 دقائق فقط.",
+  "detailed_explanation": "يروي كارباثي كيف استلهم فكرة موقع لعرض أفضل قنوات يوتيوب من مشروع نشره زميله يُدعى تريستان، فقرر تحويل الفكرة فورًا إلى موقع فعلي باسم TristanTube باستخدام Claude Code.\n\nالمنشور المقتبس يوضح سياقًا مشابهًا: بناء موقع آخر باسم HackerTube بالاعتماد على Claude لتصفية 43 مليون تعليق من منصة Hacker News عبر 20 عامًا إلى قائمة مكثفة من نحو 6,454 فيديو، باستخدام نموذج Opus 5.5 واستغرق الأمر نحو ساعتين.\n\nأما مشروع TristanTube نفسه، فتم إنجازه \"بمحاولة واحدة\" (one-shot) خلال 3 دقائق فقط، ويضم نحو 47 ألف فيديو \"نيردي\" متخصص مع وضعية مشاهدة مخصصة للاسترخاء، ما يعكس السرعة الفعلية التي أصبحت ممكنة لبناء تطبيقات ويب وظيفية كاملة بالاعتماد على Claude Code كأداة تطوير أساسية.",
+  "why_it_matters": "مثال سريع وملموس على قدرة Claude Code في بناء تطبيق ويب كامل وعملي من فكرة بسيطة خلال دقائق معدودة دون تكرار محاولات.",
+  "original_text": "Earlier this week Tristan published his top YouTube channels:\nhttps://t.co/NZ3UCNo6cT\nWhich looked excellent so clearly I had to turn it into TristanTube:\nhttps://t.co/l0KyW1WdNH\n47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes)",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "موقع وصفحة هبوط",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 5205,
+   "replies": 404,
+   "reposts": 383,
+   "quotes": 114,
+   "bookmarks": 5754,
+   "views": 436239
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [
+   "https://thume.ca/2026/11/01/youtube-tier-list-2026/",
+   "https://karpathy.ai/tristan-tube/"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of t"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3181",
+  "serial": 3181,
+  "serial_display": "#003181",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2118987456842219569",
+  "source_native_id": "2118987456842219569",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-11-07T08:42:33Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Meta تحدّث Muse وMeta AI بذاكرة نشطة وتركيز أفضل",
+  "arabic_summary": "أعلنت Meta عن تحديث لتطبيقي Muse وMeta AI يضيف ميزتي الذاكرة النشطة والتركيز النشط، بحيث يتذكر المساعد المعلومات المهمة من المحادثات السابقة ويواصل إنجاز المهام رغم العقبات. الشركة نشرت أرقامًا داخلية تظهر تحسنًا في اختبارات الذاكرة وإنجاز المهام.",
+  "detailed_explanation": "تضيف Meta ميزتين رئيسيتين: Active Memory التي تحسّن استرجاع المعلومات من محادثات سابقة، وActive Focus التي تجعل النموذج يجرّب حلولًا بديلة عند مواجهة عقبة بدل التوقف. هاتان الميزتان تعالجان مشكلتين شائعتين في المساعدين الحاليين: نسيان السياق، والتوقف عند أول عقبة.\n\nالأرقام المعلنة من Meta تشمل ارتفاع تقييم الذكاء الشخصي من 38% إلى 47%، وتحسن اختبار الذاكرة من 76% إلى 90%، وانخفاض نسيان المعلومات بمعدل 2.4 مرة، وتحسن إنجاز المهام عند العقبات بنسبة 67%. لكن هذه كلها اختبارات داخلية للشركة وليست تقييمات مستقلة، ما يستدعي حذرًا في تفسيرها.\n\nالفكرة العامة تتماشى مع اتجاه عام في الصناعة نحو تحسين الذاكرة طويلة المدى للوكلاء، وهو موضوع يهم كل من يبني أو يستخدم مساعدين ذكاء اصطناعي يحتاجون استمرارية عبر الجلسات.",
+  "why_it_matters": "خطوة نحو مساعدين أكثر استمرارية في السياق وأقل اعتمادًا على إعادة الشرح من المستخدم، لكن الأرقام من اختبارات داخلية غير مستقلة.",
+  "original_text": "ميتا تطور ذكاءها الاصطناعي بذاكرة أقوى وقدرة أفضل على تنفيذ المهام!\n\nأعلنت Meta عن تحديث جديد لتطبيقي Muse وMeta AI باستخدام نماذج متخصصة جرى تدريبها بالاعتماد على Muse Wonder.\n\nالتحديث يضيف ميزتين مهمتين:\n\nActive Memory – الذاكرة النشطة: الذكاء الاصطناعي صار أفضل في تذكّر المعلومات المهمة من محادثاتك السابقة، واسترجاعها وقت الحاجة، بدل ما تضطر تعيد شرح كل شيء.\nActive Focus – التركيز النشط: يساعد الذكاء الاصطناعي يكمل المهام حتى لو واجه مشكلة، ويجرب حلولًا بديلة بدل ما يتوقف.\n\nوش تقول الأرقام؟\n\nارتفع تقييم الذكاء الشخصي من 38% إلى 47%، بفارق 9 نقاط مئوية.\nتحسن اختبار استخدام الذاكرة من 76% إلى 90%، بفارق 14 نقطة مئوية.\nانخفض نسيان المعلومات المهمة بمعدل 2.4 مرة.\nتحسن إنجاز المهام عند مواجهة عقبات بنسبة 67%.\n\nهذي النتائج بحسب اختبارات ميتا الداخلية، وليست تقييمات مستقلة.\n\nالهدف؟ تخلي المساعد الذكي يفهم سياقك بشكل أفضل، ويتذكر احتياجاتك، ويواصل تنفيذ المهام حتى مع ظهور مشاكل غير متوقعة.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Meta",
+   "Muse",
+   "Meta AI"
+  ],
+  "change_types": [
+   "Update",
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 33,
+  "metrics": {
+   "likes": 10,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 2021
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Upgraded the models for Muse and Meta Al, bringing Active Memory and Active Focus from Muse Wonder to everyone. In Muse, these new specialized models are 2.4x less likely to forget critical info and are 67% better at self correcting and completing everyday tasks which means less repeating yourself and fewer dead ends.\n\nMore on the models: https://t.co/P2DvI43xDj"
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3182",
+  "serial": 3182,
+  "serial_display": "#003182",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119141284929741028",
+  "source_native_id": "2119141284929741028",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T18:53:48Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "مقترح تشريعي أمريكي لشركات تديرها وكلاء ذكاء اصطناعي بالكامل",
+  "arabic_summary": "تقدمت ولاية ديلاوير الأمريكية بمقترح قانوني لإنشاء نوع جديد من الشركات يُدعى AIC، يتولى فيه وكيل ذكاء اصطناعي اتخاذ القرارات التشغيلية وإبرام العقود وإدارة الأصول باسم الشركة، مع بقاء عضو بشري مسؤول عن التمويل ومنع الاحتيال. المقترح لا يزال في مرحلة التشريع ولم يصبح قانونًا نافذًا بعد.",
+  "detailed_explanation": "المقترح، الذي ما زال في طور المناقشة التشريعية في ديلاوير، يسعى لتعريف شكل شركة جديد (AIC) تُدار عملياتها اليومية بالكامل تقريبًا عبر Agent قادر على اتخاذ قرارات وتوقيع عقود وإدارة التزامات مالية باسم الكيان القانوني.\n\nالفكرة تتجاوز مجرد استخدام أدوات الذكاء الاصطناعي لتحسين الكفاءة، إلى منح الوكيل صفة شبه تنفيذية داخل الهيكل القانوني للشركة، مع إبقاء إنسان أو كيان قانوني مسؤول عن التمويل ومنع إساءة الاستخدام.\n\nتتضمن المسودة ضوابط رقابية مثل تسجيل كل القرارات والمعاملات، والإفصاح للعملاء عن طبيعة الشركة الآلية، وإخضاعها لفترة تجريبية تنظيمية مدتها 30 شهرًا قبل أي اعتماد دائم. يبقى الأمر حتى الآن مجرد مقترح تشريعي لم يتحول إلى قانون، لكنه يمثل أول محاولة جدية معروفة لتقنين وجود شركات تُدار بوكلاء ذكاء اصطناعي.",
+  "why_it_matters": "يفتح نقاشًا قانونيًا جديدًا حول حدود مسؤولية ودور وكلاء الذكاء الاصطناعي في اتخاذ قرارات تجارية ملزمة قانونيًا، وهو سابقة تشريعية قد تُحتذى في أماكن أخرى إن أُقرّت.",
+  "original_text": "شركة بدون موظفين بشر\n\nمقترح جديد في ولاية ديلاوير الأمريكية، تحت اسم:\n\nArtificial Intelligence Company (AIC)\nأي «شركة الذكاء الاصطناعي».\n\nالفكرة ليست مجرد شركة تستخدم ChatGPT أو أدوات الذكاء الاصطناعي لتسهيل أعمالها.\n\nشركة يتولى إدارتها AI Agent يستطيع اتخاذ قرارات تشغيلية وتنفيذ معاملات باسم الشركة.\n\n▪️كيف يمكن أن تعمل هذه الشركة؟\n\nتخيل أنك أنشأت شركة AIC، وبدلاً من تعيين مدير تنفيذي وفريق إداري لتشغيل أعمالها اليومية، تعتمد على وكيل ذكاء اصطناعي يستطيع:\n\n- إدارة العمليات واتخاذ القرارات.\n- إبرام العقود باسم الشركة.\n- تنفيذ المعاملات التجارية.\n- إدارة الأصول والالتزامات.\n- التعامل مع النزاعات القانونية باسم الشركة.\n\n▪️لكن أين دور الإنسان؟\n\nبحسب فكرة المقترح، يبقى هناك عضو بشري أو كيان قانوني مرتبط بالشركة، يتحمل مسؤوليات محددة، منها توفير التمويل الكافي ومنع استخدام الشركة في الاحتيال.\n\n▪️وهل يمكن ترك الذكاء الاصطناعي يعمل دون رقابة؟\n\nلا. تتضمن المسودة المقترحة ضوابط مثل تسجيل القرارات والمعاملات، والإفصاح للمتعاملين عن طبيعة الشركة، وإخضاعها لإطار تجريبي رقابي مدته 30 شهراً.\n\n▪️هل أصبحت هذه الشركات قانونية بالفعل؟\n\nلا. حتى الآن، في نوفمبر 2026، نتحدث عن مقترح تشريعي، وليس عن نوع شركات معتمد بموجب قانون نافذ.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 37,
+  "metrics": {
+   "likes": 6,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 1927
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3183",
+  "serial": 3183,
+  "serial_display": "#003183",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2119192589941256243",
+  "source_native_id": "2119192589941256243",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-11-07T22:17:40Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "آدي عثماني يحذّر من تراجع مهارات البرمجة مع الاعتماد على الذكاء الاصطناعي",
+  "arabic_summary": "حذّر المهندس آدي عثماني من أن استخدام الذكاء الاصطناعي بكثافة في البرمجة قد يؤدي تدريجيًا إلى فقدان المطور القدرة على فهم الكود الذي ينتجه، وهو ما يصفه بـ«الاستسلام المعرفي». يقترح ست أسئلة يطرحها المطور على نفسه قبل وأثناء استخدام الأداة لتفادي هذا التراجع.",
+  "detailed_explanation": "يشرح عثماني أن التراجع في المهارات البرمجية لا يحدث فجأة بل بالتدريج: يبدأ المطور بمراجعة كود الذكاء الاصطناعي سطرًا بسطر، ثم يكتفي بنظرة سريعة، وينتهي به الحال غير قادر على شرح كيف يعمل مشروعه الخاص. هذه المرحلة المتقدمة يسميها «الاستسلام المعرفي» (Cognitive Surrender).\n\nيقترح ست أسئلة للمراجعة الذاتية: هل كوّنت فرضيتك قبل سؤال الذكاء الاصطناعي؟ هل يساعدك على التفكير أم يفكر بدلًا منك؟ كيف تتأكد أن إجابته خاطئة؟ هل فكرت بحل معاكس؟ هل أنت مستعد لتحمل مسؤولية الكود؟ وما المهارات التي توقفت عن ممارستها؟\n\nالفكرة ليست التوقف عن استخدام الذكاء الاصطناعي، بل استخدامه كأداة تطوّر القدرات لا بديلًا عن التفكير. هذا الطرح يهم مباشرة كل من يستخدم أدوات برمجة بمساعدة الذكاء الاصطناعي بشكل يومي، ويتقاطع مع نقاشات أوسع حول جودة الاعتماد على هذه الأدوات في العمل الفعلي.",
+  "why_it_matters": "دعوة عملية للحفاظ على التفكير النقدي عند استخدام أدوات مثل Claude Code وCodex، وهي قضية تمس كل مبرمج يعتمد على هذه الأدوات يوميًا.",
+  "original_text": "الذكاء الاصطناعي قد يتسبب بفقدان المبرمجين لمهاراتهم البرمجية تدريجيًا، وهذا ما حذّر منه المهندس المعروف آدي عثماني (Addy Osmani).\n\nالمشكلة أن التراجع في المهارات ما يحدث بشكل مفاجئ، يبدأ تدريجيًا دون ما ينتبه له المطور.\n\nفي البداية، تستخدم الذكاء الاصطناعي لكتابة الكود وتراجعه سطرًا بسطر، وبعد فترة تبدأ تكتفي بنظرة سريعة، ومع الوقت تصل لمرحلة أنك ما عدت قادرًا حتى على شرح كيف يعمل مشروعك\n\nعثماني يصف المرحلة المتقدمة من هذا الاعتماد بمصطلح «الاستسلام المعرفي» (Cognitive Surrender)، وهي المرحلة التي تتوقف فيها عن التفكير بنفسك وتترك المهمة بالكامل للذكاء الاصطناعي.\n\nعلشان كذا ينصح المطورين بطرح ستة أسئلة على أنفسهم لما يستخدموا الذكاء الاصطناعي:\n\nهل حاولت تكوين فرضيتي الخاصة قبل ما أسأل الذكاء الاصطناعي؟\n\nهل الذكاء الاصطناعي يساعدني على التفكير، أو أنني تركته يفكر بدلًا مني؟\n\nكيف أقدر أتأكد أن إجابة الذكاء الاصطناعي خاطئة؟\n\nهل فكرت في وجهة نظر معاكسة للحل المقترح؟\n\nهل أنا مستعد أتحمل مسؤولية الكود أمام الشخص الذي سيعمل عليه بعدي؟\n\nما المهارات التي توقفت عن ممارستها بسبب اعتمادي على الذكاء الاصطناعي؟\n\nوالفكرة مش أنك تتوقف عن استخدام الذكاء الاصطناعي، بل أنك تستخدمه لتطوير قدراتك بدل ما يصبح بديلًا عن تفكيرك.\n\nلأن المشكلة الحقيقية مش أن الذكاء الاصطناعي أصبح قادرًا على كتابة الكود، بل",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "آدي عثماني"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 13,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 875
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3184",
+  "serial": 3184,
+  "serial_display": "#003184",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2119229301392392221",
+  "source_native_id": "2119229301392392221",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-11-08T00:43:33Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "كاتب يستخدم Claude كوكيل لإنتاج فيديو كامل آليًا",
+  "arabic_summary": "وصف صاحب المنشور تجربته في استخدام Claude كوكيل يدير سلسلة مهام كاملة: جمع أصول الفيديو، تشغيل جلسة Claude Code على جهازه، تحرير المشاهد عبر Blender، استئجار حوسبة سحابية للعرض، ثم رفع النتيجة النهائية ومراجعتها عبر الدردشة. تم إنجاز كل ذلك خلال نصف ساعة فقط دون تدخل يدوي يُذكر.",
+  "detailed_explanation": "القيمة هنا ليست في الأداة بذاتها بل في البنية: استخدام وكيل واحد (Claude) لتنسيق عدة أدوات متخصصة (Blender للرندر، خدمة حوسبة سحابية، تطبيق لإدارة نسخ الفيديو) ضمن تسلسل واحد متصل، دون أن يتدخل المستخدم إلا للمراجعة والموافقة.\n\nهذا النمط من \"الوكيل المنسّق\" (orchestrator agent) يمثل تحولًا في طريقة التفكير بالعمل الإبداعي: بدلًا من أن يقوم الشخص بكل خطوة يدويًا، يصبح دوره إدارة الحوار مع الوكيل ومراجعة المخرجات فقط، بينما يتولى الوكيل تشغيل الأدوات الفرعية وربطها.\n\nرغم أن المنشور لا يفصّل التفاصيل التقنية الدقيقة (كيف تم ربط الأدوات، أو ما الذي يجعل Blender قابلاً للتحكم عبر الوكيل)، إلا أنه يقدّم مثالًا ملموسًا على اتجاه متنامٍ في استخدام Agent للمهام الإبداعية متعددة المراحل.",
+  "why_it_matters": "يوضح نموذجًا عمليًا لاستخدام Agent متعدد الخطوات (تجميع، تحرير، حوسبة، تسليم) كبديل لعملية إنتاج فيديو تقليدية، وهو نمط عمل يهم كل من يبني تدفقات أتمتة بالذكاء الاصطناعي.",
+  "original_text": "never been a better time to be a creative.\n\ntoday while in an uber, i had claude duet use it's vm to gather assets for a video idea i had, i then had duet spin up a claude code session running on my mac mini at home to edit the video using blender for a few visuals. To render the video faster claude code rented compute by the minute on runpod and rendered the blender scenes, then it finished the render on the mac mini, uploaded it to my video version control app and sent me a link on duet where i reviewed the edit. I went back and forth with claude duet 5 times in the matter of 30 minutes until the video was done. Pretty insane process and was just chatting with an agent the whole time.\n\nthis is how i storyboard my video ideas. I make ai mockups of the video before i ever film.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   },
+   {
+    "term": "VM",
+    "ar": "جهاز افتراضي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Claude",
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 31,
+   "replies": 17,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 25,
+   "views": 3086
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3185",
+  "serial": 3185,
+  "serial_display": "#003185",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119091104197050844",
+  "source_native_id": "2119091104197050844",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T15:34:24Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "روبوت Apple HALO يتنقل داخل منازل لم يرها أثناء التدريب",
+  "arabic_summary": "طوّر باحثون في Apple نظامًا يُسمى HALO يمكّن روبوتًا بشري الشكل من التنقل داخل منازل حقيقية لم يدخلها من قبل، بعد تدريبه بالكامل على 1000 منزل افتراضي فقط، محققًا نسبة نجاح 91% عند اختباره في 6 بيئات حقيقية جديدة خلال 360 تجربة.",
+  "detailed_explanation": "طور باحثون من Apple نظام HALO لتمكين روبوت بشري الشكل من أداء مهام تنقل معقدة داخل منازل حقيقية لم يرها مطلقًا أثناء التدريب، مثل المشي نحو أشخاص أو أشياء محددة، والجلوس على الكراسي، والمرور من أبواب مفتوحة جزئيًا، والانحناء أو الزحف تحت الطاولات، ودفع الصناديق.\n\nالفارق الجوهري في منهجية هذا البحث أن التدريب تم بالكامل داخل 1000 منزل افتراضي (محاكاة) دون أي تدريب في بيئة حقيقية، ثم اختُبر الروبوت مباشرة في 6 بيئات منزلية حقيقية جديدة، محققًا نسبة نجاح 91% عبر 360 تجربة.\n\nهذا النهج يقلل بشكل كبير تكلفة ووقت تدريب الروبوتات التي تحتاج عادة لشهور من التدريب الميداني المباشر داخل بيئات حقيقية، ويفتح الباب أمام تعميم القدرات المكتسبة من المحاكاة على بيئات واقعية متنوعة.",
+  "why_it_matters": "يثبت إمكانية تدريب الروبوتات بالكامل في بيئات افتراضية ثم نقل القدرات إلى الواقع دون الحاجة لأشهر من التدريب الميداني المكلف.",
+  "original_text": "Apple تعمل على مشروع غريب في مجال الروبوتات…\n\nباحثون من الشركة طوروا نظام ذكاء اصطناعي يُسمى HALO يجعل الروبوت البشري يتعامل مع منازل حقيقية لم يدخلها ولم يشاهدها خلال التدريب.\n\nالروبوت يستطيع المشي باتجاه أشخاص وأشياء محددة، والجلوس على الكراسي، والمرور من أبواب مفتوحة جزئيًا، والانحناء والزحف تحت الطاولات ودفع الصناديق.\n\nالفارق في التجربة؟\n\nالباحثون استخدموا 1000 منزل افتراضي  ولم يدربوا الروبوت في منازل حقيقية… وبعدها اختبروه في 6 بيئات حقيقية جديدة، وحقق نسبة نجاح بلغت 91% خلال 360 تجربة.\n\nبدل ما يقضوا شهور في تعليم الروبوت داخل البيوت الحقيقية، درّبوه في عالم افتراضي ثم نقلوا ما تعلمه إلى الواقع",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Apple"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 35,
+  "metrics": {
+   "likes": 8,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 2,
+   "views": 2365
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3186",
+  "serial": 3186,
+  "serial_display": "#003186",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2119133311465353675",
+  "source_native_id": "2119133311465353675",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-11-07T18:22:07Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub Copilot يضيف ميزة Projects لتنظيم العمل متعدد المستودعات",
+  "arabic_summary": "ميزة جديدة في تطبيق GitHub Copilot تسمى Projects تتيح تجميع العمل المرتبط ببعضه عبر مستودع واحد أو أكثر أو مهام لا تتطلب مستودعًا أصلاً. يمكن لـ Copilot ضمن المشروع بدء جلسات عمل، إعداد أتمتة متكررة، أو إنشاء مخرجات، وتظهر جميعها مجمّعة ضمن المشروع نفسه.",
+  "detailed_explanation": "تهدف ميزة Projects إلى حل مشكلة تشتت العمل عندما يمتد هدف واحد عبر عدة مستودعات (repos) أو حتى دون مستودع محدد. بدلاً من متابعة كل جلسة عمل بشكل منفصل، يجمّع Copilot كل الأنشطة المرتبطة بهدف واحد -جلسات، أتمتة متكررة، مخرجات (artifacts)- تحت مظلة مشروع واحد.\n\nالفكرة الجوهرية هي إعطاء Copilot \"هدفًا\" (goal) ليتولى تنسيق العمل بنفسه، ما يقترب من نمط الـ Agent الذي يدير مهامًا متعددة الخطوات بدل تنفيذ أوامر منفصلة. هذا يفيد بشكل خاص الفرق التي تعمل على مشاريع تمتد لعدة مستودعات برمجية مترابطة.\n\nالميزة متاحة الآن ضمن تطبيق GitHub Copilot مع رابط توثيق رسمي يشرح كيفية البدء، وهي تندرج ضمن سلسلة تحديثات GitHub حول Copilot خلال فعالية Universe 2026.",
+  "why_it_matters": "ميزة تنظيمية تمسّ GitHub Copilot مباشرة، وهي أداة يستخدمها عزيز، وتغيّر طريقة إدارة المهام متعددة المستودعات مع Agent واحد بدل تشتتها بين جلسات منفصلة.",
+  "original_text": "💡 Bring all your related work together with projects in the GitHub Copilot app.\n\nGive Copilot a goal and it will coordinate the work. Your project can span one or more repos or focus on tasks that don't require one. Copilot can start sessions, set up recurring automations, or create artifacts; they'll show up in your project. 🗂️\n\nKeep your sessions together to work toward one objective. Get started 👇\nhttps://t.co/ToM5IenBvG",
+  "glossary": [
+   {
+    "term": "Artifacts",
+    "ar": "مخرجات/نتاجات العمل"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub Copilot",
+   "GitHub"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 70,
+  "metrics": {
+   "likes": 160,
+   "replies": 41,
+   "reposts": 16,
+   "quotes": 5,
+   "bookmarks": 34,
+   "views": 28913
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [
+   "https://docs.github.com/copilot/how-tos/github-copilot-app/working-with-projects?utm_source=x-social-promoting-projects&utm_medium=social&utm_campaign=post-universe-2026"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3187",
+  "serial": 3187,
+  "serial_display": "#003187",
+  "source_type": "x",
+  "source_url": "https://x.com/itsolelehmann/status/2119051507329036477",
+  "source_native_id": "2119051507329036477",
+  "source_name": "Ole Lehmann",
+  "source_site": "x.com",
+  "author": "itsolelehmann",
+  "published_at": "2026-11-07T12:57:04Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Higgsfield Miracle تتيح تعديل الفيديو لحظيًا عبر MCP مع Claude",
+  "arabic_summary": "أداة Higgsfield Miracle الجديدة تحوّل الفيديو إلى طبقات قابلة للتعديل بدقة البكسل في الوقت الفعلي أثناء تشغيل المقطع، بدلاً من دورات المراجعة التقليدية. الأداة متاحة الآن في نسخة تجريبية خاصة، وستُدمج قريبًا عبر Higgsfield MCP ليُستخدم داخل Claude.",
+  "detailed_explanation": "تعتمد التقنية على \"تحويل أي فيديو إلى طبقات متجهة\" (vectorizing)، أي تفكيك المقطع إلى عناصر منفصلة قابلة للتعديل بدلاً من التعامل معه كصورة مسطحة. هذا يتيح تعديلاً على مستوى البكسل مع معرفة سياقية (world knowledge) مدمجة، ما يعني أن الأداة تفهم محتوى المشهد وليس فقط ألوانه.\n\nالميزة الأبرز هي الدمج المرتقب عبر Higgsfield MCP، ما يجعل هذه القدرة متاحة مباشرة داخل Claude كخادم MCP، وهو نمط متكرر هذه الأيام في ربط أدوات الإنتاج الإبداعي بالـ Agents عبر بروتوكول موحّد بدلاً من واجهات منفصلة لكل أداة.\n\nالأداة حاليًا في مرحلة beta خاصة مع مختبرين مختارين، ما يعني أنها غير متاحة للعموم بعد، لكن الإعلان عن دعم MCP يستحق المتابعة لمن يبني سير عمل فيديو بالذكاء الاصطناعي.",
+  "why_it_matters": "يختصر دورة تعديل الفيديو الطويلة (مشاهدة، ملاحظات، انتظار نسخة جديدة) إلى تعديل فوري أثناء المشاهدة، وهو تغيير جوهري في سير عمل مونتاج الفيديو.",
+  "original_text": "it's so funny\n\ni literally just spent most of today getting annoyed at how long it takes to feedback my video editor\n\ni watch our edit, write timestamped notes on every little thing, send them over, wait for the new version and then do it all over again\n\nbut with Higgsfield Miracle apparently now i can just edit it in real-time while the clip plays?!\n\ni've been praying for a solution like this lol",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Higgsfield",
+   "Claude"
+  ],
+  "change_types": [
+   "Beta / Preview",
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 57,
+  "metrics": {
+   "likes": 32,
+   "replies": 6,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 26,
+   "views": 5675
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "Introducing Higgsfield Miracle.\n\nOur latest proprietary post-production technology vectorizes any video into layers for localized, pixel-level editing in real time, with world knowledge built in. Every frame holds the image depth needed for cinema-grade post-production.\n\nNow in private beta with select testers. Coming soon to Higgsfield MCP.\n\nSet up Higgsfield MCP in Claude to be the first to try "
+  },
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3188",
+  "serial": 3188,
+  "serial_display": "#003188",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2118885411422703703",
+  "source_native_id": "2118885411422703703",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-11-07T01:57:03Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "طريقة لتقليل استهلاك الحدود الأسبوعية في Claude عبر التحكم بـ Premiere Pro",
+  "arabic_summary": "تجربة لمستخدم وجد طريقة لتقليل استهلاك الحدود الأسبوعية في Claude عبر استخدامه للمهام البسيطة والمتكررة مع نماذج مجانية، وجعل Claude يتحكم بالمونتاج داخل برنامج Adobe Premiere Pro مباشرة كتجربة عملية.",
+  "detailed_explanation": "التجربة تسلّط الضوء على مشكلة حقيقية يواجهها مستخدمو Claude المدفوعون: استهلاك سريع للحدود الأسبوعية (weekly limits) المخصصة، خاصة مع الاستخدام المكثف في مهام مثل المونتاج.\n\nالحل المقترح يجمع بين فكرتين: الاستعانة بنماذج مجانية أخرى للمهام البسيطة والمتكررة بدلاً من استهلاك حصة Claude عليها، وتجربة عملية لجعل Claude يتحكم مباشرة بواجهة Adobe Premiere Pro لأداء مهام المونتاج، وهو استخدام غير اعتيادي يُظهر إمكانية ربط Claude ببرامج إنتاج احترافية خارج نطاق الدردشة النصية.\n\nالتفاصيل الكاملة موجودة في فيديو مرفق لم يُنقل نصه، لكن الفكرة العامة -تقليل استهلاك الحدود عبر توزيع المهام بين نماذج مختلفة حسب الصعوبة، إلى جانب أتمتة برامج مونتاج بواسطة Claude- تستحق المتابعة لمن يستخدم الأداة بكثافة.",
+  "why_it_matters": "يقدّم حلاً عمليًا لمشكلة شائعة لدى مستخدمي Claude المدفوعين وهي استنفاد الحدود الأسبوعية بسرعة، وهو ما يمسّ أداة يستخدمها عزيز مباشرة.",
+  "original_text": "RT @fatoomdes: هل فيه طريقة نخفف فيها استهلاك الحدود الأسبوعية في Claude؟ معاناتي مع الاستهلاك خلتني أبحث وأجرّب طرق مختلفة والاستفادة من النماذج المجانية للمهام البسيطة والمتكررة.\nولأن التجربة لازم تكون عملية، خليت Claude يتحكم بالمونتاج داخل Adobe Premiere Pro \nوالنتيجة؟ مثيرة للاهتمام 🔥\nالتفاصيل والتجربة كاملة في الفيديو، مشاهدة ممتعة \nوإذا تعرفون طرق ثانية لتقليل الاستهلاك غير اللي جرّبناها، شاركونا تجاربكم، خلونا نستفيد من بعض",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "فيديو وصوت",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude",
+   "Adobe Premiere Pro"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 78,
+  "metrics": {
+   "likes": 186,
+   "replies": 8,
+   "reposts": 28,
+   "quotes": 1,
+   "bookmarks": 186,
+   "views": 26859
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3189",
+  "serial": 3189,
+  "serial_display": "#003189",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119118838726091110",
+  "source_native_id": "2119118838726091110",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T17:24:37Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تجربة: Claude Code يحلّ مشكلة فشل فيها Codex لأيام",
+  "arabic_summary": "روى صاحب المنشور تجربته مع وكيل برمجي متعدد الأدوار كلّفه أكثر من 160 دولارًا، حيث فشل Codex في تشخيص الخلل خلال يومين من البحث، بينما حدد Claude Code المشكلة من أول محاولة واكتشف ثغرات أمنية إضافية وأصلح كل شيء خلال أقل من ربع ساعة.",
+  "detailed_explanation": "صاحب المنشور بنى نظام Agent متكيفًا متعدد الأدوار، وواجه مشكلة أدت لارتفاع التكلفة إلى أكثر من 160 دولارًا خلال خمسة أيام. استخدم Codex أولًا لمحاولة فهم المشكلة لكنه لم يصل لنتيجة بعد يومين من البحث.\n\nعند اللجوء إلى Claude Code وطلب \"فحص تجميعي\" لفهم البيئة بالكامل، تمكن الأخير من حصر المشكلة في جزأين خلال أول محاولة، واكتشف أيضًا خللين إضافيين غير مرتبطين بالمشكلة الأصلية لكن بأولوية إصلاح عالية، من بينها ثغرات أمنية لم يكشفها Codex.\n\nتم حل المشكلة بالكامل خلال أقل من ربع ساعة، مع تقديم Claude Code لمقترحات تطوير وخطة متابعة. التجربة تعكس فارقًا عمليًا ملموسًا بين الأداتين في سياق تشخيص الأخطاء المعقدة ضمن أنظمة وكلاء متعددة الأدوار.",
+  "why_it_matters": "تجربة مباشرة من مستخدم تقارن أداء أداتين فعليتين (Codex و Claude Code) في تشخيص مشكلات برمجية معقدة، وتفيد من يختار بينهما لمهام تطوير حقيقية.",
+  "original_text": "مشكلة فشل فيها Codex أما Claude حلها 10/10\n\nبنيت Agent متكيف ومتعدد الأدوار والأمور طيبة وكل شيء تمام ولكن بعد 5 أيام وصلت التكلفة 161.6 دولار \n\nحاولت افهم شو اللي صاير واستخدمت Codex يومين نبحث ونفحص وبدون فائدة. \n\nوما كنت بصراحة حاط في بالي استخدم Claude Code بسبب حاجتي للتوكنز لمشروع أخر اشتغل عليه بنفس الوقت\n\nبس قلت بستخدمه للفحص\nشرحت له المشكلة وطلبت منه (فحص تجميعي) منه يفهم الـبيئة ومنه يشوف الخلل\n\n✔️ من أول مرة حصر المشكلة في جزئين واكتشف حاجاتين خطأ (ما لهم ارتباط بمشكلتي) بس درجة اصلاحهم عالية.\n\nوخلال اقل من ربع ساعة حلينا المشكلة واصلحنا الاخطاء (اللي ما كشفها Codex)وبينهم ثغرات أمنية\n\nوالأجمل… قدم مقترحات للتطوير وخطة متابعة وتقييم للوضع.\n\nClaude Code ما زال يفرض قوته وحضوره.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 54,
+  "metrics": {
+   "likes": 24,
+   "replies": 3,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 24,
+   "views": 7093
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3190",
+  "serial": 3190,
+  "serial_display": "#003190",
+  "source_type": "x",
+  "source_url": "https://x.com/emollick/status/2119140502746308674",
+  "source_native_id": "2119140502746308674",
+  "source_name": "Ethan Mollick",
+  "source_site": "x.com",
+  "author": "emollick",
+  "published_at": "2026-11-07T18:50:42Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: النماذج الحديثة تفوق الخبراء في التحقق من الحقائق",
+  "arabic_summary": "يرى الكاتب أن المخاوف الشائعة من أخطاء الذكاء الاصطناعي الواقعية لم تعد مبررة بنفس القدر، مستشهدًا ببيانات حديثة تُظهر أن النماذج المتقدمة تتفوق على الخبراء، بمن فيهم حملة الدكتوراه، في إيجاد الحقائق والتحقق من الادعاءات.",
+  "detailed_explanation": "الرأي يستند إلى إشارة لبيانات حديثة (دون تفصيل دقيق لمصدرها داخل النص نفسه) تفيد بأن النماذج الحديثة أصبحت أدق من الخبراء البشريين في مهام التحقق من الحقائق، وهو ادعاء يخالف التصور الشائع بأن الذكاء الاصطناعي عرضة للهلوسة أكثر من البشر.\n\nإن صحّ هذا الاتجاه، فإنه يحمل أثرًا عمليًا مباشرًا: تقليل الحاجة للمراجعة اليدوية المكثفة لمخرجات النماذج في سياقات العمل العادية، وربما إعادة توزيع الجهد البشري نحو مهام أخرى بدلًا من التدقيق الروتيني.\n\nمع ذلك، يبقى هذا رأيًا شخصيًا من كاتب معروف باهتمامه بالذكاء الاصطناعي، وليس بحثًا منشورًا بتفاصيله الكاملة في المنشور نفسه، لذا تجدر قراءته كموقف تحليلي لا كنتيجة علمية موثقة بالكامل.",
+  "why_it_matters": "إذا صحّ هذا الاتجاه فإنه يغيّر طريقة تعامل المؤسسات مع مخرجات الذكاء الاصطناعي في العمل اليومي، ويقلّل من الحاجة لطبقات التحقق اليدوي المكثفة.",
+  "original_text": "I think there is way too much concern expressed about verification of AI output in everyday work due to a risk of factual errors.\n\nIt used to be true, but data on more recent models suggest they beat human experts, including PhD specialists, in finding facts and checking claims. https://t.co/OVlzW3S17n",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 91,
+  "metrics": {
+   "likes": 852,
+   "replies": 158,
+   "reposts": 109,
+   "quotes": 33,
+   "bookmarks": 430,
+   "views": 55684
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3191",
+  "serial": 3191,
+  "serial_display": "#003191",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2118988118531432657",
+  "source_native_id": "2118988118531432657",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-11-07T08:45:11Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "Higgsfield تطلق Miracle لتعديل الفيديو بعد التصوير",
+  "arabic_summary": "كشفت Higgsfield عن تقنية Miracle التي تتيح تعديل الفيديو بعد تصويره دون إعادة التصوير، مثل حذف عنصر من الخلفية أو تغيير لون الملابس. التقنية تحلل الفيديو وتفصل عناصره إلى طبقات قابلة للتعديل بشكل لحظي.",
+  "detailed_explanation": "تعتمد تقنية Miracle على تحليل الفيديو والتعرف على العناصر الموجودة فيه ثم فصلها إلى طبقات مستقلة، بحيث يمكن تعديل عنصر واحد دون المساس بباقي المشهد. هذا يختلف عن طرق المونتاج التقليدية التي تتطلب تعديل كل لقطة يدويًا ببرامج متخصصة.\n\nالتقنية حاليًا في مرحلة تجريبية لمستخدمين محددين، لكن الأهم أنها ستتوفر قريبًا عبر Higgsfield MCP، مما يعني إمكانية استدعاء هذه القدرة من داخل Claude مباشرة، وهو ما يربطها ببنية الوكلاء وسير العمل المعتمد على MCP بدل أداة منفصلة.\n\nإن صحّ أداء الشركة كما تعد، فهذا يمثل نقلة في سير عمل تعديل الفيديو، خصوصًا لمن يعمل بكثافة على مقاطع قصيرة ويحتاج تعديلات سريعة بدون العودة لبرامج المونتاج الثقيلة.",
+  "why_it_matters": "يختصر وقت المونتاج اليدوي لصناع المحتوى، وسيتوفر عبر Higgsfield MCP للاستخدام من خلال Claude.",
+  "original_text": "تعديل الفيديو صار أسهل مع الذكاء الاصطناعي!\n\nكشفت شركة Higgsfield عن تقنية جديدة اسمها Miracle، تسمح لك تعدّل على الفيديو بعد تصويره بدون ما تعيد تصويره من جديد!\n\nيعني مثلًا، صورت مقطع واكتشفت إن فيه شخص بالخلفية ما تبيه، أو ودك تغيّر لون ملابسك، أو تشيل غرض من الطاولة.\n\nبدل ما تدخل برامج مونتاج وتعدل كل لقطة يدويًا، تقدر تطلب من الذكاء الاصطناعي يسوي التعديل لك.\n\nطيب كيف تشتغل؟\n\nالتقنية تحلل الفيديو وتتعرف على العناصر الموجودة فيه، وتفصلها إلى طبقات، عشان تقدر تعدّل جزء معين بدون ما تغيّر باقي المشهد.\n\nوالشركة تقول إن التعديلات ممكن تظهر بشكل لحظي، وبدقة عالية جدًا.\n\nمتى تتوفر؟\n\nحاليًا تحت التجربة لمستخدمين محددين، وقريبًا بتتوفر من خلال Higgsfield MCP، اللي يسمح باستخدام أدواتها عبر Claude.\n\nإذا نجحت التقنية مثل ما تعد الشركة، ممكن تختصر وقت كبير على صناع المحتوى والمونتيرين. https://t.co/XutKRD63N1",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول يربط الأدوات الخارجية بنماذج الذكاء الاصطناعي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "فيديو ومونتاج",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Higgsfield",
+   "Claude"
+  ],
+  "change_types": [
+   "New Release",
+   "MCP Support"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 45,
+  "metrics": {
+   "likes": 10,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 11,
+   "views": 1894
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [
+   "https://x.com/higgsfield/status/2118732716346933423/video/1"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3192",
+  "serial": 3192,
+  "serial_display": "#003192",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2119111554469974235",
+  "source_native_id": "2119111554469974235",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-11-07T16:55:40Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Anthropic تنشر بحثًا عن مكوّنات ذاكرة الوكلاء",
+  "arabic_summary": "نشرت Anthropic ورقة بحثية بعنوان 'Components of Agent Memory' تتناول كيفية بناء أنظمة ذاكرة للوكلاء الذكية (Agents)، وأوصى بها مهندسون بارزون كقراءة مفيدة.",
+  "detailed_explanation": "المنشور عبارة عن توصية بقراءة بحث نشرته Anthropic يتناول مكوّنات الذاكرة في أنظمة الوكلاء (Agent Memory)، وهو موضوع مركزي في تطوير الوكلاء القادرين على الاستمرار عبر جلسات طويلة والاحتفاظ بالسياق.\n\nرغم أن المنشور لا يفصّل محتوى البحث نفسه، إلا أن الإشارة إليه من مهندسين معروفين في المجال تدل على أهميته لمن يصمم أو يبني أنظمة وكلاء تعتمد على الذاكرة طويلة المدى، وهي مشكلة تقنية مشتركة بين مختلف تطبيقات الـ Agent اليوم.\n\nيستحق المتابعة لأي شخص يعمل على بناء Agent يحتاج لذاكرة مستمرة بدل الاعتماد الكامل على Context Window محدود في كل جلسة.",
+  "why_it_matters": "موضوع الذاكرة في الوكلاء أساسي لفهم كيفية بناء أنظمة Agent أكثر استمرارية وفاعلية، وهو مجال يتطور بسرعة ويمس بنية الوكلاء التي يستخدمها عزيز.",
+  "original_text": "RT @badlogicgames: recommended reading.\n\nhttps://t.co/zcaLBqTfjR",
+  "glossary": [
+   {
+    "term": "Agent Memory",
+    "ar": "ذاكرة الوكيل، آلية تمكّن الوكيل الذكي من الاحتفاظ بالسياق عبر الزمن"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Anthropic"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 99,
+  "metrics": {
+   "likes": 1061,
+   "replies": 25,
+   "reposts": 84,
+   "quotes": 5,
+   "bookmarks": 1597,
+   "views": 67250
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [
+   "https://www.anthropic.com/research/components-of-agent-memory"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3193",
+  "serial": 3193,
+  "serial_display": "#003193",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119108482993651906",
+  "source_native_id": "2119108482993651906",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T16:43:28Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "روبوت بشري يتوقع حركة الأشخاص حتى عند اختفائهم مؤقتًا",
+  "arabic_summary": "طور باحثون نظامًا يُسمى Social Humanoid، طُبّق على روبوت Unitree G1، يمكّن الروبوت من توقع حركة الشخص المتفاعل معه والتكيف معها حتى عند اختفائه مؤقتًا عن مجال الرؤية، بعد تدريبه على بيانات تعادل 260 ساعة من التفاعلات الحركية البشرية.",
+  "detailed_explanation": "يقدم النظام المسمى Social Humanoid قدرة جديدة للروبوتات البشرية الشكل، إذ لا يكتفي الروبوت بالاستجابة لحركة الشخص المقابل بعد حدوثها، بل يتوقعها مسبقًا ويكيّف حركته بناءً على هذا التوقع، حتى في حالات اختفاء الشخص مؤقتًا عن مجال رؤية الروبوت.\n\nطُبق النظام على روبوت Unitree G1 الذي يمتلك 29 درجة حرية حركية، بعد تدريبه على بيانات ضخمة تعادل 260 ساعة من التفاعلات الحركية بين البشر، ما يمنحه قدرة على فهم أنماط الحركة البشرية المتوقعة بدل الاكتفاء برصد الحركة اللحظية فقط.",
+  "why_it_matters": "خطوة تقنية نحو تفاعل أكثر طبيعية بين الإنسان والروبوت يتجاوز رد الفعل الآني إلى التوقع الاستباقي للحركة.",
+  "original_text": "روبوت بشري يستطيع توقع حركات الأشخاص، حتى عند اختفائهم مؤقتًا عن مجال رؤيته!\n\nطور باحثون نظام يُسمى Social Humanoid، وطُبق على روبوت Unitree G1 ذي 29 درجة حرية، بعد تدريبه على بيانات تعادل 260 ساعة من التفاعلات الحركية البشرية.\n\nالروبوت لا يكتفي برد الفعل إنما يتعداه إلى توقع حركة شريكه ويُكيّف حركاته معها.\n\nخطوة كبيرة نحو تفاعل أكثر طبيعية بين البشر والروبوتات.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [
+   "Unitree"
+  ],
+  "change_types": [
+   "Research Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 32,
+  "metrics": {
+   "likes": 4,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 2176
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3194",
+  "serial": 3194,
+  "serial_display": "#003194",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119105652476059791",
+  "source_native_id": "2119105652476059791",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-07T16:32:13Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "أمازون تتيح التسوق عبر الرسائل النصية مع مساعدها Alexa",
+  "arabic_summary": "أطلقت Amazon ميزة جديدة تتيح للمستخدمين التسوق عبر إرسال رسائل نصية عادية أو صور منتجات إلى Alexa، ليقوم المساعد بالبحث والمقارنة واقتراح المنتجات، ثم إضافتها للسلة وإتمام الشراء بعد موافقة المستخدم، دون الحاجة لفتح تطبيق أو موقع.",
+  "detailed_explanation": "تتيح الميزة الجديدة من Amazon للمستخدمين التفاعل مع مساعدها الذكي Alexa عبر الرسائل النصية العادية بدلًا من تطبيق التسوق أو الموقع الإلكتروني المخصص. يمكن للمستخدم وصف ما يحتاجه بلغة طبيعية، أو إرسال صورة لمنتج يريد شيئًا مشابهًا له.\n\nيتولى Alexa بعد ذلك مهام البحث والمقارنة بين المنتجات المتاحة، واقتراح الخيارات المناسبة، ثم يمكنه إضافة المنتج المختار إلى سلة المشتريات وإتمام عملية الطلب بعد موافقة صريحة من المستخدم، ما يقلل عدد الخطوات اللازمة لإتمام عملية شراء كاملة.",
+  "why_it_matters": "يحوّل تجربة التسوق الإلكتروني من واجهة تطبيق تقليدية إلى محادثة طبيعية، ما يبسط عملية الشراء ويقلل الخطوات اللازمة لإتمامه.",
+  "original_text": "Amazon تطلق التسوق عبر الرسائل النصية \n\nبدأت Amazon إتاحة طريقة جديدة للتسوق تسمح للمستخدم بالتعامل مع مساعدها الذكي Alexa عبر الرسائل النصية العادية، دون الحاجة إلى فتح تطبيق التسوق أو الموقع الإلكتروني.\n\nيمكن للمستخدم كتابة ما يحتاجه بلغة طبيعية، أو إرسال صورة لمنتج يبحث عن شيء مشابه له. ويتولى Alexa البحث والمقارنة واقتراح المنتجات، ثم يستطيع إضافتها إلى سلة المشتريات وإتمام الطلب بموافقة المستخدم.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "Amazon",
+   "Alexa"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 15,
+  "metrics": {
+   "likes": 1,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 1704
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3195",
+  "serial": 3195,
+  "serial_display": "#003195",
+  "source_type": "x",
+  "source_url": "https://x.com/mattpocockuk/status/2118972223470153731",
+  "source_native_id": "2118972223470153731",
+  "source_name": "Matt Pocock",
+  "source_site": "x.com",
+  "author": "mattpocockuk",
+  "published_at": "2026-11-07T07:42:01Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تقنية prompt لتقليل الفوضى البرمجية في أكواد الذكاء الاصطناعي",
+  "arabic_summary": "مطوّر يشارك prompt نصّه «deepen modules and simplify interfaces» يستخدمه مع أدوات البرمجة بالذكاء الاصطناعي لتحسين جودة الكود الناتج. يقول إنه يساعد في دمج الوظائف المتكررة وتقليل عدد الأسطر، ويطبّقه بشكل دوري تلقائي. الفكرة مستوحاة من كتاب Philosophy of Software Design.",
+  "detailed_explanation": "",
+  "why_it_matters": "تقنية prompt عملية يمكن لأي مطوّر يستخدم أدوات البرمجة بالذكاء الاصطناعي تطبيقها مباشرة لتحسين جودة الكود المولّد.",
+  "original_text": "RT @_khrus: The anti-slop ai coding prompt I’ve found the most success with is definitely “deepen modules and simplify interfaces”\n\nIt does such a good job with deduplication and centralization of core functionality, and gets the ai implementing much better levels of abstraction\n\nIt’s led to tons of consistency improvements, bug fixes, and, most rewardingly, reduced LOC. I run a deepening pass on every PR, and a nightly automation to tackle overdue maintenance\n\nComes from @JohnOusterhout’s Philosophy of Software Design (highly recommend), which I had read but didn’t fully leverage until @mattpocockuk put me onto it",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجِّه نصي"
+   },
+   {
+    "term": "LOC",
+    "ar": "عدد أسطر الكود"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 1713,
+   "replies": 51,
+   "reposts": 63,
+   "quotes": 10,
+   "bookmarks": 2593,
+   "views": 70000
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3196",
+  "serial": 3196,
+  "serial_display": "#003196",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2119114252149751925",
+  "source_native_id": "2119114252149751925",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-11-07T17:06:23Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "قائمة عشرة مشاريع مفتوحة المصدر لتحويل وكلاء AI لأعمال إبداعية",
+  "arabic_summary": "خيط تغريدات يجمع عشرة مشاريع مفتوحة المصدر تساعد وكلاء الذكاء الاصطناعي على إنتاج ألعاب، مواقع، تصميم حركي (motion design)، وجرافيك، إضافة إلى أدوات لتسهيل workflows إبداعية. صاحب المنشور يدعو المتابعين للاطلاع على المستودعات (repos) في الخيط.",
+  "detailed_explanation": "",
+  "why_it_matters": "يوفر مجموعة جاهزة من الأدوات مفتوحة المصدر يمكن للمطورين والمصممين البناء عليها مباشرة لدمج الذكاء الاصطناعي في أعمال إبداعية تقنية.",
+  "original_text": "10 open source projects to turn AI agents into creative beasts:\n\n// games, websites, motion & graphics design, and tools for creative workflows\n\nSteal the repos below 🧵 https://t.co/FI0nFxp258",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 78,
+   "replies": 13,
+   "reposts": 8,
+   "quotes": 3,
+   "bookmarks": 111,
+   "views": 6096
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "amir-10-oss-agent-projects",
+  "also_reported": [
+   {
+    "author": "AmirMushich",
+    "url": "https://x.com/AmirMushich/status/2119162697216639314"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3197",
+  "serial": 3197,
+  "serial_display": "#003197",
+  "source_type": "x",
+  "source_url": "https://x.com/AmirMushich/status/2118990046695178269",
+  "source_native_id": "2118990046695178269",
+  "source_name": "AmirMušić",
+  "source_site": "x.com",
+  "author": "AmirMushich",
+  "published_at": "2026-11-07T08:52:50Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "تصميم زجاجة فاخرة ثلاثي الأبعاد بواسطة Opus 5.5 في المتصفح",
+  "arabic_summary": "مطوّر استخدم نموذج Opus 5.5 لإنشاء تصميم ثلاثي الأبعاد لزجاجة فاخرة يعمل مباشرة داخل المتصفح باستخدام مكتبة three.js، ونشر الكود كاملًا في ملف HTML واحد مفتوح المصدر مع رابط تجربة حية.",
+  "detailed_explanation": "",
+  "why_it_matters": "يُظهر قدرة نموذج Opus 5.5 العملية في التصميم ثلاثي الأبعاد والتوجيه الفني (art direction)، وهو مثال ملموس يمكن المصممين والمطورين البناء عليه مباشرة.",
+  "original_text": "RT @AmirMushich: Opus 5.5 is great in 3D & art direction\n\nI built this premium bottle design rendered in the browser - all in three.js\n\nOpen source, one HTML file:\nLive: https://t.co/8ff9rWjFsB\nCode: https://t.co/zCKcVsVKrd https://t.co/sDTkxlIBtl",
+  "glossary": [
+   {
+    "term": "three.js",
+    "ar": "مكتبة جافاسكربت لعرض رسوميات ثلاثية الأبعاد في المتصفح"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Opus 5.5",
+   "three.js"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 136,
+   "replies": 18,
+   "reposts": 13,
+   "quotes": 1,
+   "bookmarks": 156,
+   "views": 8468
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3198",
+  "serial": 3198,
+  "serial_display": "#003198",
+  "source_type": "x",
+  "source_url": "https://x.com/SamiBizConsult/status/2119188203647508557",
+  "source_native_id": "2119188203647508557",
+  "source_name": "سامي المحيميد | مستشار تطوير أعمال",
+  "source_site": "x.com",
+  "author": "SamiBizConsult",
+  "published_at": "2026-11-07T22:00:15Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تغييرات في خوارزميات منصة X تؤثر على وصول الردود والمحتوى",
+  "arabic_summary": "تحديث في قواعد منصة X هذا الأسبوع يجعل الردود المصنّفة 'عالية الخطورة' لا تصل إشعاراتها لغير المتابعين، كما أن الصور والفيديوهات المقيّدة في دولة معينة تظهر لصاحب الحساب لكن لا تظهر هناك فعليًا. المصدر يشير أيضًا لميزات ترتيب فيديو موجودة في الكود المفتوح المصدر لكنها غير مفعّلة بعد.",
+  "detailed_explanation": "",
+  "why_it_matters": "فهم هذه التغييرات يفيد صناع المحتوى الذين يعتمدون على X في توزيع منشوراتهم وقياس وصولها الفعلي.",
+  "original_text": "حاس ان تغريداتك ما توصل؟ \n منصة X حدثت قواعدها هذا الاسبوع :\n\n1. الرد المصنف عالي الخطورة لا يصل اشعاره لمن لا يتابعك\n2. الصور والفيديو المقيدة في دولة لا تظهر هناك، وانت تشوفها عادي\nوقادم: ميزات لترتيب الفيديو موجودة في الكود لكنها غير مفعلة.\n\nالمصدر: كود X المفتوح المصدر. https://t.co/xAylbHqSjA",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى"
+  ],
+  "entities": [
+   "X"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 34,
+  "metrics": {
+   "likes": 6,
+   "replies": 0,
+   "reposts": 1,
+   "quotes": 0,
+   "bookmarks": 1,
+   "views": 424
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3199",
+  "serial": 3199,
+  "serial_display": "#003199",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2119138682657796606",
+  "source_native_id": "2119138682657796606",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-11-07T18:43:28Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "ميزة جديدة في تطبيق Claude Desktop لإدارة مساحة التخزين",
+  "arabic_summary": "أضيفت صفحة /storage لتطبيق Claude على سطح المكتب، تتيح للمستخدم معرفة مقدار مساحة القرص التي يستخدمها Claude، وحذف المهام غير النشطة ومساحات العمل غير المستخدمة.",
+  "detailed_explanation": "",
+  "why_it_matters": "ميزة عملية صغيرة لكنها مباشرة لمستخدمي Claude Desktop الذين يحتاجون إدارة استهلاك القرص من جلسات العمل المتراكمة.",
+  "original_text": "RT @lydiahallie: We recently added /storage to the desktop app!\n\nYou can see how much disk space Claude is using on your computer and clear out inactive tasks and unused worktrees. https://t.co/rzutgd2DqZ",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3809,
+   "replies": 267,
+   "reposts": 156,
+   "quotes": 69,
+   "bookmarks": 966,
+   "views": 201112
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3200",
+  "serial": 3200,
+  "serial_display": "#003200",
+  "source_type": "x",
+  "source_url": "https://x.com/addyosmani/status/2118958843501920268",
+  "source_native_id": "2118958843501920268",
+  "source_name": "Addy Osmani",
+  "source_site": "x.com",
+  "author": "addyosmani",
+  "published_at": "2026-11-07T06:48:51Z",
+  "fetched_at": "2026-11-08T01:15:43Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "نصيحة لتقصير مخرجات Claude Code عبر وضع Concise",
+  "arabic_summary": "يشرح آدي عثماني طريقة تفعيل نمط العرض Concise في Claude Code للحصول على نتائج مختصرة ومباشرة بدل الشروحات الطويلة، عبر أمر /config أو تعديل ملف الإعدادات مباشرة.",
+  "detailed_explanation": "",
+  "why_it_matters": "نصيحة عملية مباشرة لمستخدمي Claude Code لتحسين كفاءة التفاعل اليومي مع الأداة.",
+  "original_text": "Tip: Switch Claude Code's output style to Concise to get short, straight-to-the-point results.\n\nEnable it via /config → Output style, or add \"outputStyle\": \"Concise\" directly to your settings.json.\n\nYou can still get the full details when you ask. https://t.co/xdjC3SXbOp",
+  "glossary": [
+   {
+    "term": "Output style",
+    "ar": "نمط العرض، شكل تنسيق مخرجات الأداة"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 93,
+  "metrics": {
+   "likes": 1084,
+   "replies": 127,
+   "reposts": 61,
+   "quotes": 24,
+   "bookmarks": 636,
+   "views": 67456
+  },
+  "metrics_captured_at": "2026-11-08T01:15:43Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
