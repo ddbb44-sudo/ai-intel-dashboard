@@ -1,0 +1,1225 @@
+[
+ {
+  "id": "c3201",
+  "serial": 3201,
+  "serial_display": "#003201",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2119497605088419884",
+  "source_native_id": "2119497605088419884",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-11-08T18:29:42Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Meta تفتح مصدر نظام تصميمها Astryx مع دعم MCP",
+  "arabic_summary": "فتحت Meta مصدر نظام التصميم الداخلي الذي تستخدمه في أكثر من 13 ألف تطبيق، باسم Astryx، وجعلته متوافقًا مع وكلاء الذكاء الاصطناعي. يضم أكثر من 150 مكوّن React جاهزًا، و7 سمات تصميم، بالإضافة إلى CLI وخادم MCP يتيح لوكلاء مثل Claude Code وGrok قراءة التوثيق الحقيقي بدل تخمين الخصائص.",
+  "detailed_explanation": "يكشف المنشور عن إطلاق Meta لنظام تصميم مفتوح المصدر يُدعى Astryx، وهو نفس النظام المستخدم داخليًا عبر آلاف تطبيقاتها، لكنه معدّل خصيصًا ليعمل مع وكلاء الذكاء الاصطناعي البرمجية مثل Claude Code وGrok.\n\nيتضمن النظام أكثر من 150 مكوّن React جاهز (أزرار، نماذج، جداول، نوافذ حوار) مع دعم الوضع الداكن، إضافة إلى 7 سمات تصميم جاهزة. الإضافة الأهم هي أداة CLI وخادم MCP مخصّصين للوكلاء، بحيث يمكن للوكيل قراءة التوثيق الفعلي للمكوّنات بدل اختلاق خصائص غير موجودة، وهي مشكلة شائعة عند توليد الواجهات آليًا.\n\nالمنشور يشرح أيضًا خطوات التثبيت والربط مع Claude Code عبر ملف CLAUDE.md وملف إعداد MCP، وكيفية استخدامه مع أي وكيل آخر يدعم MCP عن بعد.",
+  "why_it_matters": "يمنح المطورين الذين يستخدمون وكلاء ذكاء اصطناعي لبناء الواجهات مصدرًا موثوقًا للمكوّنات بدل اعتماد النموذج على تخمينات، مما يقلّل الأخطاء في الواجهات المولّدة آليًا.",
+  "original_text": "this is wild...\n\nMeta just open-sourced the design system behind 13,000+ of its apps, adapted for AI agents.\n\nyour AI agent can finally build UI that doesn’t look like AI built it\n\nhere’s how to plug Astryx into Claude and GrokBot agents:\n\nfirst understand what you get:\n\n• 150+ accessible React components: buttons, forms, dialogs, tables, dark mode included\n• 7 ready-made themes: neutral, butter, chocolate, matcha, stone, gothic, y2k\n• a CLI + MCP server built for AI, so your agent reads the real docs instead of inventing props\n\nhere’s how to set it up for Claude & Grok:\n\n1 → open Claude Code in the folder of your project (React 19+)\n\n2 → say: “Install @astryxdesign/cli and run astryx init --features agents to set up your Astryx context. Read the generated file.”\n\n3 → it writes the rules straight into your CLAUDE.md: component index, CLI reference, and what never to do (no raw divs, no inline styles, no magic values)\n\n4 → now every page starts the same way: astryx build “<your idea>“ picks a template → astryx template scaffolds it → astryx component reads the props\n\n5 → want Claude to query the docs live? add the MCP server to .mcp.json: https://t.co/vxXQnKCsDU\n\n6 → for Grok or any",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات والبيانات"
+   },
+   {
+    "term": "CLI",
+    "ar": "واجهة سطر الأوامر"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "MCP",
+   "نموذج"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Meta",
+   "Astryx",
+   "Claude",
+   "Claude Code"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release",
+   "MCP Support"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 144,
+   "replies": 34,
+   "reposts": 14,
+   "quotes": 0,
+   "bookmarks": 128,
+   "views": 7109
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [
+   "https://astryx.atmeta.com/mcp"
+  ],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/4qTQfdoerp"
+  },
+  "cluster_id": "astryx-meta",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2119531608818483699"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3202",
+  "serial": 3202,
+  "serial_display": "#003202",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119284695687192977",
+  "source_native_id": "2119284695687192977",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-08T04:23:40Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "ثغرة في Claude Code تكشف كلمات مرور عبر ملف إعدادات",
+  "arabic_summary": "اكتشف باحثون أن الضغط على خيار \"لا تسألني مجددًا\" في Claude Code قد يحفظ الأوامر كاملة بما فيها كلمات المرور في ملف إعدادات محلي، ونشره بالخطأ على GitHub يكشف الأسرار. فحصت شركة Apiiro مستودعات عامة ورصدت آلاف الأسرار المحتملة الحساسية.",
+  "detailed_explanation": "تتعلق الثغرة بخاصية في Claude Code تسمح للمستخدم بالموافقة على أمر معيّن والضغط على خيار \"لا تسألني مجددًا\"، فيقوم البرنامج بحفظ الأمر كاملًا — بما يتضمنه أحيانًا من كلمات مرور أو مفاتيح وصول — داخل ملف إعدادات محلي على جهاز المستخدم.\n\nالمشكلة تظهر حين ينشر المبرمج هذا الملف بالخطأ على GitHub ضمن مستودع المشروع، فتصبح تلك الأسرار مكشوفة للعموم. وقد فحصت شركة الأمن السيبراني Apiiro مستودعات عامة ورصدت 2539 سرًا محتمل الحساسية موزعة على 1994 مستودعًا تخص 63 مؤسسة.\n\nيحذّر المنشور من أن مجرد حذف الملف لاحقًا قد لا يكفي لحماية البيانات، لأن النسخ القديمة قد تبقى محفوظة في سجل Git التاريخي للمشروع. وتُقترح إجراءات وقائية مباشرة: تجنّب وضع كلمات المرور داخل الأوامر مباشرة، وإضافة ملف `.claude/settings.local.json` إلى `.gitignore`، ومراجعة ملفات الإعدادات وسجل Git قبل النشر العام.",
+  "why_it_matters": "ثغرة أمنية تمسّ أداة برمجة يستخدمها مطوّرون مباشرة، وقد تؤدي لتسريب بيانات اعتماد حقيقية إذا لم يُتخذ إجراء وقائي.",
+  "original_text": "ضغطة «لا تسألني مجددًا» تكشف آلاف الأسرار على GitHub\n\nباحثون يكتشفون ثغرة خطيرة في Claude Code: ضغطة واحدة على خيار (نعم، ولا تسألني مجددًا) قد تتسبب في كشف كلمة مرور! السبب أن البرنامج قد يحفظ الأمر الذي وافق عليه المستخدم كاملًا، بما فيه كلمات المرور أو مفاتيح الوصول، داخل ملف إعدادات محلي.وإذا نشر المبرمج ذلك الملف بالخطأ على GitHub، تصبح الأسرار مكشوفة.\nشركة Apiiro فحصت مستودعات عامة، ورصدت 2539 سرًا محتمل الحساسية في 1994 مستودعًا، تخص 63 مؤسسة. والأخطر أن حذف الملف لاحقًا قد لا يكفي، لأن نسخه القديمة قد تبقى محفوظة في سجل المشروع.\n\n± كيف تحمي نفسك؟\nإذا كنت تستخدم Claude Code:\n- لا تضع كلمات المرور مباشرة داخل الأوامر\n- أضف .claude/settings.local.json إلى ملف .gitignore الخاص بالمشروع.\n- راجع ملفات الإعدادات قبل نشر المشروع.\n- افحص سجل Git، وليس الملفات الحالية فقط.",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "GitHub",
+   "Apiiro"
+  ],
+  "change_types": [
+   "Security"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 22,
+   "replies": 0,
+   "reposts": 2,
+   "quotes": 0,
+   "bookmarks": 14,
+   "views": 3342
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3203",
+  "serial": 3203,
+  "serial_display": "#003203",
+  "source_type": "x",
+  "source_url": "https://x.com/0xMovez/status/2119444022657712593",
+  "source_native_id": "2119444022657712593",
+  "source_name": "Movez",
+  "source_site": "x.com",
+  "author": "0xMovez",
+  "published_at": "2026-11-08T14:56:47Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "أداة BLA تحمي الأكواد من الهندسة العكسية بالذكاء الاصطناعي",
+  "arabic_summary": "مشروع مفتوح المصدر باسم BLA يهدف لمقاومة أدوات الهندسة العكسية التي تستنسخ منطق التطبيقات باستخدام الذكاء الاصطناعي، عبر زرع فخاخ وهمية وملفات تستنزف موارد أدوات التحليل. يعمل عبر وكلاء مثل Claude Code وCursor وCodex وGemini CLI.",
+  "detailed_explanation": "يعرض المنشور أداة مفتوحة المصدر تُدعى BLA صُممت كردّ فعل على أداة أخرى تُدعى REA قادرة على استنساخ المنطق الداخلي للتطبيقات بتكلفة زهيدة باستخدام الذكاء الاصطناعي. تعمل BLA عبر زرع 'فخاخ' وهمية ومنطق خادع داخل الكود، إضافة إلى ملفات مصممة لاستنزاف حدود أدوات التحليل الآلي، بحيث يحتاج أي محاولة هندسة عكسية إلى استهلاك مئات أو آلاف أضعاف الـ Tokens دون التأثير على عمل التطبيق الحقيقي الذي يبقى كما هو (تم اختباره على 14 حالة).\n\nتُثبَّت الأداة عبر أمر واحد يربطها تلقائيًا بعدة وكلاء برمجية مثل Claude Code وCursor وCodex وWindsurf وGemini CLI، ثم يكفي أن يطلب المستخدم من الوكيل 'تحصين البرنامج ضد REA' ليقوم الوكيل بتنفيذ الدورة كاملة من التخطيط إلى التحقق تلقائيًا.",
+  "why_it_matters": "يطرح مقاربة جديدة لحماية الأكواد البرمجية في عصر أصبحت فيه أدوات الذكاء الاصطناعي قادرة على استنساخ منطق التطبيقات بسرعة وتكلفة منخفضة جدًا.",
+  "original_text": "The ultimate weapon against REA reverse engineering is here!\n\nChinese student just f*cked all Reverse Engineers with one github repo\n\nREA clones your app’s core logic in seconds for ~$0.20, BLA makes that same job burn 300×–2,800× more tokens\n\nhere’s how to use and setup BLA:\n\nfirst understand how it works:\n\n• poison: fake canaries and decoy logic for AI to chase\n• exhaust: files that blow past REA’s own limits\n• your app runs 100% the same (14/14 tests)\n\nhere’s how to set it up for FREE:\n\n1 → open Claude Code in the folder of your app, site or game\n\n2 → make sure you have Node.js 24 (22.23.4+ works too)\n\n3 → run: npx bla-agents setup - it plugs BLA into Claude Code, Cursor, Codex, Windsurf, Gemini CLI and more\n\n4 → then just say: “Harden my software against REA”\n\n5 → your agent runs the whole loop itself: plan → weave decoys into source → harden the build → verify\n\n6 → the step everyone skips: ship the files from the .bla-hardened folder, not your old build\n\n7 → want to see it yourself? npx bla-agents benchmark runs 14 test apps before vs after\n\npaste link on repo below ↓",
+  "glossary": [
+   {
+    "term": "Token",
+    "ar": "وحدة قياس استهلاك النموذج للنص"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "تطبيق",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "أمن سيبراني",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Cursor",
+   "Codex",
+   "Gemini"
+  ],
+  "change_types": [
+   "Open Source",
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 74,
+  "metrics": {
+   "likes": 135,
+   "replies": 16,
+   "reposts": 13,
+   "quotes": 1,
+   "bookmarks": 136,
+   "views": 7595
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": {
+   "h": "",
+   "x": "https://t.co/LCLhoxByi3"
+  },
+  "cluster_id": "bla-agents",
+  "also_reported": [
+   {
+    "author": "0xMovez",
+    "url": "https://x.com/0xMovez/status/2119458175803933160"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3204",
+  "serial": 3204,
+  "serial_display": "#003204",
+  "source_type": "x",
+  "source_url": "https://x.com/emilkowalski/status/2119406396160540738",
+  "source_native_id": "2119406396160540738",
+  "source_name": "Emil Kowalski",
+  "source_site": "x.com",
+  "author": "emilkowalski",
+  "published_at": "2026-11-08T12:27:16Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "سكيل جديد لبناء حركات لمس وسحب طبيعية في التطبيقات",
+  "arabic_summary": "أطلق مطوّر مكتبتي Sonner وVaul سكيل جديدًا باسم /gestures يساعد على بناء حركات لمس وسحب (Gestures) سلسة في الواجهات، مع دعم الارتداد المطاطي والزخم أثناء السحب. يقول إنه يستخدمه بكثرة في عمله الأخير.",
+  "detailed_explanation": "نشر المطوّر Emil Kowalski، المعروف بمكتبتي Sonner وVaul لمكونات الواجهة، سكيلًا جديدًا تحت اسم /gestures، وهو ملف يساعد عند استخدامه مع أدوات مثل Claude Code على بناء حركات لمس وسحب (Gestures) طبيعية داخل التطبيقات.\n\nيضيف السكيل خصائص مثل الارتداد المطاطي (Rubber Banding) عند بلوغ حدود العنصر، ودعم السرعة أثناء السحب، وحركة الزخم (Momentum) التي تجعل العنصر يستمر بالتحرك قليلًا بعد رفع الإصبع — وهي تفاصيل دقيقة يصعب ضبطها يدويًا وتُحدث فرقًا كبيرًا في الإحساس بجودة التطبيق.\n\nيقول الكاتب إن السكيل يلخّص كل ما تعلمه من بناء مكتبتيه الشهيرتين Sonner وVaul، ما يجعله أقرب لتوثيق خبرة متراكمة بصيغة قابلة للاستخدام المباشر من قبل أي مطوّر واجهات يعمل مع أدوات الذكاء الاصطناعي.",
+  "why_it_matters": "سكيل متخصص يلخّص خبرة سنوات في بناء مكونات تفاعل دقيقة، ويتيح لأي مطوّر واجهات الاستفادة من هذه الخبرة مباشرة داخل أداته.",
+  "original_text": "New skill: /gestures\n\nHelps you build beautiful, intuitive gestures for your app.\n\nAdds rubber banding, velocity support for dragging, drags that carry momentum, everything I learned from building Sonner and Vaul, and more.\n\nI’ve been using it a lot recently, you’ll love it. https://t.co/1vIxxNo8NI",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة"
+   },
+   {
+    "term": "Gestures",
+    "ar": "حركات اللمس"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 6723,
+   "replies": 67,
+   "reposts": 261,
+   "quotes": 14,
+   "bookmarks": 7330,
+   "views": 188248
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "skill-aiforui",
+  "also_reported": [
+   {
+    "author": "emilkowalski",
+    "url": "https://x.com/emilkowalski/status/2119414088996679868"
+   },
+   {
+    "author": "emilkowalski",
+    "url": "https://x.com/emilkowalski/status/2119372577856729530"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3205",
+  "serial": 3205,
+  "serial_display": "#003205",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119425351638192147",
+  "source_native_id": "2119425351638192147",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-08T13:42:35Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "استخدام ChatGPT يُغرق الدوائر الحكومية البريطانية بشكاوى مطوّلة",
+  "arabic_summary": "تواجه الدوائر الحكومية في بريطانيا أزمة بسبب شكاوى مواطنين تضخّمت من صفحتين إلى مئتي صفحة بعد استخدام ChatGPT لصياغة اعتراضات قانونية مطوّلة، ما يرهق الموظفين المكلّفين بمراجعتها والرد عليها.",
+  "detailed_explanation": "تواجه جهات حكومية بريطانية مشكلة متنامية: مواطنون يستخدمون ChatGPT لصياغة شكاوى واعتراضات قانونية، ما يحوّل الوثيقة من صفحتين إلى ما يصل إلى 200 صفحة، لأن توليد النص لا يكلّف المستخدم سوى ثوانٍ بينما يحتاج الموظف ساعات لقراءته والرد عليه.\n\nالمفارقة التي يشير إليها المنشور أن بعض الجهات الحكومية تفكر الآن في استخدام الذكاء الاصطناعي نفسه لتلخيص هذه الشكاوى المولَّدة بالذكاء الاصطناعي، في حلقة تعكس كيف يمكن لتقنية واحدة أن تخلق مشكلة وحلًا لها في آن.\n\nيقترح كاتب المنشور حلولًا عملية مثل تحديد سقف للكلمات، واستبدال الحقول المفتوحة بأسئلة محددة وإلزامية (المشكلة، الضرر، الطلب)، وحصر المرفقات في الإثباتات الرسمية فقط — وهي أفكار تصميم نماذج قد تهمّ أي جهة تتلقى مدخلات نصية من الجمهور.",
+  "why_it_matters": "يكشف أثرًا عمليًا غير متوقع لسهولة توليد النصوص الطويلة: انتقال العبء من كاتب الشكوى إلى الجهة التي يجب أن تقرأها وتردّ عليها.",
+  "original_text": "الـ AI يتسبب في إغراق الدوائر الحكومية بالشكاوى\n\nبريطانيا.. \nالذكاء الاصطناعي يتسبب في أزمة غريبة داخل الدوائر الحكومية: شكاوى المواطنين أصبحت طويلة لدرجة أن بعضها يصل إلى 200 صفحة بعدما كانت تتكون من صفحتين تقريباً\n\nالسبب؟\nاستخدام ChatGPT لصياغة اعتراضات قانونية مطولة والذي لا يكلفه إلى ثواني، بينما يحتاج الموظف إلى ساعات لقراءتها والرد عليها.\n\nوالمفارقة 😅\nجهات حكومية تفكر في استخدام الذكاء الاصطناعي نفسه لتلخيص الشكاوى التي كتبها الذكاء الاصطناعي\n\nاعتقد الحل\n- تحديد سقف للكلمات واستبدال النصوص المفتوحة بأسئلة محددة وإلزامية (المشكلة، الضرر، الطلب)\n\n- حصر الملفات المرفقة في الإثباتات الرسمية فقط (فواتير، عقود)",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "أعمال وإدارة"
+  ],
+  "entities": [
+   "ChatGPT"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 51,
+  "metrics": {
+   "likes": 26,
+   "replies": 0,
+   "reposts": 4,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 3970
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3206",
+  "serial": 3206,
+  "serial_display": "#003206",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119244164680601764",
+  "source_native_id": "2119244164680601764",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-08T01:42:37Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "لقاح بمساعدة الذكاء الاصطناعي يستهدف سلالات متعددة من أنفلونزا الطيور",
+  "arabic_summary": "طوّر علماء جامعة كامبريدج بمساعدة الذكاء الاصطناعي لقاحًا يستهدف سلالات متعددة من أنفلونزا الطيور بدل سلالة واحدة، وحقق في تجارب على الفئران والنمس حماية كاملة مقارنة بنجاة نصف الحيوانات مع لقاحات مرجعية. لم يُختبر بعد على البشر.",
+  "detailed_explanation": "استخدم باحثون في جامعة كامبريدج الذكاء الاصطناعي لتحليل بيانات فيروسات أنفلونزا الطيور، وبدل تصميم لقاح يستهدف سلالة واحدة، صمّموا لقاحًا قادرًا على استهداف سلالات متعددة رغم اختلافها الوراثي.\n\nفي التجارب على الفئران وحيوانات النمس، حقق اللقاح الجديد حماية كاملة ضد السلالات المختبرة، في حين نجا نحو نصف فقط من الحيوانات التي تلقت لقاحات مرجعية معتمدة حاليًا في الاستعداد للأوبئة.\n\nالفكرة الأساسية أن اللقاح صُمم ليواكب تطور الفيروس المستمر، بدل انتظار ظهور كل سلالة جديدة والاستجابة لها لاحقًا — وهو نهج استباقي يعتمد على قدرة الذكاء الاصطناعي على معالجة كميات كبيرة من البيانات الجينية. مع ذلك، يبقى اللقاح في مرحلة التجارب الحيوانية ولم يُختبر على البشر بعد.",
+  "why_it_matters": "مثال على استخدام الذكاء الاصطناعي في تحليل بيانات فيروسية لتصميم لقاحات تواكب تحور الفيروس بدل ملاحقته بعد ظهور كل سلالة.",
+  "original_text": "بريطانيا..\n\nعلماء جامعة كامبريدج يستخدمون الذكاء الاصطناعي لتطوير لقاح ضد إنفلونزا الطيور، والنتيجة كانت مفاجئة!\n\nبدل تصميم لقاح لسلالة واحدة، حلل الباحثون بيانات الفيروسات وصمموا لقاحًا يستهدف سلالات متعددة، حتى مع اختلافها وراثيًا.\n\nفي التجارب على الفئران وحيوانات النمس، حقق اللقاح حماية كاملة ضد السلالات المختبرة، بينما نجت نحو نصف الحيوانات التي تلقت لقاحات مرجعية مستخدمة في الاستعداد للأوبئة.\n\nوالمثير أن اللقاح صمم ليواكب تغير الفيروس بدل انتظار ظهور كل سلالة جديدة.\n\nلكن اللقاح لم يُختبر على البشر بعد.",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "بحث وقياس"
+  ],
+  "tool_types": [],
+  "domains": [
+   "صحة"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 43,
+  "metrics": {
+   "likes": 13,
+   "replies": 1,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 6,
+   "views": 4286
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3207",
+  "serial": 3207,
+  "serial_display": "#003207",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119289471992725934",
+  "source_native_id": "2119289471992725934",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-08T04:42:39Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "تطبيق من Planet يبحث التغيرات على الأرض بالوصف اللغوي",
+  "arabic_summary": "أطلقت شركة Planet تطبيق ذكاء اصطناعي يتيح البحث في صور الأقمار الصناعية لأكثر من عشر سنوات باستخدام كلمات عادية، مثل وصف مناطق أُزيلت منها الأشجار أو تغيّر شكلها، ليعرض النظام صورًا قديمة وحديثة للمقارنة.",
+  "detailed_explanation": "تطبيق جديد من شركة Planet يتيح للمستخدم طرح سؤال بلغة طبيعية مثل \"ماذا تغيّر على الأرض خلال عشر سنوات؟\" ليبحث النظام في أرشيف ضخم من صور الأقمار الصناعية الملتقطة على مدى أكثر من عقد.\n\nيمكن للمستخدم وصف ما يبحث عنه بكلمات عادية — مثل مناطق أُزيلت منها الأشجار أو مواقع تغيّر شكلها بمرور الوقت — فيبحث النظام عن المواقع المطابقة لهذا الوصف ويعرض صورًا قديمة وحديثة جنبًا إلى جنب لتوضيح طبيعة التغيّر وتوقيته.\n\nيمثّل هذا استخدامًا عمليًا لدمج تقنيات الرؤية الحاسوبية والبحث باللغة الطبيعية فوق بيانات جغرافية ضخمة، ما يفتح الباب أمام تطبيقات بيئية ورقابية وتخطيطية دون حاجة المستخدم لخبرة تقنية في تحليل الصور.",
+  "why_it_matters": "يوضّح كيف يحوّل الذكاء الاصطناعي أرشيفات بيانات ضخمة (صور الأقمار الصناعية) إلى أداة بحث بلغة طبيعية يسهل على غير المتخصصين استخدامها.",
+  "original_text": "صار بإمكانك سؤال الـ AI: ماذا تغير على الأرض خلال عشر سنوات؟\n\nشركة Planet تنشر تطبيق ذكاء اصطناعي \nhttps://t.co/JGj9jma6uD\n\nيستطيع البحث في صور الأقمار الصناعية التي التُقطت للأرض خلال أكثر من 10 سنوات!\n\nومن خلال تستطيع وصف ما تبحث عنه بكلمات عادية، مثل مناطق أزيلت منها الأشجار أو مواقع تغير شكلها بمرور الوقت.\n\nالنظام يبحث عن المواقع المطابقة للوصف، ثم يعرض صورًا قديمة وحديثة لتعرف ماذا تغير ومتى",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "بيانات وتحليلات"
+  ],
+  "entities": [
+   "Planet"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 79,
+  "metrics": {
+   "likes": 256,
+   "replies": 2,
+   "reposts": 23,
+   "quotes": 0,
+   "bookmarks": 188,
+   "views": 17055
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [
+   "http://ai.planet.com"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3208",
+  "serial": 3208,
+  "serial_display": "#003208",
+  "source_type": "x",
+  "source_url": "https://x.com/OpenAIDevs/status/2119573452143345853",
+  "source_native_id": "2119573452143345853",
+  "source_name": "OpenAI Developers",
+  "source_site": "x.com",
+  "author": "OpenAIDevs",
+  "published_at": "2026-11-08T23:31:05Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "استخدام ChatGPT وCodex لإدارة أعمال صنّاع المحتوى",
+  "arabic_summary": "شاركت متحدثة في مؤتمر AfroTech تجربتها في استخدام ChatGPT لإيجاد شركاء، وتحليل تعليقات الجمهور، وإدارة الأسئلة المتكررة. كما استخدمت Codex لبناء العرض التقديمي وموقع يحتوي كل الأوامر التي شاركتها.",
+  "detailed_explanation": "تتحدث المنشورة عن جلسة قدّمتها في مؤتمر AfroTech تستهدف صنّاع المحتوى ومديري الأعمال من خلفهم. أوضحت كيفية استخدام ChatGPT لإيجاد شركاء يناسبون الجمهور وصياغة عروض تعاون، ومتابعة ما يحفظه الناس ويشاركونه لتحديد المحتوى القادم.\n\nكما وصفت استخدام \"دوت\" (شخصية مخصّصة في ChatGPT) كمساعد يومي يرصد الأسئلة المتكررة في مجتمعها ويعرض التعليقات الأصلية، مما يساعدها على تحديد ما يحتاج ردًا سريعًا وما يستحق فيديو كاملًا.\n\nاللافت تقنيًا هو استخدامها Codex — أداة البرمجة من OpenAI — لبناء العرض التقديمي وموقع ويب يضمّ كل الأوامر (Prompts) التي استخدمتها في الجلسة، وهو استخدام غير تقليدي لأداة برمجية في سياق غير برمجي.",
+  "why_it_matters": "مثال عملي على استخدام ChatGPT وCodex معًا في سير عمل حقيقي لصانع محتوى، يوضّح استخدامات تتجاوز الكتابة إلى الإدارة وبناء الأدوات.",
+  "original_text": "RT @danizeres: On Friday I spoke at @AfroTech in Houston, where Black founders, creators, and technologists share what they’re building. I designed my session for the person making the content and running the business behind it.\n\nWe walked through how to use ChatGPT to:\n– Find partners who fit your audience and draft a pitch\n– Look at what people save, share, and ask about to decide what to make next\n– Help you manage your community Qs and replies\n– Use audience feedback to figure out where a video needs a clearer edit\n\nWe also gave a dot a Friday job: “What questions kept coming up in my community this week? Show me the original comments.” I like seeing people’s exact words. That’s how I decide whether a question needs a quick reply or a whole new video walkthrough.\n\nMy own dot was my right hand while I put the talk together. It helped me outline the session, and I used Codex to build the deck and a site with every prompt I shared onstage ;)\n\nThanks for having me, @AfroTech!",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "تجربة"
+  ],
+  "tool_types": [],
+  "domains": [
+   "تسويق ومحتوى",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "ChatGPT",
+   "Codex"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 52,
+  "metrics": {
+   "likes": 36,
+   "replies": 11,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 4,
+   "views": 6519
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3209",
+  "serial": 3209,
+  "serial_display": "#003209",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2119564578036253088",
+  "source_native_id": "2119564578036253088",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-11-08T22:55:49Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "بناء Agent للعمل داخل Slack بالاعتماد على حدود الثقة",
+  "arabic_summary": "يشارك مطوّر ملاحظة من بناء Agent شركة داخل Slack: البناء ضمن حدود شبكة ثقة عالية يمنح أمانًا تلقائيًا، فمن ليس عضوًا في قناة معينة لا يصل لما يُشارَك فيها.",
+  "detailed_explanation": "يشير المنشور إلى خبرة عملية من فريق Every في بناء Agent يعمل كـ\"موظف\" داخل Slack للشركة. الملاحظة الجوهرية أن البناء ضمن حدود شبكة ذات ثقة عالية يمنح قدرًا كبيرًا من الأمان \"مجانًا\"، دون حاجة لتصميم طبقة صلاحيات منفصلة ومعقدة.\n\nالمبدأ العملي: إذا لم يكن شخص ما عضوًا في قناة معينة على Slack، فلا يجب أن يصل الـ Agent بالنيابة عنه إلى ما يُشارَك داخل تلك القناة. أي أن صلاحيات الوصول الموجودة أصلًا في النظام (من هو عضو في أي قناة) تُستخدم كحارس أمني طبيعي لتصرفات الـ Agent، بدل بناء نظام صلاحيات جديد من الصفر.\n\nهذا النمط من التصميم يهمّ كل من يبني Agents تعمل فوق أدوات تعاون قائمة أصلًا لها نظام صلاحيات، لأنه يقلل تعقيد الأمان المطلوب بناءه يدويًا.",
+  "why_it_matters": "فكرة تصميمية مفيدة لبناء Agents داخل أدوات تواصل الفريق: استغلال صلاحيات الوصول القائمة بدل بناء طبقة أمان منفصلة.",
+  "original_text": "RT @hammer_mt: We had a similar insight in building a slack company agent at @every - if you build within the boundaries a high trust network you get a lot of security for free. i.e. if someone is not in a channel they shouldn't have access to things shared in that channel.",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "بنية الوكلاء",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "أمن سيبراني"
+  ],
+  "entities": [
+   "Slack"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 59,
+  "metrics": {
+   "likes": 31,
+   "replies": 7,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 37,
+   "views": 3578
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3210",
+  "serial": 3210,
+  "serial_display": "#003210",
+  "source_type": "x",
+  "source_url": "https://x.com/altmemy199/status/2119592365694349506",
+  "source_native_id": "2119592365694349506",
+  "source_name": "التميمي",
+  "source_site": "x.com",
+  "author": "altmemy199",
+  "published_at": "2026-11-09T00:46:14Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "MIT تحدّث دورة Missing Semester بدروس عن وكلاء البرمجة",
+  "arabic_summary": "حدّث معهد MIT دورته المجانية الشهيرة The Missing Semester لعام 2026 بإضافة دروس عن استخدام وكلاء الذكاء الاصطناعي في البرمجة. الدورة معروفة بتعليم المهارات العملية التي يحتاجها المبرمج ولا تُدرَّس عادة في الجامعات.",
+  "detailed_explanation": "تضيف النسخة الجديدة من الدورة إلى المحتوى الكلاسيكي (Terminal, Shell, Git, Debugging) وحدات جديدة تتناول أدوات الذكاء الاصطناعي الحديثة في البرمجة، وتحديدًا Claude Code وCodex، بالإضافة إلى شرح بروتوكول MCP ومفهوم Skills.\n\nما يميّز الدورة أنها ليست نظرية بل تتضمن تمارين عملية لكل موضوع، وهي موجّهة لجميع المستويات بما في ذلك المطورين ذوي الخبرة الذين يحتاجون لفهم كيف تغيّر أدوات الذكاء الاصطناعي طريقة تطوير البرمجيات.",
+  "why_it_matters": "مصدر تعليمي مجاني وموثوق يغطي أدوات برمجة حديثة مثل Claude Code وCodex وMCP وSkills، وهو مفيد لأي مبرمج يريد مواكبة طريقة التطوير الجديدة.",
+  "original_text": "معهد MIT حدّث دورته المجانية الشهيرة The Missing Semester لعام 2026، وأضاف لها دروس عن استخدام وكلاء الذكاء الاصطناعي في البرمجة\n\nالدورة من أفضل المصادر لتعلم الأدوات والمهارات العملية التي يحتاجها المبرمج، لكنها غالبًا ما تُهمل في المناهج الجامعية.\n\nوفي النسخة الجديدة، تغطي الدورة أساسيات التعامل مع Terminal وShell وGit وتصحيح الأخطاء (Debugging)، بالإضافة إلى أدوات الذكاء الاصطناعي الحديثة مثل Claude Code وCodex، وبروتوكول MCP والمهارات (Skills).\n\nوالجميل أن الدورة مش مجرد محاضرات نظرية، بل تتضمن تمارين عملية لكل موضوع، بحيث تقدر تطبق اللي تعلمته بنفسك.\n\nومش مخصصة للمبتدئين فقط، حتى المطورين أصحاب الخبرة ممكن يستفيدون منها، خصوصًا مع التغيرات الكبيرة في طريقة تطوير البرمجيات باستخدام الذكاء الاصطناعي.\n\nطبعا جميع المحاضرات والمواد التعليمية متاحة مجانًا وبشكل منظم.\n\nرابط الدورة: \nhttps://t.co/GdUkAWksrw\n\nفرصة لأي واحد يحب يطور مهاراته ويواكب أدوات البرمجة الحديثة.",
+  "glossary": [
+   {
+    "term": "MCP",
+    "ar": "بروتوكول ربط النماذج بالأدوات الخارجية"
+   },
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة يوجّه سلوك الوكيل"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Skill",
+   "MCP"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "بحث وتعليم"
+  ],
+  "entities": [
+   "MIT",
+   "Claude Code",
+   "Codex"
+  ],
+  "change_types": [
+   "Update"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 42,
+  "metrics": {
+   "likes": 8,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 8,
+   "views": 314
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [
+   "https://missing.csail.mit.edu/"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3211",
+  "serial": 3211,
+  "serial_display": "#003211",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119427921685459213",
+  "source_native_id": "2119427921685459213",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-08T13:52:48Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "روبوت توصيل يتجاوز إشارة حمراء ويصيب ركاب حافلة",
+  "arabic_summary": "في إستونيا، تجاوز روبوت توصيل طعام إشارة مرور حمراء ودخل معبر مشاة أمام حافلة قادمة، ما تسبب بإصابة تصل إلى تسعة ركاب. السبب المعلن أن الروبوت خلط بين ضوء الإشارة وإعلان مضيء قريب.",
+  "detailed_explanation": "وقعت الحادثة في إستونيا حين دخل روبوت توصيل طعام معبر مشاة أمام حافلة قادمة بعد تجاوزه إشارة حمراء، ما أدى لاصطدام تسبب بإصابة ما يصل إلى تسعة ركاب داخل الحافلة.\n\nالسبب الذي كُشف عنه هو خطأ إدراكي بصري: اختلط على نظام الروبوت ضوء إشارة المرور الحمراء مع إعلان مضيء قريب، فظنّ أن الطريق آمن للعبور.\n\nتُبرز الحادثة تحديًا جوهريًا في نشر الروبوتات المستقلة في البيئات الحضرية، حيث يمكن لعناصر بصرية عشوائية في الشارع أن تربك أنظمة الإدراك المعتمدة على الرؤية الحاسوبية، بما يحمل تبعات سلامة حقيقية على المارة ومستخدمي الطرق.",
+  "why_it_matters": "حادثة تكشف هشاشة أنظمة الإدراك البصري للروبوتات المستقلة في بيئات حقيقية معقدة، وتثير أسئلة حول سلامة نشرها في الشوارع.",
+  "original_text": "روبوت يتجاوز الإشارة الحمراء ويتسبب بإصابة ركاب حافلة\n\nفي استونيا … روبوت توصيل طعام يتجاوز الإشارة الحمراء ويصطدم بحافلة، ويتسبب بإصابة ما يصل إلى 9 ركاب بعدما دخل الروبوت معبر المشاة أمام حافلة قادمة.\n\nسبب الخطأ\nاختلط على الروبوت ضوء الإشارة مع إعلان مضيء قريب. https://t.co/NsqVg3xWX8",
+  "glossary": [],
+  "audience_topic": "عالم AI عام",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "خبر"
+  ],
+  "tool_types": [],
+  "domains": [
+   "روبوتات وعتاد"
+  ],
+  "entities": [],
+  "change_types": [
+   "Outage / Incident"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 28,
+  "metrics": {
+   "likes": 6,
+   "replies": 0,
+   "reposts": 0,
+   "quotes": 0,
+   "bookmarks": 0,
+   "views": 2771
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3212",
+  "serial": 3212,
+  "serial_display": "#003212",
+  "source_type": "x",
+  "source_url": "https://x.com/github/status/2119529896296722931",
+  "source_native_id": "2119529896296722931",
+  "source_name": "GitHub",
+  "source_site": "x.com",
+  "author": "github",
+  "published_at": "2026-11-08T20:38:00Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "GitHub Copilot: متابعة جلسة الوكيل داخل VS Code",
+  "arabic_summary": "أعلن GitHub أن بإمكان المستخدم فتح جلسة Copilot app التي بدأها الوكيل مباشرة داخل VS Code، بحيث تنتقل معها المهمة والخطة والمحادثة والتعديلات البرمجية دون الحاجة لإعادة البدء من الصفر.",
+  "detailed_explanation": "تتيح الميزة الجديدة ربط جلسات Copilot التي تتم خارج المحرر (app sessions) بجلسة عمل داخل VS Code، بحيث تُنقل كل تفاصيل الجلسة: المهمة المطلوبة، الخطة التي وضعها الوكيل، سجل المحادثة، والتعديلات البرمجية التي تمت بالفعل.\n\nالفائدة الأساسية هي تفادي إعادة شرح السياق أو إعادة بدء المهمة من جديد عند الانتقال من واجهة الوكيل إلى بيئة التطوير المحلية، مما يجعل سير العمل بين الوكيل والمطور أكثر استمرارية واتصالًا.",
+  "why_it_matters": "يسهّل الانتقال بين العمل عبر الوكيل والتعديل اليدوي في المحرر، وهو تحسين عملي لتجربة من يستخدم GitHub Copilot ضمن سير عمل برمجي يومي.",
+  "original_text": "Your agent may have started the work, but you can finish the task in your IDE.\n\nOpen a GitHub Copilot app session directly in @code. The task, plan, conversation, and code changes all come too (so you don't need to start over 😅).\n\nHere's every step ⬇️\nhttps://t.co/ZemiHG5qHf",
+  "glossary": [
+   {
+    "term": "Agent",
+    "ar": "وكيل ذكاء اصطناعي"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "تطبيق",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "Agent"
+  ],
+  "domains": [
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "GitHub",
+   "GitHub Copilot",
+   "VS Code"
+  ],
+  "change_types": [
+   "New Feature"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 64,
+  "metrics": {
+   "likes": 85,
+   "replies": 26,
+   "reposts": 12,
+   "quotes": 4,
+   "bookmarks": 19,
+   "views": 19175
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [
+   "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/?utm_source=x-promoting-app-session-vs-code-article&utm_medium=social&utm_campaign=copilot-app-session-vscode-nov-2026"
+  ],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3213",
+  "serial": 3213,
+  "serial_display": "#003213",
+  "source_type": "x",
+  "source_url": "https://x.com/dr_cintas/status/2119577776227340288",
+  "source_native_id": "2119577776227340288",
+  "source_name": "Alvaro Cintas",
+  "source_site": "x.com",
+  "author": "dr_cintas",
+  "published_at": "2026-11-08T23:48:16Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "reanimate: Skill مجاني يحوّل حركات المواقع إلى كود",
+  "arabic_summary": "أداة باسم reanimate، وهي Skill مجاني لـ Claude Code، تحوّل أي حركة أو أنيميشن من موقع ويب إلى كود جاهز في مشروعك، عبر تصوير الحركة الأصلية وإعادة بنائها ومقارنتها حتى تتطابق.",
+  "detailed_explanation": "يقبل reanimate مدخلات متعددة مثل رابط موقع حي أو تسجيل شاشة أو ملف mp4/gif أو ملف Lottie، ثم يكتب الكود بما يتناسب مع ما يستخدمه المشروع أصلًا مثل CSS أو Framer Motion أو GSAP أو three.js.\n\nالآلية تعتمد على تصوير النسخة الأصلية وتصوير النسخة المعاد بناؤها، ثم مقارنة التوقيت والتسارع (easing) والبكسلات حتى تتطابق، مع عدة جولات تصحيح، وتقرير نهائي بما لم يتطابق بعد. يُثبَّت عبر أمر: npx skills add.",
+  "why_it_matters": "يحل مشكلة شائعة عند محاولة نسخ تأثيرات حركية من مواقع أخرى، إذ يتجاوز التخمين الواحد الذي تقوم به الوكلاء عادة ويكرر المحاولة حتى تطابق النتيجة الأصل.",
+  "original_text": "RT @dr_cintas: You can now reverse-engineer any web animation into your own code.\n\nIt's called reanimate, a free Claude Code skill.\n\nAsk an agent to rebuild a motion from a screenshot and it usually guesses once and stops.\n\nreanimate films the original, rebuilds it in your stack, films the copy the same way, then compares timing, easing and pixels until the numbers match.\n\nWhat you can feed it:\n\n- A live website URL\n- A screen recording\n- An mp4 or gif\n- A Lottie file\n\nIt writes into what your project already uses: CSS, Framer Motion, GSAP or three.js.\n\nUsually 2 to 5 fix rounds. Whatever still doesn't match is listed in the report.\n\nInstall: npx skills add NiazMorshed2007/reanimate -g\n\nLink: https://t.co/S93hVsrKej",
+  "glossary": [
+   {
+    "term": "Skill",
+    "ar": "ملف مهارة يوجّه سلوك الوكيل لأداء مهمة محددة"
+   },
+   {
+    "term": "easing",
+    "ar": "منحنى تسارع/تباطؤ الحركة في الأنيميشن"
+   }
+  ],
+  "audience_topic": "سكيل",
+  "build_target": "واجهة ونظام تصميم",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "Skill"
+  ],
+  "domains": [
+   "تصميم وواجهات",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "reanimate"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 62,
+  "metrics": {
+   "likes": 21,
+   "replies": 7,
+   "reposts": 6,
+   "quotes": 0,
+   "bookmarks": 53,
+   "views": 2932
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "reanimate-skill",
+  "also_reported": [
+   {
+    "author": "dr_cintas",
+    "url": "https://x.com/dr_cintas/status/2119555538144911525"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3214",
+  "serial": 3214,
+  "serial_display": "#003214",
+  "source_type": "x",
+  "source_url": "https://x.com/rileybrown/status/2119547898140717409",
+  "source_native_id": "2119547898140717409",
+  "source_name": "Riley Brown",
+  "source_site": "x.com",
+  "author": "rileybrown",
+  "published_at": "2026-11-08T21:49:32Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Claude Duet يتصل الآن بـ Claude Code العامل على الحاسوب",
+  "arabic_summary": "أصبح تطبيق Claude Duet قادرًا على الاتصال بجلسات Claude Code العاملة على حاسوب المستخدم، مما يتيح متابعتها والتحكم بها من الهاتف، بما في ذلك تعديل الفيديو وبناء التطبيقات والتحكم الصوتي.",
+  "detailed_explanation": "يذكر المنشور خمسة استخدامات لهذا الربط: الجمع بين الحاسوب الفعلي والافتراضي، تعديل الفيديو من الهاتف، بناء تطبيقات من الهاتف، التحكم بالحاسوب عن بعد، والتفاعل الصوتي اللحظي مع Claude Code.\n\nهذا يعني أن المستخدم يمكنه متابعة جلسات برمجة أو مهام طويلة تعمل على حاسوبه أو في السحابة ومراجعة التغييرات والموافقة عليها دون الجلوس أمام الحاسوب، وهو امتداد عملي لطريقة استخدام أداة يستعملها عزيز بالفعل.",
+  "why_it_matters": "يحوّل الهاتف إلى واجهة تحكم عن بعد بجلسات Claude Code، مما يوسّع استخدام أداة برمجية أساسية ليشمل سيناريوهات عمل متنقلة.",
+  "original_text": "RT @rileybrown: Claude Duet can now connect to Claude Code running on my Mac. This is useful for these 5 reasons\n\n00:00 Intro\n00:22 1. Virtual + Physical Computer\n03:24 2. Edit Videos From Your Phone\n06:56 3. Build Apps From Your Phone\n08:48 4. Computer Use From Your Phone\n10:29 5. Real-Time Voice With Claude Code",
+  "glossary": [
+   {
+    "term": "Claude Duet",
+    "ar": "تطبيق جوال يربط بجلسات Claude Code"
+   }
+  ],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "تطبيق"
+  ],
+  "domains": [
+   "برمجة وهندسة",
+   "إنتاجية شخصية"
+  ],
+  "entities": [
+   "Claude Duet",
+   "Claude Code"
+  ],
+  "change_types": [
+   "New Feature",
+   "New Integration"
+  ],
+  "importance_tier": "important",
+  "importance_score": 88,
+  "engagement_score": 75,
+  "metrics": {
+   "likes": 166,
+   "replies": 38,
+   "reposts": 6,
+   "quotes": 1,
+   "bookmarks": 150,
+   "views": 11574
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "claude-duet",
+  "also_reported": [
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2119536600296079659"
+   },
+   {
+    "author": "rileybrown",
+    "url": "https://x.com/rileybrown/status/2119267278789197995"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3215",
+  "serial": 3215,
+  "serial_display": "#003215",
+  "source_type": "x",
+  "source_url": "https://x.com/venturetwins/status/2119268234771997089",
+  "source_native_id": "2119268234771997089",
+  "source_name": "Justine Moore",
+  "source_site": "x.com",
+  "author": "venturetwins",
+  "published_at": "2026-11-08T03:18:15Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "Shizuku-Duplex: أول نموذج صوتي كامل الاتجاهين لشخصيات AI",
+  "arabic_summary": "أعلنت Shizuku AI Labs عن Shizuku-Duplex، وهو ما تصفه بأنه أول نموذج لتركيب الصوت بتقنية Full-Duplex مصمم خصيصًا لشخصيات الذكاء الاصطناعي، بهدف تفاعل أكثر طبيعية بين الإنسان والذكاء الاصطناعي.",
+  "detailed_explanation": "يميّز الفريق النموذج بأنه بُني خصيصًا لشخصيات الذكاء الاصطناعي بدلًا من كونه نموذج تركيب صوت عام، مع التركيز على طبيعية التفاعل الصوتي بين الإنسان والنموذج.\n\nخاصية Full-Duplex تعني أن النظام يمكنه الاستماع والتحدث في الوقت نفسه، مما يقلل التأخير والتقطع المعتاد في الأنظمة الصوتية التقليدية التي تنتظر انتهاء المستخدم من الكلام قبل الرد.",
+  "why_it_matters": "تقنية Full-Duplex الصوتية تتيح التحدث والاستماع في آن واحد دون انتظار الدور، وهو تطور مهم في بناء شخصيات ذكاء اصطناعي تفاعلية أكثر واقعية.",
+  "original_text": "RT @ShizukuAILabs: We’re introducing Shizuku-Duplex, the world’s first full-duplex audio synthesis model built specifically for AI characters. See how our models are built for natural human-AI interaction: https://t.co/IwinBs11h4",
+  "glossary": [
+   {
+    "term": "Full-Duplex",
+    "ar": "اتصال صوتي كامل الاتجاهين، إرسال واستقبال في آن واحد"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "صوت",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "فيديو وصوت"
+  ],
+  "entities": [
+   "Shizuku AI Labs",
+   "Shizuku-Duplex"
+  ],
+  "change_types": [
+   "New Release"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 100,
+  "metrics": {
+   "likes": 3137,
+   "replies": 49,
+   "reposts": 622,
+   "quotes": 157,
+   "bookmarks": 2192,
+   "views": 361291
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3216",
+  "serial": 3216,
+  "serial_display": "#003216",
+  "source_type": "x",
+  "source_url": "https://x.com/SultanAlFardan/status/2119281251987403047",
+  "source_native_id": "2119281251987403047",
+  "source_name": "سلطان الفردان",
+  "source_site": "x.com",
+  "author": "SultanAlFardan",
+  "published_at": "2026-11-08T04:09:59Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "ar",
+  "is_arabic_source": true,
+  "arabic_title": "نموذج Gemma متخصص في اللغة العربية واللهجة السعودية",
+  "arabic_summary": "طُرح نموذج Gemma-4-E4B-Arabic-It بصيغة GGUF، وهو نموذج مخصص لفهم اللغة العربية واللهجة السعودية، مصمم للتشغيل المحلي (Local Inference) بسهولة.",
+  "detailed_explanation": "النموذج مبني على Gemma بصيغة GGUF التي تسمح بتشغيله محليًا على الأجهزة الشخصية دون حاجة لخوادم قوية، وهو موجّه خصيصًا لفهم اللهجة السعودية إلى جانب الفصحى.\n\nهذا النوع من النماذج المتخصصة بلهجات عربية محددة يفتح المجال أمام تطبيقات NLP محلية مثل روبوتات محادثة أو أنظمة تحليل نصوص تناسب السوق السعودي تحديدًا.",
+  "why_it_matters": "يتيح للمطورين تشغيل نموذج عربي محليًا دون الاعتماد على خدمات سحابية، وهو مفيد لمن يبني تطبيقات معالجة اللغة الطبيعية بالعربية.",
+  "original_text": "RT @alghali: 🚀 تعرّف على موديل Gemma-4-E4B-Arabic-It-i1-GGUF\n\nنموذج ذكاء اصطناعي متخصص في فهم اللغة العربية واللهجة السعودية 🇸🇦\n\nأبرز المميزات:\n• صيغة GGUF: جاهز للتشغيل والاستنتاج المحلي (Local Inference) بسهولة.\n• للمطورين: خيار مثالي لبناء وتطوير تطبيقات معالجة اللغة الطبيعية (NLP).",
+  "glossary": [
+   {
+    "term": "GGUF",
+    "ar": "صيغة ملفات لتشغيل النماذج محليًا بكفاءة"
+   },
+   {
+    "term": "Local Inference",
+    "ar": "تشغيل النموذج محليًا دون خادم خارجي"
+   }
+  ],
+  "audience_topic": "نموذج",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "إصدار"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Gemma"
+  ],
+  "change_types": [
+   "New Release",
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 71,
+  "metrics": {
+   "likes": 110,
+   "replies": 1,
+   "reposts": 10,
+   "quotes": 0,
+   "bookmarks": 106,
+   "views": 14425
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3217",
+  "serial": 3217,
+  "serial_display": "#003217",
+  "source_type": "x",
+  "source_url": "https://x.com/JeremyNguyenPhD/status/2119493016738283743",
+  "source_native_id": "2119493016738283743",
+  "source_name": "Jeremy Nguyen ✍🏼 🚢",
+  "source_site": "x.com",
+  "author": "JeremyNguyenPhD",
+  "published_at": "2026-11-08T18:11:28Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "باحث من Yale يفتح مصدر سكربتات لرسوم أبحاث احترافية",
+  "arabic_summary": "فتح باحث من جامعة Yale سكربتات بايثون لإنشاء رسوم بيانية بجودة نشر علمي، يمكن استخدامها مع Claude Code أو Codex لإنتاج أشكال احترافية للأوراق البحثية.",
+  "detailed_explanation": "السكربتات مفتوحة المصدر وتغطي مجموعة متنوعة من أنماط الرسوم البيانية المخصصة للأوراق العلمية، ويمكن توجيه Claude Code أو Codex لاستخدامها مباشرة بدل كتابة كود الرسم من الصفر.\n\nهذا النوع من الموارد يسرّع عمل الباحثين الذين يحتاجون أشكالًا بصرية منسقة لأبحاثهم دون إتقان تفاصيل مكتبات الرسم البياني في بايثون.",
+  "why_it_matters": "يوفر للباحثين أداة جاهزة ومفتوحة المصدر تربط وكلاء البرمجة بمهمة محددة ومفيدة أكاديميًا، وهي توليد رسوم بيانية بجودة النشر.",
+  "original_text": "RT @JeremyNguyenPhD: AI for academic research\n\nWant Claude Code/Codex to make good-looking figures for your papers?\n\n@ChenLiu_1996 from Yale open-sourced his Python scripts for publication-quality figures.\n\nBelow is just a tiny slice of the options, it's really worth browsing the preview images. https://t.co/HiBJKK3Lfe",
+  "glossary": [],
+  "audience_topic": "أداة يستعملها",
+  "build_target": "غير محدّد",
+  "content_types": [
+   "أداة"
+  ],
+  "tool_types": [
+   "API/SDK"
+  ],
+  "domains": [
+   "بحث وتعليم",
+   "برمجة وهندسة"
+  ],
+  "entities": [
+   "Claude Code",
+   "Codex"
+  ],
+  "change_types": [
+   "Open Source"
+  ],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 82,
+  "metrics": {
+   "likes": 225,
+   "replies": 9,
+   "reposts": 32,
+   "quotes": 0,
+   "bookmarks": 318,
+   "views": 12792
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": "figures-scripts-yale",
+  "also_reported": [
+   {
+    "author": "JeremyNguyenPhD",
+    "url": "https://x.com/JeremyNguyenPhD/status/2119310118865207386"
+   }
+  ],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3218",
+  "serial": 3218,
+  "serial_display": "#003218",
+  "source_type": "x",
+  "source_url": "https://x.com/danshipper/status/2119571897499480350",
+  "source_native_id": "2119571897499480350",
+  "source_name": "Dan Shipper",
+  "source_site": "x.com",
+  "author": "danshipper",
+  "published_at": "2026-11-08T23:24:54Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "en",
+  "is_arabic_source": false,
+  "arabic_title": "رأي: نموذج Google Argon يتميز بأسلوب كتابة مختلف عن المنافسين",
+  "arabic_summary": "يقول الكاتب دان شيبر إن نموذج Argon من Google يبرز بقدرته على الكتابة ويشعر بأنه مختلف عن النماذج المتطورة الأخرى التي جرّبها، واصفًا إياه بأنه \"أول نموذج متطور يشعر بأنه مدرَّب على شيء مختلف\" منذ فترة.",
+  "detailed_explanation": "",
+  "why_it_matters": "رأي من مستخدم نشِط للنماذج يشير إلى تمايز محتمل في جودة الكتابة لدى نموذج جديد من Google، ما قد يؤثر على اختيار النموذج لمهام الكتابة.",
+  "original_text": "RT @theinformation: Is Google the dark horse in AI?\n\nEvery CEO Dan Shipper says Argon stands out for its writing ability—and feels different from competing models.\n\n“The first frontier model I've used in a while that just feels like it's trained on something else, and that's really cool.”\n\n@danshipper",
+  "glossary": [],
+  "audience_topic": "نموذج",
+  "build_target": "محتوى وكتابة",
+  "content_types": [
+   "رأي"
+  ],
+  "tool_types": [
+   "نموذج"
+  ],
+  "domains": [
+   "نماذج وLLM"
+  ],
+  "entities": [
+   "Google",
+   "Argon"
+  ],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 46,
+  "metrics": {
+   "likes": 14,
+   "replies": 4,
+   "reposts": 2,
+   "quotes": 1,
+   "bookmarks": 5,
+   "views": 6231
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ },
+ {
+  "id": "c3219",
+  "serial": 3219,
+  "serial_display": "#003219",
+  "source_type": "x",
+  "source_url": "https://x.com/smalkalbani/status/2119348276768252328",
+  "source_native_id": "2119348276768252328",
+  "source_name": "سعيد الكلباني",
+  "source_site": "x.com",
+  "author": "smalkalbani",
+  "published_at": "2026-11-08T08:36:19Z",
+  "fetched_at": "2026-11-09T01:36:52Z",
+  "original_language": "und",
+  "is_arabic_source": false,
+  "arabic_title": "نص جاهز لتوليد صور بأسلوب معماري ثلاثي الأبعاد",
+  "arabic_summary": "يشارك المنشور نصًا جاهزًا (Prompt) لتوليد صور بأسلوب \"ديوراما معمارية متساوية القياس\" بإضاءة نيون مستقبلية وخلفية داكنة، مع إمكانية تعديله حسب الحاجة.",
+  "detailed_explanation": "",
+  "why_it_matters": "Prompt جاهز وقابل للتعديل يوفر على المصمم وقت التجربة للوصول لأسلوب بصري محدد.",
+  "original_text": "اذا بغيت تصمم بالاسلوب الظاهر في الصور... اضف هذا النص للـ Prompt ... وبإمكانك تعدل فيه\n\n\"3D Isometric Architectural Diorama, Futuristic Neon Lighting, Dark Navy Blue Background, Warm Architectural Lighting, Ultra-Detailed 3D Render.\" https://t.co/YMR1Brjjmc",
+  "glossary": [
+   {
+    "term": "Prompt",
+    "ar": "موجّه نصي"
+   }
+  ],
+  "audience_topic": "عالم AI عام",
+  "build_target": "جرافيك وصور",
+  "content_types": [
+   "شرح"
+  ],
+  "tool_types": [
+   "Prompt"
+  ],
+  "domains": [
+   "تصميم وواجهات"
+  ],
+  "entities": [],
+  "change_types": [],
+  "importance_tier": "useful",
+  "importance_score": 62,
+  "engagement_score": 63,
+  "metrics": {
+   "likes": 70,
+   "replies": 2,
+   "reposts": 3,
+   "quotes": 0,
+   "bookmarks": 44,
+   "views": 5845
+  },
+  "metrics_captured_at": "2026-11-09T01:36:52Z",
+  "external_links": [],
+  "quoted": null,
+  "cluster_id": null,
+  "also_reported": [],
+  "thread_parts": [],
+  "freshness": 100.0,
+  "added_via": null
+ }
+]
